@@ -174,6 +174,9 @@ def getGameData(gameId):
     gameResponse = requests.get(gameUrl, headers=gameHeaders)
     data = gameResponse.json()
 
+    with open('PointsBetGame'+gameId+'.json', 'w') as f:
+        json.dump(data, f, indent=4)
+
     homeAwayTeams = data['awayTeam'] + \
         '(away)' + ' vs ' + data['homeTeam'] + '(home)'
 
@@ -344,9 +347,64 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
                     designation.append(' ')
 
     frames = []
+    urls = []
+    timer = time.time()
 
     for x in games:
-        frames.append(getGameData(x))
+        urls.append('https://api.on.pointsbet.com/api/mes/v3/events/'+x)
+        gameHeaders = {
+            "authority": "api.on.pointsbet.com",
+            "method": "GET",
+            "path": "/api/mes/v3/events/"+x,
+            "scheme": "https",
+            "Accept": "application/json, text/plain, /",
+            "Accept-Encoding": "gzip, deflate, br, zstd",
+            "Accept-Language": "en-US,en;q=0.9",
+            #"If-Modified-Since": "Fri, 24 May 2024 17:13:09 GMT",
+            "Origin": "https://on.pointsbet.ca/",
+            "Priority": "u=1, i",
+            "Referer": "https://on.pointsbet.ca/",
+            "Request-Id": "|36c6c128c94f46ffa4f43c87f09fa6b2.888d033e0e04443f",
+            "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+            "Sec-Ch-Ua-Mobile": "?1",
+            "Sec-Ch-Ua-Platform": '"Android"',
+            "Sec-Fetch-Dest": "empty",
+            "Sec-Fetch-Mode": "cors",
+            "Sec-Fetch-Site": "cross-site",
+            "Traceparent": "00-36c6c128c94f46ffa4f43c87f09fa6b2-888d033e0e04443f-01",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+        }
+
+    rs = (grequests.get(u, headers=gameHeaders) for u in urls)
+    rs = grequests.map(rs)
+
+    print(time.time()-timer)
+
+    for x in rs:
+        data = x.json()
+        homeAwayTeams = data['awayTeam'] + \
+            '(away)' + ' vs ' + data['homeTeam'] + '(home)'
+        markets = data['fixedOddsMarkets']
+        if data['competitionName'] == 'National Hockey League':
+            sport = 'NHL'
+        else:
+            sport = data['competitionName']
+        for market in markets:
+            for prop in market['outcomes']:
+                teams.append(homeAwayTeams)
+                category.append(market['eventClass'])
+                league.append(sport)
+                side.append(prop['side'])
+                points.append(prop['points'])
+                odds.append(prop['price'])
+                unit.append(prop['unitType'])
+                if 'Over' in prop['name']:
+                    designation.append('over')
+                elif 'Under' in prop['name']:
+                    designation.append('under')
+                else:
+                    designation.append('')
+                names.append(prop['name'])
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation, 
                        'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'Units': unit})
@@ -402,6 +460,10 @@ class MyCmd(cmd.Cmd):
         """Call the csvDump function"""
         csvDump(self.data, self.league)
 
+    def do_get_game_data(self, arg):
+        """Call the getGameData function"""
+        getGameData(self.gameId)
+
     def do_game_dump(self, arg):
         """Call the gameDump function"""
         gameId = self.gameId
@@ -413,7 +475,14 @@ class MyCmd(cmd.Cmd):
 
     def do_giga_dump(self, arg):
         """Call the gigaDump function"""
-        gigaDump(getDataMlb(), getDataNba(), getDataNhl(), getDataNfl())
+        x = time.time()
+        mlb = getDataMlb()
+        nba = getDataNba()
+        nhl = getDataNhl()
+        nfl = getDataNfl()
+        print(time.time()-x)
+        gigaDump(mlb, nba, nhl, nfl)
+        print(time.time()-x)
 
     
     def do_exit(self, arg):
