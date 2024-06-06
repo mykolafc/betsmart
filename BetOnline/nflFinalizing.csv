@@ -1,0 +1,247 @@
+,Name,GameId,teams,League,Designation,Side,Point,Odds,Category,Units,dec_odds,PlayName
+0,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,,away,4.0,-109,spread,,,
+1,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,,away,,180,moneyline,,,
+2,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,over,away,20.5,-115,team_total,,,
+3,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,under,away,20.5,-115,team_total,,,
+4,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,,home,-4.0,-111,spread,,,
+5,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,,home,,-210,moneyline,,,
+6,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,over,home,24.5,-115,team_total,,,
+7,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,under,home,24.5,-115,team_total,,,
+8,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,over,,46.0,-110,total,,,
+9,Game,490273085,new orleans saints(away) vs los angeles rams(home),NFL,under,,46.0,-110,total,,,
+10,1st Half,490273085,new orleans saints(away) vs los angeles rams(home),NFL,,away,2.5,100,spread,,,
+14,1st Half,490273085,new orleans saints(away) vs los angeles rams(home),NFL,,home,-2.5,-120,spread,,,
+18,1st Half,490273085,new orleans saints(away) vs los angeles rams(home),NFL,over,,21.5,-125,total,,,
+19,1st Half,490273085,new orleans saints(away) vs los angeles rams(home),NFL,under,,21.5,105,total,,,
+0,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,20.5,-105,Player Props,Carries,1.95,Kyren Williams
+1,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,20.5,-123,Player Props,Carries,1.81,Kyren Williams
+2,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,35.5,-114,Player Props,Pass Attempts,1.88,Matthew Stafford
+3,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,35.5,-114,Player Props,Pass Attempts,1.88,Matthew Stafford
+4,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,21.5,-119,Player Props,Pass Completions,1.84,Matthew Stafford
+5,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,21.5,-109,Player Props,Pass Completions,1.92,Matthew Stafford
+6,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,-118,Player Props,Pass Interceptions,1.85,Matthew Stafford
+7,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,0.5,-110,Player Props,Pass Interceptions,1.91,Matthew Stafford
+8,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,-135,Player Props,Passing TDs,1.74,Matthew Stafford
+9,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,1.5,104,Player Props,Passing TDs,2.04,Matthew Stafford
+10,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,136,Player Props,Passing TDs,2.36,Derek Carr
+11,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,1.5,-179,Player Props,Passing TDs,1.56,Derek Carr
+12,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,218.5,-114,Player Props,Passing Yards,1.88,Derek Carr
+13,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,218.5,-114,Player Props,Passing Yards,1.88,Derek Carr
+14,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,247.5,-112,Player Props,Passing Yards,1.89,Matthew Stafford
+15,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,247.5,-115,Player Props,Passing Yards,1.87,Matthew Stafford
+16,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,29.5,-114,Player Props,Receiving Yards,1.88,Tyler Higbee
+17,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,29.5,-114,Player Props,Receiving Yards,1.88,Tyler Higbee
+18,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,29.5,-114,Player Props,Receiving Yards,1.88,Alvin Kamara
+19,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,29.5,-114,Player Props,Receiving Yards,1.88,Alvin Kamara
+20,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,20.5,-114,Player Props,Receiving Yards,1.88,Kyren Williams
+21,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,20.5,-114,Player Props,Receiving Yards,1.88,Kyren Williams
+22,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,65.5,-114,Player Props,Receiving Yards,1.88,Puka Nacua
+23,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,65.5,-114,Player Props,Receiving Yards,1.88,Puka Nacua
+24,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,73.5,-114,Player Props,Receiving Yards,1.88,Cooper Kupp
+25,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,73.5,-114,Player Props,Receiving Yards,1.88,Cooper Kupp
+26,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,103,Player Props,Rushing Yards,2.03,Matthew Stafford
+27,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,0.5,-133,Player Props,Rushing Yards,1.75,Matthew Stafford
+28,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,49.5,-116,Player Props,Rushing Yards,1.86,Alvin Kamara
+29,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,49.5,-111,Player Props,Rushing Yards,1.9,Alvin Kamara
+30,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,88.5,-120,Player Props,Rushing Yards,1.83,Kyren Williams
+31,,187083,new orleans saints(away) vs los angeles rams(home),NFL,under,,88.5,-108,Player Props,Rushing Yards,1.93,Kyren Williams
+32,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,18.5,-175,Player Props,Carries,1.57,Kyren Williams
+33,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,24.5,221,Player Props,Carries,3.21,Kyren Williams
+34,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,25.5,274,Player Props,Carries,3.74,Kyren Williams
+35,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,19.5,-135,Player Props,Carries,1.74,Kyren Williams
+36,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,23.5,178,Player Props,Carries,2.78,Kyren Williams
+37,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,22.5,144,Player Props,Carries,2.44,Kyren Williams
+38,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,26.5,342,Player Props,Carries,4.42,Kyren Williams
+39,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,21.5,117,Player Props,Carries,2.17,Kyren Williams
+40,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,20.5,-105,Player Props,Carries,1.95,Kyren Williams
+41,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,41.5,230,Player Props,Pass Attempts,3.3,Matthew Stafford
+42,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,35.5,-114,Player Props,Pass Attempts,1.88,Matthew Stafford
+43,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,39.5,167,Player Props,Pass Attempts,2.67,Matthew Stafford
+44,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,38.5,142,Player Props,Pass Attempts,2.42,Matthew Stafford
+45,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,40.5,196,Player Props,Pass Attempts,2.96,Matthew Stafford
+46,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,34.5,-139,Player Props,Pass Attempts,1.72,Matthew Stafford
+47,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,36.5,103,Player Props,Pass Attempts,2.03,Matthew Stafford
+48,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,37.5,121,Player Props,Pass Attempts,2.21,Matthew Stafford
+49,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,33.5,-169,Player Props,Pass Attempts,1.59,Matthew Stafford
+50,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,26.5,248,Player Props,Pass Completions,3.48,Matthew Stafford
+51,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,25.5,200,Player Props,Pass Completions,3.0,Matthew Stafford
+52,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,23.5,130,Player Props,Pass Completions,2.3,Matthew Stafford
+53,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,24.5,161,Player Props,Pass Completions,2.61,Matthew Stafford
+54,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,19.5,-213,Player Props,Pass Completions,1.47,Matthew Stafford
+55,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,27.5,309,Player Props,Pass Completions,4.09,Matthew Stafford
+56,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,22.5,105,Player Props,Pass Completions,2.05,Matthew Stafford
+57,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,20.5,-159,Player Props,Pass Completions,1.63,Matthew Stafford
+58,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,21.5,-119,Player Props,Pass Completions,1.84,Matthew Stafford
+59,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,-118,Player Props,Pass Interceptions,1.85,Matthew Stafford
+60,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,450,Player Props,Pass Interceptions,5.5,Matthew Stafford
+61,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,1500,Player Props,Pass Interceptions,16.0,Matthew Stafford
+62,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,-135,Player Props,Passing TDs,1.74,Matthew Stafford
+63,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,-1000,Player Props,Passing TDs,1.1,Matthew Stafford
+64,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,211,Player Props,Passing TDs,3.11,Matthew Stafford
+65,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,4.5,1585,Player Props,Passing TDs,16.85,Matthew Stafford
+66,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,3.5,572,Player Props,Passing TDs,6.72,Matthew Stafford
+67,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,327,Player Props,Passing TDs,4.27,Derek Carr
+68,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,3.5,877,Player Props,Passing TDs,9.77,Derek Carr
+69,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,-312,Player Props,Passing TDs,1.32,Derek Carr
+70,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,4.5,2389,Player Props,Passing TDs,24.89,Derek Carr
+71,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,136,Player Props,Passing TDs,2.36,Derek Carr
+72,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,307.5,318,Player Props,Passing Yards,4.18,Matthew Stafford
+73,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,247.5,-112,Player Props,Passing Yards,1.89,Matthew Stafford
+74,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,257.5,110,Player Props,Passing Yards,2.1,Matthew Stafford
+75,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,277.5,167,Player Props,Passing Yards,2.67,Matthew Stafford
+76,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,287.5,207,Player Props,Passing Yards,3.07,Matthew Stafford
+77,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,297.5,256,Player Props,Passing Yards,3.56,Matthew Stafford
+78,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,317.5,396,Player Props,Passing Yards,4.96,Matthew Stafford
+79,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,267.5,136,Player Props,Passing Yards,2.36,Matthew Stafford
+80,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,327.5,497,Player Props,Passing Yards,5.97,Matthew Stafford
+81,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,237.5,-145,Player Props,Passing Yards,1.69,Matthew Stafford
+82,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,218.5,-114,Player Props,Passing Yards,1.88,Derek Carr
+83,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,248.5,148,Player Props,Passing Yards,2.48,Derek Carr
+84,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,208.5,-141,Player Props,Passing Yards,1.71,Derek Carr
+85,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,298.5,354,Player Props,Passing Yards,4.54,Derek Carr
+86,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,258.5,175,Player Props,Passing Yards,2.75,Derek Carr
+87,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,278.5,248,Player Props,Passing Yards,3.48,Derek Carr
+88,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,268.5,208,Player Props,Passing Yards,3.08,Derek Carr
+89,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,288.5,296,Player Props,Passing Yards,3.96,Derek Carr
+90,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,238.5,124,Player Props,Passing Yards,2.24,Derek Carr
+91,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,228.5,105,Player Props,Passing Yards,2.05,Derek Carr
+92,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,29.5,-114,Player Props,Receiving Yards,1.88,Tyler Higbee
+93,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,79.5,845,Player Props,Receiving Yards,9.45,Tyler Higbee
+94,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,69.5,519,Player Props,Receiving Yards,6.19,Tyler Higbee
+95,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,99.5,2488,Player Props,Receiving Yards,25.88,Tyler Higbee
+96,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,89.5,1422,Player Props,Receiving Yards,15.22,Tyler Higbee
+97,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,39.5,136,Player Props,Receiving Yards,2.36,Tyler Higbee
+98,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,59.5,327,Player Props,Receiving Yards,4.27,Tyler Higbee
+99,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,49.5,210,Player Props,Receiving Yards,3.1,Tyler Higbee
+100,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,19.5,-217,Player Props,Receiving Yards,1.46,Tyler Higbee
+101,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,49.5,210,Player Props,Receiving Yards,3.1,Alvin Kamara
+102,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,19.5,-217,Player Props,Receiving Yards,1.46,Alvin Kamara
+103,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,59.5,327,Player Props,Receiving Yards,4.27,Alvin Kamara
+104,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,79.5,845,Player Props,Receiving Yards,9.45,Alvin Kamara
+105,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,99.5,2488,Player Props,Receiving Yards,25.88,Alvin Kamara
+106,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,89.5,1422,Player Props,Receiving Yards,15.22,Alvin Kamara
+107,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,29.5,-114,Player Props,Receiving Yards,1.88,Alvin Kamara
+108,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,69.5,519,Player Props,Receiving Yards,6.19,Alvin Kamara
+109,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,39.5,136,Player Props,Receiving Yards,2.36,Alvin Kamara
+110,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,10.5,-263,Player Props,Receiving Yards,1.38,Kyren Williams
+111,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,80.5,2442,Player Props,Receiving Yards,25.42,Kyren Williams
+112,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,60.5,709,Player Props,Receiving Yards,8.09,Kyren Williams
+113,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,20.5,-114,Player Props,Receiving Yards,1.88,Kyren Williams
+114,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,30.5,146,Player Props,Receiving Yards,2.46,Kyren Williams
+115,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,70.5,1283,Player Props,Receiving Yards,13.83,Kyren Williams
+116,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,50.5,408,Player Props,Receiving Yards,5.08,Kyren Williams
+117,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,40.5,242,Player Props,Receiving Yards,3.42,Kyren Williams
+118,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,83.5,113,Player Props,Receiving Yards,2.13,Cooper Kupp
+119,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,93.5,146,Player Props,Receiving Yards,2.46,Cooper Kupp
+120,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,123.5,313,Player Props,Receiving Yards,4.13,Cooper Kupp
+121,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,143.5,534,Player Props,Receiving Yards,6.34,Cooper Kupp
+122,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,73.5,-114,Player Props,Receiving Yards,1.88,Cooper Kupp
+123,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,133.5,407,Player Props,Receiving Yards,5.07,Cooper Kupp
+124,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,63.5,-164,Player Props,Receiving Yards,1.61,Cooper Kupp
+125,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,103.5,187,Player Props,Receiving Yards,2.87,Cooper Kupp
+126,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,113.5,242,Player Props,Receiving Yards,3.42,Cooper Kupp
+127,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,105.5,272,Player Props,Receiving Yards,3.72,Puka Nacua
+128,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,65.5,-114,Player Props,Receiving Yards,1.88,Puka Nacua
+129,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,85.5,154,Player Props,Receiving Yards,2.54,Puka Nacua
+130,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,125.5,490,Player Props,Receiving Yards,5.9,Puka Nacua
+131,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,75.5,117,Player Props,Receiving Yards,2.17,Puka Nacua
+132,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,115.5,363,Player Props,Receiving Yards,4.63,Puka Nacua
+133,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,95.5,204,Player Props,Receiving Yards,3.04,Puka Nacua
+134,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,135.5,668,Player Props,Receiving Yards,7.68,Puka Nacua
+135,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,55.5,-172,Player Props,Receiving Yards,1.58,Puka Nacua
+136,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,59.5,127,Player Props,Rushing Yards,2.27,Alvin Kamara
+137,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,49.5,-116,Player Props,Rushing Yards,1.86,Alvin Kamara
+138,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,99.5,610,Player Props,Rushing Yards,7.1,Alvin Kamara
+139,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,69.5,185,Player Props,Rushing Yards,2.85,Alvin Kamara
+140,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,39.5,-200,Player Props,Rushing Yards,1.5,Alvin Kamara
+141,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,89.5,404,Player Props,Rushing Yards,5.04,Alvin Kamara
+142,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,79.5,272,Player Props,Rushing Yards,3.72,Alvin Kamara
+143,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,109.5,943,Player Props,Rushing Yards,10.43,Alvin Kamara
+144,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,20.5,2617,Player Props,Rushing Yards,27.17,Matthew Stafford
+145,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,10.5,451,Player Props,Rushing Yards,5.51,Matthew Stafford
+146,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,108.5,141,Player Props,Rushing Yards,2.41,Kyren Williams
+147,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,88.5,-120,Player Props,Rushing Yards,1.83,Kyren Williams
+148,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,138.5,308,Player Props,Rushing Yards,4.08,Kyren Williams
+149,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,118.5,182,Player Props,Rushing Yards,2.82,Kyren Williams
+150,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,78.5,-172,Player Props,Rushing Yards,1.58,Kyren Williams
+151,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,98.5,109,Player Props,Rushing Yards,2.09,Kyren Williams
+152,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,128.5,236,Player Props,Rushing Yards,3.36,Kyren Williams
+153,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,148.5,403,Player Props,Rushing Yards,5.03,Kyren Williams
+154,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,130,Player Props,Touchdowns,2.3,Cooper Kupp
+155,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,650,Player Props,Touchdowns,7.5,Cooper Kupp
+156,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,4400,Player Props,Touchdowns,45.0,Cooper Kupp
+157,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,190,Player Props,Touchdowns,2.9,Taysom Hill
+158,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,7900,Player Props,Touchdowns,80.0,Taysom Hill
+159,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,1100,Player Props,Touchdowns,12.0,Taysom Hill
+160,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,11000,Player Props,Touchdowns,111.0,Tyler Higbee
+161,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,290,Player Props,Touchdowns,3.9,Tyler Higbee
+162,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,2300,Player Props,Touchdowns,24.0,Tyler Higbee
+163,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,2400,Player Props,Touchdowns,25.0,Alvin Kamara
+164,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,450,Player Props,Touchdowns,5.5,Alvin Kamara
+165,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,-111,Player Props,Touchdowns,1.9,Alvin Kamara
+166,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,450,Player Props,Touchdowns,5.5,Juwan Johnson
+167,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,3600,Player Props,Touchdowns,37.0,Juwan Johnson
+168,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,17500,Player Props,Touchdowns,176.0,Juwan Johnson
+169,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,2600,Player Props,Touchdowns,27.0,Tutu Atwell
+170,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,325,Player Props,Touchdowns,4.25,Tutu Atwell
+171,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,12000,Player Props,Touchdowns,121.0,Tutu Atwell
+172,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,550,Player Props,Touchdowns,6.5,Jimmy Graham
+173,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,4400,Player Props,Touchdowns,45.0,Jimmy Graham
+174,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,Jimmy Graham
+175,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,5900,Player Props,Touchdowns,60.0,Matthew Stafford
+176,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,700,Player Props,Touchdowns,8.0,Matthew Stafford
+177,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,Matthew Stafford
+178,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,10000,Player Props,Touchdowns,101.0,Brycen Hopkins
+179,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,30000,Player Props,Touchdowns,301.0,Brycen Hopkins
+180,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,1400,Player Props,Touchdowns,15.0,Brycen Hopkins
+181,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,8400,Player Props,Touchdowns,85.0,Ben Skowronek
+182,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,1000,Player Props,Touchdowns,11.0,Ben Skowronek
+183,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,Ben Skowronek
+184,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,4400,Player Props,Touchdowns,45.0,A.T. Perry
+185,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,550,Player Props,Touchdowns,6.5,A.T. Perry
+186,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,A.T. Perry
+187,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,-250,Player Props,Touchdowns,1.4,Kyren Williams
+188,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,1100,Player Props,Touchdowns,12.0,Kyren Williams
+189,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,200,Player Props,Touchdowns,3.0,Kyren Williams
+190,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,Foster Moreau
+191,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,5900,Player Props,Touchdowns,60.0,Foster Moreau
+192,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,700,Player Props,Touchdowns,8.0,Foster Moreau
+193,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,400,Player Props,Touchdowns,5.0,Jamaal Williams
+194,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,15000,Player Props,Touchdowns,151.0,Jamaal Williams
+195,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,3400,Player Props,Touchdowns,35.0,Jamaal Williams
+196,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,9400,Player Props,Touchdowns,95.0,Chris Olave
+197,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,1400,Player Props,Touchdowns,15.0,Chris Olave
+198,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,220,Player Props,Touchdowns,3.2,Chris Olave
+199,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,6900,Player Props,Touchdowns,70.0,Derek Carr
+200,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,800,Player Props,Touchdowns,9.0,Derek Carr
+201,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,Derek Carr
+202,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,6400,Player Props,Touchdowns,65.0,Keith Kirkwood
+203,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,750,Player Props,Touchdowns,8.5,Keith Kirkwood
+204,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,Keith Kirkwood
+205,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,2400,Player Props,Touchdowns,25.0,Adam Prentice
+206,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,30000,Player Props,Touchdowns,301.0,Adam Prentice
+207,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,13000,Player Props,Touchdowns,131.0,Adam Prentice
+208,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,1400,Player Props,Touchdowns,15.0,Austin Trammell
+209,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,30000,Player Props,Touchdowns,301.0,Austin Trammell
+210,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,10000,Player Props,Touchdowns,101.0,Austin Trammell
+211,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,2300,Player Props,Touchdowns,24.0,Demarcus Robinson
+212,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,11000,Player Props,Touchdowns,111.0,Demarcus Robinson
+213,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,290,Player Props,Touchdowns,3.9,Demarcus Robinson
+214,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,12000,Player Props,Touchdowns,121.0,Rashid Shaheed
+215,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,2600,Player Props,Touchdowns,27.0,Rashid Shaheed
+216,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,325,Player Props,Touchdowns,4.25,Rashid Shaheed
+217,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,Davis Allen
+218,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,6900,Player Props,Touchdowns,70.0,Davis Allen
+219,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,800,Player Props,Touchdowns,9.0,Davis Allen
+220,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,550,Player Props,Touchdowns,6.5,Lynn Bowden Jr.
+221,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,20000,Player Props,Touchdowns,201.0,Lynn Bowden Jr.
+222,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,4400,Player Props,Touchdowns,45.0,Lynn Bowden Jr.
+223,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,700,Player Props,Touchdowns,8.0,Puka Nacua
+224,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,5400,Player Props,Touchdowns,55.0,Puka Nacua
+225,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,140,Player Props,Touchdowns,2.4,Puka Nacua
+226,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,450,Player Props,Touchdowns,5.5,Royce Freeman
+227,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,3600,Player Props,Touchdowns,37.0,Royce Freeman
+228,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,17500,Player Props,Touchdowns,176.0,Royce Freeman
+229,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,0.5,1900,Player Props,Touchdowns,20.0,Zach Evans
+230,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,2.5,30000,Player Props,Touchdowns,301.0,Zach Evans
+231,,187083,new orleans saints(away) vs los angeles rams(home),NFL,over,,1.5,12000,Player Props,Touchdowns,121.0,Zach Evans
