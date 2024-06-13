@@ -11,3 +11,6 @@ Reading and understanding json data
 
 ## Week 4:
 Storing data efficiently in .csv
+
+## Week 5:
+Created Keys to minimize stored data
