@@ -150,7 +150,9 @@ def listGameIds(data):
         print(x['key']+ ' ' + x['name'])
 
 def decimal_to_american(decimal_odds):
-    if decimal_odds >= 2.0:
+    if decimal_odds == 1.0:
+        american_odds = 0
+    elif decimal_odds >= 2.0:
         american_odds = (decimal_odds - 1) * 100
     else:
         american_odds = -100 / (decimal_odds - 1)
@@ -297,6 +299,55 @@ def csvDump(data, league):
                        'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'Units': unit})
     df.to_csv('PointsBet'+league+'.csv', index=False)
 
+def makeKey(unit, points):
+    switcher = {
+        #NBA switches
+        "Alternate Assists": f"pp;0;ou;asst;{points}",
+        "Player Assists Over/Under": f"pp;0;ou;asst;{points}",
+        "Alternate Points": f"pp;0;ou;pts;{points}",
+        "Player Points Over/Under": f"pp;0;ou;pts;{points}",
+        "Player 3-Pointers Made": f"pp;0;ou;3pt;{points}",
+        "Alternate Threes": f"pp;0;ou;3pt;{points}",
+        "Player Rebounds Over/Under": f"pp;0;ou;reb;{points}",
+        "Alternate Rebounds": f"pp;0;ou;reb;{points}",
+        "Player Pts + Rebs + Asts Over/Under": f"pp;0;ou;pra;{points}",
+        "Player To Record A Double Double": f"pp;0;ou;dbldbl;{points}",
+        "Player To Record A Triple Double": f"pp;0;ou;trpldbl;{points}",
+
+        #MLB switches
+        "Player home runs OF": "pp;0;ou;hr;{points}",
+        "Alternate Pitcher Strikeouts": "pp;0;ou;so;{points}",
+        "Player hits OF": "pp;0;ou;hit;{points}",
+        "Player runs batted in OF": "pp;0;ou;rbi;{points}",
+        "Player stolen bases OF": "pp;0;ou;sb;{points}",
+        "Pitcher strikeouts OF": "pp;0;ou;so;{points}",
+        "Alternate Runs Batted In": "pp;0;ou;rbi;{points}",
+        "Alternate Hits": "pp;0;ou;hit;{points}",
+        "Player Total Bases": "pp;0;ou;tb;{points}",
+
+        #NHL switches
+        re.compile(r'^Away Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
+        re.compile(r'^Away Player [A-Z] Assists Over/Under$'): f"pp;0;ou;asst;{points}",
+        re.compile(r'^Home Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
+        re.compile(r'^Home Player [A-Z] Assists Over/Under$'): f"pp;0;ou;asst;{points}",
+        "Home Goalie Saves Over/Under": f"pp;0;ou;saves;{points}",
+        "Away Goalie Saves Over/Under": f"pp;0;ou;saves;{points}",
+        "Home Goalie Shutout Over/Under": f"pp;0;ou;sho;{points}",
+        "Away Goalie Shutout Over/Under": f"pp;0;ou;sho;{points}",
+
+    }
+
+    # Return the result based on the unit
+    return switcher.get(unit, None)
+
+def match_variable_event_class(event_class, patterns):
+    for pattern in patterns:
+        # Replace ? with a regex pattern that matches any letter
+        regex_pattern = re.sub(r'\?', r'[A-Za-z]', pattern)
+        if re.fullmatch(regex_pattern, event_class):
+            return True
+    return False
+
 def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
     
     gamePropsEventsMLB = ['Moneyline OF', 'Run Line', 'Total Runs OF',
@@ -320,8 +371,9 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
     gamePropsEventsNHL = ['Puck Line', 'Total OF', 'Money Line OF']
 
     playerPropOUEventsVariableNHL = [
-        'Away Player ? Points Over/Under', 'Away Player ? Assists Over/Under', 'Home Goalie Saves Over/Under', 'Away Goalie Saves Over/Under',
-        'Home Goalie Shutout Over/Under', 'Away Goalie Shutout Over/Under']
+        'Away Player ? Points Over/Under', 'Away Player ? Assists Over/Under', 'Home Goalie Saves Over/Under', 
+        'Away Goalie Saves Over/Under', 'Home Goalie Shutout Over/Under', 'Away Goalie Shutout Over/Under', 
+        'Home Player ? Points Over/Under', 'Home Player ? Assists Over/Under']
 
     gamePropsEvents = gamePropsEventsMLB + gamePropsEventsNBA + gamePropsEventsNHL
     playerPropOUEvents = playerPropOUEventsMLB + \
@@ -333,12 +385,13 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
     teams = []
     points = []
     odds = []
+    americanOdds = []
     side = []
     category = []
     names = []
     designation = []
-    unit = []
     games = []
+    keys = []
 
     for x in dataMlb['events']:
         games.append(x['key'])
@@ -396,6 +449,7 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
         else:
             sport = data['competitionName']
         for market in markets:
+            key = ' '
             if (market['eventClass'] in gamePropsEvents or 
                 market['eventClass'] in playerPropOUEvents or 
                 market['eventClass'] in playerPropAtleastEvents or 
@@ -407,8 +461,9 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
                     side.append(prop['side'])
                     points.append(prop['points'])
                     odds.append(prop['price'])
-                    unit.append(prop['unitType'])
-                    if 'Over' in prop['name']:
+                    americanOdds.append(decimal_to_american(prop['price']))
+                    keys.append(makeKey(market['eventClass'], prop['points']))
+                    if 'Over' in prop['name'] or 'Alternate' in prop['groupByHeader']:
                         designation.append('over')
                     elif 'Under' in prop['name']:
                         designation.append('under')
@@ -417,12 +472,33 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
                     if ('Player' in market['groupName'] or
                         'Goalie' in market['groupName'] or 
                         'Alternate' in market['groupName']):
-                        names.append(re.split(r'(\d+| To | Over | Under | \( )', prop['name'], 1)[0].strip())
+                        playerName = re.split(r'(\d+| To | Over | Under | \( )', prop['name'], 1)[0].strip()
+                        nsplit = playerName.split()
+                        names.append(nsplit[0][0] + '. ' + nsplit[1])
                     else:
                         names.append(prop['name'])
+            if (match_variable_event_class(market['eventClass'], playerPropOUEventsVariableNHL)):
+                for prop in market['outcomes']:
+                    teams.append(homeAwayTeams)
+                    category.append(market['eventClass'])
+                    league.append(sport)
+                    side.append('')
+                    odds.append(prop['price'])
+                    americanOdds.append(decimal_to_american(prop['price']))
+                    keys.append(makeKey(market['eventClass'], prop['points']))
+                    if 'Over' in prop['name']:
+                        designation.append('over')
+                        names.append(prop['name'].split('Over')[0].strip())
+                        points.append(float(prop['name'].split('Over')[1].strip()))
+                    elif 'Under' in prop['name']:
+                        designation.append('under')
+                        names.append(prop['name'].split('Under')[0].strip())
+                        points.append(float(prop['name'].split('Under')[1].strip()))
+
+    print(len(teams), len(category), len(league), len(side), len(names), len(points), len(odds), len(americanOdds), len(keys))
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation, 
-                       'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'Units': unit})
+                       'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'American Odds': americanOdds, 'key': keys})
     
     frames.append(df)
 
