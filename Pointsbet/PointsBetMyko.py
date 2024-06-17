@@ -498,7 +498,7 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
     print(len(teams), len(category), len(league), len(side), len(names), len(points), len(odds), len(americanOdds), len(keys))
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation, 
-                       'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'American Odds': americanOdds, 'key': keys})
+                       'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'American Odds': americanOdds, 'Key': keys})
     
     frames.append(df)
 
@@ -509,7 +509,7 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
 class MyCmd(cmd.Cmd):
     prompt = '> '
 
-    def __init__(self):
+    def __init__(self):    #initalize console with default values set to MLB
         super(MyCmd, self).__init__()
         self.data = getDataMlb()
         self.gameId = getGameId(self.data)
