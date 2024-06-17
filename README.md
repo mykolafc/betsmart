@@ -14,6 +14,7 @@ Storing data efficiently in .csv
 
 ## Week 5:
 Created Keys to minimize stored data
+
 New objective : Data Cleaning (for player names)
 
 ## Week 6:
