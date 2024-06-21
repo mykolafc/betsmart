@@ -302,27 +302,27 @@ def csvDump(data, league):
 def makeKey(unit, points):
     switcher = {
         #NBA switches
-        "Alternate Assists": f"pp;0;ou;asst;{points}",
+        "Alternate Assists": f"pp;0;ss;asst;{points}",
         "Player Assists Over/Under": f"pp;0;ou;asst;{points}",
-        "Alternate Points": f"pp;0;ou;pts;{points}",
+        "Alternate Points": f"pp;0;ss;pts;{points}",
         "Player Points Over/Under": f"pp;0;ou;pts;{points}",
         "Player 3-Pointers Made": f"pp;0;ou;3pt;{points}",
-        "Alternate Threes": f"pp;0;ou;3pt;{points}",
+        "Alternate Threes": f"pp;0;ss;3pt;{points}",
         "Player Rebounds Over/Under": f"pp;0;ou;reb;{points}",
-        "Alternate Rebounds": f"pp;0;ou;reb;{points}",
+        "Alternate Rebounds": f"pp;0;ss;reb;{points}",
         "Player Pts + Rebs + Asts Over/Under": f"pp;0;ou;pra;{points}",
         "Player To Record A Double Double": f"pp;0;ou;dbldbl;{points}",
         "Player To Record A Triple Double": f"pp;0;ou;trpldbl;{points}",
 
         #MLB switches
         "Player home runs OF": "pp;0;ou;hr;{points}",
-        "Alternate Pitcher Strikeouts": "pp;0;ou;so;{points}",
+        "Alternate Pitcher Strikeouts": "pp;0;ss;so;{points}",
         "Player hits OF": "pp;0;ou;hit;{points}",
         "Player runs batted in OF": "pp;0;ou;rbi;{points}",
         "Player stolen bases OF": "pp;0;ou;sb;{points}",
         "Pitcher strikeouts OF": "pp;0;ou;so;{points}",
-        "Alternate Runs Batted In": "pp;0;ou;rbi;{points}",
-        "Alternate Hits": "pp;0;ou;hit;{points}",
+        "Alternate Runs Batted In": "pp;0;ss;rbi;{points}",
+        "Alternate Hits": "pp;0;ss;hit;{points}",
         "Player Total Bases": "pp;0;ou;tb;{points}",
 
         #NHL switches
