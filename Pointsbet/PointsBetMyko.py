@@ -12,6 +12,7 @@ from datetime import datetime
 from email.utils import formatdate
 import cmd
 import re
+import git
 
 def getDataNba():
     url = "https://api.on.pointsbet.com/api/v2/competitions/105/events/featured?includeLive=false&page=1"
@@ -504,7 +505,8 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
 
     df = pd.concat(frames)
 
-    df.to_csv('PointsBetGigaDump.csv', index=False)
+    dir = git.Repo('.', search_parent_directories=True).working_tree_dir
+    df.to_csv(str(dir) + '/bin/PointsBetGigaDump.csv', index=False)
 
 class MyCmd(cmd.Cmd):
     prompt = '> '
