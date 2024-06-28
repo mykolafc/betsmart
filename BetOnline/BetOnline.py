@@ -18,10 +18,13 @@ import numpy as np
 
 # Doing Grequests for post requests since for some reason Asyncio seems to not work with payloads
 def fetchGrequests(url, headers, payloads):
+    start = time.time()
     unsentRequests = [grequests.post(
         url, headers=headers, json=payload) for payload in payloads]
     responses = grequests.map(unsentRequests)
     jsonResponses = [response.json() for response in responses]
+    end = time.time()
+    print(f'G Requests took {(end-start)} seconds')
     return jsonResponses
 
 
@@ -44,6 +47,7 @@ async def propsJsonAsyncio(urls):
     # Also making sure that json returned data
     data = [json.loads(item[1:-1]) for item in respA if item != '[]']
     return data
+# Find a way to do this with grequests to make sure asyncio is faster
 
 
 # Threading both async requests so it can be best for time efficiency
@@ -111,13 +115,12 @@ def getGeneralGameIDs(days=2):
                             "ScheduleText": None, "Period": -1}
     requestPayloadBasket = {"Sport": "basketball", "League": "nba",
                             "ScheduleText": None, "Period": -1}
-    # I don't think theres gonna be baseball for a while
     requestPayloadBaseball = {"Sport": "baseball", "League": "mlb",
                               "ScheduleText": None, "Period": -1}
     # Soccer is different but below is the one for the premier league
     # requestPayload = {"Sport": "soccer", "League": "epl", "ScheduleText": "english-premier-league", "Period": -1}
     payloads = [requestPayloadFootball,
-                requestPayloadBasket, requestPayloadHockey]
+                requestPayloadBasket, requestPayloadHockey, requestPayloadBaseball]
     start = time.time()
     unsentRequests = [grequests.post(
         url, headers=headers, json=payload) for payload in payloads]
@@ -135,6 +138,9 @@ def getGeneralGameIDs(days=2):
     gameIdsByLeague = dict()
     game_Ids = []
     for gamesByLeague in data:
+        gameOffering = gamesByLeague.get('GameOffering')
+        if gameOffering is None:
+            continue
         league = gamesByLeague['GameOffering']['League']
         gamesData = gamesByLeague['GameOffering']['GamesDescription']
         game_IdsByLeague = []
@@ -258,7 +264,18 @@ def makePayloads(gameIdsBySport):
                 "League": "nhl",
                 "ScheduleText": None
             })
-    payloads = nflPayloads + nbaPayloads + nhlPayloads
+    # BASEBALL
+    mlbGameIds = gameIdsBySport.get('MLB')
+    mlbPayloads = []
+    if mlbGameIds != None:
+        for game_Id in mlbGameIds:
+            mlbPayloads.append({
+                "GameID": game_Id,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": None
+            })
+    payloads = nflPayloads + nbaPayloads + nhlPayloads + mlbPayloads
     return payloads
 
 
@@ -273,7 +290,9 @@ def manipulationLoop(data):
     designation = []
     side = []
     point = []
+    keys = []
     odds = []
+    dec_odds = []
     category = []
 
     periodEvents = []
@@ -285,7 +304,7 @@ def manipulationLoop(data):
             event['Event']['HomeTeam'].lower() + '(home)'
         league1 = event['Event']['CorrelationId'].split('-')[1].split(' ')[0]
         name1 = event['Name']
-        # Home
+        # Away
         # SpreadLine
         gameId.append(game_Id)
         teams.append(teams1)
@@ -293,8 +312,12 @@ def manipulationLoop(data):
         side.append('away')
         category.append('spread')
         point.append(event['Event']['AwayLine']['SpreadLine']['Point'])
+        keys.append(
+            makeKey('spread', event['Event']['AwayLine']['SpreadLine']['Point'] * -1, name=name1))
         designation.append(None)
         odds.append(event['Event']['AwayLine']['SpreadLine']['Line'])
+        dec_odds.append(americanToDecimal(
+            event['Event']['AwayLine']['SpreadLine']['Line']))
         name.append(name1)
         # MoneyLine
         gameId.append(game_Id)
@@ -303,8 +326,11 @@ def manipulationLoop(data):
         side.append('away')
         category.append('moneyline')
         point.append(None)
+        keys.append(makeKey('moneyline', 0, name=name1))
         designation.append(None)
         odds.append(event['Event']['AwayLine']['MoneyLine']['Line'])
+        dec_odds.append(americanToDecimal(
+            event['Event']['AwayLine']['MoneyLine']['Line']))
         name.append(name1)
         # TeamTotalLine over
         gameId.append(game_Id)
@@ -313,9 +339,13 @@ def manipulationLoop(data):
         side.append('away')
         category.append('team_total')
         point.append(event['Event']['AwayLine']['TeamTotalLine']['Point'])
+        keys.append(
+            makeKey('team_totalaway', event['Event']['AwayLine']['TeamTotalLine']['Point'], name=name1))
         designation.append('over')
         odds.append(event['Event']['AwayLine']
                     ['TeamTotalLine']['Over']['Line'])
+        dec_odds.append(americanToDecimal(event['Event']['AwayLine']
+                        ['TeamTotalLine']['Over']['Line']))
         name.append(name1)
         # TeamTotalLine under
         gameId.append(game_Id)
@@ -324,9 +354,13 @@ def manipulationLoop(data):
         side.append('away')
         category.append('team_total')
         point.append(event['Event']['AwayLine']['TeamTotalLine']['Point'])
+        keys.append(
+            makeKey('team_totalaway', event['Event']['AwayLine']['TeamTotalLine']['Point'], name=name1))
         designation.append('under')
         odds.append(event['Event']['AwayLine']
                     ['TeamTotalLine']['Under']['Line'])
+        dec_odds.append(americanToDecimal(event['Event']['AwayLine']
+                        ['TeamTotalLine']['Under']['Line']))
         name.append(name1)
         # Home
         # SpreadLine
@@ -336,8 +370,12 @@ def manipulationLoop(data):
         side.append('home')
         category.append('spread')
         point.append(event['Event']['HomeLine']['SpreadLine']['Point'])
+        keys.append(
+            makeKey('spread', event['Event']['HomeLine']['SpreadLine']['Point'], name=name1))
         designation.append(None)
         odds.append(event['Event']['HomeLine']['SpreadLine']['Line'])
+        dec_odds.append(americanToDecimal(
+            event['Event']['HomeLine']['SpreadLine']['Line']))
         name.append(name1)
         # MoneyLine
         gameId.append(game_Id)
@@ -346,8 +384,11 @@ def manipulationLoop(data):
         side.append('home')
         category.append('moneyline')
         point.append(None)
+        keys.append(makeKey('moneyline', 0, name=name1))
         designation.append(None)
         odds.append(event['Event']['HomeLine']['MoneyLine']['Line'])
+        dec_odds.append(americanToDecimal(
+            event['Event']['HomeLine']['MoneyLine']['Line']))
         name.append(name1)
         # TeamTotalLine over
         gameId.append(game_Id)
@@ -356,9 +397,13 @@ def manipulationLoop(data):
         side.append('home')
         category.append('team_total')
         point.append(event['Event']['HomeLine']['TeamTotalLine']['Point'])
+        keys.append(makeKey('team_totalhome',
+                    event['Event']['HomeLine']['TeamTotalLine']['Point'], name=name1))
         designation.append('over')
         odds.append(event['Event']['HomeLine']
                     ['TeamTotalLine']['Over']['Line'])
+        dec_odds.append(americanToDecimal(event['Event']['HomeLine']
+                        ['TeamTotalLine']['Over']['Line']))
         name.append(name1)
         # TeamTotalLine under
         gameId.append(game_Id)
@@ -367,9 +412,13 @@ def manipulationLoop(data):
         side.append('home')
         category.append('team_total')
         point.append(event['Event']['HomeLine']['TeamTotalLine']['Point'])
+        keys.append(makeKey('team_totalhome',
+                    event['Event']['HomeLine']['TeamTotalLine']['Point'], name=name1))
         designation.append('under')
         odds.append(event['Event']['HomeLine']
                     ['TeamTotalLine']['Under']['Line'])
+        dec_odds.append(americanToDecimal(event['Event']['HomeLine']
+                        ['TeamTotalLine']['Under']['Line']))
         name.append(name1)
         # TotalLine over
         gameId.append(game_Id)
@@ -378,8 +427,12 @@ def manipulationLoop(data):
         side.append(None)
         category.append('total')
         point.append(event['Event']['TotalLine']['TotalLine']['Point'])
+        keys.append(
+            makeKey('total', event['Event']['TotalLine']['TotalLine']['Point'], name=name1))
         designation.append('over')
         odds.append(event['Event']['TotalLine']['TotalLine']['Over']['Line'])
+        dec_odds.append(americanToDecimal(event['Event']['TotalLine']
+                        ['TotalLine']['Over']['Line']))
         name.append(name1)
         # TotalLine under
         gameId.append(game_Id)
@@ -388,14 +441,18 @@ def manipulationLoop(data):
         side.append(None)
         category.append('total')
         point.append(event['Event']['TotalLine']['TotalLine']['Point'])
+        keys.append(
+            makeKey('total', event['Event']['TotalLine']['TotalLine']['Point'], name=name1))
         designation.append('under')
         odds.append(event['Event']['TotalLine']['TotalLine']['Under']['Line'])
+        dec_odds.append(americanToDecimal(event['Event']['TotalLine']
+                        ['TotalLine']['Under']['Line']))
         name.append(name1)
 
     finalData = {'Name': name, 'GameId': gameId, 'teams': teams, 'League': league, 'Designation': designation,
-                 'Side': side, 'Point': point, 'Odds': odds, 'Category': category}
+                 'Side': side, 'Point': point, 'Key': keys, 'Betonline Odds': odds, 'Betonline dec_odds': dec_odds, 'Category': category}
     df = pd.DataFrame(finalData)
-    df = df[df['Odds'] != 0]
+    df = df[df['Betonline Odds'] != 0]
     end = time.perf_counter()
     totaltime = end - start
     print(
@@ -420,6 +477,12 @@ categoriesOUBasket = ['Assists', 'Points', 'Pts%2520%252B%2520Reb%2520%252B%2520
                       'Three%2520Point%2520Field%2520Goals%2520Made', 'Total%2520Rebounds']
 categoriesAtleastBasket = ['Assists', 'Blocked%2520Shots', 'Points', 'Pts%2520%252B%2520Reb%2520%252B%2520Ast',
                            'Reb%2520%252B%2520Ast', 'Steals', 'hree%2520Point%2520Field%2520Goals%2520Made', 'Total%2520Rebounds']
+# BASEBALL
+# This is a lot of requests for the site to take so it often crashes at this point, maybe change shit up
+categoriesOUBaseball = ['Earned%2520runs', 'Hits', 'Hits%2520Allowed', 'Runs%2520%252B%2520RBIs',
+                        'Stolen%2520bases', 'Strikeouts', 'Total%2520bases']
+categoriesAtleastBaseball = ['Earned%2520runs', 'Hits', 'Hits%2520Allowed', 'Home%2520runs', 'Runs%2520%252B%2520RBIs',
+                             'Stolen%2520bases', 'Strikeouts']
 
 
 # For list of gameIds
@@ -454,16 +517,9 @@ def getPropsUrls(gamesDict):
         overUnderLinks(gameIdsBySport.get('NBA'), categoriesOUBasket) + \
         atleastLinks(gameIdsBySport.get('NBA'), categoriesAtleastBasket) + \
         overUnderLinks(gameIdsBySport.get('NHL'), categoriesOUHockey) + \
-        atleastLinks(gameIdsBySport.get('NHL'), categoriesAtleastHockey)
-    # if sport == 'football':
-    #     urls = overUnderLinks(gameIds, categoriesOUFootball) + \
-    #         atleastLinks(gameIds, categoriesAtleastFootball)
-    # elif sport == 'hockey':
-    #     urls = overUnderLinks(gameIds, categoriesOUHockey) + \
-    #         atleastLinks(gameIds, categoriesAtleastHockey)
-    # elif sport == 'basketball':
-    #     urls = overUnderLinks(gameIds, categoriesOUBasket) + \
-    #         atleastLinks(gameIds, categoriesAtlestBasket)
+        atleastLinks(gameIdsBySport.get('NHL'), categoriesAtleastHockey) + \
+        overUnderLinks(gameIdsBySport.get('MLB'), categoriesOUBaseball) + \
+        atleastLinks(gameIdsBySport.get('MLB'), categoriesAtleastBaseball)
     return urls
 
 
@@ -475,12 +531,53 @@ def decToAmerican(odd):
     return round(odd)
 
 
-def makeKey(unit, point):
-    if unit == 'Touchdowns':
-        key = 'pp;0;ou;td;' + str(point)
-    elif unit == 'Receiving Yards':
-        key = 'pp;0;ou;recyds;' + str(point)
-    # Finish this when you figure out what becomes what key cuz this hella weird
+def makeKey(unit, points, name=None):
+    period = -1
+    if name == 'Game':
+        period = 0
+    switcher = {
+        "Assists": f"pp;0;ou;asst;{points}",
+        "Points": f"pp;0;ou;pts;{points}",
+        "Three Point Field Goals Made": f"pp;0;ou;3pt;{points}",
+        "Total Rebounds": f"pp;0;ou;reb;{points}",
+        "Pts + Reb + Ast": f"pp;0;ou;pra;{points}",
+        "Player To Record A Double Double": f"pp;0;ou;dbldbl;{points}",
+        "Player To Record A Triple Double": f"pp;0;ou;trpldbl;{points}",
+
+        "Shots on goal": f"pp;0;ou;sog;{points}",
+        "Saves": f"pp;0;ou;saves;{points}",
+        "Goals": f"pp;0;ou;goals;{points}",
+
+        "Hits": f"pp;0;ou;hit;{points}",
+        "Stolen bases": f"pp;0;ou;sb;{points}",
+        "Strikeouts": f"pp;0;ou;so;{points}",
+        "Total bases": f"pp;0;ou;tb;{points}",
+
+        "moneyline": f"s;{period};m",
+        "spread": f"s;{period};s;{points}",
+        "total": f"s;{period};ou;{points}",
+        "team_totalhome": f"s;{period};tt;{points};home",
+        "team_totalaway": f"s;{period};tt;{points};away",
+
+        # Atleasts
+        "Alternate Assists": f"pp;0;ss;asst;{points}",
+        "Alternate Points": f"pp;0;ss;pts;{points}",
+        "Alternate Three Point Field Goals Made": f"pp;0;ss;3pt;{points}",
+        "Alternate Total Rebounds": f"pp;0;ss;reb;{points}",
+        "Alternate Pts + Reb + Ast": f"pp;0;ss;pra;{points}",
+
+        "Alternate Shots on goal": f"pp;0;ss;sog;{points}",
+        "Alternate Saves": f"pp;0;ss;saves;{points}",
+        "Alternate Goals": f"pp;0;ss;goals;{points}",
+
+        "Alternate Hits": f"pp;0;ss;hit;{points}",
+        "Alternate Home runs": f"pp;0;ss;hr;{points}",
+        "Alternate Stolen bases": f"pp;0;ss;sb;{points}",
+        "Alternate Strikeouts": f"pp;0;ss;so;{points}"
+    }
+
+    # Return the result based on the unit
+    return switcher.get(unit, None)
 
 
 def dfByLoop(combined, gamesDict):
@@ -489,6 +586,7 @@ def dfByLoop(combined, gamesDict):
     teams = []
     league = []
     units = []
+    keys = []
     points = []
     category = []
     designation = []
@@ -507,28 +605,33 @@ def dfByLoop(combined, gamesDict):
                     (market["odds"] for market in plyr["markets"] if market["condition"] == 3), None)
                 under_odds = next(
                     (market["odds"] for market in plyr["markets"] if market["condition"] == 1), None)
+                if under_odds is None or over_odds is None:
+                    continue
                 # print(statistic + plyr["name"] + "\nLine: " + str(plyr["markets"][0]
                 #                                                  ["value"]) + "\nOver: " + str(over_odds) + "\nUnder: " + str(under_odds))
                 gameId.append(plyr["markets"][0]["game1Id"])
                 teams.append(gamesDict[plyr["markets"][0]["game1Id"]][0])
                 league.append(gamesDict[plyr["markets"][0]["game1Id"]][1])
                 units.append(statistic)
+                keys.append(makeKey(statistic, plyr["markets"][0]["value"]))
                 points.append(plyr["markets"][0]["value"])
                 category.append('Player Props')
                 designation.append("over")
                 odds.append(over_odds)
                 betOdds.append(decToAmerican(over_odds))
-                playName.append(plyr["name"])
+                nsplit = plyr["name"].split()
+                playName.append(nsplit[0][0] + '. ' + nsplit[1])
                 gameId.append(plyr["markets"][0]["game1Id"])
                 teams.append(gamesDict[plyr["markets"][0]["game1Id"]][0])
                 league.append(gamesDict[plyr["markets"][0]["game1Id"]][1])
                 units.append(statistic)
+                keys.append(makeKey(statistic, plyr["markets"][0]["value"]))
                 points.append(plyr["markets"][0]["value"])
                 category.append('Player Props')
                 designation.append("under")
                 odds.append(under_odds)
                 betOdds.append(decToAmerican(under_odds))
-                playName.append(plyr["name"])
+                playName.append(nsplit[0][0] + '. ' + nsplit[1])
 
         elif r["type"] == "ss":
             # print(r["statistic"] + " Atleast")
@@ -540,16 +643,19 @@ def dfByLoop(combined, gamesDict):
                     gameId.append(plyr["markets"][0]["game1Id"])
                     teams.append(gamesDict[plyr["markets"][0]["game1Id"]][0])
                     league.append(gamesDict[plyr["markets"][0]["game1Id"]][1])
-                    units.append(statistic)
+                    units.append("Alternate " + statistic)
+                    keys.append(
+                        makeKey("Alternate " + statistic, mrkt["value"] - 0.5))
                     points.append(mrkt["value"] - 0.5)
                     category.append('Player Props')
                     designation.append("over")
                     odds.append(mrkt["odds"])
                     betOdds.append(decToAmerican(mrkt['odds']))
-                    playName.append(plyr["name"])
+                    nsplit = plyr["name"].split()
+                    playName.append(nsplit[0][0] + '. ' + nsplit[1])
 
-    data = {"GameId": gameId, 'teams': teams, 'League': league, "Units": units, "Point": points, "Category": category,
-            "Designation": designation, "dec_odds": odds, 'Odds': betOdds, "PlayName": playName}
+    data = {"GameId": gameId, 'teams': teams, 'League': league, "Units": units, "Key": keys, "Point": points, "Category": category,
+            "Designation": designation, "Betonline dec_odds": odds, 'Betonline Odds': betOdds, "PlayName": playName}
     df = pd.DataFrame(data)
     return df
 
@@ -634,6 +740,16 @@ def decimalToAmerican(df):
     ]
     americanOdds = np.select(conditions, choices, default=0).round()
     return americanOdds
+
+
+def americanToDecimal(americanOdd):
+    if americanOdd > 0:
+        decimalOdd = 1 + (americanOdd / 100)
+    elif americanOdd < 0:
+        decimalOdd = 1 + (100 / abs(americanOdd))
+    else:
+        decimalOdd = 1.0  # Odds of 0 would be an edge case
+    return round(decimalOdd, 2)
 
 
 def dfWPandas(df, sport, gamesDict):
