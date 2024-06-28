@@ -75,6 +75,7 @@ def getDataNhl():
     return data
 '''
 
+
 def getDataMlb():
     # This should return the JSON file of the mlb front page from DraftKings
     # I realized the problem is that we didnt include the headers parameter in the get request
@@ -94,6 +95,8 @@ def getDataMlb():
     print(response.status_code)
     data = response.json()
     return data
+
+
 '''
 def getDataNfl():
     url = 'https://api.on.DraftKings.com/api/v2/competitions/6/events/featured?includeLive=false&page=1'
@@ -130,15 +133,18 @@ def getGameId(data):
     print(gameId)
     return gameId
 '''
+
+
 def listGameIds(data):
     gameIds = []
     for category in data['eventGroup']['offerCategories']:
         if 'offerSubcategoryDescriptors' in category:
             for descriptor in category['offerSubcategoryDescriptors']:
-                if 'offerSubcategory' in descriptor:  
+                if 'offerSubcategory' in descriptor:
                     for offer in descriptor['offerSubcategory']['offers']:
                         gameIds.append(offer[0]['eventId'])
     return gameIds
+
 
 def decimal_to_american(decimal_odds):
     if decimal_odds == 1.0:
@@ -149,9 +155,11 @@ def decimal_to_american(decimal_odds):
         american_odds = -100 / (decimal_odds - 1)
     return round(american_odds)
 
+
 def getGameData(gameId):
 
-    gameUrl = "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/"+gameId+"?format=json"
+    gameUrl = "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/" + \
+        gameId+"?format=json"
 
     gameHeaders = {
         'Accept': '*/*',
@@ -161,7 +169,7 @@ def getGameData(gameId):
         'Sec-Fetch-Site': 'same-site',
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15',
     }
-    
+
     gameResponse = requests.get(gameUrl, headers=gameHeaders)
     data = gameResponse.json()
 
@@ -169,6 +177,7 @@ def getGameData(gameId):
         json.dump(data, f, indent=4)
 
     return data
+
 
 def gameJson(gameId):
     gameUrl = "https://api.on.DraftKings.com/api/mes/v3/events/"+gameId
@@ -181,7 +190,7 @@ def gameJson(gameId):
         "Accept": "application/json, text/plain, /",
         "Accept-Encoding": "gzip, deflate, br, zstd",
         "Accept-Language": "en-US,en;q=0.9",
-        #"If-Modified-Since": "Fri, 24 May 2024 17:13:09 GMT",
+        # "If-Modified-Since": "Fri, 24 May 2024 17:13:09 GMT",
         "Origin": "https://on.DraftKings.ca/",
         "Priority": "u=1, i",
         "Referer": "https://on.DraftKings.ca/",
@@ -195,16 +204,18 @@ def gameJson(gameId):
         "Traceparent": "00-36c6c128c94f46ffa4f43c87f09fa6b2-888d033e0e04443f-01",
         "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
     }
-    
+
     gameResponse = requests.get(gameUrl, headers=gameHeaders)
     data = gameResponse.json()
 
     with open('DraftKingsGame'+gameId+'.json', 'w') as f:
         json.dump(data, f, indent=4)
 
+
 def jsonDump(data, league):
     with open('DraftKings'+league+'.json', 'w') as f:
         json.dump(data, f, indent=4)
+
 
 def csvDump(data, league):
 
@@ -220,7 +231,8 @@ def csvDump(data, league):
     for x in data['events']:
         for y in x['specialFixedOddsMarkets']:
             for z in y['outcomes']:
-                teams.append(x['awayTeam'] + '(away)' + ' vs ' + x['homeTeam'] + '(home)')
+                teams.append(x['awayTeam'] + '(away)' +
+                             ' vs ' + x['homeTeam'] + '(home)')
                 category.append(z['groupByHeader'])
                 side.append(z['side'])
                 points.append(z['points'])
@@ -234,13 +246,14 @@ def csvDump(data, league):
                 else:
                     designation.append(' ')
 
-    df = pd.DataFrame({'Teams': teams, 'Category': category, 'Designation': designation, 
+    df = pd.DataFrame({'Teams': teams, 'Category': category, 'Designation': designation,
                        'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'Units': unit})
     df.to_csv('DraftKings'+league+'.csv', index=False)
 
+
 def makeKey(unit, points):
     switcher = {
-        #NBA switches
+        # NBA switches
         "Alternate Assists": f"pp;0;ss;asst;{points}",
         "Player Assists Over/Under": f"pp;0;ou;asst;{points}",
         "Alternate Points": f"pp;0;ss;pts;{points}",
@@ -252,14 +265,14 @@ def makeKey(unit, points):
         "Player Pts + Rebs + Asts Over/Under": f"pp;0;ou;pra;{points}",
         "Player To Record A Double Double": f"pp;0;ou;dbldbl;{points}",
         "Player To Record A Triple Double": f"pp;0;ou;trpldbl;{points}",
-        #NBA game switches
+        # NBA game switches
         "Point Spread": f"s;0;s;{points}",
         "Moneyline": f"s;0;m",
         "Total": f"s;0;ou;{points}",
         "Home Total": f"s;0;tt;{points};home",
         "Away Total": f"s;0;tt;{points};away",
 
-        #MLB switches
+        # MLB switches
         "Player home runs OF": f"pp;0;ou;hr;{points}",
         "Alternate Pitcher Strikeouts": f"pp;0;ss;so;{points}",
         "Player hits OF": f"pp;0;ou;hit;{points}",
@@ -269,14 +282,14 @@ def makeKey(unit, points):
         "Alternate Runs Batted In": f"pp;0;ss;rbi;{points}",
         "Alternate Hits": f"pp;0;ss;hit;{points}",
         "Player Total Bases": f"pp;0;ou;tb;{points}",
-        #MLB game switches
+        # MLB game switches
         "Moneyline OF": f"s;0;m",
         "Run Line": f"s;0;s;{points}",
         "Total Runs OF": f"s;0;ou;{points}",
         "Total Runs - AWAYTEAM OF": f"s;0;tt;{points};away",
         "Total Runs - HOMETEAM OF": f"s;0;tt;{points};home",
 
-        #NHL switches
+        # NHL switches
         re.compile(r'^Away Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
         re.compile(r'^Away Player [A-Z] Assists Over/Under$'): f"pp;0;ou;asst;{points}",
         re.compile(r'^Home Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
@@ -285,7 +298,7 @@ def makeKey(unit, points):
         "Away Goalie Saves Over/Under": f"pp;0;ou;saves;{points}",
         "Home Goalie Shutout Over/Under": f"pp;0;ou;sho;{points}",
         "Away Goalie Shutout Over/Under": f"pp;0;ou;sho;{points}",
-        #NHL game switches
+        # NHL game switches
         "Puck Line": f"s;0;s;{points}",
         "Total OF": f"s;0;ou;{points}",
         "Money Line OF": f"s;0;m",
@@ -308,38 +321,8 @@ def makeKey(unit, points):
             return True
     return False
 
+
 def gigaDump(dataMlb):
-    
-    gamePropsEventsMLB = ['Moneyline OF', 'Run Line', 'Total Runs OF',
-                        'Total Runs - AWAYTEAM OF', 'Total Runs - HOMETEAM OF']
-
-    playerPropOUEventsMLB = ['Player home runs OF', 'Player hits OF', 'Player runs batted in OF',
-                            'Player stolen bases OF', 'Pitcher strikeouts OF', 'Player Total Bases']
-
-    playerPropAtleastEventsMLB = ['Alternate Pitcher Strikeouts',
-                                'Alternate Runs Batted In', 'Alternate Hits']
-
-    gamePropsEventsNBA = ['Point Spread', 'Moneyline',
-                        'Total', 'Home Total', 'Away Total']
-
-    playerPropOUEventsNBA = ['Player Points Over/Under', 'Player Assists Over/Under', 'Player 3-Pointers Made', 'Player Rebounds Over/Under', 'Player Turnovers', 'Player Turnovers+Steals', 'Player Turnovers+Steals+Blocks',
-                            'Player Pts + Rebs + Asts Over/Under', 'Player Points + Assists Over/Under', 'Player Points + Rebounds Over/Under', 'Player Assists + Rebounds Over/Under', 'Player Steals', 'Player Blocks']
-
-    playerPropAtleastEventsNBA = ['Alternate Points', 'Alternate Assists', 'Alternate Threes', 'Alternate Rebounds', 'Alternate Steals',
-                                'Alternate Blocks', 'Alternate Turnovers', 'Player To Record A Double Double', 'Player To Record A Triple Double']
-
-    gamePropsEventsNHL = ['Puck Line', 'Total OF', 'Money Line OF']
-
-    playerPropOUEventsVariableNHL = [
-        'Away Player ? Points Over/Under', 'Away Player ? Assists Over/Under', 'Home Goalie Saves Over/Under', 
-        'Away Goalie Saves Over/Under', 'Home Goalie Shutout Over/Under', 'Away Goalie Shutout Over/Under', 
-        'Home Player ? Points Over/Under', 'Home Player ? Assists Over/Under']
-
-    gamePropsEvents = gamePropsEventsMLB + gamePropsEventsNBA + gamePropsEventsNHL
-    playerPropOUEvents = playerPropOUEventsMLB + \
-        playerPropOUEventsNBA + playerPropOUEventsVariableNHL
-    playerPropAtleastEvents = playerPropAtleastEventsMLB + \
-        playerPropAtleastEventsNBA + playerPropAtleastEventsMLB
 
     league = []
     teams = []
@@ -360,7 +343,8 @@ def gigaDump(dataMlb):
     timer = time.time()
 
     for x in games:
-        urls.append("https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/"+ x +"?format=json")
+        urls.append(
+            "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/" + x + "?format=json")
         gameHeaders = {
             'Accept': '*/*',
             'Accept-Encoding': 'gzip, deflate, br',
@@ -383,14 +367,14 @@ def gigaDump(dataMlb):
             '(away)' + ' vs ' + homeTeam + '(home)'
         currentLeague = (data['event']['eventGroupName'])
 
-        #Game Props a.k.a. eventCategories index = 1
+        # Game Props a.k.a. eventCategories index = 1
         components = data['eventCategories'][1]['componentizedOffers']
         print(data['eventCategories'][1]['name'])
         for component in components:
             for offers in component['offers']:
                 for offer in offers:
                     for outcome in offer['outcomes']:
-                        print("Here is an outcome : "+ str(outcome))
+                        print("Here is an outcome : " + str(outcome))
                         league.append(currentLeague)
                         teams.append(homeAwayTeams)
                         category.append(offer['label'])
@@ -408,14 +392,14 @@ def gigaDump(dataMlb):
                         keys.append('key')
                         print("Done with iteration for this outcome!")
 
-        #Player Props a.k.a. eventCategories index = 2 for batters and 3 for pitchers
+        # Player Props a.k.a. eventCategories index = 2 for batters and 3 for pitchers
         for i in range(2, 3):
             components = data['eventCategories'][i]['componentizedOffers']
             for component in components:
                 for offers in component['offers']:
                     for offer in offers:
                         for outcome in offer['outcomes']:
-                            print("Here is a "+ str(i) +" outcome")
+                            print("Here is a " + str(i) + " outcome")
                             league.append(currentLeague)
                             teams.append(homeAwayTeams)
                             category.append(component['subcategoryName'])
@@ -423,26 +407,30 @@ def gigaDump(dataMlb):
                             points.append(outcome.get('line', None))
                             odds.append(outcome['oddsDecimal'])
                             americanOdds.append(outcome['oddsAmerican'])
-                            names.append(outcome.get('playerNameIdentifier', None))
-                            designation.append(outcome.get('label', None).lower())
+                            names.append(outcome.get(
+                                'playerNameIdentifier', None))
+                            designation.append(
+                                outcome.get('label', None).lower())
                             keys.append('key')
                             print("Done with iteration for this outcome!")
 
-    print(len(teams), len(category), len(league), len(designation), len(side), len(names), len(points), len(odds), len(americanOdds), len(keys))
+    print(len(teams), len(category), len(league), len(designation), len(
+        side), len(names), len(points), len(odds), len(americanOdds), len(keys))
 
-    df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation, 
+    df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation,
                        'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'American Odds': americanOdds, 'Key': keys})
-    
+
     frames.append(df)
 
     df = pd.concat(frames)
 
     df.to_csv('DraftKingsGigaDump.csv', index=False)
 
+
 class MyCmd(cmd.Cmd):
     prompt = '> '
 
-    def __init__(self):    #initalize console with default values set to MLB
+    def __init__(self):  # initalize console with default values set to MLB
         super(MyCmd, self).__init__()
         self.data = getDataMlb()
         self.gameId = listGameIds(self.data)[0]
@@ -473,7 +461,7 @@ class MyCmd(cmd.Cmd):
         self.data = getDataNhl()
         self.gameId = getGameId(self.data)
         self.league = 'Nhl'
-    
+
     def do_get_nfl(self, arg):
         """Call the getDataNfl function"""
         self.data = getDataNfl()
@@ -505,9 +493,9 @@ class MyCmd(cmd.Cmd):
         """Call the gigaDump function"""
         x = time.time()
         mlb = getDataMlb()
-        #nba = getDataNba()
-        #nhl = getDataNhl()
-        #nfl = getDataNfl()
+        # nba = getDataNba()
+        # nhl = getDataNhl()
+        # nfl = getDataNfl()
         print(time.time()-x)
         gigaDump(mlb)
         print(time.time()-x)
@@ -519,10 +507,11 @@ class MyCmd(cmd.Cmd):
     def do_exit(self, arg):
         """Exit the program"""
         return True
-    
+
     def do_q(self, arg):
         """Exit the program"""
         return True
+
 
 if __name__ == '__main__':
     MyCmd().cmdloop()
