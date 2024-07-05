@@ -449,10 +449,10 @@ def manipulationLoop(data):
                         ['TotalLine']['Under']['Line']))
         name.append(name1)
 
-    finalData = {'Name': name, 'GameId': gameId, 'teams': teams, 'League': league, 'Designation': designation,
-                 'Side': side, 'Point': point, 'Key': keys, 'Betonline Odds': odds, 'Betonline dec_odds': dec_odds, 'Category': category}
+    finalData = {'Period': name, 'GameId': gameId, 'Teams': teams, 'League': league, 'Designation': designation,
+                 'Side': side, 'Points': point, 'Key': keys, 'BO Odds': odds, 'BO dec_odds': dec_odds, 'Category': category}
     df = pd.DataFrame(finalData)
-    df = df[df['Betonline Odds'] != 0]
+    df = df[df['BO Odds'] != 0]
     end = time.perf_counter()
     totaltime = end - start
     print(
@@ -594,7 +594,6 @@ def dfByLoop(combined, gamesDict):
     units = []
     keys = []
     points = []
-    category = []
     designation = []
     odds = []
     betOdds = []
@@ -621,7 +620,6 @@ def dfByLoop(combined, gamesDict):
                 units.append(statistic)
                 keys.append(makeKey(statistic, plyr["markets"][0]["value"]))
                 points.append(plyr["markets"][0]["value"])
-                category.append('Player Props')
                 designation.append("over")
                 odds.append(over_odds)
                 betOdds.append(decToAmerican(over_odds))
@@ -637,7 +635,6 @@ def dfByLoop(combined, gamesDict):
                 units.append(statistic)
                 keys.append(makeKey(statistic, plyr["markets"][0]["value"]))
                 points.append(plyr["markets"][0]["value"])
-                category.append('Player Props')
                 designation.append("under")
                 odds.append(under_odds)
                 betOdds.append(decToAmerican(under_odds))
@@ -657,7 +654,6 @@ def dfByLoop(combined, gamesDict):
                     keys.append(
                         makeKey("Alternate " + statistic, mrkt["value"] - 0.5))
                     points.append(mrkt["value"] - 0.5)
-                    category.append('Player Props')
                     designation.append("over")
                     odds.append(mrkt["odds"])
                     betOdds.append(decToAmerican(mrkt['odds']))
@@ -666,8 +662,8 @@ def dfByLoop(combined, gamesDict):
                     name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
                     playName.append(name)
 
-    data = {"GameId": gameId, 'teams': teams, 'League': league, "Units": units, "Key": keys, "Point": points, "Category": category,
-            "Designation": designation, "Betonline dec_odds": odds, 'Betonline Odds': betOdds, "PlayName": playName}
+    data = {"GameId": gameId, 'Teams': teams, 'League': league, "Key": keys, "Points": points, "Category": units,
+            "Designation": designation, "BO dec_odds": odds, 'BO Odds': betOdds, "Name": playName}
     df = pd.DataFrame(data)
     return df
 
