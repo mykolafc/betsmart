@@ -1,0 +1,1170 @@
+Key,Designation,Name,Teams,League,Category,Side,Points,BO dec_odds,PB Decimal Odds,DK Decimal Odds,BO Odds,PB American Odds,DK American Odds,Odds Ratio
+pp;0;ou;hit;0.5,over,B. Nimmo,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.46,1.4445,1.43,-217,-225,-230,1.020979020979021
+pp;0;ou;hit;0.5,under,B. Nimmo,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.65,2.55,2.65,165,155,165,1.0392156862745099
+pp;0;ou;hit;0.5,over,B. Reynolds,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.38,1.3637,1.36,-263,-275,-275,1.0147058823529411
+pp;0;ou;hit;0.5,under,B. Reynolds,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.95,2.85,2.95,195,185,195,1.0350877192982457
+pp;0;ou;hit;0.5,over,F. Lindor,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.44,1.4,1.43,-227,-250,-230,1.0285714285714287
+pp;0;ou;hit;0.5,under,F. Lindor,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.69,2.7,2.65,169,170,165,1.0188679245283019
+pp;0;ou;hit;0.5,over,J. Suwinski,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.66,1.625,1.62,-152,-160,-160,1.0246913580246912
+pp;0;ou;hit;0.5,under,J. Suwinski,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.17,2.2,2.15,117,120,115,1.0232558139534884
+pp;0;ou;hit;0.5,over,K. Hayes,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.58,1.5556,1.55,-172,-180,-180,1.0193548387096774
+pp;0;ou;hit;0.5,under,K. Hayes,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.33,2.3,2.3,133,130,130,1.0130434782608697
+pp;0;ou;hit;0.5,over,N. Gonzales,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.53,1.4762,1.5,-189,-210,-200,1.0364449261617668
+pp;0;ou;hit;0.5,under,N. Gonzales,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.44,2.5,2.45,144,150,145,1.0245901639344261
+pp;0;ou;hit;0.5,over,O. Cruz,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.4,1.3637,1.36,-250,-275,-275,1.0294117647058822
+pp;0;ou;hit;0.5,under,O. Cruz,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.86,2.75,2.95,186,175,195,1.0727272727272728
+pp;0;ou;hit;0.5,over,P. Alonso,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.64,1.6452,1.6,-156,-155,-165,1.0282499999999999
+pp;0;ou;hit;0.5,under,P. Alonso,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.21,2.15,2.2,121,115,120,1.027906976744186
+pp;0;ou;hit;0.5,over,R. Tellez,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.54,1.5,1.51,-185,-200,-195,1.0266666666666666
+pp;0;ou;hit;0.5,under,R. Tellez,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.42,2.4,2.45,142,140,145,1.0208333333333335
+pp;0;ou;hit;0.5,over,Y. Grandal,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,1.64,1.5556,1.58,-156,-180,-170,1.0542555926973514
+pp;0;ou;hit;0.5,under,Y. Grandal,NY Mets(away) vs PIT Pirates(home),MLB,Hits,,0.5,2.2,2.3,2.25,120,130,125,1.0454545454545452
+pp;0;ou;sb;0.5,over,B. Nimmo,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,9.76,8.5,9.0,876,750,800,1.148235294117647
+pp;0;ou;sb;0.5,under,B. Nimmo,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,1.04,1.0556,1.04,-2500,-1799,-2500,1.0150000000000001
+pp;0;ou;sb;0.5,over,B. Reynolds,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,9.76,9.5,9.0,876,850,800,1.0844444444444443
+pp;0;ou;sb;0.5,under,B. Reynolds,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,1.04,1.0445,1.03,-2500,-2247,-3000,1.0140776699029126
+pp;0;ou;sb;0.5,over,F. Lindor,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,5.84,5.25,6.0,484,425,500,1.1428571428571428
+pp;0;ou;sb;0.5,under,F. Lindor,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,1.12,1.1,1.1,-833,-1000,-1000,1.0181818181818183
+pp;0;ou;sb;0.5,over,J. Suwinski,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,7.73,7.5,7.5,673,650,650,1.0306666666666666
+pp;0;ou;sb;0.5,under,J. Suwinski,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,1.07,1.0667,1.06,-1429,-1499,-1600,1.009433962264151
+pp;0;ou;sb;0.5,over,K. Hayes,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,8.96,10.5,10.0,796,950,900,1.1718749999999998
+pp;0;ou;sb;0.5,under,K. Hayes,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,1.05,1.0334,1.02,-2000,-2994,-3500,1.0294117647058825
+pp;0;ou;sb;0.5,over,N. Gonzales,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,10.74,13.0,12.0,974,1200,1100,1.2104283054003724
+pp;0;ou;sb;0.5,under,N. Gonzales,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,1.03,1.02,1.01,-3333,-5000,-8000,1.0198019801980198
+pp;0;ou;sb;0.5,over,O. Cruz,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,6.13,5.75,6.5,513,475,550,1.1304347826086956
+pp;0;ou;sb;0.5,under,O. Cruz,NY Mets(away) vs PIT Pirates(home),MLB,Stolen Bases,,0.5,1.11,1.091,1.09,-909,-1099,-1100,1.0183486238532111
+pp;0;ss;so;3.5,over,L. Severino,NY Mets(away) vs PIT Pirates(home),MLB,Strikeouts Milestones,,3.5,1.3,1.3847,1.32,-333,-260,-310,1.0651538461538461
+pp;0;ss;so;5.5,over,L. Severino,NY Mets(away) vs PIT Pirates(home),MLB,Strikeouts Milestones,,5.5,2.47,2.75,2.45,147,175,145,1.1224489795918366
+pp;0;ss;so;6.5,over,L. Severino,NY Mets(away) vs PIT Pirates(home),MLB,Strikeouts Milestones,,6.5,3.63,4.3,3.9,263,330,290,1.184573002754821
+pp;0;ss;hit;1.5,over,K. Hayes,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,3.74,4.3,4.3,274,330,330,1.1497326203208555
+pp;0;ss;hit;1.5,over,B. Reynolds,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,2.72,3.0,2.95,172,200,195,1.102941176470588
+pp;0;ss;hit;2.5,over,B. Reynolds,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,2.5,6.71,9.5,9.0,571,850,800,1.4157973174366618
+pp;0;ss;hit;1.5,over,F. Lindor,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,2.76,3.1,3.35,176,210,235,1.213768115942029
+pp;0;ss;hit;2.5,over,F. Lindor,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,2.5,6.66,9.5,11.0,566,850,1000,1.6516516516516515
+pp;0;ss;hit;1.5,over,P. Alonso,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,3.57,4.5,4.4,257,350,340,1.2605042016806722
+pp;0;ss;hit;1.5,over,O. Cruz,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,2.84,3.0,2.95,184,200,195,1.0563380281690142
+pp;0;ss;hit;2.5,over,O. Cruz,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,2.5,7.55,9.5,9.5,655,850,850,1.2582781456953642
+pp;0;ss;hit;1.5,over,B. Nimmo,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,3.04,3.5,3.35,204,250,235,1.1513157894736843
+pp;0;ss;hit;2.5,over,B. Nimmo,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,2.5,8.22,11.5,11.0,722,1050,1000,1.3990267639902676
+pp;0;ss;hit;1.5,over,N. Gonzales,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,3.59,3.8,3.85,259,280,285,1.0724233983286908
+pp;0;ss;hit;1.5,over,J. Suwinski,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,4.01,4.5,4.6,301,350,360,1.14713216957606
+pp;0;ss;hit;1.5,over,R. Tellez,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,3.61,3.8,3.95,261,280,295,1.0941828254847645
+pp;0;ss;hit;1.5,over,Y. Grandal,NY Mets(away) vs PIT Pirates(home),MLB,Hits Milestones,,1.5,3.94,4.3,4.5,294,330,350,1.1421319796954315
+pp;0;ou;tb;0.5,over,K. Hayes,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,1.59,1.5556,1.55,-169,-180,-180,1.0258064516129033
+pp;0;ou;tb;0.5,under,K. Hayes,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,2.3,2.3,2.3,130,130,130,1.0
+pp;0;ou;tb;1.5,over,B. Reynolds,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,1.5,2.06,2.0,2.0,106,100,100,1.03
+pp;0;ou;tb;1.5,under,B. Reynolds,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,1.5,1.73,1.7143,1.74,-137,-140,-135,1.0149915417371522
+pp;0;ou;tb;1.5,over,F. Lindor,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,1.5,2.17,2.05,2.05,117,105,105,1.0585365853658537
+pp;0;ou;tb;1.5,under,F. Lindor,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,1.5,1.66,1.6897,1.68,-152,-145,-145,1.0178915662650603
+pp;0;ou;tb;0.5,over,P. Alonso,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,1.62,1.6452,1.6,-161,-155,-165,1.0282499999999999
+pp;0;ou;tb;0.5,under,P. Alonso,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,2.23,2.15,2.2,123,115,120,1.0372093023255815
+pp;0;ou;tb;1.5,over,O. Cruz,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,1.5,2.03,1.9524,1.95,103,-105,-105,1.0410256410256409
+pp;0;ou;tb;1.5,under,O. Cruz,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,1.5,1.75,1.7693,1.76,-133,-130,-130,1.0110285714285714
+pp;0;ou;tb;1.5,over,B. Nimmo,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,1.5,2.36,2.25,2.25,136,125,125,1.0488888888888888
+pp;0;ou;tb;1.5,under,B. Nimmo,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,1.5,1.56,1.5883,1.6,-179,-170,-165,1.0256410256410258
+pp;0;ou;tb;0.5,over,J. Suwinski,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,1.66,1.625,1.62,-152,-160,-160,1.0246913580246912
+pp;0;ou;tb;0.5,under,J. Suwinski,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,2.17,2.2,2.15,117,120,115,1.0232558139534884
+pp;0;ou;tb;0.5,over,R. Tellez,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,1.53,1.5,1.51,-189,-200,-195,1.02
+pp;0;ou;tb;0.5,under,R. Tellez,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,2.44,2.4,2.45,144,140,145,1.0208333333333335
+pp;0;ou;tb;0.5,over,Y. Grandal,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,1.62,1.5556,1.58,-161,-180,-170,1.0413988171766522
+pp;0;ou;tb;0.5,under,Y. Grandal,NY Mets(away) vs PIT Pirates(home),MLB,Total Bases,,0.5,2.24,2.3,2.25,124,130,125,1.0267857142857142
+pp;0;ou;hit;1.5,over,A. Burleson,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,1.5,2.58,2.6,2.5,158,160,150,1.04
+pp;0;ou;hit;1.5,under,A. Burleson,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,1.5,1.48,1.4167,1.47,-208,-240,-210,1.0446813016164325
+pp;0;ou;hit;0.5,over,B. Donovan,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,1.4,1.3637,1.37,-250,-275,-265,1.026618757791303
+pp;0;ou;hit;0.5,under,B. Donovan,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,2.87,2.75,2.9,187,175,190,1.0545454545454545
+pp;0;ou;hit;0.5,over,C. Abrams,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,1.43,1.4,1.42,-233,-250,-235,1.0214285714285714
+pp;0;ou;hit;0.5,under,C. Abrams,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,2.74,2.7,2.7,174,170,170,1.0148148148148148
+pp;0;ou;hit;0.5,over,D. Carlson,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,1.45,1.4167,1.41,-222,-240,-240,1.0283687943262412
+pp;0;ou;hit;0.5,under,D. Carlson,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,2.68,2.6,2.7,168,160,170,1.0384615384615385
+pp;0;ou;hit;0.5,over,J. Wood,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,1.55,1.5,1.52,-182,-200,-190,1.0333333333333334
+pp;0;ou;hit;0.5,under,J. Wood,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,2.39,2.4,2.4,139,140,140,1.00418410041841
+pp;0;ou;hit;0.5,over,J. Young,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,1.64,1.625,1.6,-156,-160,-165,1.025
+pp;0;ou;hit;0.5,under,J. Young,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,2.2,2.2,2.2,120,120,120,1.0
+pp;0;ou;hit;0.5,over,L. Thomas,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,1.48,1.4445,1.45,-208,-225,-220,1.024575977847006
+pp;0;ou;hit;0.5,under,L. Thomas,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,0.5,2.57,2.55,2.6,157,155,160,1.019607843137255
+pp;0;ou;hit;1.5,over,M. Winn,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,1.5,2.71,2.7,2.65,171,170,165,1.0226415094339623
+pp;0;ou;hit;1.5,under,M. Winn,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,1.5,1.44,1.4,1.43,-227,-250,-230,1.0285714285714287
+pp;0;ou;hit;1.5,over,P. Goldschmidt,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,1.5,2.86,2.75,2.8,186,175,180,1.04
+pp;0;ou;hit;1.5,under,P. Goldschmidt,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,1.5,1.4,1.3637,1.39,-250,-275,-255,1.026618757791303
+pp;0;ou;hit;1.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,1.5,2.9,2.85,2.8,190,185,180,1.0357142857142858
+pp;0;ou;hit;1.5,under,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits,,1.5,1.39,1.3637,1.39,-256,-275,-255,1.0192857666642223
+pp;0;ou;sb;0.5,over,A. Burleson,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,8.96,8.5,8.5,796,750,750,1.0541176470588236
+pp;0;ou;sb;0.5,under,A. Burleson,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.05,1.0556,1.04,-2000,-1799,-2500,1.0150000000000001
+pp;0;ou;sb;0.5,over,B. Donovan,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.5,974,950,950,1.022857142857143
+pp;0;ou;sb;0.5,under,B. Donovan,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-4000,1.0131372549019608
+pp;0;ou;sb;0.5,over,C. Abrams,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,3.98,3.7,4.1,298,270,310,1.108108108108108
+pp;0;ou;sb;0.5,under,C. Abrams,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.23,1.2106,1.2,-435,-475,-500,1.0250000000000001
+pp;0;ou;sb;0.5,over,D. Carlson,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,9.76,9.5,9.5,876,850,850,1.0273684210526315
+pp;0;ou;sb;0.5,under,D. Carlson,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.04,1.0445,1.03,-2500,-2247,-3000,1.0140776699029126
+pp;0;ou;sb;0.5,over,J. Wood,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,7.24,6.5,7.0,624,550,600,1.113846153846154
+pp;0;ou;sb;0.5,under,J. Wood,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.08,1.08,1.07,-1250,-1250,-1400,1.0093457943925235
+pp;0;ou;sb;0.5,over,J. Young,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,4.09,3.6,4.1,309,260,310,1.1388888888888888
+pp;0;ou;sb;0.5,under,J. Young,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.22,1.2223,1.21,-455,-450,-475,1.0101652892561983
+pp;0;ou;sb;0.5,over,L. Thomas,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,4.21,4.0,4.5,321,300,350,1.125
+pp;0;ou;sb;0.5,under,L. Thomas,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.21,1.1819,1.17,-476,-550,-575,1.0341880341880343
+pp;0;ou;sb;0.5,over,M. Winn,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,5.14,4.2,4.7,414,320,370,1.2238095238095237
+pp;0;ou;sb;0.5,under,M. Winn,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.15,1.16,1.15,-667,-625,-650,1.008695652173913
+pp;0;ou;sb;0.5,over,P. Goldschmidt,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,9.76,8.5,8.5,876,750,750,1.148235294117647
+pp;0;ou;sb;0.5,under,P. Goldschmidt,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.04,1.0556,1.04,-2500,-1799,-2500,1.0150000000000001
+pp;0;ou;sb;0.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.0,974,950,900,1.074
+pp;0;ou;sb;0.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.5,974,950,950,1.022857142857143
+pp;0;ou;sb;0.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.0,974,950,900,1.074
+pp;0;ou;sb;0.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.5,974,950,950,1.022857142857143
+pp;0;ou;sb;0.5,under,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-3500,1.0131372549019608
+pp;0;ou;sb;0.5,under,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-4000,1.0131372549019608
+pp;0;ou;sb;0.5,under,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-3500,1.0131372549019608
+pp;0;ou;sb;0.5,under,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-4000,1.0131372549019608
+pp;0;ss;so;4.5,over,S. Gray,STL Cardinals(away) vs WAS Nationals(home),MLB,Strikeouts Milestones,,4.5,1.39,1.5264,1.51,-256,-190,-195,1.0981294964028778
+pp;0;ss;so;6.5,over,S. Gray,STL Cardinals(away) vs WAS Nationals(home),MLB,Strikeouts Milestones,,6.5,2.62,2.9,3.15,162,190,215,1.2022900763358777
+pp;0;ss;so;7.5,over,S. Gray,STL Cardinals(away) vs WAS Nationals(home),MLB,Strikeouts Milestones,,7.5,3.82,4.5,5.25,282,350,425,1.37434554973822
+pp;0;ss;so;2.5,over,P. Corbin,STL Cardinals(away) vs WAS Nationals(home),MLB,Strikeouts Milestones,,2.5,1.38,1.4445,1.38,-263,-225,-260,1.0467391304347826
+pp;0;ss;so;4.5,over,P. Corbin,STL Cardinals(away) vs WAS Nationals(home),MLB,Strikeouts Milestones,,4.5,2.75,3.5,2.85,175,250,185,1.2727272727272727
+pp;0;ss;so;5.5,over,P. Corbin,STL Cardinals(away) vs WAS Nationals(home),MLB,Strikeouts Milestones,,5.5,4.18,6.0,4.8,318,500,380,1.4354066985645935
+pp;0;ss;hit;1.5,over,D. Carlson,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,1.5,3.01,3.4,3.25,201,240,225,1.1295681063122924
+pp;0;ss;hit;2.5,over,D. Carlson,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,8.13,12.0,11.0,713,1100,1000,1.4760147601476012
+pp;0;ss;hit;1.5,over,N. Arenado,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,1.5,2.76,3.0,2.8,176,200,180,1.0869565217391306
+pp;0;ss;hit;2.5,over,N. Arenado,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,7.32,9.5,9.0,632,850,800,1.2978142076502732
+pp;0;ss;hit;0.5,over,A. Burleson,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,0.5,1.27,1.3077,1.27,-370,-325,-370,1.0296850393700787
+pp;0;ss;hit;2.5,over,A. Burleson,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,6.08,8.0,6.5,508,700,550,1.3157894736842106
+pp;0;ss;hit;0.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,0.5,1.31,1.3637,1.33,-323,-275,-300,1.0409923664122136
+pp;0;ss;hit;0.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,0.5,1.49,1.3637,1.33,-204,-275,-300,1.1203007518796992
+pp;0;ss;hit;1.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,2.9,2.9,3.45,190,190,245,1.1896551724137931
+pp;0;ss;hit;1.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,3.05,2.9,3.45,205,190,245,1.1896551724137931
+pp;0;ss;hit;2.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,6.46,9.0,8.0,546,800,700,1.3931888544891642
+pp;0;ss;hit;2.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,6.46,9.0,11.0,546,800,1000,1.7027863777089782
+pp;0;ss;hit;2.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,7.88,9.0,8.0,688,800,700,1.1421319796954315
+pp;0;ss;hit;2.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,7.88,9.0,11.0,688,800,1000,1.3959390862944163
+pp;0;ss;hit;0.5,over,P. Goldschmidt,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,0.5,1.31,1.3637,1.31,-323,-275,-320,1.0409923664122136
+pp;0;ss;hit;2.5,over,P. Goldschmidt,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,6.42,9.0,8.5,542,800,750,1.4018691588785046
+pp;0;ss;hit;0.5,over,M. Winn,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,0.5,1.29,1.3334,1.31,-345,-300,-320,1.033643410852713
+pp;0;ss;hit;2.5,over,M. Winn,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,6.24,8.0,7.0,524,700,600,1.282051282051282
+pp;0;ss;hit;1.5,over,C. Abrams,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,1.5,2.94,3.3,3.35,194,230,235,1.1394557823129252
+pp;0;ss;hit;2.5,over,C. Abrams,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,7.9,10.0,11.0,690,900,1000,1.3924050632911391
+pp;0;ss;hit;1.5,over,J. Wood,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,1.5,3.63,4.0,4.1,263,300,310,1.1294765840220384
+pp;0;ss;hit;1.5,over,L. Thomas,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,1.5,3.41,3.5,3.35,241,250,235,1.044776119402985
+pp;0;ss;hit;2.5,over,L. Thomas,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,10.42,11.5,12.0,942,1050,1100,1.1516314779270633
+pp;0;ss;hit;1.5,over,J. Young,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,1.5,3.92,4.5,4.3,292,350,330,1.1479591836734695
+pp;0;ss;hit;1.5,over,B. Donovan,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,1.5,2.85,3.1,3.05,185,210,205,1.087719298245614
+pp;0;ss;hit;2.5,over,B. Donovan,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,7.63,11.0,10.0,663,1000,900,1.4416775884665793
+pp;0;ou;tb;1.5,over,D. Carlson,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,2.39,2.2,2.35,139,120,135,1.0863636363636364
+pp;0;ou;tb;1.5,under,D. Carlson,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.55,1.625,1.54,-182,-160,-185,1.0551948051948052
+pp;0;ou;tb;1.5,over,N. Arenado,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,2.07,1.9524,2.05,107,-105,105,1.0602335586969882
+pp;0;ou;tb;1.5,under,N. Arenado,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.72,1.7693,1.71,-139,-130,-140,1.0346783625730995
+pp;0;ou;tb;1.5,over,A. Burleson,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.98,1.9091,1.9,-102,-110,-110,1.0421052631578949
+pp;0;ou;tb;1.5,under,A. Burleson,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.79,1.8,1.8,-127,-125,-125,1.005586592178771
+pp;0;ou;tb;1.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.88,1.8696,1.83,-114,-115,-120,1.0273224043715845
+pp;0;ou;tb;1.5,under,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.88,1.8334,1.86,-114,-120,-115,1.0254172575542708
+pp;0;ou;tb;1.5,over,P. Goldschmidt,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.97,1.9091,1.9,-103,-110,-110,1.036842105263158
+pp;0;ou;tb;1.5,under,P. Goldschmidt,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.8,1.8,1.8,-125,-125,-125,1.0
+pp;0;ou;tb;1.5,over,M. Winn,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,2.02,1.9524,2.0,102,-105,100,1.0346240524482688
+pp;0;ou;tb;1.5,under,M. Winn,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.76,1.7693,1.74,-132,-130,-135,1.0168390804597702
+pp;0;ou;tb;1.5,over,C. Abrams,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,2.28,2.05,2.25,128,105,125,1.1121951219512196
+pp;0;ou;tb;1.5,under,C. Abrams,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.6,1.6897,1.58,-167,-145,-170,1.0694303797468354
+pp;0;ou;tb;1.5,over,L. Thomas,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,2.44,2.25,2.4,144,125,140,1.0844444444444443
+pp;0;ou;tb;1.5,under,L. Thomas,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.53,1.5883,1.52,-189,-170,-190,1.0449342105263157
+pp;0;ou;tb;0.5,over,J. Young,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,0.5,1.64,1.625,1.6,-156,-160,-165,1.025
+pp;0;ou;tb;0.5,under,J. Young,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,0.5,2.21,2.2,2.2,121,120,120,1.0045454545454544
+pp;0;ou;tb;1.5,over,B. Donovan,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,2.36,2.2,2.3,136,120,130,1.0727272727272725
+pp;0;ou;tb;1.5,under,B. Donovan,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.56,1.625,1.57,-179,-160,-175,1.0416666666666667
+pp;0;ou;hit;0.5,over,A. Judge,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.38,1.3334,1.35,-263,-300,-285,1.0349482525873706
+pp;0;ou;hit;0.5,under,A. Judge,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,2.96,2.9,3.0,196,190,200,1.0344827586206897
+pp;0;ou;hit;0.5,over,A. Verdugo,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.56,1.5264,1.54,-179,-190,-185,1.0220125786163523
+pp;0;ou;hit;0.5,under,A. Verdugo,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,2.36,2.35,2.35,136,135,135,1.004255319148936
+pp;0;ou;hit;0.5,over,A. Volpe,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.56,1.5,1.54,-179,-200,-185,1.04
+pp;0;ou;hit;0.5,under,A. Volpe,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,2.36,2.4,2.35,136,140,135,1.0212765957446808
+pp;0;ou;hit;0.5,over,C. Rafaela,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.74,1.7143,1.71,-135,-140,-140,1.0175438596491229
+pp;0;ou;hit;0.5,under,C. Rafaela,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,2.05,2.0,2.0,105,100,100,1.025
+pp;0;ou;hit;0.5,over,D. Smith,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.89,1.8548,1.86,-112,-117,-115,1.0189777873625188
+pp;0;ou;hit;0.5,under,D. Smith,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.87,1.8548,1.83,-115,-117,-120,1.0218579234972678
+pp;0;ou;hit;0.5,over,G. Torres,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.55,1.5264,1.54,-182,-190,-185,1.0154612159329142
+pp;0;ou;hit;0.5,under,G. Torres,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,2.39,2.35,2.35,139,135,135,1.0170212765957447
+pp;0;ou;hit;0.5,over,J. Duran,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.53,1.4762,1.52,-189,-210,-190,1.0364449261617668
+pp;0;ou;hit;0.5,under,J. Duran,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,2.43,2.5,2.35,143,150,135,1.0638297872340425
+pp;0;ou;hit;0.5,over,J. Soto,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.53,1.5264,1.51,-189,-190,-195,1.0132450331125828
+pp;0;ou;hit;0.5,under,J. Soto,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,2.44,2.35,2.45,144,135,145,1.0425531914893618
+pp;0;ou;hit;0.5,over,M. Yoshida,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.81,1.7693,1.8,-123,-130,-125,1.0230034476911773
+pp;0;ou;hit;0.5,under,M. Yoshida,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.96,1.9524,1.95,-104,-105,-105,1.005128205128205
+pp;0;ou;hit;0.5,over,R. Devers,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.62,1.5883,1.6,-161,-170,-165,1.0199584461373796
+pp;0;ou;hit;0.5,under,R. Devers,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,2.24,2.25,2.2,124,125,120,1.0227272727272727
+pp;0;ou;hit;0.5,over,T. Grisham,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.98,1.9091,1.95,-102,-110,-105,1.0371379183908649
+pp;0;ou;hit;0.5,under,T. Grisham,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits,,0.5,1.79,1.8,1.76,-127,-125,-130,1.0227272727272727
+pp;0;ou;sb;0.5,over,A. Volpe,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,6.82,5.25,6.5,582,425,550,1.299047619047619
+pp;0;ou;sb;0.5,under,A. Volpe,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,1.09,1.1,1.09,-1111,-1000,-1100,1.0091743119266054
+pp;0;ou;sb;0.5,over,C. Rafaela,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,7.73,7.0,7.5,673,600,650,1.1042857142857143
+pp;0;ou;sb;0.5,under,C. Rafaela,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,1.07,1.0715,1.06,-1429,-1399,-1600,1.0108490566037733
+pp;0;ou;sb;0.5,over,G. Torres,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,11.96,13.0,11.0,1096,1200,1000,1.1818181818181819
+pp;0;ou;sb;0.5,under,G. Torres,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,1.02,1.02,1.01,-5000,-5000,-6000,1.00990099009901
+pp;0;ou;sb;0.5,over,J. Duran,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,5.35,4.4,5.0,435,340,400,1.2159090909090908
+pp;0;ou;sb;0.5,under,J. Duran,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,1.14,1.1539,1.14,-714,-650,-700,1.0121929824561404
+pp;0;ou;sb;0.5,over,J. Soto,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.0,974,950,900,1.074
+pp;0;ou;sb;0.5,under,J. Soto,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-3500,1.0131372549019608
+pp;0;ou;sb;0.5,over,T. Grisham,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.0,974,950,900,1.074
+pp;0;ou;sb;0.5,under,T. Grisham,BOS Red Sox(away) vs NY Yankees(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-3500,1.0131372549019608
+pp;0;ss;hit;1.5,over,A. Judge,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,2.77,3.1,2.8,177,210,180,1.1191335740072201
+pp;0;ss;hit;2.5,over,A. Judge,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,2.5,7.26,11.0,8.5,626,1000,750,1.5151515151515151
+pp;0;ss;hit;1.5,over,C. Rafaela,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,3.74,5.0,5.0,274,400,400,1.3368983957219251
+pp;0;ss;hit;1.5,over,A. Volpe,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,3.64,4.1,3.9,264,310,290,1.1263736263736261
+pp;0;ss;hit;2.5,over,A. Volpe,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,2.5,11.02,15.0,13.0,1002,1400,1200,1.3611615245009074
+pp;0;ss;hit;1.5,over,A. Verdugo,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,3.67,4.0,3.95,267,300,295,1.0899182561307903
+pp;0;ss;hit;1.5,over,G. Torres,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,3.63,4.1,3.9,263,310,290,1.1294765840220384
+pp;0;ss;hit;1.5,over,D. Smith,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,5.26,6.0,6.0,426,500,500,1.1406844106463878
+pp;0;ss;hit;1.5,over,J. Duran,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,3.13,3.8,3.85,213,280,285,1.2300319488817892
+pp;0;ss;hit;1.5,over,T. Grisham,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,6.44,6.5,6.5,544,550,550,1.0093167701863353
+pp;0;ss;hit;1.5,over,J. Soto,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,3.57,4.1,3.85,257,310,285,1.1484593837535013
+pp;0;ss;hit;1.5,over,M. Yoshida,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,4.09,5.75,5.25,309,475,425,1.4058679706601467
+pp;0;ss;hit;1.5,over,R. Devers,BOS Red Sox(away) vs NY Yankees(home),MLB,Hits Milestones,,1.5,3.39,4.3,4.4,239,330,340,1.2979351032448379
+pp;0;ss;so;4.5,over,T. Houck,BOS Red Sox(away) vs NY Yankees(home),MLB,Strikeouts Milestones,,4.5,1.53,1.625,1.54,-189,-160,-185,1.0620915032679739
+pp;0;ss;so;6.5,over,T. Houck,BOS Red Sox(away) vs NY Yankees(home),MLB,Strikeouts Milestones,,6.5,3.31,3.5,3.15,231,250,215,1.1111111111111112
+pp;0;ss;so;7.5,over,T. Houck,BOS Red Sox(away) vs NY Yankees(home),MLB,Strikeouts Milestones,,7.5,5.52,5.75,5.25,452,475,425,1.0952380952380953
+pp;0;ou;tb;1.5,over,A. Judge,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,1.5,1.98,1.8548,1.9,-102,-117,-110,1.0675005391416865
+pp;0;ou;tb;1.5,under,A. Judge,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,1.5,1.79,1.8548,1.8,-127,-117,-125,1.0362011173184358
+pp;0;ou;tb;0.5,over,C. Rafaela,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.75,1.7143,1.71,-133,-140,-140,1.023391812865497
+pp;0;ou;tb;0.5,under,C. Rafaela,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,2.03,2.0,2.0,103,100,100,1.015
+pp;0;ou;tb;0.5,over,A. Volpe,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.57,1.5,1.54,-175,-200,-185,1.0466666666666666
+pp;0;ou;tb;0.5,under,A. Volpe,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,2.35,2.4,2.35,135,140,135,1.0212765957446808
+pp;0;ou;tb;0.5,over,A. Verdugo,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.55,1.5264,1.54,-182,-190,-185,1.0154612159329142
+pp;0;ou;tb;0.5,under,A. Verdugo,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,2.38,2.35,2.35,138,135,135,1.0127659574468084
+pp;0;ou;tb;0.5,over,G. Torres,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.55,1.5264,1.54,-182,-190,-185,1.0154612159329142
+pp;0;ou;tb;0.5,under,G. Torres,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,2.39,2.35,2.35,139,135,135,1.0170212765957447
+pp;0;ou;tb;0.5,over,D. Smith,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.93,1.8548,1.86,-108,-117,-115,1.0405434548199266
+pp;0;ou;tb;0.5,under,D. Smith,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.83,1.8548,1.83,-120,-117,-120,1.013551912568306
+pp;0;ou;tb;0.5,over,T. Grisham,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,2.0,1.9091,1.95,100,-110,-105,1.0476140589806715
+pp;0;ou;tb;0.5,under,T. Grisham,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.77,1.8,1.76,-130,-125,-130,1.0227272727272727
+pp;0;ou;tb;0.5,over,M. Yoshida,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.79,1.8,1.8,-127,-125,-125,1.005586592178771
+pp;0;ou;tb;0.5,under,M. Yoshida,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.98,1.9091,1.95,-102,-110,-105,1.0371379183908649
+pp;0;ou;tb;0.5,over,R. Devers,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.64,1.5883,1.6,-156,-170,-165,1.0325505257193224
+pp;0;ou;tb;0.5,under,R. Devers,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,2.21,2.25,2.2,121,125,120,1.0227272727272727
+pp;0;ou;tb;0.5,over,J. Soto,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,1.54,1.5264,1.51,-185,-190,-195,1.0198675496688743
+pp;0;ou;tb;0.5,under,J. Soto,BOS Red Sox(away) vs NY Yankees(home),MLB,Total Bases,,0.5,2.42,2.35,2.4,142,135,140,1.0297872340425531
+pp;0;ou;hit;0.5,over,J. Candelario,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.47,1.4445,1.44,-213,-225,-225,1.0208333333333333
+pp;0;ou;hit;0.5,under,J. Candelario,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,2.61,2.55,2.65,161,155,165,1.0392156862745099
+pp;0;ou;hit;0.5,over,J. India,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.44,1.4167,1.43,-227,-240,-230,1.0164466718430154
+pp;0;ou;hit;0.5,under,J. India,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,2.69,2.6,2.65,169,160,165,1.0346153846153845
+pp;0;ou;hit;0.5,over,J. Rogers,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.71,1.6667,1.66,-141,-150,-150,1.0301204819277108
+pp;0;ou;hit;0.5,under,J. Rogers,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,2.08,2.1,2.1,108,110,110,1.0096153846153846
+pp;0;ou;hit;0.5,over,M. Canha,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.46,1.4,1.44,-217,-250,-225,1.042857142857143
+pp;0;ou;hit;0.5,under,M. Canha,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,2.65,2.7,2.65,165,170,165,1.0188679245283019
+pp;0;ou;hit;1.5,over,M. Vierling,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,1.5,2.78,2.7,2.75,178,170,175,1.0296296296296295
+pp;0;ou;hit;1.5,under,M. Vierling,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,1.5,1.42,1.4,1.4,-238,-250,-245,1.0142857142857142
+pp;0;ou;hit;0.5,over,R. Greene,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.4,1.4,1.39,-250,-250,-255,1.0071942446043165
+pp;0;ou;hit;0.5,under,R. Greene,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,2.86,2.7,2.8,186,170,180,1.0592592592592591
+pp;0;ou;hit;0.5,over,S. Steer,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.47,1.4167,1.44,-213,-240,-225,1.0376226441730783
+pp;0;ou;hit;0.5,under,S. Steer,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,2.61,2.6,2.6,161,160,160,1.0038461538461538
+pp;0;ou;hit;0.5,over,W. Benson,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.92,1.8548,1.9,-109,-117,-110,1.0351520379555748
+pp;0;ou;hit;0.5,under,W. Benson,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.84,1.8548,1.8,-119,-117,-125,1.0304444444444445
+pp;0;ou;hit;0.5,over,W. Perez,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,1.48,1.4762,1.48,-208,-210,-205,1.0025741769407939
+pp;0;ou;hit;0.5,under,W. Perez,DET Tigers(away) vs CIN Reds(home),MLB,Hits,,0.5,2.57,2.5,2.5,157,150,150,1.028
+pp;0;ou;sb;0.5,over,C. Keith,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,8.29,9.0,9.0,729,800,800,1.0856453558504222
+pp;0;ou;sb;0.5,under,C. Keith,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.06,1.05,1.04,-1667,-2000,-2500,1.0192307692307692
+pp;0;ou;sb;0.5,over,J. Candelario,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,10.74,15.0,12.0,974,1400,1100,1.3966480446927374
+pp;0;ou;sb;0.5,under,J. Candelario,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.03,1.0167,1.01,-3333,-5988,-10000,1.0198019801980198
+pp;0;ou;sb;0.5,over,J. India,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,7.24,7.5,7.5,624,650,650,1.0359116022099448
+pp;0;ou;sb;0.5,under,J. India,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.08,1.0667,1.06,-1250,-1499,-1600,1.0188679245283019
+pp;0;ou;sb;0.5,over,M. Canha,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,9.76,9.5,9.5,876,850,850,1.0273684210526315
+pp;0;ou;sb;0.5,under,M. Canha,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.04,1.0445,1.03,-2500,-2247,-3000,1.0140776699029126
+pp;0;ou;sb;0.5,over,M. Vierling,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,11.96,13.0,12.0,1096,1200,1100,1.0869565217391304
+pp;0;ou;sb;0.5,under,M. Vierling,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.02,1.02,1.01,-5000,-5000,-8000,1.00990099009901
+pp;0;ou;sb;0.5,over,R. Greene,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.0,974,950,900,1.074
+pp;0;ou;sb;0.5,under,R. Greene,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-3500,1.0131372549019608
+pp;0;ou;sb;0.5,over,S. Steer,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,7.73,8.0,8.5,673,700,750,1.0996119016817594
+pp;0;ou;sb;0.5,under,S. Steer,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.07,1.0601,1.05,-1429,-1664,-2000,1.019047619047619
+pp;0;ou;sb;0.5,over,W. Benson,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,6.13,5.75,6.5,513,475,550,1.1304347826086956
+pp;0;ou;sb;0.5,under,W. Benson,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.11,1.091,1.08,-909,-1099,-1200,1.027777777777778
+pp;0;ou;sb;0.5,over,W. Perez,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,6.82,6.0,6.5,582,500,550,1.1366666666666667
+pp;0;ou;sb;0.5,under,W. Perez,DET Tigers(away) vs CIN Reds(home),MLB,Stolen Bases,,0.5,1.09,1.0834,1.08,-1111,-1199,-1200,1.0092592592592593
+pp;0;ss;hit;1.5,over,J. Candelario,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,3.04,3.6,3.45,204,260,245,1.1842105263157894
+pp;0;ss;hit;2.5,over,J. Candelario,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,2.5,8.06,13.0,11.0,706,1200,1000,1.6129032258064515
+pp;0;ss;hit;1.5,over,C. Keith,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,2.69,2.9,2.9,169,190,190,1.0780669144981412
+pp;0;ss;hit;2.5,over,C. Keith,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,2.5,6.67,8.5,8.5,567,750,750,1.2743628185907048
+pp;0;ss;hit;0.5,over,M. Vierling,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,0.5,1.3,1.3334,1.33,-333,-300,-300,1.0256923076923077
+pp;0;ss;hit;2.5,over,M. Vierling,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,2.5,6.33,8.0,8.0,533,700,700,1.263823064770932
+pp;0;ss;hit;1.5,over,M. Canha,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,3.01,3.3,3.3,201,230,230,1.0963455149501662
+pp;0;ss;hit;2.5,over,M. Canha,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,2.5,7.98,11.0,10.5,698,1000,950,1.3784461152882206
+pp;0;ss;hit;1.5,over,R. Greene,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,2.77,3.2,3.05,177,220,205,1.1552346570397112
+pp;0;ss;hit;2.5,over,R. Greene,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,2.5,6.81,11.0,9.5,581,1000,850,1.6152716593245229
+pp;0;ss;hit;1.5,over,J. Rogers,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,4.11,4.75,4.8,311,375,380,1.167883211678832
+pp;0;ss;hit;1.5,over,W. Perez,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,3.08,3.6,3.7,208,260,270,1.2012987012987013
+pp;0;ss;hit;1.5,over,J. India,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,2.96,3.4,3.25,196,240,225,1.1486486486486487
+pp;0;ss;hit;2.5,over,J. India,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,2.5,7.9,11.5,11.0,690,1050,1000,1.4556962025316456
+pp;0;ss;hit;1.5,over,W. Benson,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,5.39,6.0,6.5,439,500,550,1.2059369202226347
+pp;0;ss;hit;1.5,over,S. Steer,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,1.5,3.05,3.5,3.65,205,250,265,1.1967213114754098
+pp;0;ss;hit;2.5,over,S. Steer,DET Tigers(away) vs CIN Reds(home),MLB,Hits Milestones,,2.5,8.21,13.0,13.0,721,1200,1200,1.5834348355663823
+pp;0;ss;so;3.5,over,C. Spiers,DET Tigers(away) vs CIN Reds(home),MLB,Strikeouts Milestones,,3.5,1.36,1.4762,1.37,-278,-210,-270,1.085441176470588
+pp;0;ss;so;5.5,over,C. Spiers,DET Tigers(away) vs CIN Reds(home),MLB,Strikeouts Milestones,,5.5,3.05,3.1,2.8,205,210,180,1.1071428571428572
+pp;0;ss;so;6.5,over,C. Spiers,DET Tigers(away) vs CIN Reds(home),MLB,Strikeouts Milestones,,6.5,5.39,5.25,4.7,439,425,370,1.1468085106382977
+pp;0;ss;so;4.5,over,R. Olson,DET Tigers(away) vs CIN Reds(home),MLB,Strikeouts Milestones,,4.5,1.38,1.4,1.37,-263,-250,-265,1.021897810218978
+pp;0;ss;so;6.5,over,R. Olson,DET Tigers(away) vs CIN Reds(home),MLB,Strikeouts Milestones,,6.5,2.59,2.6,2.6,159,160,160,1.0038610038610039
+pp;0;ss;so;7.5,over,R. Olson,DET Tigers(away) vs CIN Reds(home),MLB,Strikeouts Milestones,,7.5,3.88,4.0,4.1,288,300,310,1.056701030927835
+pp;0;ou;tb;1.5,over,J. Candelario,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,2.34,2.2,2.3,134,120,130,1.0636363636363635
+pp;0;ou;tb;1.5,under,J. Candelario,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,1.57,1.625,1.57,-175,-160,-175,1.0350318471337578
+pp;0;ou;tb;1.5,over,C. Keith,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,2.18,2.0,2.15,118,100,115,1.09
+pp;0;ou;tb;1.5,under,C. Keith,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,1.65,1.7143,1.62,-154,-140,-160,1.0582098765432097
+pp;0;ou;tb;1.5,over,M. Vierling,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,1.99,1.9091,1.95,-101,-110,-105,1.0423759886857682
+pp;0;ou;tb;1.5,under,M. Vierling,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,1.78,1.8,1.76,-128,-125,-130,1.0227272727272727
+pp;0;ou;tb;1.5,over,M. Canha,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,2.49,2.15,2.45,149,115,145,1.1581395348837211
+pp;0;ou;tb;1.5,under,M. Canha,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,1.51,1.6452,1.51,-196,-155,-195,1.0895364238410596
+pp;0;ou;tb;1.5,over,R. Greene,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,2.17,2.05,2.15,117,105,115,1.0585365853658537
+pp;0;ou;tb;1.5,under,R. Greene,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,1.66,1.6897,1.64,-152,-145,-155,1.0303048780487805
+pp;0;ou;tb;0.5,over,J. Rogers,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,0.5,1.7,1.6667,1.66,-143,-150,-150,1.0240963855421688
+pp;0;ou;tb;0.5,under,J. Rogers,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,0.5,2.1,2.1,2.1,110,110,110,1.0
+pp;0;ou;tb;1.5,over,J. India,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,2.49,2.25,2.45,149,125,145,1.1066666666666667
+pp;0;ou;tb;1.5,under,J. India,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,1.51,1.5883,1.5,-196,-170,-200,1.0588666666666666
+pp;0;ou;tb;0.5,over,W. Benson,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,0.5,1.95,1.8548,1.9,-105,-117,-110,1.0513262885486305
+pp;0;ou;tb;0.5,under,W. Benson,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,0.5,1.81,1.8548,1.8,-123,-117,-125,1.0304444444444445
+pp;0;ou;tb;1.5,over,S. Steer,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,2.39,2.2,2.35,139,120,135,1.0863636363636364
+pp;0;ou;tb;1.5,under,S. Steer,DET Tigers(away) vs CIN Reds(home),MLB,Total Bases,,1.5,1.55,1.625,1.55,-182,-160,-180,1.0483870967741935
+pp;0;ou;hit;0.5,over,A. Benintendi,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.39,1.3637,1.36,-256,-275,-275,1.0220588235294117
+pp;0;ou;hit;0.5,under,A. Benintendi,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,2.92,2.85,2.95,192,185,195,1.0350877192982457
+pp;0;ou;hit;0.5,over,J. Bell,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.54,1.5556,1.52,-185,-180,-190,1.023421052631579
+pp;0;ou;hit;0.5,under,J. Bell,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,2.42,2.3,2.4,142,130,140,1.0521739130434784
+pp;0;ou;hit;0.5,over,J. Burger,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.49,1.4762,1.47,-204,-210,-210,1.0136054421768708
+pp;0;ou;hit;0.5,under,J. Burger,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,2.55,2.5,2.5,155,150,150,1.02
+pp;0;ou;hit;0.5,over,J. Sanchez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.5,1.4445,1.47,-200,-225,-210,1.0384215991692627
+pp;0;ou;hit;0.5,under,J. Sanchez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,2.52,2.55,2.5,152,155,150,1.02
+pp;0;ou;hit;0.5,over,L. Sosa,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.53,1.4445,1.44,-189,-225,-225,1.0625
+pp;0;ou;hit;0.5,under,L. Sosa,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,2.44,2.55,2.6,144,155,160,1.0655737704918034
+pp;0;ou;hit;0.5,over,N. Lopez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.55,1.5883,1.55,-182,-170,-180,1.024709677419355
+pp;0;ou;hit;0.5,under,N. Lopez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,2.38,2.25,2.3,138,125,130,1.0577777777777777
+pp;0;ou;hit;0.5,over,V. Brujan,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.78,1.7143,1.74,-128,-140,-135,1.0383246806276616
+pp;0;ou;hit;0.5,under,V. Brujan,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.99,2.0,2.0,-101,100,100,1.0050251256281406
+pp;0;ou;hit;0.5,over,X. Edwards,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,1.57,1.5264,1.55,-175,-190,-180,1.0285639412997905
+pp;0;ou;hit;0.5,under,X. Edwards,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits,,0.5,2.34,2.35,2.3,134,135,130,1.0217391304347827
+pp;0;ou;sb;0.5,over,A. Benintendi,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,9.76,9.5,9.5,876,850,850,1.0273684210526315
+pp;0;ou;sb;0.5,under,A. Benintendi,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,1.04,1.0445,1.03,-2500,-2247,-3000,1.0140776699029126
+pp;0;ou;sb;0.5,over,J. Sanchez,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,11.96,12.0,11.0,1096,1100,1000,1.0909090909090908
+pp;0;ou;sb;0.5,under,J. Sanchez,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,1.02,1.0223,1.01,-5000,-4484,-6000,1.0121782178217822
+pp;0;ou;sb;0.5,over,L. Sosa,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,11.96,16.0,13.0,1096,1500,1200,1.3377926421404682
+pp;0;ou;sb;0.5,under,L. Sosa,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,1.02,1.0143,1.005,-5000,-6993,-20000,1.0149253731343284
+pp;0;ou;sb;0.5,over,N. Lopez,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,8.96,7.5,8.5,796,650,750,1.1946666666666668
+pp;0;ou;sb;0.5,under,N. Lopez,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,1.05,1.0667,1.05,-2000,-1499,-2000,1.0159047619047619
+pp;0;ou;sb;0.5,over,T. Pham,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,4.95,4.4,5.0,395,340,400,1.1363636363636362
+pp;0;ou;sb;0.5,under,T. Pham,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,1.16,1.1539,1.14,-625,-650,-700,1.0175438596491229
+pp;0;ou;sb;0.5,over,V. Brujan,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,7.0,6.0,7.0,600,500,600,1.1666666666666667
+pp;0;ou;sb;0.5,under,V. Brujan,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,1.09,1.0834,1.07,-1111,-1199,-1400,1.0186915887850467
+pp;0;ou;sb;0.5,over,X. Edwards,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,5.59,4.75,5.5,459,375,450,1.176842105263158
+pp;0;ou;sb;0.5,under,X. Edwards,CHI White Sox(away) vs MIA Marlins(home),MLB,Stolen Bases,,0.5,1.13,1.125,1.12,-769,-800,-800,1.0089285714285712
+pp;0;ss;hit;1.5,over,J. Burger,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,3.44,3.8,3.5,244,280,250,1.1046511627906976
+pp;0;ss;hit;2.5,over,J. Burger,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,2.5,10.54,13.0,12.0,954,1200,1100,1.2333965844402277
+pp;0;ss;hit;1.5,over,J. Bell,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,3.62,4.1,3.85,262,310,285,1.1325966850828728
+pp;0;ss;hit;1.5,over,J. Sanchez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,3.48,3.6,3.75,248,260,275,1.0775862068965518
+pp;0;ss;hit;2.5,over,J. Sanchez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,2.5,10.65,13.0,13.0,965,1200,1200,1.220657276995305
+pp;0;ss;hit;1.5,over,V. Brujan,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,4.3,5.25,5.25,330,425,425,1.2209302325581395
+pp;0;ss;hit;1.5,over,X. Edwards,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,3.64,4.1,4.2,264,310,320,1.153846153846154
+pp;0;ss;hit;1.5,over,A. Benintendi,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,2.82,3.0,3.0,182,200,200,1.0638297872340425
+pp;0;ss;hit;2.5,over,A. Benintendi,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,2.5,7.5,8.5,9.5,650,750,850,1.2666666666666666
+pp;0;ss;hit;1.5,over,L. Sosa,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,3.25,3.3,2.95,225,230,195,1.11864406779661
+pp;0;ss;hit;2.5,over,L. Sosa,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,2.5,8.91,11.0,8.0,791,1000,700,1.375
+pp;0;ss;hit;1.5,over,T. Pham,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,2.79,2.85,2.7,179,185,170,1.0555555555555556
+pp;0;ss;hit;2.5,over,T. Pham,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,2.5,7.37,8.0,7.5,637,700,650,1.0854816824966078
+pp;0;ss;hit;1.5,over,N. Lopez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,3.63,4.1,4.2,263,310,320,1.15702479338843
+pp;0;ss;hit;1.5,over,E. Jimenez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,1.5,3.43,3.1,3.15,243,210,215,1.1064516129032258
+pp;0;ss;hit;2.5,over,E. Jimenez,CHI White Sox(away) vs MIA Marlins(home),MLB,Hits Milestones,,2.5,11.3,9.0,9.5,1030,800,850,1.2555555555555555
+pp;0;ss;so;3.5,over,D. Thorpe,CHI White Sox(away) vs MIA Marlins(home),MLB,Strikeouts Milestones,,3.5,1.38,1.4445,1.44,-263,-225,-225,1.0467391304347826
+pp;0;ss;so;5.5,over,D. Thorpe,CHI White Sox(away) vs MIA Marlins(home),MLB,Strikeouts Milestones,,5.5,3.32,2.9,3.05,232,190,205,1.1448275862068966
+pp;0;ss;so;6.5,over,D. Thorpe,CHI White Sox(away) vs MIA Marlins(home),MLB,Strikeouts Milestones,,6.5,6.25,5.0,5.0,525,400,400,1.25
+pp;0;ou;tb;1.5,over,J. Burger,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,2.36,2.2,2.4,136,120,140,1.0909090909090908
+pp;0;ou;tb;1.5,under,J. Burger,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,1.56,1.625,1.52,-179,-160,-190,1.069078947368421
+pp;0;ou;tb;1.5,over,J. Sanchez,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,2.36,2.15,2.25,136,115,125,1.0976744186046512
+pp;0;ou;tb;1.5,under,J. Sanchez,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,1.56,1.6452,1.58,-179,-155,-170,1.0546153846153845
+pp;0;ou;tb;0.5,over,V. Brujan,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,0.5,1.77,1.7143,1.74,-130,-140,-135,1.0324913959050341
+pp;0;ou;tb;0.5,under,V. Brujan,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,0.5,2.01,2.0,2.0,101,100,100,1.005
+pp;0;ou;tb;0.5,over,X. Edwards,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,0.5,1.59,1.5264,1.55,-169,-190,-180,1.0416666666666667
+pp;0;ou;tb;0.5,under,X. Edwards,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,0.5,2.29,2.35,2.3,129,135,130,1.0262008733624455
+pp;0;ou;tb;1.5,over,A. Benintendi,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,2.26,2.1,2.2,126,110,120,1.0761904761904761
+pp;0;ou;tb;1.5,under,A. Benintendi,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,1.61,1.6667,1.62,-164,-150,-160,1.0352173913043479
+pp;0;ou;tb;1.5,over,L. Sosa,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,2.86,2.35,2.6,186,135,160,1.2170212765957447
+pp;0;ou;tb;1.5,under,L. Sosa,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,1.4,1.5264,1.45,-250,-190,-220,1.0902857142857143
+pp;0;ou;tb;1.5,over,T. Pham,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,2.3,2.1,2.2,130,110,120,1.0952380952380951
+pp;0;ou;tb;1.5,under,T. Pham,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,1.5,1.59,1.6667,1.6,-169,-150,-165,1.0482389937106917
+pp;0;ou;tb;0.5,over,J. Bell,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,0.5,1.54,1.5556,1.52,-185,-180,-190,1.023421052631579
+pp;0;ou;tb;0.5,under,J. Bell,CHI White Sox(away) vs MIA Marlins(home),MLB,Total Bases,,0.5,2.41,2.3,2.4,141,130,140,1.047826086956522
+pp;0;ou;hit;0.5,over,A. Gimenez,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.5,1.5,1.47,-200,-200,-210,1.0204081632653061
+pp;0;ou;hit;0.5,under,A. Gimenez,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,2.53,2.4,2.5,153,140,150,1.0541666666666667
+pp;0;ou;hit;0.5,over,B. Wisely,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.77,1.7143,1.71,-130,-140,-140,1.0350877192982457
+pp;0;ou;hit;0.5,under,B. Wisely,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,2.01,2.0,2.0,101,100,100,1.005
+pp;0;ou;hit;0.5,over,H. Ramos,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.52,1.5,1.5,-192,-200,-200,1.0133333333333334
+pp;0;ou;hit;0.5,under,H. Ramos,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,2.46,2.4,2.45,146,140,145,1.0250000000000001
+pp;0;ou;hit;0.5,over,J. Soler,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.57,1.5556,1.55,-175,-180,-180,1.0129032258064516
+pp;0;ou;hit;0.5,under,J. Soler,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,2.35,2.3,2.3,135,130,130,1.0217391304347827
+pp;0;ou;hit;0.5,over,M. Chapman,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.62,1.625,1.6,-161,-160,-165,1.015625
+pp;0;ou;hit;0.5,under,M. Chapman,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,2.23,2.2,2.2,123,120,120,1.0136363636363634
+pp;0;ou;hit;0.5,over,M. Conforto,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.68,1.7143,1.66,-147,-140,-150,1.032710843373494
+pp;0;ou;hit;0.5,under,M. Conforto,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,2.14,2.0,2.1,114,100,110,1.07
+pp;0;ou;hit;0.5,over,N. Ahmed,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.92,1.9091,1.95,-109,-110,-105,1.0214237075061547
+pp;0;ou;hit;0.5,under,N. Ahmed,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.84,1.8,1.8,-119,-125,-125,1.0222222222222221
+pp;0;ou;hit;0.5,over,P. Bailey,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,1.57,1.5556,1.55,-175,-180,-180,1.0129032258064516
+pp;0;ou;hit;0.5,under,P. Bailey,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,0.5,2.35,2.3,2.35,135,130,135,1.0217391304347827
+pp;0;ou;hit;1.5,over,S. Kwan,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,1.5,2.78,2.7,2.75,178,170,175,1.0296296296296295
+pp;0;ou;hit;1.5,under,S. Kwan,SF Giants(away) vs CLE Guardians(home),MLB,Hits,,1.5,1.42,1.4,1.4,-238,-250,-245,1.0142857142857142
+pp;0;ou;sb;0.5,over,A. Gimenez,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,4.78,4.4,4.8,378,340,380,1.0909090909090908
+pp;0;ou;sb;0.5,under,A. Gimenez,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,1.17,1.1539,1.15,-588,-650,-650,1.0173913043478262
+pp;0;ou;sb;0.5,over,B. Wisely,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,10.74,13.0,11.0,974,1200,1000,1.2104283054003724
+pp;0;ou;sb;0.5,under,B. Wisely,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,1.03,1.02,1.01,-3333,-5000,-6000,1.0198019801980198
+pp;0;ou;sb;0.5,over,J. Naylor,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,10.74,15.0,12.0,974,1400,1100,1.3966480446927374
+pp;0;ou;sb;0.5,under,J. Naylor,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,1.03,1.0167,1.01,-3333,-5988,-10000,1.0198019801980198
+pp;0;ou;sb;0.5,over,M. Chapman,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,10.74,13.0,12.0,974,1200,1100,1.2104283054003724
+pp;0;ou;sb;0.5,under,M. Chapman,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,1.03,1.02,1.01,-3333,-5000,-10000,1.0198019801980198
+pp;0;ou;sb;0.5,over,N. Ahmed,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,11.96,12.0,12.0,1096,1100,1100,1.0033444816053512
+pp;0;ou;sb;0.5,under,N. Ahmed,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,1.02,1.0223,1.01,-5000,-4484,-8000,1.0121782178217822
+pp;0;ou;sb;0.5,over,S. Kwan,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,7.73,8.5,8.5,673,750,750,1.0996119016817594
+pp;0;ou;sb;0.5,under,S. Kwan,SF Giants(away) vs CLE Guardians(home),MLB,Stolen Bases,,0.5,1.07,1.0556,1.04,-1429,-1799,-2500,1.028846153846154
+pp;0;ou;tb;0.5,over,B. Wisely,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,1.76,1.7143,1.71,-132,-140,-140,1.0292397660818713
+pp;0;ou;tb;0.5,under,B. Wisely,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,2.02,2.0,2.0,102,100,100,1.01
+pp;0;ou;tb;0.5,over,M. Conforto,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,1.68,1.7143,1.66,-147,-140,-150,1.032710843373494
+pp;0;ou;tb;0.5,under,M. Conforto,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,2.13,2.0,2.1,113,100,110,1.065
+pp;0;ou;tb;0.5,over,P. Bailey,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,1.57,1.5556,1.55,-175,-180,-180,1.0129032258064516
+pp;0;ou;tb;0.5,under,P. Bailey,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,2.35,2.3,2.35,135,130,135,1.0217391304347827
+pp;0;ou;tb;0.5,over,N. Ahmed,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,1.97,1.9091,1.95,-103,-110,-105,1.0318998480959614
+pp;0;ou;tb;0.5,under,N. Ahmed,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,1.8,1.8,1.8,-125,-125,-125,1.0
+pp;0;ou;tb;0.5,over,M. Chapman,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,1.62,1.625,1.6,-161,-160,-165,1.015625
+pp;0;ou;tb;0.5,under,M. Chapman,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,2.23,2.2,2.2,123,120,120,1.0136363636363634
+pp;0;ou;tb;1.5,over,J. Naylor,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,1.5,2.2,2.0,2.15,120,100,115,1.1
+pp;0;ou;tb;1.5,under,J. Naylor,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,1.5,1.64,1.7143,1.64,-156,-140,-155,1.0453048780487806
+pp;0;ou;tb;1.5,over,S. Kwan,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,1.5,2.17,2.05,2.1,117,105,110,1.0585365853658537
+pp;0;ou;tb;1.5,under,S. Kwan,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,1.5,1.66,1.6897,1.66,-152,-145,-150,1.0178915662650603
+pp;0;ou;tb;0.5,over,A. Gimenez,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,1.5,1.5,1.47,-200,-200,-210,1.0204081632653061
+pp;0;ou;tb;0.5,under,A. Gimenez,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,2.52,2.4,2.5,152,140,150,1.05
+pp;0;ou;tb;0.5,over,J. Soler,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,1.58,1.5556,1.55,-172,-180,-180,1.0193548387096774
+pp;0;ou;tb;0.5,under,J. Soler,SF Giants(away) vs CLE Guardians(home),MLB,Total Bases,,0.5,2.31,2.3,2.3,131,130,130,1.0043478260869567
+pp;0;ss;hit;1.5,over,B. Wisely,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,4.24,5.25,5.0,324,425,400,1.2382075471698113
+pp;0;ss;hit;1.5,over,J. Soler,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,3.67,4.1,3.95,267,310,295,1.1171662125340598
+pp;0;ss;hit;1.5,over,H. Ramos,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,3.21,3.8,3.65,221,280,265,1.1838006230529594
+pp;0;ss;hit;2.5,over,H. Ramos,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,2.5,8.76,13.0,13.0,776,1200,1200,1.4840182648401827
+pp;0;ss;hit;1.5,over,M. Conforto,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,4.04,5.0,4.7,304,400,370,1.2376237623762376
+pp;0;ss;hit;1.5,over,P. Bailey,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,3.37,4.1,4.1,237,310,310,1.2166172106824924
+pp;0;ss;hit;1.5,over,N. Ahmed,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,5.26,6.5,6.5,426,550,550,1.2357414448669202
+pp;0;ss;hit;1.5,over,M. Chapman,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,3.82,4.3,4.5,282,330,350,1.1780104712041886
+pp;0;ss;hit;1.5,over,J. Naylor,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,2.82,3.0,2.9,182,200,190,1.0638297872340425
+pp;0;ss;hit;2.5,over,J. Naylor,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,2.5,7.5,9.0,9.0,650,800,800,1.2
+pp;0;ss;hit;1.5,over,A. Gimenez,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,1.5,3.46,3.8,3.65,246,280,265,1.0982658959537572
+pp;0;ss;hit;2.5,over,A. Gimenez,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,2.5,10.5,15.0,12.0,950,1400,1100,1.4285714285714286
+pp;0;ss;hit;0.5,over,S. Kwan,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,0.5,1.35,1.3334,1.29,-286,-300,-340,1.0465116279069768
+pp;0;ss;hit;2.5,over,S. Kwan,SF Giants(away) vs CLE Guardians(home),MLB,Hits Milestones,,2.5,5.73,9.0,7.5,473,800,650,1.5706806282722512
+pp;0;ss;so;5.5,over,T. Bibee,SF Giants(away) vs CLE Guardians(home),MLB,Strikeouts Milestones,,5.5,1.4,1.4167,1.33,-250,-240,-300,1.0651879699248121
+pp;0;ss;so;7.5,over,T. Bibee,SF Giants(away) vs CLE Guardians(home),MLB,Strikeouts Milestones,,7.5,2.65,2.6,2.35,165,160,135,1.127659574468085
+pp;0;ss;so;8.5,over,T. Bibee,SF Giants(away) vs CLE Guardians(home),MLB,Strikeouts Milestones,,8.5,3.98,3.8,3.5,298,280,250,1.1371428571428572
+pp;0;ou;hit;0.5,over,A. Duvall,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.64,1.625,1.62,-156,-160,-160,1.0123456790123455
+pp;0;ou;hit;0.5,under,A. Duvall,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.2,2.2,2.2,120,120,120,1.0
+pp;0;ou;hit;0.5,over,A. Riley,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.4,1.3637,1.37,-250,-275,-265,1.026618757791303
+pp;0;ou;hit;0.5,under,A. Riley,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.86,2.75,2.9,186,175,190,1.0545454545454545
+pp;0;ou;hit;0.5,over,B. Stott,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.46,1.4445,1.45,-217,-225,-220,1.0107303565247492
+pp;0;ou;hit;0.5,under,B. Stott,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.64,2.55,2.6,164,155,160,1.035294117647059
+pp;0;ou;hit;0.5,over,J. Kelenic,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.48,1.4762,1.46,-208,-210,-215,1.0136986301369864
+pp;0;ou;hit;0.5,under,J. Kelenic,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.58,2.5,2.55,158,150,155,1.032
+pp;0;ou;hit;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.64,1.625,1.6,-156,-160,-165,1.025
+pp;0;ou;hit;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.64,1.625,1.8,-156,-160,-125,1.1076923076923078
+pp;0;ou;hit;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.74,1.625,1.6,-135,-160,-165,1.0875
+pp;0;ou;hit;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.74,1.625,1.8,-135,-160,-125,1.1076923076923078
+pp;0;ou;hit;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.21,2.2,2.2,121,120,120,1.0045454545454544
+pp;0;ou;hit;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.21,2.2,1.95,121,120,-105,1.1333333333333333
+pp;0;ou;hit;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.05,2.2,2.2,105,120,120,1.0731707317073174
+pp;0;ou;hit;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.05,2.2,1.95,105,120,-105,1.1282051282051284
+pp;0;ou;hit;0.5,over,M. Olson,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.5,1.4445,1.48,-200,-225,-205,1.0384215991692627
+pp;0;ou;hit;0.5,under,M. Olson,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.52,2.55,2.5,152,155,150,1.02
+pp;0;ou;hit;0.5,over,N. Castellanos,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.44,1.4445,1.42,-227,-225,-235,1.0172535211267606
+pp;0;ou;hit;0.5,under,N. Castellanos,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.7,2.55,2.7,170,155,170,1.058823529411765
+pp;0;ou;hit;0.5,over,O. Albies,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.41,1.3637,1.4,-244,-275,-250,1.0339517489183838
+pp;0;ou;hit;0.5,under,O. Albies,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.8,2.75,2.8,180,175,180,1.018181818181818
+pp;0;ou;sb;0.5,over,B. Stott,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,5.14,4.2,4.7,414,320,370,1.2238095238095237
+pp;0;ou;sb;0.5,under,B. Stott,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.15,1.16,1.16,-667,-625,-600,1.008695652173913
+pp;0;ou;sb;0.5,over,J. Kelenic,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,8.29,7.5,8.0,729,650,700,1.1053333333333333
+pp;0;ou;sb;0.5,under,J. Kelenic,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.06,1.0667,1.05,-1667,-1499,-2000,1.0159047619047619
+pp;0;ou;sb;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,4.78,4.0,4.5,378,300,350,1.195
+pp;0;ou;sb;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,4.78,4.0,8.0,378,300,700,2.0
+pp;0;ou;sb;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,8.29,4.0,4.5,729,300,350,2.0725
+pp;0;ou;sb;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,8.29,4.0,8.0,729,300,700,2.0725
+pp;0;ou;sb;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.17,1.1819,1.17,-588,-550,-575,1.0101709401709402
+pp;0;ou;sb;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,1.17,1.1819,1.05,-588,-550,-1800,1.1256190476190475
+pp;0;ou;sb;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.06,1.1819,1.17,-1667,-550,-575,1.115
+pp;0;ou;sb;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,1.06,1.1819,1.05,-1667,-550,-1800,1.1256190476190475
+pp;0;ou;sb;0.5,over,N. Castellanos,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,11.96,13.0,12.0,1096,1200,1100,1.0869565217391304
+pp;0;ou;sb;0.5,under,N. Castellanos,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.02,1.02,1.01,-5000,-5000,-8000,1.00990099009901
+pp;0;ou;sb;0.5,over,O. Albies,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,8.29,8.0,8.5,729,700,750,1.0625
+pp;0;ou;sb;0.5,under,O. Albies,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.06,1.0601,1.05,-1667,-1664,-2000,1.0096190476190476
+pp;0;ou;sb;0.5,over,T. Turner,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,5.35,4.4,5.0,435,340,400,1.2159090909090908
+pp;0;ou;sb;0.5,under,T. Turner,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.14,1.1539,1.14,-714,-650,-700,1.0121929824561404
+pp;0;ss;hit;1.5,over,M. Ozuna,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,2.77,2.9,3.15,177,190,215,1.1371841155234657
+pp;0;ss;hit;2.5,over,M. Ozuna,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,6.81,9.0,9.5,581,800,850,1.3950073421439062
+pp;0;ss;hit;1.5,over,A. Riley,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,2.85,3.1,2.95,185,210,195,1.087719298245614
+pp;0;ss;hit;2.5,over,A. Riley,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,7.59,11.0,10.0,659,1000,900,1.4492753623188406
+pp;0;ss;hit;1.5,over,T. Turner,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,2.72,2.85,2.9,172,185,190,1.0661764705882353
+pp;0;ss;hit;2.5,over,T. Turner,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,6.96,8.0,9.5,596,700,850,1.3649425287356323
+pp;0;ss;hit;1.5,over,A. Duvall,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,3.88,4.3,4.7,288,330,370,1.2113402061855671
+pp;0;ss;hit;1.5,over,M. Olson,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,3.47,3.5,3.65,247,250,265,1.0518731988472623
+pp;0;ss;hit;2.5,over,M. Olson,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,10.58,12.0,13.0,958,1100,1200,1.2287334593572778
+pp;0;ss;hit;1.5,over,B. Stott,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,3.03,3.4,3.3,203,240,230,1.1221122112211221
+pp;0;ss;hit;2.5,over,B. Stott,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,8.17,11.5,11.0,717,1050,1000,1.4075887392900857
+pp;0;ss;hit;1.5,over,N. Castellanos,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,2.98,3.3,3.3,198,230,230,1.1073825503355703
+pp;0;ss;hit;2.5,over,N. Castellanos,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,8.09,11.0,11.0,709,1000,1000,1.3597033374536465
+pp;0;ss;hit;0.5,over,A. Bohm,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,0.5,1.32,1.3847,1.37,-312,-260,-270,1.0490151515151516
+pp;0;ss;hit;2.5,over,A. Bohm,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,6.52,9.5,8.5,552,850,750,1.4570552147239264
+pp;0;ss;hit;1.5,over,O. Albies,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,2.87,3.1,2.9,187,210,190,1.0801393728222997
+pp;0;ss;hit;2.5,over,O. Albies,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,7.64,10.0,9.0,664,900,800,1.3089005235602096
+pp;0;ss;hit;1.5,over,J. Kelenic,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,3.08,3.6,3.6,208,260,260,1.1688311688311688
+pp;0;ss;hit;2.5,over,J. Kelenic,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,2.5,8.29,12.0,12.0,729,1100,1100,1.4475271411338964
+pp;0;ss;hit;1.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,3.92,4.5,4.5,292,350,350,1.1479591836734695
+pp;0;ss;hit;1.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.92,4.5,5.5,292,350,450,1.403061224489796
+pp;0;ss;hit;1.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,3.84,4.5,4.5,284,350,350,1.171875
+pp;0;ss;hit;1.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.84,4.5,5.5,284,350,450,1.4322916666666667
+pp;0;ss;so;4.5,over,M. Fried,PHI Phillies(away) vs ATL Braves(home),MLB,Strikeouts Milestones,,4.5,1.4,1.5715,1.47,-250,-175,-210,1.1225
+pp;0;ss;so;6.5,over,M. Fried,PHI Phillies(away) vs ATL Braves(home),MLB,Strikeouts Milestones,,6.5,3.07,3.1,2.95,207,210,195,1.0508474576271185
+pp;0;ss;so;7.5,over,M. Fried,PHI Phillies(away) vs ATL Braves(home),MLB,Strikeouts Milestones,,7.5,5.23,5.0,4.8,423,400,380,1.0895833333333336
+pp;0;ss;so;5.5,over,A. Nola,PHI Phillies(away) vs ATL Braves(home),MLB,Strikeouts Milestones,,5.5,1.49,1.6667,1.52,-204,-150,-190,1.1185906040268456
+pp;0;ss;so;7.5,over,A. Nola,PHI Phillies(away) vs ATL Braves(home),MLB,Strikeouts Milestones,,7.5,3.08,3.3,2.85,208,230,185,1.157894736842105
+pp;0;ss;so;8.5,over,A. Nola,PHI Phillies(away) vs ATL Braves(home),MLB,Strikeouts Milestones,,8.5,5.03,5.0,4.4,403,400,340,1.143181818181818
+pp;0;ou;tb;1.5,over,M. Ozuna,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,2.07,1.9091,2.0,107,-110,100,1.0842805510449949
+pp;0;ou;tb;1.5,under,M. Ozuna,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,1.72,1.8,1.74,-139,-125,-135,1.0465116279069768
+pp;0;ou;tb;1.5,over,A. Riley,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,2.17,2.1,2.15,117,110,115,1.0333333333333332
+pp;0;ou;tb;1.5,under,A. Riley,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,1.66,1.6667,1.64,-152,-150,-155,1.0162804878048781
+pp;0;ou;tb;1.5,over,T. Turner,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,2.26,2.0,2.25,126,100,125,1.13
+pp;0;ou;tb;1.5,under,T. Turner,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,1.61,1.7143,1.58,-164,-140,-170,1.085
+pp;0;ou;tb;0.5,over,A. Duvall,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,1.65,1.625,1.62,-154,-160,-160,1.0185185185185184
+pp;0;ou;tb;0.5,under,A. Duvall,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,2.19,2.2,2.2,119,120,120,1.0045662100456623
+pp;0;ou;tb;1.5,over,M. Olson,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,2.3,2.15,2.3,130,115,130,1.069767441860465
+pp;0;ou;tb;1.5,under,M. Olson,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,1.59,1.6452,1.57,-169,-155,-175,1.0478980891719745
+pp;0;ou;tb;1.5,over,N. Castellanos,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,2.39,2.3,2.3,139,130,130,1.039130434782609
+pp;0;ou;tb;1.5,under,N. Castellanos,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,1.55,1.5556,1.55,-182,-180,-180,1.0036129032258065
+pp;0;ou;tb;1.5,over,A. Bohm,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,2.18,2.2,2.15,118,120,115,1.0232558139534884
+pp;0;ou;tb;1.5,under,A. Bohm,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,1.65,1.625,1.62,-154,-160,-160,1.0185185185185184
+pp;0;ou;tb;1.5,over,O. Albies,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,2.22,2.05,2.15,122,105,115,1.082926829268293
+pp;0;ou;tb;1.5,under,O. Albies,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,1.63,1.6897,1.64,-159,-145,-155,1.0366257668711658
+pp;0;ou;tb;1.5,over,J. Kelenic,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,2.36,2.25,2.3,136,125,130,1.0488888888888888
+pp;0;ou;tb;1.5,under,J. Kelenic,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,1.5,1.56,1.5883,1.57,-179,-170,-175,1.0181410256410257
+pp;0;ou;tb;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,1.65,1.625,1.6,-154,-160,-165,1.0312499999999998
+pp;0;ou;tb;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.65,1.625,1.74,-154,-160,-135,1.0707692307692307
+pp;0;ou;tb;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,1.77,1.625,1.6,-130,-160,-165,1.10625
+pp;0;ou;tb;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.77,1.625,1.74,-130,-160,-135,1.0892307692307692
+pp;0;ou;tb;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,2.19,2.2,2.2,119,120,120,1.0045662100456623
+pp;0;ou;tb;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.19,2.2,2.0,119,120,100,1.1
+pp;0;ou;tb;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,2.0,2.2,2.2,100,120,120,1.1
+pp;0;ou;tb;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.0,2.2,2.0,100,120,100,1.1
+pp;0;ou;hit;0.5,over,A. Garcia,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.53,1.4762,1.5,-189,-210,-200,1.0364449261617668
+pp;0;ou;hit;0.5,under,A. Garcia,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.44,2.5,2.45,144,150,145,1.0245901639344261
+pp;0;ou;hit;0.5,over,B. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.58,1.5264,1.57,-172,-190,-175,1.0351153039832286
+pp;0;ou;hit;0.5,under,B. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.31,2.35,2.3,131,135,130,1.0217391304347827
+pp;0;ou;hit;0.5,over,B. Rortvedt,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.84,1.8,1.8,-119,-125,-125,1.0222222222222221
+pp;0;ou;hit;0.5,under,B. Rortvedt,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.92,1.9091,1.9,-109,-110,-110,1.0105263157894737
+pp;0;ou;hit;0.5,over,C. Seager,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.45,1.4167,1.44,-222,-240,-225,1.0235053292863696
+pp;0;ou;hit;0.5,under,C. Seager,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.68,2.6,2.6,168,160,160,1.0307692307692309
+pp;0;ou;hit;0.5,over,I. Paredes,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.5,1.4762,1.47,-200,-210,-210,1.0204081632653061
+pp;0;ou;hit;0.5,under,I. Paredes,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.52,2.5,2.55,152,150,155,1.02
+pp;0;ou;hit;0.5,over,J. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.55,1.5264,1.54,-182,-190,-185,1.0154612159329142
+pp;0;ou;hit;0.5,under,J. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.39,2.35,2.35,139,135,135,1.0170212765957447
+pp;0;ou;hit;0.5,over,J. Smith,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.61,1.5883,1.6,-164,-170,-165,1.0136624063464081
+pp;0;ou;hit;0.5,under,J. Smith,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.25,2.25,2.2,125,125,120,1.0227272727272727
+pp;0;ou;hit;0.5,over,L. Taveras,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.64,1.5883,1.6,-156,-170,-165,1.0325505257193224
+pp;0;ou;hit;0.5,under,L. Taveras,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.21,2.25,2.2,121,125,120,1.0227272727272727
+pp;0;ou;hit;0.5,over,N. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.57,1.5556,1.57,-175,-180,-175,1.0092568783749036
+pp;0;ou;hit;0.5,under,N. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.34,2.3,2.3,134,130,130,1.0173913043478262
+pp;0;ou;hit;0.5,over,R. Arozarena,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.48,1.4445,1.44,-208,-225,-225,1.027777777777778
+pp;0;ou;hit;0.5,under,R. Arozarena,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.59,2.55,2.6,159,155,160,1.019607843137255
+pp;0;ou;hit;0.5,over,T. Jankowski,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.76,1.7693,1.74,-132,-130,-135,1.0168390804597702
+pp;0;ou;hit;0.5,under,T. Jankowski,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.02,1.9524,2.0,102,-105,100,1.0346240524482688
+pp;0;ou;hit;0.5,over,T. Walls,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.89,1.8548,1.86,-112,-117,-115,1.0189777873625188
+pp;0;ou;hit;0.5,under,T. Walls,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.87,1.8548,1.83,-115,-117,-120,1.0218579234972678
+pp;0;ou;hit;0.5,over,W. Langford,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,1.5,1.4445,1.47,-200,-225,-210,1.0384215991692627
+pp;0;ou;hit;0.5,under,W. Langford,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,0.5,2.52,2.55,2.5,152,155,150,1.02
+pp;0;ou;sb;0.5,over,A. Garcia,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.5,974,950,950,1.022857142857143
+pp;0;ou;sb;0.5,under,A. Garcia,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-5000,1.0131372549019608
+pp;0;ou;sb;0.5,over,B. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,11.96,13.0,12.0,1096,1200,1100,1.0869565217391304
+pp;0;ou;sb;0.5,under,B. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.02,1.02,1.01,-5000,-5000,-10000,1.00990099009901
+pp;0;ou;sb;0.5,over,J. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,4.62,4.0,4.4,362,300,340,1.155
+pp;0;ou;sb;0.5,under,J. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.18,1.1819,1.18,-556,-550,-550,1.0016101694915254
+pp;0;ou;sb;0.5,over,J. Smith,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.0,974,950,900,1.074
+pp;0;ou;sb;0.5,under,J. Smith,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-4000,1.0131372549019608
+pp;0;ou;sb;0.5,over,L. Taveras,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,7.73,6.5,7.0,673,550,600,1.1892307692307693
+pp;0;ou;sb;0.5,under,L. Taveras,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.07,1.08,1.07,-1429,-1250,-1400,1.0093457943925235
+pp;0;ou;sb;0.5,over,R. Arozarena,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,6.46,5.25,6.0,546,425,500,1.2304761904761905
+pp;0;ou;sb;0.5,under,R. Arozarena,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.1,1.1,1.1,-1000,-1000,-1000,1.0
+pp;0;ou;sb;0.5,over,T. Jankowski,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,5.59,5.0,5.5,459,400,450,1.1179999999999999
+pp;0;ou;sb;0.5,under,T. Jankowski,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.13,1.1112,1.12,-769,-899,-800,1.0169186465082793
+pp;0;ou;sb;0.5,over,T. Walls,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,6.13,4.75,5.75,513,375,475,1.2905263157894737
+pp;0;ou;sb;0.5,under,T. Walls,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.11,1.125,1.11,-909,-800,-900,1.0135135135135134
+pp;0;ou;sb;0.5,over,W. Langford,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,6.46,5.0,6.0,546,400,500,1.292
+pp;0;ou;sb;0.5,under,W. Langford,TB Rays(away) vs TEX Rangers(home),MLB,Stolen Bases,,0.5,1.1,1.1112,1.1,-1000,-899,-1000,1.010181818181818
+pp;0;ss;hit;1.5,over,C. Seager,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.01,3.5,3.5,201,250,250,1.1627906976744187
+pp;0;ss;hit;2.5,over,C. Seager,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,2.5,8.13,12.0,12.0,713,1100,1100,1.4760147601476012
+pp;0;ss;hit;1.5,over,A. Garcia,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.57,4.0,3.65,257,300,265,1.1204481792717087
+pp;0;ss;hit;1.5,over,L. Taveras,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.94,4.5,4.5,294,350,350,1.1421319796954315
+pp;0;ss;hit;1.5,over,T. Jankowski,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,4.31,5.25,5.25,331,425,425,1.2180974477958237
+pp;0;ss;hit;1.5,over,N. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.71,4.3,4.3,271,330,330,1.1590296495956873
+pp;0;ss;hit;1.5,over,W. Langford,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.48,3.6,3.5,248,260,250,1.0344827586206897
+pp;0;ss;hit;2.5,over,W. Langford,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,2.5,10.65,13.0,12.0,965,1200,1100,1.220657276995305
+pp;0;ss;hit;1.5,over,J. Smith,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.79,4.3,4.6,279,330,360,1.213720316622691
+pp;0;ss;hit;1.5,over,T. Walls,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,6.15,6.0,6.5,515,500,550,1.0833333333333333
+pp;0;ss;hit;1.5,over,B. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.75,4.1,4.1,275,310,310,1.0933333333333333
+pp;0;ss;hit;1.5,over,J. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.31,4.0,4.1,231,300,310,1.2386706948640482
+pp;0;ss;hit;1.5,over,I. Paredes,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.48,3.5,3.7,248,250,270,1.0632183908045978
+pp;0;ss;hit;2.5,over,I. Paredes,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,2.5,10.65,11.5,13.0,965,1050,1200,1.220657276995305
+pp;0;ss;hit;1.5,over,B. Rortvedt,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,5.12,5.5,5.75,412,450,475,1.123046875
+pp;0;ss;hit;1.5,over,R. Arozarena,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,1.5,3.4,3.6,3.35,240,260,235,1.0746268656716418
+pp;0;ss;hit;2.5,over,R. Arozarena,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,2.5,10.35,12.0,11.0,935,1100,1000,1.1594202898550725
+pp;0;ss;so;3.5,over,M. Lorenzen,TB Rays(away) vs TEX Rangers(home),MLB,Strikeouts Milestones,,3.5,1.29,1.3449,1.35,-345,-290,-285,1.0465116279069768
+pp;0;ss;so;5.5,over,M. Lorenzen,TB Rays(away) vs TEX Rangers(home),MLB,Strikeouts Milestones,,5.5,2.68,2.6,2.5,168,160,150,1.072
+pp;0;ss;so;6.5,over,M. Lorenzen,TB Rays(away) vs TEX Rangers(home),MLB,Strikeouts Milestones,,6.5,4.45,4.1,3.85,345,310,285,1.155844155844156
+pp;0;ou;tb;1.5,over,C. Seager,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,2.18,2.05,2.15,118,105,115,1.0634146341463417
+pp;0;ou;tb;1.5,under,C. Seager,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,1.65,1.6897,1.62,-154,-145,-160,1.0430246913580246
+pp;0;ou;tb;1.5,over,A. Garcia,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,2.44,2.15,2.35,144,115,135,1.1348837209302325
+pp;0;ou;tb;1.5,under,A. Garcia,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,1.53,1.6452,1.55,-189,-155,-180,1.0752941176470587
+pp;0;ou;tb;0.5,over,L. Taveras,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.64,1.5883,1.6,-156,-170,-165,1.0325505257193224
+pp;0;ou;tb;0.5,under,L. Taveras,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,2.21,2.25,2.2,121,125,120,1.0227272727272727
+pp;0;ou;tb;0.5,over,T. Jankowski,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.76,1.7693,1.74,-132,-130,-135,1.0168390804597702
+pp;0;ou;tb;0.5,under,T. Jankowski,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,2.02,1.9524,2.0,102,-105,100,1.0346240524482688
+pp;0;ou;tb;0.5,over,N. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.58,1.5556,1.57,-172,-180,-175,1.0156852661352533
+pp;0;ou;tb;0.5,under,N. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,2.31,2.3,2.3,131,130,130,1.0043478260869567
+pp;0;ou;tb;1.5,over,W. Langford,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,2.55,2.25,2.5,155,125,150,1.1333333333333333
+pp;0;ou;tb;1.5,under,W. Langford,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,1.49,1.5883,1.48,-204,-170,-205,1.0731756756756756
+pp;0;ou;tb;0.5,over,J. Smith,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.64,1.5883,1.6,-156,-170,-165,1.0325505257193224
+pp;0;ou;tb;0.5,under,J. Smith,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,2.21,2.25,2.2,121,125,120,1.0227272727272727
+pp;0;ou;tb;0.5,over,T. Walls,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.93,1.8548,1.86,-108,-117,-115,1.0405434548199266
+pp;0;ou;tb;0.5,under,T. Walls,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.83,1.8548,1.83,-120,-117,-120,1.013551912568306
+pp;0;ou;tb;0.5,over,J. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.57,1.5264,1.54,-175,-190,-185,1.0285639412997905
+pp;0;ou;tb;0.5,under,J. Lowe,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,2.35,2.35,2.35,135,135,135,1.0
+pp;0;ou;tb;1.5,over,I. Paredes,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,2.41,2.25,2.35,141,125,135,1.0711111111111111
+pp;0;ou;tb;1.5,under,I. Paredes,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,1.54,1.5883,1.54,-185,-170,-185,1.0313636363636363
+pp;0;ou;tb;0.5,over,B. Rortvedt,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.86,1.8,1.8,-116,-125,-125,1.0333333333333334
+pp;0;ou;tb;0.5,under,B. Rortvedt,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,0.5,1.9,1.9091,1.9,-111,-110,-110,1.0047894736842107
+pp;0;ou;tb;1.5,over,R. Arozarena,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,2.41,2.25,2.35,141,125,135,1.0711111111111111
+pp;0;ou;tb;1.5,under,R. Arozarena,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,1.54,1.5883,1.54,-185,-170,-185,1.0313636363636363
+pp;0;ou;hit;1.5,over,B. Rodgers,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,2.86,2.85,2.8,186,185,180,1.0214285714285714
+pp;0;ou;hit;1.5,under,B. Rodgers,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,1.4,1.3637,1.4,-250,-275,-250,1.026618757791303
+pp;0;ou;hit;1.5,over,C. Blackmon,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,2.78,2.7,2.7,178,170,170,1.0296296296296295
+pp;0;ou;hit;1.5,under,C. Blackmon,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,1.42,1.4,1.41,-238,-250,-240,1.0142857142857142
+pp;0;ou;hit;0.5,over,E. Diaz,KC Royals(away) vs COL Rockies(home),MLB,Hits,,0.5,1.41,1.4,1.4,-244,-250,-250,1.0071428571428571
+pp;0;ou;hit;0.5,under,E. Diaz,KC Royals(away) vs COL Rockies(home),MLB,Hits,,0.5,2.82,2.7,2.8,182,170,180,1.0444444444444443
+pp;0;ou;hit;0.5,over,E. Tovar,KC Royals(away) vs COL Rockies(home),MLB,Hits,,0.5,1.49,1.4762,1.48,-204,-210,-205,1.0093483267849885
+pp;0;ou;hit;0.5,under,E. Tovar,KC Royals(away) vs COL Rockies(home),MLB,Hits,,0.5,2.56,2.5,2.5,156,150,150,1.024
+pp;0;ou;hit;1.5,over,F. Fermin,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,2.67,2.5,2.6,167,150,160,1.068
+pp;0;ou;hit;1.5,under,F. Fermin,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,1.45,1.4762,1.45,-222,-210,-220,1.0180689655172415
+pp;0;ou;hit;1.5,over,H. Renfroe,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,2.52,2.5,2.5,152,150,150,1.008
+pp;0;ou;hit;1.5,under,H. Renfroe,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,1.5,1.4762,1.48,-200,-210,-205,1.016122476629183
+pp;0;ou;hit;0.5,over,M. Toglia,KC Royals(away) vs COL Rockies(home),MLB,Hits,,0.5,1.71,1.6897,1.68,-141,-145,-145,1.0178571428571428
+pp;0;ou;hit;0.5,under,M. Toglia,KC Royals(away) vs COL Rockies(home),MLB,Hits,,0.5,2.09,2.05,2.05,109,105,105,1.0195121951219512
+pp;0;ou;hit;1.5,over,V. Pasquantino,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,2.74,2.6,2.7,174,160,170,1.0538461538461539
+pp;0;ou;hit;1.5,under,V. Pasquantino,KC Royals(away) vs COL Rockies(home),MLB,Hits,,1.5,1.43,1.4167,1.42,-233,-240,-235,1.0093880143996612
+pp;0;ou;sb;0.5,over,C. Blackmon,KC Royals(away) vs COL Rockies(home),MLB,Stolen Bases,,0.5,11.96,10.5,11.0,1096,950,1000,1.139047619047619
+pp;0;ou;sb;0.5,under,C. Blackmon,KC Royals(away) vs COL Rockies(home),MLB,Stolen Bases,,0.5,1.02,1.0334,1.02,-5000,-2994,-5000,1.0131372549019608
+pp;0;ou;sb;0.5,over,E. Tovar,KC Royals(away) vs COL Rockies(home),MLB,Stolen Bases,,0.5,10.74,13.0,11.0,974,1200,1000,1.2104283054003724
+pp;0;ou;sb;0.5,under,E. Tovar,KC Royals(away) vs COL Rockies(home),MLB,Stolen Bases,,0.5,1.03,1.02,1.01,-3333,-5000,-6000,1.0198019801980198
+pp;0;ss;hit;0.5,over,C. Blackmon,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,0.5,1.3,1.3077,1.31,-333,-325,-320,1.0076923076923077
+pp;0;ss;hit;2.5,over,C. Blackmon,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,2.5,6.33,8.5,8.5,533,750,750,1.3428120063191153
+pp;0;ss;hit;0.5,over,B. Rodgers,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,0.5,1.31,1.3449,1.31,-323,-290,-320,1.0266412213740457
+pp;0;ss;hit;2.5,over,B. Rodgers,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,2.5,6.42,9.0,8.5,542,800,750,1.4018691588785046
+pp;0;ss;hit;1.5,over,E. Tovar,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,1.5,2.91,3.5,3.85,191,250,285,1.3230240549828178
+pp;0;ss;hit;1.5,over,E. Diaz,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,1.5,2.89,3.3,3.15,189,230,215,1.1418685121107266
+pp;0;ss;hit;2.5,over,E. Diaz,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,2.5,7.81,11.5,10.5,681,1050,950,1.47247119078105
+pp;0;ss;hit;1.5,over,M. Toglia,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,1.5,4.15,4.75,4.9,315,375,390,1.180722891566265
+pp;0;ss;hit;0.5,over,H. Renfroe,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,0.5,1.25,1.2858,1.27,-400,-350,-360,1.02864
+pp;0;ss;hit;2.5,over,H. Renfroe,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,2.5,5.88,7.0,7.0,488,600,600,1.1904761904761905
+pp;0;ss;hit;0.5,over,V. Pasquantino,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,0.5,1.29,1.3449,1.32,-345,-290,-310,1.0425581395348837
+pp;0;ss;hit;2.5,over,V. Pasquantino,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,2.5,6.28,7.5,8.0,528,650,700,1.2738853503184713
+pp;0;ss;hit;0.5,over,F. Fermin,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,0.5,1.28,1.3077,1.3,-357,-325,-330,1.021640625
+pp;0;ss;hit;2.5,over,F. Fermin,KC Royals(away) vs COL Rockies(home),MLB,Hits Milestones,,2.5,6.2,7.0,6.5,520,600,550,1.129032258064516
+pp;0;ss;so;2.5,over,K. Freeland,KC Royals(away) vs COL Rockies(home),MLB,Strikeouts Milestones,,2.5,1.66,1.4762,1.42,-152,-210,-235,1.1690140845070423
+pp;0;ss;so;4.5,over,K. Freeland,KC Royals(away) vs COL Rockies(home),MLB,Strikeouts Milestones,,4.5,3.18,3.6,3.25,218,260,225,1.1320754716981132
+pp;0;ss;so;5.5,over,K. Freeland,KC Royals(away) vs COL Rockies(home),MLB,Strikeouts Milestones,,5.5,4.8,6.5,5.75,380,550,475,1.3541666666666667
+pp;0;ss;so;6.5,over,C. Ragans,KC Royals(away) vs COL Rockies(home),MLB,Strikeouts Milestones,,6.5,1.38,1.4167,1.4,-263,-240,-245,1.0265942028985509
+pp;0;ss;so;8.5,over,C. Ragans,KC Royals(away) vs COL Rockies(home),MLB,Strikeouts Milestones,,8.5,2.4,2.35,2.35,140,135,135,1.0212765957446808
+pp;0;ss;so;9.5,over,C. Ragans,KC Royals(away) vs COL Rockies(home),MLB,Strikeouts Milestones,,9.5,3.4,3.2,3.75,240,220,275,1.171875
+pp;0;ou;tb;1.5,over,C. Blackmon,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,2.1,1.9524,2.05,110,-105,105,1.07559926244622
+pp;0;ou;tb;1.5,under,C. Blackmon,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.7,1.7693,1.68,-143,-130,-145,1.053154761904762
+pp;0;ou;tb;1.5,over,B. Rodgers,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,2.04,2.0,2.0,104,100,100,1.02
+pp;0;ou;tb;1.5,under,B. Rodgers,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.74,1.7143,1.74,-135,-140,-135,1.0149915417371522
+pp;0;ou;tb;1.5,over,E. Tovar,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,2.3,2.2,2.3,130,120,130,1.0454545454545452
+pp;0;ou;tb;1.5,under,E. Tovar,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.59,1.625,1.57,-169,-160,-175,1.0350318471337578
+pp;0;ou;tb;1.5,over,E. Diaz,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,2.22,2.25,2.15,122,125,115,1.0465116279069768
+pp;0;ou;tb;1.5,under,E. Diaz,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.63,1.5883,1.62,-159,-170,-160,1.026254485928351
+pp;0;ou;tb;0.5,over,M. Toglia,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,0.5,1.72,1.6897,1.68,-139,-145,-145,1.0238095238095237
+pp;0;ou;tb;0.5,under,M. Toglia,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,0.5,2.07,2.05,2.05,107,105,105,1.0097560975609756
+pp;0;ou;tb;1.5,over,H. Renfroe,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.83,1.8,1.74,-120,-125,-135,1.0517241379310345
+pp;0;ou;tb;1.5,under,H. Renfroe,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.93,1.9091,2.0,-108,-110,100,1.0476140589806715
+pp;0;ou;tb;1.5,over,V. Pasquantino,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,2.03,1.9091,2.0,103,-110,100,1.0633282698653814
+pp;0;ou;tb;1.5,under,V. Pasquantino,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.75,1.8,1.71,-133,-125,-140,1.0526315789473684
+pp;0;ou;tb;1.5,over,F. Fermin,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.98,1.8548,1.86,-102,-117,-115,1.0675005391416865
+pp;0;ou;tb;1.5,under,F. Fermin,KC Royals(away) vs COL Rockies(home),MLB,Total Bases,,1.5,1.79,1.8548,1.83,-127,-117,-120,1.0362011173184358
+pp;0;ou;hit;0.5,over,A. Bregman,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.43,1.4,1.4,-233,-250,-245,1.0214285714285714
+pp;0;ou;hit;0.5,under,A. Bregman,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.73,2.7,2.75,173,170,175,1.0185185185185184
+pp;0;ou;hit;0.5,over,J. Altuve,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.41,1.3637,1.4,-244,-275,-250,1.0339517489183838
+pp;0;ou;hit;0.5,under,J. Altuve,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.83,2.75,2.8,183,175,180,1.029090909090909
+pp;0;ou;hit;0.5,over,J. Miranda,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.47,1.3637,1.39,-213,-275,-255,1.0779496956808683
+pp;0;ou;hit;0.5,under,J. Miranda,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.6,2.75,2.85,160,175,185,1.0961538461538463
+pp;0;ou;hit;0.5,over,J. Pena,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.48,1.4445,1.45,-208,-225,-220,1.024575977847006
+pp;0;ou;hit;0.5,under,J. Pena,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.59,2.55,2.6,159,155,160,1.019607843137255
+pp;0;ou;hit;0.5,over,J. Singleton,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.77,1.7143,1.71,-130,-140,-140,1.0350877192982457
+pp;0;ou;hit;0.5,under,J. Singleton,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.01,2.0,2.0,101,100,100,1.005
+pp;0;ou;hit;0.5,over,M. Dubon,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.41,1.3637,1.37,-244,-275,-265,1.0339517489183838
+pp;0;ou;hit;0.5,under,M. Dubon,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.82,2.75,2.9,182,175,190,1.0545454545454545
+pp;0;ou;hit;0.5,over,M. Kepler,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.54,1.4762,1.47,-185,-210,-210,1.0476190476190477
+pp;0;ou;hit;0.5,under,M. Kepler,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.4,2.5,2.55,140,150,155,1.0625
+pp;0;ou;hit;0.5,over,T. Larnach,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.56,1.5264,1.54,-179,-190,-185,1.0220125786163523
+pp;0;ou;hit;0.5,under,T. Larnach,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.36,2.35,2.35,136,135,135,1.004255319148936
+pp;0;ou;hit;0.5,over,W. Castro,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.43,1.4,1.42,-233,-250,-235,1.0214285714285714
+pp;0;ou;hit;0.5,under,W. Castro,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.73,2.7,2.7,173,170,170,1.011111111111111
+pp;0;ou;hit;0.5,over,Y. Alvarez,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,1.45,1.4762,1.45,-222,-210,-220,1.0180689655172415
+pp;0;ou;hit;0.5,under,Y. Alvarez,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,0.5,2.66,2.5,2.6,166,150,160,1.064
+pp;0;ou;hit;1.5,over,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,1.5,2.64,2.7,2.6,164,170,160,1.0384615384615385
+pp;0;ou;hit;1.5,over,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,1.5,2.64,2.7,2.75,164,170,175,1.0416666666666665
+pp;0;ou;hit;1.5,over,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,1.5,2.78,2.7,2.6,178,170,160,1.0692307692307692
+pp;0;ou;hit;1.5,over,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,1.5,2.78,2.7,2.75,178,170,175,1.0296296296296295
+pp;0;ou;hit;1.5,under,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,1.5,1.46,1.4,1.45,-217,-250,-220,1.042857142857143
+pp;0;ou;hit;1.5,under,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,1.5,1.46,1.4,1.4,-217,-250,-245,1.042857142857143
+pp;0;ou;hit;1.5,under,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Hits,,1.5,1.42,1.4,1.45,-238,-250,-220,1.0357142857142858
+pp;0;ou;hit;1.5,under,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Hits,,1.5,1.42,1.4,1.4,-238,-250,-245,1.0142857142857142
+pp;0;ou;sb;0.5,over,J. Altuve,HOU Astros(away) vs MIN Twins(home),MLB,Stolen Bases,,0.5,6.82,5.75,6.5,582,475,550,1.1860869565217391
+pp;0;ou;sb;0.5,under,J. Altuve,HOU Astros(away) vs MIN Twins(home),MLB,Stolen Bases,,0.5,1.09,1.091,1.09,-1111,-1099,-1100,1.0009174311926605
+pp;0;ou;sb;0.5,over,J. Pena,HOU Astros(away) vs MIN Twins(home),MLB,Stolen Bases,,0.5,7.73,6.5,7.0,673,550,600,1.1892307692307693
+pp;0;ou;sb;0.5,under,J. Pena,HOU Astros(away) vs MIN Twins(home),MLB,Stolen Bases,,0.5,1.07,1.08,1.07,-1429,-1250,-1400,1.0093457943925235
+pp;0;ou;sb;0.5,over,M. Dubon,HOU Astros(away) vs MIN Twins(home),MLB,Stolen Bases,,0.5,10.74,12.0,11.0,974,1100,1000,1.1173184357541899
+pp;0;ou;sb;0.5,under,M. Dubon,HOU Astros(away) vs MIN Twins(home),MLB,Stolen Bases,,0.5,1.03,1.0223,1.01,-3333,-4484,-6000,1.0198019801980198
+pp;0;ou;sb;0.5,over,W. Castro,HOU Astros(away) vs MIN Twins(home),MLB,Stolen Bases,,0.5,5.14,4.5,5.25,414,350,425,1.1666666666666667
+pp;0;ou;sb;0.5,under,W. Castro,HOU Astros(away) vs MIN Twins(home),MLB,Stolen Bases,,0.5,1.15,1.1429,1.13,-667,-700,-750,1.0176991150442478
+pp;0;ss;hit;1.5,over,A. Bregman,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,2.96,3.2,3.1,196,220,210,1.0810810810810811
+pp;0;ss;hit;2.5,over,A. Bregman,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,8.04,10.0,9.5,704,900,850,1.2437810945273633
+pp;0;ss;hit;1.5,over,J. Pena,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,3.4,3.5,3.35,240,250,235,1.044776119402985
+pp;0;ss;hit;2.5,over,J. Pena,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,10.35,12.0,11.0,935,1100,1000,1.1594202898550725
+pp;0;ss;hit;1.5,over,M. Dubon,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,2.88,3.2,2.85,188,220,185,1.1228070175438596
+pp;0;ss;hit;2.5,over,M. Dubon,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,7.68,11.0,8.5,668,1000,750,1.4322916666666667
+pp;0;ss;hit;0.5,over,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,0.5,1.28,1.3334,1.29,-357,-300,-340,1.0417187499999998
+pp;0;ss;hit;0.5,over,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,0.5,1.28,1.3334,1.35,-357,-300,-280,1.0546875
+pp;0;ss;hit;0.5,over,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,0.5,1.3,1.3334,1.29,-333,-300,-340,1.033643410852713
+pp;0;ss;hit;0.5,over,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,0.5,1.3,1.3334,1.35,-333,-300,-280,1.0384615384615385
+pp;0;ss;hit;2.5,over,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,2.5,6.16,8.5,7.0,516,750,600,1.37987012987013
+pp;0;ss;hit;2.5,over,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,6.16,8.5,7.0,516,750,600,1.37987012987013
+pp;0;ss;hit;2.5,over,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Hits Milestones,,2.5,6.33,8.5,7.0,533,750,600,1.3428120063191153
+pp;0;ss;hit;2.5,over,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,6.33,8.5,7.0,533,750,600,1.3428120063191153
+pp;0;ss;hit;1.5,over,J. Altuve,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,2.82,3.1,2.85,182,210,185,1.0992907801418441
+pp;0;ss;hit;2.5,over,J. Altuve,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,7.15,10.0,8.5,615,900,750,1.3986013986013985
+pp;0;ss;hit;1.5,over,J. Singleton,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,4.31,5.0,5.25,331,400,425,1.2180974477958237
+pp;0;ss;hit;1.5,over,Y. Alvarez,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,2.77,3.5,3.5,177,250,250,1.263537906137184
+pp;0;ss;hit;2.5,over,Y. Alvarez,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,6.6,11.5,12.0,560,1050,1100,1.8181818181818183
+pp;0;ss;hit;0.5,over,C. Correa,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,0.5,1.37,1.3847,1.36,-270,-260,-275,1.0181617647058823
+pp;0;ss;hit;2.5,over,C. Correa,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,5.75,9.5,8.5,475,850,750,1.6521739130434783
+pp;0;ss;hit;1.5,over,J. Miranda,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,3.03,3.1,3.1,203,210,210,1.0231023102310233
+pp;0;ss;hit;2.5,over,J. Miranda,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,8.02,10.0,10.5,702,900,950,1.3092269326683292
+pp;0;ss;hit;1.5,over,T. Larnach,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,3.69,4.1,4.0,269,310,300,1.111111111111111
+pp;0;ss;hit;1.5,over,M. Kepler,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,3.56,3.6,3.5,256,260,250,1.0285714285714287
+pp;0;ss;hit;2.5,over,M. Kepler,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,10.64,12.0,13.0,964,1100,1200,1.2218045112781954
+pp;0;ss;hit;1.5,over,W. Castro,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,1.5,2.95,3.3,3.15,195,230,215,1.11864406779661
+pp;0;ss;hit;2.5,over,W. Castro,HOU Astros(away) vs MIN Twins(home),MLB,Hits Milestones,,2.5,7.95,10.0,10.0,695,900,900,1.2578616352201257
+pp;0;ss;so;5.5,over,P. Lopez,HOU Astros(away) vs MIN Twins(home),MLB,Strikeouts Milestones,,5.5,1.6,1.7693,1.62,-167,-130,-160,1.1058125
+pp;0;ss;so;7.5,over,P. Lopez,HOU Astros(away) vs MIN Twins(home),MLB,Strikeouts Milestones,,7.5,3.11,3.8,3.25,211,280,225,1.2218649517684887
+pp;0;ss;so;8.5,over,P. Lopez,HOU Astros(away) vs MIN Twins(home),MLB,Strikeouts Milestones,,8.5,4.77,6.0,5.25,377,500,425,1.257861635220126
+pp;0;ou;tb;1.5,over,A. Bregman,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.36,2.2,2.3,136,120,130,1.0727272727272725
+pp;0;ou;tb;1.5,under,A. Bregman,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.56,1.625,1.55,-179,-160,-180,1.0483870967741935
+pp;0;ou;tb;1.5,over,J. Pena,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.61,2.5,2.5,161,150,150,1.044
+pp;0;ou;tb;1.5,under,J. Pena,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.47,1.4762,1.47,-213,-210,-210,1.0042176870748298
+pp;0;ou;tb;1.5,over,M. Dubon,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.49,2.3,2.4,149,130,140,1.082608695652174
+pp;0;ou;tb;1.5,under,M. Dubon,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.51,1.5556,1.52,-196,-180,-190,1.0301986754966888
+pp;0;ou;tb;1.5,over,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,2.07,2.0,2.05,107,100,105,1.035
+pp;0;ou;tb;1.5,over,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.07,2.0,2.05,107,100,105,1.035
+pp;0;ou;tb;1.5,over,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,2.12,2.0,2.05,112,100,105,1.06
+pp;0;ou;tb;1.5,over,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.12,2.0,2.05,112,100,105,1.06
+pp;0;ou;tb;1.5,under,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,1.72,1.7143,1.71,-139,-140,-140,1.0058479532163742
+pp;0;ou;tb;1.5,under,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.72,1.7143,1.68,-139,-140,-145,1.0238095238095237
+pp;0;ou;tb;1.5,under,Y. Diaz,TB Rays(away) vs TEX Rangers(home),MLB,Total Bases,,1.5,1.69,1.7143,1.71,-145,-140,-140,1.0143786982248522
+pp;0;ou;tb;1.5,under,Y. Diaz,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.69,1.7143,1.68,-145,-140,-145,1.0204166666666667
+pp;0;ou;tb;1.5,over,J. Altuve,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.34,2.25,2.35,134,125,135,1.0444444444444445
+pp;0;ou;tb;1.5,under,J. Altuve,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.57,1.5883,1.55,-175,-170,-180,1.024709677419355
+pp;0;ou;tb;0.5,over,J. Singleton,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,0.5,1.76,1.7143,1.71,-132,-140,-140,1.0292397660818713
+pp;0;ou;tb;0.5,under,J. Singleton,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,0.5,2.02,2.0,2.0,102,100,100,1.01
+pp;0;ou;tb;1.5,over,Y. Alvarez,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.15,2.15,2.15,115,115,115,1.0
+pp;0;ou;tb;1.5,under,Y. Alvarez,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.67,1.6452,1.62,-149,-155,-160,1.0308641975308641
+pp;0;ou;tb;1.5,over,C. Correa,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.15,2.05,2.15,115,105,115,1.048780487804878
+pp;0;ou;tb;1.5,under,C. Correa,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.67,1.6897,1.64,-149,-145,-155,1.0303048780487805
+pp;0;ou;tb;1.5,over,J. Miranda,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.28,2.15,2.25,128,115,125,1.0604651162790697
+pp;0;ou;tb;1.5,under,J. Miranda,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.6,1.6452,1.58,-167,-155,-170,1.0412658227848102
+pp;0;ou;tb;1.5,over,M. Kepler,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.34,2.25,2.25,134,125,125,1.04
+pp;0;ou;tb;1.5,under,M. Kepler,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.57,1.5883,1.58,-175,-170,-170,1.011656050955414
+pp;0;ou;tb;1.5,over,W. Castro,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,2.24,2.2,2.2,124,120,120,1.0181818181818183
+pp;0;ou;tb;1.5,under,W. Castro,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,1.5,1.62,1.625,1.6,-161,-160,-165,1.015625
+pp;0;ou;tb;0.5,over,T. Larnach,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,0.5,1.58,1.5264,1.54,-172,-190,-185,1.0351153039832286
+pp;0;ou;tb;0.5,under,T. Larnach,HOU Astros(away) vs MIN Twins(home),MLB,Total Bases,,0.5,2.33,2.35,2.35,133,135,135,1.0085836909871244
+pp;0;ou;hit;0.5,over,A. Santander,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.41,1.4167,1.4,-244,-240,-250,1.0119285714285715
+pp;0;ou;hit;0.5,under,A. Santander,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.81,2.6,2.8,181,160,180,1.0807692307692307
+pp;0;ou;hit;0.5,over,B. Rooker,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.54,1.5,1.52,-185,-200,-190,1.0266666666666666
+pp;0;ou;hit;0.5,under,B. Rooker,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.41,2.4,2.35,141,140,135,1.025531914893617
+pp;0;ou;hit;0.5,over,C. Cowser,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.69,1.6667,1.68,-145,-150,-145,1.0139797204055918
+pp;0;ou;hit;0.5,under,C. Cowser,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.11,2.1,2.05,111,110,105,1.0292682926829269
+pp;0;ou;hit;0.5,over,G. Henderson,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.43,1.4445,1.42,-233,-225,-235,1.0172535211267606
+pp;0;ou;hit;0.5,under,G. Henderson,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.75,2.55,2.7,175,155,170,1.0784313725490198
+pp;0;ou;hit;0.5,over,J. Bleday,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.54,1.5,1.54,-185,-200,-185,1.0266666666666666
+pp;0;ou;hit;0.5,under,J. Bleday,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.4,2.4,2.35,140,140,135,1.0212765957446808
+pp;0;ou;hit;0.5,over,J. Mateo,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.5,1.4167,1.43,-200,-240,-230,1.058798616503141
+pp;0;ou;hit;0.5,under,J. Mateo,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.52,2.6,2.65,152,160,165,1.0515873015873016
+pp;0;ou;hit;0.5,over,J. Westburg,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.41,1.4,1.38,-244,-250,-260,1.0217391304347827
+pp;0;ou;hit;0.5,under,J. Westburg,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.82,2.7,2.85,182,170,185,1.0555555555555556
+pp;0;ou;hit;0.5,over,L. Butler,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.77,1.7408,1.74,-130,-135,-135,1.0172413793103448
+pp;0;ou;hit;0.5,under,L. Butler,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.0,2.0,2.0,100,100,100,1.0
+pp;0;ou;hit;0.5,over,M. Andujar,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.43,1.4,1.43,-233,-250,-230,1.0214285714285714
+pp;0;ou;hit;0.5,under,M. Andujar,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.75,2.7,2.65,175,170,165,1.0377358490566038
+pp;0;ou;hit;0.5,over,M. Schuemann,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.77,1.7408,1.74,-130,-135,-135,1.0172413793103448
+pp;0;ou;hit;0.5,under,M. Schuemann,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.0,2.0,2.0,100,100,100,1.0
+pp;0;ou;hit;0.5,over,T. Soderstrom,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.75,1.6897,1.74,-133,-145,-135,1.0356868083091673
+pp;0;ou;hit;0.5,under,T. Soderstrom,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.03,2.05,2.0,103,105,100,1.025
+pp;0;ou;hit;0.5,over,Z. Gelof,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,1.65,1.625,1.64,-154,-160,-155,1.0153846153846153
+pp;0;ou;hit;0.5,under,Z. Gelof,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits,,0.5,2.18,2.2,2.15,118,120,115,1.0232558139534884
+pp;0;ou;sb;0.5,over,C. Cowser,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,9.76,9.5,9.5,876,850,850,1.0273684210526315
+pp;0;ou;sb;0.5,under,C. Cowser,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,1.04,1.0445,1.03,-2500,-2247,-3000,1.0140776699029126
+pp;0;ou;sb;0.5,over,G. Henderson,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,6.82,5.75,6.5,582,475,550,1.1860869565217391
+pp;0;ou;sb;0.5,under,G. Henderson,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,1.09,1.091,1.08,-1111,-1099,-1200,1.010185185185185
+pp;0;ou;sb;0.5,over,J. Mateo,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,4.47,4.2,4.7,347,320,370,1.119047619047619
+pp;0;ou;sb;0.5,under,J. Mateo,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,1.19,1.16,1.16,-526,-625,-600,1.0258620689655173
+pp;0;ou;sb;0.5,over,J. Westburg,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,8.96,9.5,9.0,796,850,800,1.060267857142857
+pp;0;ou;sb;0.5,under,J. Westburg,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,1.05,1.0445,1.03,-2000,-2247,-3000,1.0194174757281553
+pp;0;ou;sb;0.5,over,L. Butler,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,9.76,11.0,10.5,876,1000,950,1.1270491803278688
+pp;0;ou;sb;0.5,under,L. Butler,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,1.04,1.0286,1.02,-2500,-3497,-5000,1.0196078431372548
+pp;0;ou;sb;0.5,over,M. Schuemann,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,9.76,10.0,9.0,876,900,800,1.1111111111111112
+pp;0;ou;sb;0.5,under,M. Schuemann,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,1.04,1.04,1.04,-2500,-2500,-2500,1.0
+pp;0;ou;sb;0.5,over,Z. Gelof,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,6.13,5.0,5.75,513,400,475,1.226
+pp;0;ou;sb;0.5,under,Z. Gelof,BAL Orioles(away) vs OAK Athletics(home),MLB,Stolen Bases,,0.5,1.11,1.1112,1.11,-909,-899,-900,1.001081081081081
+pp;0;ss;hit;1.5,over,A. Santander,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,2.89,3.2,3.3,189,220,230,1.1418685121107266
+pp;0;ss;hit;2.5,over,A. Santander,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,2.5,7.81,9.0,11.0,681,800,1000,1.4084507042253522
+pp;0;ss;hit;1.5,over,M. Schuemann,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,4.35,5.25,5.5,335,425,450,1.264367816091954
+pp;0;ss;hit;1.5,over,T. Soderstrom,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,4.29,5.25,5.5,329,425,450,1.282051282051282
+pp;0;ss;hit;1.5,over,M. Andujar,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,2.95,3.3,3.3,195,230,230,1.11864406779661
+pp;0;ss;hit;2.5,over,M. Andujar,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,2.5,7.95,11.0,11.0,695,1000,1000,1.3836477987421383
+pp;0;ss;hit;1.5,over,J. Bleday,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,3.62,3.8,4.0,262,280,300,1.1049723756906078
+pp;0;ss;hit;1.5,over,L. Butler,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,4.33,5.25,5.5,333,425,450,1.2702078521939955
+pp;0;ss;hit;1.5,over,Z. Gelof,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,3.97,5.0,4.7,297,400,370,1.2594458438287153
+pp;0;ss;hit;1.5,over,B. Rooker,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,3.59,4.0,4.2,259,300,320,1.16991643454039
+pp;0;ss;hit;1.5,over,G. Henderson,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,2.92,3.3,3.25,192,230,225,1.13013698630137
+pp;0;ss;hit;2.5,over,G. Henderson,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,2.5,7.64,10.0,10.0,664,900,900,1.3089005235602096
+pp;0;ss;hit;1.5,over,J. Mateo,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,3.45,3.3,3.3,245,230,230,1.0454545454545456
+pp;0;ss;hit;2.5,over,J. Mateo,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,2.5,10.42,10.0,10.5,942,900,950,1.05
+pp;0;ss;hit;1.5,over,J. Westburg,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,2.89,3.1,2.85,189,210,185,1.087719298245614
+pp;0;ss;hit;2.5,over,J. Westburg,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,2.5,7.77,9.0,9.0,677,800,800,1.1583011583011584
+pp;0;ss;hit;1.5,over,C. Cowser,BAL Orioles(away) vs OAK Athletics(home),MLB,Hits Milestones,,1.5,4.1,4.75,4.9,310,375,390,1.1951219512195124
+pp;0;ss;so;3.5,over,A. Suarez,BAL Orioles(away) vs OAK Athletics(home),MLB,Strikeouts Milestones,,3.5,1.26,1.3847,1.33,-385,-260,-300,1.098968253968254
+pp;0;ss;so;5.5,over,A. Suarez,BAL Orioles(away) vs OAK Athletics(home),MLB,Strikeouts Milestones,,5.5,2.8,2.65,2.6,180,165,160,1.0769230769230769
+pp;0;ss;so;6.5,over,A. Suarez,BAL Orioles(away) vs OAK Athletics(home),MLB,Strikeouts Milestones,,6.5,5.0,4.3,4.2,400,330,320,1.1904761904761905
+pp;0;ss;so;3.5,over,H. Harris,BAL Orioles(away) vs OAK Athletics(home),MLB,Strikeouts Milestones,,3.5,1.49,1.5264,1.51,-204,-190,-195,1.0244295302013422
+pp;0;ss;so;5.5,over,H. Harris,BAL Orioles(away) vs OAK Athletics(home),MLB,Strikeouts Milestones,,5.5,3.2,3.3,3.1,220,230,210,1.064516129032258
+pp;0;ss;so;6.5,over,H. Harris,BAL Orioles(away) vs OAK Athletics(home),MLB,Strikeouts Milestones,,6.5,5.4,5.75,5.0,440,475,400,1.15
+pp;0;ou;tb;1.5,over,A. Santander,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,2.06,2.0,2.05,106,100,105,1.03
+pp;0;ou;tb;1.5,under,A. Santander,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,1.73,1.7143,1.71,-137,-140,-140,1.0116959064327486
+pp;0;ou;tb;0.5,over,M. Schuemann,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,1.78,1.7408,1.74,-128,-135,-135,1.0229885057471264
+pp;0;ou;tb;0.5,under,M. Schuemann,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,1.99,2.0,2.0,-101,100,100,1.0050251256281406
+pp;0;ou;tb;0.5,over,T. Soderstrom,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,1.78,1.6897,1.74,-128,-145,-135,1.053441439308753
+pp;0;ou;tb;0.5,under,T. Soderstrom,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,1.99,2.05,2.0,-101,105,100,1.0301507537688441
+pp;0;ou;tb;1.5,over,M. Andujar,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,2.44,2.3,2.45,144,130,145,1.065217391304348
+pp;0;ou;tb;1.5,under,M. Andujar,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,1.53,1.5556,1.5,-189,-180,-200,1.0370666666666668
+pp;0;ou;tb;0.5,over,L. Butler,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,1.78,1.7693,1.74,-128,-130,-135,1.0229885057471264
+pp;0;ou;tb;0.5,under,L. Butler,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,1.99,1.9524,2.0,-101,-105,100,1.024380249948781
+pp;0;ou;tb;0.5,over,Z. Gelof,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,1.66,1.6452,1.64,-152,-155,-155,1.0121951219512195
+pp;0;ou;tb;0.5,under,Z. Gelof,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,2.16,2.15,2.15,116,115,115,1.0046511627906978
+pp;0;ou;tb;1.5,over,G. Henderson,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,2.24,2.2,2.25,124,120,125,1.0227272727272727
+pp;0;ou;tb;1.5,under,G. Henderson,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,1.62,1.625,1.58,-161,-160,-170,1.0284810126582278
+pp;0;ou;tb;1.5,over,J. Mateo,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,2.41,2.2,2.3,141,120,130,1.0954545454545455
+pp;0;ou;tb;1.5,under,J. Mateo,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,1.54,1.625,1.55,-185,-160,-180,1.0551948051948052
+pp;0;ou;tb;1.5,over,J. Westburg,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,2.17,2.05,2.1,117,105,110,1.0585365853658537
+pp;0;ou;tb;1.5,under,J. Westburg,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,1.66,1.6897,1.66,-152,-145,-150,1.0178915662650603
+pp;0;ou;tb;0.5,over,C. Cowser,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,1.72,1.6667,1.68,-139,-150,-145,1.0319793604127916
+pp;0;ou;tb;0.5,under,C. Cowser,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,0.5,2.07,2.1,2.05,107,110,105,1.024390243902439
+pp;0;ou;tb;1.5,over,B. Rooker,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,2.36,2.3,2.3,136,130,130,1.0260869565217392
+pp;0;ou;tb;1.5,under,B. Rooker,BAL Orioles(away) vs OAK Athletics(home),MLB,Total Bases,,1.5,1.56,1.5556,1.57,-179,-180,-175,1.0092568783749036
+pp;0;ou;hit;0.5,over,A. Kirk,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.61,1.5556,1.58,-164,-180,-170,1.0349704294163025
+pp;0;ou;hit;0.5,under,A. Kirk,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.25,2.3,2.25,125,130,125,1.0222222222222221
+pp;0;ou;hit;0.5,over,C. Raleigh,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.66,1.6452,1.64,-152,-155,-155,1.0121951219512195
+pp;0;ou;hit;0.5,under,C. Raleigh,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.17,2.15,2.15,117,115,115,1.0093023255813953
+pp;0;ou;hit;0.5,over,D. Schneider,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.7,1.6667,1.66,-143,-150,-150,1.0240963855421688
+pp;0;ou;hit;0.5,under,D. Schneider,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.1,2.1,2.1,110,110,110,1.0
+pp;0;ou;hit;0.5,over,E. Clement,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.69,1.6897,1.68,-145,-145,-145,1.005952380952381
+pp;0;ou;hit;0.5,under,E. Clement,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.12,2.05,2.05,112,105,105,1.0341463414634149
+pp;0;ou;hit;0.5,over,G. Springer,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.51,1.4762,1.47,-196,-210,-210,1.0272108843537415
+pp;0;ou;hit;0.5,under,G. Springer,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.5,2.5,2.5,150,150,150,1.0
+pp;0;ou;hit;0.5,over,J. Crawford,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.61,1.5883,1.6,-164,-170,-165,1.0136624063464081
+pp;0;ou;hit;0.5,under,J. Crawford,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.26,2.25,2.25,126,125,125,1.0044444444444443
+pp;0;ou;hit;0.5,over,J. Rodriguez,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.43,1.4167,1.4,-233,-240,-250,1.0214285714285714
+pp;0;ou;hit;0.5,under,J. Rodriguez,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.76,2.6,2.8,176,160,180,1.0769230769230769
+pp;0;ou;hit;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.64,1.8,1.6,-156,-125,-165,1.125
+pp;0;ou;hit;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.64,1.8,1.8,-156,-125,-125,1.0975609756097562
+pp;0;ou;hit;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,1.74,1.8,1.6,-135,-125,-165,1.125
+pp;0;ou;hit;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.74,1.8,1.8,-135,-125,-125,1.0344827586206897
+pp;0;ou;hit;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.21,1.9091,2.2,121,-110,120,1.157613535173642
+pp;0;ou;hit;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.21,1.9091,1.95,121,-110,-105,1.157613535173642
+pp;0;ou;hit;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits,,0.5,2.05,1.9091,2.2,105,-110,120,1.1523754648787388
+pp;0;ou;hit;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.05,1.9091,1.95,105,-110,-105,1.0738044104551883
+pp;0;ou;hit;0.5,over,M. Garver,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.71,1.7143,1.68,-141,-140,-145,1.0204166666666667
+pp;0;ou;hit;0.5,under,M. Garver,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.08,2.0,2.05,108,100,105,1.04
+pp;0;ou;hit;0.5,over,S. Horwitz,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.59,1.5556,1.57,-169,-180,-175,1.022113653895603
+pp;0;ou;hit;0.5,under,S. Horwitz,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.3,2.3,2.3,130,130,130,1.0
+pp;0;ou;hit;0.5,over,T. France,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,1.65,1.5883,1.62,-154,-170,-160,1.0388465655102939
+pp;0;ou;hit;0.5,under,T. France,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits,,0.5,2.19,2.25,2.2,119,125,120,1.0273972602739727
+pp;0;ou;sb;0.5,over,D. Schneider,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,13.53,16.0,13.0,1253,1500,1200,1.2307692307692308
+pp;0;ou;sb;0.5,under,D. Schneider,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,1.01,1.0143,1.005,-10000,-6993,-20000,1.0092537313432837
+pp;0;ou;sb;0.5,over,G. Springer,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,6.82,5.25,6.5,582,425,550,1.299047619047619
+pp;0;ou;sb;0.5,under,G. Springer,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,1.09,1.1,1.09,-1111,-1000,-1100,1.0091743119266054
+pp;0;ou;sb;0.5,over,J. Crawford,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,11.96,13.0,11.0,1096,1200,1000,1.1818181818181819
+pp;0;ou;sb;0.5,under,J. Crawford,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,1.02,1.02,1.01,-5000,-5000,-6000,1.00990099009901
+pp;0;ou;sb;0.5,over,J. Rodriguez,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,4.21,3.7,4.1,321,270,310,1.1378378378378378
+pp;0;ou;sb;0.5,under,J. Rodriguez,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,1.21,1.2106,1.2,-476,-475,-500,1.0088333333333332
+pp;0;ou;sb;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,4.78,8.0,4.5,378,700,350,1.7777777777777777
+pp;0;ou;sb;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,4.78,8.0,8.0,378,700,700,1.6736401673640167
+pp;0;ou;sb;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,8.29,8.0,4.5,729,700,350,1.842222222222222
+pp;0;ou;sb;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,8.29,8.0,8.0,729,700,700,1.03625
+pp;0;ou;sb;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.17,1.0601,1.17,-588,-1664,-575,1.1036694651447976
+pp;0;ou;sb;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,1.17,1.0601,1.05,-588,-1664,-1800,1.114285714285714
+pp;0;ou;sb;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Stolen Bases,,0.5,1.06,1.0601,1.17,-1667,-1664,-575,1.1037735849056602
+pp;0;ou;sb;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Stolen Bases,,0.5,1.06,1.0601,1.05,-1667,-1664,-1800,1.0096190476190476
+pp;0;ss;hit;1.5,over,D. Schneider,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,4.12,5.0,4.7,312,400,370,1.2135922330097086
+pp;0;ss;hit;1.5,over,A. Kirk,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.82,4.1,4.3,282,310,330,1.12565445026178
+pp;0;ss;hit;1.5,over,G. Springer,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.5,3.5,3.55,250,250,255,1.0142857142857142
+pp;0;ss;hit;2.5,over,G. Springer,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,2.5,10.69,13.0,12.0,969,1200,1100,1.216089803554724
+pp;0;ss;hit;1.5,over,S. Horwitz,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.34,4.1,4.1,234,310,310,1.2275449101796407
+pp;0;ss;hit;1.5,over,J. Crawford,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.82,4.3,4.4,282,330,340,1.1518324607329844
+pp;0;ss;hit;1.5,over,C. Raleigh,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.98,4.75,4.7,298,375,370,1.1934673366834172
+pp;0;ss;hit;1.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,3.92,6.0,4.5,292,500,350,1.530612244897959
+pp;0;ss;hit;1.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.92,6.0,5.5,292,500,450,1.530612244897959
+pp;0;ss;hit;1.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Hits Milestones,,1.5,3.84,6.0,4.5,284,500,350,1.5625
+pp;0;ss;hit;1.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.84,6.0,5.5,284,500,450,1.5625
+pp;0;ss;hit;1.5,over,M. Garver,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,4.14,5.25,4.9,314,425,390,1.2681159420289856
+pp;0;ss;hit;1.5,over,T. France,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,3.96,4.5,4.3,296,350,330,1.1363636363636365
+pp;0;ss;hit;1.5,over,J. Rodriguez,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,2.95,3.4,3.05,195,240,205,1.1525423728813557
+pp;0;ss;hit;2.5,over,J. Rodriguez,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,2.5,7.95,11.5,9.5,695,1050,850,1.4465408805031446
+pp;0;ss;hit;1.5,over,E. Clement,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Hits Milestones,,1.5,4.08,5.0,4.8,308,400,380,1.2254901960784315
+pp;0;ss;so;4.5,over,L. Castillo,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Strikeouts Milestones,,4.5,1.38,1.4762,1.55,-263,-210,-180,1.1231884057971016
+pp;0;ss;so;6.5,over,L. Castillo,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Strikeouts Milestones,,6.5,2.75,2.85,2.75,175,185,175,1.0363636363636364
+pp;0;ss;so;7.5,over,L. Castillo,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Strikeouts Milestones,,7.5,4.2,4.3,4.1,320,330,310,1.048780487804878
+pp;0;ss;so;5.5,over,K. Gausman,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Strikeouts Milestones,,5.5,1.25,1.3077,1.34,-400,-325,-290,1.072
+pp;0;ss;so;7.5,over,K. Gausman,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Strikeouts Milestones,,7.5,2.12,2.1,2.15,112,110,115,1.0238095238095237
+pp;0;ss;so;8.5,over,K. Gausman,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Strikeouts Milestones,,8.5,2.95,2.9,3.05,195,190,205,1.0517241379310345
+pp;0;ou;tb;0.5,over,D. Schneider,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.7,1.6667,1.66,-143,-150,-150,1.0240963855421688
+pp;0;ou;tb;0.5,under,D. Schneider,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.1,2.1,2.1,110,110,110,1.0
+pp;0;ou;tb;0.5,over,A. Kirk,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.61,1.5556,1.58,-164,-180,-170,1.0349704294163025
+pp;0;ou;tb;0.5,under,A. Kirk,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.26,2.3,2.25,126,130,125,1.0222222222222221
+pp;0;ou;tb;1.5,over,G. Springer,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,1.5,2.58,2.35,2.5,158,135,150,1.097872340425532
+pp;0;ou;tb;1.5,under,G. Springer,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,1.5,1.48,1.5264,1.48,-208,-190,-205,1.0313513513513513
+pp;0;ou;tb;0.5,over,S. Horwitz,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.59,1.5556,1.57,-169,-180,-175,1.022113653895603
+pp;0;ou;tb;0.5,under,S. Horwitz,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.3,2.3,2.3,130,130,130,1.0
+pp;0;ou;tb;0.5,over,J. Crawford,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.61,1.5883,1.6,-164,-170,-165,1.0136624063464081
+pp;0;ou;tb;0.5,under,J. Crawford,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.25,2.25,2.25,125,125,125,1.0
+pp;0;ou;tb;0.5,over,C. Raleigh,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.68,1.6667,1.64,-147,-150,-155,1.024390243902439
+pp;0;ou;tb;0.5,under,C. Raleigh,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.14,2.1,2.15,114,110,115,1.0238095238095237
+pp;0;ou;tb;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,1.65,1.8,1.6,-154,-125,-165,1.125
+pp;0;ou;tb;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.65,1.8,1.74,-154,-125,-135,1.090909090909091
+pp;0;ou;tb;0.5,over,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,1.77,1.8,1.6,-130,-125,-165,1.125
+pp;0;ou;tb;0.5,over,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.77,1.8,1.74,-130,-125,-135,1.0344827586206897
+pp;0;ou;tb;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,2.19,1.9091,2.2,119,-110,120,1.1523754648787388
+pp;0;ou;tb;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.19,1.9091,2.0,119,-110,100,1.1471373945838352
+pp;0;ou;tb;0.5,under,J. Rojas,PHI Phillies(away) vs ATL Braves(home),MLB,Total Bases,,0.5,2.0,1.9091,2.2,100,-110,120,1.1523754648787388
+pp;0;ou;tb;0.5,under,J. Rojas,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.0,1.9091,2.0,100,-110,100,1.0476140589806715
+pp;0;ou;tb;0.5,over,M. Garver,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.72,1.7143,1.68,-139,-140,-145,1.0238095238095237
+pp;0;ou;tb;0.5,under,M. Garver,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.07,2.0,2.05,107,100,105,1.035
+pp;0;ou;tb;0.5,over,T. France,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.64,1.5883,1.62,-156,-170,-160,1.0325505257193224
+pp;0;ou;tb;0.5,under,T. France,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.21,2.25,2.2,121,125,120,1.0227272727272727
+pp;0;ou;tb;1.5,over,J. Rodriguez,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,1.5,2.28,2.25,2.2,128,125,120,1.0363636363636362
+pp;0;ou;tb;1.5,under,J. Rodriguez,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,1.5,1.6,1.5883,1.62,-167,-170,-160,1.0199584461373796
+pp;0;ou;tb;0.5,over,E. Clement,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,1.71,1.7143,1.68,-141,-140,-145,1.0204166666666667
+pp;0;ou;tb;0.5,under,E. Clement,TOR Blue Jays(away) vs SEA Mariners(home),MLB,Total Bases,,0.5,2.08,2.0,2.05,108,100,105,1.04
+pp;0;ou;hit;0.5,over,A. Thomas,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.51,1.4445,1.47,-196,-225,-210,1.0453444098303912
+pp;0;ou;hit;0.5,under,A. Thomas,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.49,2.55,2.55,149,155,155,1.0240963855421685
+pp;0;ou;hit;0.5,over,C. Walker,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.43,1.4,1.41,-233,-250,-240,1.0214285714285714
+pp;0;ou;hit;0.5,under,C. Walker,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.73,2.7,2.75,173,170,175,1.0185185185185184
+pp;0;ou;hit;0.5,over,D. Peralta,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.59,1.4762,1.46,-169,-210,-215,1.089041095890411
+pp;0;ou;hit;0.5,under,D. Peralta,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.3,2.5,2.55,130,150,155,1.108695652173913
+pp;0;ou;hit;0.5,over,D. Solano,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.45,1.4167,1.42,-222,-240,-235,1.0235053292863696
+pp;0;ou;hit;0.5,under,D. Solano,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.66,2.6,2.7,166,160,170,1.0384615384615385
+pp;0;ou;hit;0.5,over,E. Suarez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.65,1.625,1.62,-154,-160,-160,1.0185185185185184
+pp;0;ou;hit;0.5,under,E. Suarez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.19,2.2,2.2,119,120,120,1.0045662100456623
+pp;0;ou;hit;0.5,over,G. Moreno,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.47,1.4167,1.44,-213,-240,-225,1.0376226441730783
+pp;0;ou;hit;0.5,under,G. Moreno,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.6,2.6,2.6,160,160,160,1.0
+pp;0;ou;hit;0.5,over,G. Perdomo,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.66,1.625,1.62,-152,-160,-160,1.0246913580246912
+pp;0;ou;hit;0.5,under,G. Perdomo,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.16,2.2,2.15,116,120,115,1.0232558139534884
+pp;0;ou;hit;0.5,over,H. Kim,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.67,1.625,1.62,-149,-160,-160,1.0308641975308641
+pp;0;ou;hit;0.5,under,H. Kim,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.15,2.2,2.2,115,120,120,1.0232558139534884
+pp;0;ou;hit;0.5,over,J. Pederson,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.51,1.4762,1.48,-196,-210,-205,1.0228966264733776
+pp;0;ou;hit;0.5,under,J. Pederson,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.5,2.5,2.5,150,150,150,1.0
+pp;0;ou;hit;0.5,over,J. Profar,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,1.46,1.4445,1.42,-217,-225,-235,1.028169014084507
+pp;0;ou;hit;0.5,under,J. Profar,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,0.5,2.64,2.55,2.7,164,155,170,1.058823529411765
+pp;0;ou;hit;1.5,over,L. Arraez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,1.5,2.58,2.5,2.5,158,150,150,1.032
+pp;0;ou;hit;1.5,under,L. Arraez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits,,1.5,1.48,1.4762,1.47,-208,-210,-210,1.0068027210884354
+pp;0;ou;sb;0.5,over,A. Thomas,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,9.76,9.0,9.0,876,800,800,1.0844444444444443
+pp;0;ou;sb;0.5,under,A. Thomas,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.04,1.05,1.04,-2500,-2000,-2500,1.0096153846153846
+pp;0;ou;sb;0.5,over,C. Carroll,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,3.62,3.25,3.45,262,225,245,1.113846153846154
+pp;0;ou;sb;0.5,under,C. Carroll,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.27,1.2667,1.27,-370,-375,-360,1.0026051946001422
+pp;0;ou;sb;0.5,over,C. Walker,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,13.53,15.0,13.0,1253,1400,1200,1.1538461538461537
+pp;0;ou;sb;0.5,under,C. Walker,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.01,1.0167,1.005,-10000,-5988,-20000,1.0116417910447761
+pp;0;ou;sb;0.5,over,G. Moreno,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,10.74,10.5,11.0,974,950,1000,1.0476190476190477
+pp;0;ou;sb;0.5,under,G. Moreno,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-5000,1.0131372549019608
+pp;0;ou;sb;0.5,over,G. Perdomo,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,8.29,7.0,8.0,729,600,700,1.1842857142857142
+pp;0;ou;sb;0.5,under,G. Perdomo,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.06,1.0715,1.05,-1667,-1399,-1800,1.0204761904761903
+pp;0;ou;sb;0.5,over,H. Kim,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,6.46,5.25,6.0,546,425,500,1.2304761904761905
+pp;0;ou;sb;0.5,under,H. Kim,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.1,1.1,1.1,-1000,-1000,-1000,1.0
+pp;0;ou;sb;0.5,over,J. Merrill,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,7.24,6.5,7.0,624,550,600,1.113846153846154
+pp;0;ou;sb;0.5,under,J. Merrill,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.08,1.08,1.07,-1250,-1250,-1400,1.0093457943925235
+pp;0;ou;sb;0.5,over,J. Pederson,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,11.96,16.0,13.0,1096,1500,1200,1.3377926421404682
+pp;0;ou;sb;0.5,under,J. Pederson,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.02,1.0143,1.005,-5000,-6993,-20000,1.0149253731343284
+pp;0;ou;sb;0.5,over,K. Marte,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,8.96,8.0,8.5,796,700,750,1.12
+pp;0;ou;sb;0.5,under,K. Marte,ARI Diamondbacks(away) vs SD Padres(home),MLB,Stolen Bases,,0.5,1.05,1.0601,1.05,-2000,-1664,-2000,1.0096190476190476
+pp;0;ss;hit;1.5,over,C. Carroll,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,2.84,2.9,2.8,184,190,180,1.0357142857142858
+pp;0;ss;hit;2.5,over,C. Carroll,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,7.55,8.5,7.5,655,750,650,1.1333333333333333
+pp;0;ss;hit;1.5,over,C. Walker,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,2.94,3.2,3.2,194,220,220,1.08843537414966
+pp;0;ss;hit;2.5,over,C. Walker,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,7.9,9.5,10.5,690,850,950,1.3291139240506329
+pp;0;ss;hit;1.5,over,H. Kim,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,4.0,4.5,4.5,300,350,350,1.125
+pp;0;ss;hit;1.5,over,D. Peralta,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,3.37,3.5,3.55,237,250,255,1.0534124629080117
+pp;0;ss;hit;2.5,over,D. Peralta,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,9.03,11.0,12.0,803,1000,1100,1.3289036544850499
+pp;0;ss;hit;1.5,over,D. Solano,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,3.01,3.3,3.2,201,230,220,1.0963455149501662
+pp;0;ss;hit;2.5,over,D. Solano,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,8.13,11.5,10.5,713,1050,950,1.4145141451414514
+pp;0;ss;hit;1.5,over,J. Pederson,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,3.2,3.6,3.5,220,260,250,1.125
+pp;0;ss;hit;2.5,over,J. Pederson,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,8.78,11.0,12.0,778,1000,1100,1.3667425968109341
+pp;0;ss;hit;1.5,over,G. Moreno,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,3.07,3.5,3.4,207,250,240,1.1400651465798046
+pp;0;ss;hit;2.5,over,G. Moreno,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,8.36,12.0,11.0,736,1100,1000,1.4354066985645935
+pp;0;ss;hit;1.5,over,E. Suarez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,3.96,4.5,4.4,296,350,340,1.1363636363636365
+pp;0;ss;hit;0.5,over,J. Merrill,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,0.5,1.33,1.4,1.35,-303,-250,-280,1.0526315789473684
+pp;0;ss;hit;2.5,over,J. Merrill,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,6.61,9.5,9.0,561,850,800,1.437216338880484
+pp;0;ss;hit;0.5,over,L. Arraez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,0.5,1.32,1.3077,1.27,-312,-325,-360,1.0393700787401574
+pp;0;ss;hit;2.5,over,L. Arraez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,5.51,7.0,6.5,451,600,550,1.2704174228675136
+pp;0;ss;hit;1.5,over,J. Profar,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,3.04,3.3,3.2,204,230,220,1.0855263157894737
+pp;0;ss;hit;2.5,over,J. Profar,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,8.22,11.0,10.5,722,1000,950,1.338199513381995
+pp;0;ss;hit;1.5,over,M. Machado,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,2.72,2.85,2.75,172,185,175,1.0477941176470589
+pp;0;ss;hit;2.5,over,M. Machado,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,6.71,8.5,8.0,571,750,700,1.2667660208643816
+pp;0;ss;hit;1.5,over,G. Perdomo,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,4.0,4.3,4.3,300,330,330,1.075
+pp;0;ss;hit;1.5,over,K. Marte,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,2.77,2.75,3.0,177,175,200,1.0909090909090908
+pp;0;ss;hit;2.5,over,K. Marte,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,7.4,7.5,9.5,640,650,850,1.2837837837837838
+pp;0;ss;hit;1.5,over,A. Thomas,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,1.5,3.51,3.4,3.6,251,240,260,1.0588235294117647
+pp;0;ss;hit;2.5,over,A. Thomas,ARI Diamondbacks(away) vs SD Padres(home),MLB,Hits Milestones,,2.5,10.77,11.5,13.0,977,1050,1200,1.2070566388115136
+pp;0;ss;so;2.5,over,R. Vasquez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Strikeouts Milestones,,2.5,1.32,1.4,1.4,-312,-250,-250,1.0606060606060606
+pp;0;ss;so;4.5,over,R. Vasquez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Strikeouts Milestones,,4.5,3.07,3.0,2.65,207,200,165,1.1584905660377358
+pp;0;ss;so;5.5,over,R. Vasquez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Strikeouts Milestones,,5.5,5.52,5.25,4.2,452,425,320,1.314285714285714
+pp;0;ss;so;3.5,over,S. Cecconi,ARI Diamondbacks(away) vs SD Padres(home),MLB,Strikeouts Milestones,,3.5,2.28,2.4,2.35,128,140,135,1.0526315789473684
+pp;0;ss;so;4.5,over,S. Cecconi,ARI Diamondbacks(away) vs SD Padres(home),MLB,Strikeouts Milestones,,4.5,3.56,4.1,3.95,256,310,295,1.1516853932584268
+pp;0;ou;tb;1.5,over,C. Carroll,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.2,2.05,2.15,120,105,115,1.0731707317073174
+pp;0;ou;tb;1.5,under,C. Carroll,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.64,1.6897,1.62,-156,-145,-160,1.0430246913580246
+pp;0;ou;tb;1.5,over,C. Walker,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.17,2.05,2.1,117,105,110,1.0585365853658537
+pp;0;ou;tb;1.5,under,C. Walker,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.66,1.6897,1.66,-152,-145,-150,1.0178915662650603
+pp;0;ou;tb;0.5,over,H. Kim,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,0.5,1.64,1.6452,1.62,-156,-155,-160,1.0155555555555555
+pp;0;ou;tb;0.5,under,H. Kim,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,0.5,2.21,2.15,2.2,121,115,120,1.027906976744186
+pp;0;ou;tb;1.5,over,D. Peralta,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.52,2.25,2.35,152,125,135,1.12
+pp;0;ou;tb;1.5,under,D. Peralta,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.5,1.5883,1.52,-200,-170,-190,1.0588666666666666
+pp;0;ou;tb;1.5,over,D. Solano,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.58,2.3,2.45,158,130,145,1.1217391304347828
+pp;0;ou;tb;1.5,under,D. Solano,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.48,1.5556,1.5,-208,-180,-200,1.0510810810810811
+pp;0;ou;tb;1.5,over,J. Pederson,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.39,2.25,2.3,139,125,130,1.0622222222222222
+pp;0;ou;tb;1.5,under,J. Pederson,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.55,1.5883,1.55,-182,-170,-180,1.024709677419355
+pp;0;ou;tb;1.5,over,G. Moreno,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.61,2.35,2.55,161,135,155,1.1106382978723404
+pp;0;ou;tb;1.5,under,G. Moreno,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.47,1.5264,1.47,-213,-190,-210,1.0383673469387755
+pp;0;ou;tb;0.5,over,E. Suarez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,0.5,1.65,1.6452,1.62,-154,-155,-160,1.0185185185185184
+pp;0;ou;tb;0.5,under,E. Suarez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,0.5,2.19,2.15,2.2,119,115,120,1.0232558139534884
+pp;0;ou;tb;1.5,over,J. Merrill,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.12,2.1,2.05,112,110,105,1.0341463414634149
+pp;0;ou;tb;1.5,under,J. Merrill,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.69,1.6667,1.71,-145,-150,-140,1.0259794804103917
+pp;0;ou;tb;1.5,over,L. Arraez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.07,2.0,2.0,107,100,100,1.035
+pp;0;ou;tb;1.5,under,L. Arraez,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.72,1.7143,1.74,-139,-140,-135,1.0149915417371522
+pp;0;ou;tb;1.5,over,J. Profar,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.41,2.25,2.3,141,125,130,1.0711111111111111
+pp;0;ou;tb;1.5,under,J. Profar,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.54,1.5883,1.57,-185,-170,-175,1.0313636363636363
+pp;0;ou;tb;1.5,over,M. Machado,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.17,1.9524,2.1,117,-105,110,1.1114525711944274
+pp;0;ou;tb;1.5,under,M. Machado,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.66,1.7693,1.66,-152,-130,-150,1.065843373493976
+pp;0;ou;tb;0.5,over,G. Perdomo,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,0.5,1.65,1.6452,1.62,-154,-155,-160,1.0185185185185184
+pp;0;ou;tb;0.5,under,G. Perdomo,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,0.5,2.18,2.15,2.15,118,115,115,1.013953488372093
+pp;0;ou;tb;1.5,over,K. Marte,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,2.15,1.9091,2.1,115,-110,110,1.1261851134042218
+pp;0;ou;tb;1.5,under,K. Marte,ARI Diamondbacks(away) vs SD Padres(home),MLB,Total Bases,,1.5,1.67,1.8,1.66,-149,-125,-150,1.0843373493975905
+pp;0;ou;hit;0.5,over,A. Monasterio,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.02,2.0,2.05,102,100,105,1.025
+pp;0;ou;hit;0.5,under,A. Monasterio,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.76,1.7408,1.71,-132,-135,-140,1.0292397660818713
+pp;0;ou;hit;0.5,over,A. Pages,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.43,1.4,1.4,-233,-250,-250,1.0214285714285714
+pp;0;ou;hit;0.5,under,A. Pages,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.76,2.7,2.8,176,170,180,1.037037037037037
+pp;0;ou;hit;0.5,over,B. Turang,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.48,1.4167,1.45,-208,-240,-220,1.0446813016164325
+pp;0;ou;hit;0.5,under,B. Turang,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.57,2.6,2.6,157,160,160,1.011673151750973
+pp;0;ou;hit;0.5,over,C. Taylor,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.78,1.8,1.76,-128,-125,-130,1.0227272727272727
+pp;0;ou;hit;0.5,under,C. Taylor,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.99,1.9091,1.95,-101,-110,-105,1.0423759886857682
+pp;0;ou;hit;0.5,over,C. Yelich,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.5,1.5,1.48,-200,-200,-205,1.0135135135135136
+pp;0;ou;hit;0.5,under,C. Yelich,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.52,2.4,2.5,152,140,150,1.05
+pp;0;ou;hit;0.5,over,F. Freeman,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.38,1.3637,1.38,-263,-275,-260,1.0119527755371416
+pp;0;ou;hit;0.5,under,F. Freeman,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.94,2.85,2.85,194,185,185,1.031578947368421
+pp;0;ou;hit;0.5,over,G. Lux,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.63,1.6452,1.62,-159,-155,-160,1.0155555555555555
+pp;0;ou;hit;0.5,under,G. Lux,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.22,2.15,2.15,122,115,115,1.032558139534884
+pp;0;ou;hit;0.5,over,J. Chourio,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.76,1.7143,1.74,-132,-140,-135,1.026658111182407
+pp;0;ou;hit;0.5,under,J. Chourio,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.02,2.0,2.0,102,100,100,1.01
+pp;0;ou;hit;0.5,over,R. Hoskins,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.87,1.8548,1.86,-115,-117,-115,1.008194953633815
+pp;0;ou;hit;0.5,under,R. Hoskins,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.89,1.8548,1.86,-112,-117,-115,1.0189777873625188
+pp;0;ou;hit;0.5,over,S. Frelick,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.74,1.7143,1.74,-135,-140,-135,1.0149915417371522
+pp;0;ou;hit;0.5,under,S. Frelick,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.04,2.0,2.0,104,100,100,1.02
+pp;0;ou;hit;0.5,over,S. Ohtani,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.38,1.3637,1.37,-263,-275,-270,1.0119527755371416
+pp;0;ou;hit;0.5,under,S. Ohtani,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.95,2.85,2.9,195,185,190,1.0350877192982457
+pp;0;ou;hit;0.5,over,T. Hernandez,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.41,1.4,1.39,-244,-250,-255,1.014388489208633
+pp;0;ou;hit;0.5,under,T. Hernandez,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.82,2.7,2.8,182,170,180,1.0444444444444443
+pp;0;ou;hit;0.5,over,W. Adames,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.69,1.6667,1.68,-145,-150,-145,1.0139797204055918
+pp;0;ou;hit;0.5,under,W. Adames,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.11,2.1,2.1,111,110,110,1.0047619047619047
+pp;0;ou;hit;0.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,1.49,1.4762,1.48,-204,-210,-205,1.0093483267849885
+pp;0;ou;hit;0.5,under,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits,,0.5,2.54,2.5,2.5,154,150,150,1.016
+pp;0;ou;sb;0.5,over,A. Monasterio,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,7.73,8.0,8.0,673,700,700,1.034928848641656
+pp;0;ou;sb;0.5,under,A. Monasterio,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.07,1.0601,1.05,-1429,-1664,-1800,1.019047619047619
+pp;0;ou;sb;0.5,over,B. Turang,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,2.9,2.7,2.85,190,170,185,1.074074074074074
+pp;0;ou;sb;0.5,under,B. Turang,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.39,1.3637,1.38,-256,-275,-260,1.0192857666642223
+pp;0;ou;sb;0.5,over,C. Taylor,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,7.73,7.0,7.5,673,600,650,1.1042857142857143
+pp;0;ou;sb;0.5,under,C. Taylor,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.07,1.0715,1.06,-1429,-1399,-1600,1.0108490566037733
+pp;0;ou;sb;0.5,over,C. Yelich,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,4.62,3.9,4.3,362,290,330,1.1846153846153846
+pp;0;ou;sb;0.5,under,C. Yelich,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.18,1.1905,1.19,-556,-525,-525,1.0088983050847458
+pp;0;ou;sb;0.5,over,F. Freeman,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,10.74,11.0,11.0,974,1000,1000,1.0242085661080074
+pp;0;ou;sb;0.5,under,F. Freeman,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.03,1.0286,1.02,-3333,-3497,-5000,1.0098039215686274
+pp;0;ou;sb;0.5,over,G. Lux,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,11.96,16.0,13.0,1096,1500,1200,1.3377926421404682
+pp;0;ou;sb;0.5,under,G. Lux,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.02,1.0143,1.005,-5000,-6993,-20000,1.0149253731343284
+pp;0;ou;sb;0.5,over,J. Chourio,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,6.13,5.0,5.75,513,400,475,1.226
+pp;0;ou;sb;0.5,under,J. Chourio,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.11,1.1112,1.11,-909,-899,-900,1.001081081081081
+pp;0;ou;sb;0.5,over,S. Frelick,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,5.59,4.75,5.5,459,375,450,1.176842105263158
+pp;0;ou;sb;0.5,under,S. Frelick,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.13,1.125,1.12,-769,-800,-800,1.0089285714285712
+pp;0;ou;sb;0.5,over,S. Ohtani,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,7.73,6.0,7.0,673,500,600,1.2883333333333333
+pp;0;ou;sb;0.5,under,S. Ohtani,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.07,1.0834,1.07,-1429,-1199,-1400,1.0125233644859812
+pp;0;ou;sb;0.5,over,T. Hernandez,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,10.74,12.0,11.0,974,1100,1000,1.1173184357541899
+pp;0;ou;sb;0.5,under,T. Hernandez,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.03,1.025,1.02,-3333,-4000,-5000,1.0098039215686274
+pp;0;ou;sb;0.5,over,W. Adames,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,9.76,8.5,9.0,876,750,800,1.148235294117647
+pp;0;ou;sb;0.5,under,W. Adames,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.04,1.0556,1.04,-2500,-1799,-2500,1.0150000000000001
+pp;0;ou;sb;0.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.0,974,950,900,1.074
+pp;0;ou;sb;0.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.5,974,950,950,1.022857142857143
+pp;0;ou;sb;0.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.0,974,950,900,1.074
+pp;0;ou;sb;0.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.5,974,950,950,1.022857142857143
+pp;0;ou;sb;0.5,under,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-3500,1.0131372549019608
+pp;0;ou;sb;0.5,under,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-4000,1.0131372549019608
+pp;0;ou;sb;0.5,under,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-3500,1.0131372549019608
+pp;0;ou;sb;0.5,under,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-4000,1.0131372549019608
+pp;0;ss;hit;1.5,over,A. Pages,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,2.95,3.2,3.05,195,220,205,1.0847457627118644
+pp;0;ss;hit;2.5,over,A. Pages,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,7.95,11.0,10.0,695,1000,900,1.3836477987421383
+pp;0;ss;hit;1.5,over,C. Taylor,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,4.38,5.5,5.5,338,450,450,1.2557077625570776
+pp;0;ss;hit;1.5,over,F. Freeman,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,2.8,3.1,3.3,180,210,230,1.1785714285714286
+pp;0;ss;hit;2.5,over,F. Freeman,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,7.5,10.0,12.0,650,900,1100,1.6
+pp;0;ss;hit;1.5,over,G. Lux,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,3.92,4.75,4.7,292,375,370,1.211734693877551
+pp;0;ss;hit;1.5,over,S. Ohtani,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,2.79,3.0,3.05,179,200,205,1.093189964157706
+pp;0;ss;hit;2.5,over,S. Ohtani,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,7.45,9.0,10.0,645,800,900,1.342281879194631
+pp;0;ss;hit;1.5,over,T. Hernandez,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,2.89,3.2,3.1,189,220,210,1.1072664359861593
+pp;0;ss;hit;2.5,over,T. Hernandez,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,7.77,10.0,10.5,677,900,950,1.3513513513513513
+pp;0;ss;hit;1.5,over,B. Turang,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,2.88,3.4,3.35,188,240,235,1.1805555555555556
+pp;0;ss;hit;2.5,over,B. Turang,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,7.09,11.5,10.5,609,1050,950,1.6220028208744712
+pp;0;ss;hit;0.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,0.5,1.31,1.4762,1.33,-323,-210,-300,1.1268702290076336
+pp;0;ss;hit;0.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,0.5,1.49,1.4762,1.33,-204,-210,-300,1.1203007518796992
+pp;0;ss;hit;1.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,2.9,3.8,3.45,190,280,245,1.3103448275862069
+pp;0;ss;hit;1.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,3.05,3.8,3.45,205,280,245,1.2459016393442623
+pp;0;ss;hit;2.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,6.46,13.0,8.0,546,1200,700,2.0123839009287927
+pp;0;ss;hit;2.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,6.46,13.0,11.0,546,1200,1000,2.0123839009287927
+pp;0;ss;hit;2.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Hits Milestones,,2.5,7.88,13.0,8.0,688,1200,700,1.649746192893401
+pp;0;ss;hit;2.5,over,W. Contreras,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,7.88,13.0,11.0,688,1200,1000,1.649746192893401
+pp;0;ss;hit;1.5,over,C. Yelich,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,2.87,3.8,3.6,187,280,260,1.3240418118466897
+pp;0;ss;hit;2.5,over,C. Yelich,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,2.5,6.77,13.0,12.0,577,1200,1100,1.9202363367799116
+pp;0;ss;hit;1.5,over,W. Adames,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,4.1,5.0,4.5,310,400,350,1.2195121951219514
+pp;0;ss;hit;1.5,over,R. Hoskins,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,6.04,6.0,5.75,504,500,475,1.0504347826086957
+pp;0;ss;hit;1.5,over,S. Frelick,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,3.71,5.0,5.25,271,400,425,1.4150943396226414
+pp;0;ss;hit;1.5,over,A. Monasterio,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,5.43,7.0,7.0,443,600,600,1.289134438305709
+pp;0;ss;hit;1.5,over,J. Chourio,MIL Brewers(away) vs LA Dodgers(home),MLB,Hits Milestones,,1.5,4.19,5.25,5.0,319,425,400,1.2529832935560858
+pp;0;ss;so;6.5,over,T. Glasnow,MIL Brewers(away) vs LA Dodgers(home),MLB,Strikeouts Milestones,,6.5,1.45,1.5264,1.51,-222,-190,-195,1.0526896551724139
+pp;0;ss;so;8.5,over,T. Glasnow,MIL Brewers(away) vs LA Dodgers(home),MLB,Strikeouts Milestones,,8.5,2.64,2.65,2.65,164,165,165,1.0037878787878787
+pp;0;ss;so;9.5,over,T. Glasnow,MIL Brewers(away) vs LA Dodgers(home),MLB,Strikeouts Milestones,,9.5,3.8,4.0,3.9,280,300,290,1.0526315789473684
+pp;0;ou;tb;1.5,over,A. Pages,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,1.5,2.2,2.05,2.15,120,105,115,1.0731707317073174
+pp;0;ou;tb;1.5,under,A. Pages,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,1.5,1.64,1.6897,1.64,-156,-145,-155,1.0303048780487805
+pp;0;ou;tb;0.5,over,C. Taylor,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.82,1.8,1.76,-122,-125,-130,1.0340909090909092
+pp;0;ou;tb;0.5,under,C. Taylor,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.94,1.9091,1.95,-106,-110,-105,1.0214237075061547
+pp;0;ou;tb;1.5,over,F. Freeman,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,1.5,2.17,2.0,2.15,117,100,115,1.085
+pp;0;ou;tb;1.5,under,F. Freeman,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,1.5,1.66,1.7408,1.64,-152,-135,-155,1.0614634146341464
+pp;0;ou;tb;0.5,over,G. Lux,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.66,1.6667,1.62,-152,-150,-160,1.028827160493827
+pp;0;ou;tb;0.5,under,G. Lux,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,2.17,2.1,2.15,117,110,115,1.0333333333333332
+pp;0;ou;tb;1.5,over,S. Ohtani,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,1.5,1.89,1.8548,1.86,-112,-117,-115,1.0189777873625188
+pp;0;ou;tb;1.5,under,S. Ohtani,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,1.5,1.87,1.8548,1.86,-115,-117,-115,1.008194953633815
+pp;0;ou;tb;1.5,over,T. Hernandez,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,1.5,2.22,2.1,2.2,122,110,120,1.0571428571428572
+pp;0;ou;tb;1.5,under,T. Hernandez,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,1.5,1.63,1.6667,1.62,-159,-150,-160,1.028827160493827
+pp;0;ou;tb;1.5,over,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.88,2.35,1.83,-114,135,-120,1.284153005464481
+pp;0;ou;tb;1.5,under,W. Contreras,STL Cardinals(away) vs WAS Nationals(home),MLB,Total Bases,,1.5,1.88,1.5264,1.86,-114,-190,-115,1.2316561844863732
+pp;0;ou;tb;0.5,over,W. Adames,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.71,1.6897,1.68,-141,-145,-145,1.0178571428571428
+pp;0;ou;tb;0.5,under,W. Adames,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,2.09,2.05,2.1,109,105,110,1.024390243902439
+pp;0;ou;tb;0.5,over,R. Hoskins,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.89,1.8548,1.86,-112,-117,-115,1.0189777873625188
+pp;0;ou;tb;0.5,under,R. Hoskins,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.87,1.8548,1.86,-115,-117,-115,1.008194953633815
+pp;0;ou;tb;0.5,over,S. Frelick,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.76,1.7408,1.74,-132,-135,-135,1.0114942528735633
+pp;0;ou;tb;0.5,under,S. Frelick,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,2.02,2.0,2.0,102,100,100,1.01
+pp;0;ou;tb;0.5,over,A. Monasterio,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,2.1,1.9524,2.05,110,-105,105,1.07559926244622
+pp;0;ou;tb;0.5,under,A. Monasterio,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.7,1.7693,1.71,-143,-130,-140,1.040764705882353
+pp;0;ou;tb;0.5,over,J. Chourio,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,1.76,1.7408,1.74,-132,-135,-135,1.0114942528735633
+pp;0;ou;tb;0.5,under,J. Chourio,MIL Brewers(away) vs LA Dodgers(home),MLB,Total Bases,,0.5,2.02,2.0,2.0,102,100,100,1.01

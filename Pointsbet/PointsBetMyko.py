@@ -316,15 +316,15 @@ def makeKey(unit, points):
         "Player To Record A Triple Double": f"pp;0;ou;trpldbl;{points}",
 
         #MLB switches
-        "Player home runs OF": "pp;0;ou;hr;{points}",
-        "Alternate Pitcher Strikeouts": "pp;0;ss;so;{points}",
-        "Player hits OF": "pp;0;ou;hit;{points}",
-        "Player runs batted in OF": "pp;0;ou;rbi;{points}",
-        "Player stolen bases OF": "pp;0;ou;sb;{points}",
-        "Pitcher strikeouts OF": "pp;0;ou;so;{points}",
-        "Alternate Runs Batted In": "pp;0;ss;rbi;{points}",
-        "Alternate Hits": "pp;0;ss;hit;{points}",
-        "Player Total Bases": "pp;0;ou;tb;{points}",
+        "Player home runs OF": f"pp;0;ou;hr;{points}",
+        "Alternate Pitcher Strikeouts": f"pp;0;ss;so;{points}",
+        "Player hits OF": f"pp;0;ou;hit;{points}",
+        "Player runs batted in OF": f"pp;0;ou;rbi;{points}",
+        "Player stolen bases OF": f"pp;0;ou;sb;{points}",
+        "Pitcher strikeouts OF": f"pp;0;ou;so;{points}",
+        "Alternate Runs Batted In": f"pp;0;ss;rbi;{points}",
+        "Alternate Hits": f"pp;0;ss;hit;{points}",
+        "Player Total Bases": f"pp;0;ou;tb;{points}",
 
         #NHL switches
         re.compile(r'^Away Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
@@ -499,7 +499,7 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
     print(len(teams), len(category), len(league), len(side), len(names), len(points), len(odds), len(americanOdds), len(keys))
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation, 
-                       'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'American Odds': americanOdds, 'Key': keys})
+                       'Side': side, 'Name': names, 'Points': points, 'PB Decimal Odds': odds, 'PB American Odds': americanOdds, 'Key': keys})
     
     frames.append(df)
 
