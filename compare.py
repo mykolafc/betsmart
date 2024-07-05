@@ -16,6 +16,23 @@ def calculate_ratio(row):
     ratio = max_odds / min_odds if min_odds != 0 else float('inf')  # Handle division by zero
     return ratio
 
+def average_and_furthest(row):
+    # Calculate the average
+    odds = [row['BO dec_odds'], row['PB Decimal Odds'], row['DK Decimal Odds']]
+    avg = sum(odds) / 3
+
+    # Calculate the absolute differences from the average
+    diffs = [abs(odds[0] - avg), abs(odds[1] - avg), abs(odds[2] - avg)]
+
+    # Find the index of the maximum difference
+    max_diff_index = diffs.index(max(diffs))
+
+    if max_diff_index == 0:
+        return 'BetOnline'
+    elif max_diff_index == 1:
+        return 'PointsBet'
+    else:
+        return 'DraftKings'
 
 
 #Make names match before they get to this point
@@ -30,9 +47,10 @@ merged_df = pd.DataFrame()
 merged_df = pd.merge(df1, df2, how='inner', on=['Key', 'Designation', 'Name'])
 merged_df = pd.merge(merged_df, df3, how='inner', on=['Key', 'Designation', 'Name'])
 merged_df['Odds Ratio'] = merged_df.apply(calculate_ratio, axis=1) # Calculate the odds ratio
+merged_df['Best Deal'] = merged_df.apply(average_and_furthest, axis=1) # Calculate the best deal
 
 merged_df = merged_df.drop(['League_x', 'League_y', 'Category_x', 'Category_y', 'Side_x', 'Side_y', 'Points_x', 'Points_y', 'Teams_x', 'Teams_y'], axis=1)
-merged_df = merged_df.reindex(columns=['Key', 'Designation', 'Name', 'Teams', 'League', 'Category', 'Side', 'Points', 'BO dec_odds', 'PB Decimal Odds', 'DK Decimal Odds', 'BO Odds', 'PB American Odds', 'DK American Odds', 'Odds Ratio'])
+merged_df = merged_df.reindex(columns=['Key', 'Designation', 'Name', 'Teams', 'League', 'Category', 'Side', 'Points', 'BO dec_odds', 'PB Decimal Odds', 'DK Decimal Odds', 'BO Odds', 'PB American Odds', 'DK American Odds', 'Odds Ratio', 'Best Deal'])
 
 
 
