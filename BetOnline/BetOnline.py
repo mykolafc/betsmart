@@ -186,8 +186,8 @@ async def getAsyncPropsIDs(game_Ids):
             jr = json.loads(r)
             gameId = jr[0]['providers'][0]['id']
             gameIds.append(gameId)
-            gamesDict[gameId] = [jr[0]['team2']['title'] +
-                                 '(away) vs ' + jr[0]['team1']['title'] + '(home)', jr[0]['league'].upper()]
+            gamesDict[gameId] = [getTeamAbr(jr[0]['team2']['title']) +
+                                 '(away) vs ' + getTeamAbr(jr[0]['team1']['title']) + '(home)', jr[0]['league'].upper()]
     return gameIds, gamesDict
 
 
@@ -300,8 +300,8 @@ def manipulationLoop(data):
         periodEvents = periodEvents + game['EventOffering']['PeriodEvents']
     for event in periodEvents:
         game_Id = event['Event']['GameId']
-        teams1 = event['Event']['AwayTeam'].lower() + '(away) vs ' + \
-            event['Event']['HomeTeam'].lower() + '(home)'
+        teams1 = getTeamAbr(event['Event']['AwayTeam'].lower()) + '(away) vs ' + \
+            getTeamAbr(event['Event']['HomeTeam'].lower()) + '(home)'
         league1 = event['Event']['CorrelationId'].split('-')[1].split(' ')[0]
         name1 = event['Name']
         # Away
@@ -584,6 +584,42 @@ def makeKey(unit, points, name=None):
 
     # Return the result based on the unit
     return switcher.get(unit, None)
+
+
+def getTeamAbr(teamName):
+    switcher = {
+        'arizona diamondbacks': 'ARI',
+        'atlanta braves': 'ATL',
+        'baltimore orioles': 'BAL',
+        'boston red sox': 'BOS',
+        'chicago cubs': 'CHC',
+        'chicago white sox': 'CWS',  # You can add 'CWS' as an alternate if needed
+        'cincinnati reds': 'CIN',
+        'cleveland guardians': 'CLE',
+        'colorado rockies': 'COL',
+        'detroit tigers': 'DET',
+        'miami marlins': 'FLA',
+        'houston astros': 'HOU',
+        'kansas city royals': 'KAN',
+        'los angeles angels': 'LAA',
+        'los angeles dodgers': 'LAD',
+        'milwaukee brewers': 'MIL',
+        'minnesota twins': 'MIN',
+        'new york mets': 'NYM',
+        'new york yankees': 'NYY',
+        'oakland athletics': 'OAK',
+        'philadelphia phillies': 'PHI',
+        'pittsburgh pirates': 'PIT',
+        'san diego padres': 'SD',
+        'san francisco giants': 'SF',
+        'seattle mariners': 'SEA',
+        'st. louis cardinals': 'STL',
+        'tampa bay rays': 'TB',
+        'texas rangers': 'TEX',
+        'toronto blue jays': 'TOR',
+        'washington nationals': 'WAS'
+    }
+    return switcher.get(teamName, teamName)
 
 
 def dfByLoop(combined, gamesDict):

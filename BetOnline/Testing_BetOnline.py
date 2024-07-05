@@ -32,7 +32,3 @@ print(
     f'Process of the stuff that will repeat takes {(time.perf_counter() - start)} seconds')
 dir = git.Repo('.', search_parent_directories=True).working_tree_dir
 bigDf.to_csv(str(dir) + '/bin/BetOnlineGigaDump.csv', index=False)
-nfl.to_csv('nflFinalizing.csv')
-nba.to_csv('nbaFinalizing.csv')
-nhl.to_csv('nhlFinalizing.csv')
-mlb.to_csv('mlbFinalizing.csv')
