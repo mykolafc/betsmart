@@ -552,6 +552,9 @@ def makeKey(unit, points, name=None):
         "Stolen bases": f"pp;0;ou;sb;{points}",
         "Strikeouts": f"pp;0;ou;so;{points}",
         "Total bases": f"pp;0;ou;tb;{points}",
+        "Earned runs": f"pp;0;ou;er;{points}",
+        "Hits Allowed": f"pp;0;ou;hita;{points}",
+        "Runs + RBIs": f"pp;0;ou;r+r;{points}",
 
         "moneyline": f"s;{period};m",
         "spread": f"s;{period};s;{points}",
@@ -573,7 +576,10 @@ def makeKey(unit, points, name=None):
         "Alternate Hits": f"pp;0;ss;hit;{points}",
         "Alternate Home runs": f"pp;0;ss;hr;{points}",
         "Alternate Stolen bases": f"pp;0;ss;sb;{points}",
-        "Alternate Strikeouts": f"pp;0;ss;so;{points}"
+        "Alternate Strikeouts": f"pp;0;ss;so;{points}",
+        "Alternate Earned runs": f"pp;0;ss;er;{points}",
+        "Alternate Hits Allowed": f"pp;0;ss;hita;{points}",
+        "Alternate Runs + RBIs": f"pp;0;ss;r+r;{points}"
     }
 
     # Return the result based on the unit

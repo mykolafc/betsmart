@@ -12,6 +12,7 @@ import time
 import requests
 import json
 import numpy as np
+import git
 
 game_Ids, gameIdsByLeague = bet.getGeneralGameIDs()
 # Don't think keeping gameIds is necessary
@@ -29,7 +30,8 @@ nhl = bigDf[bigDf['League'] == 'NHL'].copy()
 mlb = bigDf[bigDf['League'] == 'MLB'].copy()
 print(
     f'Process of the stuff that will repeat takes {(time.perf_counter() - start)} seconds')
-bigDf.to_csv('ALLODDSFINALIZING.csv')
+dir = git.Repo('.', search_parent_directories=True).working_tree_dir
+bigDf.to_csv(str(dir) + '/bin/BetOnlineGigaDump.csv', index=False)
 nfl.to_csv('nflFinalizing.csv')
 nba.to_csv('nbaFinalizing.csv')
 nhl.to_csv('nhlFinalizing.csv')
