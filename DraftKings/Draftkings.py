@@ -252,7 +252,10 @@ def csvDump(data, league):
     df.to_csv('DraftKings'+league+'.csv', index=False)
 
 
-def makeKey(unit, points):
+def makeKey(unit, points, name=None):
+    period = -1
+    if name == 'Game':
+        period = 0
     switcher = {
         # NBA switches
         "Alternate Assists": f"pp;0;ss;asst;{points}",
@@ -274,7 +277,7 @@ def makeKey(unit, points):
         "Away Total": f"s;0;tt;{points};away",
 
         # MLB switches
-        "Player home runs OF": f"pp;0;ou;hr;{points}",
+        "Home Runs": f"pp;0;ou;hr;{points}",
         "Alternate Pitcher Strikeouts": f"pp;0;ss;so;{points}",
         "Player hits OF": f"pp;0;ou;hit;{points}",
         "Player runs batted in OF": f"pp;0;ou;rbi;{points}",
@@ -369,6 +372,7 @@ def gigaDump(dataMlb):
         currentLeague = (data['event']['eventGroupName'])
 
         # Game Props a.k.a. eventCategories index = 1
+        eventCategory = data['eventCategories']
         components = data['eventCategories'][1]['componentizedOffers']
         print(data['eventCategories'][1]['name'])
         for component in components:
@@ -397,23 +401,38 @@ def gigaDump(dataMlb):
         for i in range(2, 3):
             components = data['eventCategories'][i]['componentizedOffers']
             for component in components:
-                for offers in component['offers']:
-                    for offer in offers:
+                if component['componentId'] == 8:
+                    for offer in component['offers'][0]:
                         for outcome in offer['outcomes']:
-                            print("Here is a " + str(i) + " outcome")
                             league.append(currentLeague)
                             teams.append(homeAwayTeams)
-                            category.append(component['subcategoryName'])
                             side.append(None)
+                            designation.append(outcome['label'].lower())
                             points.append(outcome.get('line', None))
-                            odds.append(outcome['oddsDecimal'])
-                            americanOdds.append(outcome['oddsAmerican'])
+                            americanOdds.append(
+                                int(outcome['oddsAmerican'].strip('+')))
+                            odds.append(
+                                float(outcome['oddsDecimalDisplay']))
+                            category.append(component['subcategoryName'])
                             names.append(outcome.get(
                                 'playerNameIdentifier', None))
-                            designation.append(
-                                outcome.get('label', None).lower())
                             keys.append('key')
-                            print("Done with iteration for this outcome!")
+                elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
+                    for offer in component['offers'][0]:
+                        for outcome in offer['outcomes']:
+                            league.append(currentLeague)
+                            teams.append(homeAwayTeams)
+                            side.append(None)
+                            designation.append('over')
+                            points.append(
+                                float(outcome['oddsDecimalDisplay'].strip('+'))-0.5)
+                            americanOdds.append(
+                                int(outcome['oddsAmerican'].strip('+')))
+                            odds.append(float(outcome['oddsDecimalDisplay']))
+                            category.append(component['subcategoryName'])
+                            names.append(outcome.get(
+                                'playerNameIdentifier', None))
+                            keys.append('keys')
 
     print(len(teams), len(category), len(league), len(designation), len(
         side), len(names), len(points), len(odds), len(americanOdds), len(keys))
@@ -426,7 +445,7 @@ def gigaDump(dataMlb):
     df = pd.concat(frames)
 
     dir = git.Repo('.', search_parent_directories=True).working_tree_dir
-    df.to_csv(str(dir)+ '/bin/DraftKingsGigaDump.csv', index=False)
+    df.to_csv(str(dir) + '/bin/DraftKingsGigaDump.csv', index=False)
 
 
 class MyCmd(cmd.Cmd):
