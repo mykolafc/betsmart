@@ -334,7 +334,7 @@ def gigaDump(dataMlb):
     odds = []
     americanOdds = []
     side = []
-    category = []
+    categories = []
     names = []
     designation = []
     games = []
@@ -372,8 +372,10 @@ def gigaDump(dataMlb):
         currentLeague = (data['event']['eventGroupName'])
 
         # Game Props a.k.a. eventCategories index = 1
-        eventCategory = data['eventCategories']
-        components = data['eventCategories'][1]['componentizedOffers']
+        eventCategory = next(
+            (category for category in data['eventCategories'] if category['name'].lower() == 'game lines'), None)
+        components = eventCategory['componentizedOffers']
+        # components = data['eventCategories'][1]['componentizedOffers']
         print(data['eventCategories'][1]['name'])
         for component in components:
             for offers in component['offers']:
@@ -382,7 +384,7 @@ def gigaDump(dataMlb):
                         print("Here is an outcome : " + str(outcome))
                         league.append(currentLeague)
                         teams.append(homeAwayTeams)
-                        category.append(offer['label'])
+                        categories.append(offer['label'])
                         if homeTeam in outcome['label']:
                             side.append('home')
                         elif awayTeam in outcome['label']:
@@ -398,46 +400,48 @@ def gigaDump(dataMlb):
                         print("Done with iteration for this outcome!")
 
         # Player Props a.k.a. eventCategories index = 2 for batters and 3 for pitchers
-        for i in range(2, 3):
-            components = data['eventCategories'][i]['componentizedOffers']
-            for component in components:
-                if component['componentId'] == 8:
-                    for offer in component['offers'][0]:
-                        for outcome in offer['outcomes']:
-                            league.append(currentLeague)
-                            teams.append(homeAwayTeams)
-                            side.append(None)
-                            designation.append(outcome['label'].lower())
-                            points.append(outcome.get('line', None))
-                            americanOdds.append(
-                                int(outcome['oddsAmerican'].strip('+')))
-                            odds.append(
-                                float(outcome['oddsDecimalDisplay']))
-                            category.append(component['subcategoryName'])
-                            names.append(outcome.get(
-                                'playerNameIdentifier', None))
-                            keys.append('key')
-                elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
-                    for offer in component['offers'][0]:
-                        for outcome in offer['outcomes']:
-                            league.append(currentLeague)
-                            teams.append(homeAwayTeams)
-                            side.append(None)
-                            designation.append('over')
-                            points.append(
-                                float(outcome['oddsDecimalDisplay'].strip('+'))-0.5)
-                            americanOdds.append(
-                                int(outcome['oddsAmerican'].strip('+')))
-                            odds.append(float(outcome['oddsDecimalDisplay']))
-                            category.append(component['subcategoryName'])
-                            names.append(outcome.get(
-                                'playerNameIdentifier', None))
-                            keys.append('keys')
+        for category in data['eventCategories']:
+            if category['name'] == 'Batter Props' or category['name'] == 'Pitcher Props':
+                components = category['componentizedOffers']
+                for component in components:
+                    if component['componentId'] == 8:
+                        for offer in component['offers'][0]:
+                            for outcome in offer['outcomes']:
+                                league.append(currentLeague)
+                                teams.append(homeAwayTeams)
+                                side.append(None)
+                                designation.append(outcome['label'].lower())
+                                points.append(outcome.get('line', None))
+                                americanOdds.append(
+                                    int(outcome['oddsAmerican'].strip('+')))
+                                odds.append(
+                                    float(outcome['oddsDecimalDisplay']))
+                                categories.append(component['subcategoryName'])
+                                names.append(outcome.get(
+                                    'playerNameIdentifier', None))
+                                keys.append('key')
+                    elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
+                        for offer in component['offers'][0]:
+                            for outcome in offer['outcomes']:
+                                league.append(currentLeague)
+                                teams.append(homeAwayTeams)
+                                side.append(None)
+                                designation.append('over')
+                                points.append(
+                                    float(outcome['oddsDecimalDisplay'].strip('+'))-0.5)
+                                americanOdds.append(
+                                    int(outcome['oddsAmerican'].strip('+')))
+                                odds.append(
+                                    float(outcome['oddsDecimalDisplay']))
+                                categories.append(component['subcategoryName'])
+                                names.append(outcome.get(
+                                    'playerNameIdentifier', None))
+                                keys.append('keys')
 
-    print(len(teams), len(category), len(league), len(designation), len(
+    print(len(teams), len(categories), len(league), len(designation), len(
         side), len(names), len(points), len(odds), len(americanOdds), len(keys))
 
-    df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation,
+    df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': categories, 'Designation': designation,
                        'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'American Odds': americanOdds, 'Key': keys})
 
     frames.append(df)
