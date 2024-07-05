@@ -625,8 +625,12 @@ def dfByLoop(combined, gamesDict):
                 designation.append("over")
                 odds.append(over_odds)
                 betOdds.append(decToAmerican(over_odds))
-                nsplit = plyr["name"].split()
-                playName.append(nsplit[0][0] + '. ' + nsplit[1])
+
+                playerName = plyr["name"]
+                nsplit = playerName.split()
+                name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
+                playName.append(name)
+
                 gameId.append(plyr["markets"][0]["game1Id"])
                 teams.append(gamesDict[plyr["markets"][0]["game1Id"]][0])
                 league.append(gamesDict[plyr["markets"][0]["game1Id"]][1])
@@ -637,7 +641,7 @@ def dfByLoop(combined, gamesDict):
                 designation.append("under")
                 odds.append(under_odds)
                 betOdds.append(decToAmerican(under_odds))
-                playName.append(nsplit[0][0] + '. ' + nsplit[1])
+                playName.append(name)
 
         elif r["type"] == "ss":
             # print(r["statistic"] + " Atleast")
@@ -657,8 +661,10 @@ def dfByLoop(combined, gamesDict):
                     designation.append("over")
                     odds.append(mrkt["odds"])
                     betOdds.append(decToAmerican(mrkt['odds']))
-                    nsplit = plyr["name"].split()
-                    playName.append(nsplit[0][0] + '. ' + nsplit[1])
+                    playerName = plyr["name"]
+                    nsplit = playerName.split()
+                    name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
+                    playName.append(name)
 
     data = {"GameId": gameId, 'teams': teams, 'League': league, "Units": units, "Key": keys, "Point": points, "Category": category,
             "Designation": designation, "Betonline dec_odds": odds, 'Betonline Odds': betOdds, "PlayName": playName}
