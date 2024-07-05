@@ -12,6 +12,7 @@ from datetime import datetime
 from email.utils import formatdate
 import cmd
 import re
+import git
 
 
 '''def getDataNba():
@@ -424,7 +425,8 @@ def gigaDump(dataMlb):
 
     df = pd.concat(frames)
 
-    df.to_csv('DraftKingsGigaDump.csv', index=False)
+    dir = git.Repo('.', search_parent_directories=True).working_tree_dir
+    df.to_csv(str(dir)+ '/bin/DraftKingsGigaDump.csv', index=False)
 
 
 class MyCmd(cmd.Cmd):
