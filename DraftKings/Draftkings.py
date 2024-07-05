@@ -301,7 +301,7 @@ def makeKey(unit, points, name=None):
         # MLB game switches
         "Moneyline": f"s;0;m",
         "Run Line": f"s;0;s;{points}",
-        "Total Runs OF": f"s;0;ou;{points}",
+        "Total": f"s;0;ou;{points}",
         "Total Runs - AWAYTEAM OF": f"s;0;tt;{points};away",
         "Total Runs - HOMETEAM OF": f"s;0;tt;{points};home",
 
@@ -388,12 +388,10 @@ def gigaDump(dataMlb):
             (category for category in data['eventCategories'] if category['name'].lower() == 'game lines'), None)
         components = eventCategory['componentizedOffers']
         # components = data['eventCategories'][1]['componentizedOffers']
-        print(data['eventCategories'][1]['name'])
         for component in components:
             for offers in component['offers']:
                 for offer in offers:
                     for outcome in offer['outcomes']:
-                        print("Here is an outcome : " + str(outcome))
                         league.append(currentLeague)
                         teams.append(homeAwayTeams)
                         categories.append(offer['label'])
@@ -407,9 +405,12 @@ def gigaDump(dataMlb):
                         odds.append(outcome['oddsDecimal'])
                         americanOdds.append(outcome['oddsAmerican'])
                         names.append(None)
-                        designation.append(None)
-                        keys.append('key')
-                        print("Done with iteration for this outcome!")
+                        desi = outcome.get('label', None).lower()
+                        if 'over' in desi or 'under' in desi:
+                            designation.append(desi)
+                        else:
+                            designation.append(None)
+                        keys.append(makeKey(offer['label'], outcome.get('line', None), "Game"))
 
         # Player Props a.k.a. eventCategories index = 2 for batters and 3 for pitchers
         for category in data['eventCategories']:
@@ -431,7 +432,7 @@ def gigaDump(dataMlb):
                                 categories.append(component['subcategoryName'])
                                 names.append(outcome.get(
                                     'playerNameIdentifier', None))
-                                keys.append('key')
+                                keys.append(makeKey(component['subcategoryName'], outcome.get('line', None), "Game"))
                     elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
                         for offer in component['offers'][0]:
                             for outcome in offer['outcomes']:
@@ -440,7 +441,7 @@ def gigaDump(dataMlb):
                                 side.append(None)
                                 designation.append('over')
                                 points.append(
-                                    float(outcome['oddsDecimalDisplay'].strip('+'))-0.5)
+                                    float(outcome['label'].strip('+'))-0.5)
                                 americanOdds.append(
                                     int(outcome['oddsAmerican'].strip('+')))
                                 odds.append(
@@ -448,7 +449,7 @@ def gigaDump(dataMlb):
                                 categories.append(component['subcategoryName'])
                                 names.append(outcome.get(
                                     'playerNameIdentifier', None))
-                                keys.append('keys')
+                                keys.append(makeKey(component['subcategoryName'], float(outcome['label'].strip('+'))-0.5, "Game"))
 
     print(len(teams), len(categories), len(league), len(designation), len(
         side), len(names), len(points), len(odds), len(americanOdds), len(keys))
