@@ -430,8 +430,13 @@ def gigaDump(dataMlb):
                                 odds.append(
                                     float(outcome['oddsDecimalDisplay']))
                                 categories.append(component['subcategoryName'])
-                                names.append(outcome.get(
-                                    'playerNameIdentifier', None))
+                                playerName = outcome.get('playerNameIdentifier', None)
+                                if playerName is not None:
+                                    nsplit = playerName.split()
+                                    name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
+                                    names.append(name)
+                                else:
+                                    names.append(None)
                                 keys.append(makeKey(component['subcategoryName'], outcome.get('line', None), "Game"))
                     elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
                         for offer in component['offers'][0]:
@@ -447,15 +452,20 @@ def gigaDump(dataMlb):
                                 odds.append(
                                     float(outcome['oddsDecimalDisplay']))
                                 categories.append(component['subcategoryName'])
-                                names.append(outcome.get(
-                                    'playerNameIdentifier', None))
+                                playerName = outcome.get('playerNameIdentifier', None)
+                                if playerName is not None:
+                                    nsplit = playerName.split()
+                                    name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
+                                    names.append(name)
+                                else:
+                                    names.append(None)
                                 keys.append(makeKey(component['subcategoryName'], float(outcome['label'].strip('+'))-0.5, "Game"))
 
     print(len(teams), len(categories), len(league), len(designation), len(
         side), len(names), len(points), len(odds), len(americanOdds), len(keys))
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': categories, 'Designation': designation,
-                       'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'American Odds': americanOdds, 'Key': keys})
+                       'Side': side, 'Name': names, 'Points': points, 'DK Decimal Odds': odds, 'DK American Odds': americanOdds, 'Key': keys})
 
     frames.append(df)
 
