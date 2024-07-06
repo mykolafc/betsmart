@@ -147,7 +147,6 @@ def listGameIds(data):
     return gameIds
 
 
-
 def decimal_to_american(decimal_odds):
     if decimal_odds == 1.0:
         american_odds = 0
@@ -338,21 +337,22 @@ def makeKey(unit, points, name=None):
             return True
     return False
 
+
 def getTeamName(name):
     switcherMLB = {
         "ARI Diamondbacks": "ARI",
         "ATL Braves": "ATL",
         "BAL Orioles": "BAL",
         "BOS Red Sox": "BOS",
-        "CHC White Sox": "CWS",
-        "CHC Cubs": "CHC",
+        "CHI White Sox": "CWS",
+        "CHI Cubs": "CHC",
         "CIN Reds": "CIN",
         "CLE Guardians": "CLE",
         "COL Rockies": "COL",
-        "CET Tigers": "DET",
+        "DET Tigers": "DET",
         "HOU Astros": "HOU",
         "MIA Marlins": "MIA",
-        "KAN Royals": "KAN",
+        "KC Royals": "KAN",
         "LA Angels": "LAA",
         "LA Dodgers": "LAD",
         "MIL Brewers": "MIL",
@@ -372,7 +372,7 @@ def getTeamName(name):
         "WAS Nationals": "WAS",
     }
 
-    return switcherMLB.get(name, "Unknown Team")
+    return switcherMLB.get(name, name)
 
 
 def gigaDump(dataMlb):
@@ -449,7 +449,8 @@ def gigaDump(dataMlb):
                             designation.append(desi)
                         else:
                             designation.append(None)
-                        keys.append(makeKey(offer['label'], outcome.get('line', None), "Game"))
+                        keys.append(
+                            makeKey(offer['label'], outcome.get('line', None), "Game"))
 
         # Player Props a.k.a. eventCategories index = 2 for batters and 3 for pitchers
         for category in data['eventCategories']:
@@ -469,14 +470,17 @@ def gigaDump(dataMlb):
                                 odds.append(
                                     float(outcome['oddsDecimalDisplay']))
                                 categories.append(component['subcategoryName'])
-                                playerName = outcome.get('playerNameIdentifier', None)
+                                playerName = outcome.get(
+                                    'playerNameIdentifier', None)
                                 if playerName is not None:
                                     nsplit = playerName.split()
-                                    name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
+                                    name = playerName.replace(
+                                        nsplit[0], nsplit[0][0] + '.', 1)
                                     names.append(name)
                                 else:
                                     names.append(None)
-                                keys.append(makeKey(component['subcategoryName'], outcome.get('line', None), "Game"))
+                                keys.append(
+                                    makeKey(component['subcategoryName'], outcome.get('line', None), "Game"))
                     elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
                         for offer in component['offers'][0]:
                             for outcome in offer['outcomes']:
@@ -491,14 +495,17 @@ def gigaDump(dataMlb):
                                 odds.append(
                                     float(outcome['oddsDecimalDisplay']))
                                 categories.append(component['subcategoryName'])
-                                playerName = outcome.get('playerNameIdentifier', None)
+                                playerName = outcome.get(
+                                    'playerNameIdentifier', None)
                                 if playerName is not None:
                                     nsplit = playerName.split()
-                                    name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
+                                    name = playerName.replace(
+                                        nsplit[0], nsplit[0][0] + '.', 1)
                                     names.append(name)
                                 else:
                                     names.append(None)
-                                keys.append(makeKey(component['subcategoryName'], float(outcome['label'].strip('+'))-0.5, "Game"))
+                                keys.append(makeKey(component['subcategoryName'], float(
+                                    outcome['label'].strip('+'))-0.5, "Game"))
 
     print(len(teams), len(categories), len(league), len(designation), len(
         side), len(names), len(points), len(odds), len(americanOdds), len(keys))
