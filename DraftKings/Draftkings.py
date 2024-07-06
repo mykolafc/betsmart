@@ -147,6 +147,7 @@ def listGameIds(data):
     return gameIds
 
 
+
 def decimal_to_american(decimal_odds):
     if decimal_odds == 1.0:
         american_odds = 0
@@ -337,6 +338,42 @@ def makeKey(unit, points, name=None):
             return True
     return False
 
+def getTeamName(name):
+    switcherMLB = {
+        "ARI Diamondbacks": "ARI",
+        "ATL Braves": "ATL",
+        "BAL Orioles": "BAL",
+        "BOS Red Sox": "BOS",
+        "CHC White Sox": "CWS",
+        "CHC Cubs": "CHC",
+        "CIN Reds": "CIN",
+        "CLE Guardians": "CLE",
+        "COL Rockies": "COL",
+        "CET Tigers": "DET",
+        "HOU Astros": "HOU",
+        "MIA Marlins": "MIA",
+        "KAN Royals": "KAN",
+        "LA Angels": "LAA",
+        "LA Dodgers": "LAD",
+        "MIL Brewers": "MIL",
+        "MIN Twins": "MIN",
+        "NY Yankees": "NYY",
+        "NY Mets": "NYM",
+        "OAK Athletics": "OAK",
+        "PHI Phillies": "PHI",
+        "PIT Pirates": "PIT",
+        "SD Padres": "SD",
+        "SF Giants": "SF",
+        "SEA Mariners": "SEA",
+        "STL Cardinals": "STL",
+        "TB Rays": "TB",
+        "TEX Rangers": "TEX",
+        "TOR Blue Jays": "TOR",
+        "WAS Nationals": "WAS",
+    }
+
+    return switcherMLB.get(name, "Unknown Team")
+
 
 def gigaDump(dataMlb):
 
@@ -379,8 +416,8 @@ def gigaDump(dataMlb):
         data = x.json()
         homeTeam = data['event']['teamName2']
         awayTeam = data['event']['teamName1']
-        homeAwayTeams = awayTeam + \
-            '(away)' + ' vs ' + homeTeam + '(home)'
+        homeAwayTeams = getTeamName(awayTeam) + \
+            '(away)' + ' vs ' + getTeamName(homeTeam) + '(home)'
         currentLeague = (data['event']['eventGroupName'])
 
         # Game Props a.k.a. eventCategories index = 1
@@ -391,6 +428,8 @@ def gigaDump(dataMlb):
         for component in components:
             for offers in component['offers']:
                 for offer in offers:
+                    if 'label' not in offer:
+                        continue
                     for outcome in offer['outcomes']:
                         league.append(currentLeague)
                         teams.append(homeAwayTeams)
