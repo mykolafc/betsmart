@@ -330,6 +330,12 @@ def makeKey(unit, points):
         "Player To Record A Triple Double": f"pp;0;ou;trpldbl;{points}",
 
         # MLB switches
+        "Moneyline OF": f"s;0;m",
+        "Run Line": f"s;0;s;{points}",
+        "Total Runs OF": f"s;0;ou;{points}",
+        "Total Runs - AWAYTEAM OF": f"s;0;tt;{points};away",
+        "Total Runs - HOMETEAM OF": f"s;0;tt;{points};home",
+
         "Player home runs OF": f"pp;0;ou;hr;{points}",
         "Alternate Pitcher Strikeouts": f"pp;0;ss;so;{points}",
         "Player hits OF": f"pp;0;ou;hit;{points}",
@@ -512,26 +518,34 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
                     teams.append(homeAwayTeams)
                     category.append(market['eventClass'])
                     league.append(sport)
-                    side.append(prop['side'])
+                    if market['eventClass'] in gamePropsEvents:
+                        if prop['side'] == 'Neither':
+                            side.append(None)
+                        else:
+                            side.append(prop['side'].lower())
+                    else:
+                        side.append(None)
                     points.append(prop['points'])
                     odds.append(prop['price'])
                     americanOdds.append(decimal_to_american(prop['price']))
-                    keys.append(makeKey(market['eventClass'], prop['points']))
+                    pnt = prop['points']
+                    if market['eventClass'] == 'Run Line' and prop['side'] == 'Away':
+                        pnt = -1 * pnt
+                    keys.append(makeKey(market['eventClass'], pnt))
                     if 'Over' in prop['name'] or 'Alternate' in prop['groupByHeader']:
                         designation.append('over')
                     elif 'Under' in prop['name']:
                         designation.append('under')
                     else:
                         designation.append('')
-                    if ('Player' in market['groupName'] or
-                        'Goalie' in market['groupName'] or
-                            'Alternate' in market['groupName']):
+                    if (market['eventClass'] in playerPropOUEvents or
+                            market['eventClass'] in playerPropAtleastEvents):
                         playerName = re.split(
                             r'(\d+| To | Over | Under | \( )', prop['name'], 1)[0].strip()
                         nsplit = playerName.split()
                         names.append(nsplit[0][0] + '. ' + nsplit[1])
                     else:
-                        names.append(prop['name'])
+                        names.append(None)
             if (match_variable_event_class(market['eventClass'], playerPropOUEventsVariableNHL)):
                 for prop in market['outcomes']:
                     teams.append(homeAwayTeams)

@@ -54,9 +54,9 @@ print(df3.columns)
 # Create a new dataframe to store the matching entries
 merged_df = pd.DataFrame()
 
-merged_df = pd.merge(df1, df2, how='outer', on=[
+merged_df = pd.merge(df1, df2, how='inner', on=[
                      'Key', 'Designation', 'Name', 'Teams'])
-merged_df = pd.merge(merged_df, df3, how='outer', on=[
+merged_df = pd.merge(merged_df, df3, how='inner', on=[
                      'Key', 'Designation', 'Name', 'Teams'])
 merged_df['Odds Ratio'] = merged_df.apply(
     calculate_ratio, axis=1)  # Calculate the odds ratio

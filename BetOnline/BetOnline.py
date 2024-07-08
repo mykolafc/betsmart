@@ -524,6 +524,8 @@ def getPropsUrls(gamesDict):
 
 
 def decToAmerican(odd):
+    if odd == 1:
+        return 0
     if odd >= 2.0:
         odd = 100*(odd - 1)
     else:

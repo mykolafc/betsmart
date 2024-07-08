@@ -441,6 +441,9 @@ def gigaDump(dataMlb):
                         else:
                             side.append(None)
                         points.append(outcome.get('line', None))
+                        pnt = outcome.get('line', None)
+                        if offer['label'] == 'Run Line' and awayTeam in outcome['label']:
+                            pnt = -1 * pnt
                         odds.append(outcome['oddsDecimal'])
                         americanOdds.append(outcome['oddsAmerican'])
                         names.append(None)
@@ -450,7 +453,7 @@ def gigaDump(dataMlb):
                         else:
                             designation.append(None)
                         keys.append(
-                            makeKey(offer['label'], outcome.get('line', None), "Game"))
+                            makeKey(offer['label'], pnt, "Game"))
 
         # Player Props a.k.a. eventCategories index = 2 for batters and 3 for pitchers
         for category in data['eventCategories']:
