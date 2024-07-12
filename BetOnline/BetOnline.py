@@ -279,6 +279,60 @@ def makePayloads(gameIdsBySport):
     return payloads
 
 
+def makeGameUrls(gameIdsBySport):
+    nflGameIds = gameIdsBySport.get('NFL')
+    urls = []
+    if nflGameIds != None:
+        for game_Id in nflGameIds:
+            urls.append({'url': byEventUrl,
+                         'headers': byEventHeaders,
+                        'payload': {
+                            "GameID": game_Id,
+                            "Sport": "football",
+                            "League": "nfl",
+                            "ScheduleText": None
+                        }
+            })
+    nbaGameIds = gameIdsBySport.get('NBA')
+    if nbaGameIds != None:
+        for game_Id in nbaGameIds:
+            urls.append({'url': byEventUrl,
+                         'headers': byEventHeaders,
+                        'payload': {
+                            "GameID": game_Id,
+                            "Sport": "basketball",
+                            "League": "nba",
+                            "ScheduleText": None
+                        }
+            })
+    nhlGameIds = gameIdsBySport.get('NHL')
+    if nhlGameIds != None:
+        for game_Id in nhlGameIds:
+            urls.append({'url': byEventUrl,
+                         'headers': byEventHeaders,
+                        'payload': {
+                            "GameID": game_Id,
+                            "Sport": "hockey",
+                            "League": "nhl",
+                            "ScheduleText": None
+                        }
+            })
+    # BASEBALL
+    mlbGameIds = gameIdsBySport.get('MLB')
+    if mlbGameIds != None:
+        for game_Id in mlbGameIds:
+            urls.append({'url': byEventUrl,
+                         'headers': byEventHeaders,
+                        'payload': {
+                            "GameID": game_Id,
+                            "Sport": "baseball",
+                            "League": "mlb",
+                            "ScheduleText": None
+                        }
+            })
+    return urls
+
+
 # Loop that manipulates the teams odds data and returns in df, for some reason its much faster than using pandas
 def manipulationLoop(data):
     start = time.perf_counter()
@@ -521,6 +575,27 @@ def getPropsUrls(gamesDict):
         overUnderLinks(gameIdsBySport.get('MLB'), categoriesOUBaseball) + \
         atleastLinks(gameIdsBySport.get('MLB'), categoriesAtleastBaseball)
     return urls
+
+
+def getPropsUrls2(gamesDict):
+    gameIdsBySport = dict()
+    for gameId, league in gamesDict.items():
+        gameIdsBySport.setdefault(league[1], []).append(gameId)
+    urlsDict = []
+    # IS THIS SHIT GONNA WORK????
+    urls = overUnderLinks(gameIdsBySport.get('NFL'), categoriesOUFootball) + \
+        atleastLinks(gameIdsBySport.get('NFL'), categoriesAtleastFootball) + \
+        overUnderLinks(gameIdsBySport.get('NBA'), categoriesOUBasket) + \
+        atleastLinks(gameIdsBySport.get('NBA'), categoriesAtleastBasket) + \
+        overUnderLinks(gameIdsBySport.get('NHL'), categoriesOUHockey) + \
+        atleastLinks(gameIdsBySport.get('NHL'), categoriesAtleastHockey) + \
+        overUnderLinks(gameIdsBySport.get('MLB'), categoriesOUBaseball) + \
+        atleastLinks(gameIdsBySport.get('MLB'), categoriesAtleastBaseball)
+
+    for url in urls:
+        urlsDict.append({'url': url,
+                         'headers': None})
+    return urlsDict
 
 
 def decToAmerican(odd):

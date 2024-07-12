@@ -77,25 +77,91 @@ def getDataNhl():
 '''
 
 
-def getDataMlb():
-    # This should return the JSON file of the mlb front page from DraftKings
-    # I realized the problem is that we didnt include the headers parameter in the get request
+def getGameIds(days=2):
 
-    # It's possible that some things in this link variable so it might not always be this EXACT link
-    url = "https://sportsbook-nash-caon.draftkings.com/sites/CA-ON-SB/api/v5/eventgroups/84240?format=json"
-
+    now = datetime.utcnow()
     headers = {
-        'Accept': '*/*',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Referer': 'https://sportsbook.draftkings.com/',
+        'authority': 'api-offering.betonline.ag',
+        'method': 'POST',
+        'path': '/api/offering/sports/offering-by-default',
+        'scheme': 'https',
+        'Accept': 'application/json, text/plain, */*',
+        'Accept-Encoding': 'gzip, deflate',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Access-Control-Allow-Headers': 'Content-Type',
+        'Access-Control-Allow-Methods': 'GET, POST',
+        'Access-Control-Allow-Origin': 'https://api-offering.betonline.ag/api/offering/sports/offering-by-default',
+        # Current time in milliseconds since the epoch,
+        'Actual-Time': str(int(time.time() * 1000)),
+        'Content-Length': '0',
+        'Content-Type': 'application/json',
+        'Contests': 'na',
+        'Gmt-Offset': '-4',
+        'Gsetting': 'bolnasite',
+        'Iso-Time': now.isoformat() + 'Z',  # Current time in ISO 8601 format
+        'Origin': 'https://www.betonline.ag',
+        'Referer': 'https://www.betonline.ag/',
+        'Sec-Ch-Ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
+        'Sec-Ch-Ua-Mobile': '?0',
+        'Sec-Ch-Ua-Platform': '"Windows"',
+        'Sec-Fetch-Dest': 'empty',
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-site',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+        'Utc-Offset': '240',
+        'Utc-Time': now.strftime('%a, %d %b %Y %H:%M:%S GMT')
     }
-    response = requests.get(url, headers=headers)
-    print(response.status_code)
-    data = response.json()
-    return data
+
+    url = "https://api-offering.betonline.ag/api/offering/sports/offering-by-league"
+    # soccer down below
+    # url = "https://api-offering.betonline.ag/api/offering/sports/offering-by-scheduletext"
+
+    # This changes based on the sport you're looking at ex: football can go in "Sport" and nlf in "League"
+    requestPayloadFootball = {"Sport": "football", "League": "nfl",
+                              "ScheduleText": None, "Period": -1}
+    requestPayloadHockey = {"Sport": "hockey", "League": "nhl",
+                            "ScheduleText": None, "Period": -1}
+    requestPayloadBasket = {"Sport": "basketball", "League": "nba",
+                            "ScheduleText": None, "Period": -1}
+    requestPayloadBaseball = {"Sport": "baseball", "League": "mlb",
+                              "ScheduleText": None, "Period": -1}
+    # Soccer is different but below is the one for the premier league
+    # requestPayload = {"Sport": "soccer", "League": "epl", "ScheduleText": "english-premier-league", "Period": -1}
+    payloads = [requestPayloadFootball,
+                requestPayloadBasket, requestPayloadHockey, requestPayloadBaseball]
+    start = time.time()
+    unsentRequests = [grequests.post(
+        url, headers=headers, json=payload) for payload in payloads]
+    responses = grequests.map(unsentRequests)
+    data = [response.json() for response in responses]
+    end = time.time()
+    print(f'Grequesting by-league takes {(end-start)} seconds')
+    # print(response)
+
+    # Getting only the information of the games which is nested in the previous JSON file
+    # gamesData = []
+    # for gamesByLeague in data:
+    #     gamesData += gamesByLeague['GameOffering']['GamesDescription']
+
+    gameIdsByLeague = dict()
+    game_Ids = []
+    for gamesByLeague in data:
+        gameOffering = gamesByLeague.get('GameOffering')
+        if gameOffering is None:
+            continue
+        league = gamesByLeague['GameOffering']['League']
+        gamesData = gamesByLeague['GameOffering']['GamesDescription']
+        game_IdsByLeague = []
+        now = datetime.now()
+        for game in gamesData:
+            gameDate = datetime.strptime(game['GameDate'], '%m/%d/%Y')
+            if abs((now - gameDate).days) <= days:
+                game_Id = game['Game']['GameId']
+                game_IdsByLeague.append(game_Id)
+                game_Ids.append(game_Id)
+        gameIdsByLeague[league] = game_IdsByLeague
+
+    return game_Ids, gameIdsByLeague
 
 
 '''
