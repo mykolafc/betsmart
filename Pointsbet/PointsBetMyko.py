@@ -147,6 +147,7 @@ def getDataNfl():
 
 
 def getGameId(data):
+    print(data)
     gameId = data['events'][0]['key']
     print(gameId)
     return gameId
@@ -730,7 +731,10 @@ class MyCmd(cmd.Cmd):
     def __init__(self):  # initalize console with default values set to MLB
         super(MyCmd, self).__init__()
         self.data = getDataMlb()
-        self.gameId = getGameId(self.data)
+        try:
+            self.gameId = getGameId(self.data)
+        except:
+            self.gameId = None
         self.league = 'Mlb'
 
     def do_set_gameid(self, arg):
