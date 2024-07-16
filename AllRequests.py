@@ -50,7 +50,7 @@ print(time.time() - timer)
 
 responsesDK = responses[:len(urlsDK)]
 responsesPB = responses[len(urlsDK):len(urlsDK)+len(urlsPB)]
-responsesGetBO = responses[len(urlsDK)+len(urlsPB)                           :len(urlsDK)+len(urlsPB)+len(urlsBO)]
+responsesGetBO = responses[len(urlsDK)+len(urlsPB):len(urlsDK)+len(urlsPB)+len(urlsBO)]
 responsesPostBO = responses[len(
     urlsDK)+len(urlsPB)+len(urlsBO):len(urlsDK)+len(urlsPB)+len(urlsBO)+len(urlsPostBO)]
 
@@ -68,6 +68,9 @@ postBOJSonResp = [response.json() for response in responsesPostBO]
 getBOJSonResp = [response.json() for response in responsesGetBO]
 teamsDf = bo.manipulationLoop(postBOJSonResp)
 propsDf = bo.dfByLoop(getBOJSonResp, gamesDict)
+bigDf = pd.concat([teamsDf, propsDf])
+dir = git.Repo('.', search_parent_directories=True).working_tree_dir
+bigDf.to_csv(str(dir) + '/bin/BetOnlineGigaDump.csv', index=False)
 print(time.time() - timer)
 
 
