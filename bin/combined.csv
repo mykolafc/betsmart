@@ -1,1074 +1,201 @@
 Key,Designation,Name,Teams,League,Category,Side,Points,BO dec_odds,PB Decimal Odds,DK Decimal Odds,BO Odds,PB American Odds,DK American Odds,Odds Ratio,Best Deal
-s;0;m,,,CHC(away) vs BAL(home),MLB,Moneyline,home,,1.56,1.5556,1.54054055,-180,-180,-185,1.0126315727294553,DraftKings
-s;0;m,,,CHC(away) vs BAL(home),MLB,Moneyline,home,,1.76,1.5556,1.54054055,-132,-180,-185,1.1424561333357957,BetOnline
-s;0;m,,,CHC(away) vs BAL(home),MLB,Moneyline,away,,2.65,2.5,2.54,165,150,154,1.06,BetOnline
-s;0;m,,,CHC(away) vs BAL(home),MLB,Moneyline,away,,2.21,2.5,2.54,121,150,154,1.149321266968326,BetOnline
-s;0;s;-1.5,,,CHC(away) vs BAL(home),MLB,Run Line,home,-1.5,2.05,2.05,2.1,105,105,110,1.024390243902439,DraftKings
-s;0;s;-1.5,,,CHC(away) vs BAL(home),MLB,Run Line,away,1.5,1.8,1.8,1.76923077,-125,-125,-130,1.017391303905482,DraftKings
-pp;0;ou;hit;1.5,over,A. Rutschman,CHC(away) vs BAL(home),MLB,Hits,,1.5,2.86,2.7,2.8,186,170,180,1.0592592592592591,PointsBet
-pp;0;ou;hit;1.5,under,A. Rutschman,CHC(away) vs BAL(home),MLB,Hits,,1.5,1.4,1.4,1.39,-250,-250,-255,1.0071942446043165,DraftKings
-pp;0;ou;hit;0.5,over,A. Santander,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.45,1.4445,1.43,-222,-225,-230,1.013986013986014,DraftKings
-pp;0;ou;hit;0.5,under,A. Santander,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.67,2.55,2.65,167,155,165,1.0470588235294118,PointsBet
-pp;0;ou;hit;0.5,over,C. Bellinger,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.45,1.4167,1.43,-222,-240,-230,1.0235053292863696,BetOnline
-pp;0;ou;hit;0.5,under,C. Bellinger,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.67,2.6,2.65,167,160,165,1.0269230769230768,PointsBet
-pp;0;ou;hit;0.5,over,C. Morel,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.61,1.5883,1.6,-164,-170,-165,1.0136624063464081,PointsBet
-pp;0;ou;hit;0.5,under,C. Morel,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.26,2.25,2.2,126,125,120,1.0272727272727271,DraftKings
-pp;0;ou;hit;0.5,over,D. Swanson,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.55,1.5,1.52,-182,-200,-190,1.0333333333333334,BetOnline
-pp;0;ou;hit;0.5,under,D. Swanson,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.39,2.4,2.35,139,140,135,1.0212765957446808,DraftKings
-pp;0;ou;hit;0.5,over,G. Henderson,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.43,1.4167,1.42,-233,-240,-235,1.0093880143996612,BetOnline
-pp;0;ou;hit;0.5,under,G. Henderson,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.75,2.6,2.7,175,160,170,1.0576923076923077,PointsBet
-pp;0;ou;hit;0.5,over,I. Happ,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.61,1.625,1.6,-164,-160,-165,1.015625,PointsBet
-pp;0;ou;hit;0.5,under,I. Happ,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.26,2.2,2.2,126,120,120,1.0272727272727271,BetOnline
-pp;0;ou;hit;0.5,over,J. Westburg,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.41,1.4,1.4,-244,-250,-250,1.0071428571428571,BetOnline
-pp;0;ou;hit;0.5,under,J. Westburg,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.82,2.7,2.8,182,170,180,1.0444444444444443,PointsBet
-pp;0;ou;hit;0.5,over,M. Busch,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.68,1.6452,1.68,-147,-155,-145,1.0211524434719184,PointsBet
-pp;0;ou;hit;0.5,under,M. Busch,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.13,2.15,2.1,113,115,110,1.0238095238095237,DraftKings
-pp;0;ou;hit;0.5,over,M. Mastrobuoni,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.68,1.6452,1.64,-147,-155,-155,1.024390243902439,BetOnline
-pp;0;ou;hit;0.5,under,M. Mastrobuoni,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.14,2.15,2.1,114,115,110,1.0238095238095237,DraftKings
-pp;0;ou;hit;1.5,over,N. Hoerner,CHC(away) vs BAL(home),MLB,Hits,,1.5,2.78,2.7,2.7,178,170,170,1.0296296296296295,BetOnline
-pp;0;ou;hit;1.5,under,N. Hoerner,CHC(away) vs BAL(home),MLB,Hits,,1.5,1.42,1.4,1.42,-238,-250,-235,1.0142857142857142,PointsBet
-pp;0;ou;hit;1.5,over,R. Mountcastle,CHC(away) vs BAL(home),MLB,Hits,,1.5,2.61,2.55,2.55,161,155,155,1.0235294117647058,BetOnline
-pp;0;ou;hit;1.5,under,R. Mountcastle,CHC(away) vs BAL(home),MLB,Hits,,1.5,1.47,1.4445,1.46,-213,-225,-215,1.0176531671858775,PointsBet
-pp;0;ou;hit;0.5,over,S. Suzuki,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.48,1.4,1.43,-208,-250,-230,1.0571428571428572,BetOnline
-pp;0;ou;hit;0.5,under,S. Suzuki,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.59,2.7,2.65,159,170,165,1.0424710424710426,BetOnline
-pp;0;ou;hit;0.5,over,T. Nido,CHC(away) vs BAL(home),MLB,Hits,,0.5,1.68,1.625,1.64,-147,-160,-155,1.0338461538461539,BetOnline
-pp;0;ou;hit;0.5,under,T. Nido,CHC(away) vs BAL(home),MLB,Hits,,0.5,2.13,2.2,2.15,113,120,115,1.0328638497652582,PointsBet
-pp;0;ou;sb;0.5,over,C. Bellinger,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,6.13,5.0,5.75,513,400,475,1.226,PointsBet
-pp;0;ou;sb;0.5,under,C. Bellinger,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.11,1.1112,1.11,-909,-899,-900,1.001081081081081,PointsBet
-pp;0;ou;sb;0.5,over,C. Morel,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,6.13,5.0,6.0,513,400,500,1.226,PointsBet
-pp;0;ou;sb;0.5,under,C. Morel,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.11,1.1112,1.1,-909,-899,-1000,1.010181818181818,DraftKings
-pp;0;ou;sb;0.5,over,D. Swanson,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,8.96,8.0,8.5,796,700,750,1.12,PointsBet
-pp;0;ou;sb;0.5,under,D. Swanson,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.05,1.0601,1.05,-2000,-1664,-2000,1.0096190476190476,PointsBet
-pp;0;ou;sb;0.5,over,G. Henderson,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,7.24,6.5,7.0,624,550,600,1.113846153846154,PointsBet
-pp;0;ou;sb;0.5,under,G. Henderson,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.08,1.08,1.07,-1250,-1250,-1400,1.0093457943925235,DraftKings
-pp;0;ou;sb;0.5,over,I. Happ,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,6.46,5.25,6.5,546,425,550,1.2380952380952381,PointsBet
-pp;0;ou;sb;0.5,under,I. Happ,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.1,1.1,1.08,-1000,-1000,-1200,1.0185185185185186,DraftKings
-pp;0;ou;sb;0.5,over,J. Westburg,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,9.76,8.5,8.5,876,750,750,1.148235294117647,BetOnline
-pp;0;ou;sb;0.5,under,J. Westburg,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.04,1.0556,1.04,-2500,-1799,-2500,1.0150000000000001,PointsBet
-pp;0;ou;sb;0.5,over,M. Mastrobuoni,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,4.78,4.2,4.5,378,320,350,1.138095238095238,PointsBet
-pp;0;ou;sb;0.5,under,M. Mastrobuoni,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.17,1.16,1.18,-588,-625,-550,1.0172413793103448,PointsBet
-pp;0;ou;sb;0.5,over,N. Hoerner,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,3.26,3.0,3.25,226,200,225,1.0866666666666667,PointsBet
-pp;0;ou;sb;0.5,under,N. Hoerner,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.32,1.2858,1.31,-312,-350,-320,1.026598226784881,PointsBet
-pp;0;ou;sb;0.5,over,S. Suzuki,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,6.13,5.25,6.0,513,425,500,1.1676190476190476,PointsBet
-pp;0;ou;sb;0.5,under,S. Suzuki,CHC(away) vs BAL(home),MLB,Stolen Bases,,0.5,1.11,1.1,1.1,-909,-1000,-1000,1.009090909090909,BetOnline
-pp;0;ou;so;6.5,over,C. Burnes,CHC(away) vs BAL(home),MLB,Strikeouts Thrown,,6.5,2.03,1.9091,2.0,103,-110,100,1.0633282698653814,PointsBet
-pp;0;ou;so;6.5,under,C. Burnes,CHC(away) vs BAL(home),MLB,Strikeouts Thrown,,6.5,1.75,1.8334,1.8,-133,-120,-125,1.0476571428571428,BetOnline
-pp;0;ou;tb;0.5,over,C. Morel,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,1.62,1.5883,1.6,-161,-170,-165,1.0199584461373796,BetOnline
-pp;0;ou;tb;0.5,under,C. Morel,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,2.23,2.25,2.2,123,125,120,1.0227272727272727,DraftKings
-pp;0;ou;tb;1.5,over,C. Bellinger,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,2.44,2.15,2.35,144,115,135,1.1348837209302325,PointsBet
-pp;0;ou;tb;1.5,under,C. Bellinger,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.53,1.6452,1.54,-189,-155,-185,1.0752941176470587,PointsBet
-pp;0;ou;tb;1.5,over,G. Henderson,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,2.24,2.15,2.2,124,115,120,1.0418604651162793,PointsBet
-pp;0;ou;tb;1.5,under,G. Henderson,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.62,1.6452,1.6,-161,-155,-165,1.0282499999999999,PointsBet
-pp;0;ou;tb;1.5,over,N. Hoerner,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,2.2,2.1,2.1,120,110,110,1.0476190476190477,BetOnline
-pp;0;ou;tb;1.5,under,N. Hoerner,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.64,1.6667,1.66,-156,-150,-150,1.0162804878048781,BetOnline
-pp;0;ou;tb;1.5,over,J. Westburg,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,2.18,2.1,2.15,118,110,115,1.0380952380952382,PointsBet
-pp;0;ou;tb;1.5,under,J. Westburg,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.65,1.6667,1.64,-154,-150,-155,1.0162804878048781,PointsBet
-pp;0;ou;tb;1.5,over,A. Santander,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,2.17,2.15,2.1,117,115,110,1.0333333333333332,DraftKings
-pp;0;ou;tb;1.5,under,A. Santander,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.66,1.6452,1.66,-152,-155,-150,1.0089958667639192,PointsBet
-pp;0;ou;tb;1.5,over,A. Rutschman,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,2.07,2.0,2.0,107,100,100,1.035,BetOnline
-pp;0;ou;tb;1.5,under,A. Rutschman,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.72,1.7408,1.71,-139,-135,-140,1.0180116959064327,PointsBet
-pp;0;ou;tb;0.5,over,I. Happ,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,1.62,1.625,1.6,-161,-160,-165,1.015625,DraftKings
-pp;0;ou;tb;0.5,under,I. Happ,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,2.24,2.2,2.2,124,120,120,1.0181818181818183,BetOnline
-pp;0;ou;tb;0.5,over,M. Mastrobuoni,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,1.68,1.6667,1.64,-147,-150,-155,1.024390243902439,DraftKings
-pp;0;ou;tb;0.5,under,M. Mastrobuoni,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,2.13,2.1,2.1,113,110,110,1.0142857142857142,BetOnline
-pp;0;ou;tb;0.5,over,M. Busch,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,1.71,1.6667,1.68,-141,-150,-145,1.0259794804103917,BetOnline
-pp;0;ou;tb;0.5,under,M. Busch,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,2.09,2.1,2.1,109,110,110,1.0047846889952154,BetOnline
-pp;0;ou;tb;1.5,over,R. Mountcastle,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.91,1.8548,1.8,-110,-117,-125,1.0611111111111111,BetOnline
-pp;0;ou;tb;1.5,under,R. Mountcastle,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.85,1.8548,1.9,-118,-117,-110,1.027027027027027,DraftKings
-pp;0;ou;tb;0.5,over,T. Nido,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,1.68,1.625,1.64,-147,-160,-155,1.0338461538461539,BetOnline
-pp;0;ou;tb;0.5,under,T. Nido,CHC(away) vs BAL(home),MLB,Total Bases,,0.5,2.14,2.2,2.15,114,120,115,1.0280373831775702,PointsBet
-pp;0;ou;tb;1.5,over,S. Suzuki,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,2.36,2.2,2.3,136,120,130,1.0727272727272725,PointsBet
-pp;0;ou;tb;1.5,under,S. Suzuki,CHC(away) vs BAL(home),MLB,Total Bases,,1.5,1.56,1.625,1.57,-179,-160,-175,1.0416666666666667,PointsBet
-pp;0;ss;hit;1.5,over,C. Morel,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,3.84,4.1,4.6,284,310,360,1.1979166666666665,DraftKings
-pp;0;ss;hit;1.5,over,C. Bellinger,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,3.01,3.1,3.2,201,210,220,1.06312292358804,DraftKings
-pp;0;ss;hit;2.5,over,C. Bellinger,CHC(away) vs BAL(home),MLB,Hits Milestones,,2.5,8.18,9.0,9.5,718,800,850,1.1613691931540342,BetOnline
-pp;0;ss;hit;1.5,over,G. Henderson,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,2.92,3.4,3.25,192,240,225,1.1643835616438356,BetOnline
-pp;0;ss;hit;2.5,over,G. Henderson,CHC(away) vs BAL(home),MLB,Hits Milestones,,2.5,7.64,11.0,10.0,664,1000,900,1.4397905759162304,BetOnline
-pp;0;ss;hit;0.5,over,N. Hoerner,CHC(away) vs BAL(home),MLB,Hits Milestones,,0.5,1.3,1.3334,1.32,-333,-300,-310,1.0256923076923077,BetOnline
-pp;0;ss;hit;2.5,over,N. Hoerner,CHC(away) vs BAL(home),MLB,Hits Milestones,,2.5,6.33,7.5,7.0,533,650,600,1.1848341232227488,BetOnline
-pp;0;ss;hit;1.5,over,D. Swanson,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,3.65,3.6,3.9,265,260,290,1.0833333333333333,DraftKings
-pp;0;ss;hit;1.5,over,J. Westburg,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,2.89,3.2,3.35,189,220,235,1.1591695501730104,BetOnline
-pp;0;ss;hit;2.5,over,J. Westburg,CHC(away) vs BAL(home),MLB,Hits Milestones,,2.5,7.81,11.0,11.0,681,1000,1000,1.4084507042253522,BetOnline
-pp;0;ss;hit;1.5,over,A. Santander,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,3.01,3.5,3.3,201,250,230,1.1627906976744187,BetOnline
-pp;0;ss;hit;2.5,over,A. Santander,CHC(away) vs BAL(home),MLB,Hits Milestones,,2.5,8.18,11.0,11.0,718,1000,1000,1.3447432762836187,BetOnline
-pp;0;ss;hit;0.5,over,A. Rutschman,CHC(away) vs BAL(home),MLB,Hits Milestones,,0.5,1.31,1.3077,1.36,-323,-325,-275,1.0399938823889272,DraftKings
-pp;0;ss;hit;2.5,over,A. Rutschman,CHC(away) vs BAL(home),MLB,Hits Milestones,,2.5,6.42,9.0,7.5,542,800,650,1.4018691588785046,PointsBet
-pp;0;ss;hit;1.5,over,I. Happ,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,3.82,4.3,4.5,282,330,350,1.1780104712041886,BetOnline
-pp;0;ss;hit;1.5,over,M. Mastrobuoni,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,3.41,4.5,4.5,241,350,350,1.3196480938416422,BetOnline
-pp;0;ss;hit;1.5,over,M. Busch,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,3.94,4.5,4.6,294,350,360,1.16751269035533,BetOnline
-pp;0;ss;hit;0.5,over,R. Mountcastle,CHC(away) vs BAL(home),MLB,Hits Milestones,,0.5,1.27,1.2858,1.29,-370,-350,-340,1.015748031496063,BetOnline
-pp;0;ss;hit;2.5,over,R. Mountcastle,CHC(away) vs BAL(home),MLB,Hits Milestones,,2.5,6.12,7.5,6.0,512,650,500,1.25,PointsBet
-pp;0;ss;hit;1.5,over,T. Nido,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,4.04,4.3,4.7,304,330,370,1.1633663366336633,DraftKings
-pp;0;ss;hit;1.5,over,S. Suzuki,CHC(away) vs BAL(home),MLB,Hits Milestones,,1.5,3.39,3.3,3.25,239,230,225,1.043076923076923,BetOnline
-pp;0;ss;hit;2.5,over,S. Suzuki,CHC(away) vs BAL(home),MLB,Hits Milestones,,2.5,10.27,10.0,10.5,927,900,950,1.05,PointsBet
-pp;0;ss;so;5.5,over,C. Burnes,CHC(away) vs BAL(home),MLB,Strikeouts Milestones,,5.5,1.46,1.4762,1.44,-217,-210,-225,1.0251388888888888,DraftKings
-pp;0;ss;so;7.5,over,C. Burnes,CHC(away) vs BAL(home),MLB,Strikeouts Milestones,,7.5,2.82,2.75,2.65,182,175,165,1.0641509433962264,DraftKings
-pp;0;ss;so;8.5,over,C. Burnes,CHC(away) vs BAL(home),MLB,Strikeouts Milestones,,8.5,4.32,4.1,4.1,332,310,310,1.0536585365853661,BetOnline
-pp;0;ss;so;3.5,over,S. Imanaga,CHC(away) vs BAL(home),MLB,Strikeouts Milestones,,3.5,1.19,1.2353,1.25,-526,-425,-400,1.050420168067227,BetOnline
-pp;0;ss;so;5.5,over,S. Imanaga,CHC(away) vs BAL(home),MLB,Strikeouts Milestones,,5.5,2.13,2.1,2.2,113,110,120,1.0476190476190477,DraftKings
-pp;0;ss;so;6.5,over,S. Imanaga,CHC(away) vs BAL(home),MLB,Strikeouts Milestones,,6.5,2.96,3.2,3.4,196,220,240,1.1486486486486487,BetOnline
-s;0;m,,,CLE(away) vs DET(home),MLB,Moneyline,home,,2.3,2.25,2.24,130,125,124,1.0267857142857142,BetOnline
-s;0;m,,,CLE(away) vs DET(home),MLB,Moneyline,home,,1.73,2.25,2.24,-137,125,124,1.300578034682081,BetOnline
-s;0;m,,,CLE(away) vs DET(home),MLB,Moneyline,away,,1.7,1.6667,1.67567568,-142,-150,-148,1.0199796004079917,BetOnline
-s;0;m,,,CLE(away) vs DET(home),MLB,Moneyline,away,,2.26,1.6667,1.67567568,126,-150,-148,1.355972880542389,BetOnline
-s;0;s;1.5,,,CLE(away) vs DET(home),MLB,Run Line,home,1.5,1.74,1.6897,1.74074075,-135,-145,-135,1.0302069894064037,PointsBet
-s;0;s;1.5,,,CLE(away) vs DET(home),MLB,Run Line,away,-1.5,2.15,2.2,2.14,115,120,114,1.0280373831775702,PointsBet
-s;0;ou;7.5,over,,CLE(away) vs DET(home),MLB,Total,,7.5,1.87,1.8696,1.86956522,-115,-115,-115,1.0002325567438617,BetOnline
-s;0;ou;7.5,under,,CLE(away) vs DET(home),MLB,Total,,7.5,1.95,1.9524,1.95238096,-105,-105,-105,1.0012307692307691,BetOnline
-pp;0;ou;hit;0.5,over,A. Gimenez,CLE(away) vs DET(home),MLB,Hits,,0.5,1.46,1.4445,1.45,-217,-225,-220,1.0107303565247492,BetOnline
-pp;0;ou;hit;0.5,under,A. Gimenez,CLE(away) vs DET(home),MLB,Hits,,0.5,2.65,2.55,2.6,165,155,160,1.0392156862745099,BetOnline
-pp;0;ou;hit;0.5,over,C. Keith,CLE(away) vs DET(home),MLB,Hits,,0.5,1.45,1.4,1.42,-222,-250,-235,1.0357142857142858,BetOnline
-pp;0;ou;hit;0.5,under,C. Keith,CLE(away) vs DET(home),MLB,Hits,,0.5,2.66,2.7,2.7,166,170,170,1.0150375939849625,BetOnline
-pp;0;ou;hit;0.5,over,D. Schneemann,CLE(away) vs DET(home),MLB,Hits,,0.5,1.65,1.625,1.62,-154,-160,-160,1.0185185185185184,BetOnline
-pp;0;ou;hit;0.5,under,D. Schneemann,CLE(away) vs DET(home),MLB,Hits,,0.5,2.18,2.2,2.15,118,120,115,1.0232558139534884,DraftKings
-pp;0;ou;hit;0.5,over,G. Urshela,CLE(away) vs DET(home),MLB,Hits,,0.5,1.4,1.3637,1.37,-250,-275,-265,1.026618757791303,BetOnline
-pp;0;ou;hit;0.5,under,G. Urshela,CLE(away) vs DET(home),MLB,Hits,,0.5,2.88,2.85,2.9,188,185,190,1.0175438596491226,PointsBet
-pp;0;ou;hit;0.5,over,J. Malloy,CLE(away) vs DET(home),MLB,Hits,,0.5,1.79,1.7408,1.74,-127,-135,-135,1.028735632183908,BetOnline
-pp;0;ou;hit;0.5,under,J. Malloy,CLE(away) vs DET(home),MLB,Hits,,0.5,1.98,2.0,2.0,-102,100,100,1.0101010101010102,BetOnline
-pp;0;ou;hit;0.5,over,J. Naylor,CLE(away) vs DET(home),MLB,Hits,,0.5,1.39,1.3637,1.39,-256,-275,-255,1.0192857666642223,PointsBet
-pp;0;ou;hit;0.5,under,J. Naylor,CLE(away) vs DET(home),MLB,Hits,,0.5,2.91,2.75,2.85,191,175,185,1.0581818181818183,PointsBet
-pp;0;ou;hit;0.5,over,M. Vierling,CLE(away) vs DET(home),MLB,Hits,,0.5,1.4,1.3637,1.38,-250,-275,-260,1.026618757791303,BetOnline
-pp;0;ou;hit;0.5,under,M. Vierling,CLE(away) vs DET(home),MLB,Hits,,0.5,2.87,2.85,2.85,187,185,185,1.0070175438596491,BetOnline
-pp;0;ou;hit;0.5,over,R. Greene,CLE(away) vs DET(home),MLB,Hits,,0.5,1.55,1.5556,1.55,-182,-180,-180,1.0036129032258065,PointsBet
-pp;0;ou;hit;0.5,under,R. Greene,CLE(away) vs DET(home),MLB,Hits,,0.5,2.38,2.3,2.3,138,130,130,1.0347826086956522,BetOnline
-pp;0;ou;hit;1.5,over,S. Kwan,CLE(away) vs DET(home),MLB,Hits,,1.5,2.71,2.6,2.65,171,160,165,1.0423076923076922,BetOnline
-pp;0;ou;hit;1.5,under,S. Kwan,CLE(away) vs DET(home),MLB,Hits,,1.5,1.44,1.4167,1.43,-227,-240,-230,1.0164466718430154,PointsBet
-pp;0;ou;hit;0.5,over,W. Perez,CLE(away) vs DET(home),MLB,Hits,,0.5,1.54,1.5556,1.57,-185,-180,-175,1.0194805194805194,BetOnline
-pp;0;ou;hit;0.5,under,W. Perez,CLE(away) vs DET(home),MLB,Hits,,0.5,2.41,2.3,2.3,141,130,130,1.047826086956522,BetOnline
-pp;0;ou;sb;0.5,over,A. Gimenez,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,4.78,4.2,4.8,378,320,380,1.1428571428571428,PointsBet
-pp;0;ou;sb;0.5,under,A. Gimenez,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,1.17,1.16,1.15,-588,-625,-650,1.0173913043478262,BetOnline
-pp;0;ou;sb;0.5,over,C. Keith,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,9.76,10.5,10.5,876,950,950,1.0758196721311475,BetOnline
-pp;0;ou;sb;0.5,under,C. Keith,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,1.04,1.0334,1.02,-2500,-2994,-5000,1.0196078431372548,DraftKings
-pp;0;ou;sb;0.5,over,D. Schneemann,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,10.74,11.0,11.0,974,1000,1000,1.0242085661080074,BetOnline
-pp;0;ou;sb;0.5,under,D. Schneemann,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,1.03,1.0286,1.02,-3333,-3497,-5000,1.0098039215686274,DraftKings
-pp;0;ou;sb;0.5,over,J. Naylor,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,10.74,12.0,12.0,974,1100,1100,1.1173184357541899,BetOnline
-pp;0;ou;sb;0.5,under,J. Naylor,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,1.03,1.0223,1.01,-3333,-4484,-8000,1.0198019801980198,DraftKings
-pp;0;ou;sb;0.5,over,R. Greene,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,11.96,15.0,13.0,1096,1400,1200,1.2541806020066888,PointsBet
-pp;0;ou;sb;0.5,under,R. Greene,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,1.02,1.0167,1.01,-5000,-5988,-10000,1.00990099009901,DraftKings
-pp;0;ou;sb;0.5,over,S. Kwan,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,8.96,11.0,10.0,796,1000,900,1.2276785714285714,BetOnline
-pp;0;ou;sb;0.5,under,S. Kwan,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,1.05,1.0286,1.02,-2000,-3497,-3500,1.0294117647058825,BetOnline
-pp;0;ou;sb;0.5,over,W. Perez,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,7.73,8.5,9.0,673,750,800,1.1642949547218628,BetOnline
-pp;0;ou;sb;0.5,under,W. Perez,CLE(away) vs DET(home),MLB,Stolen Bases,,0.5,1.07,1.0556,1.04,-1429,-1799,-2500,1.028846153846154,DraftKings
-pp;0;ou;so;4.5,over,R. Olson,CLE(away) vs DET(home),MLB,Strikeouts Thrown,,4.5,2.06,1.9524,2.05,106,-105,105,1.0551116574472446,PointsBet
-pp;0;ou;so;4.5,under,R. Olson,CLE(away) vs DET(home),MLB,Strikeouts Thrown,,4.5,1.73,1.8,1.71,-137,-125,-140,1.0526315789473684,PointsBet
-pp;0;ou;so;6.5,over,T. Bibee,CLE(away) vs DET(home),MLB,Strikeouts Thrown,,6.5,2.3,2.1,2.15,130,110,115,1.0952380952380951,BetOnline
-pp;0;ou;so;6.5,under,T. Bibee,CLE(away) vs DET(home),MLB,Strikeouts Thrown,,6.5,1.59,1.6897,1.68,-169,-145,-145,1.0627044025157233,BetOnline
-pp;0;ss;hit;1.5,over,D. Schneemann,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,3.97,4.3,4.3,297,330,330,1.0831234256926952,BetOnline
-pp;0;ss;hit;1.5,over,M. Vierling,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,2.86,3.0,3.1,186,200,210,1.083916083916084,BetOnline
-pp;0;ss;hit;2.5,over,M. Vierling,CLE(away) vs DET(home),MLB,Hits Milestones,,2.5,7.72,9.0,10.5,672,800,950,1.3601036269430051,DraftKings
-pp;0;ss;hit;1.5,over,G. Urshela,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,2.86,3.0,2.8,186,200,180,1.0714285714285714,PointsBet
-pp;0;ss;hit;2.5,over,G. Urshela,CLE(away) vs DET(home),MLB,Hits Milestones,,2.5,7.72,9.5,8.0,672,850,700,1.2305699481865284,PointsBet
-pp;0;ss;hit;1.5,over,R. Greene,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,3.66,4.0,4.0,266,300,300,1.0928961748633879,BetOnline
-pp;0;ss;hit;1.5,over,C. Keith,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,2.63,3.3,3.25,163,230,225,1.2547528517110267,BetOnline
-pp;0;ss;hit;2.5,over,C. Keith,CLE(away) vs DET(home),MLB,Hits Milestones,,2.5,5.9,11.0,11.0,490,1000,1000,1.8644067796610169,BetOnline
-pp;0;ss;hit;1.5,over,W. Perez,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,3.26,4.3,4.1,226,330,310,1.3190184049079754,BetOnline
-pp;0;ss;hit;1.5,over,A. Gimenez,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,3.34,3.3,3.45,234,230,245,1.0454545454545456,DraftKings
-pp;0;ss;hit;2.5,over,A. Gimenez,CLE(away) vs DET(home),MLB,Hits Milestones,,2.5,10.19,11.0,11.0,919,1000,1000,1.0794896957801767,BetOnline
-pp;0;ss;hit;1.5,over,J. Naylor,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,2.83,3.1,3.05,183,210,205,1.0954063604240283,BetOnline
-pp;0;ss;hit;2.5,over,J. Naylor,CLE(away) vs DET(home),MLB,Hits Milestones,,2.5,7.59,9.5,10.0,659,850,900,1.3175230566534915,BetOnline
-pp;0;ss;hit;0.5,over,S. Kwan,CLE(away) vs DET(home),MLB,Hits Milestones,,0.5,1.34,1.3334,1.28,-294,-300,-350,1.046875,DraftKings
-pp;0;ss;hit;2.5,over,S. Kwan,CLE(away) vs DET(home),MLB,Hits Milestones,,2.5,5.66,8.0,7.0,466,700,600,1.4134275618374559,BetOnline
-pp;0;ss;hit;1.5,over,J. Malloy,CLE(away) vs DET(home),MLB,Hits Milestones,,1.5,5.78,5.25,5.5,478,425,450,1.100952380952381,BetOnline
-pp;0;ou;tb;0.5,over,D. Schneemann,CLE(away) vs DET(home),MLB,Total Bases,,0.5,1.65,1.6452,1.62,-154,-155,-160,1.0185185185185184,DraftKings
-pp;0;ou;tb;0.5,under,D. Schneemann,CLE(away) vs DET(home),MLB,Total Bases,,0.5,2.18,2.15,2.15,118,115,115,1.013953488372093,BetOnline
-pp;0;ou;tb;1.5,over,M. Vierling,CLE(away) vs DET(home),MLB,Total Bases,,1.5,2.17,2.0,2.1,117,100,110,1.085,PointsBet
-pp;0;ou;tb;1.5,under,M. Vierling,CLE(away) vs DET(home),MLB,Total Bases,,1.5,1.66,1.7143,1.66,-152,-140,-150,1.032710843373494,PointsBet
-pp;0;ou;tb;1.5,over,G. Urshela,CLE(away) vs DET(home),MLB,Total Bases,,1.5,2.49,2.25,2.45,149,125,145,1.1066666666666667,PointsBet
-pp;0;ou;tb;1.5,under,G. Urshela,CLE(away) vs DET(home),MLB,Total Bases,,1.5,1.51,1.5883,1.51,-196,-170,-195,1.0518543046357616,PointsBet
-pp;0;ou;tb;0.5,over,R. Greene,CLE(away) vs DET(home),MLB,Total Bases,,0.5,1.56,1.5556,1.55,-179,-180,-180,1.0064516129032257,DraftKings
-pp;0;ou;tb;0.5,under,R. Greene,CLE(away) vs DET(home),MLB,Total Bases,,0.5,2.37,2.3,2.3,137,130,130,1.0304347826086957,BetOnline
-pp;0;ou;tb;1.5,over,C. Keith,CLE(away) vs DET(home),MLB,Total Bases,,1.5,2.41,2.3,2.4,141,130,140,1.047826086956522,PointsBet
-pp;0;ou;tb;1.5,under,C. Keith,CLE(away) vs DET(home),MLB,Total Bases,,1.5,1.54,1.5556,1.52,-185,-180,-190,1.023421052631579,DraftKings
-pp;0;ou;tb;0.5,over,W. Perez,CLE(away) vs DET(home),MLB,Total Bases,,0.5,1.58,1.5556,1.57,-172,-180,-175,1.0156852661352533,PointsBet
-pp;0;ou;tb;0.5,under,W. Perez,CLE(away) vs DET(home),MLB,Total Bases,,0.5,2.33,2.3,2.3,133,130,130,1.0130434782608697,BetOnline
-pp;0;ou;tb;1.5,over,A. Gimenez,CLE(away) vs DET(home),MLB,Total Bases,,1.5,2.49,2.4,2.5,149,140,150,1.0416666666666667,PointsBet
-pp;0;ou;tb;1.5,under,A. Gimenez,CLE(away) vs DET(home),MLB,Total Bases,,1.5,1.51,1.5,1.48,-196,-200,-205,1.0202702702702704,DraftKings
-pp;0;ou;tb;1.5,over,J. Naylor,CLE(away) vs DET(home),MLB,Total Bases,,1.5,2.18,2.05,2.2,118,105,120,1.0731707317073174,PointsBet
-pp;0;ou;tb;1.5,under,J. Naylor,CLE(away) vs DET(home),MLB,Total Bases,,1.5,1.65,1.6897,1.62,-154,-145,-160,1.0430246913580246,PointsBet
-pp;0;ou;tb;1.5,over,S. Kwan,CLE(away) vs DET(home),MLB,Total Bases,,1.5,2.12,1.9524,2.05,112,-105,105,1.085843064945708,PointsBet
-pp;0;ou;tb;1.5,under,S. Kwan,CLE(away) vs DET(home),MLB,Total Bases,,1.5,1.69,1.7693,1.68,-145,-130,-145,1.053154761904762,PointsBet
-pp;0;ou;tb;0.5,over,J. Malloy,CLE(away) vs DET(home),MLB,Total Bases,,0.5,1.77,1.7693,1.74,-130,-130,-135,1.0172413793103448,DraftKings
-pp;0;ou;tb;0.5,under,J. Malloy,CLE(away) vs DET(home),MLB,Total Bases,,0.5,2.01,1.9524,2.0,101,-105,100,1.0295021511985247,PointsBet
-pp;0;ss;so;3.5,over,R. Olson,CLE(away) vs DET(home),MLB,Strikeouts Milestones,,3.5,1.45,1.4167,1.46,-222,-240,-215,1.0305639867297238,PointsBet
-pp;0;ss;so;5.5,over,R. Olson,CLE(away) vs DET(home),MLB,Strikeouts Milestones,,5.5,2.68,3.0,2.85,168,200,185,1.1194029850746268,BetOnline
-pp;0;ss;so;6.5,over,R. Olson,CLE(away) vs DET(home),MLB,Strikeouts Milestones,,6.5,3.8,5.0,4.6,280,400,360,1.3157894736842106,BetOnline
-pp;0;ss;so;5.5,over,T. Bibee,CLE(away) vs DET(home),MLB,Strikeouts Milestones,,5.5,1.6,1.5715,1.54,-167,-175,-185,1.038961038961039,DraftKings
-pp;0;ss;so;7.5,over,T. Bibee,CLE(away) vs DET(home),MLB,Strikeouts Milestones,,7.5,3.24,3.1,3.15,224,210,215,1.0451612903225806,BetOnline
-pp;0;ss;so;8.5,over,T. Bibee,CLE(away) vs DET(home),MLB,Strikeouts Milestones,,8.5,5.18,4.75,5.0,418,375,400,1.0905263157894736,PointsBet
-s;0;m,,,SEA(away) vs SD(home),MLB,Moneyline,home,,1.7,1.6897,1.67567568,-143,-145,-148,1.014516126414152,DraftKings
-s;0;m,,,SEA(away) vs SD(home),MLB,Moneyline,away,,2.31,2.2,2.24,131,120,124,1.05,BetOnline
-s;0;s;-1.5,,,SEA(away) vs SD(home),MLB,Run Line,home,-1.5,2.45,2.45,2.45,145,145,145,1.0,BetOnline
-s;0;s;-1.5,,,SEA(away) vs SD(home),MLB,Run Line,away,1.5,1.61,1.5715,1.57142858,-165,-175,-175,1.024545448957025,BetOnline
-s;0;ou;7.5,over,,SEA(away) vs SD(home),MLB,Total,,7.5,1.86,1.8696,1.86956522,-116,-115,-115,1.0051612903225806,BetOnline
-s;0;ou;7.5,under,,SEA(away) vs SD(home),MLB,Total,,7.5,1.96,1.9524,1.95238096,-104,-105,-105,1.0039024351067223,BetOnline
-pp;0;ou;hit;0.5,over,C. Raleigh,SEA(away) vs SD(home),MLB,Hits,,0.5,1.57,1.5883,1.57,-175,-170,-175,1.011656050955414,PointsBet
-pp;0;ou;hit;0.5,under,C. Raleigh,SEA(away) vs SD(home),MLB,Hits,,0.5,2.34,2.25,2.3,134,125,130,1.04,PointsBet
-pp;0;ou;hit;0.5,over,D. Peralta,SEA(away) vs SD(home),MLB,Hits,,0.5,1.57,1.4167,1.43,-175,-240,-230,1.108209218606621,BetOnline
-pp;0;ou;hit;0.5,under,D. Peralta,SEA(away) vs SD(home),MLB,Hits,,0.5,2.35,2.6,2.65,135,160,165,1.127659574468085,BetOnline
-pp;0;ou;hit;0.5,over,D. Solano,SEA(away) vs SD(home),MLB,Hits,,0.5,1.48,1.4445,1.45,-208,-225,-220,1.024575977847006,BetOnline
-pp;0;ou;hit;0.5,under,D. Solano,SEA(away) vs SD(home),MLB,Hits,,0.5,2.59,2.55,2.6,159,155,160,1.019607843137255,PointsBet
-pp;0;ou;hit;0.5,over,H. Kim,SEA(away) vs SD(home),MLB,Hits,,0.5,1.71,1.6667,1.68,-141,-150,-145,1.0259794804103917,BetOnline
-pp;0;ou;hit;0.5,under,H. Kim,SEA(away) vs SD(home),MLB,Hits,,0.5,2.09,2.1,2.05,109,110,105,1.024390243902439,DraftKings
-pp;0;ou;hit;0.5,over,J. Crawford,SEA(away) vs SD(home),MLB,Hits,,0.5,1.55,1.5883,1.55,-182,-170,-180,1.024709677419355,PointsBet
-pp;0;ou;hit;0.5,under,J. Crawford,SEA(away) vs SD(home),MLB,Hits,,0.5,2.39,2.25,2.35,139,125,135,1.0622222222222222,PointsBet
-pp;0;ou;hit;0.5,over,J. Cronenworth,SEA(away) vs SD(home),MLB,Hits,,0.5,1.4,1.3637,1.38,-250,-275,-260,1.026618757791303,BetOnline
-pp;0;ou;hit;0.5,under,J. Cronenworth,SEA(away) vs SD(home),MLB,Hits,,0.5,2.84,2.75,2.85,184,175,185,1.0363636363636364,PointsBet
-pp;0;ou;hit;0.5,over,J. Polanco,SEA(away) vs SD(home),MLB,Hits,,0.5,1.74,1.6897,1.74,-135,-145,-135,1.029768597975972,PointsBet
-pp;0;ou;hit;0.5,under,J. Polanco,SEA(away) vs SD(home),MLB,Hits,,0.5,2.04,2.05,2.0,104,105,100,1.025,DraftKings
-pp;0;ou;hit;0.5,over,J. Rojas,SEA(away) vs SD(home),MLB,Hits,,0.5,1.8,1.7408,1.74,-125,-135,-135,1.0344827586206897,BetOnline
-pp;0;ou;hit;0.5,under,J. Rojas,SEA(away) vs SD(home),MLB,Hits,,0.5,1.97,2.0,1.95,-103,100,-105,1.0256410256410258,PointsBet
-pp;0;ou;hit;1.5,over,L. Arraez,SEA(away) vs SD(home),MLB,Hits,,1.5,2.58,2.5,2.55,158,150,155,1.032,PointsBet
-pp;0;ou;hit;1.5,under,L. Arraez,SEA(away) vs SD(home),MLB,Hits,,1.5,1.48,1.4762,1.47,-208,-210,-210,1.0068027210884354,DraftKings
-pp;0;ou;hit;0.5,over,M. Garver,SEA(away) vs SD(home),MLB,Hits,,0.5,1.76,1.6897,1.74,-132,-145,-135,1.0416050186423627,PointsBet
-pp;0;ou;hit;0.5,under,M. Garver,SEA(away) vs SD(home),MLB,Hits,,0.5,2.02,2.05,2.0,102,105,100,1.025,PointsBet
-pp;0;ou;hit;0.5,over,M. Machado,SEA(away) vs SD(home),MLB,Hits,,0.5,1.41,1.4,1.4,-244,-250,-250,1.0071428571428571,BetOnline
-pp;0;ou;hit;0.5,under,M. Machado,SEA(away) vs SD(home),MLB,Hits,,0.5,2.82,2.7,2.8,182,170,180,1.0444444444444443,PointsBet
-pp;0;ou;hit;0.5,over,T. France,SEA(away) vs SD(home),MLB,Hits,,0.5,1.65,1.6452,1.62,-154,-155,-160,1.0185185185185184,DraftKings
-pp;0;ou;hit;0.5,under,T. France,SEA(away) vs SD(home),MLB,Hits,,0.5,2.19,2.15,2.15,119,115,115,1.0186046511627906,BetOnline
-pp;0;ou;sb;0.5,over,H. Kim,SEA(away) vs SD(home),MLB,Stolen Bases,,0.5,5.35,6.0,7.0,435,500,600,1.3084112149532712,DraftKings
-pp;0;ou;sb;0.5,under,H. Kim,SEA(away) vs SD(home),MLB,Stolen Bases,,0.5,1.14,1.0834,1.07,-714,-1199,-1400,1.0654205607476634,BetOnline
-pp;0;ou;sb;0.5,over,J. Merrill,SEA(away) vs SD(home),MLB,Stolen Bases,,0.5,6.46,6.5,7.0,546,550,600,1.08359133126935,DraftKings
-pp;0;ou;sb;0.5,under,J. Merrill,SEA(away) vs SD(home),MLB,Stolen Bases,,0.5,1.1,1.08,1.07,-1000,-1250,-1400,1.0280373831775702,BetOnline
-pp;0;ou;sb;0.5,over,J. Polanco,SEA(away) vs SD(home),MLB,Stolen Bases,,0.5,9.76,13.0,12.0,876,1200,1100,1.3319672131147542,BetOnline
-pp;0;ou;sb;0.5,under,J. Polanco,SEA(away) vs SD(home),MLB,Stolen Bases,,0.5,1.04,1.02,1.01,-2500,-5000,-10000,1.0297029702970297,BetOnline
-pp;0;ou;sb;0.5,over,J. Rojas,SEA(away) vs SD(home),MLB,Stolen Bases,,0.5,8.96,11.0,10.0,796,1000,900,1.2276785714285714,BetOnline
-pp;0;ou;sb;0.5,under,J. Rojas,SEA(away) vs SD(home),MLB,Stolen Bases,,0.5,1.05,1.0286,1.02,-2000,-3497,-3500,1.0294117647058825,BetOnline
-pp;0;ou;so;6.5,over,M. King,SEA(away) vs SD(home),MLB,Strikeouts Thrown,,6.5,1.6,1.6667,1.66,-167,-150,-150,1.0416874999999999,BetOnline
-pp;0;ou;so;6.5,under,M. King,SEA(away) vs SD(home),MLB,Strikeouts Thrown,,6.5,2.28,2.15,2.15,128,115,115,1.0604651162790697,BetOnline
-pp;0;ou;so;3.5,over,B. Miller,SEA(away) vs SD(home),MLB,Strikeouts Thrown,,3.5,1.83,1.8696,1.86,-120,-115,-115,1.021639344262295,BetOnline
-pp;0;ou;so;3.5,under,B. Miller,SEA(away) vs SD(home),MLB,Strikeouts Thrown,,3.5,1.93,1.8696,1.86,-108,-115,-115,1.0376344086021505,BetOnline
-pp;0;ou;tb;0.5,over,H. Kim,SEA(away) vs SD(home),MLB,Total Bases,,0.5,1.71,1.6667,1.68,-141,-150,-145,1.0259794804103917,BetOnline
-pp;0;ou;tb;0.5,under,H. Kim,SEA(away) vs SD(home),MLB,Total Bases,,0.5,2.08,2.1,2.05,108,110,105,1.024390243902439,DraftKings
-pp;0;ou;tb;1.5,over,D. Peralta,SEA(away) vs SD(home),MLB,Total Bases,,1.5,2.41,2.25,2.3,141,125,130,1.0711111111111111,BetOnline
-pp;0;ou;tb;1.5,under,D. Peralta,SEA(away) vs SD(home),MLB,Total Bases,,1.5,1.54,1.5883,1.55,-185,-170,-180,1.0313636363636363,PointsBet
-pp;0;ou;tb;0.5,over,J. Crawford,SEA(away) vs SD(home),MLB,Total Bases,,0.5,1.55,1.5883,1.55,-182,-170,-180,1.024709677419355,PointsBet
-pp;0;ou;tb;0.5,under,J. Crawford,SEA(away) vs SD(home),MLB,Total Bases,,0.5,2.39,2.25,2.35,139,125,135,1.0622222222222222,PointsBet
-pp;0;ou;tb;0.5,over,C. Raleigh,SEA(away) vs SD(home),MLB,Total Bases,,0.5,1.57,1.5883,1.57,-175,-170,-175,1.011656050955414,PointsBet
-pp;0;ou;tb;0.5,under,C. Raleigh,SEA(away) vs SD(home),MLB,Total Bases,,0.5,2.35,2.25,2.3,135,125,130,1.0444444444444445,BetOnline
-pp;0;ou;tb;1.5,over,J. Cronenworth,SEA(away) vs SD(home),MLB,Total Bases,,1.5,2.15,2.05,2.1,115,105,110,1.048780487804878,BetOnline
-pp;0;ou;tb;1.5,under,J. Cronenworth,SEA(away) vs SD(home),MLB,Total Bases,,1.5,1.67,1.6897,1.68,-149,-145,-145,1.0117964071856287,BetOnline
-pp;0;ou;tb;1.5,over,J. Merrill,SEA(away) vs SD(home),MLB,Total Bases,,1.5,2.13,2.05,2.05,113,105,105,1.0390243902439025,BetOnline
-pp;0;ou;tb;1.5,under,J. Merrill,SEA(away) vs SD(home),MLB,Total Bases,,1.5,1.68,1.6897,1.68,-147,-145,-145,1.0057738095238096,PointsBet
-pp;0;ou;tb;1.5,over,L. Arraez,SEA(away) vs SD(home),MLB,Total Bases,,1.5,2.04,1.9524,2.0,104,-105,100,1.0448678549477566,PointsBet
-pp;0;ou;tb;1.5,under,L. Arraez,SEA(away) vs SD(home),MLB,Total Bases,,1.5,1.74,1.7693,1.74,-135,-130,-135,1.0168390804597702,PointsBet
-pp;0;ou;tb;1.5,over,M. Machado,SEA(away) vs SD(home),MLB,Total Bases,,1.5,2.3,2.15,2.25,130,115,125,1.069767441860465,PointsBet
-pp;0;ou;tb;1.5,under,M. Machado,SEA(away) vs SD(home),MLB,Total Bases,,1.5,1.59,1.6452,1.57,-169,-155,-175,1.0478980891719745,PointsBet
-pp;0;ou;tb;0.5,over,J. Rojas,SEA(away) vs SD(home),MLB,Total Bases,,0.5,1.8,1.7408,1.74,-125,-135,-135,1.0344827586206897,BetOnline
-pp;0;ou;tb;0.5,under,J. Rojas,SEA(away) vs SD(home),MLB,Total Bases,,0.5,1.97,2.0,1.95,-103,100,-105,1.0256410256410258,PointsBet
-pp;0;ou;tb;0.5,over,T. France,SEA(away) vs SD(home),MLB,Total Bases,,0.5,1.64,1.6452,1.62,-156,-155,-160,1.0155555555555555,DraftKings
-pp;0;ou;tb;0.5,under,T. France,SEA(away) vs SD(home),MLB,Total Bases,,0.5,2.2,2.15,2.15,120,115,115,1.0232558139534884,BetOnline
-pp;0;ou;tb;0.5,over,J. Polanco,SEA(away) vs SD(home),MLB,Total Bases,,0.5,1.77,1.6897,1.74,-130,-145,-135,1.0475232289755578,PointsBet
-pp;0;ou;tb;0.5,under,J. Polanco,SEA(away) vs SD(home),MLB,Total Bases,,0.5,2.01,2.05,2.0,101,105,100,1.025,PointsBet
-pp;0;ou;tb;0.5,over,M. Garver,SEA(away) vs SD(home),MLB,Total Bases,,0.5,1.76,1.6897,1.74,-132,-145,-135,1.0416050186423627,PointsBet
-pp;0;ou;tb;0.5,under,M. Garver,SEA(away) vs SD(home),MLB,Total Bases,,0.5,2.02,2.05,2.0,102,105,100,1.025,PointsBet
-pp;0;ss;hit;1.5,over,H. Kim,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,4.17,4.75,5.0,317,375,400,1.1990407673860912,BetOnline
-pp;0;ss;hit;1.5,over,D. Peralta,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,3.63,3.4,3.15,263,240,215,1.1523809523809523,DraftKings
-pp;0;ss;hit;2.5,over,D. Peralta,SEA(away) vs SD(home),MLB,Hits Milestones,,2.5,10.74,12.0,10.5,974,1100,950,1.1428571428571428,PointsBet
-pp;0;ss;hit;1.5,over,J. Crawford,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,3.66,4.3,4.0,266,330,300,1.174863387978142,BetOnline
-pp;0;ss;hit;1.5,over,C. Raleigh,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,3.71,4.3,4.1,271,330,310,1.1590296495956873,BetOnline
-pp;0;ss;hit;1.5,over,J. Cronenworth,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,2.86,3.0,3.05,186,200,205,1.0664335664335665,BetOnline
-pp;0;ss;hit;2.5,over,J. Cronenworth,SEA(away) vs SD(home),MLB,Hits Milestones,,2.5,7.72,9.5,9.5,672,850,850,1.2305699481865284,BetOnline
-pp;0;ss;hit;1.5,over,D. Solano,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,3.1,3.5,3.3,210,250,230,1.129032258064516,PointsBet
-pp;0;ss;hit;2.5,over,D. Solano,SEA(away) vs SD(home),MLB,Hits Milestones,,2.5,8.45,13.0,11.0,745,1200,1000,1.5384615384615385,BetOnline
-pp;0;ss;hit;1.5,over,J. Merrill,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,2.77,2.9,2.7,177,190,170,1.074074074074074,PointsBet
-pp;0;ss;hit;2.5,over,J. Merrill,SEA(away) vs SD(home),MLB,Hits Milestones,,2.5,7.4,9.5,7.5,640,850,650,1.2837837837837838,PointsBet
-pp;0;ss;hit;0.5,over,L. Arraez,SEA(away) vs SD(home),MLB,Hits Milestones,,0.5,1.32,1.2858,1.28,-312,-350,-350,1.03125,BetOnline
-pp;0;ss;hit;2.5,over,L. Arraez,SEA(away) vs SD(home),MLB,Hits Milestones,,2.5,5.51,7.0,6.5,451,600,550,1.2704174228675136,BetOnline
-pp;0;ss;hit;1.5,over,M. Machado,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,2.89,3.1,2.95,189,210,195,1.0726643598615917,PointsBet
-pp;0;ss;hit;2.5,over,M. Machado,SEA(away) vs SD(home),MLB,Hits Milestones,,2.5,7.81,10.0,9.0,681,900,800,1.2804097311139566,BetOnline
-pp;0;ss;hit;1.5,over,J. Rojas,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,4.35,5.0,5.25,335,400,425,1.2068965517241381,BetOnline
-pp;0;ss;hit;1.5,over,T. France,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,3.96,4.5,4.3,296,350,330,1.1363636363636365,BetOnline
-pp;0;ss;hit;1.5,over,J. Polanco,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,4.26,5.0,5.25,326,400,425,1.2323943661971832,BetOnline
-pp;0;ss;hit;1.5,over,M. Garver,SEA(away) vs SD(home),MLB,Hits Milestones,,1.5,4.3,5.0,4.8,330,400,380,1.1627906976744187,BetOnline
-pp;0;ss;so;5.5,over,M. King,SEA(away) vs SD(home),MLB,Strikeouts Milestones,,5.5,1.27,1.3334,1.33,-370,-300,-300,1.0499212598425196,BetOnline
-pp;0;ss;so;7.5,over,M. King,SEA(away) vs SD(home),MLB,Strikeouts Milestones,,7.5,2.04,2.25,2.3,104,125,130,1.1274509803921569,BetOnline
-pp;0;ss;so;8.5,over,M. King,SEA(away) vs SD(home),MLB,Strikeouts Milestones,,8.5,2.72,3.2,3.4,172,220,240,1.2499999999999998,BetOnline
-pp;0;ss;so;2.5,over,B. Miller,SEA(away) vs SD(home),MLB,Strikeouts Milestones,,2.5,1.29,1.3449,1.41,-345,-290,-240,1.0930232558139534,DraftKings
-pp;0;ss;so;4.5,over,B. Miller,SEA(away) vs SD(home),MLB,Strikeouts Milestones,,4.5,2.38,2.9,2.85,138,190,185,1.2184873949579833,BetOnline
-pp;0;ss;so;5.5,over,B. Miller,SEA(away) vs SD(home),MLB,Strikeouts Milestones,,5.5,3.26,5.25,4.5,226,425,350,1.6104294478527608,BetOnline
-s;0;m,,,NYY(away) vs TB(home),MLB,Moneyline,home,,1.85,1.8,1.8,-117,-125,-125,1.027777777777778,BetOnline
-s;0;m,,,NYY(away) vs TB(home),MLB,Moneyline,home,,2.02,1.8,1.8,102,-125,-125,1.1222222222222222,BetOnline
-s;0;m,,,NYY(away) vs TB(home),MLB,Moneyline,away,,2.07,2.05,2.05,107,105,105,1.0097560975609756,BetOnline
-s;0;m,,,NYY(away) vs TB(home),MLB,Moneyline,away,,1.89,2.05,2.05,-112,105,105,1.0846560846560847,BetOnline
-pp;0;ou;hit;1.5,over,A. Judge,NYY(away) vs TB(home),MLB,Hits,,1.5,2.9,2.7,2.8,190,170,180,1.074074074074074,BetOnline
-pp;0;ou;hit;1.5,under,A. Judge,NYY(away) vs TB(home),MLB,Hits,,1.5,1.39,1.4,1.4,-256,-250,-250,1.0071942446043165,BetOnline
-pp;0;ou;hit;0.5,over,A. Verdugo,NYY(away) vs TB(home),MLB,Hits,,0.5,1.49,1.4445,1.46,-204,-225,-215,1.0314987885081344,BetOnline
-pp;0;ou;hit;0.5,under,A. Verdugo,NYY(away) vs TB(home),MLB,Hits,,0.5,2.54,2.55,2.55,154,155,155,1.0039370078740157,BetOnline
-pp;0;ou;hit;0.5,over,I. Paredes,NYY(away) vs TB(home),MLB,Hits,,0.5,1.52,1.4762,1.5,-192,-210,-200,1.029670776317572,PointsBet
-pp;0;ou;hit;0.5,under,I. Paredes,NYY(away) vs TB(home),MLB,Hits,,0.5,2.45,2.5,2.45,145,150,145,1.0204081632653061,PointsBet
-pp;0;ou;sb;0.5,over,A. Volpe,NYY(away) vs TB(home),MLB,Stolen Bases,,0.5,5.14,5.0,6.0,414,400,500,1.2,DraftKings
-pp;0;ou;sb;0.5,under,A. Volpe,NYY(away) vs TB(home),MLB,Stolen Bases,,0.5,1.15,1.1112,1.1,-667,-899,-1000,1.0454545454545452,BetOnline
-pp;0;ou;sb;0.5,over,G. Torres,NYY(away) vs TB(home),MLB,Stolen Bases,,0.5,8.29,11.0,10.5,729,1000,950,1.3268998793727385,BetOnline
-pp;0;ou;sb;0.5,under,G. Torres,NYY(away) vs TB(home),MLB,Stolen Bases,,0.5,1.06,1.0286,1.02,-1667,-3497,-4000,1.0392156862745099,BetOnline
-pp;0;ou;sb;0.5,over,J. Soto,NYY(away) vs TB(home),MLB,Stolen Bases,,0.5,9.76,11.0,10.0,876,1000,900,1.1270491803278688,PointsBet
-pp;0;ou;sb;0.5,under,J. Soto,NYY(away) vs TB(home),MLB,Stolen Bases,,0.5,1.04,1.0286,1.02,-2500,-3497,-3500,1.0196078431372548,BetOnline
-pp;0;ou;sb;0.5,over,T. Grisham,NYY(away) vs TB(home),MLB,Stolen Bases,,0.5,8.96,10.5,10.0,796,950,900,1.1718749999999998,BetOnline
-pp;0;ou;sb;0.5,under,T. Grisham,NYY(away) vs TB(home),MLB,Stolen Bases,,0.5,1.05,1.0334,1.02,-2000,-2994,-3500,1.0294117647058825,BetOnline
-pp;0;ou;so;4.5,over,M. Stroman,NYY(away) vs TB(home),MLB,Strikeouts Thrown,,4.5,1.82,1.7693,1.8,-122,-130,-125,1.0286554004408524,PointsBet
-pp;0;ou;so;4.5,under,M. Stroman,NYY(away) vs TB(home),MLB,Strikeouts Thrown,,4.5,1.94,2.0,1.95,-106,100,-105,1.0309278350515465,PointsBet
-pp;0;ss;hit;0.5,over,A. Judge,NYY(away) vs TB(home),MLB,Hits Milestones,,0.5,1.31,1.3334,1.33,-323,-300,-300,1.0178625954198472,BetOnline
-pp;0;ss;hit;2.5,over,A. Judge,NYY(away) vs TB(home),MLB,Hits Milestones,,2.5,6.46,8.0,7.5,546,700,650,1.238390092879257,BetOnline
-pp;0;ss;hit;1.5,over,A. Verdugo,NYY(away) vs TB(home),MLB,Hits Milestones,,1.5,3.45,3.6,3.5,245,260,250,1.0434782608695652,PointsBet
-pp;0;ss;hit;2.5,over,A. Verdugo,NYY(away) vs TB(home),MLB,Hits Milestones,,2.5,10.62,12.0,13.0,962,1100,1200,1.224105461393597,BetOnline
-pp;0;ss;hit;1.5,over,I. Paredes,NYY(away) vs TB(home),MLB,Hits Milestones,,1.5,3.55,3.8,3.6,255,280,260,1.0704225352112675,PointsBet
-pp;0;ss;hit;2.5,over,I. Paredes,NYY(away) vs TB(home),MLB,Hits Milestones,,2.5,10.97,13.0,13.0,997,1200,1200,1.1850501367365542,BetOnline
-pp;0;ou;tb;1.5,over,A. Judge,NYY(away) vs TB(home),MLB,Total Bases,,1.5,1.82,1.7693,1.76,-122,-130,-130,1.0340909090909092,BetOnline
-pp;0;ou;tb;1.5,under,A. Judge,NYY(away) vs TB(home),MLB,Total Bases,,1.5,1.94,1.9524,1.95,-106,-105,-105,1.0063917525773196,BetOnline
-pp;0;ou;tb;1.5,over,I. Paredes,NYY(away) vs TB(home),MLB,Total Bases,,1.5,2.52,2.35,2.45,152,135,145,1.0723404255319149,PointsBet
-pp;0;ou;tb;1.5,under,I. Paredes,NYY(away) vs TB(home),MLB,Total Bases,,1.5,1.5,1.5264,1.51,-200,-190,-195,1.0176,PointsBet
-pp;0;ss;so;3.5,over,M. Stroman,NYY(away) vs TB(home),MLB,Strikeouts Milestones,,3.5,1.26,1.3334,1.37,-385,-300,-270,1.0873015873015874,BetOnline
-pp;0;ss;so;5.5,over,M. Stroman,NYY(away) vs TB(home),MLB,Strikeouts Milestones,,5.5,2.81,2.5,2.5,181,150,150,1.124,BetOnline
-pp;0;ss;so;6.5,over,M. Stroman,NYY(away) vs TB(home),MLB,Strikeouts Milestones,,6.5,5.04,4.0,3.9,404,300,290,1.2923076923076924,BetOnline
-s;0;m,,,LAD(away) vs PHI(home),MLB,Moneyline,home,,1.72,1.7143,1.70422536,-138,-140,-142,1.0092561936761697,DraftKings
-s;0;m,,,LAD(away) vs PHI(home),MLB,Moneyline,home,,1.67,1.7143,1.70422536,-150,-140,-142,1.0265269461077844,BetOnline
-s;0;m,,,LAD(away) vs PHI(home),MLB,Moneyline,away,,2.27,2.15,2.2,127,115,120,1.0558139534883721,BetOnline
-s;0;m,,,LAD(away) vs PHI(home),MLB,Moneyline,away,,2.38,2.15,2.2,138,115,120,1.1069767441860465,BetOnline
-s;0;s;-1.5,,,LAD(away) vs PHI(home),MLB,Run Line,home,-1.5,2.4,2.4,2.4,140,140,140,1.0,BetOnline
-s;0;s;-1.5,,,LAD(away) vs PHI(home),MLB,Run Line,away,1.5,1.62,1.5883,1.60240964,-160,-170,-166,1.0199584461373796,BetOnline
-s;0;ou;9.5,over,,LAD(away) vs PHI(home),MLB,Total,,9.5,1.87,1.9091,1.89285715,-115,-110,-112,1.0209090909090908,BetOnline
-s;0;ou;9.5,over,,LAD(away) vs PHI(home),MLB,Total,,9.5,1.83,1.9091,1.89285715,-120,-110,-112,1.0432240437158469,BetOnline
-s;0;ou;9.5,under,,LAD(away) vs PHI(home),MLB,Total,,9.5,1.95,1.9091,1.92592593,-105,-110,-108,1.0214237075061547,BetOnline
-s;0;ou;9.5,under,,LAD(away) vs PHI(home),MLB,Total,,9.5,2.0,1.9091,1.92592593,100,-110,-108,1.0476140589806715,BetOnline
-pp;0;ou;hit;1.5,over,A. Bohm,LAD(away) vs PHI(home),MLB,Hits,,1.5,2.74,2.6,2.7,174,160,170,1.0538461538461539,PointsBet
-pp;0;ou;hit;1.5,under,A. Bohm,LAD(away) vs PHI(home),MLB,Hits,,1.5,1.43,1.4167,1.42,-233,-240,-235,1.0093880143996612,BetOnline
-pp;0;ou;hit;0.5,over,B. Marsh,LAD(away) vs PHI(home),MLB,Hits,,0.5,1.61,1.625,1.6,-164,-160,-165,1.015625,PointsBet
-pp;0;ou;hit;0.5,under,B. Marsh,LAD(away) vs PHI(home),MLB,Hits,,0.5,2.25,2.2,2.2,125,120,120,1.0227272727272727,BetOnline
-pp;0;ou;hit;0.5,over,B. Stott,LAD(away) vs PHI(home),MLB,Hits,,0.5,1.41,1.4,1.4,-244,-250,-250,1.0071428571428571,BetOnline
-pp;0;ou;hit;0.5,under,B. Stott,LAD(away) vs PHI(home),MLB,Hits,,0.5,2.83,2.7,2.8,183,170,180,1.048148148148148,PointsBet
-pp;0;ou;hit;1.5,over,F. Freeman,LAD(away) vs PHI(home),MLB,Hits,,1.5,2.82,2.7,2.8,182,170,180,1.0444444444444443,PointsBet
-pp;0;ou;hit;1.5,under,F. Freeman,LAD(away) vs PHI(home),MLB,Hits,,1.5,1.41,1.4,1.4,-244,-250,-250,1.0071428571428571,BetOnline
-pp;0;ou;hit;0.5,over,J. Rojas,LAD(away) vs PHI(home),MLB,Hits,,0.5,1.58,1.5556,1.57,-172,-180,-175,1.0156852661352533,PointsBet
-pp;0;ou;hit;0.5,under,J. Rojas,LAD(away) vs PHI(home),MLB,Hits,,0.5,2.33,2.3,2.3,133,130,130,1.0130434782608697,BetOnline
-pp;0;ou;hit;0.5,over,N. Castellanos,LAD(away) vs PHI(home),MLB,Hits,,0.5,1.42,1.3637,1.41,-238,-275,-240,1.0412847400454646,PointsBet
-pp;0;ou;hit;0.5,under,N. Castellanos,LAD(away) vs PHI(home),MLB,Hits,,0.5,2.78,2.75,2.75,178,175,175,1.0109090909090908,BetOnline
-pp;0;ou;hit;1.5,over,S. Ohtani,LAD(away) vs PHI(home),MLB,Hits,,1.5,2.86,2.6,2.8,186,160,180,1.0999999999999999,PointsBet
-pp;0;ou;hit;1.5,under,S. Ohtani,LAD(away) vs PHI(home),MLB,Hits,,1.5,1.4,1.4167,1.4,-250,-240,-250,1.0119285714285715,PointsBet
-pp;0;ou;hit;1.5,over,T. Turner,LAD(away) vs PHI(home),MLB,Hits,,1.5,2.74,2.6,2.65,174,160,165,1.0538461538461539,BetOnline
-pp;0;ou;hit;1.5,under,T. Turner,LAD(away) vs PHI(home),MLB,Hits,,1.5,1.43,1.4167,1.43,-233,-240,-230,1.0093880143996612,PointsBet
-pp;0;ou;hit;1.5,over,W. Smith,LAD(away) vs PHI(home),MLB,Hits,,1.5,2.58,2.55,2.55,158,155,155,1.0117647058823531,BetOnline
-pp;0;ou;hit;1.5,under,W. Smith,LAD(away) vs PHI(home),MLB,Hits,,1.5,1.48,1.4445,1.47,-208,-225,-210,1.024575977847006,PointsBet
-pp;0;ou;sb;0.5,over,B. Marsh,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,6.46,5.25,6.0,546,425,500,1.2304761904761905,PointsBet
-pp;0;ou;sb;0.5,under,B. Marsh,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.1,1.1,1.1,-1000,-1000,-1000,1.0,BetOnline
-pp;0;ou;sb;0.5,over,B. Stott,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,5.14,4.75,5.25,414,375,425,1.105263157894737,PointsBet
-pp;0;ou;sb;0.5,under,B. Stott,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.15,1.125,1.13,-667,-800,-750,1.0222222222222221,BetOnline
-pp;0;ou;sb;0.5,over,F. Freeman,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,10.74,15.0,11.0,974,1400,1000,1.3966480446927374,PointsBet
-pp;0;ou;sb;0.5,under,F. Freeman,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.03,1.0167,1.01,-3333,-5988,-6000,1.0198019801980198,BetOnline
-pp;0;ou;sb;0.5,over,J. Rojas,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,4.09,3.9,4.2,309,290,320,1.076923076923077,PointsBet
-pp;0;ou;sb;0.5,under,J. Rojas,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.22,1.1905,1.2,-455,-525,-500,1.024779504409912,BetOnline
-pp;0;ou;sb;0.5,over,M. Rojas,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,10.74,10.5,10.5,974,950,950,1.022857142857143,BetOnline
-pp;0;ou;sb;0.5,under,M. Rojas,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-5000,1.0131372549019608,DraftKings
-pp;0;ou;sb;0.5,over,N. Castellanos,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,11.96,15.0,12.0,1096,1400,1100,1.2541806020066888,PointsBet
-pp;0;ou;sb;0.5,under,N. Castellanos,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.02,1.0167,1.01,-5000,-5988,-8000,1.00990099009901,DraftKings
-pp;0;ou;sb;0.5,over,S. Ohtani,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,6.13,4.75,5.75,513,375,475,1.2905263157894737,PointsBet
-pp;0;ou;sb;0.5,under,S. Ohtani,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.11,1.125,1.11,-909,-800,-900,1.0135135135135134,PointsBet
-pp;0;ou;sb;0.5,over,T. Hernandez,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,9.76,10.5,11.0,876,950,1000,1.1270491803278688,BetOnline
-pp;0;ou;sb;0.5,under,T. Hernandez,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.04,1.0334,1.02,-2500,-2994,-4000,1.0196078431372548,DraftKings
-pp;0;ou;sb;0.5,over,T. Turner,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,5.84,5.0,5.75,484,400,475,1.168,PointsBet
-pp;0;ou;sb;0.5,under,T. Turner,LAD(away) vs PHI(home),MLB,Stolen Bases,,0.5,1.12,1.1112,1.11,-833,-899,-900,1.009009009009009,BetOnline
-pp;0;ou;so;4.5,over,C. Sanchez,LAD(away) vs PHI(home),MLB,Strikeouts Thrown,,4.5,1.77,1.7143,1.74,-130,-140,-135,1.0324913959050341,BetOnline
-pp;0;ou;so;4.5,under,C. Sanchez,LAD(away) vs PHI(home),MLB,Strikeouts Thrown,,4.5,2.01,2.05,2.05,101,105,105,1.0199004975124377,BetOnline
-pp;0;ou;so;4.5,over,G. Stone,LAD(away) vs PHI(home),MLB,Strikeouts Thrown,,4.5,1.91,1.8696,1.86,-110,-115,-115,1.0268817204301075,BetOnline
-pp;0;ou;so;4.5,under,G. Stone,LAD(away) vs PHI(home),MLB,Strikeouts Thrown,,4.5,1.85,1.8696,1.86,-118,-115,-115,1.0105945945945944,BetOnline
-pp;0;ss;hit;0.5,over,A. Bohm,LAD(away) vs PHI(home),MLB,Hits Milestones,,0.5,1.29,1.2858,1.31,-345,-350,-320,1.0188209674910562,DraftKings
-pp;0;ss;hit;2.5,over,A. Bohm,LAD(away) vs PHI(home),MLB,Hits Milestones,,2.5,6.28,8.5,7.5,528,750,650,1.3535031847133758,BetOnline
-pp;0;ss;hit;1.5,over,B. Stott,LAD(away) vs PHI(home),MLB,Hits Milestones,,1.5,2.89,3.3,3.0,189,230,200,1.1418685121107266,PointsBet
-pp;0;ss;hit;2.5,over,B. Stott,LAD(away) vs PHI(home),MLB,Hits Milestones,,2.5,7.81,11.5,10.0,681,1050,900,1.47247119078105,BetOnline
-pp;0;ss;hit;0.5,over,T. Turner,LAD(away) vs PHI(home),MLB,Hits Milestones,,0.5,1.29,1.3077,1.3,-345,-325,-330,1.0137209302325583,BetOnline
-pp;0;ss;hit;2.5,over,T. Turner,LAD(away) vs PHI(home),MLB,Hits Milestones,,2.5,6.2,8.0,8.0,520,700,700,1.2903225806451613,BetOnline
-pp;0;ss;hit;1.5,over,N. Castellanos,LAD(away) vs PHI(home),MLB,Hits Milestones,,1.5,2.92,3.3,3.35,192,230,235,1.1472602739726028,BetOnline
-pp;0;ss;hit;2.5,over,N. Castellanos,LAD(away) vs PHI(home),MLB,Hits Milestones,,2.5,7.86,11.5,13.0,686,1050,1200,1.6539440203562341,BetOnline
-pp;0;ss;hit;1.5,over,J. Rojas,LAD(away) vs PHI(home),MLB,Hits Milestones,,1.5,3.75,4.3,4.1,275,330,310,1.1466666666666667,BetOnline
-pp;0;ss;hit;1.5,over,B. Marsh,LAD(away) vs PHI(home),MLB,Hits Milestones,,1.5,3.84,4.5,4.5,284,350,350,1.171875,BetOnline
-pp;0;ss;hit;0.5,over,F. Freeman,LAD(away) vs PHI(home),MLB,Hits Milestones,,0.5,1.3,1.3449,1.33,-333,-290,-300,1.0345384615384614,BetOnline
-pp;0;ss;hit;2.5,over,F. Freeman,LAD(away) vs PHI(home),MLB,Hits Milestones,,2.5,6.37,7.5,8.0,537,650,700,1.2558869701726845,BetOnline
-pp;0;ss;hit;1.5,over,M. Rojas,LAD(away) vs PHI(home),MLB,Hits Milestones,,1.5,2.57,2.85,2.95,157,185,195,1.1478599221789885,BetOnline
-pp;0;ss;hit;2.5,over,M. Rojas,LAD(away) vs PHI(home),MLB,Hits Milestones,,2.5,6.18,8.0,9.0,518,700,800,1.4563106796116505,BetOnline
-pp;0;ss;hit;0.5,over,W. Smith,LAD(away) vs PHI(home),MLB,Hits Milestones,,0.5,1.32,1.3077,1.29,-312,-325,-340,1.0232558139534884,DraftKings
-pp;0;ss;hit;2.5,over,W. Smith,LAD(away) vs PHI(home),MLB,Hits Milestones,,2.5,5.51,6.5,6.5,451,550,550,1.1796733212341197,BetOnline
-pp;0;ss;hit;0.5,over,S. Ohtani,LAD(away) vs PHI(home),MLB,Hits Milestones,,0.5,1.31,1.3449,1.35,-323,-290,-280,1.0305343511450382,BetOnline
-pp;0;ss;hit;2.5,over,S. Ohtani,LAD(away) vs PHI(home),MLB,Hits Milestones,,2.5,6.42,7.5,8.0,542,650,700,1.2461059190031152,BetOnline
-pp;0;ss;so;3.5,over,C. Sanchez,LAD(away) vs PHI(home),MLB,Strikeouts Milestones,,3.5,1.32,1.3334,1.33,-312,-300,-300,1.010151515151515,BetOnline
-pp;0;ss;so;5.5,over,C. Sanchez,LAD(away) vs PHI(home),MLB,Strikeouts Milestones,,5.5,2.38,2.45,2.45,138,145,145,1.0294117647058825,BetOnline
-pp;0;ss;so;6.5,over,C. Sanchez,LAD(away) vs PHI(home),MLB,Strikeouts Milestones,,6.5,3.41,4.0,3.9,241,300,290,1.1730205278592374,BetOnline
-pp;0;ss;so;3.5,over,G. Stone,LAD(away) vs PHI(home),MLB,Strikeouts Milestones,,3.5,1.34,1.4,1.36,-294,-250,-275,1.044776119402985,PointsBet
-pp;0;ss;so;5.5,over,G. Stone,LAD(away) vs PHI(home),MLB,Strikeouts Milestones,,5.5,2.84,2.85,2.75,184,185,175,1.0363636363636364,DraftKings
-pp;0;ss;so;6.5,over,G. Stone,LAD(away) vs PHI(home),MLB,Strikeouts Milestones,,6.5,4.79,4.75,4.8,379,375,380,1.0105263157894737,PointsBet
-pp;0;ou;tb;1.5,over,A. Bohm,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,2.0,1.8696,2.0,100,-115,100,1.069747539580659,PointsBet
-pp;0;ou;tb;1.5,under,A. Bohm,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.77,1.8334,1.74,-130,-120,-135,1.0536781609195403,PointsBet
-pp;0;ou;tb;1.5,over,B. Stott,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,2.36,2.25,2.35,136,125,135,1.0488888888888888,PointsBet
-pp;0;ou;tb;1.5,under,B. Stott,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.56,1.5883,1.54,-179,-170,-185,1.0313636363636363,PointsBet
-pp;0;ou;tb;1.5,over,T. Turner,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.9,1.8548,1.83,-111,-117,-120,1.0382513661202184,BetOnline
-pp;0;ou;tb;1.5,under,T. Turner,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.86,1.8548,1.9,-116,-117,-110,1.0243692042268708,DraftKings
-pp;0;ou;tb;1.5,over,N. Castellanos,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,2.24,2.1,2.2,124,110,120,1.0666666666666667,PointsBet
-pp;0;ou;tb;1.5,under,N. Castellanos,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.62,1.6667,1.6,-161,-150,-165,1.0416874999999999,PointsBet
-pp;0;ou;tb;0.5,over,J. Rojas,LAD(away) vs PHI(home),MLB,Total Bases,,0.5,1.58,1.5556,1.57,-172,-180,-175,1.0156852661352533,PointsBet
-pp;0;ou;tb;0.5,under,J. Rojas,LAD(away) vs PHI(home),MLB,Total Bases,,0.5,2.33,2.3,2.3,133,130,130,1.0130434782608697,BetOnline
-pp;0;ou;tb;0.5,over,B. Marsh,LAD(away) vs PHI(home),MLB,Total Bases,,0.5,1.64,1.625,1.6,-156,-160,-165,1.025,DraftKings
-pp;0;ou;tb;0.5,under,B. Marsh,LAD(away) vs PHI(home),MLB,Total Bases,,0.5,2.2,2.2,2.2,120,120,120,1.0,BetOnline
-pp;0;ou;tb;1.5,over,F. Freeman,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,2.17,1.9524,2.15,117,-105,115,1.1114525711944274,PointsBet
-pp;0;ou;tb;1.5,under,F. Freeman,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.66,1.7693,1.64,-152,-130,-155,1.0788414634146342,PointsBet
-pp;0;ou;tb;1.5,over,M. Rojas,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,2.34,2.1,2.25,134,110,125,1.114285714285714,PointsBet
-pp;0;ou;tb;1.5,under,M. Rojas,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.57,1.6667,1.58,-175,-150,-170,1.0615923566878982,PointsBet
-pp;0;ou;tb;1.5,over,W. Smith,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.91,1.8548,1.83,-110,-117,-120,1.0437158469945353,BetOnline
-pp;0;ou;tb;1.5,under,W. Smith,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.85,1.8548,1.86,-118,-117,-115,1.0054054054054054,DraftKings
-pp;0;ou;tb;1.5,over,S. Ohtani,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,2.09,1.8696,2.1,109,-115,110,1.123234916559692,PointsBet
-pp;0;ou;tb;1.5,under,S. Ohtani,LAD(away) vs PHI(home),MLB,Total Bases,,1.5,1.71,1.8334,1.68,-141,-120,-145,1.0913095238095238,PointsBet
-s;0;m,,,WAS(away) vs NYM(home),MLB,Moneyline,home,,1.54,1.5264,1.52083334,-184,-190,-192,1.012602735287221,BetOnline
-s;0;m,,,WAS(away) vs NYM(home),MLB,Moneyline,home,,1.74,1.5264,1.52083334,-135,-190,-192,1.144109584025821,BetOnline
-s;0;m,,,WAS(away) vs NYM(home),MLB,Moneyline,home,,1.54,1.7693,1.52083334,-184,-130,-192,1.163375337366026,PointsBet
-s;0;m,,,WAS(away) vs NYM(home),MLB,Moneyline,home,,1.74,1.7693,1.52083334,-135,-130,-192,1.163375337366026,DraftKings
-s;0;m,,,WAS(away) vs NYM(home),MLB,Moneyline,away,,2.68,2.6,2.6,168,160,160,1.0307692307692309,BetOnline
-s;0;m,,,WAS(away) vs NYM(home),MLB,Moneyline,away,,2.24,2.6,2.6,124,160,160,1.1607142857142856,BetOnline
-s;0;m,,,WAS(away) vs NYM(home),MLB,Moneyline,away,,2.68,2.1,2.6,168,110,160,1.2761904761904763,PointsBet
-s;0;m,,,WAS(away) vs NYM(home),MLB,Moneyline,away,,2.24,2.1,2.6,124,110,160,1.2380952380952381,DraftKings
-s;0;s;-1.5,,,WAS(away) vs NYM(home),MLB,Run Line,home,-1.5,2.03,2.05,2.05,103,105,105,1.0098522167487685,BetOnline
-s;0;s;-1.5,,,WAS(away) vs NYM(home),MLB,Run Line,home,-1.5,2.03,2.45,2.05,103,145,105,1.2068965517241381,PointsBet
-s;0;s;-1.5,,,WAS(away) vs NYM(home),MLB,Run Line,away,1.5,1.81,1.8,1.8,-123,-125,-125,1.0055555555555555,BetOnline
-s;0;s;-1.5,,,WAS(away) vs NYM(home),MLB,Run Line,away,1.5,1.81,1.5715,1.8,-123,-175,-125,1.1517658288259625,PointsBet
-s;0;ou;9.5,over,,WAS(away) vs NYM(home),MLB,Total,,9.5,1.88,1.9091,1.90909091,-113,-110,-110,1.0154787234042555,BetOnline
-s;0;ou;9.5,under,,WAS(away) vs NYM(home),MLB,Total,,9.5,1.93,1.9091,1.90909091,-107,-110,-110,1.010952380470975,BetOnline
-pp;0;ou;hit;1.5,over,B. Nimmo,WAS(away) vs NYM(home),MLB,Hits,,1.5,2.95,2.75,2.95,195,175,195,1.0727272727272728,PointsBet
-pp;0;ou;hit;1.5,under,B. Nimmo,WAS(away) vs NYM(home),MLB,Hits,,1.5,1.38,1.3637,1.36,-263,-275,-275,1.0147058823529411,BetOnline
-pp;0;ou;hit;1.5,over,F. Lindor,WAS(away) vs NYM(home),MLB,Hits,,1.5,2.86,2.75,2.85,186,175,185,1.04,PointsBet
-pp;0;ou;hit;1.5,under,F. Lindor,WAS(away) vs NYM(home),MLB,Hits,,1.5,1.4,1.3637,1.38,-250,-275,-260,1.026618757791303,BetOnline
-pp;0;ou;hit;0.5,over,H. Bader,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.48,1.4445,1.45,-208,-225,-220,1.024575977847006,BetOnline
-pp;0;ou;hit;0.5,under,H. Bader,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.58,2.55,2.6,158,155,160,1.019607843137255,PointsBet
-pp;0;ou;hit;0.5,over,J. Wood,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.48,1.4167,1.45,-208,-240,-220,1.0446813016164325,PointsBet
-pp;0;ou;hit;0.5,under,J. Wood,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.58,2.6,2.6,158,160,160,1.0077519379844961,BetOnline
-pp;0;ou;hit;0.5,over,J. Yepez,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.57,1.5556,1.55,-175,-180,-180,1.0129032258064516,BetOnline
-pp;0;ou;hit;0.5,under,J. Yepez,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.35,2.3,2.3,135,130,130,1.0217391304347827,BetOnline
-pp;0;ou;hit;0.5,over,J. Young,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.64,1.5883,1.6,-156,-170,-165,1.0325505257193224,BetOnline
-pp;0;ou;hit;0.5,under,J. Young,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.21,2.25,2.2,121,125,120,1.0227272727272727,PointsBet
-pp;0;ou;hit;0.5,over,K. Ruiz,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.48,1.4167,1.45,-208,-240,-220,1.0446813016164325,PointsBet
-pp;0;ou;hit;0.5,under,K. Ruiz,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.58,2.6,2.6,158,160,160,1.0077519379844961,BetOnline
-pp;0;ou;hit;0.5,over,L. Thomas,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.43,1.4,1.4,-233,-250,-245,1.0214285714285714,BetOnline
-pp;0;ou;hit;0.5,under,L. Thomas,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.73,2.7,2.75,173,170,175,1.0185185185185184,PointsBet
-pp;0;ou;hit;0.5,over,M. Vientos,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.4,1.3637,1.37,-250,-275,-270,1.026618757791303,BetOnline
-pp;0;ou;hit;0.5,under,M. Vientos,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.87,2.75,2.9,187,175,190,1.0545454545454545,PointsBet
-pp;0;ou;hit;0.5,over,P. Alonso,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.43,1.4,1.41,-233,-250,-240,1.0214285714285714,BetOnline
-pp;0;ou;hit;0.5,under,P. Alonso,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.76,2.7,2.75,176,170,175,1.0222222222222221,PointsBet
-pp;0;ou;hit;0.5,over,T. Lipscomb,WAS(away) vs NYM(home),MLB,Hits,,0.5,1.59,1.5883,1.57,-169,-170,-175,1.0127388535031847,DraftKings
-pp;0;ou;hit;0.5,under,T. Lipscomb,WAS(away) vs NYM(home),MLB,Hits,,0.5,2.29,2.25,2.25,129,125,125,1.017777777777778,BetOnline
-pp;0;ou;sb;0.5,over,B. Nimmo,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,8.29,7.0,7.5,729,600,650,1.1842857142857142,BetOnline
-pp;0;ou;sb;0.5,under,B. Nimmo,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,1.06,1.0715,1.06,-1667,-1399,-1600,1.0108490566037733,PointsBet
-pp;0;ou;sb;0.5,over,C. Abrams,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,3.54,3.7,4.1,254,270,310,1.15819209039548,DraftKings
-pp;0;ou;sb;0.5,under,C. Abrams,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,1.28,1.2106,1.21,-357,-475,-475,1.0578512396694215,BetOnline
-pp;0;ou;sb;0.5,over,F. Lindor,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,4.62,4.0,4.4,362,300,340,1.155,PointsBet
-pp;0;ou;sb;0.5,under,F. Lindor,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,1.18,1.1819,1.18,-556,-550,-550,1.0016101694915254,PointsBet
-pp;0;ou;sb;0.5,over,H. Bader,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,4.34,4.5,5.0,334,350,400,1.1520737327188941,DraftKings
-pp;0;ou;sb;0.5,under,H. Bader,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,1.2,1.1429,1.14,-500,-700,-700,1.0526315789473684,BetOnline
-pp;0;ou;sb;0.5,over,J. Wood,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,6.46,7.5,7.5,546,650,650,1.1609907120743035,BetOnline
-pp;0;ou;sb;0.5,under,J. Wood,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,1.1,1.0667,1.06,-1000,-1499,-1600,1.0377358490566038,BetOnline
-pp;0;ou;sb;0.5,over,J. Young,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,3.79,3.6,3.85,279,260,285,1.0694444444444444,PointsBet
-pp;0;ou;sb;0.5,under,J. Young,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,1.25,1.2223,1.23,-400,-450,-425,1.022662194224004,BetOnline
-pp;0;ou;sb;0.5,over,L. Thomas,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,4.21,4.0,4.4,321,300,340,1.1,PointsBet
-pp;0;ou;sb;0.5,under,L. Thomas,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,1.21,1.1819,1.18,-476,-550,-550,1.0254237288135593,BetOnline
-pp;0;ou;sb;0.5,over,T. Lipscomb,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,6.46,5.25,6.0,546,425,500,1.2304761904761905,PointsBet
-pp;0;ou;sb;0.5,under,T. Lipscomb,WAS(away) vs NYM(home),MLB,Stolen Bases,,0.5,1.1,1.1,1.1,-1000,-1000,-1000,1.0,BetOnline
-pp;0;ou;so;3.5,over,P. Corbin,WAS(away) vs NYM(home),MLB,Strikeouts Thrown,,3.5,1.81,1.7693,1.76,-123,-130,-130,1.0284090909090908,BetOnline
-pp;0;ou;so;3.5,under,P. Corbin,WAS(away) vs NYM(home),MLB,Strikeouts Thrown,,3.5,1.95,2.0,2.0,-105,100,100,1.0256410256410258,BetOnline
-pp;0;ou;so;4.5,over,L. Severino,WAS(away) vs NYM(home),MLB,Strikeouts Thrown,,4.5,2.09,2.05,2.05,109,105,105,1.0195121951219512,BetOnline
-pp;0;ou;so;4.5,under,L. Severino,WAS(away) vs NYM(home),MLB,Strikeouts Thrown,,4.5,1.71,1.7143,1.74,-141,-140,-135,1.0175438596491229,DraftKings
-pp;0;ss;hit;1.5,over,H. Bader,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,3.41,3.6,3.0,241,260,200,1.2,DraftKings
-pp;0;ss;hit;2.5,over,H. Bader,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,10.42,13.0,9.0,942,1200,800,1.4444444444444444,PointsBet
-pp;0;ss;hit;1.5,over,J. Wood,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,3.42,3.2,3.6,242,220,260,1.125,PointsBet
-pp;0;ss;hit;2.5,over,J. Wood,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,10.5,10.0,13.0,950,900,1200,1.3,DraftKings
-pp;0;ss;hit;0.5,over,B. Nimmo,WAS(away) vs NYM(home),MLB,Hits Milestones,,0.5,1.32,1.3637,1.35,-312,-275,-280,1.0331060606060605,BetOnline
-pp;0;ss;hit;2.5,over,B. Nimmo,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,6.52,9.0,9.0,552,800,800,1.3803680981595092,BetOnline
-pp;0;ss;hit;0.5,over,F. Lindor,WAS(away) vs NYM(home),MLB,Hits Milestones,,0.5,1.36,1.3449,1.35,-278,-290,-285,1.0112276005650978,BetOnline
-pp;0;ss;hit;2.5,over,F. Lindor,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,5.81,9.0,8.5,481,800,750,1.5490533562822721,BetOnline
-pp;0;ss;hit;1.5,over,P. Alonso,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,2.96,3.3,3.05,196,230,205,1.114864864864865,PointsBet
-pp;0;ss;hit;2.5,over,P. Alonso,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,8.04,11.0,9.5,704,1000,850,1.3681592039800996,PointsBet
-pp;0;ss;hit;1.5,over,M. Vientos,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,2.85,3.2,2.8,185,220,180,1.142857142857143,PointsBet
-pp;0;ss;hit;2.5,over,M. Vientos,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,7.63,11.0,8.0,663,1000,700,1.4416775884665793,PointsBet
-pp;0;ss;hit;0.5,over,J. Martinez,WAS(away) vs NYM(home),MLB,Hits Milestones,,0.5,1.33,1.3847,1.37,-303,-260,-270,1.0411278195488722,BetOnline
-pp;0;ss;hit;2.5,over,J. Martinez,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,6.61,9.5,9.0,561,850,800,1.437216338880484,BetOnline
-pp;0;ss;hit;1.5,over,C. Abrams,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,2.42,2.75,2.85,142,175,185,1.177685950413223,BetOnline
-pp;0;ss;hit;2.5,over,C. Abrams,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,5.31,8.0,9.0,431,700,800,1.6949152542372883,BetOnline
-pp;0;ss;hit;1.5,over,J. Yepez,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,3.71,4.1,4.1,271,310,310,1.105121293800539,BetOnline
-pp;0;ss;hit;1.5,over,K. Ruiz,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,3.42,3.3,3.55,242,230,255,1.0757575757575757,DraftKings
-pp;0;ss;hit;2.5,over,K. Ruiz,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,10.5,11.0,13.0,950,1000,1200,1.2380952380952381,DraftKings
-pp;0;ss;hit;1.5,over,L. Thomas,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,2.96,3.2,3.05,196,220,205,1.0810810810810811,PointsBet
-pp;0;ss;hit;2.5,over,L. Thomas,WAS(away) vs NYM(home),MLB,Hits Milestones,,2.5,8.04,10.0,9.5,704,900,850,1.2437810945273633,BetOnline
-pp;0;ss;hit;1.5,over,J. Young,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,3.93,4.5,4.1,293,350,310,1.1450381679389312,PointsBet
-pp;0;ss;hit;1.5,over,T. Lipscomb,WAS(away) vs NYM(home),MLB,Hits Milestones,,1.5,3.44,4.3,4.2,244,330,320,1.25,BetOnline
-pp;0;ss;so;2.5,over,P. Corbin,WAS(away) vs NYM(home),MLB,Strikeouts Milestones,,2.5,1.27,1.3077,1.27,-370,-325,-360,1.0296850393700787,PointsBet
-pp;0;ss;so;4.5,over,P. Corbin,WAS(away) vs NYM(home),MLB,Strikeouts Milestones,,4.5,2.61,2.75,2.4,161,175,140,1.1458333333333335,DraftKings
-pp;0;ss;so;5.5,over,P. Corbin,WAS(away) vs NYM(home),MLB,Strikeouts Milestones,,5.5,4.19,4.5,4.0,319,350,300,1.125,PointsBet
-pp;0;ss;so;3.5,over,L. Severino,WAS(away) vs NYM(home),MLB,Strikeouts Milestones,,3.5,1.44,1.5,1.47,-227,-200,-210,1.0416666666666667,BetOnline
-pp;0;ss;so;5.5,over,L. Severino,WAS(away) vs NYM(home),MLB,Strikeouts Milestones,,5.5,2.81,3.3,3.0,181,230,200,1.1743772241992882,PointsBet
-pp;0;ss;so;6.5,over,L. Severino,WAS(away) vs NYM(home),MLB,Strikeouts Milestones,,6.5,4.19,5.5,4.9,319,450,390,1.3126491646778042,BetOnline
-pp;0;ou;tb;1.5,over,H. Bader,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.55,2.25,2.45,155,125,145,1.1333333333333333,PointsBet
-pp;0;ou;tb;1.5,under,H. Bader,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.49,1.5883,1.5,-204,-170,-200,1.0659731543624162,PointsBet
-pp;0;ou;tb;1.5,over,J. Wood,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.46,2.15,2.4,146,115,140,1.144186046511628,PointsBet
-pp;0;ou;tb;1.5,under,J. Wood,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.52,1.6452,1.52,-192,-155,-190,1.0823684210526316,PointsBet
-pp;0;ou;tb;1.5,over,B. Nimmo,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.2,2.0,2.15,120,100,115,1.1,PointsBet
-pp;0;ou;tb;1.5,under,B. Nimmo,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.64,1.7143,1.64,-156,-140,-155,1.0453048780487806,PointsBet
-pp;0;ou;tb;1.5,over,F. Lindor,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.99,1.8696,1.95,-101,-115,-105,1.0643988018827557,PointsBet
-pp;0;ou;tb;1.5,under,F. Lindor,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.78,1.8334,1.76,-128,-120,-130,1.0417045454545455,PointsBet
-pp;0;ou;tb;1.5,over,P. Alonso,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.22,2.0,2.2,122,100,120,1.11,PointsBet
-pp;0;ou;tb;1.5,under,P. Alonso,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.63,1.7408,1.62,-159,-135,-160,1.0745679012345677,PointsBet
-pp;0;ou;tb;1.5,over,M. Vientos,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.13,2.05,2.1,113,105,110,1.0390243902439025,PointsBet
-pp;0;ou;tb;1.5,under,M. Vientos,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.68,1.6897,1.66,-147,-145,-150,1.0178915662650603,DraftKings
-pp;0;ou;tb;1.5,over,J. Martinez,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.03,1.9091,2.0,103,-110,100,1.0633282698653814,PointsBet
-pp;0;ou;tb;1.5,under,J. Martinez,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.75,1.8,1.74,-133,-125,-135,1.0344827586206897,PointsBet
-pp;0;ou;tb;1.5,over,C. Abrams,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.15,1.9091,2.1,115,-110,110,1.1261851134042218,PointsBet
-pp;0;ou;tb;1.5,under,C. Abrams,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.67,1.8,1.66,-149,-125,-150,1.0843373493975905,PointsBet
-pp;0;ou;tb;0.5,over,J. Yepez,WAS(away) vs NYM(home),MLB,Total Bases,,0.5,1.58,1.5556,1.55,-172,-180,-180,1.0193548387096774,BetOnline
-pp;0;ou;tb;0.5,under,J. Yepez,WAS(away) vs NYM(home),MLB,Total Bases,,0.5,2.33,2.3,2.3,133,130,130,1.0130434782608697,BetOnline
-pp;0;ou;tb;1.5,over,K. Ruiz,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.58,2.3,2.5,158,130,150,1.1217391304347828,PointsBet
-pp;0;ou;tb;1.5,under,K. Ruiz,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.48,1.5556,1.48,-208,-180,-205,1.0510810810810811,PointsBet
-pp;0;ou;tb;1.5,over,L. Thomas,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,2.39,2.15,2.35,139,115,135,1.1116279069767443,PointsBet
-pp;0;ou;tb;1.5,under,L. Thomas,WAS(away) vs NYM(home),MLB,Total Bases,,1.5,1.55,1.6452,1.54,-182,-155,-185,1.0683116883116883,PointsBet
-pp;0;ou;tb;0.5,over,J. Young,WAS(away) vs NYM(home),MLB,Total Bases,,0.5,1.65,1.5883,1.6,-154,-170,-165,1.0388465655102939,BetOnline
-pp;0;ou;tb;0.5,under,J. Young,WAS(away) vs NYM(home),MLB,Total Bases,,0.5,2.19,2.25,2.2,119,125,120,1.0273972602739727,PointsBet
-pp;0;ou;tb;0.5,over,T. Lipscomb,WAS(away) vs NYM(home),MLB,Total Bases,,0.5,1.59,1.625,1.57,-169,-160,-175,1.0350318471337578,PointsBet
-pp;0;ou;tb;0.5,under,T. Lipscomb,WAS(away) vs NYM(home),MLB,Total Bases,,0.5,2.29,2.2,2.25,129,120,125,1.0409090909090908,PointsBet
-s;0;m,,,OAK(away) vs BOS(home),MLB,Moneyline,home,,1.55,1.5264,1.54054055,-182,-190,-185,1.0154612159329142,PointsBet
-s;0;m,,,OAK(away) vs BOS(home),MLB,Moneyline,home,,1.47,1.5264,1.54054055,-215,-190,-185,1.047986768707483,BetOnline
-s;0;m,,,OAK(away) vs BOS(home),MLB,Moneyline,away,,2.66,2.6,2.54,166,160,154,1.0472440944881891,BetOnline
-s;0;m,,,OAK(away) vs BOS(home),MLB,Moneyline,away,,2.94,2.6,2.54,194,160,154,1.1574803149606299,BetOnline
-s;0;s;-1.5,,,OAK(away) vs BOS(home),MLB,Run Line,home,-1.5,2.05,2.05,2.05,105,105,105,1.0,BetOnline
-s;0;s;-1.5,,,OAK(away) vs BOS(home),MLB,Run Line,away,1.5,1.8,1.8,1.8,-125,-125,-125,1.0,BetOnline
-pp;0;ou;hit;0.5,over,B. Rooker,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.47,1.4167,1.45,-213,-240,-220,1.0376226441730783,PointsBet
-pp;0;ou;hit;0.5,under,B. Rooker,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.6,2.6,2.6,160,160,160,1.0,BetOnline
-pp;0;ou;hit;0.5,over,C. Rafaela,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.47,1.4445,1.47,-213,-225,-210,1.0176531671858775,PointsBet
-pp;0;ou;hit;0.5,under,C. Rafaela,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.62,2.55,2.5,162,155,150,1.048,BetOnline
-pp;0;ou;hit;0.5,over,C. Wong,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.39,1.3637,1.37,-256,-275,-265,1.0192857666642223,BetOnline
-pp;0;ou;hit;0.5,under,C. Wong,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.9,2.85,2.9,190,185,190,1.0175438596491226,PointsBet
-pp;0;ou;hit;0.5,over,J. Bleday,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.45,1.4445,1.44,-222,-225,-225,1.0069444444444444,BetOnline
-pp;0;ou;hit;0.5,under,J. Bleday,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.66,2.55,2.65,166,155,165,1.0431372549019609,PointsBet
-pp;0;ou;hit;1.5,over,J. Duran,OAK(away) vs BOS(home),MLB,Hits,,1.5,2.64,2.6,2.65,164,160,165,1.0192307692307692,PointsBet
-pp;0;ou;hit;1.5,under,J. Duran,OAK(away) vs BOS(home),MLB,Hits,,1.5,1.46,1.4167,1.44,-217,-240,-225,1.0305639867297238,PointsBet
-pp;0;ou;hit;1.5,over,M. Andujar,OAK(away) vs BOS(home),MLB,Hits,,1.5,2.74,2.55,2.65,174,155,165,1.0745098039215688,PointsBet
-pp;0;ou;hit;1.5,under,M. Andujar,OAK(away) vs BOS(home),MLB,Hits,,1.5,1.43,1.4445,1.43,-233,-225,-230,1.0101398601398601,PointsBet
-pp;0;ou;hit;0.5,over,M. Schuemann,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.68,1.6452,1.64,-147,-155,-155,1.024390243902439,BetOnline
-pp;0;ou;hit;0.5,under,M. Schuemann,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.14,2.15,2.15,114,115,115,1.0046728971962615,BetOnline
-pp;0;ou;hit;0.5,over,M. Yoshida,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.54,1.5264,1.54,-185,-190,-185,1.008909853249476,PointsBet
-pp;0;ou;hit;0.5,under,M. Yoshida,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.41,2.35,2.35,141,135,135,1.025531914893617,BetOnline
-pp;0;ou;hit;0.5,over,R. Devers,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.4,1.4,1.39,-250,-250,-255,1.0071942446043165,DraftKings
-pp;0;ou;hit;0.5,under,R. Devers,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.87,2.7,2.8,187,170,180,1.0629629629629629,PointsBet
-pp;0;ou;hit;0.5,over,S. Langeliers,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.52,1.5,1.5,-192,-200,-200,1.0133333333333334,BetOnline
-pp;0;ou;hit;0.5,under,S. Langeliers,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.46,2.4,2.45,146,140,145,1.0250000000000001,PointsBet
-pp;0;ou;hit;0.5,over,T. Soderstrom,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.61,1.5883,1.57,-164,-170,-175,1.0254777070063694,BetOnline
-pp;0;ou;hit;0.5,under,T. Soderstrom,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.26,2.25,2.25,126,125,125,1.0044444444444443,BetOnline
-pp;0;ou;hit;0.5,over,Z. Gelof,OAK(away) vs BOS(home),MLB,Hits,,0.5,1.55,1.5,1.54,-182,-200,-185,1.0333333333333334,PointsBet
-pp;0;ou;hit;0.5,under,Z. Gelof,OAK(away) vs BOS(home),MLB,Hits,,0.5,2.38,2.4,2.35,138,140,135,1.0212765957446808,DraftKings
-pp;0;ou;sb;0.5,over,B. Rooker,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,11.96,17.0,13.0,1096,1600,1200,1.4214046822742474,PointsBet
-pp;0;ou;sb;0.5,under,B. Rooker,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.02,1.0125,1.005,-5000,-8000,-20000,1.0149253731343284,BetOnline
-pp;0;ou;sb;0.5,over,C. Rafaela,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,5.35,5.0,5.5,435,400,450,1.1,PointsBet
-pp;0;ou;sb;0.5,under,C. Rafaela,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.14,1.1112,1.11,-714,-899,-900,1.0270270270270268,BetOnline
-pp;0;ou;sb;0.5,over,C. Wong,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,8.29,7.5,8.0,729,650,700,1.1053333333333333,PointsBet
-pp;0;ou;sb;0.5,under,C. Wong,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.06,1.0667,1.05,-1667,-1499,-1800,1.0159047619047619,DraftKings
-pp;0;ou;sb;0.5,over,J. Bleday,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,11.96,15.0,12.0,1096,1400,1100,1.2541806020066888,PointsBet
-pp;0;ou;sb;0.5,under,J. Bleday,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.02,1.0167,1.01,-5000,-5988,-10000,1.00990099009901,DraftKings
-pp;0;ou;sb;0.5,over,J. Duran,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,3.98,3.4,3.75,298,240,275,1.1705882352941177,PointsBet
-pp;0;ou;sb;0.5,under,J. Duran,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.23,1.2353,1.23,-435,-425,-425,1.004308943089431,PointsBet
-pp;0;ou;sb;0.5,over,M. Andujar,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,10.74,10.5,11.0,974,950,1000,1.0476190476190477,DraftKings
-pp;0;ou;sb;0.5,under,M. Andujar,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.03,1.0334,1.02,-3333,-2994,-5000,1.0131372549019608,DraftKings
-pp;0;ou;sb;0.5,over,M. Schuemann,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,6.82,5.25,6.5,582,425,550,1.299047619047619,PointsBet
-pp;0;ou;sb;0.5,under,M. Schuemann,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.09,1.1,1.08,-1111,-1000,-1200,1.0185185185185186,PointsBet
-pp;0;ou;sb;0.5,over,S. Langeliers,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,11.96,13.0,12.0,1096,1200,1100,1.0869565217391304,PointsBet
-pp;0;ou;sb;0.5,under,S. Langeliers,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.02,1.02,1.01,-5000,-5000,-10000,1.00990099009901,DraftKings
-pp;0;ou;sb;0.5,over,Z. Gelof,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,5.59,4.75,5.25,459,375,425,1.176842105263158,PointsBet
-pp;0;ou;sb;0.5,under,Z. Gelof,OAK(away) vs BOS(home),MLB,Stolen Bases,,0.5,1.13,1.125,1.12,-769,-800,-800,1.0089285714285712,BetOnline
-pp;0;ou;so;6.5,over,N. Pivetta,OAK(away) vs BOS(home),MLB,Strikeouts Thrown,,6.5,1.69,1.6897,1.68,-145,-145,-145,1.005952380952381,DraftKings
-pp;0;ou;so;6.5,under,N. Pivetta,OAK(away) vs BOS(home),MLB,Strikeouts Thrown,,6.5,2.11,2.1,2.15,111,110,115,1.0238095238095237,DraftKings
-pp;0;ss;hit;1.5,over,M. Schuemann,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,4.04,4.5,4.5,304,350,350,1.113861386138614,BetOnline
-pp;0;ss;hit;0.5,over,M. Andujar,OAK(away) vs BOS(home),MLB,Hits Milestones,,0.5,1.29,1.3077,1.32,-345,-325,-310,1.0232558139534884,BetOnline
-pp;0;ss;hit;2.5,over,M. Andujar,OAK(away) vs BOS(home),MLB,Hits Milestones,,2.5,6.28,7.5,7.0,528,650,600,1.1942675159235667,BetOnline
-pp;0;ss;hit;1.5,over,J. Bleday,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,3.32,3.4,3.35,232,240,235,1.0240963855421688,PointsBet
-pp;0;ss;hit;2.5,over,J. Bleday,OAK(away) vs BOS(home),MLB,Hits Milestones,,2.5,10.15,11.0,10.5,915,1000,950,1.083743842364532,PointsBet
-pp;0;ss;hit;1.5,over,T. Soderstrom,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,3.84,4.1,4.4,284,310,340,1.1458333333333335,DraftKings
-pp;0;ss;hit;1.5,over,S. Langeliers,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,3.54,3.6,3.75,254,260,275,1.0593220338983051,DraftKings
-pp;0;ss;hit;1.5,over,Z. Gelof,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,3.66,3.8,4.1,266,280,310,1.1202185792349726,DraftKings
-pp;0;ss;hit;1.5,over,B. Rooker,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,3.37,3.3,3.5,237,230,250,1.0606060606060606,DraftKings
-pp;0;ss;hit;2.5,over,B. Rooker,OAK(away) vs BOS(home),MLB,Hits Milestones,,2.5,10.23,10.0,12.0,923,900,1100,1.2,DraftKings
-pp;0;ss;hit;1.5,over,M. Yoshida,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,3.55,4.1,4.0,255,310,300,1.1549295774647887,BetOnline
-pp;0;ss;hit;1.5,over,R. Devers,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,2.86,3.3,3.15,186,230,215,1.1538461538461537,BetOnline
-pp;0;ss;hit;2.5,over,R. Devers,OAK(away) vs BOS(home),MLB,Hits Milestones,,2.5,7.72,11.0,11.0,672,1000,1000,1.4248704663212435,BetOnline
-pp;0;ss;hit;1.5,over,C. Wong,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,2.83,3.1,3.1,183,210,210,1.0954063604240283,BetOnline
-pp;0;ss;hit;2.5,over,C. Wong,OAK(away) vs BOS(home),MLB,Hits Milestones,,2.5,7.59,10.0,10.0,659,900,900,1.3175230566534915,BetOnline
-pp;0;ss;hit;0.5,over,J. Duran,OAK(away) vs BOS(home),MLB,Hits Milestones,,0.5,1.28,1.3077,1.29,-357,-325,-340,1.021640625,PointsBet
-pp;0;ss;hit;2.5,over,J. Duran,OAK(away) vs BOS(home),MLB,Hits Milestones,,2.5,6.16,8.0,7.0,516,700,600,1.2987012987012987,PointsBet
-pp;0;ss;hit;1.5,over,C. Rafaela,OAK(away) vs BOS(home),MLB,Hits Milestones,,1.5,3.08,3.6,3.75,208,260,275,1.2175324675324675,BetOnline
-pp;0;ss;so;4.5,over,J. Sears,OAK(away) vs BOS(home),MLB,Strikeouts Milestones,,4.5,1.68,1.6897,1.55,-147,-145,-180,1.0901290322580646,DraftKings
-pp;0;ss;so;6.5,over,J. Sears,OAK(away) vs BOS(home),MLB,Strikeouts Milestones,,6.5,3.53,3.6,3.35,253,260,235,1.0746268656716418,DraftKings
-pp;0;ss;so;7.5,over,J. Sears,OAK(away) vs BOS(home),MLB,Strikeouts Milestones,,7.5,5.83,5.75,5.5,483,475,450,1.06,DraftKings
-pp;0;ss;so;5.5,over,N. Pivetta,OAK(away) vs BOS(home),MLB,Strikeouts Milestones,,5.5,1.3,1.3637,1.35,-333,-275,-285,1.049,BetOnline
-pp;0;ss;so;7.5,over,N. Pivetta,OAK(away) vs BOS(home),MLB,Strikeouts Milestones,,7.5,2.24,2.25,2.4,124,125,140,1.0714285714285714,DraftKings
-pp;0;ss;so;8.5,over,N. Pivetta,OAK(away) vs BOS(home),MLB,Strikeouts Milestones,,8.5,3.17,3.2,3.65,217,220,265,1.1514195583596214,DraftKings
-pp;0;ou;tb;0.5,over,M. Schuemann,OAK(away) vs BOS(home),MLB,Total Bases,,0.5,1.68,1.6452,1.64,-147,-155,-155,1.024390243902439,BetOnline
-pp;0;ou;tb;0.5,under,M. Schuemann,OAK(away) vs BOS(home),MLB,Total Bases,,0.5,2.14,2.15,2.15,114,115,115,1.0046728971962615,BetOnline
-pp;0;ou;tb;1.5,over,M. Andujar,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,2.07,1.9091,2.0,107,-110,100,1.0842805510449949,PointsBet
-pp;0;ou;tb;1.5,under,M. Andujar,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.72,1.8,1.71,-139,-125,-140,1.0526315789473684,PointsBet
-pp;0;ou;tb;1.5,over,J. Bleday,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,2.15,2.15,2.1,115,115,110,1.0238095238095237,DraftKings
-pp;0;ou;tb;1.5,under,J. Bleday,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.67,1.6452,1.64,-149,-155,-155,1.0182926829268293,BetOnline
-pp;0;ou;tb;0.5,over,T. Soderstrom,OAK(away) vs BOS(home),MLB,Total Bases,,0.5,1.6,1.5883,1.57,-167,-170,-175,1.019108280254777,DraftKings
-pp;0;ou;tb;0.5,under,T. Soderstrom,OAK(away) vs BOS(home),MLB,Total Bases,,0.5,2.27,2.25,2.25,127,125,125,1.008888888888889,BetOnline
-pp;0;ou;tb;1.5,over,S. Langeliers,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,2.2,2.15,2.15,120,115,115,1.0232558139534884,BetOnline
-pp;0;ou;tb;1.5,under,S. Langeliers,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.64,1.6452,1.62,-156,-155,-160,1.0155555555555555,DraftKings
-pp;0;ou;tb;1.5,over,B. Rooker,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,2.1,2.05,2.05,110,105,105,1.024390243902439,BetOnline
-pp;0;ou;tb;1.5,under,B. Rooker,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.7,1.6897,1.71,-143,-145,-140,1.0120139669763863,PointsBet
-pp;0;ou;tb;0.5,over,M. Yoshida,OAK(away) vs BOS(home),MLB,Total Bases,,0.5,1.54,1.5264,1.54,-185,-190,-185,1.008909853249476,PointsBet
-pp;0;ou;tb;0.5,under,M. Yoshida,OAK(away) vs BOS(home),MLB,Total Bases,,0.5,2.4,2.35,2.35,140,135,135,1.0212765957446808,BetOnline
-pp;0;ou;tb;1.5,over,R. Devers,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,2.13,2.05,2.05,113,105,105,1.0390243902439025,BetOnline
-pp;0;ou;tb;1.5,under,R. Devers,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.68,1.6897,1.68,-147,-145,-145,1.0057738095238096,PointsBet
-pp;0;ou;tb;1.5,over,C. Wong,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.99,2.0,1.95,-101,100,-105,1.0256410256410258,DraftKings
-pp;0;ou;tb;1.5,under,C. Wong,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.78,1.7408,1.76,-128,-135,-130,1.0225183823529413,BetOnline
-pp;0;ou;tb;1.5,over,J. Duran,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.95,1.8548,1.9,-105,-117,-110,1.0513262885486305,BetOnline
-pp;0;ou;tb;1.5,under,J. Duran,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.81,1.8548,1.8,-123,-117,-125,1.0304444444444445,PointsBet
-pp;0;ou;tb;1.5,over,C. Rafaela,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,2.24,2.25,2.3,124,125,130,1.0267857142857142,DraftKings
-pp;0;ou;tb;1.5,under,C. Rafaela,OAK(away) vs BOS(home),MLB,Total Bases,,1.5,1.62,1.5883,1.55,-161,-170,-180,1.0451612903225806,DraftKings
-s;0;m,,,COL(away) vs CIN(home),MLB,Moneyline,home,,1.58,1.5556,1.55555556,-172,-180,-180,1.015714282812245,BetOnline
-s;0;m,,,COL(away) vs CIN(home),MLB,Moneyline,home,,1.53,1.5556,1.55555556,-190,-180,-180,1.0167320261437909,BetOnline
-s;0;m,,,COL(away) vs CIN(home),MLB,Moneyline,home,,1.58,1.4762,1.55555556,-172,-210,-180,1.0703156753827396,PointsBet
-s;0;m,,,COL(away) vs CIN(home),MLB,Moneyline,home,,1.53,1.4762,1.55555556,-190,-210,-180,1.0537566454409972,PointsBet
-s;0;m,,,COL(away) vs CIN(home),MLB,Moneyline,away,,2.57,2.5,2.5,157,150,150,1.028,BetOnline
-s;0;m,,,COL(away) vs CIN(home),MLB,Moneyline,away,,2.74,2.5,2.5,174,150,150,1.096,BetOnline
-s;0;m,,,COL(away) vs CIN(home),MLB,Moneyline,away,,2.57,2.75,2.5,157,175,150,1.1,PointsBet
-s;0;m,,,COL(away) vs CIN(home),MLB,Moneyline,away,,2.74,2.75,2.5,174,175,150,1.1,DraftKings
-s;0;s;-1.5,,,COL(away) vs CIN(home),MLB,Run Line,home,-1.5,2.12,2.15,2.14,112,115,114,1.0141509433962264,BetOnline
-s;0;s;-1.5,,,COL(away) vs CIN(home),MLB,Run Line,home,-1.5,2.12,1.9091,2.14,112,-110,114,1.1209470431093185,PointsBet
-s;0;s;-1.5,,,COL(away) vs CIN(home),MLB,Run Line,away,1.5,1.76,1.7143,1.74074075,-132,-140,-135,1.026658111182407,PointsBet
-s;0;s;-1.5,,,COL(away) vs CIN(home),MLB,Run Line,away,1.5,1.76,1.9091,1.74074075,-132,-110,-135,1.0967170154429946,PointsBet
-s;0;ou;9.5,over,,COL(away) vs CIN(home),MLB,Total,,9.5,1.93,2.0,1.95238096,-107,100,-105,1.0362694300518136,PointsBet
-s;0;ou;9.5,under,,COL(away) vs CIN(home),MLB,Total,,9.5,1.88,1.8334,1.86956522,-113,-120,-115,1.0254172575542708,PointsBet
-pp;0;ou;hit;0.5,over,B. Doyle,COL(away) vs CIN(home),MLB,Hits,,0.5,1.52,1.5,1.5,-192,-200,-200,1.0133333333333334,BetOnline
-pp;0;ou;hit;0.5,under,B. Doyle,COL(away) vs CIN(home),MLB,Hits,,0.5,2.46,2.4,2.45,146,140,145,1.0250000000000001,PointsBet
-pp;0;ou;hit;0.5,over,B. Rodgers,COL(away) vs CIN(home),MLB,Hits,,0.5,1.39,1.4,1.37,-256,-250,-265,1.021897810218978,DraftKings
-pp;0;ou;hit;0.5,under,B. Rodgers,COL(away) vs CIN(home),MLB,Hits,,0.5,2.9,2.7,2.85,190,170,185,1.074074074074074,PointsBet
-pp;0;ou;hit;0.5,over,E. Diaz,COL(away) vs CIN(home),MLB,Hits,,0.5,1.45,1.4445,1.42,-222,-225,-235,1.0211267605633803,DraftKings
-pp;0;ou;hit;0.5,under,E. Diaz,COL(away) vs CIN(home),MLB,Hits,,0.5,2.67,2.55,2.7,167,155,170,1.058823529411765,PointsBet
-pp;0;ou;hit;0.5,over,E. Tovar,COL(away) vs CIN(home),MLB,Hits,,0.5,1.42,1.3637,1.4,-238,-275,-245,1.0412847400454646,PointsBet
-pp;0;ou;hit;0.5,under,E. Tovar,COL(away) vs CIN(home),MLB,Hits,,0.5,2.78,2.85,2.75,178,185,175,1.0363636363636364,PointsBet
-pp;0;ou;hit;1.5,over,J. Candelario,COL(away) vs CIN(home),MLB,Hits,,1.5,2.95,2.9,2.9,195,190,190,1.017241379310345,BetOnline
-pp;0;ou;hit;1.5,under,J. Candelario,COL(away) vs CIN(home),MLB,Hits,,1.5,1.38,1.3334,1.37,-263,-300,-270,1.0349482525873706,PointsBet
-pp;0;ou;hit;0.5,over,M. Toglia,COL(away) vs CIN(home),MLB,Hits,,0.5,1.71,1.6897,1.71,-141,-145,-140,1.0120139669763863,PointsBet
-pp;0;ou;hit;0.5,under,M. Toglia,COL(away) vs CIN(home),MLB,Hits,,0.5,2.08,2.05,2.05,108,105,105,1.0146341463414634,BetOnline
-pp;0;ou;hit;0.5,over,N. Jones,COL(away) vs CIN(home),MLB,Hits,,0.5,1.68,1.6667,1.66,-147,-150,-150,1.0120481927710843,BetOnline
-pp;0;ou;hit;0.5,under,N. Jones,COL(away) vs CIN(home),MLB,Hits,,0.5,2.13,2.1,2.1,113,110,110,1.0142857142857142,BetOnline
-pp;0;ou;hit;1.5,over,N. Marte,COL(away) vs CIN(home),MLB,Hits,,1.5,2.99,2.85,3.0,199,185,200,1.0526315789473684,PointsBet
-pp;0;ou;hit;1.5,under,N. Marte,COL(away) vs CIN(home),MLB,Hits,,1.5,1.37,1.3637,1.35,-270,-275,-280,1.0148148148148148,DraftKings
-pp;0;ou;hit;1.5,over,S. Steer,COL(away) vs CIN(home),MLB,Hits,,1.5,2.86,2.7,2.8,186,170,180,1.0592592592592591,PointsBet
-pp;0;ou;hit;1.5,under,S. Steer,COL(away) vs CIN(home),MLB,Hits,,1.5,1.4,1.4,1.39,-250,-250,-255,1.0071942446043165,DraftKings
-pp;0;ou;hit;0.5,over,W. Benson,COL(away) vs CIN(home),MLB,Hits,,0.5,1.95,2.0,2.0,-105,100,100,1.0256410256410258,BetOnline
-pp;0;ou;hit;0.5,under,W. Benson,COL(away) vs CIN(home),MLB,Hits,,0.5,1.81,1.7408,1.74,-123,-135,-135,1.0402298850574714,BetOnline
-pp;0;ou;sb;0.5,over,B. Doyle,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,4.62,4.4,4.9,362,340,390,1.1136363636363635,DraftKings
-pp;0;ou;sb;0.5,under,B. Doyle,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,1.18,1.1539,1.15,-556,-650,-650,1.0260869565217392,BetOnline
-pp;0;ou;sb;0.5,over,E. Tovar,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,8.96,8.5,8.5,796,750,750,1.0541176470588236,BetOnline
-pp;0;ou;sb;0.5,under,E. Tovar,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,1.05,1.0556,1.04,-2000,-1799,-2500,1.0150000000000001,DraftKings
-pp;0;ou;sb;0.5,over,J. Candelario,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,9.76,13.0,11.0,876,1200,1000,1.3319672131147542,PointsBet
-pp;0;ou;sb;0.5,under,J. Candelario,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,1.04,1.02,1.01,-2500,-5000,-6000,1.0297029702970297,BetOnline
-pp;0;ou;sb;0.5,over,M. Toglia,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,10.74,13.0,12.0,974,1200,1100,1.2104283054003724,BetOnline
-pp;0;ou;sb;0.5,under,M. Toglia,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,1.03,1.02,1.01,-3333,-5000,-8000,1.0198019801980198,BetOnline
-pp;0;ou;sb;0.5,over,N. Jones,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,6.13,5.0,5.75,513,400,475,1.226,PointsBet
-pp;0;ou;sb;0.5,under,N. Jones,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,1.11,1.1112,1.11,-909,-899,-900,1.001081081081081,PointsBet
-pp;0;ou;sb;0.5,over,N. Marte,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,5.14,4.75,5.5,414,375,450,1.1578947368421053,PointsBet
-pp;0;ou;sb;0.5,under,N. Marte,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,1.15,1.125,1.12,-667,-800,-800,1.0267857142857142,BetOnline
-pp;0;ou;sb;0.5,over,S. Steer,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,7.24,7.5,7.5,624,650,650,1.0359116022099448,BetOnline
-pp;0;ou;sb;0.5,under,S. Steer,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,1.08,1.0667,1.05,-1250,-1499,-1800,1.0285714285714287,DraftKings
-pp;0;ou;sb;0.5,over,W. Benson,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,6.46,7.0,7.5,546,600,650,1.1609907120743035,BetOnline
-pp;0;ou;sb;0.5,under,W. Benson,COL(away) vs CIN(home),MLB,Stolen Bases,,0.5,1.1,1.0715,1.06,-1000,-1399,-1600,1.0377358490566038,BetOnline
-pp;0;ou;so;5.5,over,F. Montas,COL(away) vs CIN(home),MLB,Strikeouts Thrown,,5.5,1.74,1.7143,1.71,-135,-140,-140,1.0175438596491229,BetOnline
-pp;0;ou;so;5.5,under,F. Montas,COL(away) vs CIN(home),MLB,Strikeouts Thrown,,5.5,2.05,2.05,2.05,105,105,105,1.0,BetOnline
-pp;0;ou;so;4.5,over,K. Freeland,COL(away) vs CIN(home),MLB,Strikeouts Thrown,,4.5,2.26,2.25,2.25,126,125,125,1.0044444444444443,BetOnline
-pp;0;ou;so;4.5,under,K. Freeland,COL(away) vs CIN(home),MLB,Strikeouts Thrown,,4.5,1.61,1.6061,1.62,-164,-165,-160,1.0086545047008282,DraftKings
-pp;0;ss;hit;0.5,over,J. Candelario,COL(away) vs CIN(home),MLB,Hits Milestones,,0.5,1.32,1.3449,1.33,-312,-290,-295,1.0188636363636363,PointsBet
-pp;0;ss;hit;2.5,over,J. Candelario,COL(away) vs CIN(home),MLB,Hits Milestones,,2.5,6.52,10.0,9.0,552,900,800,1.5337423312883436,BetOnline
-pp;0;ss;hit;1.5,over,B. Doyle,COL(away) vs CIN(home),MLB,Hits Milestones,,1.5,2.8,4.0,3.65,180,300,265,1.4285714285714286,BetOnline
-pp;0;ss;hit;2.5,over,B. Doyle,COL(away) vs CIN(home),MLB,Hits Milestones,,2.5,6.32,14.0,14.0,532,1300,1300,2.2151898734177213,BetOnline
-pp;0;ss;hit;1.5,over,E. Tovar,COL(away) vs CIN(home),MLB,Hits Milestones,,1.5,2.71,3.1,3.25,171,210,225,1.1992619926199262,BetOnline
-pp;0;ss;hit;2.5,over,E. Tovar,COL(away) vs CIN(home),MLB,Hits Milestones,,2.5,6.61,10.0,11.0,561,900,1000,1.664145234493192,BetOnline
-pp;0;ss;hit;1.5,over,E. Diaz,COL(away) vs CIN(home),MLB,Hits Milestones,,1.5,3.01,3.4,3.05,201,240,205,1.1295681063122924,PointsBet
-pp;0;ss;hit;2.5,over,E. Diaz,COL(away) vs CIN(home),MLB,Hits Milestones,,2.5,8.18,11.5,10.5,718,1050,950,1.4058679706601467,BetOnline
-pp;0;ss;hit;0.5,over,S. Steer,COL(away) vs CIN(home),MLB,Hits Milestones,,0.5,1.31,1.3334,1.31,-323,-300,-320,1.0178625954198472,PointsBet
-pp;0;ss;hit;2.5,over,S. Steer,COL(away) vs CIN(home),MLB,Hits Milestones,,2.5,6.42,8.5,8.5,542,750,750,1.32398753894081,BetOnline
-pp;0;ss;hit;1.5,over,W. Benson,COL(away) vs CIN(home),MLB,Hits Milestones,,1.5,5.47,7.0,7.0,447,600,600,1.2797074954296161,BetOnline
-pp;0;ss;hit;1.5,over,N. Jones,COL(away) vs CIN(home),MLB,Hits Milestones,,1.5,4.08,5.0,5.0,308,400,400,1.2254901960784315,BetOnline
-pp;0;ss;hit;1.5,over,B. Rodgers,COL(away) vs CIN(home),MLB,Hits Milestones,,1.5,2.83,3.2,2.95,183,220,195,1.1307420494699647,PointsBet
-pp;0;ss;hit;2.5,over,B. Rodgers,COL(away) vs CIN(home),MLB,Hits Milestones,,2.5,7.59,10.0,9.0,659,900,800,1.3175230566534915,BetOnline
-pp;0;ss;hit;0.5,over,N. Marte,COL(away) vs CIN(home),MLB,Hits Milestones,,0.5,1.33,1.3449,1.35,-303,-290,-285,1.0150375939849625,BetOnline
-pp;0;ss;hit;2.5,over,N. Marte,COL(away) vs CIN(home),MLB,Hits Milestones,,2.5,6.56,10.0,9.5,556,900,850,1.524390243902439,BetOnline
-pp;0;ss;hit;1.5,over,M. Toglia,COL(away) vs CIN(home),MLB,Hits Milestones,,1.5,4.15,5.25,4.9,315,425,390,1.2650602409638554,BetOnline
-pp;0;ss;so;4.5,over,F. Montas,COL(away) vs CIN(home),MLB,Strikeouts Milestones,,4.5,1.31,1.3449,1.27,-323,-290,-370,1.058976377952756,DraftKings
-pp;0;ss;so;6.5,over,F. Montas,COL(away) vs CIN(home),MLB,Strikeouts Milestones,,6.5,2.34,2.4,2.3,134,140,130,1.0434782608695652,PointsBet
-pp;0;ss;so;7.5,over,F. Montas,COL(away) vs CIN(home),MLB,Strikeouts Milestones,,7.5,3.38,3.5,3.65,238,250,265,1.0798816568047338,DraftKings
-pp;0;ss;so;3.5,over,K. Freeland,COL(away) vs CIN(home),MLB,Strikeouts Milestones,,3.5,1.55,1.5715,1.47,-182,-175,-210,1.069047619047619,DraftKings
-pp;0;ss;so;5.5,over,K. Freeland,COL(away) vs CIN(home),MLB,Strikeouts Milestones,,5.5,3.24,3.5,3.35,224,250,235,1.0802469135802468,PointsBet
-pp;0;ss;so;6.5,over,K. Freeland,COL(away) vs CIN(home),MLB,Strikeouts Milestones,,6.5,5.29,6.0,6.0,429,500,500,1.1342155009451795,BetOnline
-pp;0;ou;tb;1.5,over,J. Candelario,COL(away) vs CIN(home),MLB,Total Bases,,1.5,2.02,1.8696,2.0,102,-115,100,1.0804450149764655,PointsBet
-pp;0;ou;tb;1.5,under,J. Candelario,COL(away) vs CIN(home),MLB,Total Bases,,1.5,1.76,1.8334,1.74,-132,-120,-135,1.0536781609195403,PointsBet
-pp;0;ou;tb;1.5,over,E. Tovar,COL(away) vs CIN(home),MLB,Total Bases,,1.5,2.26,2.0,2.2,126,100,120,1.13,PointsBet
-pp;0;ou;tb;1.5,under,E. Tovar,COL(away) vs CIN(home),MLB,Total Bases,,1.5,1.61,1.7143,1.6,-164,-140,-165,1.0714374999999998,PointsBet
-pp;0;ou;tb;1.5,over,E. Diaz,COL(away) vs CIN(home),MLB,Total Bases,,1.5,2.41,2.3,2.35,141,130,135,1.047826086956522,BetOnline
-pp;0;ou;tb;1.5,under,E. Diaz,COL(away) vs CIN(home),MLB,Total Bases,,1.5,1.54,1.5556,1.54,-185,-180,-185,1.0101298701298702,PointsBet
-pp;0;ou;tb;1.5,over,S. Steer,COL(away) vs CIN(home),MLB,Total Bases,,1.5,1.95,1.8548,1.86,-105,-117,-115,1.0513262885486305,BetOnline
-pp;0;ou;tb;1.5,under,S. Steer,COL(away) vs CIN(home),MLB,Total Bases,,1.5,1.81,1.8548,1.83,-123,-117,-120,1.0247513812154696,PointsBet
-pp;0;ou;tb;0.5,over,W. Benson,COL(away) vs CIN(home),MLB,Total Bases,,0.5,2.02,1.9524,2.0,102,-105,100,1.0346240524482688,PointsBet
-pp;0;ou;tb;0.5,under,W. Benson,COL(away) vs CIN(home),MLB,Total Bases,,0.5,1.76,1.7693,1.74,-132,-130,-135,1.0168390804597702,DraftKings
-pp;0;ou;tb;0.5,over,N. Jones,COL(away) vs CIN(home),MLB,Total Bases,,0.5,1.69,1.6897,1.66,-145,-145,-150,1.0180722891566265,DraftKings
-pp;0;ou;tb;0.5,under,N. Jones,COL(away) vs CIN(home),MLB,Total Bases,,0.5,2.12,2.05,2.1,112,105,110,1.0341463414634149,PointsBet
-pp;0;ou;tb;1.5,over,B. Rodgers,COL(away) vs CIN(home),MLB,Total Bases,,1.5,2.34,2.2,2.3,134,120,130,1.0636363636363635,PointsBet
-pp;0;ou;tb;1.5,under,B. Rodgers,COL(away) vs CIN(home),MLB,Total Bases,,1.5,1.57,1.625,1.55,-175,-160,-180,1.0483870967741935,PointsBet
-pp;0;ou;tb;1.5,over,N. Marte,COL(away) vs CIN(home),MLB,Total Bases,,1.5,2.12,2.0,2.05,112,100,105,1.06,BetOnline
-pp;0;ou;tb;1.5,under,N. Marte,COL(away) vs CIN(home),MLB,Total Bases,,1.5,1.69,1.7408,1.68,-145,-135,-145,1.036190476190476,PointsBet
-pp;0;ou;tb;0.5,over,M. Toglia,COL(away) vs CIN(home),MLB,Total Bases,,0.5,1.71,1.6897,1.71,-141,-145,-140,1.0120139669763863,PointsBet
-pp;0;ou;tb;0.5,under,M. Toglia,COL(away) vs CIN(home),MLB,Total Bases,,0.5,2.08,2.05,2.05,108,105,105,1.0146341463414634,BetOnline
-pp;0;ou;tb;1.5,over,B. Doyle,COL(away) vs CIN(home),MLB,Total Bases,,1.5,2.49,2.35,2.4,149,135,140,1.0595744680851065,BetOnline
-pp;0;ou;tb;1.5,under,B. Doyle,COL(away) vs CIN(home),MLB,Total Bases,,1.5,1.51,1.5264,1.52,-196,-190,-190,1.010860927152318,BetOnline
-s;0;m,,,PIT(away) vs MIL(home),MLB,Moneyline,home,,1.64,1.625,1.61728396,-156,-160,-162,1.0140457956437037,BetOnline
-s;0;m,,,PIT(away) vs MIL(home),MLB,Moneyline,home,,2.14,1.625,1.61728396,114,-160,-162,1.3232060991936136,BetOnline
-s;0;m,,,PIT(away) vs MIL(home),MLB,Moneyline,home,,1.64,2.1,1.61728396,-156,110,-162,1.2984732749096208,PointsBet
-s;0;m,,,PIT(away) vs MIL(home),MLB,Moneyline,home,,2.14,2.1,1.61728396,114,110,-162,1.3232060991936136,DraftKings
-s;0;m,,,PIT(away) vs MIL(home),MLB,Moneyline,away,,2.43,2.3,2.36,143,130,136,1.056521739130435,BetOnline
-s;0;m,,,PIT(away) vs MIL(home),MLB,Moneyline,away,,1.81,2.3,2.36,-124,130,136,1.3038674033149171,BetOnline
-s;0;m,,,PIT(away) vs MIL(home),MLB,Moneyline,away,,2.43,1.7693,2.36,143,-130,136,1.373424518171028,PointsBet
-s;0;m,,,PIT(away) vs MIL(home),MLB,Moneyline,away,,1.81,1.7693,2.36,-124,-130,136,1.3338608489233028,DraftKings
-s;0;s;-1.5,,,PIT(away) vs MIL(home),MLB,Run Line,home,-1.5,2.25,2.25,2.3,125,125,130,1.0222222222222221,DraftKings
-s;0;s;-1.5,,,PIT(away) vs MIL(home),MLB,Run Line,away,1.5,1.69,1.6667,1.6451613,-145,-150,-155,1.0272548959181085,BetOnline
-s;0;ou;8.5,over,,PIT(away) vs MIL(home),MLB,Total,,8.5,1.86,1.8696,1.84745763,-116,-115,-118,1.0119853195225916,DraftKings
-s;0;ou;8.5,under,,PIT(away) vs MIL(home),MLB,Total,,8.5,1.96,1.9524,1.98039216,-104,-105,-102,1.0143373079287032,DraftKings
-pp;0;ou;hit;0.5,over,B. Reynolds,PIT(away) vs MIL(home),MLB,Hits,,0.5,1.39,1.3637,1.37,-256,-275,-265,1.0192857666642223,BetOnline
-pp;0;ou;hit;0.5,under,B. Reynolds,PIT(away) vs MIL(home),MLB,Hits,,0.5,2.9,2.85,2.9,190,185,190,1.0175438596491226,PointsBet
-pp;0;ou;hit;0.5,over,B. Turang,PIT(away) vs MIL(home),MLB,Hits,,0.5,1.5,1.4445,1.48,-200,-225,-205,1.0384215991692627,PointsBet
-pp;0;ou;hit;0.5,under,B. Turang,PIT(away) vs MIL(home),MLB,Hits,,0.5,2.52,2.55,2.5,152,155,150,1.02,PointsBet
-pp;0;ou;hit;1.5,over,J. Chourio,PIT(away) vs MIL(home),MLB,Hits,,1.5,2.58,2.5,2.55,158,150,155,1.032,PointsBet
-pp;0;ou;hit;1.5,under,J. Chourio,PIT(away) vs MIL(home),MLB,Hits,,1.5,1.48,1.4762,1.46,-208,-210,-215,1.0136986301369864,DraftKings
-pp;0;ou;hit;0.5,over,J. Suwinski,PIT(away) vs MIL(home),MLB,Hits,,0.5,1.76,1.6897,1.74,-132,-145,-135,1.0416050186423627,PointsBet
-pp;0;ou;hit;0.5,under,J. Suwinski,PIT(away) vs MIL(home),MLB,Hits,,0.5,2.02,2.05,2.0,102,105,100,1.025,PointsBet
-pp;0;ou;hit;0.5,over,K. Hayes,PIT(away) vs MIL(home),MLB,Hits,,0.5,1.41,1.3637,1.38,-244,-275,-260,1.0339517489183838,BetOnline
-pp;0;ou;hit;0.5,under,K. Hayes,PIT(away) vs MIL(home),MLB,Hits,,0.5,2.82,2.75,2.85,182,175,185,1.0363636363636364,PointsBet
-pp;0;ou;hit;0.5,over,N. Gonzales,PIT(away) vs MIL(home),MLB,Hits,,0.5,1.43,1.4,1.42,-233,-250,-235,1.0214285714285714,PointsBet
-pp;0;ou;hit;0.5,under,N. Gonzales,PIT(away) vs MIL(home),MLB,Hits,,0.5,2.74,2.7,2.7,174,170,170,1.0148148148148148,BetOnline
-pp;0;ou;hit;0.5,over,R. Hoskins,PIT(away) vs MIL(home),MLB,Hits,,0.5,1.52,1.4762,1.48,-192,-210,-205,1.029670776317572,BetOnline
-pp;0;ou;hit;0.5,under,R. Hoskins,PIT(away) vs MIL(home),MLB,Hits,,0.5,2.47,2.5,2.5,147,150,150,1.0121457489878543,BetOnline
-pp;0;ou;hit;1.5,over,W. Contreras,PIT(away) vs MIL(home),MLB,Hits,,1.5,2.39,2.4,2.35,139,140,135,1.0212765957446808,DraftKings
-pp;0;ou;hit;1.5,under,W. Contreras,PIT(away) vs MIL(home),MLB,Hits,,1.5,1.55,1.5,1.54,-182,-200,-185,1.0333333333333334,PointsBet
-pp;0;ou;sb;0.5,over,B. Reynolds,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,9.76,10.0,10.0,876,900,900,1.0245901639344261,BetOnline
-pp;0;ou;sb;0.5,under,B. Reynolds,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.04,1.04,1.02,-2500,-2500,-3500,1.0196078431372548,DraftKings
-pp;0;ou;sb;0.5,over,B. Turang,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,3.98,3.9,4.1,298,290,310,1.0512820512820513,DraftKings
-pp;0;ou;sb;0.5,under,B. Turang,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.23,1.1905,1.2,-435,-525,-500,1.0331793364132718,BetOnline
-pp;0;ou;sb;0.5,over,C. Yelich,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,5.14,4.75,5.75,414,375,475,1.2105263157894737,DraftKings
-pp;0;ou;sb;0.5,under,C. Yelich,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.15,1.125,1.11,-667,-800,-900,1.036036036036036,BetOnline
-pp;0;ou;sb;0.5,over,J. Chourio,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,5.14,4.75,5.5,414,375,450,1.1578947368421053,PointsBet
-pp;0;ou;sb;0.5,under,J. Chourio,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.15,1.125,1.11,-667,-800,-900,1.036036036036036,BetOnline
-pp;0;ou;sb;0.5,over,J. Suwinski,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,8.29,8.0,8.5,729,700,750,1.0625,PointsBet
-pp;0;ou;sb;0.5,under,J. Suwinski,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.06,1.0601,1.05,-1667,-1664,-2000,1.0096190476190476,DraftKings
-pp;0;ou;sb;0.5,over,K. Hayes,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,7.73,10.5,10.0,673,950,900,1.3583441138421732,BetOnline
-pp;0;ou;sb;0.5,under,K. Hayes,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.07,1.0334,1.02,-1429,-2994,-3500,1.0490196078431373,BetOnline
-pp;0;ou;sb;0.5,over,N. Gonzales,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,10.74,13.0,12.0,974,1200,1100,1.2104283054003724,BetOnline
-pp;0;ou;sb;0.5,under,N. Gonzales,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.03,1.02,1.01,-3333,-5000,-10000,1.0198019801980198,BetOnline
-pp;0;ou;sb;0.5,over,W. Adames,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,7.73,9.0,9.0,673,800,800,1.1642949547218628,BetOnline
-pp;0;ou;sb;0.5,under,W. Adames,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.07,1.05,1.04,-1429,-2000,-2500,1.028846153846154,BetOnline
-pp;0;ou;sb;0.5,over,W. Contreras,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,11.96,16.0,13.0,1096,1500,1200,1.3377926421404682,PointsBet
-pp;0;ou;sb;0.5,under,W. Contreras,PIT(away) vs MIL(home),MLB,Stolen Bases,,0.5,1.02,1.0143,1.005,-5000,-6993,-20000,1.0149253731343284,DraftKings
-pp;0;ou;so;3.5,over,M. Perez,PIT(away) vs MIL(home),MLB,Strikeouts Thrown,,3.5,1.7,1.7143,1.71,-143,-140,-140,1.0084117647058823,BetOnline
-pp;0;ou;so;3.5,under,M. Perez,PIT(away) vs MIL(home),MLB,Strikeouts Thrown,,3.5,2.1,2.05,2.1,110,105,110,1.024390243902439,PointsBet
-pp;0;ss;hit;1.5,over,B. Turang,PIT(away) vs MIL(home),MLB,Hits Milestones,,1.5,3.17,3.5,3.65,217,250,265,1.1514195583596214,BetOnline
-pp;0;ss;hit;2.5,over,B. Turang,PIT(away) vs MIL(home),MLB,Hits Milestones,,2.5,8.75,12.0,12.0,775,1100,1100,1.3714285714285714,BetOnline
-pp;0;ss;hit;1.5,over,C. Yelich,PIT(away) vs MIL(home),MLB,Hits Milestones,,1.5,2.57,3.0,2.85,157,200,185,1.1673151750972763,BetOnline
-pp;0;ss;hit;2.5,over,C. Yelich,PIT(away) vs MIL(home),MLB,Hits Milestones,,2.5,6.18,9.0,9.0,518,800,800,1.4563106796116505,BetOnline
-pp;0;ss;hit;0.5,over,J. Chourio,PIT(away) vs MIL(home),MLB,Hits Milestones,,0.5,1.27,1.2858,1.28,-370,-350,-350,1.0124409448818898,BetOnline
-pp;0;ss;hit;2.5,over,J. Chourio,PIT(away) vs MIL(home),MLB,Hits Milestones,,2.5,6.08,7.0,6.5,508,600,550,1.1513157894736843,PointsBet
-pp;0;ss;hit;1.5,over,R. Hoskins,PIT(away) vs MIL(home),MLB,Hits Milestones,,1.5,3.55,3.6,3.5,255,260,250,1.0285714285714287,DraftKings
-pp;0;ss;hit;2.5,over,R. Hoskins,PIT(away) vs MIL(home),MLB,Hits Milestones,,2.5,10.97,12.0,12.0,997,1100,1100,1.0938924339106655,BetOnline
-pp;0;ss;hit;0.5,over,W. Contreras,PIT(away) vs MIL(home),MLB,Hits Milestones,,0.5,1.24,1.25,1.28,-417,-400,-350,1.032258064516129,DraftKings
-pp;0;ss;hit;2.5,over,W. Contreras,PIT(away) vs MIL(home),MLB,Hits Milestones,,2.5,5.74,6.0,5.75,474,500,475,1.0452961672473868,PointsBet
-pp;0;ss;hit;1.5,over,N. Gonzales,PIT(away) vs MIL(home),MLB,Hits Milestones,,1.5,2.96,3.2,3.3,196,220,230,1.114864864864865,BetOnline
-pp;0;ss;hit;2.5,over,N. Gonzales,PIT(away) vs MIL(home),MLB,Hits Milestones,,2.5,8.04,11.0,11.0,704,1000,1000,1.3681592039800996,BetOnline
-pp;0;ss;hit;1.5,over,K. Hayes,PIT(away) vs MIL(home),MLB,Hits Milestones,,1.5,2.89,3.2,3.15,189,220,215,1.1072664359861593,BetOnline
-pp;0;ss;hit;2.5,over,K. Hayes,PIT(away) vs MIL(home),MLB,Hits Milestones,,2.5,7.77,10.0,10.5,677,900,950,1.3513513513513513,BetOnline
-pp;0;ss;hit;1.5,over,B. Reynolds,PIT(away) vs MIL(home),MLB,Hits Milestones,,1.5,2.82,3.0,3.0,182,200,200,1.0638297872340425,BetOnline
-pp;0;ss;hit;2.5,over,B. Reynolds,PIT(away) vs MIL(home),MLB,Hits Milestones,,2.5,7.5,9.0,9.5,650,800,850,1.2666666666666666,BetOnline
-pp;0;ss;hit;1.5,over,J. Suwinski,PIT(away) vs MIL(home),MLB,Hits Milestones,,1.5,4.31,5.0,5.25,331,400,425,1.2180974477958237,BetOnline
-pp;0;ou;tb;1.5,over,C. Yelich,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,2.26,2.15,2.15,126,115,115,1.0511627906976744,BetOnline
-pp;0;ou;tb;1.5,under,C. Yelich,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.61,1.6452,1.62,-164,-155,-160,1.021863354037267,PointsBet
-pp;0;ou;tb;1.5,over,J. Chourio,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.98,1.9091,1.9,-102,-110,-110,1.0421052631578949,BetOnline
-pp;0;ou;tb;1.5,under,J. Chourio,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.79,1.8,1.8,-127,-125,-125,1.005586592178771,BetOnline
-pp;0;ou;tb;1.5,over,R. Hoskins,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,2.36,2.15,2.35,136,115,135,1.0976744186046512,PointsBet
-pp;0;ou;tb;1.5,under,R. Hoskins,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.56,1.6452,1.55,-179,-155,-180,1.0614193548387096,PointsBet
-pp;0;ou;tb;1.5,over,W. Contreras,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.88,1.8,1.9,-114,-125,-110,1.0555555555555556,PointsBet
-pp;0;ou;tb;1.5,under,W. Contreras,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.88,1.9091,1.83,-114,-110,-120,1.0432240437158469,DraftKings
-pp;0;ou;tb;1.5,over,N. Gonzales,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,2.36,2.15,2.3,136,115,130,1.0976744186046512,PointsBet
-pp;0;ou;tb;1.5,under,N. Gonzales,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.56,1.6452,1.55,-179,-155,-180,1.0614193548387096,PointsBet
-pp;0;ou;tb;1.5,over,K. Hayes,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,2.39,2.2,2.35,139,120,135,1.0863636363636364,PointsBet
-pp;0;ou;tb;1.5,under,K. Hayes,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.55,1.625,1.55,-182,-160,-180,1.0483870967741935,PointsBet
-pp;0;ou;tb;1.5,over,B. Reynolds,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,2.22,2.05,2.2,122,105,120,1.082926829268293,PointsBet
-pp;0;ou;tb;1.5,under,B. Reynolds,PIT(away) vs MIL(home),MLB,Total Bases,,1.5,1.63,1.6897,1.6,-159,-145,-165,1.0560625,PointsBet
-pp;0;ou;tb;0.5,over,J. Suwinski,PIT(away) vs MIL(home),MLB,Total Bases,,0.5,1.76,1.7143,1.74,-132,-140,-135,1.026658111182407,PointsBet
-pp;0;ou;tb;0.5,under,J. Suwinski,PIT(away) vs MIL(home),MLB,Total Bases,,0.5,2.02,2.0,2.0,102,100,100,1.01,BetOnline
-pp;0;ss;so;2.5,over,M. Perez,PIT(away) vs MIL(home),MLB,Strikeouts Milestones,,2.5,1.23,1.3077,1.27,-435,-325,-370,1.0631707317073171,BetOnline
-pp;0;ss;so;4.5,over,M. Perez,PIT(away) vs MIL(home),MLB,Strikeouts Milestones,,4.5,2.39,2.5,2.45,139,150,145,1.0460251046025104,BetOnline
-pp;0;ss;so;5.5,over,M. Perez,PIT(away) vs MIL(home),MLB,Strikeouts Milestones,,5.5,3.68,4.3,3.95,268,330,295,1.1684782608695652,PointsBet
-pp;0;ss;so;3.5,over,T. Myers,PIT(away) vs MIL(home),MLB,Strikeouts Milestones,,3.5,1.2,1.2667,1.25,-500,-375,-390,1.0555833333333333,BetOnline
-pp;0;ss;so;5.5,over,T. Myers,PIT(away) vs MIL(home),MLB,Strikeouts Milestones,,5.5,2.32,2.2,2.3,132,120,130,1.0545454545454545,PointsBet
-pp;0;ss;so;6.5,over,T. Myers,PIT(away) vs MIL(home),MLB,Strikeouts Milestones,,6.5,3.71,3.3,3.5,271,230,250,1.1242424242424243,BetOnline
-s;0;m,,,TEX(away) vs LAA(home),MLB,Moneyline,home,,2.15,2.05,2.1,115,105,110,1.048780487804878,BetOnline
-s;0;m,,,TEX(away) vs LAA(home),MLB,Moneyline,away,,1.8,1.8,1.76923077,-125,-125,-130,1.017391303905482,DraftKings
-s;0;s;1.5,,,TEX(away) vs LAA(home),MLB,Run Line,home,1.5,1.69,1.6897,1.67567568,-145,-145,-148,1.0085483844940688,DraftKings
-s;0;s;1.5,,,TEX(away) vs LAA(home),MLB,Run Line,away,-1.5,2.25,2.2,2.24,125,120,124,1.0227272727272727,PointsBet
-pp;0;ou;hit;0.5,over,A. Garcia,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.46,1.4,1.42,-217,-250,-235,1.042857142857143,BetOnline
-pp;0;ou;hit;0.5,under,A. Garcia,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.65,2.7,2.7,165,170,170,1.0188679245283019,BetOnline
-pp;0;ou;hit;0.5,over,A. Rendon,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.41,1.4,1.4,-244,-250,-250,1.0071428571428571,BetOnline
-pp;0;ou;hit;0.5,under,A. Rendon,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.82,2.7,2.8,182,170,180,1.0444444444444443,PointsBet
-pp;0;ou;hit;0.5,over,B. Drury,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.47,1.4445,1.45,-213,-225,-220,1.0176531671858775,BetOnline
-pp;0;ou;hit;0.5,under,B. Drury,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.6,2.55,2.6,160,155,160,1.019607843137255,PointsBet
-pp;0;ou;hit;1.5,over,C. Seager,TEX(away) vs LAA(home),MLB,Hits,,1.5,2.64,2.55,2.6,164,155,160,1.035294117647059,PointsBet
-pp;0;ou;hit;1.5,under,C. Seager,TEX(away) vs LAA(home),MLB,Hits,,1.5,1.46,1.4445,1.45,-217,-225,-220,1.0107303565247492,BetOnline
-pp;0;ou;hit;0.5,over,J. Adell,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.73,1.7143,1.68,-137,-140,-145,1.0297619047619049,DraftKings
-pp;0;ou;hit;0.5,under,J. Adell,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.06,2.0,2.05,106,100,105,1.03,PointsBet
-pp;0;ou;hit;0.5,over,J. Smith,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.46,1.4445,1.43,-217,-225,-230,1.020979020979021,BetOnline
-pp;0;ou;hit;0.5,under,J. Smith,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.64,2.55,2.65,164,155,165,1.0392156862745099,PointsBet
-pp;0;ou;hit;0.5,over,L. Taveras,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.46,1.4167,1.43,-217,-240,-230,1.0305639867297238,BetOnline
-pp;0;ou;hit;0.5,under,L. Taveras,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.65,2.6,2.65,165,160,165,1.0192307692307692,PointsBet
-pp;0;ou;hit;0.5,over,M. Moniak,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.7,1.6667,1.71,-143,-150,-140,1.0259794804103917,PointsBet
-pp;0;ou;hit;0.5,under,M. Moniak,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.1,2.1,2.05,110,110,105,1.024390243902439,DraftKings
-pp;0;ou;hit;1.5,over,M. Semien,TEX(away) vs LAA(home),MLB,Hits,,1.5,2.82,2.7,2.75,182,170,175,1.0444444444444443,BetOnline
-pp;0;ou;hit;1.5,under,M. Semien,TEX(away) vs LAA(home),MLB,Hits,,1.5,1.41,1.4,1.4,-244,-250,-245,1.0071428571428571,BetOnline
-pp;0;ou;hit;0.5,over,N. Lowe,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.43,1.4,1.4,-233,-250,-245,1.0214285714285714,BetOnline
-pp;0;ou;hit;0.5,under,N. Lowe,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.74,2.7,2.75,174,170,175,1.0185185185185184,PointsBet
-pp;0;ou;hit;0.5,over,N. Schanuel,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.49,1.4762,1.48,-204,-210,-205,1.0093483267849885,BetOnline
-pp;0;ou;hit;0.5,under,N. Schanuel,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.55,2.5,2.5,155,150,150,1.02,BetOnline
-pp;0;ou;hit;0.5,over,T. Ward,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.51,1.4762,1.5,-196,-210,-200,1.0228966264733776,PointsBet
-pp;0;ou;hit;0.5,under,T. Ward,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.48,2.5,2.45,148,150,145,1.0204081632653061,DraftKings
-pp;0;ou;hit;0.5,over,W. Langford,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.41,1.4,1.4,-244,-250,-250,1.0071428571428571,BetOnline
-pp;0;ou;hit;0.5,under,W. Langford,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.82,2.7,2.8,182,170,180,1.0444444444444443,PointsBet
-pp;0;ou;hit;0.5,over,Z. Neto,TEX(away) vs LAA(home),MLB,Hits,,0.5,1.55,1.5264,1.54,-182,-190,-185,1.0154612159329142,PointsBet
-pp;0;ou;hit;0.5,under,Z. Neto,TEX(away) vs LAA(home),MLB,Hits,,0.5,2.38,2.35,2.35,138,135,135,1.0127659574468084,BetOnline
-pp;0;ou;sb;0.5,over,A. Garcia,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,8.29,11.0,11.0,729,1000,1000,1.3268998793727385,BetOnline
-pp;0;ou;sb;0.5,under,A. Garcia,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,1.06,1.0286,1.02,-1667,-3497,-5000,1.0392156862745099,BetOnline
-pp;0;ou;sb;0.5,over,J. Smith,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,9.76,10.5,10.0,876,950,900,1.0758196721311475,PointsBet
-pp;0;ou;sb;0.5,under,J. Smith,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,1.04,1.0334,1.02,-2500,-2994,-4000,1.0196078431372548,DraftKings
-pp;0;ou;sb;0.5,over,L. Taveras,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,6.13,5.75,6.5,513,475,550,1.1304347826086956,PointsBet
-pp;0;ou;sb;0.5,under,L. Taveras,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,1.11,1.091,1.09,-909,-1099,-1100,1.0183486238532111,BetOnline
-pp;0;ou;sb;0.5,over,M. Moniak,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,8.29,10.5,10.5,729,950,950,1.2665862484921593,BetOnline
-pp;0;ou;sb;0.5,under,M. Moniak,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,1.06,1.0334,1.02,-1667,-2994,-4000,1.0392156862745099,BetOnline
-pp;0;ou;sb;0.5,over,M. Semien,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,9.76,10.5,10.5,876,950,950,1.0758196721311475,BetOnline
-pp;0;ou;sb;0.5,under,M. Semien,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,1.04,1.0334,1.02,-2500,-2994,-4000,1.0196078431372548,DraftKings
-pp;0;ou;sb;0.5,over,W. Langford,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,6.13,6.0,6.5,513,500,550,1.0833333333333333,DraftKings
-pp;0;ou;sb;0.5,under,W. Langford,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,1.11,1.0834,1.08,-909,-1199,-1200,1.027777777777778,BetOnline
-pp;0;ou;sb;0.5,over,Z. Neto,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,5.35,7.0,7.5,435,600,650,1.4018691588785048,BetOnline
-pp;0;ou;sb;0.5,under,Z. Neto,TEX(away) vs LAA(home),MLB,Stolen Bases,,0.5,1.14,1.0715,1.06,-714,-1399,-1600,1.0754716981132073,BetOnline
-pp;0;ou;so;4.5,over,G. Canning,TEX(away) vs LAA(home),MLB,Strikeouts Thrown,,4.5,2.2,2.2,2.25,120,120,125,1.0227272727272727,DraftKings
-pp;0;ou;so;4.5,under,G. Canning,TEX(away) vs LAA(home),MLB,Strikeouts Thrown,,4.5,1.64,1.625,1.62,-156,-160,-160,1.0123456790123455,BetOnline
-pp;0;ou;so;4.5,over,M. Lorenzen,TEX(away) vs LAA(home),MLB,Strikeouts Thrown,,4.5,2.3,2.3,2.3,130,130,130,1.0,BetOnline
-pp;0;ou;so;4.5,under,M. Lorenzen,TEX(away) vs LAA(home),MLB,Strikeouts Thrown,,4.5,1.59,1.5883,1.58,-169,-170,-170,1.0063291139240507,DraftKings
-pp;0;ou;tb;0.5,over,J. Adell,TEX(away) vs LAA(home),MLB,Total Bases,,0.5,1.74,1.7143,1.68,-135,-140,-145,1.0357142857142858,DraftKings
-pp;0;ou;tb;0.5,under,J. Adell,TEX(away) vs LAA(home),MLB,Total Bases,,0.5,2.05,2.0,2.05,105,100,105,1.025,PointsBet
-pp;0;ou;tb;1.5,over,B. Drury,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.46,2.15,2.4,146,115,140,1.144186046511628,PointsBet
-pp;0;ou;tb;1.5,under,B. Drury,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.52,1.6452,1.51,-192,-155,-195,1.0895364238410596,PointsBet
-pp;0;ou;tb;1.5,over,C. Seager,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.78,1.6897,1.74,-128,-145,-135,1.053441439308753,PointsBet
-pp;0;ou;tb;1.5,under,C. Seager,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.99,2.05,2.0,-101,105,100,1.0301507537688441,PointsBet
-pp;0;ou;tb;0.5,over,M. Moniak,TEX(away) vs LAA(home),MLB,Total Bases,,0.5,1.73,1.6897,1.71,-137,-145,-140,1.023850387642777,PointsBet
-pp;0;ou;tb;0.5,under,M. Moniak,TEX(away) vs LAA(home),MLB,Total Bases,,0.5,2.06,2.05,2.05,106,105,105,1.0048780487804878,BetOnline
-pp;0;ou;tb;1.5,over,M. Semien,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.0,1.9524,1.95,100,-105,-105,1.0256410256410258,BetOnline
-pp;0;ou;tb;1.5,under,M. Semien,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.77,1.7693,1.8,-130,-130,-125,1.0173514949415023,DraftKings
-pp;0;ou;tb;1.5,over,L. Taveras,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.34,2.2,2.3,134,120,130,1.0636363636363635,PointsBet
-pp;0;ou;tb;1.5,under,L. Taveras,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.57,1.625,1.57,-175,-160,-175,1.0350318471337578,PointsBet
-pp;0;ou;tb;1.5,over,N. Lowe,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.34,2.15,2.3,134,115,130,1.0883720930232559,PointsBet
-pp;0;ou;tb;1.5,under,N. Lowe,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.57,1.6452,1.57,-175,-155,-175,1.0478980891719745,PointsBet
-pp;0;ou;tb;1.5,over,W. Langford,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.15,2.05,2.1,115,105,110,1.048780487804878,BetOnline
-pp;0;ou;tb;1.5,under,W. Langford,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.67,1.6897,1.68,-149,-145,-145,1.0117964071856287,BetOnline
-pp;0;ou;tb;1.5,over,J. Smith,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.28,2.15,2.2,128,115,120,1.0604651162790697,BetOnline
-pp;0;ou;tb;1.5,under,J. Smith,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.6,1.6452,1.6,-167,-155,-165,1.0282499999999999,PointsBet
-pp;0;ou;tb;1.5,over,A. Garcia,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.13,1.9524,2.05,113,-105,105,1.0909649661954517,PointsBet
-pp;0;ou;tb;1.5,under,A. Garcia,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.68,1.7693,1.71,-147,-130,-140,1.053154761904762,PointsBet
-pp;0;ou;tb;1.5,over,T. Ward,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.49,2.3,2.45,149,130,145,1.082608695652174,PointsBet
-pp;0;ou;tb;1.5,under,T. Ward,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.51,1.5556,1.5,-196,-180,-200,1.0370666666666668,PointsBet
-pp;0;ou;tb;1.5,over,A. Rendon,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,2.39,2.15,2.35,139,115,135,1.1116279069767443,PointsBet
-pp;0;ou;tb;1.5,under,A. Rendon,TEX(away) vs LAA(home),MLB,Total Bases,,1.5,1.55,1.6452,1.54,-182,-155,-185,1.0683116883116883,PointsBet
-pp;0;ss;so;3.5,over,G. Canning,TEX(away) vs LAA(home),MLB,Strikeouts Milestones,,3.5,1.49,1.5264,1.54,-204,-190,-185,1.0335570469798658,BetOnline
-pp;0;ss;so;5.5,over,G. Canning,TEX(away) vs LAA(home),MLB,Strikeouts Milestones,,5.5,3.04,3.6,3.2,204,260,220,1.1842105263157894,PointsBet
-pp;0;ss;so;6.5,over,G. Canning,TEX(away) vs LAA(home),MLB,Strikeouts Milestones,,6.5,4.73,6.0,5.25,373,500,425,1.2684989429175475,PointsBet
-pp;0;ss;so;3.5,over,M. Lorenzen,TEX(away) vs LAA(home),MLB,Strikeouts Milestones,,3.5,1.52,1.5715,1.6,-192,-175,-165,1.0526315789473684,BetOnline
-pp;0;ss;so;5.5,over,M. Lorenzen,TEX(away) vs LAA(home),MLB,Strikeouts Milestones,,5.5,3.45,3.6,3.4,245,260,240,1.0588235294117647,PointsBet
-pp;0;ss;so;6.5,over,M. Lorenzen,TEX(away) vs LAA(home),MLB,Strikeouts Milestones,,6.5,6.03,6.5,5.75,503,550,475,1.1304347826086956,PointsBet
-pp;0;ss;hit;1.5,over,J. Adell,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,4.22,5.0,4.9,322,400,390,1.1848341232227488,BetOnline
-pp;0;ss;hit;1.5,over,B. Drury,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,3.38,3.5,3.4,238,250,240,1.0355029585798816,PointsBet
-pp;0;ss;hit;2.5,over,B. Drury,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,10.31,12.0,11.0,931,1100,1000,1.1639185257032008,PointsBet
-pp;0;ss;hit;0.5,over,C. Seager,TEX(away) vs LAA(home),MLB,Hits Milestones,,0.5,1.28,1.2858,1.28,-357,-350,-350,1.00453125,PointsBet
-pp;0;ss;hit;2.5,over,C. Seager,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,6.16,7.0,7.0,516,600,600,1.1363636363636362,BetOnline
-pp;0;ss;hit;1.5,over,M. Moniak,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,4.12,5.0,4.9,312,400,390,1.2135922330097086,BetOnline
-pp;0;ss;hit;1.5,over,N. Schanuel,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,3.14,3.6,3.5,214,260,250,1.1464968152866242,BetOnline
-pp;0;ss;hit;2.5,over,N. Schanuel,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,8.65,12.0,13.0,765,1100,1200,1.5028901734104045,BetOnline
-pp;0;ss;hit;0.5,over,M. Semien,TEX(away) vs LAA(home),MLB,Hits Milestones,,0.5,1.3,1.3449,1.32,-333,-290,-310,1.0345384615384614,PointsBet
-pp;0;ss;hit;2.5,over,M. Semien,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,6.37,8.0,8.0,537,700,700,1.2558869701726845,BetOnline
-pp;0;ss;hit;1.5,over,L. Taveras,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,3.34,3.3,3.45,234,230,245,1.0454545454545456,DraftKings
-pp;0;ss;hit;2.5,over,L. Taveras,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,10.19,11.5,12.0,919,1050,1100,1.1776251226692838,BetOnline
-pp;0;ss;hit;1.5,over,T. Ward,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,3.51,3.5,3.7,251,250,270,1.0571428571428572,DraftKings
-pp;0;ss;hit;1.5,over,Z. Neto,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,3.66,4.0,4.0,266,300,300,1.0928961748633879,BetOnline
-pp;0;ss;hit;1.5,over,N. Lowe,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,2.95,3.2,3.25,195,220,225,1.1016949152542372,BetOnline
-pp;0;ss;hit;2.5,over,N. Lowe,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,7.95,10.0,12.0,695,900,1100,1.5094339622641508,BetOnline
-pp;0;ss;hit;1.5,over,W. Langford,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,2.89,3.2,3.15,189,220,215,1.1072664359861593,BetOnline
-pp;0;ss;hit;2.5,over,W. Langford,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,7.77,10.0,10.5,677,900,950,1.3513513513513513,BetOnline
-pp;0;ss;hit;1.5,over,J. Smith,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,3.34,3.4,3.3,234,240,230,1.0303030303030303,PointsBet
-pp;0;ss;hit;2.5,over,J. Smith,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,10.19,11.0,11.0,919,1000,1000,1.0794896957801767,BetOnline
-pp;0;ss;hit;1.5,over,A. Garcia,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,3.34,3.2,3.4,234,220,240,1.0625,PointsBet
-pp;0;ss;hit;2.5,over,A. Garcia,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,10.19,10.0,11.0,919,900,1000,1.1,DraftKings
-pp;0;ss;hit;1.5,over,A. Rendon,TEX(away) vs LAA(home),MLB,Hits Milestones,,1.5,2.89,3.3,3.25,189,230,225,1.1418685121107266,BetOnline
-pp;0;ss;hit;2.5,over,A. Rendon,TEX(away) vs LAA(home),MLB,Hits Milestones,,2.5,7.77,11.0,11.0,677,1000,1000,1.4157014157014158,BetOnline
-s;0;m,,,ATL(away) vs ARI(home),MLB,Moneyline,home,,1.93,1.9091,1.89285715,-108,-110,-112,1.0196226376618014,BetOnline
-s;0;m,,,ATL(away) vs ARI(home),MLB,Moneyline,home,,2.28,1.9091,1.89285715,128,-110,-112,1.2045282973414027,BetOnline
-s;0;m,,,ATL(away) vs ARI(home),MLB,Moneyline,away,,1.98,1.9091,1.92592593,-102,-110,-108,1.0371379183908649,BetOnline
-s;0;m,,,ATL(away) vs ARI(home),MLB,Moneyline,away,,1.72,1.9091,1.92592593,-139,-110,-108,1.1197243779069768,BetOnline
-s;0;s;1.5,,,ATL(away) vs ARI(home),MLB,Run Line,home,1.5,1.58,1.5715,1.57142858,-173,-175,-175,1.005454539970248,BetOnline
-s;0;s;1.5,,,ATL(away) vs ARI(home),MLB,Run Line,away,-1.5,2.53,2.45,2.45,153,145,145,1.0326530612244897,BetOnline
-pp;0;ou;hit;0.5,over,A. Duvall,ATL(away) vs ARI(home),MLB,Hits,,0.5,1.5,1.4445,1.46,-200,-225,-215,1.0384215991692627,BetOnline
-pp;0;ou;hit;0.5,under,A. Duvall,ATL(away) vs ARI(home),MLB,Hits,,0.5,2.51,2.55,2.55,151,155,155,1.0159362549800797,BetOnline
-pp;0;ou;hit;1.5,over,A. Riley,ATL(away) vs ARI(home),MLB,Hits,,1.5,2.71,2.55,2.65,171,155,165,1.0627450980392157,PointsBet
-pp;0;ou;hit;1.5,under,A. Riley,ATL(away) vs ARI(home),MLB,Hits,,1.5,1.44,1.4445,1.43,-227,-225,-230,1.0101398601398601,DraftKings
-pp;0;ou;hit;0.5,over,C. Walker,ATL(away) vs ARI(home),MLB,Hits,,0.5,1.44,1.4167,1.43,-227,-240,-230,1.0164466718430154,PointsBet
-pp;0;ou;hit;0.5,under,C. Walker,ATL(away) vs ARI(home),MLB,Hits,,0.5,2.69,2.6,2.65,169,160,165,1.0346153846153845,PointsBet
-pp;0;ou;hit;0.5,over,E. Suarez,ATL(away) vs ARI(home),MLB,Hits,,0.5,1.65,1.625,1.62,-154,-160,-160,1.0185185185185184,BetOnline
-pp;0;ou;hit;0.5,under,E. Suarez,ATL(away) vs ARI(home),MLB,Hits,,0.5,2.18,2.2,2.15,118,120,115,1.0232558139534884,DraftKings
-pp;0;ou;hit;1.5,over,J. Kelenic,ATL(away) vs ARI(home),MLB,Hits,,1.5,2.78,2.6,2.7,178,160,170,1.0692307692307692,PointsBet
-pp;0;ou;hit;1.5,under,J. Kelenic,ATL(away) vs ARI(home),MLB,Hits,,1.5,1.42,1.4167,1.41,-238,-240,-240,1.0070921985815602,DraftKings
-pp;0;ou;hit;0.5,over,K. Marte,ATL(away) vs ARI(home),MLB,Hits,,0.5,1.5,1.4762,1.48,-200,-210,-205,1.016122476629183,BetOnline
-pp;0;ou;hit;0.5,under,K. Marte,ATL(away) vs ARI(home),MLB,Hits,,0.5,2.53,2.5,2.5,153,150,150,1.012,BetOnline
-pp;0;ou;hit;1.5,over,M. Ozuna,ATL(away) vs ARI(home),MLB,Hits,,1.5,2.86,2.75,2.85,186,175,185,1.04,PointsBet
-pp;0;ou;hit;1.5,under,M. Ozuna,ATL(away) vs ARI(home),MLB,Hits,,1.5,1.4,1.3637,1.39,-250,-275,-255,1.026618757791303,PointsBet
-pp;0;ou;hit;1.5,over,O. Albies,ATL(away) vs ARI(home),MLB,Hits,,1.5,2.58,2.55,2.6,158,155,160,1.019607843137255,PointsBet
-pp;0;ou;hit;1.5,under,O. Albies,ATL(away) vs ARI(home),MLB,Hits,,1.5,1.48,1.4445,1.45,-208,-225,-220,1.024575977847006,BetOnline
-pp;0;ou;hit;0.5,over,O. Arcia,ATL(away) vs ARI(home),MLB,Hits,,0.5,1.55,1.5264,1.52,-182,-190,-190,1.0197368421052633,BetOnline
-pp;0;ou;hit;0.5,under,O. Arcia,ATL(away) vs ARI(home),MLB,Hits,,0.5,2.39,2.35,2.35,139,135,135,1.0170212765957447,BetOnline
-pp;0;ou;sb;0.5,over,C. Walker,ATL(away) vs ARI(home),MLB,Stolen Bases,,0.5,11.96,13.0,12.0,1096,1200,1100,1.0869565217391304,PointsBet
-pp;0;ou;sb;0.5,under,C. Walker,ATL(away) vs ARI(home),MLB,Stolen Bases,,0.5,1.02,1.02,1.01,-5000,-5000,-8000,1.00990099009901,DraftKings
-pp;0;ou;sb;0.5,over,J. Kelenic,ATL(away) vs ARI(home),MLB,Stolen Bases,,0.5,7.24,5.75,6.5,624,475,550,1.2591304347826087,PointsBet
-pp;0;ou;sb;0.5,under,J. Kelenic,ATL(away) vs ARI(home),MLB,Stolen Bases,,0.5,1.08,1.091,1.09,-1250,-1099,-1100,1.010185185185185,BetOnline
-pp;0;ou;sb;0.5,over,K. Marte,ATL(away) vs ARI(home),MLB,Stolen Bases,,0.5,8.96,8.5,8.0,796,750,700,1.12,DraftKings
-pp;0;ou;sb;0.5,under,K. Marte,ATL(away) vs ARI(home),MLB,Stolen Bases,,0.5,1.05,1.0556,1.05,-2000,-1799,-1800,1.0053333333333334,PointsBet
-pp;0;ou;sb;0.5,over,O. Albies,ATL(away) vs ARI(home),MLB,Stolen Bases,,0.5,8.29,8.0,8.0,729,700,700,1.03625,BetOnline
-pp;0;ou;sb;0.5,under,O. Albies,ATL(away) vs ARI(home),MLB,Stolen Bases,,0.5,1.06,1.0601,1.05,-1667,-1664,-1800,1.0096190476190476,DraftKings
-pp;0;ou;so;5.5,over,C. Morton,ATL(away) vs ARI(home),MLB,Strikeouts Thrown,,5.5,1.78,1.7693,1.74,-128,-130,-135,1.0229885057471264,DraftKings
-pp;0;ou;so;5.5,under,C. Morton,ATL(away) vs ARI(home),MLB,Strikeouts Thrown,,5.5,1.99,2.0,2.05,-101,100,105,1.0301507537688441,DraftKings
-pp;0;ou;so;4.5,over,S. Cecconi,ATL(away) vs ARI(home),MLB,Strikeouts Thrown,,4.5,2.03,2.05,2.05,103,105,105,1.0098522167487685,BetOnline
-pp;0;ou;so;4.5,under,S. Cecconi,ATL(away) vs ARI(home),MLB,Strikeouts Thrown,,4.5,1.75,1.7143,1.74,-133,-140,-135,1.0208248264597795,PointsBet
-pp;0;ss;hit;1.5,over,C. Walker,ATL(away) vs ARI(home),MLB,Hits Milestones,,1.5,2.99,3.4,3.35,199,240,235,1.137123745819398,BetOnline
-pp;0;ss;hit;2.5,over,C. Walker,ATL(away) vs ARI(home),MLB,Hits Milestones,,2.5,8.14,11.0,11.0,714,1000,1000,1.3513513513513513,BetOnline
-pp;0;ss;hit;0.5,over,A. Riley,ATL(away) vs ARI(home),MLB,Hits Milestones,,0.5,1.29,1.3077,1.3,-345,-325,-330,1.0137209302325583,BetOnline
-pp;0;ss;hit;2.5,over,A. Riley,ATL(away) vs ARI(home),MLB,Hits Milestones,,2.5,6.24,7.0,7.5,524,600,650,1.2019230769230769,BetOnline
-pp;0;ss;hit;1.5,over,A. Duvall,ATL(away) vs ARI(home),MLB,Hits Milestones,,1.5,3.49,3.3,3.75,249,230,275,1.1363636363636365,DraftKings
-pp;0;ss;hit;2.5,over,A. Duvall,ATL(away) vs ARI(home),MLB,Hits Milestones,,2.5,10.74,11.0,13.0,974,1000,1200,1.2104283054003724,DraftKings
-pp;0;ss;hit;1.5,over,E. Suarez,ATL(away) vs ARI(home),MLB,Hits Milestones,,1.5,3.96,4.3,4.4,296,330,340,1.1111111111111112,BetOnline
-pp;0;ss;hit;1.5,over,K. Marte,ATL(away) vs ARI(home),MLB,Hits Milestones,,1.5,3.12,3.6,3.5,212,260,250,1.1538461538461537,BetOnline
-pp;0;ss;hit;2.5,over,K. Marte,ATL(away) vs ARI(home),MLB,Hits Milestones,,2.5,8.32,12.0,12.0,732,1100,1100,1.4423076923076923,BetOnline
-pp;0;ss;hit;0.5,over,O. Albies,ATL(away) vs ARI(home),MLB,Hits Milestones,,0.5,1.27,1.3077,1.27,-370,-325,-360,1.0296850393700787,PointsBet
-pp;0;ss;hit;2.5,over,O. Albies,ATL(away) vs ARI(home),MLB,Hits Milestones,,2.5,6.08,6.5,6.5,508,550,550,1.069078947368421,BetOnline
-pp;0;ss;hit;1.5,over,O. Arcia,ATL(away) vs ARI(home),MLB,Hits Milestones,,1.5,3.65,3.8,3.95,265,280,295,1.082191780821918,DraftKings
-pp;0;ss;hit;0.5,over,M. Ozuna,ATL(away) vs ARI(home),MLB,Hits Milestones,,0.5,1.31,1.3637,1.31,-323,-275,-320,1.0409923664122136,PointsBet
-pp;0;ss;hit;2.5,over,M. Ozuna,ATL(away) vs ARI(home),MLB,Hits Milestones,,2.5,6.42,8.5,7.5,542,750,650,1.32398753894081,BetOnline
-pp;0;ss;hit;0.5,over,J. Kelenic,ATL(away) vs ARI(home),MLB,Hits Milestones,,0.5,1.3,1.3449,1.3,-333,-290,-330,1.0345384615384614,PointsBet
-pp;0;ss;hit;2.5,over,J. Kelenic,ATL(away) vs ARI(home),MLB,Hits Milestones,,2.5,6.33,7.5,7.0,533,650,600,1.1848341232227488,BetOnline
-pp;0;ss;hit;1.5,over,M. Olson,ATL(away) vs ARI(home),MLB,Hits Milestones,,1.5,2.8,2.75,2.85,180,175,185,1.0363636363636364,PointsBet
-pp;0;ss;hit;2.5,over,M. Olson,ATL(away) vs ARI(home),MLB,Hits Milestones,,2.5,7.5,7.5,8.0,650,650,700,1.0666666666666667,DraftKings
-pp;0;ss;so;4.5,over,C. Morton,ATL(away) vs ARI(home),MLB,Strikeouts Milestones,,4.5,1.32,1.3847,1.34,-312,-260,-290,1.0490151515151516,PointsBet
-pp;0;ss;so;6.5,over,C. Morton,ATL(away) vs ARI(home),MLB,Strikeouts Milestones,,6.5,2.38,2.45,2.3,138,145,130,1.065217391304348,DraftKings
-pp;0;ss;so;7.5,over,C. Morton,ATL(away) vs ARI(home),MLB,Strikeouts Milestones,,7.5,3.39,3.6,3.45,239,260,245,1.0619469026548674,PointsBet
-pp;0;ss;so;3.5,over,S. Cecconi,ATL(away) vs ARI(home),MLB,Strikeouts Milestones,,3.5,1.4,1.5,1.45,-250,-200,-220,1.0714285714285714,BetOnline
-pp;0;ss;so;5.5,over,S. Cecconi,ATL(away) vs ARI(home),MLB,Strikeouts Milestones,,5.5,3.05,3.2,3.05,205,220,205,1.0491803278688525,PointsBet
-pp;0;ss;so;6.5,over,S. Cecconi,ATL(away) vs ARI(home),MLB,Strikeouts Milestones,,6.5,5.25,5.25,5.0,425,425,400,1.05,DraftKings
-pp;0;ou;tb;1.5,over,C. Walker,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,2.24,2.15,2.2,124,115,120,1.0418604651162793,PointsBet
-pp;0;ou;tb;1.5,under,C. Walker,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.62,1.6452,1.62,-161,-155,-160,1.0155555555555555,PointsBet
-pp;0;ou;tb;1.5,over,A. Riley,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.92,1.8548,1.83,-109,-117,-120,1.0491803278688523,BetOnline
-pp;0;ou;tb;1.5,under,A. Riley,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.84,1.8548,1.86,-119,-117,-115,1.0108695652173914,BetOnline
-pp;0;ou;tb;1.5,over,A. Duvall,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,2.26,2.1,2.15,126,110,115,1.0761904761904761,BetOnline
-pp;0;ou;tb;1.5,under,A. Duvall,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.61,1.6667,1.64,-164,-150,-155,1.0352173913043479,BetOnline
-pp;0;ou;tb;0.5,over,E. Suarez,ATL(away) vs ARI(home),MLB,Total Bases,,0.5,1.65,1.625,1.62,-154,-160,-160,1.0185185185185184,BetOnline
-pp;0;ou;tb;0.5,under,E. Suarez,ATL(away) vs ARI(home),MLB,Total Bases,,0.5,2.19,2.2,2.15,119,120,115,1.0232558139534884,DraftKings
-pp;0;ou;tb;1.5,over,O. Albies,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.83,1.8548,1.76,-120,-117,-130,1.0538636363636364,DraftKings
-pp;0;ou;tb;1.5,under,O. Albies,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.93,1.8548,1.95,-108,-117,-105,1.0513262885486305,PointsBet
-pp;0;ou;tb;0.5,over,O. Arcia,ATL(away) vs ARI(home),MLB,Total Bases,,0.5,1.54,1.5264,1.52,-185,-190,-190,1.013157894736842,BetOnline
-pp;0;ou;tb;0.5,under,O. Arcia,ATL(away) vs ARI(home),MLB,Total Bases,,0.5,2.4,2.35,2.35,140,135,135,1.0212765957446808,BetOnline
-pp;0;ou;tb;1.5,over,M. Ozuna,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.87,1.8548,1.76,-115,-117,-130,1.0625,DraftKings
-pp;0;ou;tb;1.5,under,M. Ozuna,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.89,1.8548,1.95,-112,-117,-105,1.0513262885486305,DraftKings
-pp;0;ou;tb;1.5,over,J. Kelenic,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.91,1.8548,1.83,-110,-117,-120,1.0437158469945353,BetOnline
-pp;0;ou;tb;1.5,under,J. Kelenic,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.85,1.8548,1.86,-118,-117,-115,1.0054054054054054,DraftKings
-pp;0;ou;tb;1.5,over,M. Olson,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.94,1.8334,1.86,-106,-120,-115,1.058143340242173,BetOnline
-pp;0;ou;tb;1.5,under,M. Olson,ATL(away) vs ARI(home),MLB,Total Bases,,1.5,1.82,1.8696,1.83,-122,-115,-120,1.0272527472527473,PointsBet
-s;0;m,,,TOR(away) vs SF(home),MLB,Moneyline,home,,1.65,1.625,1.61728396,-153,-160,-162,1.020229001714702,BetOnline
-s;0;m,,,TOR(away) vs SF(home),MLB,Moneyline,home,,1.87,1.625,1.61728396,-115,-160,-162,1.1562595352766623,BetOnline
-s;0;m,,,TOR(away) vs SF(home),MLB,Moneyline,away,,2.4,2.3,2.36,140,130,136,1.0434782608695652,PointsBet
-s;0;m,,,TOR(away) vs SF(home),MLB,Moneyline,away,,2.05,2.3,2.36,105,130,136,1.151219512195122,BetOnline
-s;0;s;-1.5,,,TOR(away) vs SF(home),MLB,Run Line,home,-1.5,2.43,2.4,2.42,143,140,142,1.0125000000000002,PointsBet
-s;0;s;-1.5,,,TOR(away) vs SF(home),MLB,Run Line,away,1.5,1.61,1.5883,1.5882353,-163,-170,-170,1.0137036999492457,BetOnline
-pp;0;ou;hit;1.5,over,B. Bichette,TOR(away) vs SF(home),MLB,Hits,,1.5,2.86,2.6,2.8,186,160,180,1.0999999999999999,PointsBet
-pp;0;ou;hit;1.5,under,B. Bichette,TOR(away) vs SF(home),MLB,Hits,,1.5,1.4,1.4167,1.4,-250,-240,-250,1.0119285714285715,PointsBet
-pp;0;ou;hit;0.5,over,B. Wisely,TOR(away) vs SF(home),MLB,Hits,,0.5,1.62,1.5883,1.6,-161,-170,-165,1.0199584461373796,BetOnline
-pp;0;ou;hit;0.5,under,B. Wisely,TOR(away) vs SF(home),MLB,Hits,,0.5,2.23,2.25,2.2,123,125,120,1.0227272727272727,DraftKings
-pp;0;ou;hit;0.5,over,D. Jansen,TOR(away) vs SF(home),MLB,Hits,,0.5,1.55,1.5,1.51,-182,-200,-195,1.0333333333333334,BetOnline
-pp;0;ou;hit;0.5,under,D. Jansen,TOR(away) vs SF(home),MLB,Hits,,0.5,2.38,2.4,2.4,138,140,140,1.0084033613445378,BetOnline
-pp;0;ou;hit;0.5,over,D. Varsho,TOR(away) vs SF(home),MLB,Hits,,0.5,1.66,1.6667,1.66,-152,-150,-150,1.0040361445783132,PointsBet
-pp;0;ou;hit;0.5,under,D. Varsho,TOR(away) vs SF(home),MLB,Hits,,0.5,2.16,2.1,2.1,116,110,110,1.0285714285714287,BetOnline
-pp;0;ou;hit;0.5,over,E. Clement,TOR(away) vs SF(home),MLB,Hits,,0.5,1.53,1.5,1.51,-189,-200,-195,1.02,BetOnline
-pp;0;ou;hit;0.5,under,E. Clement,TOR(away) vs SF(home),MLB,Hits,,0.5,2.44,2.4,2.4,144,140,140,1.0166666666666666,BetOnline
-pp;0;ou;hit;0.5,over,H. Ramos,TOR(away) vs SF(home),MLB,Hits,,0.5,1.4,1.3637,1.37,-250,-275,-265,1.026618757791303,BetOnline
-pp;0;ou;hit;0.5,under,H. Ramos,TOR(away) vs SF(home),MLB,Hits,,0.5,2.85,2.85,2.9,185,185,190,1.0175438596491226,DraftKings
-pp;0;ou;hit;0.5,over,J. Turner,TOR(away) vs SF(home),MLB,Hits,,0.5,1.43,1.4,1.42,-233,-250,-235,1.0214285714285714,PointsBet
-pp;0;ou;hit;0.5,under,J. Turner,TOR(away) vs SF(home),MLB,Hits,,0.5,2.73,2.7,2.7,173,170,170,1.011111111111111,BetOnline
-pp;0;ou;hit;0.5,over,M. Chapman,TOR(away) vs SF(home),MLB,Hits,,0.5,1.52,1.4762,1.48,-192,-210,-205,1.029670776317572,BetOnline
-pp;0;ou;hit;0.5,under,M. Chapman,TOR(away) vs SF(home),MLB,Hits,,0.5,2.47,2.5,2.5,147,150,150,1.0121457489878543,BetOnline
-pp;0;ou;hit;0.5,over,M. Conforto,TOR(away) vs SF(home),MLB,Hits,,0.5,1.57,1.5264,1.55,-175,-190,-180,1.0285639412997905,PointsBet
-pp;0;ou;hit;0.5,under,M. Conforto,TOR(away) vs SF(home),MLB,Hits,,0.5,2.35,2.35,2.3,135,135,130,1.0217391304347827,DraftKings
-pp;0;ou;hit;0.5,over,P. Bailey,TOR(away) vs SF(home),MLB,Hits,,0.5,1.44,1.4167,1.43,-227,-240,-230,1.0164466718430154,PointsBet
-pp;0;ou;hit;0.5,under,P. Bailey,TOR(away) vs SF(home),MLB,Hits,,0.5,2.69,2.6,2.65,169,160,165,1.0346153846153845,PointsBet
-pp;0;ou;sb;0.5,over,B. Bichette,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,7.24,7.0,7.0,624,600,600,1.0342857142857143,BetOnline
-pp;0;ou;sb;0.5,under,B. Bichette,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,1.08,1.0715,1.07,-1250,-1399,-1400,1.0093457943925235,BetOnline
-pp;0;ou;sb;0.5,over,B. Wisely,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,8.96,9.5,9.5,796,850,850,1.060267857142857,BetOnline
-pp;0;ou;sb;0.5,under,B. Wisely,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,1.05,1.0445,1.03,-2000,-2247,-3000,1.0194174757281553,DraftKings
-pp;0;ou;sb;0.5,over,D. Varsho,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,6.46,5.25,6.0,546,425,500,1.2304761904761905,PointsBet
-pp;0;ou;sb;0.5,under,D. Varsho,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,1.1,1.1,1.09,-1000,-1000,-1100,1.0091743119266054,DraftKings
-pp;0;ou;sb;0.5,over,E. Clement,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,9.76,12.0,12.0,876,1100,1100,1.2295081967213115,BetOnline
-pp;0;ou;sb;0.5,under,E. Clement,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,1.04,1.0223,1.01,-2500,-4484,-8000,1.0297029702970297,BetOnline
-pp;0;ou;sb;0.5,over,G. Springer,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,5.35,4.75,5.25,435,375,425,1.1263157894736842,PointsBet
-pp;0;ou;sb;0.5,under,G. Springer,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,1.14,1.125,1.13,-714,-800,-750,1.0133333333333332,BetOnline
-pp;0;ou;sb;0.5,over,H. Ramos,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,10.74,12.0,12.0,974,1100,1100,1.1173184357541899,BetOnline
-pp;0;ou;sb;0.5,under,H. Ramos,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,1.03,1.0223,1.01,-3333,-4484,-10000,1.0198019801980198,DraftKings
-pp;0;ou;sb;0.5,over,M. Chapman,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,9.76,10.5,11.0,876,950,1000,1.1270491803278688,BetOnline
-pp;0;ou;sb;0.5,under,M. Chapman,TOR(away) vs SF(home),MLB,Stolen Bases,,0.5,1.04,1.0334,1.02,-2500,-2994,-5000,1.0196078431372548,DraftKings
-pp;0;ou;so;5.5,over,C. Bassitt,TOR(away) vs SF(home),MLB,Strikeouts Thrown,,5.5,2.12,2.05,2.1,112,105,110,1.0341463414634149,PointsBet
-pp;0;ou;so;5.5,under,C. Bassitt,TOR(away) vs SF(home),MLB,Strikeouts Thrown,,5.5,1.69,1.7143,1.71,-145,-140,-140,1.0143786982248522,BetOnline
-pp;0;ss;so;4.5,over,L. Webb,TOR(away) vs SF(home),MLB,Strikeouts Milestones,,4.5,1.52,1.6667,1.6,-192,-150,-165,1.096513157894737,BetOnline
-pp;0;ss;so;6.5,over,L. Webb,TOR(away) vs SF(home),MLB,Strikeouts Milestones,,6.5,3.25,3.6,3.35,225,260,235,1.1076923076923078,PointsBet
-pp;0;ss;so;7.5,over,L. Webb,TOR(away) vs SF(home),MLB,Strikeouts Milestones,,7.5,5.32,6.0,5.75,432,500,475,1.1278195488721805,BetOnline
-pp;0;ss;so;4.5,over,C. Bassitt,TOR(away) vs SF(home),MLB,Strikeouts Milestones,,4.5,1.49,1.5264,1.54,-204,-190,-185,1.0335570469798658,BetOnline
-pp;0;ss;so;6.5,over,C. Bassitt,TOR(away) vs SF(home),MLB,Strikeouts Milestones,,6.5,2.96,3.1,3.05,196,210,205,1.0472972972972974,BetOnline
-pp;0;ss;so;7.5,over,C. Bassitt,TOR(away) vs SF(home),MLB,Strikeouts Milestones,,7.5,4.61,5.0,4.7,361,400,370,1.0845986984815617,PointsBet
-pp;0;ss;hit;1.5,over,H. Ramos,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,2.86,3.0,2.95,186,200,195,1.048951048951049,BetOnline
-pp;0;ss;hit;2.5,over,H. Ramos,TOR(away) vs SF(home),MLB,Hits Milestones,,2.5,7.72,9.5,8.5,672,850,750,1.2305699481865284,PointsBet
-pp;0;ss;hit;1.5,over,B. Wisely,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,3.87,4.5,4.5,287,350,350,1.1627906976744187,BetOnline
-pp;0;ss;hit;1.5,over,M. Conforto,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,3.71,3.8,4.1,271,280,310,1.105121293800539,DraftKings
-pp;0;ss;hit;1.5,over,P. Bailey,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,2.99,3.4,3.1,199,240,210,1.137123745819398,PointsBet
-pp;0;ss;hit;2.5,over,P. Bailey,TOR(away) vs SF(home),MLB,Hits Milestones,,2.5,8.14,11.5,10.0,714,1050,900,1.4127764127764126,BetOnline
-pp;0;ss;hit;1.5,over,M. Chapman,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,3.55,3.6,3.5,255,260,250,1.0285714285714287,DraftKings
-pp;0;ss;hit;2.5,over,M. Chapman,TOR(away) vs SF(home),MLB,Hits Milestones,,2.5,10.97,12.0,12.0,997,1100,1100,1.0938924339106655,BetOnline
-pp;0;ss;hit;1.5,over,D. Jansen,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,3.66,3.8,3.9,266,280,290,1.0655737704918031,BetOnline
-pp;0;ss;hit;1.5,over,J. Turner,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,2.96,3.3,3.25,196,230,225,1.114864864864865,BetOnline
-pp;0;ss;hit;2.5,over,J. Turner,TOR(away) vs SF(home),MLB,Hits Milestones,,2.5,8.04,10.0,10.5,704,900,950,1.3059701492537314,BetOnline
-pp;0;ss;hit;0.5,over,G. Springer,TOR(away) vs SF(home),MLB,Hits Milestones,,0.5,1.33,1.4,1.35,-303,-250,-285,1.0526315789473684,PointsBet
-pp;0;ss;hit;2.5,over,G. Springer,TOR(away) vs SF(home),MLB,Hits Milestones,,2.5,6.61,10.0,8.5,561,900,750,1.51285930408472,BetOnline
-pp;0;ss;hit;0.5,over,B. Bichette,TOR(away) vs SF(home),MLB,Hits Milestones,,0.5,1.31,1.3334,1.32,-323,-300,-310,1.0178625954198472,PointsBet
-pp;0;ss;hit;2.5,over,B. Bichette,TOR(away) vs SF(home),MLB,Hits Milestones,,2.5,6.42,8.0,8.5,542,700,750,1.32398753894081,BetOnline
-pp;0;ss;hit;1.5,over,D. Varsho,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,4.0,4.5,4.4,300,350,340,1.125,BetOnline
-pp;0;ss;hit;1.5,over,E. Clement,TOR(away) vs SF(home),MLB,Hits Milestones,,1.5,3.57,3.6,3.75,257,260,275,1.050420168067227,DraftKings
-pp;0;ss;hit;2.5,over,E. Clement,TOR(away) vs SF(home),MLB,Hits Milestones,,2.5,10.92,11.5,14.0,992,1050,1300,1.2820512820512822,DraftKings
-pp;0;ou;tb;1.5,over,H. Ramos,TOR(away) vs SF(home),MLB,Total Bases,,1.5,2.34,2.15,2.25,134,115,125,1.0883720930232559,PointsBet
-pp;0;ou;tb;1.5,under,H. Ramos,TOR(away) vs SF(home),MLB,Total Bases,,1.5,1.57,1.6452,1.58,-175,-155,-170,1.0478980891719745,PointsBet
-pp;0;ou;tb;0.5,over,B. Wisely,TOR(away) vs SF(home),MLB,Total Bases,,0.5,1.65,1.5883,1.6,-154,-170,-165,1.0388465655102939,BetOnline
-pp;0;ou;tb;0.5,under,B. Wisely,TOR(away) vs SF(home),MLB,Total Bases,,0.5,2.19,2.25,2.2,119,125,120,1.0273972602739727,PointsBet
-pp;0;ou;tb;1.5,over,P. Bailey,TOR(away) vs SF(home),MLB,Total Bases,,1.5,2.49,2.35,2.45,149,135,145,1.0595744680851065,PointsBet
-pp;0;ou;tb;1.5,under,P. Bailey,TOR(away) vs SF(home),MLB,Total Bases,,1.5,1.51,1.5264,1.51,-196,-190,-195,1.010860927152318,PointsBet
-pp;0;ou;tb;0.5,over,M. Conforto,TOR(away) vs SF(home),MLB,Total Bases,,0.5,1.55,1.5264,1.55,-182,-190,-180,1.0154612159329142,PointsBet
-pp;0;ou;tb;0.5,under,M. Conforto,TOR(away) vs SF(home),MLB,Total Bases,,0.5,2.38,2.35,2.35,138,135,135,1.0127659574468084,BetOnline
-pp;0;ou;tb;0.5,over,D. Jansen,TOR(away) vs SF(home),MLB,Total Bases,,0.5,1.54,1.5,1.51,-185,-200,-195,1.0266666666666666,BetOnline
-pp;0;ou;tb;0.5,under,D. Jansen,TOR(away) vs SF(home),MLB,Total Bases,,0.5,2.41,2.4,2.4,141,140,140,1.0041666666666669,BetOnline
-pp;0;ou;tb;1.5,over,J. Turner,TOR(away) vs SF(home),MLB,Total Bases,,1.5,2.67,2.35,2.55,167,135,155,1.1361702127659574,PointsBet
-pp;0;ou;tb;1.5,under,J. Turner,TOR(away) vs SF(home),MLB,Total Bases,,1.5,1.45,1.5264,1.46,-222,-190,-215,1.0526896551724139,PointsBet
-pp;0;ou;tb;1.5,over,G. Springer,TOR(away) vs SF(home),MLB,Total Bases,,1.5,2.34,2.35,2.3,134,135,130,1.0217391304347827,DraftKings
-pp;0;ou;tb;1.5,under,G. Springer,TOR(away) vs SF(home),MLB,Total Bases,,1.5,1.57,1.5264,1.57,-175,-190,-175,1.0285639412997905,PointsBet
-pp;0;ou;tb;1.5,over,B. Bichette,TOR(away) vs SF(home),MLB,Total Bases,,1.5,2.28,2.05,2.2,128,105,120,1.1121951219512196,PointsBet
-pp;0;ou;tb;1.5,under,B. Bichette,TOR(away) vs SF(home),MLB,Total Bases,,1.5,1.6,1.6897,1.6,-167,-145,-165,1.0560625,PointsBet
-pp;0;ou;tb;0.5,over,D. Varsho,TOR(away) vs SF(home),MLB,Total Bases,,0.5,1.66,1.6667,1.66,-152,-150,-150,1.0040361445783132,PointsBet
-pp;0;ou;tb;0.5,under,D. Varsho,TOR(away) vs SF(home),MLB,Total Bases,,0.5,2.16,2.1,2.1,116,110,110,1.0285714285714287,BetOnline
-pp;0;ou;tb;0.5,over,E. Clement,TOR(away) vs SF(home),MLB,Total Bases,,0.5,1.53,1.4762,1.51,-189,-210,-195,1.0364449261617668,PointsBet
-pp;0;ou;tb;0.5,under,E. Clement,TOR(away) vs SF(home),MLB,Total Bases,,0.5,2.44,2.5,2.4,144,150,140,1.0416666666666667,PointsBet
+s;0;m,,,CIN(away) vs WAS(home),MLB,Moneyline,home,,1.85,1.0601,1.05714286,-118,-1664,-1750,1.7499999952702705,BetOnline
+s;0;m,,,CIN(away) vs WAS(home),MLB,Moneyline,home,,1.85,1.0601,1.81967214,-118,-1664,-122,1.7451183850580134,PointsBet
+s;0;m,,,CIN(away) vs WAS(home),MLB,Moneyline,home,,1.85,1.8,1.05714286,-118,-125,-1750,1.7499999952702705,DraftKings
+s;0;m,,,CIN(away) vs WAS(home),MLB,Moneyline,home,,1.85,1.8,1.81967214,-118,-125,-122,1.027777777777778,BetOnline
+s;0;m,,,CIN(away) vs WAS(home),MLB,Moneyline,away,,2.08,9.5,9.5,108,850,850,4.5673076923076925,BetOnline
+s;0;m,,,CIN(away) vs WAS(home),MLB,Moneyline,away,,2.08,9.5,2.02,108,850,102,4.702970297029703,PointsBet
+s;0;m,,,CIN(away) vs WAS(home),MLB,Moneyline,away,,2.08,2.05,9.5,108,105,850,4.634146341463415,DraftKings
+s;0;m,,,CIN(away) vs WAS(home),MLB,Moneyline,away,,2.08,2.05,2.02,108,105,102,1.0297029702970297,DraftKings
+s;0;m,,,BAL(away) vs TEX(home),MLB,Moneyline,home,,1.98,26.0,31.0,-102,2500,3000,15.656565656565657,BetOnline
+s;0;m,,,BAL(away) vs TEX(home),MLB,Moneyline,home,,1.98,1.9091,31.0,-102,-110,3000,16.23801791420041,DraftKings
+s;0;m,,,BAL(away) vs TEX(home),MLB,Moneyline,away,,1.93,1.008,1.005,-108,-12500,-20000,1.920398009950249,BetOnline
+s;0;m,,,BAL(away) vs TEX(home),MLB,Moneyline,away,,1.93,1.9091,1.005,-108,-110,-20000,1.920398009950249,DraftKings
+s;0;m,,,MIL(away) vs MIN(home),MLB,Moneyline,home,,1.65,3.2,3.3,-155,220,230,2.0,BetOnline
+s;0;m,,,MIL(away) vs MIN(home),MLB,Moneyline,home,,1.65,3.2,1.61728396,-155,220,-162,1.9786259427194222,PointsBet
+s;0;m,,,MIL(away) vs MIN(home),MLB,Moneyline,home,,1.65,1.625,3.3,-155,-160,230,2.0307692307692307,DraftKings
+s;0;m,,,MIL(away) vs MIN(home),MLB,Moneyline,home,,1.65,1.625,1.61728396,-155,-160,-162,1.020229001714702,BetOnline
+s;0;m,,,MIL(away) vs MIN(home),MLB,Moneyline,away,,2.42,1.3334,1.31746032,142,-300,-315,1.836867466338569,BetOnline
+s;0;m,,,MIL(away) vs MIN(home),MLB,Moneyline,away,,2.42,1.3334,2.36,142,-300,136,1.8149092545372731,PointsBet
+s;0;m,,,MIL(away) vs MIN(home),MLB,Moneyline,away,,2.42,2.3,1.31746032,142,130,-315,1.836867466338569,DraftKings
+s;0;m,,,MIL(away) vs MIN(home),MLB,Moneyline,away,,2.42,2.3,2.36,142,130,136,1.0521739130434784,BetOnline
+s;0;m,,,ARI(away) vs CHC(home),MLB,Moneyline,home,,1.81,11.0,11.0,-124,1000,1000,6.077348066298343,BetOnline
+s;0;m,,,ARI(away) vs CHC(home),MLB,Moneyline,home,,1.81,11.0,1.76923077,-124,1000,-130,6.2173913016446125,PointsBet
+s;0;m,,,ARI(away) vs CHC(home),MLB,Moneyline,home,,1.81,1.7693,11.0,-124,-130,1000,6.217148024642514,DraftKings
+s;0;m,,,ARI(away) vs CHC(home),MLB,Moneyline,home,,1.81,1.7693,1.76923077,-124,-130,-130,1.023043477816068,BetOnline
+s;0;m,,,ARI(away) vs CHC(home),MLB,Moneyline,away,,2.14,1.05,1.04761905,114,-2000,-2100,2.042727268084711,BetOnline
+s;0;m,,,ARI(away) vs CHC(home),MLB,Moneyline,away,,2.14,1.05,2.1,114,-2000,110,2.038095238095238,PointsBet
+s;0;m,,,ARI(away) vs CHC(home),MLB,Moneyline,away,,2.14,2.1,1.04761905,114,110,-2100,2.042727268084711,DraftKings
+s;0;m,,,ARI(away) vs CHC(home),MLB,Moneyline,away,,2.14,2.1,2.1,114,110,110,1.019047619047619,BetOnline
+s;0;m,,,STL(away) vs ATL(home),MLB,Moneyline,home,,1.69,5.75,6.0,-145,475,500,3.5502958579881656,BetOnline
+s;0;m,,,STL(away) vs ATL(home),MLB,Moneyline,home,,1.69,5.75,1.67567568,-145,475,-148,3.431451604047867,PointsBet
+s;0;m,,,STL(away) vs ATL(home),MLB,Moneyline,home,,1.69,1.6667,6.0,-145,-150,500,3.599928001439971,DraftKings
+s;0;m,,,STL(away) vs ATL(home),MLB,Moneyline,home,,1.69,1.6667,1.67567568,-145,-150,-148,1.0139797204055918,BetOnline
+s;0;m,,,STL(away) vs ATL(home),MLB,Moneyline,away,,2.33,1.125,1.1234568,133,-800,-810,2.0739560257234637,BetOnline
+s;0;m,,,STL(away) vs ATL(home),MLB,Moneyline,away,,2.33,1.125,2.24,133,-800,124,2.071111111111111,PointsBet
+s;0;m,,,STL(away) vs ATL(home),MLB,Moneyline,away,,2.33,2.25,1.1234568,133,125,-810,2.0739560257234637,DraftKings
+s;0;m,,,STL(away) vs ATL(home),MLB,Moneyline,away,,2.33,2.25,2.24,133,125,124,1.0401785714285714,BetOnline
+s;0;m,,,SF(away) vs COL(home),MLB,Moneyline,home,,2.37,1.0,1.30303031,137,0,-330,2.37,BetOnline
+s;0;m,,,SF(away) vs COL(home),MLB,Moneyline,home,,2.37,1.0,2.3,137,0,130,2.37,PointsBet
+s;0;m,,,SF(away) vs COL(home),MLB,Moneyline,home,,2.37,2.3,1.30303031,137,130,-330,1.8188371995736616,DraftKings
+s;0;m,,,SF(away) vs COL(home),MLB,Moneyline,home,,2.37,2.3,2.3,137,130,130,1.0304347826086957,BetOnline
+s;0;m,,,SF(away) vs COL(home),MLB,Moneyline,away,,1.67,1.0,3.4,-149,0,240,3.4,DraftKings
+s;0;m,,,SF(away) vs COL(home),MLB,Moneyline,away,,1.67,1.0,1.6451613,-149,0,-155,1.67,PointsBet
+s;0;m,,,SF(away) vs COL(home),MLB,Moneyline,away,,1.67,1.625,3.4,-149,-160,240,2.0923076923076924,DraftKings
+s;0;m,,,SF(away) vs COL(home),MLB,Moneyline,away,,1.67,1.625,1.6451613,-149,-160,-155,1.0276923076923077,BetOnline
+s;0;s;1.5,,,SF(away) vs COL(home),MLB,Run Line,home,1.5,1.87,1.0,1.84745763,-115,0,-118,1.87,PointsBet
+s;0;s;1.5,,,SF(away) vs COL(home),MLB,Run Line,home,1.5,1.87,1.8696,1.84745763,-115,-115,-118,1.012201833283722,DraftKings
+s;0;s;1.5,,,SF(away) vs COL(home),MLB,Run Line,away,-1.5,1.95,1.0,1.98039216,-105,0,-102,1.98039216,PointsBet
+s;0;s;1.5,,,SF(away) vs COL(home),MLB,Run Line,away,-1.5,1.95,1.9524,1.98039216,-105,-105,-102,1.0155857230769232,DraftKings
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,home,,1.81,1.7693,1.76923077,-123,-130,-130,1.023043477816068,BetOnline
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,home,,1.81,1.7693,1.95238096,-123,-130,-105,1.103476493528514,DraftKings
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,home,,2.0,1.7693,1.76923077,100,-130,-130,1.1304347821172023,BetOnline
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,home,,2.0,1.7693,1.95238096,100,-130,-105,1.1303905499350024,PointsBet
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,home,,1.81,1.9091,1.76923077,-123,-110,-130,1.0790565212699754,PointsBet
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,home,,1.81,1.9091,1.95238096,-123,-110,-105,1.0786635138121545,BetOnline
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,home,,2.0,1.9091,1.76923077,100,-110,-130,1.1304347821172023,DraftKings
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,home,,2.0,1.9091,1.95238096,100,-110,-105,1.0476140589806715,BetOnline
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,away,,2.13,2.1,2.1,113,110,110,1.0142857142857142,BetOnline
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,away,,2.13,2.1,1.86956522,113,110,-115,1.139302323991671,DraftKings
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,away,,1.91,2.1,2.1,-110,110,110,1.099476439790576,BetOnline
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,away,,1.91,2.1,1.86956522,-110,110,-115,1.1232558123861547,PointsBet
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,away,,2.13,1.9091,2.1,113,-110,110,1.1157089728144152,PointsBet
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,away,,2.13,1.9091,1.86956522,113,-110,-115,1.139302323991671,BetOnline
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,away,,1.91,1.9091,2.1,-110,-110,110,1.099994761929705,DraftKings
+s;0;m,,,HOU(away) vs SEA(home),MLB,Moneyline,away,,1.91,1.9091,1.86956522,-110,-110,-115,1.021627905551217,DraftKings
+s;0;s;-1.5,,,HOU(away) vs SEA(home),MLB,Run Line,home,-1.5,2.7,2.75,2.7,170,175,170,1.0185185185185184,PointsBet
+s;0;s;-1.5,,,HOU(away) vs SEA(home),MLB,Run Line,away,1.5,1.51,1.4762,1.48780488,-195,-210,-205,1.0228966264733776,BetOnline
+pp;0;ou;hit;0.5,over,A. Bregman,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.43,1.4,1.41,-233,-250,-240,1.0214285714285714,BetOnline
+pp;0;ou;hit;0.5,under,A. Bregman,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.73,2.7,2.75,173,170,175,1.0185185185185184,PointsBet
+pp;0;ou;hit;0.5,over,C. Raleigh,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.58,1.5883,1.55,-172,-170,-180,1.024709677419355,DraftKings
+pp;0;ou;hit;0.5,under,C. Raleigh,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.32,2.25,2.3,132,125,130,1.031111111111111,PointsBet
+pp;0;ou;hit;0.5,over,J. Altuve,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.39,1.3637,1.37,-256,-275,-265,1.0192857666642223,BetOnline
+pp;0;ou;hit;0.5,under,J. Altuve,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.92,2.85,2.9,192,185,190,1.0245614035087718,PointsBet
+pp;0;ou;hit;0.5,over,J. Crawford,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.57,1.5556,1.57,-175,-180,-175,1.0092568783749036,PointsBet
+pp;0;ou;hit;0.5,under,J. Crawford,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.34,2.3,2.3,134,130,130,1.0173913043478262,BetOnline
+pp;0;ou;hit;0.5,over,J. Meyers,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.6,1.5556,1.55,-167,-180,-180,1.032258064516129,BetOnline
+pp;0;ou;hit;0.5,under,J. Meyers,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.28,2.3,2.3,128,130,130,1.0087719298245614,BetOnline
+pp;0;ou;hit;0.5,over,J. Pena,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.45,1.4762,1.41,-222,-210,-240,1.046950354609929,DraftKings
+pp;0;ou;hit;0.5,under,J. Pena,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.68,2.5,2.7,168,150,170,1.08,PointsBet
+pp;0;ou;hit;0.5,over,J. Polanco,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.55,1.5,1.52,-182,-200,-190,1.0333333333333334,BetOnline
+pp;0;ou;hit;0.5,under,J. Polanco,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.39,2.4,2.4,139,140,140,1.00418410041841,BetOnline
+pp;0;ou;hit;0.5,over,J. Rodriguez,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.44,1.4167,1.43,-227,-240,-230,1.0164466718430154,PointsBet
+pp;0;ou;hit;0.5,under,J. Rodriguez,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.7,2.6,2.65,170,160,165,1.0384615384615385,PointsBet
+pp;0;ou;hit;0.5,over,J. Singleton,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.64,1.5883,1.58,-156,-170,-170,1.0379746835443038,BetOnline
+pp;0;ou;hit;0.5,under,J. Singleton,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.21,2.25,2.25,121,125,125,1.0180995475113122,BetOnline
+pp;0;ou;hit;0.5,over,M. Garver,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.7,1.6897,1.66,-143,-145,-150,1.0240963855421688,DraftKings
+pp;0;ou;hit;0.5,under,M. Garver,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.1,2.05,2.1,110,105,110,1.024390243902439,PointsBet
+pp;0;ou;hit;0.5,over,M. Haniger,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.69,1.6897,1.71,-145,-145,-140,1.0120139669763863,DraftKings
+pp;0;ou;hit;0.5,under,M. Haniger,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.12,2.05,2.05,112,105,105,1.0341463414634149,BetOnline
+pp;0;ou;hit;0.5,over,T. France,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.73,1.7143,1.71,-137,-140,-140,1.0116959064327486,BetOnline
+pp;0;ou;hit;0.5,under,T. France,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.06,2.0,2.05,106,100,105,1.03,PointsBet
+pp;0;ou;hit;0.5,over,Y. Alvarez,HOU(away) vs SEA(home),MLB,Hits,,0.5,1.42,1.4,1.38,-238,-250,-260,1.028985507246377,BetOnline
+pp;0;ou;hit;0.5,under,Y. Alvarez,HOU(away) vs SEA(home),MLB,Hits,,0.5,2.78,2.7,2.85,178,170,185,1.0555555555555556,PointsBet
+pp;0;ou;sb;0.5,over,A. Bregman,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,11.96,13.0,12.0,1096,1200,1100,1.0869565217391304,PointsBet
+pp;0;ou;sb;0.5,under,A. Bregman,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,1.02,1.02,1.01,-5000,-5000,-8000,1.00990099009901,DraftKings
+pp;0;ou;sb;0.5,over,J. Altuve,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,4.95,4.2,4.5,395,320,350,1.1785714285714286,BetOnline
+pp;0;ou;sb;0.5,under,J. Altuve,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,1.16,1.16,1.17,-625,-625,-575,1.0086206896551724,DraftKings
+pp;0;ou;sb;0.5,over,J. Meyers,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,6.46,5.25,6.0,546,425,500,1.2304761904761905,PointsBet
+pp;0;ou;sb;0.5,under,J. Meyers,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,1.1,1.1,1.1,-1000,-1000,-1000,1.0,BetOnline
+pp;0;ou;sb;0.5,over,J. Pena,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,5.84,4.75,5.25,484,375,425,1.2294736842105263,BetOnline
+pp;0;ou;sb;0.5,under,J. Pena,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,1.12,1.125,1.13,-833,-800,-750,1.0089285714285712,BetOnline
+pp;0;ou;sb;0.5,over,J. Polanco,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,11.96,16.0,13.0,1096,1500,1200,1.3377926421404682,PointsBet
+pp;0;ou;sb;0.5,under,J. Polanco,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,1.02,1.0143,1.005,-5000,-6993,-20000,1.0149253731343284,DraftKings
+pp;0;ou;sb;0.5,over,J. Rodriguez,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,5.14,4.75,5.25,414,375,425,1.105263157894737,PointsBet
+pp;0;ou;sb;0.5,under,J. Rodriguez,HOU(away) vs SEA(home),MLB,Stolen Bases,,0.5,1.15,1.125,1.12,-667,-800,-800,1.0267857142857142,BetOnline
+pp;0;ou;so;5.5,over,F. Valdez,HOU(away) vs SEA(home),MLB,Strikeouts Thrown,,5.5,1.64,1.6897,1.68,-156,-145,-145,1.0303048780487805,BetOnline
+pp;0;ou;so;5.5,under,F. Valdez,HOU(away) vs SEA(home),MLB,Strikeouts Thrown,,5.5,2.2,2.1,2.1,120,110,110,1.0476190476190477,BetOnline
+pp;0;ou;so;5.5,over,G. Kirby,HOU(away) vs SEA(home),MLB,Strikeouts Thrown,,5.5,1.77,1.6897,1.71,-130,-145,-140,1.0475232289755578,BetOnline
+pp;0;ou;so;5.5,under,G. Kirby,HOU(away) vs SEA(home),MLB,Strikeouts Thrown,,5.5,2.0,2.1,2.05,100,110,105,1.05,PointsBet
+pp;0;ss;hit;1.5,over,J. Singleton,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,3.92,4.3,4.3,292,330,330,1.096938775510204,BetOnline
+pp;0;ss;hit;1.5,over,M. Garver,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,4.0,5.0,5.0,300,400,400,1.25,BetOnline
+pp;0;ss;hit;1.5,over,C. Raleigh,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,3.7,4.3,4.1,270,330,310,1.162162162162162,BetOnline
+pp;0;ss;hit;1.5,over,J. Rodriguez,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,2.97,3.3,3.3,197,230,230,1.111111111111111,BetOnline
+pp;0;ss;hit;2.5,over,J. Rodriguez,HOU(away) vs SEA(home),MLB,Hits Milestones,,2.5,7.94,11.0,11.0,694,1000,1000,1.3853904282115868,BetOnline
+pp;0;ss;hit;1.5,over,J. Polanco,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,3.62,3.8,4.1,262,280,310,1.1325966850828728,DraftKings
+pp;0;ss;hit;1.5,over,J. Crawford,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,3.69,4.0,4.4,269,300,340,1.1924119241192412,DraftKings
+pp;0;ss;hit;1.5,over,T. France,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,4.05,5.0,5.0,305,400,400,1.234567901234568,BetOnline
+pp;0;ss;hit;1.5,over,J. Meyers,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,3.44,4.1,4.2,244,310,320,1.2209302325581397,BetOnline
+pp;0;ss;hit;1.5,over,J. Altuve,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,2.79,3.1,2.9,179,210,190,1.1111111111111112,PointsBet
+pp;0;ss;hit;2.5,over,J. Altuve,HOU(away) vs SEA(home),MLB,Hits Milestones,,2.5,7.19,10.0,9.0,619,900,800,1.3908205841446453,BetOnline
+pp;0;ss;hit;1.5,over,Y. Alvarez,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,2.9,3.3,3.0,190,230,200,1.1379310344827587,PointsBet
+pp;0;ss;hit;2.5,over,Y. Alvarez,HOU(away) vs SEA(home),MLB,Hits Milestones,,2.5,7.72,11.0,9.0,672,1000,800,1.4248704663212435,PointsBet
+pp;0;ss;hit;1.5,over,A. Bregman,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,2.96,3.3,3.25,196,230,225,1.114864864864865,BetOnline
+pp;0;ss;hit;2.5,over,A. Bregman,HOU(away) vs SEA(home),MLB,Hits Milestones,,2.5,8.04,11.0,10.5,704,1000,950,1.3681592039800996,BetOnline
+pp;0;ss;hit;1.5,over,J. Pena,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,3.01,3.6,3.35,201,260,235,1.196013289036545,BetOnline
+pp;0;ss;hit;2.5,over,J. Pena,HOU(away) vs SEA(home),MLB,Hits Milestones,,2.5,8.18,13.0,11.0,718,1200,1000,1.5892420537897312,BetOnline
+pp;0;ss;hit;0.5,over,Y. Diaz,HOU(away) vs SEA(home),MLB,Hits Milestones,,0.5,1.38,1.3847,1.38,-263,-260,-260,1.0034057971014494,PointsBet
+pp;0;ss;hit;2.5,over,Y. Diaz,HOU(away) vs SEA(home),MLB,Hits Milestones,,2.5,5.8,11.0,8.0,480,1000,700,1.896551724137931,PointsBet
+pp;0;ss;hit;1.5,over,M. Haniger,HOU(away) vs SEA(home),MLB,Hits Milestones,,1.5,4.07,4.75,5.0,307,375,400,1.2285012285012284,BetOnline
+pp;0;ou;tb;0.5,over,J. Singleton,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,1.63,1.5883,1.58,-159,-170,-170,1.0316455696202531,BetOnline
+pp;0;ou;tb;0.5,under,J. Singleton,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,2.22,2.25,2.25,122,125,125,1.0135135135135134,BetOnline
+pp;0;ou;tb;1.5,over,J. Rodriguez,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,2.39,2.3,2.3,139,130,130,1.039130434782609,BetOnline
+pp;0;ou;tb;1.5,under,J. Rodriguez,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,1.55,1.5556,1.55,-182,-180,-180,1.0036129032258065,PointsBet
+pp;0;ou;tb;0.5,over,J. Crawford,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,1.6,1.5556,1.57,-167,-180,-175,1.0285420416559528,BetOnline
+pp;0;ou;tb;0.5,under,J. Crawford,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,2.27,2.3,2.3,127,130,130,1.0132158590308369,BetOnline
+pp;0;ou;tb;0.5,over,M. Garver,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,1.7,1.6897,1.66,-143,-145,-150,1.0240963855421688,DraftKings
+pp;0;ou;tb;0.5,under,M. Garver,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,2.1,2.05,2.1,110,105,110,1.024390243902439,PointsBet
+pp;0;ou;tb;0.5,over,T. France,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,1.74,1.7143,1.71,-135,-140,-140,1.0175438596491229,BetOnline
+pp;0;ou;tb;0.5,under,T. France,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,2.05,2.0,2.05,105,100,105,1.025,PointsBet
+pp;0;ou;tb;0.5,over,J. Meyers,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,1.58,1.5556,1.55,-172,-180,-180,1.0193548387096774,BetOnline
+pp;0;ou;tb;0.5,under,J. Meyers,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,2.31,2.3,2.3,131,130,130,1.0043478260869567,BetOnline
+pp;0;ou;tb;1.5,over,J. Altuve,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,2.32,2.2,2.25,132,120,125,1.0545454545454545,BetOnline
+pp;0;ou;tb;1.5,under,J. Altuve,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,1.58,1.625,1.57,-172,-160,-175,1.0350318471337578,PointsBet
+pp;0;ou;tb;1.5,over,Y. Alvarez,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,2.06,2.0,2.0,106,100,100,1.03,BetOnline
+pp;0;ou;tb;1.5,under,Y. Alvarez,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,1.73,1.7408,1.74,-137,-135,-135,1.006242774566474,BetOnline
+pp;0;ou;tb;1.5,over,A. Bregman,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,2.41,2.25,2.35,141,125,135,1.0711111111111111,PointsBet
+pp;0;ou;tb;1.5,under,A. Bregman,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,1.54,1.5883,1.54,-185,-170,-185,1.0313636363636363,PointsBet
+pp;0;ou;tb;1.5,over,J. Pena,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,2.58,2.5,2.5,158,150,150,1.032,BetOnline
+pp;0;ou;tb;1.5,under,J. Pena,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,1.48,1.4762,1.48,-208,-210,-205,1.0025741769407939,PointsBet
+pp;0;ou;tb;1.5,over,Y. Diaz,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,2.24,2.1,2.15,124,110,115,1.0666666666666667,BetOnline
+pp;0;ou;tb;1.5,under,Y. Diaz,HOU(away) vs SEA(home),MLB,Total Bases,,1.5,1.62,1.6667,1.62,-161,-150,-160,1.028827160493827,PointsBet
+pp;0;ou;tb;0.5,over,C. Raleigh,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,1.58,1.5883,1.55,-172,-170,-180,1.024709677419355,DraftKings
+pp;0;ou;tb;0.5,under,C. Raleigh,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,2.32,2.25,2.3,132,125,130,1.031111111111111,PointsBet
+pp;0;ou;tb;0.5,over,M. Haniger,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,1.73,1.6897,1.71,-137,-145,-140,1.023850387642777,PointsBet
+pp;0;ou;tb;0.5,under,M. Haniger,HOU(away) vs SEA(home),MLB,Total Bases,,0.5,2.06,2.05,2.05,106,105,105,1.0048780487804878,BetOnline
+pp;0;ss;so;4.5,over,F. Valdez,HOU(away) vs SEA(home),MLB,Strikeouts Milestones,,4.5,1.24,1.3449,1.28,-417,-290,-350,1.0845967741935483,PointsBet
+pp;0;ss;so;6.5,over,F. Valdez,HOU(away) vs SEA(home),MLB,Strikeouts Milestones,,6.5,2.21,2.3,2.05,121,130,105,1.1219512195121952,DraftKings
+pp;0;ss;so;7.5,over,F. Valdez,HOU(away) vs SEA(home),MLB,Strikeouts Milestones,,7.5,3.16,3.3,3.5,216,230,250,1.1075949367088607,DraftKings
+pp;0;ss;so;4.5,over,G. Kirby,HOU(away) vs SEA(home),MLB,Strikeouts Milestones,,4.5,1.3,1.3334,1.37,-333,-300,-265,1.0538461538461539,DraftKings
+pp;0;ss;so;6.5,over,G. Kirby,HOU(away) vs SEA(home),MLB,Strikeouts Milestones,,6.5,2.45,2.35,2.55,145,135,155,1.0851063829787233,PointsBet
+pp;0;ss;so;7.5,over,G. Kirby,HOU(away) vs SEA(home),MLB,Strikeouts Milestones,,7.5,3.69,3.5,4.1,269,250,310,1.1714285714285713,DraftKings
+s;0;s;-1.5,,,MIL(away) vs MIN(home),MLB,Run Line,home,-1.5,2.35,2.25,2.3,135,125,130,1.0444444444444445,BetOnline
+s;0;s;-1.5,,,MIL(away) vs MIN(home),MLB,Run Line,away,1.5,1.65,1.6667,1.6451613,-155,-150,-155,1.0130921509033795,PointsBet
+s;0;s;-1.5,,,CIN(away) vs WAS(home),MLB,Run Line,home,-1.5,2.65,2.65,2.64,165,165,164,1.0037878787878787,DraftKings
+s;0;s;-1.5,,,CIN(away) vs WAS(home),MLB,Run Line,away,1.5,1.53,1.5,1.50505051,-190,-200,-198,1.02,BetOnline
+s;0;m,,,PHI(away) vs PIT(home),MLB,Moneyline,home,,2.24,2.25,2.2,124,125,120,1.0227272727272727,DraftKings
+s;0;m,,,PHI(away) vs PIT(home),MLB,Moneyline,away,,1.74,1.6667,1.70422536,-135,-150,-142,1.0439791204175917,PointsBet
+s;0;s;1.5,,,PHI(away) vs PIT(home),MLB,Run Line,home,1.5,1.77,1.8,1.76923077,-130,-125,-130,1.017391303905482,PointsBet
+s;0;s;1.5,,,PHI(away) vs PIT(home),MLB,Run Line,away,-1.5,2.1,2.05,2.1,110,105,110,1.024390243902439,PointsBet
+s;0;s;-1.5,,,STL(away) vs ATL(home),MLB,Run Line,home,-1.5,2.35,2.3,2.36,135,130,136,1.0260869565217392,PointsBet
+s;0;s;-1.5,,,STL(away) vs ATL(home),MLB,Run Line,away,1.5,1.65,1.625,1.61728396,-155,-160,-162,1.020229001714702,BetOnline
+s;0;ou;8.5,over,,STL(away) vs ATL(home),MLB,Total,,8.5,1.87,1.8334,1.86956522,-115,-120,-115,1.0199629104396204,PointsBet
+s;0;ou;8.5,under,,STL(away) vs ATL(home),MLB,Total,,8.5,1.95,2.0,1.95238096,-105,100,-105,1.0256410256410258,PointsBet
+s;0;m,,,TB(away) vs NYY(home),MLB,Moneyline,home,,1.67,1.6667,1.6451613,-150,-150,-155,1.0150980332445212,DraftKings
+s;0;m,,,TB(away) vs NYY(home),MLB,Moneyline,away,,2.38,2.25,2.3,138,125,130,1.0577777777777777,BetOnline
+s;0;s;-1.5,,,TB(away) vs NYY(home),MLB,Run Line,home,-1.5,2.35,2.25,2.3,135,125,130,1.0444444444444445,BetOnline
+s;0;s;-1.5,,,TB(away) vs NYY(home),MLB,Run Line,away,1.5,1.65,1.6667,1.6451613,-155,-150,-155,1.0130921509033795,PointsBet
+s;0;ou;8.5,over,,TB(away) vs NYY(home),MLB,Total,,8.5,1.84,1.8334,1.84745763,-119,-120,-118,1.0076675193629323,DraftKings
+s;0;ou;8.5,under,,TB(away) vs NYY(home),MLB,Total,,8.5,1.99,2.0,1.98039216,-101,100,-102,1.0099009884991668,PointsBet
+s;0;m,,,DET(away) vs TOR(home),MLB,Moneyline,home,,1.68,1.6667,1.6451613,-147,-150,-155,1.0211764645813148,DraftKings
+s;0;m,,,DET(away) vs TOR(home),MLB,Moneyline,away,,2.35,2.25,2.3,135,125,130,1.0444444444444445,BetOnline
+s;0;s;-1.5,,,DET(away) vs TOR(home),MLB,Run Line,home,-1.5,2.4,2.3,2.4,140,130,140,1.0434782608695652,PointsBet
+s;0;s;-1.5,,,DET(away) vs TOR(home),MLB,Run Line,away,1.5,1.62,1.625,1.60240964,-160,-160,-166,1.0140977434459268,DraftKings
+s;0;m,,,SD(away) vs CLE(home),MLB,Moneyline,home,,1.91,1.8696,1.86956522,-110,-115,-115,1.021627905551217,BetOnline
+s;0;m,,,SD(away) vs CLE(home),MLB,Moneyline,away,,2.0,1.9524,1.95238096,100,-105,-105,1.0243902399048186,BetOnline
+s;0;m,,,CWS(away) vs KAN(home),MLB,Moneyline,home,,1.48,1.4167,1.44444445,-210,-240,-225,1.0446813016164325,BetOnline
+s;0;m,,,CWS(away) vs KAN(home),MLB,Moneyline,away,,2.9,2.9,2.85,190,190,185,1.0175438596491226,DraftKings
+s;0;s;-1.5,,,CWS(away) vs KAN(home),MLB,Run Line,home,-1.5,1.95,1.9091,1.95238096,-105,-110,-105,1.02267087109109,PointsBet
+s;0;s;-1.5,,,CWS(away) vs KAN(home),MLB,Run Line,away,1.5,1.87,1.9091,1.86956522,-115,-110,-115,1.0211465102030515,PointsBet
+s;0;ou;8.5,over,,CWS(away) vs KAN(home),MLB,Total,,8.5,1.96,1.9524,1.95238096,-104,-105,-105,1.0039024351067223,BetOnline
+s;0;ou;8.5,under,,CWS(away) vs KAN(home),MLB,Total,,8.5,1.86,1.8696,1.86956522,-116,-115,-115,1.0051612903225806,BetOnline
+s;0;m,,,LAA(away) vs OAK(home),MLB,Moneyline,home,,1.78,1.7143,1.74074075,-128,-140,-135,1.0383246806276616,BetOnline
+s;0;m,,,LAA(away) vs OAK(home),MLB,Moneyline,away,,2.18,2.15,2.14,118,115,114,1.0186915887850467,BetOnline
+s;0;s;-1.5,,,LAA(away) vs OAK(home),MLB,Run Line,home,-1.5,2.5,2.5,2.45,150,150,145,1.0204081632653061,DraftKings
+s;0;s;-1.5,,,LAA(away) vs OAK(home),MLB,Run Line,away,1.5,1.59,1.5556,1.57142858,-170,-180,-175,1.022113653895603,BetOnline
+s;0;s;1.5,,,HOU(away) vs SEA(home),MLB,Run Line,home,1.5,1.56,1.5264,1.54054055,-180,-190,-185,1.0220125786163523,BetOnline
+s;0;s;1.5,,,HOU(away) vs SEA(home),MLB,Run Line,away,-1.5,2.6,2.6,2.54,160,160,154,1.0236220472440944,DraftKings
+s;0;m,,,BOS(away) vs LAD(home),MLB,Moneyline,home,,1.88,1.8334,3.3,-114,-120,230,1.7999345478346243,DraftKings
+s;0;m,,,BOS(away) vs LAD(home),MLB,Moneyline,home,,1.88,1.8334,1.83333334,-114,-120,-120,1.0254545417256198,BetOnline
+s;0;m,,,BOS(away) vs LAD(home),MLB,Moneyline,away,,2.04,2.0,1.31746032,104,100,-315,1.5484337319548267,DraftKings
+s;0;m,,,BOS(away) vs LAD(home),MLB,Moneyline,away,,2.04,2.0,2.0,104,100,100,1.02,BetOnline

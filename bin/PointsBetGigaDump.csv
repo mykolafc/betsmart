@@ -1,1 +1,1503 @@
 Teams,League,Category,Designation,Side,Name,Points,PB Decimal Odds,PB American Odds,Key
+DET(away) vs CLE(home),MLB,Moneyline OF,,home,,0.0,1.08,-1250,s;0;m
+DET(away) vs CLE(home),MLB,Moneyline OF,,away,,0.0,8.0,700,s;0;m
+DET(away) vs CLE(home),MLB,Run Line,,home,,-1.5,4.0,300,s;0;s;-1.5
+DET(away) vs CLE(home),MLB,Run Line,,away,,1.5,1.2353,-425,s;0;s;-1.5
+DET(away) vs CLE(home),MLB,Total Runs OF,over,,,9.5,2.3,130,s;0;ou;9.5
+DET(away) vs CLE(home),MLB,Total Runs OF,under,,,9.5,1.5883,-170,s;0;ou;9.5
+BAL(away) vs FLA(home),MLB,Moneyline OF,,home,,0.0,1.0667,-1499,s;0;m
+BAL(away) vs FLA(home),MLB,Moneyline OF,,away,,0.0,9.0,800,s;0;m
+BAL(away) vs FLA(home),MLB,Run Line,,home,,-2.5,1.5,-200,s;0;s;-2.5
+BAL(away) vs FLA(home),MLB,Run Line,,away,,2.5,2.5,150,s;0;s;-2.5
+BAL(away) vs FLA(home),MLB,Total Runs OF,over,,,9.5,1.625,-160,s;0;ou;9.5
+BAL(away) vs FLA(home),MLB,Total Runs OF,under,,,9.5,2.2,120,s;0;ou;9.5
+BAL(away) vs FLA(home),MLB,Total Runs - HOMETEAM OF,over,home,,6.5,3.1,210,s;0;tt;6.5;home
+BAL(away) vs FLA(home),MLB,Total Runs - HOMETEAM OF,under,home,,6.5,1.3449,-290,s;0;tt;6.5;home
+NYM(away) vs NYY(home),MLB,Moneyline OF,,home,,0.0,2.15,115,s;0;m
+NYM(away) vs NYY(home),MLB,Moneyline OF,,away,,0.0,1.6667,-150,s;0;m
+NYM(away) vs NYY(home),MLB,Run Line,,home,,1.5,1.4445,-225,s;0;s;1.5
+NYM(away) vs NYY(home),MLB,Run Line,,away,,-1.5,2.65,165,s;0;s;1.5
+NYM(away) vs NYY(home),MLB,Total Runs OF,over,,,8.5,1.9091,-110,s;0;ou;8.5
+NYM(away) vs NYY(home),MLB,Total Runs OF,under,,,8.5,1.8334,-120,s;0;ou;8.5
+NYM(away) vs NYY(home),MLB,Total Runs - AWAYTEAM OF,over,away,,4.5,2.2,120,s;0;tt;4.5;away
+NYM(away) vs NYY(home),MLB,Total Runs - AWAYTEAM OF,under,away,,4.5,1.625,-160,s;0;tt;4.5;away
+NYM(away) vs NYY(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.6061,-165,s;0;tt;3.5;home
+NYM(away) vs NYY(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,2.25,125,s;0;tt;3.5;home
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,A. Judge,0.5,8.0,700,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,A. Judge,0.5,1.08,-1250,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,B. Nimmo,0.5,16.0,1500,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,B. Nimmo,0.5,1.02,-5000,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,F. Lindor,0.5,12.0,1100,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,F. Lindor,0.5,1.04,-2500,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,G. Torres,1.5,21.0,2000,pp;0;ou;hr;1.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,G. Torres,1.5,1.0112,-8929,pp;0;ou;hr;1.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,H. Bader,0.5,18.0,1700,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,H. Bader,0.5,1.0167,-5988,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,J. Davis,0.5,26.0,2500,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,J. Davis,0.5,1.008,-12500,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,J. Martinez,0.5,16.0,1500,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,J. Martinez,0.5,1.02,-5000,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,M. Vientos,0.5,21.0,2000,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,M. Vientos,0.5,1.0125,-8000,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,P. Alonso,0.5,13.0,1200,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,P. Alonso,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,over,,T. Taylor,0.5,23.0,2200,pp;0;ou;hr;0.5
+NYM(away) vs NYY(home),MLB,Player home runs OF,under,,T. Taylor,0.5,1.01,-10000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Moneyline OF,,home,,0.0,3.0,200,s;0;m
+TB(away) vs TOR(home),MLB,Moneyline OF,,away,,0.0,1.3637,-275,s;0;m
+TB(away) vs TOR(home),MLB,Run Line,,home,,1.5,1.6667,-150,s;0;s;1.5
+TB(away) vs TOR(home),MLB,Run Line,,away,,-1.5,2.15,115,s;0;s;1.5
+TB(away) vs TOR(home),MLB,Total Runs OF,over,,,7.5,1.8,-125,s;0;ou;7.5
+TB(away) vs TOR(home),MLB,Total Runs OF,under,,,7.5,1.9524,-105,s;0;ou;7.5
+TB(away) vs TOR(home),MLB,Total Runs - AWAYTEAM OF,over,away,,4.5,2.2,120,s;0;tt;4.5;away
+TB(away) vs TOR(home),MLB,Total Runs - AWAYTEAM OF,under,away,,4.5,1.625,-160,s;0;tt;4.5;away
+TB(away) vs TOR(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,2.2,120,s;0;tt;3.5;home
+TB(away) vs TOR(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,1.625,-160,s;0;tt;3.5;home
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,B. Lowe,1.5,14.0,1300,pp;0;ou;hr;1.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,B. Lowe,1.5,1.0286,-3497,pp;0;ou;hr;1.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,D. Schneider,0.5,16.0,1500,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,D. Schneider,0.5,1.02,-5000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,D. Varsho,0.5,23.0,2200,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,D. Varsho,0.5,1.01,-10000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,E. Clement,0.5,18.0,1700,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,E. Clement,0.5,1.0167,-5988,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,G. Springer,0.5,15.0,1400,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,G. Springer,0.5,1.025,-4000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,J. Lowe,0.5,23.0,2200,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,J. Lowe,0.5,1.01,-10000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,J. Siri,0.5,21.0,2000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,J. Siri,0.5,1.0112,-8929,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,J. Turner,1.5,21.0,2000,pp;0;ou;hr;1.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,J. Turner,1.5,1.0112,-8929,pp;0;ou;hr;1.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,L. Jimenez,0.5,23.0,2200,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,L. Jimenez,0.5,1.01,-10000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,R. Arozarena,0.5,16.0,1500,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,R. Arozarena,0.5,1.02,-5000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,S. Horwitz,0.5,31.0,3000,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,S. Horwitz,0.5,1.0058,-17241,pp;0;ou;hr;0.5
+TB(away) vs TOR(home),MLB,Player home runs OF,over,,V. Guerrero,1.5,14.0,1300,pp;0;ou;hr;1.5
+TB(away) vs TOR(home),MLB,Player home runs OF,under,,V. Guerrero,1.5,1.0286,-3497,pp;0;ou;hr;1.5
+PHI(away) vs MIN(home),MLB,Moneyline OF,,home,,0.0,1.8,-125,s;0;m
+PHI(away) vs MIN(home),MLB,Moneyline OF,,away,,0.0,1.9524,-105,s;0;m
+PHI(away) vs MIN(home),MLB,Run Line,,home,,1.5,1.3334,-300,s;0;s;1.5
+PHI(away) vs MIN(home),MLB,Run Line,,away,,-1.5,3.2,220,s;0;s;1.5
+PHI(away) vs MIN(home),MLB,Total Runs OF,over,,,3.5,2.2,120,s;0;ou;3.5
+PHI(away) vs MIN(home),MLB,Total Runs OF,under,,,3.5,1.625,-160,s;0;ou;3.5
+PHI(away) vs MIN(home),MLB,Total Runs - AWAYTEAM OF,over,away,,1.5,1.9524,-105,s;0;tt;1.5;away
+PHI(away) vs MIN(home),MLB,Total Runs - AWAYTEAM OF,under,away,,1.5,1.8,-125,s;0;tt;1.5;away
+PHI(away) vs MIN(home),MLB,Total Runs - HOMETEAM OF,over,home,,1.5,2.0,100,s;0;tt;1.5;home
+PHI(away) vs MIN(home),MLB,Total Runs - HOMETEAM OF,under,home,,1.5,1.7693,-130,s;0;tt;1.5;home
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,A. Bohm,0.5,13.0,1200,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,A. Bohm,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,B. Harper,0.5,9.0,800,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,B. Harper,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,B. Lee,0.5,29.0,2800,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,B. Lee,0.5,1.0067,-14925,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,B. Marsh,0.5,26.0,2500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,B. Marsh,0.5,1.008,-12500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,C. Santana,0.5,13.0,1200,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,C. Santana,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,E. Julien,0.5,26.0,2500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,E. Julien,0.5,1.008,-12500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,J. Realmuto,0.5,12.0,1100,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,J. Realmuto,0.5,1.04,-2500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,K. Schwarber,0.5,12.0,1100,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,K. Schwarber,0.5,1.04,-2500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,M. Kepler,0.5,13.0,1200,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,M. Kepler,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,M. Wallner,0.5,16.0,1500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,M. Wallner,0.5,1.02,-5000,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,N. Castellanos,0.5,15.0,1400,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,N. Castellanos,0.5,1.025,-4000,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,T. Larnach,0.5,16.0,1500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,T. Larnach,0.5,1.02,-5000,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,T. Turner,0.5,16.0,1500,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,T. Turner,0.5,1.02,-5000,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,over,,W. Castro,0.5,14.0,1300,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Player home runs OF,under,,W. Castro,0.5,1.0286,-3497,pp;0;ou;hr;0.5
+PHI(away) vs MIN(home),MLB,Alternate Pitcher Strikeouts,over,,Z. Wheeler,4.5,1.2223,-450,pp;0;ss;so;4.5
+PHI(away) vs MIN(home),MLB,Alternate Pitcher Strikeouts,over,,Z. Wheeler,5.5,1.6897,-145,pp;0;ss;so;5.5
+PHI(away) vs MIN(home),MLB,Alternate Pitcher Strikeouts,over,,Z. Wheeler,6.5,2.75,175,pp;0;ss;so;6.5
+PHI(away) vs MIN(home),MLB,Alternate Pitcher Strikeouts,over,,Z. Wheeler,7.5,5.0,400,pp;0;ss;so;7.5
+PHI(away) vs MIN(home),MLB,Alternate Pitcher Strikeouts,over,,Z. Wheeler,8.5,9.5,850,pp;0;ss;so;8.5
+PHI(away) vs MIN(home),MLB,Alternate Pitcher Strikeouts,over,,Z. Wheeler,9.5,16.0,1500,pp;0;ss;so;9.5
+CWS(away) vs TEX(home),MLB,Moneyline OF,,home,,0.0,1.2353,-425,s;0;m
+CWS(away) vs TEX(home),MLB,Moneyline OF,,away,,0.0,4.0,300,s;0;m
+CWS(away) vs TEX(home),MLB,Run Line,,home,,-1.5,1.7143,-140,s;0;s;-1.5
+CWS(away) vs TEX(home),MLB,Run Line,,away,,1.5,2.05,105,s;0;s;-1.5
+CWS(away) vs TEX(home),MLB,Total Runs OF,over,,,7.5,1.9524,-105,s;0;ou;7.5
+CWS(away) vs TEX(home),MLB,Total Runs OF,under,,,7.5,1.8,-125,s;0;ou;7.5
+CWS(away) vs TEX(home),MLB,Total Runs - AWAYTEAM OF,over,away,,2.5,1.8696,-115,s;0;tt;2.5;away
+CWS(away) vs TEX(home),MLB,Total Runs - AWAYTEAM OF,under,away,,2.5,1.8696,-115,s;0;tt;2.5;away
+CWS(away) vs TEX(home),MLB,Total Runs - HOMETEAM OF,over,home,,4.5,1.9524,-105,s;0;tt;4.5;home
+CWS(away) vs TEX(home),MLB,Total Runs - HOMETEAM OF,under,home,,4.5,1.8,-125,s;0;tt;4.5;home
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,A. Benintendi,0.5,13.0,1200,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,A. Benintendi,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,A. Garcia,0.5,9.5,850,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,A. Garcia,0.5,1.0601,-1664,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,A. Vaughn,0.5,11.0,1000,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,A. Vaughn,0.5,1.05,-2000,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,B. Baldwin,0.5,14.0,1300,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,B. Baldwin,0.5,1.0286,-3497,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,E. Jimenez,0.5,11.0,1000,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,E. Jimenez,0.5,1.05,-2000,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,G. Sheets,0.5,13.0,1200,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,G. Sheets,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,J. Heim,0.5,9.5,850,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,J. Heim,0.5,1.0601,-1664,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,J. Smith,0.5,18.0,1700,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,J. Smith,0.5,1.0167,-5988,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,K. Lee,0.5,13.0,1200,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,K. Lee,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,L. Robert,0.5,6.5,550,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,L. Robert,0.5,1.1,-1000,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,N. Lowe,0.5,13.0,1200,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,N. Lowe,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,P. Dejong,0.5,12.0,1100,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,P. Dejong,0.5,1.04,-2500,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,R. Grossman,0.5,15.0,1400,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,R. Grossman,0.5,1.025,-4000,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,over,,W. Langford,0.5,12.0,1100,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Player home runs OF,under,,W. Langford,0.5,1.04,-2500,pp;0;ou;hr;0.5
+CWS(away) vs TEX(home),MLB,Alternate Pitcher Strikeouts,over,,J. Gray,5.5,1.1819,-550,pp;0;ss;so;5.5
+CWS(away) vs TEX(home),MLB,Alternate Pitcher Strikeouts,over,,J. Gray,6.5,1.7693,-130,pp;0;ss;so;6.5
+CWS(away) vs TEX(home),MLB,Alternate Pitcher Strikeouts,over,,J. Gray,7.5,3.2,220,pp;0;ss;so;7.5
+CWS(away) vs TEX(home),MLB,Alternate Pitcher Strikeouts,over,,J. Gray,8.5,6.5,550,pp;0;ss;so;8.5
+CWS(away) vs TEX(home),MLB,Alternate Pitcher Strikeouts,over,,J. Gray,9.5,14.0,1300,pp;0;ss;so;9.5
+ARI(away) vs KAN(home),MLB,Moneyline OF,,home,,0.0,3.1,210,s;0;m
+ARI(away) vs KAN(home),MLB,Moneyline OF,,away,,0.0,1.3449,-290,s;0;m
+ARI(away) vs KAN(home),MLB,Run Line,,home,,1.5,2.05,105,s;0;s;1.5
+ARI(away) vs KAN(home),MLB,Run Line,,away,,-1.5,1.7143,-140,s;0;s;1.5
+ARI(away) vs KAN(home),MLB,Total Runs OF,over,,,9.5,1.8,-125,s;0;ou;9.5
+ARI(away) vs KAN(home),MLB,Total Runs OF,under,,,9.5,1.9524,-105,s;0;ou;9.5
+ARI(away) vs KAN(home),MLB,Total Runs - AWAYTEAM OF,over,away,,5.5,1.8,-125,s;0;tt;5.5;away
+ARI(away) vs KAN(home),MLB,Total Runs - AWAYTEAM OF,under,away,,5.5,1.9524,-105,s;0;tt;5.5;away
+ARI(away) vs KAN(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.7143,-140,s;0;tt;3.5;home
+ARI(away) vs KAN(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,2.05,105,s;0;tt;3.5;home
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,B. Witt,0.5,9.5,850,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,B. Witt,0.5,1.0601,-1664,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,C. Carroll,0.5,11.5,1050,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,C. Carroll,0.5,1.0445,-2247,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,C. Walker,0.5,8.0,700,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,C. Walker,0.5,1.08,-1250,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,D. Blanco,0.5,21.0,2000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,D. Blanco,0.5,1.02,-5000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,F. Fermin,0.5,11.0,1000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,F. Fermin,0.5,1.05,-2000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,G. Hampson,0.5,26.0,2500,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,G. Hampson,0.5,1.008,-12500,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,G. Moreno,0.5,16.0,1500,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,G. Moreno,0.5,1.02,-5000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,H. Renfroe,0.5,7.0,600,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,H. Renfroe,0.5,1.091,-1099,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,J. Pederson,0.5,11.0,1000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,J. Pederson,0.5,1.05,-2000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,K. Marte,0.5,12.0,1100,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,K. Marte,0.5,1.04,-2500,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,L. Gurriel,0.5,12.0,1100,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,L. Gurriel,0.5,1.04,-2500,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,M. Garcia,0.5,16.0,1500,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,M. Garcia,0.5,1.02,-5000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,N. Loftin,0.5,16.0,1500,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,N. Loftin,0.5,1.02,-5000,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,S. Perez,0.5,5.5,450,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,S. Perez,0.5,1.1334,-750,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,over,,V. Pasquantino,0.5,14.0,1300,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Player home runs OF,under,,V. Pasquantino,0.5,1.0286,-3497,pp;0;ou;hr;0.5
+ARI(away) vs KAN(home),MLB,Alternate Pitcher Strikeouts,over,,J. Montgomery,1.5,1.2858,-350,pp;0;ss;so;1.5
+ARI(away) vs KAN(home),MLB,Alternate Pitcher Strikeouts,over,,J. Montgomery,2.5,2.1,110,pp;0;ss;so;2.5
+ARI(away) vs KAN(home),MLB,Alternate Pitcher Strikeouts,over,,J. Montgomery,3.5,4.5,350,pp;0;ss;so;3.5
+ARI(away) vs KAN(home),MLB,Alternate Pitcher Strikeouts,over,,J. Montgomery,4.5,12.0,1100,pp;0;ss;so;4.5
+BOS(away) vs COL(home),MLB,Moneyline OF,,home,,0.0,4.3,330,s;0;m
+BOS(away) vs COL(home),MLB,Moneyline OF,,away,,0.0,1.2,-500,s;0;m
+BOS(away) vs COL(home),MLB,Run Line,,home,,3.5,1.9091,-110,s;0;s;3.5
+BOS(away) vs COL(home),MLB,Run Line,,away,,-3.5,1.8334,-120,s;0;s;3.5
+BOS(away) vs COL(home),MLB,Total Runs OF,over,,,12.5,1.7143,-140,s;0;ou;12.5
+BOS(away) vs COL(home),MLB,Total Runs OF,under,,,12.5,2.05,105,s;0;ou;12.5
+BOS(away) vs COL(home),MLB,Total Runs - AWAYTEAM OF,over,away,,8.5,2.05,105,s;0;tt;8.5;away
+BOS(away) vs COL(home),MLB,Total Runs - AWAYTEAM OF,under,away,,8.5,1.7143,-140,s;0;tt;8.5;away
+BOS(away) vs COL(home),MLB,Total Runs - HOMETEAM OF,over,home,,4.5,2.05,105,s;0;tt;4.5;home
+BOS(away) vs COL(home),MLB,Total Runs - HOMETEAM OF,under,home,,4.5,1.7143,-140,s;0;tt;4.5;home
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,A. Schunk,0.5,9.5,850,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,A. Schunk,0.5,1.0601,-1664,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,B. Doyle,0.5,7.0,600,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,B. Doyle,0.5,1.091,-1099,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,B. Rodgers,0.5,10.0,900,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,B. Rodgers,0.5,1.0572,-1748,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,C. Blackmon,0.5,8.0,700,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,C. Blackmon,0.5,1.08,-1250,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,C. Rafaela,0.5,7.5,650,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,C. Rafaela,0.5,1.0834,-1199,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,E. Diaz,0.5,8.5,750,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,E. Diaz,0.5,1.0715,-1399,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,E. Tovar,0.5,7.5,650,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,E. Tovar,0.5,1.0834,-1199,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,J. Cave,0.5,9.0,800,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,J. Cave,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,J. Duran,0.5,7.0,600,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,J. Duran,0.5,1.091,-1099,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,J. Westbrook,0.5,8.0,700,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,J. Westbrook,0.5,1.08,-1250,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,M. Toglia,0.5,5.75,475,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,M. Toglia,0.5,1.125,-800,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,M. Yoshida,0.5,8.0,700,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,M. Yoshida,0.5,1.08,-1250,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,R. Gonzalez,0.5,7.5,650,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,R. Gonzalez,0.5,1.0834,-1199,pp;0;ou;hr;0.5
+BOS(away) vs COL(home),MLB,Player home runs OF,over,,T. O'neill,1.5,4.3,330,pp;0;ou;hr;1.5
+BOS(away) vs COL(home),MLB,Player home runs OF,under,,T. O'neill,1.5,1.2,-500,pp;0;ou;hr;1.5
+BOS(away) vs COL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Criswell,0.5,1.0334,-2994,pp;0;ss;so;0.5
+BOS(away) vs COL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Criswell,1.5,1.16,-625,pp;0;ss;so;1.5
+BOS(away) vs COL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Criswell,2.5,1.4762,-210,pp;0;ss;so;2.5
+BOS(away) vs COL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Criswell,3.5,2.1,110,pp;0;ss;so;3.5
+BOS(away) vs COL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Criswell,4.5,3.2,220,pp;0;ss;so;4.5
+BOS(away) vs COL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Criswell,5.5,6.0,500,pp;0;ss;so;5.5
+BOS(away) vs COL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Criswell,6.5,12.0,1100,pp;0;ss;so;6.5
+BOS(away) vs COL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Criswell,7.5,23.0,2200,pp;0;ss;so;7.5
+HOU(away) vs OAK(home),MLB,Moneyline OF,,home,,0.0,2.15,115,s;0;m
+HOU(away) vs OAK(home),MLB,Moneyline OF,,away,,0.0,1.7143,-140,s;0;m
+HOU(away) vs OAK(home),MLB,Run Line,,home,,1.5,1.6897,-145,s;0;s;1.5
+HOU(away) vs OAK(home),MLB,Run Line,,away,,-1.5,2.2,120,s;0;s;1.5
+HOU(away) vs OAK(home),MLB,Total Runs OF,over,,,9.0,2.0,100,s;0;ou;9.0
+HOU(away) vs OAK(home),MLB,Total Runs OF,under,,,9.0,1.8334,-120,s;0;ou;9.0
+HOU(away) vs OAK(home),MLB,Total Runs - AWAYTEAM OF,over,away,,4.5,1.8696,-115,s;0;tt;4.5;away
+HOU(away) vs OAK(home),MLB,Total Runs - AWAYTEAM OF,under,away,,4.5,1.8696,-115,s;0;tt;4.5;away
+HOU(away) vs OAK(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.7143,-140,s;0;tt;3.5;home
+HOU(away) vs OAK(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,2.05,105,s;0;tt;3.5;home
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,A. Bregman,0.5,9.5,850,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,A. Bregman,0.5,1.0601,-1664,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,A. Toro,0.5,12.0,1100,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,A. Toro,0.5,1.04,-2500,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,B. Rooker,0.5,5.25,425,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,B. Rooker,0.5,1.1429,-700,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,J. Altuve,0.5,9.0,800,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,J. Altuve,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,J. Bleday,0.5,7.0,600,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,J. Bleday,0.5,1.091,-1099,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,J. Loperfido,0.5,9.0,800,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,J. Loperfido,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,J. Meyers,0.5,10.0,900,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,J. Meyers,0.5,1.0572,-1748,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,J. Pena,0.5,13.0,1200,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,J. Pena,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,J. Singleton,0.5,8.0,700,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,J. Singleton,0.5,1.08,-1250,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,L. Butler,0.5,5.75,475,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,L. Butler,0.5,1.125,-800,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,M. Andujar,0.5,12.0,1100,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,M. Andujar,0.5,1.04,-2500,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,M. Schuemann,0.5,18.0,1700,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,M. Schuemann,0.5,1.0167,-5988,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,S. Brown,0.5,7.5,650,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,S. Brown,0.5,1.0834,-1199,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,S. Langeliers,0.5,5.25,425,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,S. Langeliers,0.5,1.1429,-700,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,V. Caratini,0.5,9.0,800,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,V. Caratini,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,Y. Alvarez,0.5,3.8,280,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,Y. Alvarez,0.5,1.25,-400,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,Y. Diaz,0.5,9.0,800,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,Y. Diaz,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,over,,Z. Gelof,0.5,8.0,700,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player home runs OF,under,,Z. Gelof,0.5,1.08,-1250,pp;0;ou;hr;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,A. Bregman,0.5,1.4762,-210,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,A. Bregman,0.5,2.5,150,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,A. Toro,0.5,1.5556,-180,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,A. Toro,0.5,2.3,130,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,B. Rooker,0.5,1.5,-200,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,B. Rooker,0.5,2.4,140,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,J. Altuve,0.5,1.3637,-275,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,J. Altuve,0.5,2.75,175,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,J. Bleday,0.5,1.5,-200,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,J. Bleday,0.5,2.4,140,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,J. Loperfido,0.5,1.9091,-110,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,J. Loperfido,0.5,1.8,-125,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,J. Meyers,0.5,1.5264,-190,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,J. Meyers,0.5,2.35,135,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,J. Pena,0.5,1.4,-250,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,J. Pena,0.5,2.7,170,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,J. Singleton,0.5,1.7143,-140,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,J. Singleton,0.5,2.0,100,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,L. Butler,0.5,1.4445,-225,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,L. Butler,0.5,2.55,155,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,M. Andujar,0.5,1.4445,-225,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,M. Andujar,0.5,2.55,155,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,M. Schuemann,0.5,1.8548,-117,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,M. Schuemann,0.5,1.8548,-117,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,S. Brown,0.5,1.6897,-145,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,S. Brown,0.5,2.05,105,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,S. Langeliers,0.5,1.625,-160,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,S. Langeliers,0.5,2.2,120,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,V. Caratini,0.5,1.5264,-190,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,V. Caratini,0.5,2.35,135,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,Y. Alvarez,0.5,1.4,-250,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,Y. Alvarez,0.5,2.7,170,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,Y. Diaz,0.5,1.3637,-275,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,Y. Diaz,0.5,2.85,185,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,over,,Z. Gelof,0.5,1.7408,-135,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player hits OF,under,,Z. Gelof,0.5,2.0,100,pp;0;ou;hit;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,A. Bregman,0.5,3.1,210,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,A. Bregman,0.5,1.3077,-325,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,A. Toro,0.5,3.6,260,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,A. Toro,0.5,1.25,-400,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,B. Rooker,0.5,2.6,160,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,B. Rooker,0.5,1.4167,-240,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,J. Altuve,0.5,3.1,210,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,J. Altuve,0.5,1.3077,-325,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,J. Bleday,0.5,2.9,190,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,J. Bleday,0.5,1.3334,-300,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,J. Loperfido,0.5,3.4,240,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,J. Loperfido,0.5,1.2667,-375,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,J. Meyers,0.5,3.0,200,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,J. Meyers,0.5,1.3226,-310,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,J. Pena,0.5,3.0,200,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,J. Pena,0.5,1.3226,-310,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,J. Singleton,0.5,3.1,210,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,J. Singleton,0.5,1.3077,-325,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,L. Butler,0.5,3.0,200,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,L. Butler,0.5,1.3226,-310,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,M. Andujar,0.5,3.3,230,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,M. Andujar,0.5,1.2778,-360,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,M. Schuemann,0.5,4.0,300,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,M. Schuemann,0.5,1.2106,-475,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,S. Brown,0.5,3.4,240,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,S. Brown,0.5,1.2667,-375,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,S. Langeliers,0.5,2.75,175,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,S. Langeliers,0.5,1.3704,-270,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,V. Caratini,0.5,3.0,200,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,V. Caratini,0.5,1.3226,-310,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,Y. Alvarez,0.5,2.3,130,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,Y. Alvarez,0.5,1.5556,-180,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,Y. Diaz,0.5,2.75,175,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,Y. Diaz,0.5,1.3704,-270,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,over,,Z. Gelof,0.5,3.3,230,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player runs batted in OF,under,,Z. Gelof,0.5,1.2778,-360,pp;0;ou;rbi;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,A. Toro,0.5,10.5,950,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,A. Toro,0.5,1.0334,-2994,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,B. Rooker,0.5,13.0,1200,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,B. Rooker,0.5,1.02,-5000,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,J. Altuve,0.5,6.5,550,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,J. Altuve,0.5,1.08,-1250,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,J. Bleday,0.5,13.0,1200,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,J. Bleday,0.5,1.02,-5000,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,J. Loperfido,0.5,10.5,950,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,J. Loperfido,0.5,1.0334,-2994,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,J. Meyers,0.5,8.5,750,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,J. Meyers,0.5,1.0556,-1799,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,J. Pena,0.5,7.5,650,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,J. Pena,0.5,1.0667,-1499,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,L. Butler,0.5,5.25,425,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,L. Butler,0.5,1.1,-1000,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,M. Andujar,0.5,12.0,1100,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,M. Andujar,0.5,1.0223,-4484,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,M. Schuemann,0.5,5.0,400,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,M. Schuemann,0.5,1.1112,-899,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,S. Brown,0.5,10.0,900,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,S. Brown,0.5,1.04,-2500,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,S. Langeliers,0.5,13.0,1200,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,S. Langeliers,0.5,1.02,-5000,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,over,,Z. Gelof,0.5,4.4,340,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Player stolen bases OF,under,,Z. Gelof,0.5,1.1539,-650,pp;0;ou;sb;0.5
+HOU(away) vs OAK(home),MLB,Pitcher strikeouts OF,over,,O. Bido,3.5,2.35,135,pp;0;ou;so;3.5
+HOU(away) vs OAK(home),MLB,Pitcher strikeouts OF,under,,O. Bido,3.5,1.5715,-175,pp;0;ou;so;3.5
+HOU(away) vs OAK(home),MLB,Pitcher strikeouts OF,over,,J. Bloss,4.5,2.05,105,pp;0;ou;so;4.5
+HOU(away) vs OAK(home),MLB,Pitcher strikeouts OF,under,,J. Bloss,4.5,1.7143,-140,pp;0;ou;so;4.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,A. Bregman,0.5,1.4762,-210,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,A. Bregman,1.5,3.5,250,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,A. Bregman,2.5,11.0,1000,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Altuve,0.5,1.4,-250,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Altuve,1.5,3.1,210,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Altuve,2.5,9.5,850,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,S. Brown,0.5,1.7143,-140,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,S. Brown,1.5,5.0,400,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,S. Brown,2.5,19.0,1800,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,M. Andujar,0.5,1.4445,-225,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,M. Andujar,1.5,3.5,250,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,M. Andujar,2.5,12.0,1100,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,S. Langeliers,0.5,1.625,-160,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,S. Langeliers,1.5,4.5,350,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,S. Langeliers,2.5,16.0,1500,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,B. Rooker,0.5,1.5264,-190,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,B. Rooker,1.5,3.8,280,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,B. Rooker,2.5,14.0,1300,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Pena,0.5,1.4167,-240,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Pena,1.5,3.3,230,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Pena,2.5,11.0,1000,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,L. Butler,0.5,1.4762,-210,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,L. Butler,1.5,3.6,260,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,L. Butler,2.5,11.5,1050,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,M. Schuemann,0.5,1.8696,-115,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,M. Schuemann,1.5,6.0,500,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Z. Gelof,0.5,1.7693,-130,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Z. Gelof,1.5,5.0,400,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Z. Gelof,2.5,18.0,1700,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Bleday,0.5,1.5264,-190,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Bleday,1.5,4.0,300,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Bleday,2.5,14.0,1300,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Meyers,0.5,1.5556,-180,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Meyers,1.5,4.0,300,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Meyers,2.5,14.0,1300,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Y. Diaz,0.5,1.3847,-260,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Y. Diaz,1.5,3.0,200,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Y. Diaz,2.5,9.5,850,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Y. Alvarez,0.5,1.4167,-240,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Y. Alvarez,1.5,3.3,230,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,Y. Alvarez,2.5,10.0,900,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,A. Toro,0.5,1.5715,-175,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,A. Toro,1.5,4.1,310,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,A. Toro,2.5,15.0,1400,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Loperfido,0.5,1.9091,-110,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Loperfido,1.5,6.0,500,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Singleton,0.5,1.7143,-140,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Singleton,1.5,5.0,400,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,J. Singleton,2.5,18.0,1700,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,V. Caratini,0.5,1.5556,-180,pp;0;ss;hit;0.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,V. Caratini,1.5,4.1,310,pp;0;ss;hit;1.5
+HOU(away) vs OAK(home),MLB,Alternate Hits,over,,V. Caratini,2.5,15.0,1400,pp;0;ss;hit;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,A. Bregman,0.5,2.9,190,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,A. Bregman,1.5,7.0,600,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,A. Bregman,2.5,15.0,1400,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Pena,0.5,2.85,185,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Pena,1.5,6.5,550,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Pena,2.5,15.0,1400,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Altuve,0.5,2.9,190,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Altuve,1.5,7.0,600,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Altuve,2.5,15.0,1400,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,L. Butler,0.5,2.85,185,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,L. Butler,1.5,6.5,550,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,L. Butler,2.5,15.0,1400,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,S. Brown,0.5,3.1,210,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,S. Brown,1.5,7.0,600,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,S. Brown,2.5,15.0,1400,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,M. Andujar,0.5,3.1,210,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,M. Andujar,1.5,9.0,800,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,B. Rooker,0.5,2.5,150,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,B. Rooker,1.5,5.25,425,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,B. Rooker,2.5,11.0,1000,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Bleday,0.5,2.7,170,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Bleday,1.5,7.0,600,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Bleday,2.5,15.0,1400,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,M. Schuemann,0.5,3.6,260,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,M. Schuemann,1.5,9.5,850,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Z. Gelof,0.5,3.1,210,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Z. Gelof,1.5,7.5,650,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Z. Gelof,2.5,15.0,1400,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,S. Langeliers,0.5,2.55,155,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,S. Langeliers,1.5,5.0,400,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,S. Langeliers,2.5,10.5,950,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Meyers,0.5,2.85,185,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Meyers,1.5,6.5,550,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Meyers,2.5,13.0,1200,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Y. Diaz,0.5,2.55,155,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Y. Diaz,1.5,5.25,425,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Y. Diaz,2.5,12.0,1100,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Y. Alvarez,0.5,2.25,125,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Y. Alvarez,1.5,4.2,320,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Y. Alvarez,2.5,8.5,750,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,Y. Alvarez,3.5,15.0,1400,pp;0;ss;rbi;3.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,A. Toro,0.5,3.25,225,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,A. Toro,1.5,8.5,750,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Loperfido,0.5,3.25,225,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Loperfido,1.5,8.0,700,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Loperfido,2.5,15.0,1400,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Singleton,0.5,2.9,190,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Singleton,1.5,6.5,550,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,J. Singleton,2.5,13.0,1200,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,V. Caratini,0.5,2.85,185,pp;0;ss;rbi;0.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,V. Caratini,1.5,6.5,550,pp;0;ss;rbi;1.5
+HOU(away) vs OAK(home),MLB,Alternate Runs Batted In,over,,V. Caratini,2.5,13.0,1200,pp;0;ss;rbi;2.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,O. Bido,0.5,1.04,-2500,pp;0;ss;so;0.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,O. Bido,1.5,1.2,-500,pp;0;ss;so;1.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,O. Bido,2.5,1.5715,-175,pp;0;ss;so;2.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,O. Bido,3.5,2.35,135,pp;0;ss;so;3.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,O. Bido,4.5,4.0,300,pp;0;ss;so;4.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,O. Bido,5.5,7.5,650,pp;0;ss;so;5.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,O. Bido,6.5,15.0,1400,pp;0;ss;so;6.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,J. Bloss,1.5,1.0601,-1664,pp;0;ss;so;1.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,J. Bloss,2.5,1.1819,-550,pp;0;ss;so;2.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,J. Bloss,3.5,1.4762,-210,pp;0;ss;so;3.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,J. Bloss,4.5,2.05,105,pp;0;ss;so;4.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,J. Bloss,5.5,3.2,220,pp;0;ss;so;5.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,J. Bloss,6.5,5.25,425,pp;0;ss;so;6.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,J. Bloss,7.5,10.0,900,pp;0;ss;so;7.5
+HOU(away) vs OAK(home),MLB,Alternate Pitcher Strikeouts,over,,J. Bloss,8.5,18.0,1700,pp;0;ss;so;8.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,A. Bregman,1.5,2.35,135,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,A. Bregman,1.5,1.5264,-190,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,J. Altuve,1.5,2.2,120,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,J. Altuve,1.5,1.625,-160,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,S. Brown,0.5,1.7143,-140,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,S. Brown,0.5,2.0,100,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,M. Andujar,1.5,2.4,140,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,M. Andujar,1.5,1.5,-200,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,L. Butler,1.5,2.25,125,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,L. Butler,1.5,1.5883,-170,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,M. Schuemann,0.5,1.8548,-117,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,M. Schuemann,0.5,1.8548,-117,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,Z. Gelof,0.5,1.7408,-135,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,Z. Gelof,0.5,2.0,100,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,S. Langeliers,0.5,1.6452,-155,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,S. Langeliers,0.5,2.15,115,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,J. Bleday,1.5,2.35,135,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,J. Bleday,1.5,1.5264,-190,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,J. Pena,1.5,2.3,130,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,J. Pena,1.5,1.5556,-180,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,J. Meyers,0.5,1.5264,-190,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,J. Meyers,0.5,2.35,135,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,Y. Diaz,1.5,2.15,115,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,Y. Diaz,1.5,1.6452,-155,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,Y. Alvarez,1.5,1.9524,-105,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,Y. Alvarez,1.5,1.7693,-130,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,B. Rooker,1.5,2.3,130,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,B. Rooker,1.5,1.5556,-180,pp;0;ou;tb;1.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,A. Toro,0.5,1.5556,-180,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,A. Toro,0.5,2.3,130,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,J. Loperfido,0.5,1.9091,-110,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,J. Loperfido,0.5,1.8,-125,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,J. Singleton,0.5,1.7143,-140,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,J. Singleton,0.5,2.0,100,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,over,,V. Caratini,0.5,1.5264,-190,pp;0;ou;tb;0.5
+HOU(away) vs OAK(home),MLB,Player Total Bases,under,,V. Caratini,0.5,2.35,135,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Moneyline OF,,home,,0.0,1.625,-160,s;0;m
+LAA(away) vs SEA(home),MLB,Moneyline OF,,away,,0.0,2.3,130,s;0;m
+LAA(away) vs SEA(home),MLB,Run Line,,home,,-1.5,2.3,130,s;0;s;-1.5
+LAA(away) vs SEA(home),MLB,Run Line,,away,,1.5,1.625,-160,s;0;s;-1.5
+LAA(away) vs SEA(home),MLB,Total Runs OF,over,,,7.0,1.9524,-105,s;0;ou;7.0
+LAA(away) vs SEA(home),MLB,Total Runs OF,under,,,7.0,1.8696,-115,s;0;ou;7.0
+LAA(away) vs SEA(home),MLB,Total Runs - AWAYTEAM OF,over,away,,2.5,1.7143,-140,s;0;tt;2.5;away
+LAA(away) vs SEA(home),MLB,Total Runs - AWAYTEAM OF,under,away,,2.5,2.05,105,s;0;tt;2.5;away
+LAA(away) vs SEA(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.8334,-120,s;0;tt;3.5;home
+LAA(away) vs SEA(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,1.9091,-110,s;0;tt;3.5;home
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,A. Rendon,0.5,11.0,1000,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,A. Rendon,0.5,1.05,-2000,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,B. Drury,0.5,9.0,800,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,B. Drury,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,C. Raleigh,0.5,5.25,425,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,C. Raleigh,0.5,1.1429,-700,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,D. Moore,0.5,8.5,750,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,D. Moore,0.5,1.0715,-1399,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,J. Adell,0.5,8.5,750,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,J. Adell,0.5,1.0715,-1399,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,J. Polanco,0.5,6.5,550,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,J. Polanco,0.5,1.1,-1000,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,J. Rojas,0.5,9.0,800,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,J. Rojas,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,J. Vosler,0.5,8.0,700,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,J. Vosler,0.5,1.08,-1250,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,L. O'hoppe,0.5,6.0,500,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,L. O'hoppe,0.5,1.1112,-899,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,L. Raley,0.5,8.5,750,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,L. Raley,0.5,1.0715,-1399,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,L. Rengifo,0.5,10.0,900,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,L. Rengifo,0.5,1.0572,-1748,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,M. Moniak,0.5,5.5,450,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,M. Moniak,0.5,1.1334,-750,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,N. Schanuel,0.5,15.0,1400,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,N. Schanuel,0.5,1.025,-4000,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,T. Locklear,0.5,9.5,850,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,T. Locklear,0.5,1.0601,-1664,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,T. Ward,0.5,8.0,700,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,T. Ward,0.5,1.08,-1250,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,V. Robles,0.5,15.0,1400,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,V. Robles,0.5,1.025,-4000,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,over,,Z. Neto,0.5,8.0,700,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player home runs OF,under,,Z. Neto,0.5,1.08,-1250,pp;0;ou;hr;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,A. Rendon,0.5,1.4,-250,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,A. Rendon,0.5,2.7,170,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,B. Drury,0.5,1.5264,-190,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,B. Drury,0.5,2.35,135,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,C. Raleigh,0.5,1.5264,-190,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,C. Raleigh,0.5,2.35,135,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,D. Moore,0.5,1.9091,-110,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,D. Moore,0.5,1.8,-125,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,J. Adell,0.5,1.8548,-117,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,J. Adell,0.5,1.8548,-117,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,J. Polanco,0.5,1.5883,-170,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,J. Polanco,0.5,2.25,125,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,J. Rojas,0.5,1.4762,-210,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,J. Rojas,0.5,2.5,150,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,J. Vosler,0.5,1.9524,-105,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,J. Vosler,0.5,1.7693,-130,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,L. O'hoppe,0.5,1.4762,-210,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,L. O'hoppe,0.5,2.5,150,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,L. Raley,0.5,1.6452,-155,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,L. Raley,0.5,2.15,115,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,L. Rengifo,0.5,1.3637,-275,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,L. Rengifo,0.5,2.85,185,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,M. Moniak,0.5,1.6452,-155,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,M. Moniak,0.5,2.15,115,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,N. Schanuel,0.5,1.4762,-210,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,N. Schanuel,0.5,2.5,150,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,T. Locklear,0.5,1.8548,-117,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,T. Locklear,0.5,1.8548,-117,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,T. Ward,0.5,1.5556,-180,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,T. Ward,0.5,2.3,130,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,V. Robles,0.5,1.6452,-155,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,V. Robles,0.5,2.15,115,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,over,,Z. Neto,0.5,1.6667,-150,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player hits OF,under,,Z. Neto,0.5,2.1,110,pp;0;ou;hit;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,A. Rendon,0.5,3.6,260,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,A. Rendon,0.5,1.25,-400,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,B. Drury,0.5,3.1,210,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,B. Drury,0.5,1.3077,-325,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,C. Raleigh,0.5,2.7,170,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,C. Raleigh,0.5,1.4,-250,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,D. Moore,0.5,3.7,270,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,D. Moore,0.5,1.2353,-425,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,J. Adell,0.5,3.9,290,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,J. Adell,0.5,1.2223,-450,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,J. Polanco,0.5,2.85,185,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,J. Polanco,0.5,1.3572,-280,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,J. Rojas,0.5,3.4,240,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,J. Rojas,0.5,1.2667,-375,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,J. Vosler,0.5,3.9,290,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,J. Vosler,0.5,1.2223,-450,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,L. O'hoppe,0.5,2.7,170,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,L. O'hoppe,0.5,1.4,-250,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,L. Raley,0.5,3.4,240,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,L. Raley,0.5,1.2667,-375,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,L. Rengifo,0.5,3.3,230,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,L. Rengifo,0.5,1.2778,-360,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,M. Moniak,0.5,3.1,210,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,M. Moniak,0.5,1.3077,-325,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,N. Schanuel,0.5,3.3,230,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,N. Schanuel,0.5,1.2778,-360,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,T. Locklear,0.5,3.7,270,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,T. Locklear,0.5,1.2353,-425,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,T. Ward,0.5,3.25,225,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,T. Ward,0.5,1.2858,-350,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,V. Robles,0.5,4.2,320,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,V. Robles,0.5,1.1905,-525,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,over,,Z. Neto,0.5,3.4,240,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player runs batted in OF,under,,Z. Neto,0.5,1.2667,-375,pp;0;ou;rbi;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,A. Rendon,0.5,11.0,1000,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,A. Rendon,0.5,1.0286,-3497,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,D. Moore,0.5,4.5,350,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,D. Moore,0.5,1.1429,-700,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,J. Adell,0.5,6.0,500,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,J. Adell,0.5,1.0834,-1199,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,J. Polanco,0.5,13.0,1200,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,J. Polanco,0.5,1.02,-5000,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,J. Rojas,0.5,8.5,750,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,J. Rojas,0.5,1.0556,-1799,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,L. Raley,0.5,6.5,550,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,L. Raley,0.5,1.08,-1250,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,L. Rengifo,0.5,4.4,340,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,L. Rengifo,0.5,1.1539,-650,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,M. Moniak,0.5,9.5,850,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,M. Moniak,0.5,1.0445,-2247,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,T. Ward,0.5,15.0,1400,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,T. Ward,0.5,1.0167,-5988,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,V. Robles,0.5,3.6,260,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,V. Robles,0.5,1.2223,-450,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,over,,Z. Neto,0.5,5.0,400,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Player stolen bases OF,under,,Z. Neto,0.5,1.1112,-899,pp;0;ou;sb;0.5
+LAA(away) vs SEA(home),MLB,Pitcher strikeouts OF,over,,L. Gilbert,6.5,2.15,115,pp;0;ou;so;6.5
+LAA(away) vs SEA(home),MLB,Pitcher strikeouts OF,under,,L. Gilbert,6.5,1.6667,-150,pp;0;ou;so;6.5
+LAA(away) vs SEA(home),MLB,Pitcher strikeouts OF,over,,J. Soriano,5.5,1.8696,-115,pp;0;ou;so;5.5
+LAA(away) vs SEA(home),MLB,Pitcher strikeouts OF,under,,J. Soriano,5.5,1.8696,-115,pp;0;ou;so;5.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,L. Gilbert,2.5,1.0445,-2247,pp;0;ss;so;2.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,L. Gilbert,3.5,1.1112,-899,pp;0;ss;so;3.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,L. Gilbert,4.5,1.2858,-350,pp;0;ss;so;4.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,L. Gilbert,5.5,1.5883,-170,pp;0;ss;so;5.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,L. Gilbert,6.5,2.15,115,pp;0;ss;so;6.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,L. Gilbert,7.5,3.2,220,pp;0;ss;so;7.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,L. Gilbert,8.5,4.75,375,pp;0;ss;so;8.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,L. Gilbert,9.5,8.0,700,pp;0;ss;so;9.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,1.5,1.0143,-6993,pp;0;ss;so;1.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,2.5,1.0667,-1499,pp;0;ss;so;2.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,3.5,1.1819,-550,pp;0;ss;so;3.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,4.5,1.4167,-240,pp;0;ss;so;4.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,5.5,1.8696,-115,pp;0;ss;so;5.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,6.5,2.65,165,pp;0;ss;so;6.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,7.5,4.0,300,pp;0;ss;so;7.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,8.5,6.5,550,pp;0;ss;so;8.5
+LAA(away) vs SEA(home),MLB,Alternate Pitcher Strikeouts,over,,J. Soriano,9.5,11.5,1050,pp;0;ss;so;9.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,T. Ward,0.5,1.5556,-180,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,T. Ward,0.5,2.3,130,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,J. Adell,0.5,1.8548,-117,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,J. Adell,0.5,1.8548,-117,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,Z. Neto,0.5,1.6897,-145,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,Z. Neto,0.5,2.05,105,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,N. Schanuel,1.5,2.5,150,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,N. Schanuel,1.5,1.4762,-210,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,B. Drury,0.5,1.5264,-190,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,B. Drury,0.5,2.35,135,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,J. Polanco,0.5,1.5883,-170,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,J. Polanco,0.5,2.25,125,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,D. Moore,0.5,1.9091,-110,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,D. Moore,0.5,1.8,-125,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,V. Robles,0.5,1.6452,-155,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,V. Robles,0.5,2.15,115,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,C. Raleigh,0.5,1.5264,-190,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,C. Raleigh,0.5,2.35,135,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,J. Rojas,1.5,2.4,140,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,J. Rojas,1.5,1.5,-200,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,A. Rendon,1.5,2.25,125,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,A. Rendon,1.5,1.5883,-170,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,L. O'hoppe,1.5,2.35,135,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,L. O'hoppe,1.5,1.5264,-190,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,M. Moniak,0.5,1.6452,-155,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,M. Moniak,0.5,2.15,115,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,L. Raley,0.5,1.6452,-155,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,L. Raley,0.5,2.15,115,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,J. Vosler,0.5,1.9091,-110,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,J. Vosler,0.5,1.8,-125,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,T. Locklear,0.5,1.8548,-117,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,T. Locklear,0.5,1.8548,-117,pp;0;ou;tb;0.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,over,,L. Rengifo,1.5,2.2,120,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Player Total Bases,under,,L. Rengifo,1.5,1.625,-160,pp;0;ou;tb;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,T. Ward,0.5,1.5715,-175,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,T. Ward,1.5,4.0,300,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,T. Ward,2.5,13.0,1200,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,A. Rendon,0.5,1.4167,-240,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,A. Rendon,1.5,3.2,220,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,A. Rendon,2.5,9.5,850,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Adell,0.5,1.8696,-115,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Adell,1.5,6.0,500,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,Z. Neto,0.5,1.6897,-145,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,Z. Neto,1.5,4.5,350,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,Z. Neto,2.5,16.0,1500,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. O'hoppe,0.5,1.5,-200,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. O'hoppe,1.5,3.5,250,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. O'hoppe,2.5,11.5,1050,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,N. Schanuel,0.5,1.4762,-210,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,N. Schanuel,1.5,3.5,250,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,N. Schanuel,2.5,11.5,1050,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,B. Drury,0.5,1.5556,-180,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,B. Drury,1.5,3.8,280,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,B. Drury,2.5,13.0,1200,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Rojas,0.5,1.4762,-210,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Rojas,1.5,3.8,280,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Rojas,2.5,14.0,1300,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Polanco,0.5,1.5883,-170,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Polanco,1.5,4.3,330,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Polanco,2.5,16.0,1500,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,D. Moore,0.5,1.9524,-105,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,D. Moore,1.5,6.5,550,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,V. Robles,0.5,1.6667,-150,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,V. Robles,1.5,4.5,350,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,V. Robles,2.5,16.0,1500,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,C. Raleigh,0.5,1.5556,-180,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,C. Raleigh,1.5,4.1,310,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,C. Raleigh,2.5,15.0,1400,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,M. Moniak,0.5,1.6667,-150,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,M. Moniak,1.5,4.3,330,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,M. Moniak,2.5,15.0,1400,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. Raley,0.5,1.625,-160,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. Raley,1.5,4.75,375,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. Raley,2.5,18.0,1700,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Vosler,0.5,1.9524,-105,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,J. Vosler,1.5,6.5,550,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,T. Locklear,0.5,1.8696,-115,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,T. Locklear,1.5,6.5,550,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. Rengifo,0.5,1.3847,-260,pp;0;ss;hit;0.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. Rengifo,1.5,3.0,200,pp;0;ss;hit;1.5
+LAA(away) vs SEA(home),MLB,Alternate Hits,over,,L. Rengifo,2.5,8.5,750,pp;0;ss;hit;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,T. Ward,0.5,2.9,190,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,T. Ward,1.5,7.5,650,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,Z. Neto,0.5,3.1,210,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,Z. Neto,1.5,8.5,750,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,Z. Neto,2.5,17.0,1600,pp;0;ss;rbi;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,B. Drury,0.5,2.9,190,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,B. Drury,1.5,7.0,600,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,B. Drury,2.5,15.0,1400,pp;0;ss;rbi;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,A. Rendon,0.5,3.25,225,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,A. Rendon,1.5,9.0,800,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Adell,0.5,3.4,240,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Adell,1.5,9.0,800,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,L. O'hoppe,0.5,2.55,155,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,L. O'hoppe,1.5,5.75,475,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,L. O'hoppe,2.5,12.0,1100,pp;0;ss;rbi;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,N. Schanuel,0.5,3.0,200,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,N. Schanuel,1.5,8.5,750,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Polanco,0.5,2.6,160,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Polanco,1.5,6.0,500,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Polanco,2.5,13.0,1200,pp;0;ss;rbi;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,D. Moore,0.5,3.4,240,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,D. Moore,1.5,8.5,750,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Rojas,0.5,3.25,225,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Rojas,1.5,9.0,800,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,V. Robles,0.5,3.7,270,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,V. Robles,1.5,10.5,950,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,C. Raleigh,0.5,2.55,155,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,C. Raleigh,1.5,5.25,425,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,C. Raleigh,2.5,12.0,1100,pp;0;ss;rbi;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,M. Moniak,0.5,2.85,185,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,M. Moniak,1.5,6.0,500,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,M. Moniak,2.5,12.0,1100,pp;0;ss;rbi;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,L. Raley,0.5,3.1,210,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,L. Raley,1.5,7.5,650,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,L. Raley,2.5,16.0,1500,pp;0;ss;rbi;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Vosler,0.5,3.4,240,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Vosler,1.5,8.5,750,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,J. Vosler,2.5,16.0,1500,pp;0;ss;rbi;2.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,T. Locklear,0.5,3.3,230,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,T. Locklear,1.5,8.5,750,pp;0;ss;rbi;1.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,L. Rengifo,0.5,3.1,210,pp;0;ss;rbi;0.5
+LAA(away) vs SEA(home),MLB,Alternate Runs Batted In,over,,L. Rengifo,1.5,8.5,750,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Moneyline OF,,home,,0.0,1.6667,-150,s;0;m
+SF(away) vs LAD(home),MLB,Moneyline OF,,away,,0.0,2.25,125,s;0;m
+SF(away) vs LAD(home),MLB,Run Line,,home,,-1.5,2.3,130,s;0;s;-1.5
+SF(away) vs LAD(home),MLB,Run Line,,away,,1.5,1.625,-160,s;0;s;-1.5
+SF(away) vs LAD(home),MLB,Total Runs OF,over,,,9.0,1.9091,-110,s;0;ou;9.0
+SF(away) vs LAD(home),MLB,Total Runs OF,under,,,9.0,1.9091,-110,s;0;ou;9.0
+SF(away) vs LAD(home),MLB,Total Runs - AWAYTEAM OF,over,away,,3.5,1.7143,-140,s;0;tt;3.5;away
+SF(away) vs LAD(home),MLB,Total Runs - AWAYTEAM OF,under,away,,3.5,2.05,105,s;0;tt;3.5;away
+SF(away) vs LAD(home),MLB,Total Runs - HOMETEAM OF,over,home,,4.5,1.8334,-120,s;0;tt;4.5;home
+SF(away) vs LAD(home),MLB,Total Runs - HOMETEAM OF,under,home,,4.5,1.9091,-110,s;0;tt;4.5;home
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,A. Pages,0.5,6.0,500,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,A. Pages,0.5,1.1112,-899,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,C. Biggio,0.5,16.0,1500,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,C. Biggio,0.5,1.02,-5000,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,F. Freeman,0.5,7.0,600,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,F. Freeman,0.5,1.091,-1099,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,G. Lux,0.5,12.0,1100,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,G. Lux,0.5,1.04,-2500,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,H. Ramos,0.5,6.0,500,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,H. Ramos,0.5,1.1112,-899,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,J. Heyward,0.5,8.5,750,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,J. Heyward,0.5,1.0715,-1399,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,J. Soler,0.5,4.75,375,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,J. Soler,0.5,1.174,-575,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,L. Wade,0.5,6.0,500,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,L. Wade,0.5,1.1112,-899,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,M. Chapman,0.5,5.25,425,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,M. Chapman,0.5,1.1429,-700,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,M. Conforto,0.5,5.5,450,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,M. Conforto,0.5,1.1334,-750,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,M. Yastrzemski,0.5,5.5,450,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,M. Yastrzemski,0.5,1.1334,-750,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,P. Bailey,0.5,8.0,700,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,P. Bailey,0.5,1.08,-1250,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,S. Ohtani,0.5,4.0,300,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,S. Ohtani,0.5,1.2353,-425,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,T. Estrada,0.5,11.0,1000,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,T. Estrada,0.5,1.05,-2000,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,T. Fitzgerald,0.5,6.5,550,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,T. Fitzgerald,0.5,1.1,-1000,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,T. Hernandez,0.5,6.0,500,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,T. Hernandez,0.5,1.1112,-899,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,over,,W. Smith,0.5,6.5,550,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player home runs OF,under,,W. Smith,0.5,1.1,-1000,pp;0;ou;hr;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,A. Pages,0.5,1.4167,-240,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,A. Pages,0.5,2.6,160,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,C. Biggio,0.5,1.8548,-117,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,C. Biggio,0.5,1.8548,-117,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,F. Freeman,0.5,1.3637,-275,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,F. Freeman,0.5,2.75,175,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,G. Lux,0.5,1.5883,-170,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,G. Lux,0.5,2.25,125,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,H. Ramos,0.5,1.4,-250,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,H. Ramos,0.5,2.7,170,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,J. Heyward,0.5,1.625,-160,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,J. Heyward,0.5,2.2,120,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,J. Soler,0.5,1.4762,-210,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,J. Soler,0.5,2.5,150,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,L. Wade,0.5,1.5556,-180,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,L. Wade,0.5,2.3,130,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,M. Chapman,0.5,1.5,-200,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,M. Chapman,0.5,2.4,140,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,M. Conforto,0.5,1.625,-160,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,M. Conforto,0.5,2.2,120,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,M. Yastrzemski,0.5,1.8334,-120,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,M. Yastrzemski,0.5,1.8696,-115,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,P. Bailey,0.5,1.5883,-170,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,P. Bailey,0.5,2.25,125,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,S. Ohtani,0.5,1.3334,-300,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,S. Ohtani,0.5,2.9,190,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,T. Estrada,0.5,1.5556,-180,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,T. Estrada,0.5,2.3,130,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,T. Fitzgerald,0.5,1.7408,-135,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,T. Fitzgerald,0.5,2.0,100,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,T. Hernandez,0.5,1.4,-250,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,T. Hernandez,0.5,2.7,170,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,over,,W. Smith,0.5,1.3637,-275,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player hits OF,under,,W. Smith,0.5,2.85,185,pp;0;ou;hit;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,A. Pages,0.5,2.6,160,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,A. Pages,0.5,1.4167,-240,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,C. Biggio,0.5,4.2,320,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,C. Biggio,0.5,1.1905,-525,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,F. Freeman,0.5,2.6,160,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,F. Freeman,0.5,1.4167,-240,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,G. Lux,0.5,3.0,200,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,G. Lux,0.5,1.3226,-310,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,H. Ramos,0.5,2.9,190,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,H. Ramos,0.5,1.3334,-300,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,J. Heyward,0.5,3.25,225,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,J. Heyward,0.5,1.2858,-350,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,J. Soler,0.5,2.9,190,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,J. Soler,0.5,1.3334,-300,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,L. Wade,0.5,3.4,240,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,L. Wade,0.5,1.2667,-375,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,M. Chapman,0.5,2.7,170,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,M. Chapman,0.5,1.4,-250,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,M. Conforto,0.5,3.0,200,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,M. Conforto,0.5,1.3226,-310,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,M. Yastrzemski,0.5,3.0,200,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,M. Yastrzemski,0.5,1.3226,-310,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,P. Bailey,0.5,3.1,210,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,P. Bailey,0.5,1.3077,-325,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,S. Ohtani,0.5,2.4,140,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,S. Ohtani,0.5,1.5,-200,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,T. Estrada,0.5,3.6,260,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,T. Estrada,0.5,1.25,-400,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,T. Fitzgerald,0.5,3.4,240,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,T. Fitzgerald,0.5,1.2667,-375,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,T. Hernandez,0.5,2.35,135,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,T. Hernandez,0.5,1.5264,-190,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,over,,W. Smith,0.5,2.6,160,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player runs batted in OF,under,,W. Smith,0.5,1.4167,-240,pp;0;ou;rbi;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,C. Biggio,0.5,12.0,1100,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,C. Biggio,0.5,1.0223,-4484,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,F. Freeman,0.5,10.5,950,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,F. Freeman,0.5,1.0334,-2994,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,G. Lux,0.5,10.5,950,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,G. Lux,0.5,1.0334,-2994,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,H. Ramos,0.5,13.0,1200,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,H. Ramos,0.5,1.02,-5000,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,M. Chapman,0.5,9.0,800,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,M. Chapman,0.5,1.05,-2000,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,S. Ohtani,0.5,4.2,320,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,S. Ohtani,0.5,1.16,-625,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,T. Estrada,0.5,8.0,700,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,T. Estrada,0.5,1.0601,-1664,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,T. Fitzgerald,0.5,4.0,300,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,T. Fitzgerald,0.5,1.1819,-550,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,over,,T. Hernandez,0.5,10.5,950,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Player stolen bases OF,under,,T. Hernandez,0.5,1.0334,-2994,pp;0;ou;sb;0.5
+SF(away) vs LAD(home),MLB,Pitcher strikeouts OF,over,,J. Hicks,3.5,1.6061,-165,pp;0;ou;so;3.5
+SF(away) vs LAD(home),MLB,Pitcher strikeouts OF,under,,J. Hicks,3.5,2.25,125,pp;0;ou;so;3.5
+SF(away) vs LAD(home),MLB,Pitcher strikeouts OF,over,,L. Knack,4.5,1.8696,-115,pp;0;ou;so;4.5
+SF(away) vs LAD(home),MLB,Pitcher strikeouts OF,under,,L. Knack,4.5,1.8696,-115,pp;0;ou;so;4.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,F. Freeman,0.5,1.4,-250,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,F. Freeman,1.5,3.2,220,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,F. Freeman,2.5,10.0,900,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Yastrzemski,0.5,1.8696,-115,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Yastrzemski,1.5,5.75,475,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Yastrzemski,2.5,21.0,2000,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,G. Lux,0.5,1.6061,-165,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,G. Lux,1.5,4.5,350,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,G. Lux,2.5,16.0,1500,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,A. Pages,0.5,1.4445,-225,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,A. Pages,1.5,3.5,250,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,A. Pages,2.5,12.0,1100,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,J. Soler,0.5,1.5,-200,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,J. Soler,1.5,3.8,280,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,J. Soler,2.5,13.0,1200,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,W. Smith,0.5,1.3847,-260,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,W. Smith,1.5,3.1,210,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,W. Smith,2.5,10.0,900,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,S. Ohtani,0.5,1.3637,-275,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,S. Ohtani,1.5,3.0,200,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,S. Ohtani,2.5,9.0,800,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Hernandez,0.5,1.4167,-240,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Hernandez,1.5,3.2,220,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Hernandez,2.5,11.0,1000,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Conforto,0.5,1.625,-160,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Conforto,1.5,4.5,350,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Conforto,2.5,16.0,1500,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,P. Bailey,0.5,1.5883,-170,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,P. Bailey,1.5,4.3,330,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,P. Bailey,2.5,15.0,1400,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,H. Ramos,0.5,1.4167,-240,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,H. Ramos,1.5,3.3,230,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,H. Ramos,2.5,11.5,1050,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Chapman,0.5,1.5,-200,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Chapman,1.5,3.8,280,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,M. Chapman,2.5,13.0,1200,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,L. Wade,0.5,1.5715,-175,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,L. Wade,1.5,4.1,310,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,L. Wade,2.5,14.0,1300,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Fitzgerald,0.5,1.7693,-130,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Fitzgerald,1.5,5.25,425,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Fitzgerald,2.5,19.0,1800,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,C. Biggio,0.5,1.8696,-115,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,C. Biggio,1.5,6.0,500,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,C. Biggio,2.5,23.0,2200,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,J. Heyward,0.5,1.625,-160,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,J. Heyward,1.5,4.3,330,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,J. Heyward,2.5,16.0,1500,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Estrada,0.5,1.5883,-170,pp;0;ss;hit;0.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Estrada,1.5,4.3,330,pp;0;ss;hit;1.5
+SF(away) vs LAD(home),MLB,Alternate Hits,over,,T. Estrada,2.5,15.0,1400,pp;0;ss;hit;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,F. Freeman,0.5,2.5,150,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,F. Freeman,1.5,5.25,425,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,F. Freeman,2.5,11.0,1000,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,G. Lux,0.5,2.85,185,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,G. Lux,1.5,7.0,600,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,G. Lux,2.5,15.0,1400,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,J. Soler,0.5,2.75,175,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,J. Soler,1.5,6.5,550,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,J. Soler,2.5,13.0,1200,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,H. Ramos,0.5,2.7,170,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,H. Ramos,1.5,5.75,475,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,H. Ramos,2.5,12.0,1100,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,W. Smith,0.5,2.4,140,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,W. Smith,1.5,5.25,425,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,W. Smith,2.5,12.0,1100,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,S. Ohtani,0.5,2.35,135,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,S. Ohtani,1.5,4.5,350,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,S. Ohtani,2.5,9.5,850,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,T. Hernandez,0.5,2.25,125,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,T. Hernandez,1.5,4.75,375,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,T. Hernandez,2.5,10.0,900,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,A. Pages,0.5,2.5,150,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,A. Pages,1.5,5.0,400,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,A. Pages,2.5,10.5,950,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Yastrzemski,0.5,2.75,175,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Yastrzemski,1.5,6.0,500,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Yastrzemski,2.5,12.0,1100,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Conforto,0.5,2.75,175,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Conforto,1.5,5.75,475,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Conforto,2.5,11.0,1000,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,P. Bailey,0.5,2.9,190,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,P. Bailey,1.5,6.5,550,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,P. Bailey,2.5,13.0,1200,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Chapman,0.5,2.5,150,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Chapman,1.5,5.0,400,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,M. Chapman,2.5,10.5,950,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,L. Wade,0.5,3.25,225,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,L. Wade,1.5,7.5,650,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,L. Wade,2.5,16.0,1500,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,T. Fitzgerald,0.5,3.1,210,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,T. Fitzgerald,1.5,7.0,600,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,T. Fitzgerald,2.5,13.0,1200,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,C. Biggio,0.5,3.7,270,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,C. Biggio,1.5,9.5,850,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,J. Heyward,0.5,3.0,200,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,J. Heyward,1.5,6.5,550,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,J. Heyward,2.5,13.0,1200,pp;0;ss;rbi;2.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,T. Estrada,0.5,3.3,230,pp;0;ss;rbi;0.5
+SF(away) vs LAD(home),MLB,Alternate Runs Batted In,over,,T. Estrada,1.5,8.5,750,pp;0;ss;rbi;1.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,0.5,1.0112,-8929,pp;0;ss;so;0.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,1.5,1.08,-1250,pp;0;ss;so;1.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,2.5,1.25,-400,pp;0;ss;so;2.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,3.5,1.6061,-165,pp;0;ss;so;3.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,4.5,2.3,130,pp;0;ss;so;4.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,5.5,3.6,260,pp;0;ss;so;5.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,6.5,6.5,550,pp;0;ss;so;6.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,7.5,13.0,1200,pp;0;ss;so;7.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,J. Hicks,8.5,21.0,2000,pp;0;ss;so;8.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,L. Knack,1.5,1.05,-2000,pp;0;ss;so;1.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,L. Knack,2.5,1.174,-575,pp;0;ss;so;2.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,L. Knack,3.5,1.4167,-240,pp;0;ss;so;3.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,L. Knack,4.5,1.8696,-115,pp;0;ss;so;4.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,L. Knack,5.5,2.75,175,pp;0;ss;so;5.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,L. Knack,6.5,4.3,330,pp;0;ss;so;6.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,L. Knack,7.5,7.5,650,pp;0;ss;so;7.5
+SF(away) vs LAD(home),MLB,Alternate Pitcher Strikeouts,over,,L. Knack,8.5,14.0,1300,pp;0;ss;so;8.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,F. Freeman,1.5,2.1,110,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,F. Freeman,1.5,1.6667,-150,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,M. Yastrzemski,0.5,1.8334,-120,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,M. Yastrzemski,0.5,1.8696,-115,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,G. Lux,0.5,1.625,-160,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,G. Lux,0.5,2.2,120,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,A. Pages,1.5,2.25,125,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,A. Pages,1.5,1.5883,-170,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,J. Soler,1.5,2.3,130,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,J. Soler,1.5,1.5556,-180,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,W. Smith,1.5,2.1,110,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,W. Smith,1.5,1.6667,-150,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,S. Ohtani,1.5,1.9091,-110,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,S. Ohtani,1.5,1.8,-125,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,T. Hernandez,1.5,2.1,110,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,T. Hernandez,1.5,1.6667,-150,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,M. Conforto,0.5,1.625,-160,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,M. Conforto,0.5,2.2,120,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,P. Bailey,0.5,1.5883,-170,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,P. Bailey,0.5,2.25,125,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,H. Ramos,1.5,2.2,120,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,H. Ramos,1.5,1.625,-160,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,M. Chapman,1.5,2.25,125,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,M. Chapman,1.5,1.5883,-170,pp;0;ou;tb;1.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,L. Wade,0.5,1.5556,-180,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,L. Wade,0.5,2.3,130,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,T. Fitzgerald,0.5,1.7408,-135,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,T. Fitzgerald,0.5,2.0,100,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,C. Biggio,0.5,1.8548,-117,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,C. Biggio,0.5,1.8548,-117,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,J. Heyward,0.5,1.625,-160,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,J. Heyward,0.5,2.2,120,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,over,,T. Estrada,0.5,1.5556,-180,pp;0;ou;tb;0.5
+SF(away) vs LAD(home),MLB,Player Total Bases,under,,T. Estrada,0.5,2.3,130,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Moneyline OF,,home,,0.0,1.5264,-190,s;0;m
+CIN(away) vs ATL(home),MLB,Moneyline OF,,away,,0.0,2.6,160,s;0;m
+CIN(away) vs ATL(home),MLB,Run Line,,home,,-1.5,2.15,115,s;0;s;-1.5
+CIN(away) vs ATL(home),MLB,Run Line,,away,,1.5,1.7143,-140,s;0;s;-1.5
+CIN(away) vs ATL(home),MLB,Total Runs OF,over,,,7.0,1.8334,-120,s;0;ou;7.0
+CIN(away) vs ATL(home),MLB,Total Runs OF,under,,,7.0,2.0,100,s;0;ou;7.0
+CIN(away) vs ATL(home),MLB,Total Runs - AWAYTEAM OF,over,away,,2.5,1.7143,-140,s;0;tt;2.5;away
+CIN(away) vs ATL(home),MLB,Total Runs - AWAYTEAM OF,under,away,,2.5,2.05,105,s;0;tt;2.5;away
+CIN(away) vs ATL(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.6897,-145,s;0;tt;3.5;home
+CIN(away) vs ATL(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,2.1,110,s;0;tt;3.5;home
+PHI(away) vs MIN(home),MLB,Moneyline OF,,home,,0.0,2.3,130,s;0;m
+PHI(away) vs MIN(home),MLB,Moneyline OF,,away,,0.0,1.625,-160,s;0;m
+PHI(away) vs MIN(home),MLB,Run Line,,home,,1.5,1.8,-125,s;0;s;1.5
+PHI(away) vs MIN(home),MLB,Run Line,,away,,-1.5,2.05,105,s;0;s;1.5
+PHI(away) vs MIN(home),MLB,Total Runs OF,over,,,8.0,1.9524,-105,s;0;ou;8.0
+PHI(away) vs MIN(home),MLB,Total Runs OF,under,,,8.0,1.8696,-115,s;0;ou;8.0
+PHI(away) vs MIN(home),MLB,Total Runs - AWAYTEAM OF,over,away,,4.5,2.0,100,s;0;tt;4.5;away
+PHI(away) vs MIN(home),MLB,Total Runs - AWAYTEAM OF,under,away,,4.5,1.7693,-130,s;0;tt;4.5;away
+PHI(away) vs MIN(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,2.05,105,s;0;tt;3.5;home
+PHI(away) vs MIN(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,1.7143,-140,s;0;tt;3.5;home
+BOS(away) vs COL(home),MLB,Moneyline OF,,home,,0.0,2.45,145,s;0;m
+BOS(away) vs COL(home),MLB,Moneyline OF,,away,,0.0,1.5715,-175,s;0;m
+BOS(away) vs COL(home),MLB,Run Line,,home,,1.5,1.9091,-110,s;0;s;1.5
+BOS(away) vs COL(home),MLB,Run Line,,away,,-1.5,1.9091,-110,s;0;s;1.5
+BOS(away) vs COL(home),MLB,Total Runs OF,over,,,10.5,1.9091,-110,s;0;ou;10.5
+BOS(away) vs COL(home),MLB,Total Runs OF,under,,,10.5,1.9091,-110,s;0;ou;10.5
+BOS(away) vs COL(home),MLB,Total Runs - AWAYTEAM OF,over,away,,5.5,1.8334,-120,s;0;tt;5.5;away
+BOS(away) vs COL(home),MLB,Total Runs - AWAYTEAM OF,under,away,,5.5,1.9091,-110,s;0;tt;5.5;away
+BOS(away) vs COL(home),MLB,Total Runs - HOMETEAM OF,over,home,,4.5,2.05,105,s;0;tt;4.5;home
+BOS(away) vs COL(home),MLB,Total Runs - HOMETEAM OF,under,home,,4.5,1.7143,-140,s;0;tt;4.5;home
+HOU(away) vs OAK(home),MLB,Moneyline OF,,home,,0.0,2.3,130,s;0;m
+HOU(away) vs OAK(home),MLB,Moneyline OF,,away,,0.0,1.625,-160,s;0;m
+HOU(away) vs OAK(home),MLB,Run Line,,home,,1.5,1.7693,-130,s;0;s;1.5
+HOU(away) vs OAK(home),MLB,Run Line,,away,,-1.5,2.1,110,s;0;s;1.5
+HOU(away) vs OAK(home),MLB,Total Runs OF,over,,,8.0,1.8696,-115,s;0;ou;8.0
+HOU(away) vs OAK(home),MLB,Total Runs OF,under,,,8.0,1.9524,-105,s;0;ou;8.0
+HOU(away) vs OAK(home),MLB,Total Runs - AWAYTEAM OF,over,away,,4.5,1.9524,-105,s;0;tt;4.5;away
+HOU(away) vs OAK(home),MLB,Total Runs - AWAYTEAM OF,under,away,,4.5,1.8,-125,s;0;tt;4.5;away
+HOU(away) vs OAK(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.9524,-105,s;0;tt;3.5;home
+HOU(away) vs OAK(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,1.8,-125,s;0;tt;3.5;home
+LAA(away) vs SEA(home),MLB,Moneyline OF,,home,,0.0,1.4762,-210,s;0;m
+LAA(away) vs SEA(home),MLB,Moneyline OF,,away,,0.0,2.75,175,s;0;m
+LAA(away) vs SEA(home),MLB,Run Line,,home,,-1.5,2.05,105,s;0;s;-1.5
+LAA(away) vs SEA(home),MLB,Run Line,,away,,1.5,1.8,-125,s;0;s;-1.5
+LAA(away) vs SEA(home),MLB,Total Runs OF,over,,,7.5,1.9524,-105,s;0;ou;7.5
+LAA(away) vs SEA(home),MLB,Total Runs OF,under,,,7.5,1.8696,-115,s;0;ou;7.5
+LAA(away) vs SEA(home),MLB,Total Runs - AWAYTEAM OF,over,away,,2.5,1.7143,-140,s;0;tt;2.5;away
+LAA(away) vs SEA(home),MLB,Total Runs - AWAYTEAM OF,under,away,,2.5,2.05,105,s;0;tt;2.5;away
+LAA(away) vs SEA(home),MLB,Total Runs - HOMETEAM OF,over,home,,4.5,2.05,105,s;0;tt;4.5;home
+LAA(away) vs SEA(home),MLB,Total Runs - HOMETEAM OF,under,home,,4.5,1.7143,-140,s;0;tt;4.5;home
+CIN(away) vs ATL(home),MLB,Moneyline OF,,home,,0.0,1.5264,-190,s;0;m
+CIN(away) vs ATL(home),MLB,Moneyline OF,,away,,0.0,2.6,160,s;0;m
+CIN(away) vs ATL(home),MLB,Run Line,,home,,-1.5,2.15,115,s;0;s;-1.5
+CIN(away) vs ATL(home),MLB,Run Line,,away,,1.5,1.7143,-140,s;0;s;-1.5
+CIN(away) vs ATL(home),MLB,Total Runs OF,over,,,7.0,1.8334,-120,s;0;ou;7.0
+CIN(away) vs ATL(home),MLB,Total Runs OF,under,,,7.0,2.0,100,s;0;ou;7.0
+CIN(away) vs ATL(home),MLB,Total Runs - AWAYTEAM OF,over,away,,2.5,1.7143,-140,s;0;tt;2.5;away
+CIN(away) vs ATL(home),MLB,Total Runs - AWAYTEAM OF,under,away,,2.5,2.05,105,s;0;tt;2.5;away
+CIN(away) vs ATL(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.6897,-145,s;0;tt;3.5;home
+CIN(away) vs ATL(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,2.1,110,s;0;tt;3.5;home
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,A. Duvall,0.5,5.75,475,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,A. Duvall,0.5,1.125,-800,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,A. Slater,0.5,16.0,1500,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,A. Slater,0.5,1.02,-5000,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,E. De,0.5,13.0,1200,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,E. De,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,E. Rosario,0.5,9.5,850,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,E. Rosario,0.5,1.0601,-1664,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,J. India,0.5,13.0,1200,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,J. India,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,J. Kelenic,0.5,7.0,600,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,J. Kelenic,0.5,1.091,-1099,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,M. Olson,0.5,5.5,450,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,M. Olson,0.5,1.1334,-750,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,M. Ozuna,0.5,3.4,240,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,M. Ozuna,0.5,1.2858,-350,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,N. Marte,0.5,10.0,900,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,N. Marte,0.5,1.0572,-1748,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,O. Arcia,0.5,9.0,800,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,O. Arcia,0.5,1.0667,-1499,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,R. Hinds,0.5,8.5,750,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,R. Hinds,0.5,1.0715,-1399,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,S. Fairchild,0.5,11.5,1050,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,S. Fairchild,0.5,1.0445,-2247,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,S. Steer,0.5,7.5,650,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,S. Steer,0.5,1.0834,-1199,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,T. D'arnaud,0.5,7.0,600,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,T. D'arnaud,0.5,1.091,-1099,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,T. Stephenson,0.5,8.5,750,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,T. Stephenson,0.5,1.0715,-1399,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,over,,Z. Short,0.5,13.0,1200,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player home runs OF,under,,Z. Short,0.5,1.0334,-2994,pp;0;ou;hr;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,A. Duvall,0.5,1.6452,-155,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,A. Duvall,0.5,2.15,115,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,A. Slater,0.5,1.8548,-117,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,A. Slater,0.5,1.8548,-117,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,E. De,0.5,1.8,-125,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,E. De,0.5,1.9091,-110,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,E. Rosario,0.5,1.625,-160,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,E. Rosario,0.5,2.2,120,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,J. India,0.5,1.625,-160,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,J. India,0.5,2.2,120,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,J. Kelenic,0.5,1.4445,-225,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,J. Kelenic,0.5,2.55,155,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,M. Olson,0.5,1.5556,-180,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,M. Olson,0.5,2.3,130,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,M. Ozuna,1.5,2.75,175,pp;0;ou;hit;1.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,M. Ozuna,1.5,1.3637,-275,pp;0;ou;hit;1.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,N. Marte,0.5,1.625,-160,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,N. Marte,0.5,2.2,120,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,O. Arcia,0.5,1.5883,-170,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,O. Arcia,0.5,2.25,125,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,R. Hinds,0.5,1.8548,-117,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,R. Hinds,0.5,1.8548,-117,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,S. Espinal,0.5,1.7143,-140,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,S. Espinal,0.5,2.0,100,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,S. Fairchild,0.5,1.8548,-117,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,S. Fairchild,0.5,1.8548,-117,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,S. Steer,0.5,1.5556,-180,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,S. Steer,0.5,2.3,130,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,T. D'arnaud,0.5,1.4445,-225,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,T. D'arnaud,0.5,2.55,155,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,T. Stephenson,0.5,1.5,-200,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,T. Stephenson,0.5,2.4,140,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,over,,Z. Short,0.5,2.0,100,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player hits OF,under,,Z. Short,0.5,1.7143,-140,pp;0;ou;hit;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,A. Duvall,0.5,3.0,200,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,A. Duvall,0.5,1.3226,-310,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,A. Slater,0.5,4.5,350,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,A. Slater,0.5,1.16,-625,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,E. De,0.5,4.75,375,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,E. De,0.5,1.1539,-650,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,E. Rosario,0.5,3.4,240,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,E. Rosario,0.5,1.2667,-375,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,J. India,0.5,4.2,320,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,J. India,0.5,1.1905,-525,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,J. Kelenic,0.5,3.3,230,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,J. Kelenic,0.5,1.2778,-360,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,M. Olson,0.5,2.85,185,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,M. Olson,0.5,1.3572,-280,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,M. Ozuna,0.5,2.3,130,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,M. Ozuna,0.5,1.5556,-180,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,N. Marte,0.5,3.9,290,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,N. Marte,0.5,1.2223,-450,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,O. Arcia,0.5,3.25,225,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,O. Arcia,0.5,1.2858,-350,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,R. Hinds,0.5,3.9,290,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,R. Hinds,0.5,1.2223,-450,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,S. Espinal,0.5,4.2,320,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,S. Espinal,0.5,1.1905,-525,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,S. Fairchild,0.5,4.0,300,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,S. Fairchild,0.5,1.2106,-475,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,S. Steer,0.5,3.1,210,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,S. Steer,0.5,1.3077,-325,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,T. D'arnaud,0.5,2.7,170,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,T. D'arnaud,0.5,1.4,-250,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,T. Stephenson,0.5,3.1,210,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,T. Stephenson,0.5,1.3077,-325,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,over,,Z. Short,0.5,4.75,375,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player runs batted in OF,under,,Z. Short,0.5,1.1539,-650,pp;0;ou;rbi;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,A. Slater,0.5,8.5,750,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,A. Slater,0.5,1.0556,-1799,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,E. De,0.5,2.7,170,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,E. De,0.5,1.3637,-275,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,E. Rosario,0.5,8.0,700,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,E. Rosario,0.5,1.0601,-1664,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,J. India,0.5,7.5,650,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,J. India,0.5,1.0667,-1499,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,J. Kelenic,0.5,5.75,475,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,J. Kelenic,0.5,1.091,-1099,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,N. Marte,0.5,5.0,400,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,N. Marte,0.5,1.1112,-899,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,R. Hinds,0.5,5.25,425,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,R. Hinds,0.5,1.1,-1000,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,S. Espinal,0.5,11.0,1000,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,S. Espinal,0.5,1.0286,-3497,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,S. Fairchild,0.5,5.25,425,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,S. Fairchild,0.5,1.1,-1000,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,S. Steer,0.5,5.75,475,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,S. Steer,0.5,1.091,-1099,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,over,,Z. Short,0.5,10.5,950,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Player stolen bases OF,under,,Z. Short,0.5,1.0334,-2994,pp;0;ou;sb;0.5
+CIN(away) vs ATL(home),MLB,Pitcher strikeouts OF,over,,C. Sale,7.5,1.7693,-130,pp;0;ou;so;7.5
+CIN(away) vs ATL(home),MLB,Pitcher strikeouts OF,under,,C. Sale,7.5,2.0,100,pp;0;ou;so;7.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,J. India,0.5,1.625,-160,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,J. India,1.5,4.5,350,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,J. India,2.5,15.0,1400,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Steer,0.5,1.5715,-175,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Steer,1.5,4.0,300,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Steer,2.5,14.0,1300,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,N. Marte,0.5,1.625,-160,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,N. Marte,1.5,4.3,330,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,N. Marte,2.5,15.0,1400,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,T. Stephenson,0.5,1.5,-200,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,T. Stephenson,1.5,3.6,260,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,T. Stephenson,2.5,12.0,1100,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Fairchild,0.5,1.8696,-115,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Fairchild,1.5,5.75,475,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Fairchild,2.5,19.0,1800,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,E. De,0.5,1.8,-125,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,E. De,1.5,5.5,450,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,E. De,2.5,21.0,2000,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,E. Rosario,0.5,1.625,-160,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,E. Rosario,1.5,4.5,350,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,E. Rosario,2.5,16.0,1500,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,M. Olson,0.5,1.5715,-175,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,M. Olson,1.5,4.1,310,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,M. Olson,2.5,15.0,1400,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,O. Arcia,0.5,1.6061,-165,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,O. Arcia,1.5,4.5,350,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,O. Arcia,2.5,16.0,1500,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,A. Duvall,0.5,1.625,-160,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,A. Duvall,1.5,4.5,350,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,A. Duvall,2.5,16.0,1500,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,M. Ozuna,0.5,1.3637,-275,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,M. Ozuna,1.5,2.85,185,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,M. Ozuna,2.5,8.5,750,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,J. Kelenic,0.5,1.4445,-225,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,J. Kelenic,1.5,3.3,230,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,J. Kelenic,2.5,11.5,1050,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,T. D'arnaud,0.5,1.4445,-225,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,T. D'arnaud,1.5,3.4,240,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,T. D'arnaud,2.5,12.0,1100,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,Z. Short,0.5,2.05,105,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,Z. Short,1.5,7.5,650,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Espinal,0.5,1.7143,-140,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Espinal,1.5,5.0,400,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,S. Espinal,2.5,18.0,1700,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,A. Slater,0.5,1.8696,-115,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,A. Slater,1.5,5.75,475,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,A. Slater,2.5,21.0,2000,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,R. Hinds,0.5,1.8696,-115,pp;0;ss;hit;0.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,R. Hinds,1.5,5.75,475,pp;0;ss;hit;1.5
+CIN(away) vs ATL(home),MLB,Alternate Hits,over,,R. Hinds,2.5,21.0,2000,pp;0;ss;hit;2.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,N. Marte,0.5,1.625,-160,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,N. Marte,0.5,2.2,120,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,T. Stephenson,1.5,2.4,140,pp;0;ou;tb;1.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,T. Stephenson,1.5,1.5,-200,pp;0;ou;tb;1.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,J. India,0.5,1.625,-160,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,J. India,0.5,2.2,120,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,S. Fairchild,0.5,1.8548,-117,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,S. Fairchild,0.5,1.8548,-117,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,E. De,0.5,1.8,-125,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,E. De,0.5,1.9091,-110,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,S. Steer,0.5,1.5556,-180,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,S. Steer,0.5,2.3,130,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,E. Rosario,0.5,1.625,-160,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,E. Rosario,0.5,2.2,120,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,O. Arcia,0.5,1.5883,-170,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,O. Arcia,0.5,2.25,125,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,A. Duvall,0.5,1.6452,-155,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,A. Duvall,0.5,2.15,115,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,M. Ozuna,1.5,1.8548,-117,pp;0;ou;tb;1.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,M. Ozuna,1.5,1.8548,-117,pp;0;ou;tb;1.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,J. Kelenic,1.5,2.2,120,pp;0;ou;tb;1.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,J. Kelenic,1.5,1.625,-160,pp;0;ou;tb;1.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,M. Olson,0.5,1.5556,-180,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,M. Olson,0.5,2.3,130,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,T. D'arnaud,1.5,2.25,125,pp;0;ou;tb;1.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,T. D'arnaud,1.5,1.5883,-170,pp;0;ou;tb;1.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,Z. Short,0.5,2.0,100,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,Z. Short,0.5,1.7143,-140,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,S. Espinal,0.5,1.7408,-135,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,S. Espinal,0.5,2.0,100,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,A. Slater,0.5,1.8548,-117,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,A. Slater,0.5,1.8548,-117,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,over,,R. Hinds,0.5,1.8548,-117,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Player Total Bases,under,,R. Hinds,0.5,1.8548,-117,pp;0;ou;tb;0.5
+CIN(away) vs ATL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Sale,2.5,1.0112,-8929,pp;0;ss;so;2.5
+CIN(away) vs ATL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Sale,3.5,1.0334,-2994,pp;0;ss;so;3.5
+CIN(away) vs ATL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Sale,4.5,1.091,-1099,pp;0;ss;so;4.5
+CIN(away) vs ATL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Sale,5.5,1.2223,-450,pp;0;ss;so;5.5
+CIN(away) vs ATL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Sale,6.5,1.4167,-240,pp;0;ss;so;6.5
+CIN(away) vs ATL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Sale,7.5,1.7693,-130,pp;0;ss;so;7.5
+CIN(away) vs ATL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Sale,8.5,2.4,140,pp;0;ss;so;8.5
+CIN(away) vs ATL(home),MLB,Alternate Pitcher Strikeouts,over,,C. Sale,9.5,3.4,240,pp;0;ss;so;9.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,J. India,0.5,3.7,270,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,J. India,1.5,10.5,950,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,N. Marte,0.5,3.4,240,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,N. Marte,1.5,9.0,800,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,S. Steer,0.5,2.9,190,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,S. Steer,1.5,7.0,600,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,S. Steer,2.5,15.0,1400,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,S. Fairchild,0.5,3.7,270,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,S. Fairchild,1.5,10.0,900,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,T. Stephenson,0.5,2.85,185,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,T. Stephenson,1.5,7.0,600,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,T. Stephenson,2.5,16.0,1500,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,E. De,0.5,4.2,320,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,E. De,1.5,11.0,1000,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,E. Rosario,0.5,3.1,210,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,E. Rosario,1.5,7.5,650,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,E. Rosario,2.5,16.0,1500,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,A. Duvall,0.5,2.85,185,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,A. Duvall,1.5,5.75,475,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,A. Duvall,2.5,12.0,1100,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,M. Ozuna,0.5,2.2,120,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,M. Ozuna,1.5,4.2,320,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,M. Ozuna,2.5,9.5,850,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,M. Ozuna,3.5,16.0,1500,pp;0;ss;rbi;3.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,O. Arcia,0.5,2.9,190,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,O. Arcia,1.5,8.0,700,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,O. Arcia,2.5,16.0,1500,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,J. Kelenic,0.5,3.0,200,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,J. Kelenic,1.5,7.5,650,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,J. Kelenic,2.5,16.0,1500,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,M. Olson,0.5,2.7,170,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,M. Olson,1.5,5.75,475,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,M. Olson,2.5,12.0,1100,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,T. D'arnaud,0.5,2.55,155,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,T. D'arnaud,1.5,6.0,500,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,T. D'arnaud,2.5,13.0,1200,pp;0;ss;rbi;2.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,Z. Short,0.5,4.2,320,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,Z. Short,1.5,10.5,950,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,S. Espinal,0.5,3.7,270,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,S. Espinal,1.5,10.0,900,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,A. Slater,0.5,4.0,300,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,A. Slater,1.5,10.5,950,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,R. Hinds,0.5,3.4,240,pp;0;ss;rbi;0.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,R. Hinds,1.5,8.5,750,pp;0;ss;rbi;1.5
+CIN(away) vs ATL(home),MLB,Alternate Runs Batted In,over,,R. Hinds,2.5,17.0,1600,pp;0;ss;rbi;2.5
+DET(away) vs CLE(home),MLB,Moneyline OF,,home,,0.0,1.6667,-150,s;0;m
+DET(away) vs CLE(home),MLB,Moneyline OF,,away,,0.0,2.25,125,s;0;m
+DET(away) vs CLE(home),MLB,Run Line,,home,,-1.5,2.5,150,s;0;s;-1.5
+DET(away) vs CLE(home),MLB,Run Line,,away,,1.5,1.5556,-180,s;0;s;-1.5
+DET(away) vs CLE(home),MLB,Total Runs OF,over,,,7.0,1.8,-125,s;0;ou;7.0
+DET(away) vs CLE(home),MLB,Total Runs OF,under,,,7.0,2.05,105,s;0;ou;7.0
+DET(away) vs CLE(home),MLB,Total Runs - AWAYTEAM OF,over,away,,3.5,2.05,105,s;0;tt;3.5;away
+DET(away) vs CLE(home),MLB,Total Runs - AWAYTEAM OF,under,away,,3.5,1.7143,-140,s;0;tt;3.5;away
+DET(away) vs CLE(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.7693,-130,s;0;tt;3.5;home
+DET(away) vs CLE(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,2.0,100,s;0;tt;3.5;home
+SD(away) vs WAS(home),MLB,Moneyline OF,,home,,0.0,2.05,105,s;0;m
+SD(away) vs WAS(home),MLB,Moneyline OF,,away,,0.0,1.8,-125,s;0;m
+SD(away) vs WAS(home),MLB,Run Line,,home,,1.5,1.6667,-150,s;0;s;1.5
+SD(away) vs WAS(home),MLB,Run Line,,away,,-1.5,2.25,125,s;0;s;1.5
+SD(away) vs WAS(home),MLB,Total Runs OF,over,,,9.0,2.0,100,s;0;ou;9.0
+SD(away) vs WAS(home),MLB,Total Runs OF,under,,,9.0,1.8334,-120,s;0;ou;9.0
+SD(away) vs WAS(home),MLB,Total Runs - AWAYTEAM OF,over,away,,4.5,1.9091,-110,s;0;tt;4.5;away
+SD(away) vs WAS(home),MLB,Total Runs - AWAYTEAM OF,under,away,,4.5,1.8334,-120,s;0;tt;4.5;away
+SD(away) vs WAS(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.7143,-140,s;0;tt;3.5;home
+SD(away) vs WAS(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,2.05,105,s;0;tt;3.5;home
+NYM(away) vs NYY(home),MLB,Moneyline OF,,home,,0.0,1.5883,-170,s;0;m
+NYM(away) vs NYY(home),MLB,Moneyline OF,,away,,0.0,2.4,140,s;0;m
+NYM(away) vs NYY(home),MLB,Run Line,,home,,-1.5,2.25,125,s;0;s;-1.5
+NYM(away) vs NYY(home),MLB,Run Line,,away,,1.5,1.6667,-150,s;0;s;-1.5
+NYM(away) vs NYY(home),MLB,Total Runs OF,over,,,8.0,1.9091,-110,s;0;ou;8.0
+NYM(away) vs NYY(home),MLB,Total Runs OF,under,,,8.0,1.9091,-110,s;0;ou;8.0
+NYM(away) vs NYY(home),MLB,Total Runs - AWAYTEAM OF,over,away,,3.5,1.9091,-110,s;0;tt;3.5;away
+NYM(away) vs NYY(home),MLB,Total Runs - AWAYTEAM OF,under,away,,3.5,1.8334,-120,s;0;tt;3.5;away
+NYM(away) vs NYY(home),MLB,Total Runs - HOMETEAM OF,over,home,,4.5,2.0,100,s;0;tt;4.5;home
+NYM(away) vs NYY(home),MLB,Total Runs - HOMETEAM OF,under,home,,4.5,1.7693,-130,s;0;tt;4.5;home
+TB(away) vs TOR(home),MLB,Moneyline OF,,home,,0.0,1.9524,-105,s;0;m
+TB(away) vs TOR(home),MLB,Moneyline OF,,away,,0.0,1.8696,-115,s;0;m
+TB(away) vs TOR(home),MLB,Run Line,,home,,1.5,1.5883,-170,s;0;s;1.5
+TB(away) vs TOR(home),MLB,Run Line,,away,,-1.5,2.4,140,s;0;s;1.5
+TB(away) vs TOR(home),MLB,Total Runs OF,over,,,8.5,1.8696,-115,s;0;ou;8.5
+TB(away) vs TOR(home),MLB,Total Runs OF,under,,,8.5,1.9524,-105,s;0;ou;8.5
+TB(away) vs TOR(home),MLB,Total Runs - AWAYTEAM OF,over,away,,4.5,2.0,100,s;0;tt;4.5;away
+TB(away) vs TOR(home),MLB,Total Runs - AWAYTEAM OF,under,away,,4.5,1.7693,-130,s;0;tt;4.5;away
+TB(away) vs TOR(home),MLB,Total Runs - HOMETEAM OF,over,home,,3.5,1.6897,-145,s;0;tt;3.5;home
+TB(away) vs TOR(home),MLB,Total Runs - HOMETEAM OF,under,home,,3.5,2.1,110,s;0;tt;3.5;home
+CWS(away) vs TEX(home),MLB,Moneyline OF,,home,,0.0,1.4,-250,s;0;m
+CWS(away) vs TEX(home),MLB,Moneyline OF,,away,,0.0,3.0,200,s;0;m
+CWS(away) vs TEX(home),MLB,Run Line,,home,,-1.5,1.9091,-110,s;0;s;-1.5
+CWS(away) vs TEX(home),MLB,Run Line,,away,,1.5,1.9091,-110,s;0;s;-1.5
+CWS(away) vs TEX(home),MLB,Total Runs OF,over,,,8.0,1.8696,-115,s;0;ou;8.0
+CWS(away) vs TEX(home),MLB,Total Runs OF,under,,,8.0,1.9524,-105,s;0;ou;8.0
+CWS(away) vs TEX(home),MLB,Total Runs - AWAYTEAM OF,over,away,,2.5,1.6897,-145,s;0;tt;2.5;away
+CWS(away) vs TEX(home),MLB,Total Runs - AWAYTEAM OF,under,away,,2.5,2.1,110,s;0;tt;2.5;away
+CWS(away) vs TEX(home),MLB,Total Runs - HOMETEAM OF,over,home,,4.5,1.8,-125,s;0;tt;4.5;home
+CWS(away) vs TEX(home),MLB,Total Runs - HOMETEAM OF,under,home,,4.5,1.9524,-105,s;0;tt;4.5;home
+ARI(away) vs KAN(home),MLB,Moneyline OF,,home,,0.0,1.7143,-140,s;0;m
+ARI(away) vs KAN(home),MLB,Moneyline OF,,away,,0.0,2.15,115,s;0;m
+ARI(away) vs KAN(home),MLB,Run Line,,home,,-1.5,2.5,150,s;0;s;-1.5
+ARI(away) vs KAN(home),MLB,Run Line,,away,,1.5,1.5556,-180,s;0;s;-1.5
+ARI(away) vs KAN(home),MLB,Total Runs OF,over,,,9.0,1.8334,-120,s;0;ou;9.0
+ARI(away) vs KAN(home),MLB,Total Runs OF,under,,,9.0,2.0,100,s;0;ou;9.0
+ARI(away) vs KAN(home),MLB,Total Runs - AWAYTEAM OF,over,away,,4.5,2.05,105,s;0;tt;4.5;away
+ARI(away) vs KAN(home),MLB,Total Runs - AWAYTEAM OF,under,away,,4.5,1.7143,-140,s;0;tt;4.5;away
+ARI(away) vs KAN(home),MLB,Total Runs - HOMETEAM OF,over,home,,4.5,1.8696,-115,s;0;tt;4.5;home
+ARI(away) vs KAN(home),MLB,Total Runs - HOMETEAM OF,under,home,,4.5,1.8696,-115,s;0;tt;4.5;home

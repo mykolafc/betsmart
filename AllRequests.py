@@ -50,7 +50,8 @@ print(time.time() - timer)
 
 responsesDK = responses[:len(urlsDK)]
 responsesPB = responses[len(urlsDK):len(urlsDK)+len(urlsPB)]
-responsesGetBO = responses[len(urlsDK)+len(urlsPB):len(urlsDK)+len(urlsPB)+len(urlsBO)]
+responsesGetBO = responses[len(urlsDK)+len(urlsPB)
+                               :len(urlsDK)+len(urlsPB)+len(urlsBO)]
 responsesPostBO = responses[len(
     urlsDK)+len(urlsPB)+len(urlsBO):len(urlsDK)+len(urlsPB)+len(urlsBO)+len(urlsPostBO)]
 
@@ -66,6 +67,7 @@ timer = time.time()
 # Look at repsonse json files to further understand
 postBOJSonResp = [response.json() for response in responsesPostBO]
 getBOJSonResp = [response.json() for response in responsesGetBO]
+getBOJSonResp = getBOJSonResp[0]
 teamsDf = bo.manipulationLoop(postBOJSonResp)
 propsDf = bo.dfByLoop(getBOJSonResp, gamesDict)
 bigDf = pd.concat([teamsDf, propsDf])
