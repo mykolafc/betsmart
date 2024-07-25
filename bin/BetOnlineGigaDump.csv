@@ -1,137 +1,847 @@
 Period,GameId,Teams,League,Designation,Side,Points,Key,BO Odds,BO dec_odds,Category,Name
-Game,490441734,MIL(away) vs CHC(home),MLB,,away,1.5,s;0;s;-1.5,-210,1.48,spread,
-Game,490441734,MIL(away) vs CHC(home),MLB,,away,,s;0;m,-104,1.96,moneyline,
-Game,490441734,MIL(away) vs CHC(home),MLB,over,away,4.5,s;0;tt;4.5;away,100,2.0,team_total,
-Game,490441734,MIL(away) vs CHC(home),MLB,under,away,4.5,s;0;tt;4.5;away,-130,1.77,team_total,
-Game,490441734,MIL(away) vs CHC(home),MLB,,home,-1.5,s;0;s;-1.5,180,2.8,spread,
-Game,490441734,MIL(away) vs CHC(home),MLB,,home,,s;0;m,-106,1.94,moneyline,
-Game,490441734,MIL(away) vs CHC(home),MLB,over,home,3.5,s;0;tt;3.5;home,-150,1.67,team_total,
-Game,490441734,MIL(away) vs CHC(home),MLB,under,home,3.5,s;0;tt;3.5;home,120,2.2,team_total,
-Game,490441734,MIL(away) vs CHC(home),MLB,over,,8.5,s;0;ou;8.5,-117,1.85,total,
-Game,490441734,MIL(away) vs CHC(home),MLB,under,,8.5,s;0;ou;8.5,-103,1.97,total,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,,away,0.5,s;-1;s;-0.5,-145,1.69,spread,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,,away,,s;-1;m,-105,1.95,moneyline,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,over,away,1.5,s;-1;tt;1.5;away,-160,1.62,team_total,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,under,away,1.5,s;-1;tt;1.5;away,130,2.3,team_total,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,,home,-0.5,s;-1;s;-0.5,125,2.25,spread,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,,home,,s;-1;m,-115,1.87,moneyline,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,over,home,2.5,s;-1;tt;2.5;home,125,2.25,team_total,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,under,home,2.5,s;-1;tt;2.5;home,-155,1.65,team_total,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,over,,4.5,s;-1;ou;4.5,-120,1.83,total,
-1st 5 Innings,490441734,MIL(away) vs CHC(home),MLB,under,,4.5,s;-1;ou;4.5,100,2.0,total,
-Game,490441722,HOU(away) vs OAK(home),MLB,,away,-1.5,s;0;s;1.5,118,2.18,spread,
-Game,490441722,HOU(away) vs OAK(home),MLB,,away,,s;0;m,-134,1.75,moneyline,
-Game,490441722,HOU(away) vs OAK(home),MLB,over,away,4.5,s;0;tt;4.5;away,-118,1.85,team_total,
-Game,490441722,HOU(away) vs OAK(home),MLB,under,away,4.5,s;0;tt;4.5;away,-112,1.89,team_total,
-Game,490441722,HOU(away) vs OAK(home),MLB,,home,1.5,s;0;s;1.5,-138,1.72,spread,
-Game,490441722,HOU(away) vs OAK(home),MLB,,home,,s;0;m,123,2.23,moneyline,
-Game,490441722,HOU(away) vs OAK(home),MLB,over,home,3.5,s;0;tt;3.5;home,-145,1.69,team_total,
-Game,490441722,HOU(away) vs OAK(home),MLB,under,home,3.5,s;0;tt;3.5;home,115,2.15,team_total,
-Game,490441722,HOU(away) vs OAK(home),MLB,over,,9.0,s;0;ou;9,-105,1.95,total,
-Game,490441722,HOU(away) vs OAK(home),MLB,under,,9.0,s;0;ou;9,-115,1.87,total,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,,away,-0.5,s;-1;s;0.5,108,2.08,spread,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,,away,,s;-1;m,-131,1.76,moneyline,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,over,away,2.5,s;-1;tt;2.5;away,100,2.0,team_total,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,under,away,2.5,s;-1;tt;2.5;away,-130,1.77,team_total,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,,home,0.5,s;-1;s;0.5,-128,1.78,spread,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,,home,,s;-1;m,111,2.11,moneyline,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,over,home,2.5,s;-1;tt;2.5;home,130,2.3,team_total,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,under,home,2.5,s;-1;tt;2.5;home,-160,1.62,team_total,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,over,,5.0,s;-1;ou;5,-105,1.95,total,
-1st 5 Innings,490441722,HOU(away) vs OAK(home),MLB,under,,5.0,s;-1;ou;5,-115,1.87,total,
-Game,490441724,LAA(away) vs SEA(home),MLB,,away,1.5,s;0;s;-1.5,-161,1.62,spread,
-Game,490441724,LAA(away) vs SEA(home),MLB,,away,,s;0;m,142,2.42,moneyline,
-Game,490441724,LAA(away) vs SEA(home),MLB,over,away,2.5,s;0;tt;2.5;away,-145,1.69,team_total,
-Game,490441724,LAA(away) vs SEA(home),MLB,under,away,2.5,s;0;tt;2.5;away,115,2.15,team_total,
-Game,490441724,LAA(away) vs SEA(home),MLB,,home,-1.5,s;0;s;-1.5,141,2.41,spread,
-Game,490441724,LAA(away) vs SEA(home),MLB,,home,,s;0;m,-155,1.65,moneyline,
-Game,490441724,LAA(away) vs SEA(home),MLB,over,home,3.5,s;0;tt;3.5;home,-120,1.83,team_total,
-Game,490441724,LAA(away) vs SEA(home),MLB,under,home,3.5,s;0;tt;3.5;home,-110,1.91,team_total,
-Game,490441724,LAA(away) vs SEA(home),MLB,over,,7.0,s;0;ou;7,-101,1.99,total,
-Game,490441724,LAA(away) vs SEA(home),MLB,under,,7.0,s;0;ou;7,-119,1.84,total,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,,away,0.5,s;-1;s;-0.5,-110,1.91,spread,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,,away,,s;-1;m,135,2.35,moneyline,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,over,away,1.5,s;-1;tt;1.5;away,100,2.0,team_total,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,under,away,1.5,s;-1;tt;1.5;away,-130,1.77,team_total,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,,home,-0.5,s;-1;s;-0.5,-110,1.91,spread,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,,home,,s;-1;m,-155,1.65,moneyline,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,over,home,2.5,s;-1;tt;2.5;home,135,2.35,team_total,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,under,home,2.5,s;-1;tt;2.5;home,-165,1.61,team_total,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,over,,4.0,s;-1;ou;4,115,2.15,total,
-1st 5 Innings,490441724,LAA(away) vs SEA(home),MLB,under,,4.0,s;-1;ou;4,-135,1.74,total,
-Game,490441721,SF(away) vs LAD(home),MLB,,away,1.5,s;0;s;-1.5,-150,1.67,spread,
-Game,490441721,SF(away) vs LAD(home),MLB,,away,,s;0;m,140,2.4,moneyline,
-Game,490441721,SF(away) vs LAD(home),MLB,over,away,3.5,s;0;tt;3.5;away,-145,1.69,team_total,
-Game,490441721,SF(away) vs LAD(home),MLB,under,away,3.5,s;0;tt;3.5;away,115,2.15,team_total,
-Game,490441721,SF(away) vs LAD(home),MLB,,home,-1.5,s;0;s;-1.5,130,2.3,spread,
-Game,490441721,SF(away) vs LAD(home),MLB,,home,,s;0;m,-153,1.65,moneyline,
-Game,490441721,SF(away) vs LAD(home),MLB,over,home,4.5,s;0;tt;4.5;home,-135,1.74,team_total,
-Game,490441721,SF(away) vs LAD(home),MLB,under,home,4.5,s;0;tt;4.5;home,105,2.05,team_total,
-Game,490441721,SF(away) vs LAD(home),MLB,over,,9.0,s;0;ou;9,-113,1.88,total,
-Game,490441721,SF(away) vs LAD(home),MLB,under,,9.0,s;0;ou;9,-107,1.93,total,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,,away,0.5,s;-1;s;-0.5,-118,1.85,spread,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,,away,,s;-1;m,123,2.23,moneyline,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,over,away,1.5,s;-1;tt;1.5;away,-150,1.67,team_total,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,under,away,1.5,s;-1;tt;1.5;away,120,2.2,team_total,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,,home,-0.5,s;-1;s;-0.5,-102,1.98,spread,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,,home,,s;-1;m,-143,1.7,moneyline,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,over,home,2.5,s;-1;tt;2.5;home,-115,1.87,team_total,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,under,home,2.5,s;-1;tt;2.5;home,-115,1.87,team_total,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,over,,5.0,s;-1;ou;5,100,2.0,total,
-1st 5 Innings,490441721,SF(away) vs LAD(home),MLB,under,,5.0,s;-1;ou;5,-120,1.83,total,
-Game,490442530,BOS(away) vs COL(home),MLB,,away,-1.5,s;0;s;1.5,-110,1.91,spread,
-Game,490442530,BOS(away) vs COL(home),MLB,,away,,s;0;m,-164,1.61,moneyline,
-Game,490442530,BOS(away) vs COL(home),MLB,,home,1.5,s;0;s;1.5,-110,1.91,spread,
-Game,490442530,BOS(away) vs COL(home),MLB,,home,,s;0;m,150,2.5,moneyline,
-Game,490442530,BOS(away) vs COL(home),MLB,over,,10.0,s;0;ou;10,-125,1.8,total,
-Game,490442530,BOS(away) vs COL(home),MLB,under,,10.0,s;0;ou;10,105,2.05,total,
-Game,490442531,HOU(away) vs OAK(home),MLB,,away,-1.5,s;0;s;1.5,110,2.1,spread,
-Game,490442531,HOU(away) vs OAK(home),MLB,,away,,s;0;m,-150,1.67,moneyline,
-Game,490442531,HOU(away) vs OAK(home),MLB,,home,1.5,s;0;s;1.5,-130,1.77,spread,
-Game,490442531,HOU(away) vs OAK(home),MLB,,home,,s;0;m,138,2.38,moneyline,
-Game,490442531,HOU(away) vs OAK(home),MLB,over,,8.5,s;0;ou;8.5,100,2.0,total,
-Game,490442531,HOU(away) vs OAK(home),MLB,under,,8.5,s;0;ou;8.5,-120,1.83,total,
-Game,490442535,DET(away) vs CLE(home),MLB,,away,1.5,s;0;s;-1.5,-170,1.59,spread,
-Game,490442535,DET(away) vs CLE(home),MLB,,away,,s;0;m,132,2.32,moneyline,
-Game,490442535,DET(away) vs CLE(home),MLB,,home,-1.5,s;0;s;-1.5,150,2.5,spread,
-Game,490442535,DET(away) vs CLE(home),MLB,,home,,s;0;m,-144,1.69,moneyline,
-Game,490442535,DET(away) vs CLE(home),MLB,over,,7.5,s;0;ou;7.5,100,2.0,total,
-Game,490442535,DET(away) vs CLE(home),MLB,under,,7.5,s;0;ou;7.5,-120,1.83,total,
-Game,490442540,SD(away) vs WAS(home),MLB,,away,-1.5,s;0;s;1.5,132,2.32,spread,
-Game,490442540,SD(away) vs WAS(home),MLB,,away,,s;0;m,-124,1.81,moneyline,
-Game,490442540,SD(away) vs WAS(home),MLB,,home,1.5,s;0;s;1.5,-152,1.66,spread,
-Game,490442540,SD(away) vs WAS(home),MLB,,home,,s;0;m,114,2.14,moneyline,
-Game,490442540,SD(away) vs WAS(home),MLB,over,,8.5,s;0;ou;8.5,-120,1.83,total,
-Game,490442540,SD(away) vs WAS(home),MLB,under,,8.5,s;0;ou;8.5,100,2.0,total,
-Game,490442539,NYM(away) vs NYY(home),MLB,,away,1.5,s;0;s;-1.5,-150,1.67,spread,
-Game,490442539,NYM(away) vs NYY(home),MLB,,away,,s;0;m,149,2.49,moneyline,
-Game,490442539,NYM(away) vs NYY(home),MLB,,home,-1.5,s;0;s;-1.5,130,2.3,spread,
-Game,490442539,NYM(away) vs NYY(home),MLB,,home,,s;0;m,-163,1.61,moneyline,
-Game,490442539,NYM(away) vs NYY(home),MLB,over,,8.5,s;0;ou;8.5,105,2.05,total,
-Game,490442539,NYM(away) vs NYY(home),MLB,under,,8.5,s;0;ou;8.5,-125,1.8,total,
-Game,490442529,TB(away) vs TOR(home),MLB,,away,-1.5,s;0;s;1.5,148,2.48,spread,
-Game,490442529,TB(away) vs TOR(home),MLB,,away,,s;0;m,-113,1.88,moneyline,
-Game,490442529,TB(away) vs TOR(home),MLB,,home,1.5,s;0;s;1.5,-168,1.6,spread,
-Game,490442529,TB(away) vs TOR(home),MLB,,home,,s;0;m,103,2.03,moneyline,
-Game,490442529,TB(away) vs TOR(home),MLB,over,,8.5,s;0;ou;8.5,-115,1.87,total,
-Game,490442529,TB(away) vs TOR(home),MLB,under,,8.5,s;0;ou;8.5,-105,1.95,total,
-Game,490442532,CWS(away) vs TEX(home),MLB,,away,1.5,s;0;s;-1.5,-110,1.91,spread,
-Game,490442532,CWS(away) vs TEX(home),MLB,,away,,s;0;m,218,3.18,moneyline,
-Game,490442532,CWS(away) vs TEX(home),MLB,,home,-1.5,s;0;s;-1.5,-110,1.91,spread,
-Game,490442532,CWS(away) vs TEX(home),MLB,,home,,s;0;m,-245,1.41,moneyline,
-Game,490442532,CWS(away) vs TEX(home),MLB,over,,8.0,s;0;ou;8,-115,1.87,total,
-Game,490442532,CWS(away) vs TEX(home),MLB,under,,8.0,s;0;ou;8,-105,1.95,total,
-Game,490442534,ARI(away) vs KAN(home),MLB,,away,1.5,s;0;s;-1.5,-178,1.56,spread,
-Game,490442534,ARI(away) vs KAN(home),MLB,,away,,s;0;m,115,2.15,moneyline,
-Game,490442534,ARI(away) vs KAN(home),MLB,,home,-1.5,s;0;s;-1.5,158,2.58,spread,
-Game,490442534,ARI(away) vs KAN(home),MLB,,home,,s;0;m,-125,1.8,moneyline,
-Game,490442534,ARI(away) vs KAN(home),MLB,over,,9.0,s;0;ou;9,-120,1.83,total,
-Game,490442534,ARI(away) vs KAN(home),MLB,under,,9.0,s;0;ou;9,100,2.0,total,
-Game,490442538,SF(away) vs LAD(home),MLB,,away,1.5,s;0;s;-1.5,-130,1.77,spread,
-Game,490442538,SF(away) vs LAD(home),MLB,,away,,s;0;m,174,2.74,moneyline,
-Game,490442538,SF(away) vs LAD(home),MLB,,home,-1.5,s;0;s;-1.5,110,2.1,spread,
-Game,490442538,SF(away) vs LAD(home),MLB,,home,,s;0;m,-190,1.53,moneyline,
-Game,490442538,SF(away) vs LAD(home),MLB,over,,8.0,s;0;ou;8,-105,1.95,total,
-Game,490442538,SF(away) vs LAD(home),MLB,under,,8.0,s;0;ou;8,-115,1.87,total,
-,200516,HOU(away) vs OAK(home),MLB,over,,2.5,pp;0;ou;er;2.5,130,2.3,Earned runs,J. Bloss
-,200516,HOU(away) vs OAK(home),MLB,under,,2.5,pp;0;ou;er;2.5,-169,1.59,Earned runs,J. Bloss
+Game,490443304,ATL(away) vs NYM(home),MLB,,away,-1.5,s;0;s;1.5,160,2.6,spread,
+Game,490443304,ATL(away) vs NYM(home),MLB,,away,,s;0;m,-103,1.97,moneyline,
+Game,490443304,ATL(away) vs NYM(home),MLB,over,away,3.5,s;0;tt;3.5;away,-120,1.83,team_total,
+Game,490443304,ATL(away) vs NYM(home),MLB,under,away,3.5,s;0;tt;3.5;away,-110,1.91,team_total,
+Game,490443304,ATL(away) vs NYM(home),MLB,,home,1.5,s;0;s;1.5,-180,1.56,spread,
+Game,490443304,ATL(away) vs NYM(home),MLB,,home,,s;0;m,-107,1.93,moneyline,
+Game,490443304,ATL(away) vs NYM(home),MLB,over,home,3.5,s;0;tt;3.5;home,100,2.0,team_total,
+Game,490443304,ATL(away) vs NYM(home),MLB,under,home,3.5,s;0;tt;3.5;home,-130,1.77,team_total,
+Game,490443304,ATL(away) vs NYM(home),MLB,over,,7.0,s;0;ou;7,-116,1.86,total,
+Game,490443304,ATL(away) vs NYM(home),MLB,under,,7.0,s;0;ou;7,-104,1.96,total,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,,away,-0.5,s;-1;s;0.5,123,2.23,spread,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,,away,,s;-1;m,-118,1.85,moneyline,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,over,away,1.5,s;-1;tt;1.5;away,-135,1.74,team_total,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,under,away,1.5,s;-1;tt;1.5;away,105,2.05,team_total,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,,home,0.5,s;-1;s;0.5,-143,1.7,spread,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,,home,,s;-1;m,-102,1.98,moneyline,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,over,home,1.5,s;-1;tt;1.5;home,-120,1.83,team_total,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,under,home,1.5,s;-1;tt;1.5;home,-110,1.91,team_total,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,over,,3.5,s;-1;ou;3.5,-125,1.8,total,
+1st 5 Innings,490443304,ATL(away) vs NYM(home),MLB,under,,3.5,s;-1;ou;3.5,105,2.05,total,
+Game,490443302,OAK(away) vs LAA(home),MLB,,away,1.5,s;0;s;-1.5,-195,1.51,spread,
+Game,490443302,OAK(away) vs LAA(home),MLB,,away,,s;0;m,102,2.02,moneyline,
+Game,490443302,OAK(away) vs LAA(home),MLB,over,away,4.5,s;0;tt;4.5;away,-130,1.77,team_total,
+Game,490443302,OAK(away) vs LAA(home),MLB,under,away,4.5,s;0;tt;4.5;away,100,2.0,team_total,
+Game,490443302,OAK(away) vs LAA(home),MLB,,home,-1.5,s;0;s;-1.5,170,2.7,spread,
+Game,490443302,OAK(away) vs LAA(home),MLB,,home,,s;0;m,-112,1.89,moneyline,
+Game,490443302,OAK(away) vs LAA(home),MLB,over,home,4.5,s;0;tt;4.5;home,-120,1.83,team_total,
+Game,490443302,OAK(away) vs LAA(home),MLB,under,home,4.5,s;0;tt;4.5;home,-110,1.91,team_total,
+Game,490443302,OAK(away) vs LAA(home),MLB,over,,9.5,s;0;ou;9.5,-115,1.87,total,
+Game,490443302,OAK(away) vs LAA(home),MLB,under,,9.5,s;0;ou;9.5,-105,1.95,total,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,,away,0.5,s;-1;s;-0.5,-140,1.71,spread,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,,away,,s;-1;m,100,2.0,moneyline,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,over,away,2.5,s;-1;tt;2.5;away,105,2.05,team_total,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,under,away,2.5,s;-1;tt;2.5;away,-135,1.74,team_total,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,,home,-0.5,s;-1;s;-0.5,120,2.2,spread,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,,home,,s;-1;m,-120,1.83,moneyline,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,over,home,2.5,s;-1;tt;2.5;home,100,2.0,team_total,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,under,home,2.5,s;-1;tt;2.5;home,-130,1.77,team_total,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,over,,5.0,s;-1;ou;5,-115,1.87,total,
+1st 5 Innings,490443302,OAK(away) vs LAA(home),MLB,under,,5.0,s;-1;ou;5,-105,1.95,total,
+Game,490443889,MIN(away) vs DET(home),MLB,,away,,s;0;m,-176,1.57,moneyline,
+Game,490443889,MIN(away) vs DET(home),MLB,,home,,s;0;m,161,2.61,moneyline,
+Game,490443889,MIN(away) vs DET(home),MLB,over,,8.0,s;0;ou;8,-110,1.91,total,
+Game,490443889,MIN(away) vs DET(home),MLB,under,,8.0,s;0;ou;8,-110,1.91,total,
+Game,490443898,CLE(away) vs PHI(home),MLB,,away,,s;0;m,148,2.48,moneyline,
+Game,490443898,CLE(away) vs PHI(home),MLB,,home,,s;0;m,-162,1.62,moneyline,
+Game,490443898,CLE(away) vs PHI(home),MLB,over,,8.5,s;0;ou;8.5,-104,1.96,total,
+Game,490443898,CLE(away) vs PHI(home),MLB,under,,8.5,s;0;ou;8.5,-116,1.86,total,
+Game,490443899,CIN(away) vs TB(home),MLB,,away,,s;0;m,-101,1.99,moneyline,
+Game,490443899,CIN(away) vs TB(home),MLB,,home,,s;0;m,-109,1.92,moneyline,
+Game,490443899,CIN(away) vs TB(home),MLB,over,,7.5,s;0;ou;7.5,-113,1.88,total,
+Game,490443899,CIN(away) vs TB(home),MLB,under,,7.5,s;0;ou;7.5,-107,1.93,total,
+Game,490443885,TEX(away) vs TOR(home),MLB,,away,,s;0;m,111,2.11,moneyline,
+Game,490443885,TEX(away) vs TOR(home),MLB,,home,,s;0;m,-121,1.83,moneyline,
+Game,490443885,TEX(away) vs TOR(home),MLB,over,,8.0,s;0;ou;8,-130,1.77,total,
+Game,490443885,TEX(away) vs TOR(home),MLB,under,,8.0,s;0;ou;8,110,2.1,total,
+Game,490443890,ATL(away) vs NYM(home),MLB,,away,,s;0;m,116,2.16,moneyline,
+Game,490443890,ATL(away) vs NYM(home),MLB,,home,,s;0;m,-126,1.79,moneyline,
+Game,490443890,ATL(away) vs NYM(home),MLB,over,,8.5,s;0;ou;8.5,-105,1.95,total,
+Game,490443890,ATL(away) vs NYM(home),MLB,under,,8.5,s;0;ou;8.5,-115,1.87,total,
+Game,490443895,NYY(away) vs BOS(home),MLB,,away,,s;0;m,-115,1.87,moneyline,
+Game,490443895,NYY(away) vs BOS(home),MLB,,home,,s;0;m,105,2.05,moneyline,
+Game,490443895,NYY(away) vs BOS(home),MLB,over,,9.5,s;0;ou;9.5,-110,1.91,total,
+Game,490443895,NYY(away) vs BOS(home),MLB,under,,9.5,s;0;ou;9.5,-110,1.91,total,
+Game,490443888,FLA(away) vs MIL(home),MLB,,away,,s;0;m,198,2.98,moneyline,
+Game,490443888,FLA(away) vs MIL(home),MLB,,home,,s;0;m,-220,1.45,moneyline,
+Game,490443888,FLA(away) vs MIL(home),MLB,over,,8.0,s;0;ou;8,100,2.0,total,
+Game,490443888,FLA(away) vs MIL(home),MLB,under,,8.0,s;0;ou;8,-120,1.83,total,
+Game,490443887,SEA(away) vs CWS(home),MLB,,away,,s;0;m,-160,1.62,moneyline,
+Game,490443887,SEA(away) vs CWS(home),MLB,,home,,s;0;m,147,2.47,moneyline,
+Game,490443887,SEA(away) vs CWS(home),MLB,over,,7.5,s;0;ou;7.5,-115,1.87,total,
+Game,490443887,SEA(away) vs CWS(home),MLB,under,,7.5,s;0;ou;7.5,-105,1.95,total,
+Game,490443886,LAD(away) vs HOU(home),MLB,,away,,s;0;m,107,2.07,moneyline,
+Game,490443886,LAD(away) vs HOU(home),MLB,,home,,s;0;m,-117,1.85,moneyline,
+Game,490443886,LAD(away) vs HOU(home),MLB,over,,8.5,s;0;ou;8.5,105,2.05,total,
+Game,490443886,LAD(away) vs HOU(home),MLB,under,,8.5,s;0;ou;8.5,-125,1.8,total,
+Game,490443896,CHC(away) vs KAN(home),MLB,,away,,s;0;m,129,2.29,moneyline,
+Game,490443896,CHC(away) vs KAN(home),MLB,,home,,s;0;m,-140,1.71,moneyline,
+Game,490443896,CHC(away) vs KAN(home),MLB,over,,9.0,s;0;ou;9,-120,1.83,total,
+Game,490443896,CHC(away) vs KAN(home),MLB,under,,9.0,s;0;ou;9,100,2.0,total,
+Game,490443892,WAS(away) vs STL(home),MLB,,away,,s;0;m,138,2.38,moneyline,
+Game,490443892,WAS(away) vs STL(home),MLB,,home,,s;0;m,-150,1.67,moneyline,
+Game,490443892,WAS(away) vs STL(home),MLB,over,,8.0,s;0;ou;8,100,2.0,total,
+Game,490443892,WAS(away) vs STL(home),MLB,under,,8.0,s;0;ou;8,-120,1.83,total,
+Game,490443894,COL(away) vs SF(home),MLB,,away,,s;0;m,160,2.6,moneyline,
+Game,490443894,COL(away) vs SF(home),MLB,,home,,s;0;m,-175,1.57,moneyline,
+Game,490443894,COL(away) vs SF(home),MLB,over,,8.0,s;0;ou;8,-105,1.95,total,
+Game,490443894,COL(away) vs SF(home),MLB,under,,8.0,s;0;ou;8,-115,1.87,total,
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ou;er;1.5,-164,1.61,Earned runs,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,under,,1.5,pp;0;ou;er;1.5,125,2.25,Earned runs,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ou;er;2.5,120,2.2,Earned runs,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,under,,2.5,pp;0;ou;er;2.5,-156,1.64,Earned runs,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-143,1.7,Hits,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,110,2.1,Hits,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-147,1.68,Hits,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,113,2.13,Hits,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-130,1.77,Hits,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,100,2.0,Hits,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-147,1.68,Hits,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,113,2.13,Hits,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-172,1.58,Hits,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,133,2.33,Hits,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-222,1.45,Hits,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,168,2.68,Hits,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-204,1.49,Hits,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,156,2.56,Hits,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-179,1.56,Hits,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,137,2.37,Hits,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-130,1.77,Hits,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,101,2.01,Hits,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-122,1.82,Hits,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,-106,1.94,Hits,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-161,1.62,Hits,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,123,2.23,Hits,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-200,1.5,Hits,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,152,2.52,Hits,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-217,1.46,Hits,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,165,2.65,Hits,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-135,1.74,Hits,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,104,2.04,Hits,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-152,1.66,Hits,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,116,2.16,Hits,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-147,1.68,Hits,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,114,2.14,Hits,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-256,1.39,Hits,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;hit;0.5,191,2.91,Hits,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,4.5,pp;0;ou;hita;4.5,106,2.06,Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,under,,4.5,pp;0;ou;hita;4.5,-137,1.73,Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,5.5,pp;0;ou;hita;5.5,121,2.21,Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,under,,5.5,pp;0;ou;hita;5.5,-156,1.64,Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,113,2.13,Runs + RBIs,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-147,1.68,Runs + RBIs,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,167,2.67,Runs + RBIs,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-222,1.45,Runs + RBIs,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,106,2.06,Runs + RBIs,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-137,1.73,Runs + RBIs,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-112,1.89,Runs + RBIs,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-115,1.87,Runs + RBIs,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,118,2.18,Runs + RBIs,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-154,1.65,Runs + RBIs,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-141,1.71,Runs + RBIs,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,109,2.09,Runs + RBIs,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,124,2.24,Runs + RBIs,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-161,1.62,Runs + RBIs,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,120,2.2,Runs + RBIs,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-156,1.64,Runs + RBIs,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,152,2.52,Runs + RBIs,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-200,1.5,Runs + RBIs,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,149,2.49,Runs + RBIs,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-196,1.51,Runs + RBIs,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-123,1.81,Runs + RBIs,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-105,1.95,Runs + RBIs,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,117,2.17,Runs + RBIs,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-152,1.66,Runs + RBIs,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-130,1.77,Runs + RBIs,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,100,2.0,Runs + RBIs,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,139,2.39,Runs + RBIs,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-182,1.55,Runs + RBIs,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,124,2.24,Runs + RBIs,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-161,1.62,Runs + RBIs,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,113,2.13,Runs + RBIs,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-147,1.68,Runs + RBIs,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,158,2.58,Runs + RBIs,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-208,1.48,Runs + RBIs,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,796,8.96,Stolen bases,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-2000,1.05,Stolen bases,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,1096,11.96,Stolen bases,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-5000,1.02,Stolen bases,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,484,5.84,Stolen bases,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-833,1.12,Stolen bases,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,1253,13.53,Stolen bases,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-10000,1.01,Stolen bases,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,974,10.74,Stolen bases,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-3333,1.03,Stolen bases,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,1253,13.53,Stolen bases,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-10000,1.01,Stolen bases,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,1253,13.53,Stolen bases,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-10000,1.01,Stolen bases,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,673,7.73,Stolen bases,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-1429,1.07,Stolen bases,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,484,5.84,Stolen bases,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-833,1.12,Stolen bases,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,974,10.74,Stolen bases,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-3333,1.03,Stolen bases,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;sb;0.5,484,5.84,Stolen bases,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-833,1.12,Stolen bases,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,5.5,pp;0;ou;so;5.5,106,2.06,Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,under,,5.5,pp;0;ou;so;5.5,-137,1.73,Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,7.5,pp;0;ou;so;7.5,-114,1.88,Strikeouts,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,under,,7.5,pp;0;ou;so;7.5,-114,1.88,Strikeouts,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-141,1.71,Total bases,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,108,2.08,Total bases,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-132,1.76,Total bases,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,102,2.02,Total bases,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-145,1.69,Total bases,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,111,2.11,Total bases,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ou;tb;1.5,105,2.05,Total bases,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-135,1.74,Total bases,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-182,1.55,Total bases,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,138,2.38,Total bases,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-175,1.57,Total bases,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,135,2.35,Total bases,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ou;tb;1.5,134,2.34,Total bases,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-175,1.57,Total bases,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-127,1.79,Total bases,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,-102,1.98,Total bases,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ou;tb;1.5,136,2.36,Total bases,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-179,1.56,Total bases,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-161,1.62,Total bases,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,124,2.24,Total bases,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ou;tb;1.5,136,2.36,Total bases,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-179,1.56,Total bases,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ou;tb;1.5,233,3.33,Total bases,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-323,1.31,Total bases,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-118,1.85,Total bases,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,-110,1.91,Total bases,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-147,1.68,Total bases,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,114,2.14,Total bases,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-152,1.66,Total bases,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,under,,0.5,pp;0;ou;tb;0.5,116,2.16,Total bases,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ou;tb;1.5,149,2.49,Total bases,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-196,1.51,Total bases,J. Iglesias
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ou;er;2.5,-123,1.81,Earned runs,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,under,,2.5,pp;0;ou;er;2.5,-104,1.96,Earned runs,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ou;er;2.5,100,2.0,Earned runs,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,under,,2.5,pp;0;ou;er;2.5,-130,1.77,Earned runs,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-141,1.71,Hits,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,108,2.08,Hits,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-233,1.43,Hits,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,174,2.74,Hits,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-256,1.39,Hits,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,192,2.92,Hits,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-164,1.61,Hits,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,125,2.25,Hits,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-185,1.54,Hits,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,140,2.4,Hits,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-278,1.36,Hits,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,202,3.02,Hits,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-238,1.42,Hits,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,178,2.78,Hits,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-238,1.42,Hits,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,178,2.78,Hits,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-217,1.46,Hits,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,164,2.64,Hits,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-147,1.68,Hits,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,114,2.14,Hits,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-172,1.58,Hits,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,132,2.32,Hits,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-217,1.46,Hits,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,164,2.64,Hits,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-263,1.38,Hits,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,194,2.94,Hits,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-159,1.63,Hits,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,122,2.22,Hits,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;hit;1.5,186,2.86,Hits,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;hit;1.5,-250,1.4,Hits,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-145,1.69,Hits,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,112,2.12,Hits,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;hit;0.5,-196,1.51,Hits,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;hit;0.5,148,2.48,Hits,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;hit;1.5,195,2.95,Hits,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;hit;1.5,-263,1.38,Hits,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,5.5,pp;0;ou;hita;5.5,126,2.26,Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,under,,5.5,pp;0;ou;hita;5.5,-164,1.61,Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,4.5,pp;0;ou;hita;4.5,-164,1.61,Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,under,,4.5,pp;0;ou;hita;4.5,126,2.26,Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-132,1.76,Runs + RBIs,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,102,2.02,Runs + RBIs,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-114,1.88,Runs + RBIs,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-114,1.88,Runs + RBIs,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-125,1.8,Runs + RBIs,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-103,1.97,Runs + RBIs,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,102,2.02,Runs + RBIs,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-132,1.76,Runs + RBIs,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-111,1.9,Runs + RBIs,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-116,1.86,Runs + RBIs,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-145,1.69,Runs + RBIs,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,111,2.11,Runs + RBIs,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-167,1.6,Runs + RBIs,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,127,2.27,Runs + RBIs,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-143,1.7,Runs + RBIs,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,110,2.1,Runs + RBIs,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-102,1.98,Runs + RBIs,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-127,1.79,Runs + RBIs,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,106,2.06,Runs + RBIs,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-137,1.73,Runs + RBIs,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-114,1.88,Runs + RBIs,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-114,1.88,Runs + RBIs,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-101,1.99,Runs + RBIs,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-128,1.78,Runs + RBIs,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-112,1.89,Runs + RBIs,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-115,1.87,Runs + RBIs,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-103,1.97,Runs + RBIs,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-125,1.8,Runs + RBIs,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-132,1.76,Runs + RBIs,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,102,2.02,Runs + RBIs,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-114,1.88,Runs + RBIs,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-114,1.88,Runs + RBIs,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,120,2.2,Runs + RBIs,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-156,1.64,Runs + RBIs,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;r+r;0.5,-122,1.82,Runs + RBIs,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;r+r;0.5,-106,1.94,Runs + RBIs,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,876,9.76,Stolen bases,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-2500,1.04,Stolen bases,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,1096,11.96,Stolen bases,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-5000,1.02,Stolen bases,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,876,9.76,Stolen bases,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-2500,1.04,Stolen bases,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,974,10.74,Stolen bases,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-3333,1.03,Stolen bases,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,876,9.76,Stolen bases,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-2500,1.04,Stolen bases,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,582,6.82,Stolen bases,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-1111,1.09,Stolen bases,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,1096,11.96,Stolen bases,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-5000,1.02,Stolen bases,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,876,9.76,Stolen bases,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-2500,1.04,Stolen bases,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,974,10.74,Stolen bases,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-3333,1.03,Stolen bases,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,484,5.84,Stolen bases,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-833,1.12,Stolen bases,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,1096,11.96,Stolen bases,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-5000,1.02,Stolen bases,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,974,10.74,Stolen bases,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-3333,1.03,Stolen bases,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,435,5.35,Stolen bases,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-714,1.14,Stolen bases,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,876,9.76,Stolen bases,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-2500,1.04,Stolen bases,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,582,6.82,Stolen bases,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-1111,1.09,Stolen bases,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,729,8.29,Stolen bases,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-1667,1.06,Stolen bases,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;sb;0.5,414,5.14,Stolen bases,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;sb;0.5,-667,1.15,Stolen bases,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ou;so;3.5,-156,1.64,Strikeouts,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,under,,3.5,pp;0;ou;so;3.5,120,2.2,Strikeouts,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ou;so;2.5,-169,1.59,Strikeouts,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,under,,2.5,pp;0;ou;so;2.5,130,2.3,Strikeouts,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,186,2.86,Total bases,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-250,1.4,Total bases,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,130,2.3,Total bases,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-169,1.59,Total bases,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,128,2.28,Total bases,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-167,1.6,Total bases,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-161,1.62,Total bases,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;tb;0.5,124,2.24,Total bases,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,109,2.09,Total bases,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-141,1.71,Total bases,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,112,2.12,Total bases,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-145,1.69,Total bases,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,149,2.49,Total bases,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-196,1.51,Total bases,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,-108,1.93,Total bases,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-120,1.83,Total bases,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-172,1.58,Total bases,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;tb;0.5,131,2.31,Total bases,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,110,2.1,Total bases,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-143,1.7,Total bases,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-145,1.69,Total bases,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;tb;0.5,111,2.11,Total bases,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-156,1.64,Total bases,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;tb;0.5,121,2.21,Total bases,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,122,2.22,Total bases,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-159,1.63,Total bases,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ou;tb;0.5,-145,1.69,Total bases,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,under,,0.5,pp;0;ou;tb;0.5,112,2.12,Total bases,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,155,2.55,Total bases,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-204,1.49,Total bases,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,122,2.22,Total bases,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-159,1.63,Total bases,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,139,2.39,Total bases,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-182,1.55,Total bases,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ou;tb;1.5,164,2.64,Total bases,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,under,,1.5,pp;0;ou;tb;1.5,-217,1.46,Total bases,N. Schanuel
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;er;3.5,200,3.0,Alternate Earned runs,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;er;1.5,-222,1.45,Alternate Earned runs,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,5.5,pp;0;ss;er;5.5,663,7.63,Alternate Earned runs,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,4.5,pp;0;ss;er;4.5,361,4.61,Alternate Earned runs,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;er;2.5,120,2.2,Alternate Earned runs,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;er;1.5,-164,1.61,Alternate Earned runs,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;er;2.5,125,2.25,Alternate Earned runs,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;er;3.5,233,3.33,Alternate Earned runs,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;er;0.5,-556,1.18,Alternate Earned runs,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,4.5,pp;0;ss;er;4.5,439,5.39,Alternate Earned runs,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1168,12.68,Alternate Hits,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,310,4.1,Alternate Hits,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-143,1.7,Alternate Hits,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-147,1.68,Alternate Hits,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1154,12.54,Alternate Hits,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,305,4.05,Alternate Hits,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-130,1.77,Alternate Hits,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,322,4.22,Alternate Hits,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1169,12.69,Alternate Hits,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1094,11.94,Alternate Hits,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-147,1.68,Alternate Hits,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,297,3.97,Alternate Hits,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-172,1.58,Alternate Hits,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,264,3.64,Alternate Hits,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,970,10.7,Alternate Hits,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-130,1.77,Alternate Hits,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1139,12.39,Alternate Hits,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,318,4.18,Alternate Hits,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,602,7.02,Alternate Hits,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-222,1.45,Alternate Hits,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,188,2.88,Alternate Hits,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,718,8.18,Alternate Hits,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-204,1.49,Alternate Hits,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,209,3.09,Alternate Hits,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-179,1.56,Alternate Hits,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,269,3.69,Alternate Hits,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1046,11.46,Alternate Hits,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-161,1.62,Alternate Hits,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,279,3.79,Alternate Hits,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1036,11.36,Alternate Hits,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,244,3.44,Alternate Hits,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-200,1.5,Alternate Hits,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,935,10.35,Alternate Hits,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,722,8.22,Alternate Hits,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-217,1.46,Alternate Hits,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,204,3.04,Alternate Hits,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,295,3.95,Alternate Hits,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-152,1.66,Alternate Hits,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1099,11.99,Alternate Hits,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-122,1.82,Alternate Hits,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,326,4.26,Alternate Hits,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1138,12.38,Alternate Hits,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,321,4.21,Alternate Hits,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-135,1.74,Alternate Hits,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1197,12.97,Alternate Hits,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,286,3.86,Alternate Hits,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-147,1.68,Alternate Hits,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1005,11.05,Alternate Hits,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-256,1.39,Alternate Hits,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hit;1.5,180,2.8,Alternate Hits,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;hit;2.5,627,7.27,Alternate Hits,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,6.5,pp;0;ss;hita;6.5,174,2.74,Alternate Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,7.5,pp;0;ss;hita;7.5,270,3.7,Alternate Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,10.5,pp;0;ss;hita;10.5,1075,11.75,Alternate Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,5.5,pp;0;ss;hita;5.5,121,2.21,Alternate Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,8.5,pp;0;ss;hita;8.5,421,5.21,Alternate Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,9.5,pp;0;ss;hita;9.5,666,7.66,Alternate Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,4.5,pp;0;ss;hita;4.5,-154,1.65,Alternate Hits Allowed,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;hita;3.5,-238,1.42,Alternate Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,9.5,pp;0;ss;hita;9.5,2293,23.93,Alternate Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,5.5,pp;0;ss;hita;5.5,185,2.85,Alternate Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,8.5,pp;0;ss;hita;8.5,1173,12.73,Alternate Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,7.5,pp;0;ss;hita;7.5,618,7.18,Alternate Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,4.5,pp;0;ss;hita;4.5,106,2.06,Alternate Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,6.5,pp;0;ss;hita;6.5,335,4.35,Alternate Hits Allowed,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4900,50.0,Alternate Home runs,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,900,10.0,Alternate Home runs,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,700,8.0,Alternate Home runs,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4400,45.0,Alternate Home runs,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2900,30.0,Alternate Home runs,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,450,5.5,Alternate Home runs,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,600,7.0,Alternate Home runs,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3900,40.0,Alternate Home runs,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,1900,20.0,Alternate Home runs,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,300,4.0,Alternate Home runs,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,500,6.0,Alternate Home runs,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3400,35.0,Alternate Home runs,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,500,6.0,Alternate Home runs,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3400,35.0,Alternate Home runs,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4400,45.0,Alternate Home runs,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,700,8.0,Alternate Home runs,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,400,5.0,Alternate Home runs,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2400,25.0,Alternate Home runs,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,1900,20.0,Alternate Home runs,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,300,4.0,Alternate Home runs,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,600,7.0,Alternate Home runs,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3900,40.0,Alternate Home runs,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2400,25.0,Alternate Home runs,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,400,5.0,Alternate Home runs,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,400,5.0,Alternate Home runs,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2400,25.0,Alternate Home runs,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4400,45.0,Alternate Home runs,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,700,8.0,Alternate Home runs,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,500,6.0,Alternate Home runs,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3400,35.0,Alternate Home runs,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,900,10.0,Alternate Home runs,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4900,50.0,Alternate Home runs,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4900,50.0,Alternate Home runs,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;hr;0.5,900,10.0,Alternate Home runs,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,167,2.67,Alternate Runs + RBIs,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,260,3.6,Alternate Runs + RBIs,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,515,6.15,Alternate Runs + RBIs,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,984,10.84,Alternate Runs + RBIs,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,658,7.58,Alternate Runs + RBIs,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,193,2.93,Alternate Runs + RBIs,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,359,4.59,Alternate Runs + RBIs,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,113,2.13,Alternate Runs + RBIs,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,406,5.06,Alternate Runs + RBIs,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,118,2.18,Alternate Runs + RBIs,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,777,8.77,Alternate Runs + RBIs,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,209,3.09,Alternate Runs + RBIs,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,120,2.2,Alternate Runs + RBIs,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,287,3.87,Alternate Runs + RBIs,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,710,8.1,Alternate Runs + RBIs,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1598,16.98,Alternate Runs + RBIs,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1025,11.25,Alternate Runs + RBIs,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,106,2.06,Alternate Runs + RBIs,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,488,5.88,Alternate Runs + RBIs,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,224,3.24,Alternate Runs + RBIs,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,329,4.29,Alternate Runs + RBIs,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1759,18.59,Alternate Runs + RBIs,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,800,9.0,Alternate Runs + RBIs,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,152,2.52,Alternate Runs + RBIs,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,304,4.04,Alternate Runs + RBIs,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,593,6.93,Alternate Runs + RBIs,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-141,1.71,Alternate Runs + RBIs,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,154,2.54,Alternate Runs + RBIs,M. Ozuna
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,177,2.77,Alternate Runs + RBIs,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,666,7.66,Alternate Runs + RBIs,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,346,4.46,Alternate Runs + RBIs,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-112,1.89,Alternate Runs + RBIs,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,270,3.7,Alternate Runs + RBIs,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1378,14.78,Alternate Runs + RBIs,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,629,7.29,Alternate Runs + RBIs,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,124,2.24,Alternate Runs + RBIs,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-123,1.81,Alternate Runs + RBIs,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,198,2.98,Alternate Runs + RBIs,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1003,11.03,Alternate Runs + RBIs,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,453,5.53,Alternate Runs + RBIs,M. Olson
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,234,3.34,Alternate Runs + RBIs,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,502,6.02,Alternate Runs + RBIs,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,117,2.17,Alternate Runs + RBIs,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1039,11.39,Alternate Runs + RBIs,M. Vientos
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,222,3.22,Alternate Runs + RBIs,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,728,8.28,Alternate Runs + RBIs,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,149,2.49,Alternate Runs + RBIs,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,404,5.04,Alternate Runs + RBIs,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1038,11.38,Alternate Runs + RBIs,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,196,2.96,Alternate Runs + RBIs,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,458,5.58,Alternate Runs + RBIs,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-130,1.77,Alternate Runs + RBIs,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,475,5.75,Alternate Runs + RBIs,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,925,10.25,Alternate Runs + RBIs,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,238,3.38,Alternate Runs + RBIs,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,139,2.39,Alternate Runs + RBIs,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,910,10.1,Alternate Runs + RBIs,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,113,2.13,Alternate Runs + RBIs,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,451,5.51,Alternate Runs + RBIs,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,219,3.19,Alternate Runs + RBIs,J. Martinez
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1054,11.54,Alternate Runs + RBIs,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,241,3.41,Alternate Runs + RBIs,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,124,2.24,Alternate Runs + RBIs,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,513,6.13,Alternate Runs + RBIs,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,158,2.58,Alternate Runs + RBIs,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,269,3.69,Alternate Runs + RBIs,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1111,12.11,Alternate Runs + RBIs,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,557,6.57,Alternate Runs + RBIs,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3644,37.44,Alternate Stolen bases,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,796,8.96,Alternate Stolen bases,B. Nimmo
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,974,10.74,Alternate Stolen bases,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3667,37.67,Alternate Stolen bases,J. McNeil
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3678,37.78,Alternate Stolen bases,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1096,11.96,Alternate Stolen bases,A. Duvall
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1253,13.53,Alternate Stolen bases,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3689,37.89,Alternate Stolen bases,P. Alonso
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1463,15.63,Alternate Stolen bases,T. d'Arnaud
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,484,5.84,Alternate Stolen bases,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,2232,23.32,Alternate Stolen bases,F. Lindor
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3689,37.89,Alternate Stolen bases,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1253,13.53,Alternate Stolen bases,O. Arcia
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,2134,22.34,Alternate Stolen bases,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,484,5.84,Alternate Stolen bases,J. Kelenic
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,673,7.73,Alternate Stolen bases,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,2323,24.23,Alternate Stolen bases,E. Rosario
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1253,13.53,Alternate Stolen bases,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3689,37.89,Alternate Stolen bases,F. Álvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,1388,14.88,Alternate Stolen bases,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,-101,1.99,Alternate Stolen bases,H. Bader
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,974,10.74,Alternate Stolen bases,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3667,37.67,Alternate Stolen bases,J. Iglesias
+,201488,ATL(away) vs NYM(home),MLB,over,,1.5,pp;0;ss;sb;1.5,1971,20.71,Alternate Stolen bases,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,0.5,pp;0;ss;sb;0.5,484,5.84,Alternate Stolen bases,N. Alvarez
+,201488,ATL(away) vs NYM(home),MLB,over,,4.5,pp;0;ss;so;4.5,-213,1.47,Alternate Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,5.5,pp;0;ss;so;5.5,106,2.06,Alternate Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,8.5,pp;0;ss;so;8.5,712,8.12,Alternate Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,9.5,pp;0;ss;so;9.5,1491,15.91,Alternate Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,10.5,pp;0;ss;so;10.5,3399,34.99,Alternate Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,7.5,pp;0;ss;so;7.5,362,4.62,Alternate Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,6.5,pp;0;ss;so;6.5,192,2.92,Alternate Strikeouts,L. Severino
+,201488,ATL(away) vs NYM(home),MLB,over,,12.5,pp;0;ss;so;12.5,1047,11.47,Alternate Strikeouts,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,8.5,pp;0;ss;so;8.5,141,2.41,Alternate Strikeouts,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,9.5,pp;0;ss;so;9.5,226,3.26,Alternate Strikeouts,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,10.5,pp;0;ss;so;10.5,366,4.66,Alternate Strikeouts,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,6.5,pp;0;ss;so;6.5,-213,1.47,Alternate Strikeouts,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,11.5,pp;0;ss;so;11.5,608,7.08,Alternate Strikeouts,C. Sale
+,201488,ATL(away) vs NYM(home),MLB,over,,7.5,pp;0;ss;so;7.5,-114,1.88,Alternate Strikeouts,C. Sale
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;er;1.5,-417,1.24,Alternate Earned runs,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,5.5,pp;0;ss;er;5.5,661,7.61,Alternate Earned runs,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;er;2.5,-123,1.81,Alternate Earned runs,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;er;3.5,165,2.65,Alternate Earned runs,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,4.5,pp;0;ss;er;4.5,327,4.27,Alternate Earned runs,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;er;1.5,-345,1.29,Alternate Earned runs,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;er;2.5,100,2.0,Alternate Earned runs,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,4.5,pp;0;ss;er;4.5,458,5.58,Alternate Earned runs,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,5.5,pp;0;ss;er;5.5,1020,11.2,Alternate Earned runs,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;er;3.5,211,3.11,Alternate Earned runs,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,704,8.04,Alternate Hits,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,196,2.96,Alternate Hits,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-233,1.43,Alternate Hits,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-256,1.39,Alternate Hits,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,183,2.83,Alternate Hits,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,659,7.59,Alternate Hits,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-141,1.71,Alternate Hits,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1181,12.81,Alternate Hits,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,314,4.14,Alternate Hits,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-185,1.54,Alternate Hits,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,262,3.62,Alternate Hits,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1021,11.21,Alternate Hits,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1098,11.98,Alternate Hits,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-164,1.61,Alternate Hits,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,285,3.85,Alternate Hits,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-238,1.42,Alternate Hits,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,192,2.92,Alternate Hits,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,690,7.9,Alternate Hits,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-278,1.36,Alternate Hits,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,173,2.73,Alternate Hits,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,627,7.27,Alternate Hits,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,989,10.89,Alternate Hits,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,233,3.33,Alternate Hits,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-233,1.43,Alternate Hits,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,235,3.35,Alternate Hits,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-217,1.46,Alternate Hits,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,927,10.27,Alternate Hits,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,192,2.92,Alternate Hits,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-238,1.42,Alternate Hits,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,686,7.86,Alternate Hits,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,227,3.27,Alternate Hits,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,720,8.2,Alternate Hits,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-159,1.63,Alternate Hits,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1154,12.54,Alternate Hits,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,305,4.05,Alternate Hits,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-147,1.68,Alternate Hits,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-172,1.58,Alternate Hits,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,275,3.75,Alternate Hits,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1061,11.61,Alternate Hits,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-217,1.46,Alternate Hits,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,205,3.05,Alternate Hits,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,732,8.32,Alternate Hits,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,542,6.42,Alternate Hits,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,186,2.86,Alternate Hits,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-323,1.31,Alternate Hits,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;hit;3.5,1745,18.45,Alternate Hits,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-263,1.38,Alternate Hits,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,650,7.5,Alternate Hits,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,180,2.8,Alternate Hits,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-149,1.67,Alternate Hits,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,325,4.25,Alternate Hits,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1340,14.4,Alternate Hits,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-145,1.69,Alternate Hits,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,1178,12.78,Alternate Hits,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,310,4.1,Alternate Hits,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,985,10.85,Alternate Hits,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-196,1.51,Alternate Hits,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,252,3.52,Alternate Hits,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hit;1.5,195,2.95,Alternate Hits,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hit;0.5,-312,1.32,Alternate Hits,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;hit;2.5,552,6.52,Alternate Hits,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;hit;3.5,1753,18.53,Alternate Hits,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,5.5,pp;0;ss;hita;5.5,133,2.33,Alternate Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,8.5,pp;0;ss;hita;8.5,1069,11.69,Alternate Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,6.5,pp;0;ss;hita;6.5,262,3.62,Alternate Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,7.5,pp;0;ss;hita;7.5,522,6.22,Alternate Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,9.5,pp;0;ss;hita;9.5,2261,23.61,Alternate Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,4.5,pp;0;ss;hita;4.5,-164,1.61,Alternate Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;hita;3.5,-667,1.15,Alternate Hits Allowed,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,8.5,pp;0;ss;hita;8.5,668,7.68,Alternate Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,4.5,pp;0;ss;hita;4.5,-182,1.55,Alternate Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,5.5,pp;0;ss;hita;5.5,126,2.26,Alternate Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,7.5,pp;0;ss;hita;7.5,368,4.68,Alternate Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,10.5,pp;0;ss;hita;10.5,2389,24.89,Alternate Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,9.5,pp;0;ss;hita;9.5,1244,13.44,Alternate Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,6.5,pp;0;ss;hita;6.5,207,3.07,Alternate Hits Allowed,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3900,40.0,Alternate Home runs,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,600,7.0,Alternate Home runs,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2400,25.0,Alternate Home runs,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,400,5.0,Alternate Home runs,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2150,22.5,Alternate Home runs,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,350,4.5,Alternate Home runs,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,450,5.5,Alternate Home runs,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2900,30.0,Alternate Home runs,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,350,4.5,Alternate Home runs,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2150,22.5,Alternate Home runs,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2150,22.5,Alternate Home runs,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,350,4.5,Alternate Home runs,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3900,40.0,Alternate Home runs,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,600,7.0,Alternate Home runs,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2150,22.5,Alternate Home runs,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,350,4.5,Alternate Home runs,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,250,3.5,Alternate Home runs,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,1650,17.5,Alternate Home runs,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,1900,20.0,Alternate Home runs,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,300,4.0,Alternate Home runs,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3400,35.0,Alternate Home runs,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,500,6.0,Alternate Home runs,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2900,30.0,Alternate Home runs,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,450,5.5,Alternate Home runs,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,350,4.5,Alternate Home runs,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2150,22.5,Alternate Home runs,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,700,8.0,Alternate Home runs,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4400,45.0,Alternate Home runs,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,500,6.0,Alternate Home runs,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3400,35.0,Alternate Home runs,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,500,6.0,Alternate Home runs,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,3400,35.0,Alternate Home runs,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,700,8.0,Alternate Home runs,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4400,45.0,Alternate Home runs,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,700,8.0,Alternate Home runs,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4400,45.0,Alternate Home runs,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,450,5.5,Alternate Home runs,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,2900,30.0,Alternate Home runs,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;hr;1.5,4400,45.0,Alternate Home runs,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;hr;0.5,700,8.0,Alternate Home runs,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,184,2.84,Alternate Runs + RBIs,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,900,10.0,Alternate Runs + RBIs,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,411,5.11,Alternate Runs + RBIs,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-132,1.76,Alternate Runs + RBIs,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,495,5.95,Alternate Runs + RBIs,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1111,12.11,Alternate Runs + RBIs,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-114,1.88,Alternate Runs + RBIs,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,213,3.13,Alternate Runs + RBIs,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1084,11.84,Alternate Runs + RBIs,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,202,3.02,Alternate Runs + RBIs,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-125,1.8,Alternate Runs + RBIs,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,476,5.76,Alternate Runs + RBIs,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,102,2.02,Alternate Runs + RBIs,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,230,3.3,Alternate Runs + RBIs,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,526,6.26,Alternate Runs + RBIs,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1156,12.56,Alternate Runs + RBIs,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,510,6.1,Alternate Runs + RBIs,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-111,1.9,Alternate Runs + RBIs,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1154,12.54,Alternate Runs + RBIs,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,218,3.18,Alternate Runs + RBIs,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,523,6.23,Alternate Runs + RBIs,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,145,2.45,Alternate Runs + RBIs,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,276,3.76,Alternate Runs + RBIs,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-143,1.7,Alternate Runs + RBIs,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,130,2.3,Alternate Runs + RBIs,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,243,3.43,Alternate Runs + RBIs,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,454,5.54,Alternate Runs + RBIs,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-167,1.6,Alternate Runs + RBIs,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,283,3.83,Alternate Runs + RBIs,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,632,7.32,Alternate Runs + RBIs,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-217,1.46,Alternate Runs + RBIs,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,138,2.38,Alternate Runs + RBIs,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,164,2.64,Alternate Runs + RBIs,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,353,4.53,Alternate Runs + RBIs,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-145,1.69,Alternate Runs + RBIs,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,749,8.49,Alternate Runs + RBIs,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1035,11.35,Alternate Runs + RBIs,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-102,1.98,Alternate Runs + RBIs,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,216,3.16,Alternate Runs + RBIs,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,478,5.78,Alternate Runs + RBIs,B. Drury
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,213,3.13,Alternate Runs + RBIs,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,495,5.95,Alternate Runs + RBIs,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-114,1.88,Alternate Runs + RBIs,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1111,12.11,Alternate Runs + RBIs,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,225,3.25,Alternate Runs + RBIs,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-101,1.99,Alternate Runs + RBIs,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1126,12.26,Alternate Runs + RBIs,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,513,6.13,Alternate Runs + RBIs,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,106,2.06,Alternate Runs + RBIs,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,204,3.04,Alternate Runs + RBIs,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,814,9.14,Alternate Runs + RBIs,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,410,5.1,Alternate Runs + RBIs,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-112,1.89,Alternate Runs + RBIs,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1119,12.19,Alternate Runs + RBIs,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,214,3.14,Alternate Runs + RBIs,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,498,5.98,Alternate Runs + RBIs,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-132,1.76,Alternate Runs + RBIs,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,194,2.94,Alternate Runs + RBIs,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,455,5.55,Alternate Runs + RBIs,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1031,11.31,Alternate Runs + RBIs,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-103,1.97,Alternate Runs + RBIs,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1622,17.22,Alternate Runs + RBIs,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,263,3.63,Alternate Runs + RBIs,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,685,7.85,Alternate Runs + RBIs,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1742,18.42,Alternate Runs + RBIs,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-133,1.75,Alternate Runs + RBIs,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,655,7.55,Alternate Runs + RBIs,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,232,3.32,Alternate Runs + RBIs,W. Calhoun
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,374,4.74,Alternate Runs + RBIs,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,183,2.83,Alternate Runs + RBIs,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,759,8.59,Alternate Runs + RBIs,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-114,1.88,Alternate Runs + RBIs,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,490,5.9,Alternate Runs + RBIs,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,997,10.97,Alternate Runs + RBIs,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,233,3.33,Alternate Runs + RBIs,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,120,2.2,Alternate Runs + RBIs,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;r+r;1.5,205,3.05,Alternate Runs + RBIs,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;r+r;0.5,-122,1.82,Alternate Runs + RBIs,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;r+r;2.5,483,5.83,Alternate Runs + RBIs,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;r+r;3.5,1099,11.99,Alternate Runs + RBIs,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3656,37.56,Alternate Stolen bases,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,876,9.76,Alternate Stolen bases,A. Rendon
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3656,37.56,Alternate Stolen bases,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,876,9.76,Alternate Stolen bases,S. Brown
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1096,11.96,Alternate Stolen bases,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3678,37.78,Alternate Stolen bases,T. Ward
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,582,6.82,Alternate Stolen bases,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,2260,23.6,Alternate Stolen bases,J. Adell
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3656,37.56,Alternate Stolen bases,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,876,9.76,Alternate Stolen bases,M. Moniak
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,974,10.74,Alternate Stolen bases,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3667,37.67,Alternate Stolen bases,S. Langeliers
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1096,11.96,Alternate Stolen bases,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3678,37.78,Alternate Stolen bases,L. O'Hoppe
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,876,9.76,Alternate Stolen bases,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3656,37.56,Alternate Stolen bases,B. Rooker
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1082,11.82,Alternate Stolen bases,L. Butler
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,484,5.84,Alternate Stolen bases,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,1565,16.65,Alternate Stolen bases,Z. Neto
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3667,37.67,Alternate Stolen bases,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,974,10.74,Alternate Stolen bases,J. Bleday
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,2033,21.33,Alternate Stolen bases,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,435,5.35,Alternate Stolen bases,Z. Gelof
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,1096,11.96,Alternate Stolen bases,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3678,37.78,Alternate Stolen bases,N. Schanuel
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,974,10.74,Alternate Stolen bases,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3667,37.67,Alternate Stolen bases,M. Andujar
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3656,37.56,Alternate Stolen bases,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,876,9.76,Alternate Stolen bases,A. Toro
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,582,6.82,Alternate Stolen bases,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,2260,23.6,Alternate Stolen bases,M. Schuemann
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,3538,36.38,Alternate Stolen bases,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,729,8.29,Alternate Stolen bases,B. Harris
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;sb;1.5,2060,21.6,Alternate Stolen bases,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,0.5,pp;0;ss;sb;0.5,414,5.14,Alternate Stolen bases,L. Rengifo
+,200387,OAK(away) vs LAA(home),MLB,over,,4.5,pp;0;ss;so;4.5,146,2.46,Alternate Strikeouts,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,7.5,pp;0;ss;so;7.5,1952,20.52,Alternate Strikeouts,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,5.5,pp;0;ss;so;5.5,322,4.22,Alternate Strikeouts,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,6.5,pp;0;ss;so;6.5,752,8.52,Alternate Strikeouts,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;so;3.5,-156,1.64,Alternate Strikeouts,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;so;2.5,-556,1.18,Alternate Strikeouts,K. Rosenberg
+,200387,OAK(away) vs LAA(home),MLB,over,,2.5,pp;0;ss;so;2.5,-169,1.59,Alternate Strikeouts,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,5.5,pp;0;ss;so;5.5,486,5.86,Alternate Strikeouts,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,6.5,pp;0;ss;so;6.5,1028,11.28,Alternate Strikeouts,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,4.5,pp;0;ss;so;4.5,243,3.43,Alternate Strikeouts,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,1.5,pp;0;ss;so;1.5,-833,1.12,Alternate Strikeouts,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,7.5,pp;0;ss;so;7.5,2370,24.7,Alternate Strikeouts,R. Stripling
+,200387,OAK(away) vs LAA(home),MLB,over,,3.5,pp;0;ss;so;3.5,126,2.26,Alternate Strikeouts,R. Stripling
