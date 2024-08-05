@@ -22,7 +22,7 @@ def calculate_ratio(row):
     max_odds = max(valid_odds)
     min_odds = min(valid_odds)
     # Handle division by zero
-    ratio = max_odds / min_odds if min_odds != 0 else float('inf')
+    ratio = (max_odds-1) / (min_odds-1) if min_odds != 0 else float('inf')
     return ratio
 
 
@@ -58,7 +58,7 @@ merged_df = pd.merge(df1, df2, how='inner', on=[
                      'Key', 'Designation', 'Side', 'Name', 'Teams'])
 merged_df = pd.merge(merged_df, df3, how='inner', on=[
                      'Key', 'Designation', 'Side', 'Name', 'Teams'])
-merged_df['Odds Ratio'] = merged_df.apply(
+merged_df['Profits Ratio'] = merged_df.apply(
     calculate_ratio, axis=1)  # Calculate the odds ratio
 merged_df['Best Deal'] = merged_df.apply(
     average_and_furthest, axis=1)  # Calculate the best deal
@@ -66,7 +66,7 @@ merged_df['Best Deal'] = merged_df.apply(
 merged_df = merged_df.drop(['League_x', 'League_y', 'Category_x', 'Category_y',
                            'Points_x', 'Points_y'], axis=1)
 merged_df = merged_df.reindex(columns=['Key', 'Designation', 'Name', 'Teams', 'League', 'Category', 'Side', 'Points', 'BO dec_odds',
-                              'PB Decimal Odds', 'DK Decimal Odds', 'BO Odds', 'PB American Odds', 'DK American Odds', 'Odds Ratio', 'Best Deal'])
+                              'PB Decimal Odds', 'DK Decimal Odds', 'BO Odds', 'PB American Odds', 'DK American Odds', 'Profits Ratio', 'Best Deal'])
 
 
 merged_df.to_csv('./bin/combined.csv', index=False)
