@@ -186,8 +186,18 @@ async def getAsyncPropsIDs(game_Ids):
             jr = json.loads(r)
             gameId = jr[0]['providers'][0]['id']
             gameIds.append(gameId)
+
+            # The wager cut off is sometimes after midnight of the next day
+            # this code makes sure it grabs the date of the start of the game
+            datetimeStr = jr[0]['date']
+            dt = datetime.strptime(datetimeStr, "%Y-%m-%dT%H:%M:%S.%fZ")
+            if dt.time() < datetime.strptime("05:30:00", "%H:%M:%S").time():
+                dt -= timedelta(days=1)
+            date = dt.strftime("%Y-%m-%d")
+
             gamesDict[gameId] = [getTeamAbr(jr[0]['team2']['title']) +
-                                 '(away) vs ' + getTeamAbr(jr[0]['team1']['title']) + '(home)', jr[0]['league'].upper()]
+                                 '(away) vs ' + getTeamAbr(jr[0]['team1']['title']) + '(home)', jr[0]['league'].upper(), date]
+            # gamesDict['date'] = jr[0]['date'][:10]
     return gameIds, gamesDict
 
 
@@ -348,6 +358,7 @@ def manipulationLoop(data):
     odds = []
     dec_odds = []
     category = []
+    dates = []
 
     periodEvents = []
     for game in data:
@@ -358,6 +369,8 @@ def manipulationLoop(data):
             getTeamAbr(event['Event']['HomeTeam'].lower()) + '(home)'
         league1 = event['Event']['CorrelationId'].split('-')[1].split(' ')[0]
         name1 = event['Name']
+        date = event['Event']['WagerCutOff'][:10]
+
         # Away
         # SpreadLine
         gameId.append(game_Id)
@@ -373,6 +386,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(
             event['Event']['AwayLine']['SpreadLine']['Line']))
         name.append(name1)
+        dates.append(date)
         # MoneyLine
         gameId.append(game_Id)
         teams.append(teams1)
@@ -386,6 +400,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(
             event['Event']['AwayLine']['MoneyLine']['Line']))
         name.append(name1)
+        dates.append(date)
         # TeamTotalLine over
         gameId.append(game_Id)
         teams.append(teams1)
@@ -401,6 +416,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(event['Event']['AwayLine']
                         ['TeamTotalLine']['Over']['Line']))
         name.append(name1)
+        dates.append(date)
         # TeamTotalLine under
         gameId.append(game_Id)
         teams.append(teams1)
@@ -416,6 +432,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(event['Event']['AwayLine']
                         ['TeamTotalLine']['Under']['Line']))
         name.append(name1)
+        dates.append(date)
         # Home
         # SpreadLine
         gameId.append(game_Id)
@@ -431,6 +448,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(
             event['Event']['HomeLine']['SpreadLine']['Line']))
         name.append(name1)
+        dates.append(date)
         # MoneyLine
         gameId.append(game_Id)
         teams.append(teams1)
@@ -444,6 +462,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(
             event['Event']['HomeLine']['MoneyLine']['Line']))
         name.append(name1)
+        dates.append(date)
         # TeamTotalLine over
         gameId.append(game_Id)
         teams.append(teams1)
@@ -459,6 +478,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(event['Event']['HomeLine']
                         ['TeamTotalLine']['Over']['Line']))
         name.append(name1)
+        dates.append(date)
         # TeamTotalLine under
         gameId.append(game_Id)
         teams.append(teams1)
@@ -474,6 +494,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(event['Event']['HomeLine']
                         ['TeamTotalLine']['Under']['Line']))
         name.append(name1)
+        dates.append(date)
         # TotalLine over
         gameId.append(game_Id)
         teams.append(teams1)
@@ -488,6 +509,7 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(event['Event']['TotalLine']
                         ['TotalLine']['Over']['Line']))
         name.append(name1)
+        dates.append(date)
         # TotalLine under
         gameId.append(game_Id)
         teams.append(teams1)
@@ -502,9 +524,10 @@ def manipulationLoop(data):
         dec_odds.append(americanToDecimal(event['Event']['TotalLine']
                         ['TotalLine']['Under']['Line']))
         name.append(name1)
+        dates.append(date)
 
     finalData = {'Period': name, 'GameId': gameId, 'Teams': teams, 'League': league, 'Designation': designation,
-                 'Side': side, 'Points': point, 'Key': keys, 'BO Odds': odds, 'BO dec_odds': dec_odds, 'Category': category}
+                 'Side': side, 'Points': point, 'Key': keys, 'BO Odds': odds, 'BO dec_odds': dec_odds, 'Category': category, 'Date': dates}
     df = pd.DataFrame(finalData)
     df = df[df['BO Odds'] != 0]
     end = time.perf_counter()
@@ -711,6 +734,7 @@ def dfByLoop(combined, gamesDict):
     odds = []
     betOdds = []
     playName = []
+    dates = []
 
     # Gets all of the Over Under and Atleast odds of the same game
     for r in combined:
@@ -741,6 +765,7 @@ def dfByLoop(combined, gamesDict):
                 nsplit = playerName.split()
                 name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
                 playName.append(name)
+                dates.append(gamesDict[plyr["markets"][0]["game1Id"]][2])
 
                 gameId.append(plyr["markets"][0]["game1Id"])
                 teams.append(gamesDict[plyr["markets"][0]["game1Id"]][0])
@@ -752,6 +777,7 @@ def dfByLoop(combined, gamesDict):
                 odds.append(under_odds)
                 betOdds.append(decToAmerican(under_odds))
                 playName.append(name)
+                dates.append(gamesDict[plyr["markets"][0]["game1Id"]][2])
 
         elif r["type"] == "ss":
             # print(r["statistic"] + " Atleast")
@@ -774,9 +800,10 @@ def dfByLoop(combined, gamesDict):
                     nsplit = playerName.split()
                     name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
                     playName.append(name)
+                    dates.append(gamesDict[plyr["markets"][0]["game1Id"]][2])
 
     data = {"GameId": gameId, 'Teams': teams, 'League': league, "Key": keys, "Points": points, "Category": units,
-            "Designation": designation, "BO dec_odds": odds, 'BO Odds': betOdds, "Name": playName}
+            "Designation": designation, "BO dec_odds": odds, 'BO Odds': betOdds, "Name": playName, 'Date': dates}
     df = pd.DataFrame(data)
     return df
 

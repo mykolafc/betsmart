@@ -409,6 +409,7 @@ def gigaDump2(response):
     designation = []
     games = []
     keys = []
+    dates = []
 
     frames = []
 
@@ -424,6 +425,15 @@ def gigaDump2(response):
         eventCategory = next(
             (category for category in data['eventCategories'] if category['name'].lower() == 'game lines'), None)
         components = eventCategory['componentizedOffers']
+
+        # The date is sometimes after midnight of the next day
+        # this code makes sure it grabs the date of the start of the game
+        datetimeStr = data['event']['startDate']
+        dt = datetime.strptime(datetimeStr, "%Y-%m-%dT%H:%M:%SZ")
+        if dt.time() < datetime.strptime("05:30:00", "%H:%M:%S").time():
+            dt -= timedelta(days=1)
+        date = dt.strftime("%Y-%m-%d")
+
         # components = data['eventCategories'][1]['componentizedOffers']
         for component in components:
             for offers in component['offers']:
@@ -454,6 +464,7 @@ def gigaDump2(response):
                             designation.append(None)
                         keys.append(
                             makeKey(offer['label'], pnt, "Game"))
+                        dates.append(date)
 
         # Player Props a.k.a. eventCategories index = 2 for batters and 3 for pitchers
         for category in data['eventCategories']:
@@ -484,6 +495,7 @@ def gigaDump2(response):
                                     names.append(None)
                                 keys.append(
                                     makeKey(component['subcategoryName'], outcome.get('line', None), "Game"))
+                                dates.append(date)
                     elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
                         for offer in component['offers'][0]:
                             for outcome in offer['outcomes']:
@@ -509,12 +521,13 @@ def gigaDump2(response):
                                     names.append(None)
                                 keys.append(makeKey(component['subcategoryName'], float(
                                     outcome['label'].strip('+'))-0.5, "Game"))
+                                dates.append(date)
 
     print(len(teams), len(categories), len(league), len(designation), len(
         side), len(names), len(points), len(odds), len(americanOdds), len(keys))
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': categories, 'Designation': designation,
-                       'Side': side, 'Name': names, 'Points': points, 'DK Decimal Odds': odds, 'DK American Odds': americanOdds, 'Key': keys})
+                       'Side': side, 'Name': names, 'Points': points, 'DK Decimal Odds': odds, 'DK American Odds': americanOdds, 'Key': keys, 'Date': dates})
 
     frames.append(df)
 

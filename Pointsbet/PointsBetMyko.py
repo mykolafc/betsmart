@@ -482,6 +482,7 @@ def gigaDump2(response):
     names = []
     designation = []
     keys = []
+    dates = []
 
     frames = []
 
@@ -489,6 +490,15 @@ def gigaDump2(response):
         data = x.json()
         homeAwayTeams = getTeamAbr(data['awayTeam']) + \
             '(away)' + ' vs ' + getTeamAbr(data['homeTeam']) + '(home)'
+
+        # The date is sometimes after midnight of the next day
+        # this code makes sure it grabs the date of the start of the game
+        datetimeStr = data['startsAt']
+        dt = datetime.strptime(datetimeStr, "%Y-%m-%dT%H:%M:%SZ")
+        if dt.time() < datetime.strptime("05:30:00", "%H:%M:%S").time():
+            dt -= timedelta(days=1)
+        date = dt.strftime("%Y-%m-%d")
+
         markets = data['fixedOddsMarkets']
         if data['competitionName'] == 'National Hockey League':
             sport = 'NHL'
@@ -532,6 +542,7 @@ def gigaDump2(response):
                         names.append(nsplit[0][0] + '. ' + nsplit[1])
                     else:
                         names.append(None)
+                    dates.append(date)
             if (match_variable_event_class(market['eventClass'], playerPropOUEventsVariableNHL)):
                 for prop in market['outcomes']:
                     teams.append(homeAwayTeams)
@@ -551,12 +562,13 @@ def gigaDump2(response):
                         names.append(prop['name'].split('Under')[0].strip())
                         points.append(
                             float(prop['name'].split('Under')[1].strip()))
+                    dates.append(date)
 
     print(len(teams), len(category), len(league), len(side), len(
         names), len(points), len(odds), len(americanOdds), len(keys))
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation,
-                       'Side': side, 'Name': names, 'Points': points, 'PB Decimal Odds': odds, 'PB American Odds': americanOdds, 'Key': keys})
+                       'Side': side, 'Name': names, 'Points': points, 'PB Decimal Odds': odds, 'PB American Odds': americanOdds, 'Key': keys, 'Date': dates})
 
     frames.append(df)
 
@@ -609,6 +621,7 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
     names = []
     designation = []
     keys = []
+    dates = []
 
     games = []
 
@@ -648,6 +661,15 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
         data = x.json()
         homeAwayTeams = getTeamAbr(data['awayTeam']) + \
             '(away)' + ' vs ' + getTeamAbr(data['homeTeam']) + '(home)'
+
+        # The date is sometimes after midnight of the next day
+        # this code makes sure it grabs the date of the start of the game
+        datetimeStr = data['startsAt']
+        dt = datetime.strptime(datetimeStr, "%Y-%m-%dT%H:%M:%SZ")
+        if dt.time() < datetime.strptime("05:30:00", "%H:%M:%S").time():
+            dt -= timedelta(days=1)
+        date = dt.strftime("%Y-%m-%d")
+
         markets = data['fixedOddsMarkets']
         if data['competitionName'] == 'National Hockey League':
             sport = 'NHL'
@@ -691,6 +713,7 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
                         names.append(nsplit[0][0] + '. ' + nsplit[1])
                     else:
                         names.append(None)
+                    dates.append(date)
             if (match_variable_event_class(market['eventClass'], playerPropOUEventsVariableNHL)):
                 for prop in market['outcomes']:
                     teams.append(homeAwayTeams)
@@ -710,12 +733,13 @@ def gigaDump(dataMlb, dataNba, dataNhl, dataNfl):
                         names.append(prop['name'].split('Under')[0].strip())
                         points.append(
                             float(prop['name'].split('Under')[1].strip()))
+                    dates.append(date)
 
     print(len(teams), len(category), len(league), len(side), len(
         names), len(points), len(odds), len(americanOdds), len(keys))
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation,
-                       'Side': side, 'Name': names, 'Points': points, 'PB Decimal Odds': odds, 'PB American Odds': americanOdds, 'Key': keys})
+                       'Side': side, 'Name': names, 'Points': points, 'PB Decimal Odds': odds, 'PB American Odds': americanOdds, 'Key': keys, 'Date': dates})
 
     frames.append(df)
 

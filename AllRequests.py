@@ -46,7 +46,7 @@ responsesPost = (grequests.post(
     u['url'], headers=u['headers'], json=u['payload']) for u in urlsPost)
 responses = grequests.map(list(responsesGet) + list(responsesPost))
 
-print(time.time() - timer)
+print(f'Requests of all sites took', time.time() - timer, ' seconds')
 
 responsesDK = responses[:len(urlsDK)]
 responsesPB = responses[len(urlsDK):len(urlsDK)+len(urlsPB)]
