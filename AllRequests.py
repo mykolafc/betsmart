@@ -2,6 +2,7 @@ import grequests
 import DraftKings.Draftkings as dk
 import Pointsbet.PointsBetMyko as pb
 import BetOnline.BetOnline as bo
+import Fanduel.FanDuel_Liam as fd
 import pandas as pd
 from pandas import json_normalize
 from datetime import datetime, timedelta
@@ -34,10 +35,15 @@ urlsGet = urlsGet + urlsPB
 game_Ids, gameIdsByLeague = bo.getGeneralGameIDs()
 # Don't think keeping gameIds is necessary
 gameIds, gamesDict = bo.getPropsgameIds(game_Ids)
-urlsBO = bo.getPropsUrls2(gamesDict)
-urlsGet = urlsGet + urlsBO
+urlsGetBO = bo.getPropsUrls2(gamesDict)
+urlsGet = urlsGet + urlsGetBO
 urlsPostBO = bo.makeGameUrls(gameIdsByLeague)
 urlsPost = urlsPost + urlsPostBO
+
+# FanDuel
+dataFD = fd.getData()
+urlsFD = fd.makeRequestLinks(dataFD)
+# urlsGet = urlsGet + urlsFD
 
 
 timer = time.time()
@@ -50,9 +56,10 @@ print(f'Requests of all sites took', time.time() - timer, ' seconds')
 
 responsesDK = responses[:len(urlsDK)]
 responsesPB = responses[len(urlsDK):len(urlsDK)+len(urlsPB)]
-responsesGetBO = responses[len(urlsDK)+len(urlsPB):len(urlsDK)+len(urlsPB)+len(urlsBO)]
+responsesGetBO = responses[len(urlsDK)+len(urlsPB)
+                               :len(urlsDK)+len(urlsPB)+len(urlsGetBO)]
 responsesPostBO = responses[len(
-    urlsDK)+len(urlsPB)+len(urlsBO):len(urlsDK)+len(urlsPB)+len(urlsBO)+len(urlsPostBO)]
+    urlsDK)+len(urlsPB)+len(urlsGetBO):len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsPostBO)]
 
 timer = time.time()
 dk.gigaDump2(responsesDK)

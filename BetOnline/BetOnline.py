@@ -169,7 +169,7 @@ async def getAsyncPropsIDs(game_Ids):
     links = []
     for game_Id in game_Ids:
         links.append(
-            "https://bv2.digitalsportstech.com/api/game?sb=betonline&event="+str(game_Id))
+            "https://bv2-us.digitalsportstech.com/api/game?sb=betonline&event="+str(game_Id))
     gameIds = []
     gamesDict = {}
     start = time.time()
