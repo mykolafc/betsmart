@@ -277,27 +277,28 @@ def makeKey(unit, points, name=None):
         "Away Total": f"s;0;tt;{points};away",
 
         # MLB switches
-        "Home Runs": f"pp;0;ou;hr;{points}",
-        "Home Runs Milestones": f"pp;0;ss;hr;{points}",
-        "Hits": f"pp;0;ou;hit;{points}",
-        "Hits Milestones": f"pp;0;ss;hit;{points}",
+        "Home Runs O/U": f"pp;0;ou;hr;{points}",
+        "Home Runs": f"pp;0;ss;hr;{points}",
+        "Hits O/U": f"pp;0;ou;hit;{points}",
+        "Hits": f"pp;0;ss;hit;{points}",
         "Hits + Runs + RBIs": f"pp;0;ou;hrr;{points}",
-        "Total Bases": f"pp;0;ou;tb;{points}",
-        "Total Bases Milestones": f"pp;0;ss;tb;{points}",
-        "RBIs": f"pp;0;ou;rbi;{points}",
-        "RBIs Milestones": f"pp;0;ss;rbi;{points}",
+        "Total Bases O/U": f"pp;0;ou;tb;{points}",
+        "Total Bases": f"pp;0;ss;tb;{points}",
+        "RBIs O/U": f"pp;0;ou;rbi;{points}",
+        "RBIs": f"pp;0;ss;rbi;{points}",
         "Runs Scored": f"pp;0;ou;run;{points}",
         "Stolen Bases": f"pp;0;ou;sb;{points}",
         "Singles": f"pp;0;ou;sin;{points}",
         "Doubles": f"pp;0;ou;dbl;{points}",
         "Walks": f"pp;0;ou;wlk;{points}",
-        "Strikeouts Thrown": f"pp;0;ou;so;{points}",
-        "Strikeouts Milestones": f"pp;0;ss;so;{points}",
+        "Strikeouts Thrown O/U": f"pp;0;ou;so;{points}",
+        "Strikeouts": f"pp;0;ou;so;{points}",
+        "Strikeouts Thrown": f"pp;0;ss;so;{points}",
         "Earned Runs Allowed": f"pp;0;ou;era;{points}",
-        "Walks Allowed": f"pp;0;ou;wlka;{points}",
-        "Walks Allowed Milestones": f"pp;0;ss;wlka;{points}",
-        "Hits Allowed": f"pp;0;ou;hita;{points}",
-        "Hits Allowed Milestones": f"pp;0;ss;hita;{points}",
+        "Walks Allowed O/U": f"pp;0;ou;wlka;{points}",
+        "Walks Allowed": f"pp;0;ss;wlka;{points}",
+        "Hits Allowed O/U": f"pp;0;ou;hita;{points}",
+        "Hits Allowed": f"pp;0;ss;hita;{points}",
         # MLB game switches
         "Moneyline": f"s;0;m",
         "Run Line": f"s;0;s;{points}",
@@ -397,6 +398,11 @@ def makeRequestLinks(dataMlb):
     # rs = grequests.map(rs)
 
 
+def validAlternatePP(subcategoryName):
+    return subcategoryName in ["Hits", "Home Runs", "Total Bases", "Strikeouts Thrown",
+                               "RBIs", "Hits Allowed", "Walks Allowed"]
+
+
 def gigaDump2(response):
     league = []
     teams = []
@@ -410,8 +416,6 @@ def gigaDump2(response):
     games = []
     keys = []
     dates = []
-
-    frames = []
 
     for x in response:
         data = x.json()
@@ -496,7 +500,7 @@ def gigaDump2(response):
                                 keys.append(
                                     makeKey(component['subcategoryName'], outcome.get('line', None), "Game"))
                                 dates.append(date)
-                    elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
+                    elif validAlternatePP(component['subcategoryName']):
                         for offer in component['offers'][0]:
                             for outcome in offer['outcomes']:
                                 league.append(currentLeague)
@@ -529,9 +533,8 @@ def gigaDump2(response):
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': categories, 'Designation': designation,
                        'Side': side, 'Name': names, 'Points': points, 'DK Decimal Odds': odds, 'DK American Odds': americanOdds, 'Key': keys, 'Date': dates})
 
-    frames.append(df)
-
-    df = pd.concat(frames)
+    # This removes all rows where key is None
+    df = df[np.logical_not(pd.isna(df['Key']))]
 
     dir = git.Repo('.', search_parent_directories=True).working_tree_dir
     df.to_csv(str(dir) + '/bin/DraftKingsGigaDump.csv', index=False)

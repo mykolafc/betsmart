@@ -8,6 +8,7 @@ import asyncio
 import aiohttp
 import concurrent.futures
 import requests
+import re
 import json
 import numpy as np
 
@@ -195,8 +196,13 @@ async def getAsyncPropsIDs(game_Ids):
                 dt -= timedelta(days=1)
             date = dt.strftime("%Y-%m-%d")
 
+            # This checks if two teams play each other in the same day multiple times
+            game = jr[0].get('mlbDoubleHeader', '')
+            if game:
+                game = game[-1]
+
             gamesDict[gameId] = [getTeamAbr(jr[0]['team2']['title']) +
-                                 '(away) vs ' + getTeamAbr(jr[0]['team1']['title']) + '(home)', jr[0]['league'].upper(), date]
+                                 '(away) vs ' + getTeamAbr(jr[0]['team1']['title']) + '(home)' + game, jr[0]['league'].upper(), date]
             # gamesDict['date'] = jr[0]['date'][:10]
     return gameIds, gamesDict
 
@@ -365,8 +371,18 @@ def manipulationLoop(data):
         periodEvents = periodEvents + game['EventOffering']['PeriodEvents']
     for event in periodEvents:
         game_Id = event['Event']['GameId']
-        teams1 = getTeamAbr(event['Event']['AwayTeam'].lower()) + '(away) vs ' + \
-            getTeamAbr(event['Event']['HomeTeam'].lower()) + '(home)'
+
+        # This checks if two teams play each other in the same day multiple times
+        if re.search(r' - Game #\d+', event['Event']['AwayTeam']):
+            awayTeam = re.sub(r' - Game #\d+.*', '',
+                              event['Event']['AwayTeam']).lower()
+            homeTeam = re.sub(r' - Game #\d+.*', '',
+                              event['Event']['HomeTeam']).lower()
+            teams1 = getTeamAbr(awayTeam) + '(away) vs ' + getTeamAbr(
+                homeTeam) + '(home)' + event['Event']['AwayTeam'][-1]
+        else:
+            teams1 = getTeamAbr(event['Event']['AwayTeam'].lower()) + '(away) vs ' + \
+                getTeamAbr(event['Event']['HomeTeam'].lower()) + '(home)'
         league1 = event['Event']['CorrelationId'].split('-')[1].split(' ')[0]
         name1 = event['Name']
         date = event['Event']['WagerCutOff'][:10]
@@ -805,75 +821,6 @@ def dfByLoop(combined, gamesDict):
     data = {"GameId": gameId, 'Teams': teams, 'League': league, "Key": keys, "Points": points, "Category": units,
             "Designation": designation, "BO dec_odds": odds, 'BO Odds': betOdds, "Name": playName, 'Date': dates}
     df = pd.DataFrame(data)
-    return df
-
-
-def generateColumns(df, sport, gamesDict):
-    if sport == 'football':
-        df['Category'] = 'Player Props'
-
-        designationConditions = [
-            df['condition'] == 3,
-            df['condition'] == 1,
-        ]
-        designationChoices = [
-            'over',
-            'under',
-        ]
-        df['Designation'] = np.select(
-            designationConditions, designationChoices, default='')
-
-        unitConditions = [
-            df['statistic.title'] == 'Pass Attempts',
-            df['statistic.title'] == 'Passing TDs',
-            df['statistic.title'].str.contains("Pass "),
-            df['statistic.title'] == 'Receptions',
-            df['statistic.title'] == 'Interceptions'
-        ]
-        unitChoices = [
-            'PassAttempts',
-            'TouchdownPasses',
-            df['statistic.title'].str.replace('Pass ', ''),
-            'PassReceptions',
-            'InterceptionsCaught'
-        ]
-        df['Units'] = np.select(unitConditions, unitChoices,
-                                default=df['statistic.title'].str.replace(' ', ''))
-
-        df['Points'] = np.where(
-            df['type'] == 1, df['value'].sub(0.5).squeeze(), df['value'])
-
-        df['teams'] = df['game1Id'].map(gamesDict)
-
-        keyConditions = [
-            df['Units'] == 'Touchdowns',
-            df['Units'] == 'ReceivingYards',
-            df['Units'] == 'RushingYards',
-            df['Units'] == 'Sacks',
-            df['Units'] == 'InterceptionsCaught',
-            df['Units'] == 'PassReceptions',
-            df['Units'] == 'Carries',
-            df['Units'] == 'PassAttempts',
-            df['Units'] == 'TouchdownPasses',
-            df['Units'] == 'PassingYards',
-            df['Units'] == 'Interceptions',
-            df['Units'] == 'Completions'
-        ]
-        keyChoices = [
-            'pp;0;ou;td;' + df['Points'].astype(str),
-            'pp;0;ou;recyds;' + df['Points'].astype(str),
-            'pp;0;ou;rushyds;' + df['Points'].astype(str),
-            'pp;0;ou;sacks;' + df['Points'].astype(str),
-            'pp;0;ou;defint;' + df['Points'].astype(str),
-            'pp;0;ou;recept;' + df['Points'].astype(str),
-            'pp;0;ou;carry;' + df['Points'].astype(str),
-            'pp;0;ou;passatt;' + df['Points'].astype(str),
-            'pp;0;ou;passtds;' + df['Points'].astype(str),
-            'pp;0;ou;passyds;' + df['Points'].astype(str),
-            'pp;0;ou;passint;' + df['Points'].astype(str),
-            'pp;0;ou;passcomp;' + df['Points'].astype(str)
-        ]
-        df['Key'] = np.select(keyConditions, keyChoices, default='Error')
     return df
 
 

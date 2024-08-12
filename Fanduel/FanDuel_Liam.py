@@ -276,8 +276,8 @@ def makeKey(unit, points, name=None):
 
         # THIS IS THE ONLY CURRENTLY ACCURATE KEY MAKER, THE REST IS FROM DRAFTKINGS
         # MLB switches
-        re.compile(r'^PITCHER_[A-Z]_TOTAL_STRIKEOUTS'): f"pp;0;ou;so{points}",
-        re.compile(r'^PITCHER_[A-Z]_STRIKEOUTS'): f"pp;0;ss;so{points}",
+        re.compile(r'^PITCHER_[A-Z]_TOTAL_STRIKEOUTS'): f"pp;0;ou;so;{points}",
+        re.compile(r'^PITCHER_[A-Z]_STRIKEOUTS'): f"pp;0;ss;so;{points}",
         "TO_HIT_A_HOME_RUN": f"pp;0;ss;hr;0.5",
         "PLAYER_TO_RECORD_A_HIT": f"pp;0;ss;hit;0.5",
         "PLAYER_TO_RECORD_2+_HITS": f"pp;0;ss;hit;1.5",
@@ -287,7 +287,7 @@ def makeKey(unit, points, name=None):
         "TO_RECORD_2+_RUNS": f"pp;0;ss;run;1.5",
         "TO_RECORD_3+_RUNS": f"pp;0;ss;run;2.5",
         "TO_RECORD_AN_RBI": f"pp;0;ss;rbi;0.5",
-        "TO_RECORD_2+_RBI": f"pp;0;ss;rbi;1.5",
+        "TO_RECORD_2+_RBIS": f"pp;0;ss;rbi;1.5",
         "TO_RECORD_2+_TOTAL_BASES": f"pp;0;ss;tb;1.5",
         "TO_RECORD_3+_TOTAL_BASES": f"pp;0;ss;tb;2.5",
         "TO_RECORD_4+_TOTAL_BASES": f"pp;0;ss;tb;3.5",
@@ -445,7 +445,8 @@ def gigaDump2(response):
     keys = []
     dates = []
 
-    frames = []
+    # This is saving all the games and their dates to see if there are multiple games in a day
+    gamesDatesDict = dict()
 
     for x in response:
         data = x.json()
@@ -468,6 +469,15 @@ def gigaDump2(response):
         if dt.time() < datetime.strptime("05:30:00", "%H:%M:%S").time():
             dt -= timedelta(days=1)
         date = dt.strftime("%Y-%m-%d")
+
+        # TEST THIS AUGUST 11 BECAUSE IDK IF IT WORKS!!!!!!!!!!!
+        # if gamesDatesDict.get(homeAwayTeams) == date:
+        #     teamsArray = np.array(teams)
+        #     teamsArray = np.where(
+        #         teamsArray == homeAwayTeams, teamsArray + '1', teamsArray)
+        #     teams = teamsArray.tolist()
+
+        # gamesDatesDict[homeAwayTeams] = date
 
         markets = data['attachments']['markets']
 
@@ -537,7 +547,7 @@ def gigaDump2(response):
                     playerName = re.sub(r'\s\d.*', '', runner['runnerName'])
                     nsplit = playerName.split()
                     name = playerName.replace(
-                        nsplit[0], nsplit[0][0] + '.', 1)
+                        nsplit[0], nsplit[0][0] + '.', 1).replace('Over', '').replace('Under', '').strip()
                     names.append(name)
                     games.append(None)
                     keys.append(makeKey(market['marketType'], point))
@@ -565,6 +575,8 @@ def gigaDump2(response):
                     else:
                         points.append(point)
 
+                    # if 'winRunnerOdds' not in runner:
+                    #     print(runner)
                     odds.append(runner['winRunnerOdds']
                                 ['trueOdds']['decimalOdds']['decimalOdds'])
                     americanOdds.append(
@@ -577,7 +589,7 @@ def gigaDump2(response):
                     playerName = re.sub(r'\s\d.*', '', runner['runnerName'])
                     nsplit = playerName.split()
                     name = playerName.replace(
-                        nsplit[0], nsplit[0][0] + '.', 1)
+                        nsplit[0], nsplit[0][0] + '.', 1).replace('Over', '').replace('Under', '').strip()
                     names.append(name)
                     games.append(None)
                     keys.append(makeKey(market['marketType'], point))
@@ -585,10 +597,6 @@ def gigaDump2(response):
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': categories, 'Designation': designation,
                        'Side': side, 'Name': names, 'Points': points, 'FD Decimal Odds': odds, 'FD American Odds': americanOdds, 'Key': keys, 'Date': dates})
-
-    # frames.append(df)
-
-    # df = pd.concat(frames)
 
     dir = git.Repo('.', search_parent_directories=True).working_tree_dir
     df.to_csv(str(dir) + '/bin/FanDuelGigaDump.csv', index=False)

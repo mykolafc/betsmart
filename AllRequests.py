@@ -43,7 +43,7 @@ urlsPost = urlsPost + urlsPostBO
 # FanDuel
 dataFD = fd.getData()
 urlsFD = fd.makeRequestLinks(dataFD)
-# urlsGet = urlsGet + urlsFD
+urlsGet = urlsGet + urlsFD
 
 
 timer = time.time()
@@ -56,17 +56,24 @@ print(f'Requests of all sites took', time.time() - timer, ' seconds')
 
 responsesDK = responses[:len(urlsDK)]
 responsesPB = responses[len(urlsDK):len(urlsDK)+len(urlsPB)]
-responsesGetBO = responses[len(urlsDK)+len(urlsPB)
-                               :len(urlsDK)+len(urlsPB)+len(urlsGetBO)]
-responsesPostBO = responses[len(
-    urlsDK)+len(urlsPB)+len(urlsGetBO):len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsPostBO)]
+responsesGetBO = responses[len(urlsDK)+len(urlsPB):len(urlsDK)+len(urlsPB)+len(urlsGetBO)]
+responsesFD = responses[len(
+    urlsDK)+len(urlsPB)+len(urlsGetBO):len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)]
+responsesPostBO = responses[len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(
+    urlsFD):len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)+len(urlsPostBO)]
+
 
 timer = time.time()
 dk.gigaDump2(responsesDK)
 print(time.time() - timer)
+dKJsonResp = [response.json() for response in responsesDK]
+with open("respDK.json", 'w') as json_file:
+    json.dump(dKJsonResp[0], json_file, indent=4)
+
 timer = time.time()
 pb.gigaDump2(responsesPB)
 print(time.time() - timer)
+
 timer = time.time()
 # this is ugly asf please cleanup later
 # this whole thing is a mess it needs so much cleaning
@@ -74,13 +81,20 @@ timer = time.time()
 postBOJSonResp = [response.json() for response in responsesPostBO]
 getBOJSonResp = [response.json()[0]
                  for response in responsesGetBO if response.json()]
-# with open("getBO.json", 'w') as json_file:
-#     json.dump(getBOJSonResp, json_file, indent=4)
+# with open("postBO.json", 'w') as json_file:
+#     json.dump(postBOJSonResp, json_file, indent=4)
 teamsDf = bo.manipulationLoop(postBOJSonResp)
 propsDf = bo.dfByLoop(getBOJSonResp, gamesDict)
 bigDf = pd.concat([teamsDf, propsDf])
 dir = git.Repo('.', search_parent_directories=True).working_tree_dir
 bigDf.to_csv(str(dir) + '/bin/BetOnlineGigaDump.csv', index=False)
+print(time.time() - timer)
+
+timer = time.time()
+fDJsonResp = responsesFD[6].json()
+with open("respFD.json", 'w') as json_file:
+    json.dump(fDJsonResp, json_file, indent=4)
+fd.gigaDump2(responsesFD)
 print(time.time() - timer)
 
 
