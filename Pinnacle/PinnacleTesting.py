@@ -2,6 +2,7 @@ import grequests
 import pandas as pd
 from pandas import json_normalize
 from datetime import datetime, timedelta
+import Pinnacle_Liam as pn
 import time
 import asyncio
 import aiohttp
@@ -20,35 +21,18 @@ with open('pinnacle_data.json', 'r') as json_file:
 with open('pinnacle_data2.json', 'r') as json_file:
     oddsData = json.load(json_file)
 
-category = []
-designation = []
-points = []
-odds = []
+# Put all this bullshit in the makeurls function
 
-# Now 'data' contains the content of the JSON file as a Python dictionary
-matchupIds = dict()
-for bet in nameData:
-    if bet.get('special') and bet['special'].get('category') == 'Player Props':
-        matchupIds[bet['id']] = bet['special']['description']
+data = pn.getDataMlb()
+nameUrls, oddsUrls = pn.makeRequestLinks(data)
 
-# filtered_data = [item for item in oddsData if item.get(
-#     'matchupId') in matchupIds]
+# Prepare the GET requests
+name_requests = [grequests.get(u['url'], headers=u['headers']) for u in nameUrls]
+odds_requests = [grequests.get(u['url'], headers=u['headers']) for u in oddsUrls]
 
-for item in oddsData:
-    if item.get('matchupId') in matchupIds:
-        # Over
-        category.append(matchupIds[item['matchupId']])
-        designation.append('over')
-        points.append(item['prices'][0]['points'])
-        odds.append(item['prices'][0]['price'])
-        # Under
-        category.append(matchupIds[item['matchupId']])
-        designation.append('under')
-        points.append(item['prices'][1]['points'])
-        odds.append(item['prices'][1]['price'])
+# Send the requests and get the responses
+respName = grequests.map(name_requests)
+respOdds = grequests.map(odds_requests)
 
-df = pd.DataFrame({'Category': category, 'Designation': designation,
-                  'Points': points, 'PN American Odds': odds})
 
-dir = git.Repo('.', search_parent_directories=True).working_tree_dir
-df.to_csv(str(dir) + '/bin/PinnacleTestDump.csv', index=False)
+pn.gigaDump2(respName, respOdds)

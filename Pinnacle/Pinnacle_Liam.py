@@ -15,19 +15,26 @@ import re
 import git
 
 
-def getData():
-    # From what I understand this link gives us the eventIds of all sports
-
+def getDataMlb():
     # It's possible that some things in this link variable so it might not always be this EXACT link
-    url = "https://sbapi.on.sportsbook.fanduel.ca/api/content-managed-page?page=HOMEPAGE&prominentCard=false&pulseScalingEnable=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York"
+    url = "https://guest.api.arcadia.pinnacle.com/0.1/sports/3/matchups?withSpecials=false&brandId=0"
 
     headers = {
-        'accept': 'application/json',
-        'referer': 'https://on.sportsbook.fanduel.ca/',
-        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
-        'sec-ch-ua-mobile': '?1',
-        'sec-ch-ua-platform': '"Android"',
-        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36'
+    "accept": "application/json",
+    "accept-encoding": "gzip, deflate, br, zstd",
+    "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+    "content-type": "application/json",
+    "origin": "https://www.pinnacle.com",
+    "referer": "https://www.pinnacle.com/",
+    "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-site",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+    "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+    "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
     }
     response = requests.get(url, headers=headers)
     print(response.status_code)
@@ -38,10 +45,10 @@ def getData():
 # For now this is only fetching MLB eventIds
 def listGameIds(data):
     gameIds = []
-    for event in data['attachments']['events'].values():
-        # This number is the number representing that its an mlb game
-        if event['competitionId'] == 11196870:
-            gameIds.append(event['eventId'])
+    for game in data:
+        # Id of mlb
+        if game['league']['id'] == 246 and game['parentId'] != None:
+            gameIds.append(game['id'])
     return gameIds
 
 
@@ -279,20 +286,49 @@ def getLeague(competitionId):
 
 # This function is going to make the request links useful for FanDuel
 def makeRequestLinks(data):
-    games = listGameIds(data)
-    urls = []
+    gameIds = listGameIds(data)
+    nameUrls = []
+    oddsUrls = []
 
-    for x in games:
-        urls.append({'url': "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=" + str(x) + "&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
-                     'headers': {
-                         'accept': 'application/json',
-                         'referer': 'https://on.sportsbook.fanduel.ca/',
-                         'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
-                         'sec-ch-ua-mobile': '?1',
-                         'sec-ch-ua-platform': '"Android"',
-                         'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36'
-        }})
-    return urls
+    for gameId in gameIds:
+        nameUrl = f"https://guest.api.arcadia.pinnacle.com/0.1/matchups/{gameId}/related"
+        oddsUrl = f"https://guest.api.arcadia.pinnacle.com/0.1/matchups/{gameId}/markets/related/straight"
+        
+        nameUrls.append({'url': nameUrl, 'headers': {
+                                                        "accept": "application/json",
+                                                        "accept-encoding": "gzip, deflate, br, zstd",
+                                                        "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                                                        "content-type": "application/json",
+                                                        "origin": "https://www.pinnacle.com",
+                                                        "referer": "https://www.pinnacle.com/",
+                                                        "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+                                                        "sec-ch-ua-mobile": "?0",
+                                                        "sec-ch-ua-platform": '"Windows"',
+                                                        "sec-fetch-dest": "empty",
+                                                        "sec-fetch-mode": "cors",
+                                                        "sec-fetch-site": "same-site",
+                                                        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                                                        "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                                                        "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+                                                    }})
+        oddsUrls.append({'url': oddsUrl, 'headers': {
+                                                        "accept": "application/json",
+                                                        "accept-encoding": "gzip, deflate, br, zstd",
+                                                        "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                                                        "content-type": "application/json",
+                                                        "origin": "https://www.pinnacle.com",
+                                                        "referer": "https://www.pinnacle.com/",
+                                                        "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+                                                        "sec-ch-ua-mobile": "?0",
+                                                        "sec-ch-ua-platform": '"Windows"',
+                                                        "sec-fetch-dest": "empty",
+                                                        "sec-fetch-mode": "cors",
+                                                        "sec-fetch-site": "same-site",
+                                                        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                                                        "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                                                        "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+                                                    }})
+    return nameUrls, oddsUrls
 
 
 # For Game props
