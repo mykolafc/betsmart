@@ -20,21 +20,21 @@ def getDataMlb():
     url = "https://guest.api.arcadia.pinnacle.com/0.1/sports/3/matchups?withSpecials=false&brandId=0"
 
     headers = {
-    "accept": "application/json",
-    "accept-encoding": "gzip, deflate, br, zstd",
-    "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
-    "content-type": "application/json",
-    "origin": "https://www.pinnacle.com",
-    "referer": "https://www.pinnacle.com/",
-    "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"Windows"',
-    "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-site": "same-site",
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-    "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
-    "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+        "accept": "application/json",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+        "content-type": "application/json",
+        "origin": "https://www.pinnacle.com",
+        "referer": "https://www.pinnacle.com/",
+        "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+        "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+        "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
     }
     response = requests.get(url, headers=headers)
     print(response.status_code)
@@ -62,99 +62,48 @@ def decimal_to_american(decimal_odds):
     return round(american_odds)
 
 
-def getGameData(gameId):
+def american_to_decimal(american_odds):
+    if american_odds > 0:
+        decimal_odds = (american_odds / 100) + 1
+    else:
+        decimal_odds = (100 / abs(american_odds)) + 1
 
-    gameUrl = "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/" + \
-        gameId+"?format=json"
-
-    gameHeaders = {
-        'Accept': '*/*',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Referer': 'https://sportsbook.draftkings.com/',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-site',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15',
-    }
-
-    gameResponse = requests.get(gameUrl, headers=gameHeaders)
-    data = gameResponse.json()
-
-    with open('DraftKingsGame'+gameId+'.json', 'w') as f:
-        json.dump(data, f, indent=4)
-
-    return data
+    return decimal_odds
 
 
-def gameJson(gameId):
-    gameUrl = "https://api.on.DraftKings.com/api/mes/v3/events/"+gameId
-
-    gameHeaders = {
-        "authority": "api.on.DraftKings.com",
-        "method": "GET",
-        "path": "/api/mes/v3/events/"+gameId,
-        "scheme": "https",
-        "Accept": "application/json, text/plain, /",
-        "Accept-Encoding": "gzip, deflate, br, zstd",
-        "Accept-Language": "en-US,en;q=0.9",
-        # "If-Modified-Since": "Fri, 24 May 2024 17:13:09 GMT",
-        "Origin": "https://on.DraftKings.ca/",
-        "Priority": "u=1, i",
-        "Referer": "https://on.DraftKings.ca/",
-        "Request-Id": "|36c6c128c94f46ffa4f43c87f09fa6b2.888d033e0e04443f",
-        "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
-        "Sec-Ch-Ua-Mobile": "?1",
-        "Sec-Ch-Ua-Platform": '"Android"',
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site",
-        "Traceparent": "00-36c6c128c94f46ffa4f43c87f09fa6b2-888d033e0e04443f-01",
-        "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-    }
-
-    gameResponse = requests.get(gameUrl, headers=gameHeaders)
-    data = gameResponse.json()
-
-    with open('DraftKingsGame'+gameId+'.json', 'w') as f:
-        json.dump(data, f, indent=4)
+def americanToImpliedProb(odds):
+    if odds > 0:
+        return 100 / (odds + 100)
+    else:
+        return -odds / (-odds + 100)
 
 
-def jsonDump(data, league):
-    with open('DraftKings'+league+'.json', 'w') as f:
-        json.dump(data, f, indent=4)
+# Convert probabilities back to American odds
+
+def impliedProbToAmerican(prob):
+    if prob == 0:
+        return None  # Handle zero probability edge case
+    elif prob > 0.5:
+        return -100 * prob / (1 - prob)
+    else:
+        return 100 * (1 - prob) / prob
 
 
-def csvDump(data, league):
+def fairOdds(odds1, odds2):
 
-    teams = []
-    points = []
-    odds = []
-    side = []
-    category = []
-    names = []
-    designation = []
-    unit = []
+    # Calculate implied probabilities
+    prob1 = americanToImpliedProb(odds1)
+    prob2 = americanToImpliedProb(odds2)
 
-    for x in data['events']:
-        for y in x['specialFixedOddsMarkets']:
-            for z in y['outcomes']:
-                teams.append(x['awayTeam'] + '(away)' +
-                             ' vs ' + x['homeTeam'] + '(home)')
-                category.append(z['groupByHeader'])
-                side.append(z['side'])
-                points.append(z['points'])
-                odds.append(z['price'])
-                names.append(' ')
-                unit.append(' ')
-                if 'Over' in z['name']:
-                    designation.append('over')
-                elif 'Under' in z['name']:
-                    designation.append('under')
-                else:
-                    designation.append(' ')
+    # Normalize probabilities
+    total_prob = prob1 + prob2
+    no_vig_prob1 = prob1 / total_prob
+    no_vig_prob2 = prob2 / total_prob
 
-    df = pd.DataFrame({'Teams': teams, 'Category': category, 'Designation': designation,
-                       'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'Units': unit})
-    df.to_csv('DraftKings'+league+'.csv', index=False)
+    no_vig_odds1 = impliedProbToAmerican(no_vig_prob1)
+    no_vig_odds2 = impliedProbToAmerican(no_vig_prob2)
+
+    return round(no_vig_odds1), round(no_vig_odds2)
 
 
 def makeKey(unit, points, name=None):
@@ -174,43 +123,16 @@ def makeKey(unit, points, name=None):
         "Player Pts + Rebs + Asts Over/Under": f"pp;0;ou;pra;{points}",
         "Player To Record A Double Double": f"pp;0;ou;dbldbl;{points}",
         "Player To Record A Triple Double": f"pp;0;ou;trpldbl;{points}",
-        # NBA game switches
-        "Point Spread": f"s;0;s;{points}",
-        "Moneyline": f"s;0;m",
-        "Total": f"s;0;ou;{points}",
-        "Home Total": f"s;0;tt;{points};home",
-        "Away Total": f"s;0;tt;{points};away",
 
         # THIS IS THE ONLY CURRENTLY ACCURATE KEY MAKER, THE REST IS FROM DRAFTKINGS
         # MLB switches
-        re.compile(r'^PITCHER_[A-Z]_TOTAL_STRIKEOUTS'): f"pp;0;ou;so;{points}",
-        re.compile(r'^PITCHER_[A-Z]_STRIKEOUTS'): f"pp;0;ss;so;{points}",
-        "TO_HIT_A_HOME_RUN": f"pp;0;ss;hr;0.5",
-        "PLAYER_TO_RECORD_A_HIT": f"pp;0;ss;hit;0.5",
-        "PLAYER_TO_RECORD_2+_HITS": f"pp;0;ss;hit;1.5",
-        "PLAYER_TO_RECORD_3+_HITS": f"pp;0;ss;hit;2.5",
-        "TO_RECORD_A_STOLEN_BASE": f"pp;0;ss;sb;0.5",
-        "TO_RECORD_A_RUN": f"pp;0;ss;run;0.5",
-        "TO_RECORD_2+_RUNS": f"pp;0;ss;run;1.5",
-        "TO_RECORD_3+_RUNS": f"pp;0;ss;run;2.5",
-        "TO_RECORD_AN_RBI": f"pp;0;ss;rbi;0.5",
-        "TO_RECORD_2+_RBIS": f"pp;0;ss;rbi;1.5",
-        "TO_RECORD_2+_TOTAL_BASES": f"pp;0;ss;tb;1.5",
-        "TO_RECORD_3+_TOTAL_BASES": f"pp;0;ss;tb;2.5",
-        "TO_RECORD_4+_TOTAL_BASES": f"pp;0;ss;tb;3.5",
-        "TO_RECORD_5+_TOTAL_BASES": f"pp;0;ss;tb;4.5",
-        "TO_HIT_A_SINGLE": f"pp;0;ss;sin;0.5",
-        "TO_HIT_A_DOUBLE": f"pp;0;ss;dbl;0.5",
-        "TO_HIT_A_TRIPLE": f"pp;0;ss;trp;0.5",
-        # MLB game switches
-        "MONEY_LINE": f"s;0;m",
-        "MATCH_HANDICAP_(2-WAY)": f"s;0;s;{points}",
-        "TOTAL_POINTS_(OVER/UNDER)": f"s;0;ou;{points}",
-        "ALTERNATE_TOTAL_RUNS": f"s;0;ou;{points}",
-        "AWAY_TOTAL_RUNS": f"s;0;tt;{points};away",
-        "AWAY_TEAM_ALTERNATE_TOTAL_RUNS": f"s;0;tt;{points};away",
-        "HOME_TOTAL_RUNS": f"s;0;tt;{points};home",
-        "HOME_TEAM_ALTERNATE_TOTAL_RUNS": f"s;0;tt;{points};home",
+        'Total Strikeouts': f"pp;0;ou;so;{points}",
+        "Home Runs": f"pp;0;ou;hr;{points}",
+        "Earned Runs": f"pp;0;ou;er;{points}",
+        "Total Bases": f"pp;0;ou;tb;{points}",
+        "Hits Allowed": f"pp;0;ou;hita;{points}",
+        # Idk wtf this is below
+        "Pitching Outs": f'pp;ou;po;{points}',
 
         # NHL switches
         re.compile(r'^Away Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
@@ -293,84 +215,63 @@ def makeRequestLinks(data):
     for gameId in gameIds:
         nameUrl = f"https://guest.api.arcadia.pinnacle.com/0.1/matchups/{gameId}/related"
         oddsUrl = f"https://guest.api.arcadia.pinnacle.com/0.1/matchups/{gameId}/markets/related/straight"
-        
+
         nameUrls.append({'url': nameUrl, 'headers': {
-                                                        "accept": "application/json",
-                                                        "accept-encoding": "gzip, deflate, br, zstd",
-                                                        "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
-                                                        "content-type": "application/json",
-                                                        "origin": "https://www.pinnacle.com",
-                                                        "referer": "https://www.pinnacle.com/",
-                                                        "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
-                                                        "sec-ch-ua-mobile": "?0",
-                                                        "sec-ch-ua-platform": '"Windows"',
-                                                        "sec-fetch-dest": "empty",
-                                                        "sec-fetch-mode": "cors",
-                                                        "sec-fetch-site": "same-site",
-                                                        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-                                                        "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
-                                                        "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
-                                                    }})
+            "accept": "application/json",
+            "accept-encoding": "gzip, deflate, br, zstd",
+            "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+            "content-type": "application/json",
+            "origin": "https://www.pinnacle.com",
+            "referer": "https://www.pinnacle.com/",
+            "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "same-site",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+            "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+        }})
         oddsUrls.append({'url': oddsUrl, 'headers': {
-                                                        "accept": "application/json",
-                                                        "accept-encoding": "gzip, deflate, br, zstd",
-                                                        "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
-                                                        "content-type": "application/json",
-                                                        "origin": "https://www.pinnacle.com",
-                                                        "referer": "https://www.pinnacle.com/",
-                                                        "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
-                                                        "sec-ch-ua-mobile": "?0",
-                                                        "sec-ch-ua-platform": '"Windows"',
-                                                        "sec-fetch-dest": "empty",
-                                                        "sec-fetch-mode": "cors",
-                                                        "sec-fetch-site": "same-site",
-                                                        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-                                                        "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
-                                                        "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
-                                                    }})
+            "accept": "application/json",
+            "accept-encoding": "gzip, deflate, br, zstd",
+            "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+            "content-type": "application/json",
+            "origin": "https://www.pinnacle.com",
+            "referer": "https://www.pinnacle.com/",
+            "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": '"Windows"',
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "same-site",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+            "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+        }})
     return nameUrls, oddsUrls
 
 
 # For Game props
-def validMarketTypeGame(marketType):
-    if marketType in ['MONEY_LINE', 'MATCH_HANDICAP_(2-WAY)', "ALTERNATE_TOTAL_RUNS", "TOTAL_POINTS_(OVER/UNDER)",
-                      "AWAY_TOTAL_RUNS", "HOME_TOTAL_RUNS", "AWAY_TEAM_ALTERNATE_TOTAL_RUNS", "HOME_TEAM_ALTERNATE_TOTAL_RUNS"]:
-        return True
-    else:
-        return False
-
-
-# For Over/Under
-def validMarketTypeOUPP(marketType):
-    if bool(re.match(r'^PITCHER_\w_TOTAL_STRIKEOUTS$', marketType)):
-        return True
-    else:
-        return False
-
-
-# For Atleasts
-def validMarketTypeAlternatePP(marketType):
-    if marketType in ["TO_HIT_A_HOME_RUN", "PLAYER_TO_RECORD_A_HIT", "PLAYER_TO_RECORD_2+_HITS", "PLAYER_TO_RECORD_3+_HITS", "TO_RECORD_A_STOLEN_BASE", "TO_RECORD_A_RUN",
-                      "TO_RECORD_2+_RUNS", "TO_RECORD_3+_RUNS", "TO_RECORD_AN_RBI", "TO_RECORD_2+_RBIS", "TO_RECORD_2+_TOTAL_BASES", "TO_RECORD_3+_TOTAL_BASES",
-                      "TO_RECORD_4+_TOTAL_BASES", "TO_RECORD_5+_TOTAL_BASES", "TO_HIT_A_SINGLE", "TO_HIT_A_DOUBLE", "TO_HIT_A_TRIPLE"]:
-        return True
-    elif bool(re.match(r'^PITCHER_\w_STRIKEOUTS$', marketType)):
+def validMarketTypeGame(item):
+    if item['type'] in ['moneyline', 'team_total', "spread", "total"] and item['period'] == 0 and 'designation' in item['prices'][0]:
         return True
     else:
         return False
 
 
 def gigaDump2(respNameData, respOddsData):
-    league = []
+    leagues = []
     teams = []
     points = []
     odds = []
     americanOdds = []
+    noVigOdds = []
     side = []
     categories = []
     names = []
     designation = []
-    games = []
     keys = []
     dates = []
 
@@ -378,37 +279,129 @@ def gigaDump2(respNameData, respOddsData):
         nameData = nameData.json()
         oddsData = oddsData.json()
         matchupIds = dict()
+        league = nameData[0]['league']['name']
+        awayHomeTeams = getTeamName(nameData[0]['participants'][1]['name']) + \
+            '(away) vs ' + \
+            getTeamName(nameData[0]['participants'][0]['name']) + '(home)'
+
         for bet in nameData:
             if bet.get('special') and bet['special'].get('category') == 'Player Props':
-                matchupIds[bet['id']] = bet['special']['description']
+                for participant in bet['participants']:
+                    if participant['name'] == 'Over':
+                        overId = participant['id']
+                    elif participant['name'] == 'Under':
+                        underId = participant['id']
+                matchupIds[bet['id']] = {'description': bet['special']['description'],
+                                         overId: 'over',
+                                         underId: 'under'}
 
         # filtered_data = [item for item in oddsData if item.get(
         #     'matchupId') in matchupIds]
 
         for item in oddsData:
-            if item.get('matchupId') in matchupIds:
-                # Over
-                categories.append(matchupIds[item['matchupId']])
-                designation.append('over')
-                points.append(item['prices'][0]['points'])
-                odds.append(item['prices'][0]['price'])
-                # Under
-                categories.append(matchupIds[item['matchupId']])
-                designation.append('under')
-                points.append(item['prices'][1]['points'])
-                odds.append(item['prices'][1]['price'])
+            # Getting the date of the game
+            # this code makes sure it grabs the date of the start of the game
+            datetimeStr = item['cutoffAt']
+            # Try parsing with the first format
+            try:
+                dt = datetime.strptime(datetimeStr, "%Y-%m-%dT%H:%M:%S%z")
+            except ValueError:
+                # If it fails, try the second format
+                dt = datetime.strptime(datetimeStr, "%Y-%m-%dT%H:%M:%S.%f%z")
+            if dt.time() < datetime.strptime("05:30:00", "%H:%M:%S").time():
+                dt -= timedelta(days=1)
+            date = dt.strftime("%Y-%m-%d")
 
-    df = pd.DataFrame({'Category': categories, 'Designation': designation,
-                       'Points': points, 'PN American Odds': odds})
+            # This is for player props
+            if item.get('matchupId') in matchupIds:
+                # Getting the fair odds right off the bat
+                fairOverOdd, fairUnderOdd = fairOdds(
+                    item['prices'][0]['price'], item['prices'][1]['price'])
+                # Getting the player name
+                playerName = re.search(
+                    r'^(.*?)\s*\(', matchupIds[item['matchupId']]['description']).group(1).strip()
+                nsplit = playerName.split()
+                name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
+
+                # Over
+                leagues.append(league)
+                teams.append(awayHomeTeams)
+                categories.append(
+                    re.search(r'\(([^)]+)\)', matchupIds[item['matchupId']]['description']).group(1))
+                names.append(name)
+                side.append(None)
+                designation.append(
+                    matchupIds[item['matchupId']][item['prices'][0]['participantId']])
+                points.append(item['prices'][0]['points'])
+                dates.append(date)
+                # This searches for whats inside the first parantheses (which is the category we're looking for)
+                keys.append(
+                    makeKey(re.search(r'\(([^)]+)\)', matchupIds[item['matchupId']]['description']).group(1), item['prices'][0]['points']))
+                americanOdds.append(item['prices'][0]['price'])
+                odds.append(american_to_decimal(item['prices'][0]['price']))
+                noVigOdds.append(fairOverOdd)
+
+                # Under
+                leagues.append(league)
+                teams.append(awayHomeTeams)
+                categories.append(
+                    re.search(r'\(([^)]+)\)', matchupIds[item['matchupId']]['description']).group(1))
+                names.append(name)
+                side.append(None)
+                designation.append(
+                    matchupIds[item['matchupId']][item['prices'][1]['participantId']])
+                dates.append(date)
+                keys.append(
+                    makeKey(re.search(r'\(([^)]+)\)', matchupIds[item['matchupId']]['description']).group(1), item['prices'][1]['points']))
+                points.append(item['prices'][1]['points'])
+                americanOdds.append(item['prices'][1]['price'])
+                odds.append(american_to_decimal(item['prices'][1]['price']))
+                noVigOdds.append(fairUnderOdd)
+
+            elif validMarketTypeGame(item):
+                # this repeats twice cuz it needs to be done for both side, whether over/under or home/away
+                fairFirstOdd, fairSecondOdd = fairOdds(
+                    item['prices'][0]['price'], item['prices'][1]['price'])
+
+                leagues.append(league)
+                teams.append(awayHomeTeams)
+                categories.append(item['type'])
+                names.append(None)
+                if 'side' in item or item['prices'][0]['designation'] in ['over', 'under']:
+                    side.append(item.get('side', None))
+                    designation.append(item['prices'][0]['designation'])
+                else:
+                    side.append(item['prices'][0]['designation'])
+                    designation.append(None)
+                dates.append(date)
+                keys.append(item['key'])
+                points.append(item['prices'][0].get('points', None))
+                americanOdds.append(item['prices'][0]['price'])
+                odds.append(american_to_decimal(item['prices'][0]['price']))
+                noVigOdds.append(fairFirstOdd)
+
+                leagues.append(league)
+                teams.append(awayHomeTeams)
+                categories.append(item['type'])
+                names.append(None)
+                if 'side' in item or item['prices'][1]['designation'] in ['over', 'under']:
+                    side.append(item.get('side', None))
+                    designation.append(item['prices'][1]['designation'])
+                else:
+                    side.append(item['prices'][1]['designation'])
+                    designation.append(None)
+                dates.append(date)
+                keys.append(item['key'])
+                points.append(item['prices'][1].get('points', None))
+                americanOdds.append(item['prices'][1]['price'])
+                odds.append(american_to_decimal(item['prices'][0]['price']))
+                noVigOdds.append(fairSecondOdd)
+
+    df = pd.DataFrame({'Key': keys, 'Date': dates, 'League': leagues, 'Teams': teams, 'Name': names, 'Category': categories, 'Side': side, 'Designation': designation,
+                       'Points': points, 'PN American Odds': americanOdds, 'PN Decimal Odds': odds, 'PN Fair Odds': noVigOdds})
 
     dir = git.Repo('.', search_parent_directories=True).working_tree_dir
-    df.to_csv(str(dir) + '/bin/PinnacleTestDump.csv', index=False)
-
-    # df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': categories, 'Designation': designation,
-    #                    'Side': side, 'Name': names, 'Points': points, 'FD Decimal Odds': odds, 'FD American Odds': americanOdds, 'Key': keys, 'Date': dates})
-
-    # dir = git.Repo('.', search_parent_directories=True).working_tree_dir
-    # df.to_csv(str(dir) + '/bin/FanDuelGigaDump.csv', index=False)
+    df.to_csv(str(dir) + '/bin/PinnacleGigaDump.csv', index=False)
 
 
 class MyCmd(cmd.Cmd):

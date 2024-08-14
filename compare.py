@@ -13,6 +13,9 @@ df3 = pd.read_csv('./bin/DraftKingsGigaDump.csv')
 # Read data from FanDuel file
 df4 = pd.read_csv('./bin/FanDuelGigaDump.csv')
 
+# Read the pinnacle file
+df5 = pd.read_csv('./bin/PinnacleGigaDump.csv')
+
 
 def calculate_ratio(row):
     odds = [row['BO dec_odds'], row['PB Decimal Odds'],
@@ -35,8 +38,8 @@ def calculate_ratio(row):
 def average_and_furthest(row):
     # Calculate the average
     odds = [row['BO dec_odds'], row['PB Decimal Odds'],
-            row['DK Decimal Odds'], row['FD American Odds']]
-    avg = sum(odds) / 4
+            row['DK Decimal Odds'], row['FD American Odds'], row['PN American Odds']]
+    avg = sum(odds) / 5
 
     # Calculate the absolute differences from the average
     diffs = [abs(odds[0] - avg), abs(odds[1] - avg), abs(odds[2] - avg)]
@@ -53,7 +56,7 @@ def average_and_furthest(row):
 
 
 def highest_odd(row):
-    return max([row['BO Odds'], row['PB American Odds'], row['DK American Odds'], row['FD American Odds']])
+    return max([row['BO Odds'], row['PB American Odds'], row['DK American Odds'], row['FD American Odds'], row['PN American Odds']])
 
 
 # Function to calculate the arbitrage and update the 'arb' column
@@ -121,10 +124,11 @@ df1['Name'].fillna('', inplace=True)
 df2['Name'].fillna('', inplace=True)
 df3['Name'].fillna('', inplace=True)
 df4['Name'].fillna('', inplace=True)
+df5['Name'].fillna('', inplace=True)
 
-print(df1.columns)
-print(df2.columns)
-print(df3.columns)
+# print(df1.columns)
+# print(df2.columns)
+# print(df3.columns)
 
 # Create a new dataframe to store the matching entries
 merged_df = pd.DataFrame()
@@ -136,6 +140,8 @@ merged_df = pd.merge(merged_df, df3, how='outer', on=[
                      'Key', 'Designation', 'Side', 'Name', 'Teams', 'Date'], suffixes=('_df1_df2', '_df3'))
 merged_df = pd.merge(merged_df, df4, how='outer', on=[
                      'Key', 'Designation', 'Side', 'Name', 'Teams', 'Date'], suffixes=('', '_df4'))
+merged_df = pd.merge(merged_df, df5, how='outer', on=[
+                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'Date'], suffixes=('', '_df5'))
 
 merged_df['Profits Ratio'] = merged_df.apply(
     calculate_ratio, axis=1)  # Calculate the odds ratio
@@ -148,14 +154,16 @@ dk_odds = np.where(pd.isna(
     merged_df['DK American Odds']), np.nan, merged_df['DK American Odds'].values)
 fd_odds = np.where(pd.isna(
     merged_df['FD American Odds']), np.nan, merged_df['FD American Odds'].values)
+pn_odds = np.where(pd.isna(
+    merged_df['PN American Odds']), np.nan, merged_df['PN American Odds'].values)
 
 # Use np.nanmax to find the maximum value ignoring NaNs
 merged_df['Best Deal'] = np.nanmax(
-    [bo_odds, pb_odds, dk_odds, fd_odds], axis=0)
+    [bo_odds, pb_odds, dk_odds, fd_odds, pn_odds], axis=0)
 
-merged_df = merged_df[['Key', 'Designation', 'Name', 'Date', 'Teams', 'League', 'Category', 'Side', 'Points', 'BO dec_odds',
-                       'PB Decimal Odds', 'DK Decimal Odds', 'FD Decimal Odds', 'BO Odds', 'PB American Odds',
-                       'DK American Odds', 'FD American Odds', 'Profits Ratio', 'Best Deal']]
+merged_df = merged_df[['Key', 'Designation', 'Name', 'Date', 'Teams', 'League', 'Category', 'Side', 'Points', 'BO dec_odds', 'PN Decimal Odds',
+                       'PB Decimal Odds', 'DK Decimal Odds', 'FD Decimal Odds', 'BO Odds', 'PN American Odds', 'PB American Odds',
+                       'DK American Odds', 'FD American Odds', 'PN Fair Odds', 'Profits Ratio', 'Best Deal']]
 
 merged_df['arb'] = calculate_arb(merged_df)
 

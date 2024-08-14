@@ -520,7 +520,6 @@ def gigaDump2(response):
                             side.append(None)
                     categories.append(market['marketName'])
                     names.append(None)
-                    games.append(None)
 
                     # This makes sure that the run line is the same for both home and away inside the key
                     if market['marketType'] == 'MATCH_HANDICAP_(2-WAY)' and runner['result'].get('type', '') == 'AWAY':
@@ -549,7 +548,6 @@ def gigaDump2(response):
                     name = playerName.replace(
                         nsplit[0], nsplit[0][0] + '.', 1).replace('Over', '').replace('Under', '').strip()
                     names.append(name)
-                    games.append(None)
                     keys.append(makeKey(market['marketType'], point))
                     dates.append(date)
 
@@ -591,7 +589,6 @@ def gigaDump2(response):
                     name = playerName.replace(
                         nsplit[0], nsplit[0][0] + '.', 1).replace('Over', '').replace('Under', '').strip()
                     names.append(name)
-                    games.append(None)
                     keys.append(makeKey(market['marketType'], point))
                     dates.append(date)
 

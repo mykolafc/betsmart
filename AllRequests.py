@@ -91,9 +91,6 @@ bigDf.to_csv(str(dir) + '/bin/BetOnlineGigaDump.csv', index=False)
 print(time.time() - timer)
 
 timer = time.time()
-fDJsonResp = responsesFD[6].json()
-with open("respFD.json", 'w') as json_file:
-    json.dump(fDJsonResp, json_file, indent=4)
 fd.gigaDump2(responsesFD)
 print(time.time() - timer)
 
