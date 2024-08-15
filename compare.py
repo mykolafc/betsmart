@@ -19,7 +19,7 @@ df5 = pd.read_csv('./bin/PinnacleGigaDump.csv')
 
 def calculate_ratio(row):
     odds = [row['BO dec_odds'], row['PB Decimal Odds'],
-            row['DK Decimal Odds'], row['FD Decimal Odds']]
+            row['DK Decimal Odds'], row['FD Decimal Odds'], row['PN Decimal Odds']]
     # Filter out None values
     valid_odds = [odd for odd in odds if pd.notnull(odd)]
 
@@ -31,6 +31,37 @@ def calculate_ratio(row):
     min_odds = min(valid_odds)
     # Handle division by zero
     ratio = (max_odds-1) / (min_odds-1) if min_odds != 1 else float('inf')
+    return ratio
+
+
+def calculate_fairOdds_ratio(row):
+    # Extract the relevant odds
+    odds = [row['BO dec_odds'], row['PB Decimal Odds'],
+            row['FD Decimal Odds'], row['DK Decimal Odds']]
+
+    # Handle Pinnacle Fair Odds separately
+    fair_odds_american = row['PN Fair Odds']
+
+    # Filter out None values from the odds list
+    valid_odds = [odd for odd in odds if pd.notnull(odd)]
+
+    # If there are fewer than 2 valid odds, return None or some default value
+    if len(valid_odds) < 2 or pd.isnull(fair_odds_american):
+        return None
+
+    # Find the maximum odds
+    max_odds = max(valid_odds)
+
+    # Convert Pinnacle Fair Odds to decimal
+    if fair_odds_american > 0:
+        fair_decimal_odds = (fair_odds_american / 100) + 1
+    else:
+        fair_decimal_odds = (100 / abs(fair_odds_american)) + 1
+
+    # Handle division by zero and calculate the profit ratio
+    ratio = (max_odds - 1) / (fair_decimal_odds -
+                              1) if fair_decimal_odds != 1 else float('inf')
+
     return ratio
 
 
@@ -145,6 +176,8 @@ merged_df = pd.merge(merged_df, df5, how='outer', on=[
 
 merged_df['Profits Ratio'] = merged_df.apply(
     calculate_ratio, axis=1)  # Calculate the odds ratio
+merged_df['Fair Odds Ratio'] = merged_df.apply(
+    calculate_fairOdds_ratio, axis=1)
 # Convert the DataFrame columns to NumPy arrays, replacing None with np.nan
 bo_odds = np.where(
     pd.isna(merged_df['BO Odds']), np.nan, merged_df['BO Odds'].values)
@@ -163,7 +196,7 @@ merged_df['Best Deal'] = np.nanmax(
 
 merged_df = merged_df[['Key', 'Designation', 'Name', 'Date', 'Teams', 'League', 'Category', 'Side', 'Points', 'BO dec_odds', 'PN Decimal Odds',
                        'PB Decimal Odds', 'DK Decimal Odds', 'FD Decimal Odds', 'BO Odds', 'PN American Odds', 'PB American Odds',
-                       'DK American Odds', 'FD American Odds', 'PN Fair Odds', 'Profits Ratio', 'Best Deal']]
+                       'DK American Odds', 'FD American Odds', 'PN Fair Odds', 'Profits Ratio', 'Best Deal', 'Fair Odds Ratio']]
 
 merged_df['arb'] = calculate_arb(merged_df)
 

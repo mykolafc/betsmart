@@ -573,8 +573,8 @@ def gigaDump2(response):
                     else:
                         points.append(point)
 
-                    # if 'winRunnerOdds' not in runner:
-                    #     print(runner)
+                    if 'winRunnerOdds' not in runner:
+                        print(f'Error, winRunnerOdds cant be found, here is the runner: ', runner)
                     odds.append(runner['winRunnerOdds']
                                 ['trueOdds']['decimalOdds']['decimalOdds'])
                     americanOdds.append(

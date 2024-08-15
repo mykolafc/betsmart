@@ -394,7 +394,7 @@ def gigaDump2(respNameData, respOddsData):
                 keys.append(item['key'])
                 points.append(item['prices'][1].get('points', None))
                 americanOdds.append(item['prices'][1]['price'])
-                odds.append(american_to_decimal(item['prices'][0]['price']))
+                odds.append(american_to_decimal(item['prices'][1]['price']))
                 noVigOdds.append(fairSecondOdd)
 
     df = pd.DataFrame({'Key': keys, 'Date': dates, 'League': leagues, 'Teams': teams, 'Name': names, 'Category': categories, 'Side': side, 'Designation': designation,

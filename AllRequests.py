@@ -3,6 +3,7 @@ import DraftKings.Draftkings as dk
 import Pointsbet.PointsBetMyko as pb
 import BetOnline.BetOnline as bo
 import Fanduel.FanDuel_Liam as fd
+import Pinnacle.Pinnacle_Liam as pn
 import pandas as pd
 from pandas import json_normalize
 from datetime import datetime, timedelta
@@ -46,6 +47,12 @@ urlsFD = fd.makeRequestLinks(dataFD)
 urlsGet = urlsGet + urlsFD
 
 
+# Pinnacle
+mlbPN = pn.getDataMlb()
+nameUrlsPN, oddsUrlsPN = pn.makeRequestLinks(mlbPN)
+urlsGet = urlsGet + nameUrlsPN + oddsUrlsPN
+
+
 timer = time.time()
 responsesGet = (grequests.get(u['url'], headers=u['headers']) for u in urlsGet)
 responsesPost = (grequests.post(
@@ -56,12 +63,17 @@ print(f'Requests of all sites took', time.time() - timer, ' seconds')
 
 responsesDK = responses[:len(urlsDK)]
 responsesPB = responses[len(urlsDK):len(urlsDK)+len(urlsPB)]
-responsesGetBO = responses[len(urlsDK)+len(urlsPB):len(urlsDK)+len(urlsPB)+len(urlsGetBO)]
+responsesGetBO = responses[len(urlsDK)+len(urlsPB)                           :len(urlsDK)+len(urlsPB)+len(urlsGetBO)]
 responsesFD = responses[len(
     urlsDK)+len(urlsPB)+len(urlsGetBO):len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)]
-responsesPostBO = responses[len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(
-    urlsFD):len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)+len(urlsPostBO)]
 
+responseNamePN = responses[len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(
+    urlsFD): len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)+len(nameUrlsPN)]
+responseOddsPN = responses[len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)+len(nameUrlsPN): len(
+    urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)+len(nameUrlsPN) + len(oddsUrlsPN)]
+
+responsesPostBO = responses[len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)+len(nameUrlsPN) + len(
+    oddsUrlsPN):len(urlsDK)+len(urlsPB)+len(urlsGetBO)+len(urlsFD)+len(nameUrlsPN) + len(oddsUrlsPN)+len(urlsPostBO)]
 
 timer = time.time()
 dk.gigaDump2(responsesDK)
@@ -92,6 +104,10 @@ print(time.time() - timer)
 
 timer = time.time()
 fd.gigaDump2(responsesFD)
+print(time.time() - timer)
+
+timer = time.time()
+pn.gigaDump2(responseNamePN, responseOddsPN)
 print(time.time() - timer)
 
 
