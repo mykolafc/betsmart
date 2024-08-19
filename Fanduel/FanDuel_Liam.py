@@ -288,7 +288,8 @@ def makeKey(unit, points, name=None):
         "TO_RECORD_3+_RUNS": f"pp;0;ss;run;2.5",
         "TO_RECORD_AN_RBI": f"pp;0;ss;rbi;0.5",
         "TO_RECORD_2+_RBIS": f"pp;0;ss;rbi;1.5",
-        "TO_RECORD_2+_TOTAL_BASES": f"pp;0;ss;tb;1.5",
+        # For sake of comparison, im writing the next one down as an Over/Under in the key and not an alternate
+        "TO_RECORD_2+_TOTAL_BASES": f"pp;0;ou;tb;1.5",
         "TO_RECORD_3+_TOTAL_BASES": f"pp;0;ss;tb;2.5",
         "TO_RECORD_4+_TOTAL_BASES": f"pp;0;ss;tb;3.5",
         "TO_RECORD_5+_TOTAL_BASES": f"pp;0;ss;tb;4.5",
@@ -574,7 +575,8 @@ def gigaDump2(response):
                         points.append(point)
 
                     if 'winRunnerOdds' not in runner:
-                        print(f'Error, winRunnerOdds cant be found, here is the runner: ', runner)
+                        print(
+                            f'Error, winRunnerOdds cant be found, here is the runner: ', runner)
                     odds.append(runner['winRunnerOdds']
                                 ['trueOdds']['decimalOdds']['decimalOdds'])
                     americanOdds.append(

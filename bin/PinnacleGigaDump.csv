@@ -1,605 +1,1169 @@
 Key,Date,League,Teams,Name,Category,Side,Designation,Points,PN American Odds,PN Decimal Odds,PN Fair Odds
-s;0;m,2024-08-15,MLB,BOS(away) vs BAL(home),,moneyline,home,,,-139,1.7194244604316546,-133
-s;0;m,2024-08-15,MLB,BOS(away) vs BAL(home),,moneyline,away,,,128,2.2800000000000002,133
-s;0;tt;4.5;home,2024-08-15,MLB,BOS(away) vs BAL(home),,team_total,home,over,4.5,103,2.0300000000000002,111
-s;0;tt;4.5;home,2024-08-15,MLB,BOS(away) vs BAL(home),,team_total,home,under,4.5,-120,1.8333333333333335,-111
-s;0;tt;3.5;away,2024-08-15,MLB,BOS(away) vs BAL(home),,team_total,away,over,3.5,-128,1.78125,-117
-s;0;tt;3.5;away,2024-08-15,MLB,BOS(away) vs BAL(home),,team_total,away,under,3.5,109,2.09,117
-s;0;s;-1.5,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,home,,-1.5,149,2.49,155
-s;0;s;-1.5,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,away,,1.5,-166,1.6024096385542168,-155
-s;0;s;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,home,,1.5,-240,1.4166666666666667,-209
-s;0;s;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,away,,-1.5,196,2.96,209
-s;0;s;1.0,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,home,,1.0,-196,1.510204081632653,-177
-s;0;s;1.0,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,away,,-1.0,167,2.67,177
-s;0;s;-1.0,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,home,,-1.0,104,2.04,110
-s;0;s;-1.0,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,away,,1.0,-117,1.8547008547008548,-110
-s;0;s;-2.0,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,home,,-2.0,198,2.98,208
-s;0;s;-2.0,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,away,,2.0,-231,1.432900432900433,-208
-s;0;s;-2.5,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,home,,-2.5,226,3.26,239
-s;0;s;-2.5,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,away,,2.5,-275,1.3636363636363638,-239
-s;0;s;-3.0,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,home,,-3.0,303,4.029999999999999,323
-s;0;s;-3.0,2024-08-15,MLB,BOS(away) vs BAL(home),,spread,away,,3.0,-402,1.2487562189054726,-323
-s;0;ou;8.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,8.5,-110,1.9090909090909092,-104
-s;0;ou;8.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,8.5,-102,1.9803921568627452,104
-s;0;ou;5.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,5.5,-377,1.2652519893899203,-307
-s;0;ou;5.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,5.5,288,3.88,307
-s;0;ou;7.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,7.0,-208,1.4807692307692308,-189
-s;0;ou;7.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,7.0,180,2.8,189
-s;0;ou;7.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,7.5,-150,1.6666666666666665,-140
-s;0;ou;7.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,7.5,133,2.33,140
-s;0;ou;8.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,8.0,-130,1.7692307692307692,-122
-s;0;ou;8.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,8.0,116,2.16,122
-s;0;ou;9.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,9.0,115,2.15,122
-s;0;ou;9.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,9.0,-130,1.7692307692307692,-122
-s;0;ou;9.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,9.5,143,2.4299999999999997,151
-s;0;ou;9.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,9.5,-163,1.6134969325153374,-151
-s;0;ou;10.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,10.0,168,2.6799999999999997,177
-s;0;ou;10.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,10.0,-193,1.5181347150259068,-177
-s;0;ou;12.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,12.5,345,4.45,367
-s;0;ou;12.5,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,12.5,-472,1.211864406779661,-367
-s;0;ou;26.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,over,26.0,-110,1.9090909090909092,100
-s;0;ou;26.0,2024-08-15,MLB,BOS(away) vs BAL(home),,total,,under,26.0,-110,1.9090909090909092,100
-pp;0;ou;so;4.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Pivetta,Total Strikeouts,,over,4.5,-177,1.5649717514124295,-140
-pp;0;ou;so;4.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Pivetta,Total Strikeouts,,under,4.5,119,2.19,140
-pp;0;ou;hita;4.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Pivetta,Hits Allowed,,over,4.5,-124,1.8064516129032258,-107
-pp;0;ou;hita;4.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Pivetta,Hits Allowed,,under,4.5,-107,1.9345794392523366,107
-pp;0;ou;er;2.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Pivetta,Earned Runs,,over,2.5,117,2.17,133
-pp;0;ou;er;2.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Pivetta,Earned Runs,,under,2.5,-157,1.6369426751592355,-133
-pp;ou;po;15.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Pivetta,Pitching Outs,,over,15.5,152,2.52,171
-pp;ou;po;15.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Pivetta,Pitching Outs,,under,15.5,-211,1.4739336492890995,-171
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Urias,Home Runs,,over,0.5,761,8.61,814
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Urias,Home Runs,,under,0.5,-1724,1.0580046403712298,-814
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Urias,Total Bases,,over,0.5,-185,1.5405405405405406,-153
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Urias,Total Bases,,under,0.5,135,2.35,153
-pp;0;ou;so;4.5,2024-08-15,MLB,BOS(away) vs BAL(home),Z. Eflin,Total Strikeouts,,over,4.5,-127,1.7874015748031495,-108
-pp;0;ou;so;4.5,2024-08-15,MLB,BOS(away) vs BAL(home),Z. Eflin,Total Strikeouts,,under,4.5,-107,1.9345794392523366,108
-pp;0;ou;hita;5.5,2024-08-15,MLB,BOS(away) vs BAL(home),Z. Eflin,Hits Allowed,,over,5.5,-160,1.625,-135
-pp;0;ou;hita;5.5,2024-08-15,MLB,BOS(away) vs BAL(home),Z. Eflin,Hits Allowed,,under,5.5,119,2.19,135
-pp;0;ou;er;2.5,2024-08-15,MLB,BOS(away) vs BAL(home),Z. Eflin,Earned Runs,,over,2.5,-122,1.819672131147541,-104
-pp;0;ou;er;2.5,2024-08-15,MLB,BOS(away) vs BAL(home),Z. Eflin,Earned Runs,,under,2.5,-113,1.8849557522123894,104
-pp;ou;po;17.5,2024-08-15,MLB,BOS(away) vs BAL(home),Z. Eflin,Pitching Outs,,over,17.5,-170,1.5882352941176472,-142
-pp;ou;po;17.5,2024-08-15,MLB,BOS(away) vs BAL(home),Z. Eflin,Pitching Outs,,under,17.5,126,2.26,142
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),A. Santander,Home Runs,,over,0.5,402,5.02,434
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),A. Santander,Home Runs,,under,0.5,-642,1.1557632398753894,-434
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),A. Santander,Total Bases,,over,1.5,123,2.23,139
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),A. Santander,Total Bases,,under,1.5,-165,1.606060606060606,-139
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),D. Smith,Home Runs,,under,0.5,-1442,1.0693481276005548,-733
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),D. Smith,Home Runs,,over,0.5,684,7.84,733
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),D. Smith,Total Bases,,over,0.5,-209,1.4784688995215312,-169
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),D. Smith,Total Bases,,under,0.5,150,2.5,169
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Devers,Home Runs,,over,0.5,370,4.7,400
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Devers,Home Runs,,under,0.5,-572,1.1748251748251748,-400
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Devers,Total Bases,,over,1.5,105,2.05,119
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Devers,Total Bases,,under,1.5,-139,1.7194244604316546,-119
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Mullins,Home Runs,,over,0.5,817,9.17,872
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Mullins,Home Runs,,under,0.5,-1947,1.0513610683102208,-872
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Mullins,Total Bases,,over,0.5,-147,1.6802721088435373,-125
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Mullins,Total Bases,,under,0.5,110,2.1,125
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. O'Hearn,Home Runs,,over,0.5,666,7.66,714
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. O'Hearn,Home Runs,,under,0.5,-1382,1.0723589001447178,-714
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. O'Hearn,Total Bases,,over,1.5,138,2.38,156
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. O'Hearn,Total Bases,,under,1.5,-189,1.529100529100529,-156
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Wong,Home Runs,,over,0.5,895,9.95,953
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Wong,Home Runs,,under,0.5,-2286,1.0437445319335084,-953
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Wong,Total Bases,,over,1.5,141,2.41,159
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Wong,Total Bases,,under,1.5,-194,1.5154639175257731,-159
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Mountcastle,Home Runs,,over,0.5,579,6.79,623
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Mountcastle,Home Runs,,under,0.5,-1106,1.0904159132007234,-623
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Mountcastle,Total Bases,,over,1.5,120,2.2,136
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),R. Mountcastle,Total Bases,,under,1.5,-161,1.62111801242236,-136
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),D. Hamilton,Total Bases,,over,0.5,-145,1.6896551724137931,-124
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),D. Hamilton,Total Bases,,under,0.5,109,2.09,124
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),A. Rutschman,Home Runs,,over,0.5,691,7.91,741
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),A. Rutschman,Home Runs,,under,0.5,-1467,1.0681663258350376,-741
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),A. Rutschman,Total Bases,,over,1.5,147,2.4699999999999998,166
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),A. Rutschman,Total Bases,,under,1.5,-204,1.4901960784313726,-166
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),W. Abreu,Home Runs,,over,0.5,455,5.55,491
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),W. Abreu,Home Runs,,under,0.5,-768,1.1302083333333333,-491
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),W. Abreu,Total Bases,,over,1.5,120,2.2,136
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),W. Abreu,Total Bases,,under,1.5,-161,1.62111801242236,-136
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Rafaela,Home Runs,,over,0.5,843,9.43,899
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Rafaela,Home Runs,,under,0.5,-2059,1.0485672656629432,-899
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Rafaela,Total Bases,,over,1.5,119,2.19,137
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Rafaela,Total Bases,,under,1.5,-167,1.5988023952095807,-137
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),J. Duran,Home Runs,,over,0.5,616,7.16,662
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),J. Duran,Home Runs,,under,0.5,-1219,1.0820344544708778,-662
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),J. Duran,Total Bases,,over,1.5,-106,1.9433962264150944,108
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),J. Duran,Total Bases,,under,1.5,-124,1.8064516129032258,-108
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Cowser,Home Runs,,over,0.5,522,6.22,562
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Cowser,Home Runs,,under,0.5,-942,1.1061571125265393,-562
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Cowser,Total Bases,,over,1.5,136,2.3600000000000003,153
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),C. Cowser,Total Bases,,under,1.5,-185,1.5405405405405406,-153
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),G. Henderson,Home Runs,,over,0.5,498,5.98,556
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),G. Henderson,Home Runs,,under,0.5,-1333,1.0750187546886723,-556
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),G. Henderson,Total Bases,,over,1.5,115,2.15,130
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),G. Henderson,Total Bases,,under,1.5,-154,1.6493506493506493,-130
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Sogard,Total Bases,,over,0.5,-174,1.5747126436781609,-145
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),N. Sogard,Total Bases,,under,0.5,129,2.29,145
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),J. Holliday,Home Runs,,over,0.5,744,8.440000000000001,796
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),J. Holliday,Home Runs,,under,0.5,-1659,1.0602772754671488,-796
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),J. Holliday,Total Bases,,over,0.5,-144,1.6944444444444444,-123
-pp;0;ou;tb;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),J. Holliday,Total Bases,,under,0.5,108,2.08,123
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),M. Yoshida,Home Runs,,over,0.5,776,8.76,829
-pp;0;ou;hr;0.5,2024-08-15,MLB,BOS(away) vs BAL(home),M. Yoshida,Home Runs,,under,0.5,-1781,1.0561482313307131,-829
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),M. Yoshida,Total Bases,,over,1.5,131,2.31,148
-pp;0;ou;tb;1.5,2024-08-15,MLB,BOS(away) vs BAL(home),M. Yoshida,Total Bases,,under,1.5,-178,1.5617977528089888,-148
-s;0;m,2024-08-15,MLB,LAD(away) vs MIL(home),,moneyline,home,,,136,2.3600000000000003,141
-s;0;m,2024-08-15,MLB,LAD(away) vs MIL(home),,moneyline,away,,,-148,1.6756756756756757,-141
-s;0;tt;3.5;home,2024-08-15,MLB,LAD(away) vs MIL(home),,team_total,home,over,3.5,107,2.0700000000000003,115
-s;0;tt;3.5;home,2024-08-15,MLB,LAD(away) vs MIL(home),,team_total,home,under,3.5,-125,1.8,-115
-s;0;tt;4.5;away,2024-08-15,MLB,LAD(away) vs MIL(home),,team_total,away,over,4.5,104,2.04,112
-s;0;tt;4.5;away,2024-08-15,MLB,LAD(away) vs MIL(home),,team_total,away,under,4.5,-122,1.819672131147541,-112
-s;0;s;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,home,,1.5,-129,1.7751937984496124,-122
-s;0;s;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,away,,-1.5,117,2.17,122
-s;0;s;3.0,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,home,,3.0,-317,1.3154574132492114,-265
-s;0;s;3.0,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,away,,-3.0,249,3.49,265
-s;0;s;2.5,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,home,,2.5,-219,1.45662100456621,-196
-s;0;s;2.5,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,away,,-2.5,185,2.85,196
-s;0;s;2.0,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,home,,2.0,-177,1.5649717514124295,-163
-s;0;s;2.0,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,away,,-2.0,155,2.55,163
-s;0;s;1.0,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,home,,1.0,103,2.0300000000000002,109
-s;0;s;1.0,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,away,,-1.0,-115,1.8695652173913042,-109
-s;0;s;-1.0,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,home,,-1.0,211,3.11,223
-s;0;s;-1.0,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,away,,1.0,-253,1.3952569169960474,-223
-s;0;s;-1.5,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,home,,-1.5,259,3.59,276
-s;0;s;-1.5,2024-08-15,MLB,LAD(away) vs MIL(home),,spread,away,,1.5,-331,1.3021148036253776,-276
-s;0;ou;7.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,7.5,-115,1.8695652173913042,-108
-s;0;ou;7.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,7.5,102,2.02,108
-s;0;ou;4.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,4.5,-588,1.1700680272108843,-435
-s;0;ou;4.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,4.5,409,5.09,435
-s;0;ou;6.0,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,6.0,-251,1.3984063745019921,-225
-s;0;ou;6.0,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,6.0,214,3.14,225
-s;0;ou;6.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,6.5,-192,1.5208333333333335,-176
-s;0;ou;6.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,6.5,167,2.67,176
-s;0;ou;7.0,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,7.0,-155,1.6451612903225805,-143
-s;0;ou;7.0,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,7.0,136,2.3600000000000003,143
-s;0;ou;8.0,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,8.0,103,2.0300000000000002,109
-s;0;ou;8.0,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,8.0,-116,1.8620689655172413,-109
-s;0;ou;8.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,8.5,120,2.2,127
-s;0;ou;8.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,8.5,-136,1.7352941176470589,-127
-s;0;ou;9.0,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,9.0,154,2.54,162
-s;0;ou;9.0,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,9.0,-176,1.5681818181818183,-162
-s;0;ou;11.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,11.5,332,4.32,353
-s;0;ou;11.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,11.5,-449,1.22271714922049,-353
-s;0;ou;25.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,over,25.5,-101,1.99009900990099,109
-s;0;ou;25.5,2024-08-15,MLB,LAD(away) vs MIL(home),,total,,under,25.5,-120,1.8333333333333335,-109
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),M. Rojas,Total Bases,,over,0.5,-199,1.5025125628140703,-162
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),M. Rojas,Total Bases,,under,0.5,144,2.44,162
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),F. Freeman,Home Runs,,over,0.5,423,5.23,457
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),F. Freeman,Home Runs,,under,0.5,-690,1.144927536231884,-457
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),F. Freeman,Total Bases,,over,1.5,112,2.12,127
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),F. Freeman,Total Bases,,under,1.5,-150,1.6666666666666665,-127
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),E. Hernandez,Home Runs,,over,0.5,630,7.3,676
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),E. Hernandez,Home Runs,,under,0.5,-1262,1.0792393026941363,-676
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),E. Hernandez,Total Bases,,over,0.5,-167,1.5988023952095807,-140
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),E. Hernandez,Total Bases,,under,0.5,124,2.24,140
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),M. Betts,Home Runs,,over,0.5,412,5.12,445
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),M. Betts,Home Runs,,under,0.5,-665,1.150375939849624,-445
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),M. Betts,Total Bases,,over,1.5,107,2.0700000000000003,121
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),M. Betts,Total Bases,,under,1.5,-142,1.704225352112676,-121
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Hernández,Home Runs,,over,0.5,389,4.890000000000001,421
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Hernández,Home Runs,,under,0.5,-614,1.1628664495114007,-421
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Hernández,Total Bases,,over,1.5,125,2.25,141
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Hernández,Total Bases,,under,1.5,-168,1.5952380952380953,-141
-pp;0;ou;so;6.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Flaherty,Total Strikeouts,,over,6.5,-175,1.5714285714285714,-144
-pp;0;ou;so;6.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Flaherty,Total Strikeouts,,under,6.5,126,2.26,144
-pp;0;ou;hita;4.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Flaherty,Hits Allowed,,over,4.5,-147,1.6802721088435373,-125
-pp;0;ou;hita;4.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Flaherty,Hits Allowed,,under,4.5,110,2.1,125
-pp;0;ou;er;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Flaherty,Earned Runs,,over,1.5,-174,1.5747126436781609,-145
-pp;0;ou;er;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Flaherty,Earned Runs,,under,1.5,128,2.2800000000000002,145
-pp;ou;po;17.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Flaherty,Pitching Outs,,over,17.5,-155,1.6451612903225805,-131
-pp;ou;po;17.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Flaherty,Pitching Outs,,under,17.5,116,2.16,131
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),S. Ohtani,Home Runs,,over,0.5,208,3.08,225
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),S. Ohtani,Home Runs,,under,0.5,-273,1.3663003663003663,-225
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),S. Ohtani,Total Bases,,over,1.5,-124,1.8064516129032258,-107
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),S. Ohtani,Total Bases,,under,1.5,-107,1.9345794392523366,107
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),G. Lux,Home Runs,,over,0.5,670,7.7,718
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),G. Lux,Home Runs,,under,0.5,-1395,1.07168458781362,-718
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),G. Lux,Total Bases,,over,0.5,-201,1.4975124378109452,-164
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),G. Lux,Total Bases,,under,0.5,145,2.45,164
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Smith,Home Runs,,over,0.5,453,5.53,489
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Smith,Home Runs,,under,0.5,-762,1.1312335958005248,-489
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Smith,Total Bases,,over,1.5,140,2.4,158
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Smith,Total Bases,,under,1.5,-192,1.5208333333333335,-158
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),A. Pages,Home Runs,,over,0.5,450,5.5,486
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),A. Pages,Home Runs,,under,0.5,-755,1.1324503311258278,-486
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),A. Pages,Total Bases,,over,0.5,-145,1.6896551724137931,-124
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),A. Pages,Total Bases,,under,0.5,109,2.09,124
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Bauers,Home Runs,,over,0.5,567,6.67,610
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Bauers,Home Runs,,under,0.5,-1069,1.0935453695042094,-610
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Bauers,Total Bases,,over,0.5,107,2.0700000000000003,121
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Bauers,Total Bases,,under,0.5,-142,1.704225352112676,-121
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Adames,Home Runs,,over,0.5,435,5.35,470
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Adames,Home Runs,,under,0.5,-719,1.1390820584144645,-470
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Adames,Total Bases,,over,0.5,-188,1.5319148936170213,-155
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Adames,Total Bases,,under,0.5,137,2.37,155
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),R. Hoskins,Home Runs,,over,0.5,419,5.19,453
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),R. Hoskins,Home Runs,,under,0.5,-682,1.1466275659824048,-453
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),R. Hoskins,Total Bases,,under,0.5,-103,1.970873786407767,111
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),R. Hoskins,Total Bases,,over,0.5,-129,1.7751937984496124,-111
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Contreras,Home Runs,,over,0.5,445,5.45,480
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Contreras,Home Runs,,under,0.5,-743,1.1345895020188426,-480
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Contreras,Total Bases,,over,1.5,148,2.48,167
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),W. Contreras,Total Bases,,under,1.5,-205,1.4878048780487805,-167
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),B. Turang,Total Bases,,over,1.5,162,2.62,182
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),B. Turang,Total Bases,,under,1.5,-229,1.4366812227074237,-182
-pp;0;ou;so;4.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Myers,Total Strikeouts,,over,4.5,-157,1.6369426751592355,-133
-pp;0;ou;so;4.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Myers,Total Strikeouts,,under,4.5,117,2.17,133
-pp;0;ou;hita;5.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Myers,Hits Allowed,,over,5.5,117,2.17,133
-pp;0;ou;hita;5.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Myers,Hits Allowed,,under,5.5,-157,1.6369426751592355,-133
-pp;0;ou;er;2.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Myers,Earned Runs,,over,2.5,-126,1.7936507936507935,-109
-pp;0;ou;er;2.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Myers,Earned Runs,,under,2.5,-105,1.9523809523809523,109
-pp;ou;po;17.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Myers,Pitching Outs,,over,17.5,121,2.21,142
-pp;ou;po;17.5,2024-08-15,MLB,LAD(away) vs MIL(home),T. Myers,Pitching Outs,,under,17.5,-180,1.5555555555555556,-142
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),G. Mitchell,Home Runs,,over,0.5,837,9.37,893
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),G. Mitchell,Home Runs,,under,0.5,-2033,1.0491883915395968,-893
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),G. Mitchell,Total Bases,,over,0.5,-132,1.7575757575757576,-114
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),G. Mitchell,Total Bases,,under,0.5,-100,2.0,114
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),S. Frelick,Total Bases,,over,0.5,-141,1.7092198581560285,-121
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),S. Frelick,Total Bases,,under,0.5,106,2.06,121
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Ortiz,Total Bases,,over,0.5,-148,1.6756756756756757,-126
-pp;0;ou;tb;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Ortiz,Total Bases,,under,0.5,111,2.1100000000000003,126
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Chourio,Home Runs,,over,0.5,627,7.27,673
-pp;0;ou;hr;0.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Chourio,Home Runs,,under,0.5,-1254,1.079744816586922,-673
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Chourio,Total Bases,,over,1.5,151,2.51,170
-pp;0;ou;tb;1.5,2024-08-15,MLB,LAD(away) vs MIL(home),J. Chourio,Total Bases,,under,1.5,-211,1.4739336492890995,-170
-s;0;m,2024-08-15,MLB,OAK(away) vs NYM(home),,moneyline,home,,,-176,1.5681818181818183,-166
-s;0;m,2024-08-15,MLB,OAK(away) vs NYM(home),,moneyline,away,,,161,2.6100000000000003,166
-s;0;tt;4.5;home,2024-08-15,MLB,OAK(away) vs NYM(home),,team_total,home,over,4.5,-116,1.8620689655172413,-107
-s;0;tt;4.5;home,2024-08-15,MLB,OAK(away) vs NYM(home),,team_total,home,under,4.5,-101,1.99009900990099,107
-s;0;tt;3.5;away,2024-08-15,MLB,OAK(away) vs NYM(home),,team_total,away,over,3.5,-110,1.9090909090909092,-102
-s;0;tt;3.5;away,2024-08-15,MLB,OAK(away) vs NYM(home),,team_total,away,under,3.5,-106,1.9433962264150944,102
-s;0;s;-1.5,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,home,,-1.5,120,2.2,125
-s;0;s;-1.5,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,away,,1.5,-132,1.7575757575757576,-125
-s;0;s;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,home,,1.5,-307,1.3257328990228012,-259
-s;0;s;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,away,,-1.5,243,3.43,259
-s;0;s;1.0,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,home,,1.0,-257,1.3891050583657587,-225
-s;0;s;1.0,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,away,,-1.0,213,3.13,225
-s;0;s;-1.0,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,home,,-1.0,-126,1.7936507936507935,-118
-s;0;s;-1.0,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,away,,1.0,112,2.12,118
-s;0;s;-2.0,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,home,,-2.0,156,2.56,164
-s;0;s;-2.0,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,away,,2.0,-178,1.5617977528089888,-164
-s;0;s;-2.5,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,home,,-2.5,183,2.83,193
-s;0;s;-2.5,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,away,,2.5,-216,1.462962962962963,-193
-s;0;s;-3.0,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,home,,-3.0,242,3.42,258
-s;0;s;-3.0,2024-08-15,MLB,OAK(away) vs NYM(home),,spread,away,,3.0,-307,1.3257328990228012,-258
-s;0;ou;8.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,8.5,-109,1.9174311926605505,-103
-s;0;ou;8.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,8.5,-103,1.970873786407767,103
-s;0;ou;5.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,5.5,-400,1.25,-322
-s;0;ou;5.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,5.5,302,4.02,322
-s;0;ou;7.0,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,7.0,-215,1.4651162790697674,-195
-s;0;ou;7.0,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,7.0,186,2.8600000000000003,195
-s;0;ou;7.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,7.5,-153,1.65359477124183,-142
-s;0;ou;7.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,7.5,135,2.35,142
-s;0;ou;8.0,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,8.0,-131,1.7633587786259541,-122
-s;0;ou;8.0,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,8.0,116,2.16,122
-s;0;ou;9.0,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,9.0,116,2.16,122
-s;0;ou;9.0,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,9.0,-130,1.7692307692307692,-122
-s;0;ou;9.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,9.5,140,2.4,147
-s;0;ou;9.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,9.5,-159,1.6289308176100628,-147
-s;0;ou;10.0,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,10.0,167,2.67,176
-s;0;ou;10.0,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,10.0,-192,1.5208333333333335,-176
-s;0;ou;12.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,12.5,337,4.37,359
-s;0;ou;12.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,12.5,-458,1.2183406113537119,-359
-s;0;ou;26.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,over,26.5,105,2.05,115
-s;0;ou;26.5,2024-08-15,MLB,OAK(away) vs NYM(home),,total,,under,26.5,-127,1.7874015748031495,-115
-pp;0;ou;so;4.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Quintana,Total Strikeouts,,under,4.5,128,2.2800000000000002,144
-pp;0;ou;so;4.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Quintana,Total Strikeouts,,over,4.5,-173,1.5780346820809248,-144
-pp;0;ou;hita;4.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Quintana,Hits Allowed,,over,4.5,-153,1.65359477124183,-129
-pp;0;ou;hita;4.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Quintana,Hits Allowed,,under,4.5,114,2.1399999999999997,129
-pp;0;ou;er;2.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Quintana,Earned Runs,,over,2.5,113,2.13,128
-pp;0;ou;er;2.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Quintana,Earned Runs,,under,2.5,-150,1.6666666666666665,-128
-pp;ou;po;16.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Quintana,Pitching Outs,,over,16.5,-153,1.65359477124183,-125
-pp;ou;po;16.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Quintana,Pitching Outs,,under,16.5,106,2.06,125
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Martinez,Home Runs,,over,0.5,415,5.15,448
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Martinez,Home Runs,,under,0.5,-673,1.1485884101040118,-448
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Martinez,Total Bases,,over,1.5,132,2.3200000000000003,149
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Martinez,Total Bases,,under,1.5,-179,1.558659217877095,-149
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Iglesias,Total Bases,,over,1.5,163,2.63,183
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Iglesias,Total Bases,,under,1.5,-230,1.434782608695652,-183
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),F. Lindor,Home Runs,,over,0.5,301,4.01,326
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),F. Lindor,Home Runs,,under,0.5,-433,1.2309468822170901,-326
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),F. Lindor,Total Bases,,over,1.5,-104,1.9615384615384617,110
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),F. Lindor,Total Bases,,under,1.5,-128,1.78125,-110
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),B. Nimmo,Home Runs,,over,0.5,401,5.01,433
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),B. Nimmo,Home Runs,,under,0.5,-640,1.15625,-433
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),B. Nimmo,Total Bases,,over,1.5,124,2.24,140
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),B. Nimmo,Total Bases,,under,1.5,-167,1.5988023952095807,-140
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Winker,Home Runs,,over,0.5,642,7.42,689
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Winker,Home Runs,,under,0.5,-1303,1.076745970836531,-689
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Winker,Total Bases,,over,0.5,-178,1.5617977528089888,-148
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Winker,Total Bases,,under,0.5,131,2.31,148
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Andujar,Home Runs,,over,0.5,746,8.46,798
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Andujar,Home Runs,,under,0.5,-1667,1.05998800239952,-798
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Andujar,Total Bases,,over,1.5,131,2.31,148
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Andujar,Total Bases,,under,1.5,-177,1.5649717514124295,-148
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),L. Torrens,Home Runs,,over,0.5,885,9.85,943
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),L. Torrens,Home Runs,,under,0.5,-2242,1.0446030330062444,-943
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),L. Torrens,Total Bases,,over,0.5,-175,1.5714285714285714,-146
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),L. Torrens,Total Bases,,under,0.5,129,2.29,146
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),P. Alonso,Home Runs,,over,0.5,406,5.06,439
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),P. Alonso,Home Runs,,under,0.5,-651,1.1536098310291858,-439
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),P. Alonso,Total Bases,,over,0.5,-198,1.5050505050505052,-162
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),P. Alonso,Total Bases,,under,0.5,144,2.44,162
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. McNeil,Home Runs,,over,0.5,549,6.49,591
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. McNeil,Home Runs,,under,0.5,-1018,1.0982318271119842,-591
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. McNeil,Total Bases,,over,1.5,148,2.48,167
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. McNeil,Total Bases,,under,1.5,-205,1.4878048780487805,-167
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),A. Toro,Home Runs,,over,0.5,813,9.13,868
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),A. Toro,Home Runs,,under,0.5,-1930,1.0518134715025906,-868
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),A. Toro,Total Bases,,over,1.5,154,2.54,173
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),A. Toro,Total Bases,,under,1.5,-215,1.4651162790697674,-173
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),D. Cameron,Home Runs,,over,0.5,708,8.08,758
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),D. Cameron,Home Runs,,under,0.5,-1527,1.065487884741323,-758
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),D. Cameron,Total Bases,,over,0.5,-159,1.6289308176100628,-134
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),D. Cameron,Total Bases,,under,0.5,118,2.1799999999999997,134
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),H. Bader,Home Runs,,over,0.5,805,9.05,860
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),H. Bader,Home Runs,,under,0.5,-1897,1.0527148128624144,-860
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),H. Bader,Total Bases,,over,0.5,-171,1.5847953216374269,-143
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),H. Bader,Total Bases,,under,0.5,127,2.27,143
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Bleday,Home Runs,,over,0.5,469,5.69,506
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Bleday,Home Runs,,under,0.5,-803,1.12453300124533,-506
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Bleday,Total Bases,,over,0.5,-201,1.4975124378109452,-164
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),J. Bleday,Total Bases,,under,0.5,145,2.45,164
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),S. Langeliers,Home Runs,,over,0.5,467,5.67,504
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),S. Langeliers,Home Runs,,under,0.5,-797,1.125470514429109,-504
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),S. Langeliers,Total Bases,,over,0.5,-195,1.5128205128205128,-160
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),S. Langeliers,Total Bases,,under,0.5,142,2.42,160
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),A. Alvarez,Home Runs,,over,0.5,679,7.79,728
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),A. Alvarez,Home Runs,,under,0.5,-1427,1.0700770847932726,-728
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),A. Alvarez,Total Bases,,under,0.5,114,2.1399999999999997,129
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),A. Alvarez,Total Bases,,over,0.5,-153,1.65359477124183,-129
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),L. Butler,Home Runs,,over,0.5,563,6.63,606
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),L. Butler,Home Runs,,under,0.5,-1057,1.0946073793755913,-606
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),L. Butler,Total Bases,,over,1.5,150,2.5,169
-pp;0;ou;tb;1.5,2024-08-15,MLB,OAK(away) vs NYM(home),L. Butler,Total Bases,,under,1.5,-209,1.4784688995215312,-169
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Schuemann,Total Bases,,over,0.5,-130,1.7692307692307692,-112
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Schuemann,Total Bases,,under,0.5,-102,1.9803921568627452,112
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),Z. Gelof,Home Runs,,over,0.5,748,8.48,800
-pp;0;ou;hr;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),Z. Gelof,Home Runs,,under,0.5,-1675,1.0597014925373134,-800
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),Z. Gelof,Total Bases,,over,0.5,-115,1.8695652173913042,100
-pp;0;ou;tb;0.5,2024-08-15,MLB,OAK(away) vs NYM(home),Z. Gelof,Total Bases,,under,0.5,-115,1.8695652173913042,100
-pp;0;ou;so;3.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Spence,Total Strikeouts,,over,3.5,-171,1.5847953216374269,-141
-pp;0;ou;so;3.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Spence,Total Strikeouts,,under,3.5,123,2.23,141
-pp;0;ou;hita;4.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Spence,Hits Allowed,,over,4.5,-178,1.5617977528089888,-146
-pp;0;ou;hita;4.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Spence,Hits Allowed,,under,4.5,128,2.2800000000000002,146
-pp;0;ou;er;2.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Spence,Earned Runs,,over,2.5,-102,1.9803921568627452,112
-pp;0;ou;er;2.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Spence,Earned Runs,,under,2.5,-129,1.7751937984496124,-112
-pp;ou;po;15.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Spence,Pitching Outs,,over,15.5,-134,1.7462686567164178,-111
-pp;ou;po;15.5,2024-08-15,MLB,OAK(away) vs NYM(home),M. Spence,Pitching Outs,,under,15.5,-107,1.9345794392523366,111
-s;0;m,2024-08-15,MLB,ATL(away) vs SF(home),,moneyline,home,,,-110,1.9090909090909092,-106
-s;0;m,2024-08-15,MLB,ATL(away) vs SF(home),,moneyline,away,,,102,2.02,106
-s;0;tt;3.5;home,2024-08-15,MLB,ATL(away) vs SF(home),,team_total,home,over,3.5,-103,1.970873786407767,105
-s;0;tt;3.5;home,2024-08-15,MLB,ATL(away) vs SF(home),,team_total,home,under,3.5,-113,1.8849557522123894,-105
-s;0;tt;3.5;away,2024-08-15,MLB,ATL(away) vs SF(home),,team_total,away,over,3.5,-106,1.9433962264150944,102
-s;0;tt;3.5;away,2024-08-15,MLB,ATL(away) vs SF(home),,team_total,away,under,3.5,-110,1.9090909090909092,-102
-s;0;s;1.5,2024-08-15,MLB,ATL(away) vs SF(home),,spread,home,,1.5,-195,1.5128205128205128,-181
-s;0;s;1.5,2024-08-15,MLB,ATL(away) vs SF(home),,spread,away,,-1.5,174,2.74,181
-s;0;s;3.0,2024-08-15,MLB,ATL(away) vs SF(home),,spread,home,,3.0,-516,1.193798449612403,-394
-s;0;s;3.0,2024-08-15,MLB,ATL(away) vs SF(home),,spread,away,,-3.0,370,4.7,394
-s;0;s;2.5,2024-08-15,MLB,ATL(away) vs SF(home),,spread,home,,2.5,-335,1.2985074626865671,-283
-s;0;s;2.5,2024-08-15,MLB,ATL(away) vs SF(home),,spread,away,,-2.5,268,3.68,283
-s;0;s;2.0,2024-08-15,MLB,ATL(away) vs SF(home),,spread,home,,2.0,-283,1.353356890459364,-250
-s;0;s;2.0,2024-08-15,MLB,ATL(away) vs SF(home),,spread,away,,-2.0,238,3.38,250
-s;0;s;1.0,2024-08-15,MLB,ATL(away) vs SF(home),,spread,home,,1.0,-156,1.641025641025641,-144
-s;0;s;1.0,2024-08-15,MLB,ATL(away) vs SF(home),,spread,away,,-1.0,137,2.37,144
-s;0;s;-1.0,2024-08-15,MLB,ATL(away) vs SF(home),,spread,home,,-1.0,140,2.4,148
-s;0;s;-1.0,2024-08-15,MLB,ATL(away) vs SF(home),,spread,away,,1.0,-162,1.617283950617284,-148
-s;0;s;-1.5,2024-08-15,MLB,ATL(away) vs SF(home),,spread,home,,-1.5,190,2.9,203
-s;0;s;-1.5,2024-08-15,MLB,ATL(away) vs SF(home),,spread,away,,1.5,-232,1.4310344827586206,-203
-s;0;ou;7.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,7.5,105,2.05,111
-s;0;ou;7.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,7.5,-118,1.847457627118644,-111
-s;0;ou;4.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,4.5,-455,1.2197802197802199,-357
-s;0;ou;4.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,4.5,335,4.35,357
-s;0;ou;6.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,6.0,-202,1.495049504950495,-184
-s;0;ou;6.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,6.0,175,2.75,184
-s;0;ou;6.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,6.5,-161,1.62111801242236,-149
-s;0;ou;6.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,6.5,142,2.42,149
-s;0;ou;7.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,7.0,-126,1.7936507936507935,-118
-s;0;ou;7.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,7.0,112,2.12,118
-s;0;ou;8.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,8.0,127,2.27,134
-s;0;ou;8.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,8.0,-143,1.6993006993006992,-134
-s;0;ou;8.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,8.5,146,2.46,154
-s;0;ou;8.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,8.5,-166,1.6024096385542168,-154
-s;0;ou;9.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,9.0,195,2.95,205
-s;0;ou;9.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,9.0,-227,1.4405286343612334,-205
-s;0;ou;11.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,11.5,431,5.31,458
-s;0;ou;11.5,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,11.5,-629,1.1589825119236883,-458
-s;0;ou;24.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,over,24.0,-126,1.7936507936507935,-114
-s;0;ou;24.0,2024-08-15,MLB,ATL(away) vs SF(home),,total,,under,24.0,104,2.04,114
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),T. d'Arnaud,Total Bases,,over,1.5,149,2.49,168
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),T. d'Arnaud,Total Bases,,under,1.5,-208,1.4807692307692308,-168
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Ozuna,Home Runs,,over,0.5,461,5.61,497
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Ozuna,Home Runs,,under,0.5,-783,1.127713920817369,-497
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Ozuna,Total Bases,,over,1.5,-102,1.9803921568627452,112
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Ozuna,Total Bases,,under,1.5,-130,1.7692307692307692,-112
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Yastrzemski,Home Runs,,over,0.5,859,9.59,916
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Yastrzemski,Home Runs,,under,0.5,-2125,1.0470588235294118,-916
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Yastrzemski,Total Bases,,over,0.5,-127,1.7874015748031495,-110
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Yastrzemski,Total Bases,,under,0.5,-104,1.9615384615384617,110
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Canha,Total Bases,,over,1.5,159,2.59,179
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Canha,Total Bases,,under,1.5,-224,1.4464285714285714,-179
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),C. Casali,Total Bases,,under,0.5,-108,1.925925925925926,106
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),C. Casali,Total Bases,,over,0.5,-122,1.819672131147541,-106
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),W. Merrifield,Total Bases,,over,0.5,-203,1.4926108374384237,-165
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),W. Merrifield,Total Bases,,under,0.5,147,2.4699999999999998,165
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),O. Arcia,Total Bases,,over,0.5,-216,1.462962962962963,-174
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),O. Arcia,Total Bases,,under,0.5,154,2.54,174
-pp;0;ou;so;5.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Fried,Total Strikeouts,,over,5.5,-145,1.6896551724137931,-120
-pp;0;ou;so;5.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Fried,Total Strikeouts,,under,5.5,103,2.0300000000000002,120
-pp;0;ou;hita;4.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Fried,Hits Allowed,,over,4.5,-119,1.8403361344537816,-103
-pp;0;ou;hita;4.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Fried,Hits Allowed,,under,4.5,-111,1.900900900900901,103
-pp;0;ou;er;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Fried,Earned Runs,,over,1.5,-127,1.7874015748031495,-110
-pp;0;ou;er;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Fried,Earned Runs,,under,1.5,-104,1.9615384615384617,110
-pp;ou;po;16.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Fried,Pitching Outs,,over,16.5,-181,1.5524861878453038,-143
-pp;ou;po;16.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Fried,Pitching Outs,,under,16.5,122,2.2199999999999998,143
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Olson,Home Runs,,over,0.5,665,7.65,713
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Olson,Home Runs,,under,0.5,-1380,1.0724637681159421,-713
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Olson,Total Bases,,over,0.5,-199,1.5025125628140703,-162
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Olson,Total Bases,,under,0.5,144,2.44,162
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Chapman,Home Runs,,over,0.5,534,6.34,575
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Chapman,Home Runs,,under,0.5,-975,1.1025641025641026,-575
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Chapman,Total Bases,,over,1.5,140,2.4,158
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Chapman,Total Bases,,under,1.5,-192,1.5208333333333335,-158
-pp;0;ou;so;4.5,2024-08-15,MLB,ATL(away) vs SF(home),L. Webb,Total Strikeouts,,over,4.5,-186,1.5376344086021505,-147
-pp;0;ou;so;4.5,2024-08-15,MLB,ATL(away) vs SF(home),L. Webb,Total Strikeouts,,under,4.5,126,2.26,147
-pp;0;ou;hita;6.5,2024-08-15,MLB,ATL(away) vs SF(home),L. Webb,Hits Allowed,,over,6.5,117,2.17,135
-pp;0;ou;hita;6.5,2024-08-15,MLB,ATL(away) vs SF(home),L. Webb,Hits Allowed,,under,6.5,-164,1.6097560975609757,-135
-pp;0;ou;er;2.5,2024-08-15,MLB,ATL(away) vs SF(home),L. Webb,Earned Runs,,over,2.5,122,2.2199999999999998,138
-pp;0;ou;er;2.5,2024-08-15,MLB,ATL(away) vs SF(home),L. Webb,Earned Runs,,under,2.5,-165,1.606060606060606,-138
-pp;ou;po;18.5,2024-08-15,MLB,ATL(away) vs SF(home),L. Webb,Pitching Outs,,over,18.5,-129,1.7751937984496124,-107
-pp;ou;po;18.5,2024-08-15,MLB,ATL(away) vs SF(home),L. Webb,Pitching Outs,,under,18.5,-112,1.8928571428571428,107
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),A. Riley,Home Runs,,over,0.5,705,8.05,755
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),A. Riley,Home Runs,,under,0.5,-1518,1.0658761528326746,-755
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),A. Riley,Total Bases,,over,1.5,107,2.0700000000000003,122
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),A. Riley,Total Bases,,under,1.5,-143,1.6993006993006992,-122
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),T. Fitzgerald,Home Runs,,over,0.5,805,9.05,860
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),T. Fitzgerald,Home Runs,,under,0.5,-1897,1.0527148128624144,-860
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),T. Fitzgerald,Total Bases,,over,1.5,151,2.51,170
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),T. Fitzgerald,Total Bases,,under,1.5,-210,1.4761904761904763,-170
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),J. Encarnación,Home Runs,,over,0.5,819,9.19,874
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),J. Encarnación,Home Runs,,under,0.5,-1954,1.0511770726714431,-874
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),J. Encarnación,Total Bases,,over,0.5,-164,1.6097560975609757,-138
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),J. Encarnación,Total Bases,,under,0.5,122,2.2199999999999998,138
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),C. Schmitt,Total Bases,,over,0.5,-198,1.5050505050505052,-162
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),C. Schmitt,Total Bases,,under,0.5,144,2.44,162
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),H. Ramos,Home Runs,,over,0.5,739,8.39,791
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),H. Ramos,Home Runs,,under,0.5,-1641,1.060938452163315,-791
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),H. Ramos,Total Bases,,over,1.5,145,2.45,164
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),H. Ramos,Total Bases,,under,1.5,-201,1.4975124378109452,-164
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Harris II,Total Bases,,over,1.5,129,2.29,145
-pp;0;ou;tb;1.5,2024-08-15,MLB,ATL(away) vs SF(home),M. Harris II,Total Bases,,under,1.5,-174,1.5747126436781609,-145
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),J. Kelenic,Total Bases,,over,0.5,-150,1.6666666666666665,-127
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),J. Kelenic,Total Bases,,under,0.5,112,2.12,127
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),G. McCray,Total Bases,,over,0.5,-118,1.847457627118644,-102
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),G. McCray,Total Bases,,under,0.5,-112,1.8928571428571428,102
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),A. Duvall,Home Runs,,over,0.5,791,8.91,845
-pp;0;ou;hr;0.5,2024-08-15,MLB,ATL(away) vs SF(home),A. Duvall,Home Runs,,under,0.5,-1842,1.0542888165038002,-845
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),A. Duvall,Total Bases,,over,0.5,-175,1.5714285714285714,-146
-pp;0;ou;tb;0.5,2024-08-15,MLB,ATL(away) vs SF(home),A. Duvall,Total Bases,,under,0.5,129,2.29,146
-s;0;m,2024-08-15,MLB,MIN(away) vs TEX(home),,moneyline,home,,,105,2.05,109
-s;0;m,2024-08-15,MLB,MIN(away) vs TEX(home),,moneyline,away,,,-113,1.8849557522123894,-109
-s;0;tt;3.5;home,2024-08-15,MLB,MIN(away) vs TEX(home),,team_total,home,over,3.5,-126,1.7936507936507935,-116
-s;0;tt;3.5;home,2024-08-15,MLB,MIN(away) vs TEX(home),,team_total,home,under,3.5,108,2.08,116
-s;0;tt;4.5;away,2024-08-15,MLB,MIN(away) vs TEX(home),,team_total,away,over,4.5,109,2.09,117
-s;0;tt;4.5;away,2024-08-15,MLB,MIN(away) vs TEX(home),,team_total,away,under,4.5,-128,1.78125,-117
-s;0;s;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,home,,1.5,-159,1.6289308176100628,-149
-s;0;s;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,away,,-1.5,143,2.4299999999999997,149
-s;0;s;3.0,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,home,,3.0,-382,1.2617801047120418,-310
-s;0;s;3.0,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,away,,-3.0,291,3.91,310
-s;0;s;2.5,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,home,,2.5,-263,1.3802281368821292,-230
-s;0;s;2.5,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,away,,-2.5,218,3.18,230
-s;0;s;2.0,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,home,,2.0,-220,1.4545454545454546,-199
-s;0;s;2.0,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,away,,-2.0,190,2.9,199
-s;0;s;1.0,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,home,,1.0,-128,1.78125,-120
-s;0;s;1.0,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,away,,-1.0,113,2.13,120
-s;0;s;-1.0,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,home,,-1.0,157,2.5700000000000003,167
-s;0;s;-1.0,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,away,,1.0,-184,1.5434782608695652,-167
-s;0;s;-1.5,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,home,,-1.5,204,3.04,217
-s;0;s;-1.5,2024-08-15,MLB,MIN(away) vs TEX(home),,spread,away,,1.5,-251,1.3984063745019921,-217
-s;0;ou;8.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,8.5,101,2.01,107
-s;0;ou;8.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,8.5,-113,1.8849557522123894,-107
-s;0;ou;5.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,5.5,-354,1.2824858757062148,-292
-s;0;ou;5.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,5.5,274,3.74,292
-s;0;ou;7.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,7.0,-191,1.5235602094240837,-175
-s;0;ou;7.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,7.0,167,2.67,175
-s;0;ou;7.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,7.5,-138,1.7246376811594204,-129
-s;0;ou;7.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,7.5,123,2.23,129
-s;0;ou;8.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,8.0,-118,1.847457627118644,-111
-s;0;ou;8.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,8.0,105,2.05,111
-s;0;ou;9.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,9.0,126,2.26,133
-s;0;ou;9.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,9.0,-143,1.6993006993006992,-133
-s;0;ou;9.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,9.5,150,2.5,158
-s;0;ou;9.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,9.5,-171,1.5847953216374269,-158
-s;0;ou;10.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,10.0,180,2.8,189
-s;0;ou;10.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,10.0,-208,1.4807692307692308,-189
-s;0;ou;12.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,12.5,360,4.6,383
-s;0;ou;12.5,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,12.5,-498,1.2008032128514057,-383
-s;0;ou;26.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,over,26.0,-103,1.970873786407767,107
-s;0;ou;26.0,2024-08-15,MLB,MIN(away) vs TEX(home),,total,,under,26.0,-118,1.847457627118644,-107
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Santana,Home Runs,,over,0.5,444,5.44,479
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Santana,Home Runs,,under,0.5,-740,1.135135135135135,-479
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Santana,Total Bases,,over,1.5,133,2.33,150
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Santana,Total Bases,,under,1.5,-181,1.5524861878453038,-150
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Vazquez,Home Runs,,over,0.5,621,7.21,667
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Vazquez,Home Runs,,under,0.5,-1234,1.0810372771474879,-667
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Vazquez,Total Bases,,over,0.5,-166,1.6024096385542168,-139
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Vazquez,Total Bases,,under,0.5,123,2.23,139
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),K. Farmer,Home Runs,,over,0.5,577,6.77,620
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),K. Farmer,Home Runs,,under,0.5,-1098,1.0910746812386156,-620
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),K. Farmer,Total Bases,,over,0.5,-182,1.5494505494505495,-148
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),K. Farmer,Total Bases,,under,0.5,129,2.29,148
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Kepler,Home Runs,,over,0.5,481,5.81,519
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Kepler,Home Runs,,under,0.5,-834,1.119904076738609,-519
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Kepler,Total Bases,,over,1.5,150,2.5,169
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Kepler,Total Bases,,under,1.5,-208,1.4807692307692308,-169
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Margot,Home Runs,,over,0.5,582,6.82,626
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Margot,Home Runs,,under,0.5,-1114,1.0897666068222622,-626
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Margot,Total Bases,,over,1.5,124,2.24,142
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Margot,Total Bases,,under,1.5,-172,1.5813953488372094,-142
-pp;0;ou;so;5.5,2024-08-15,MLB,MIN(away) vs TEX(home),B. Ober,Total Strikeouts,,over,5.5,-128,1.78125,-106
-pp;0;ou;so;5.5,2024-08-15,MLB,MIN(away) vs TEX(home),B. Ober,Total Strikeouts,,under,5.5,-113,1.8849557522123894,106
-pp;0;ou;hita;4.5,2024-08-15,MLB,MIN(away) vs TEX(home),B. Ober,Hits Allowed,,over,4.5,-157,1.6369426751592355,-133
-pp;0;ou;hita;4.5,2024-08-15,MLB,MIN(away) vs TEX(home),B. Ober,Hits Allowed,,under,4.5,117,2.17,133
-pp;0;ou;er;2.5,2024-08-15,MLB,MIN(away) vs TEX(home),B. Ober,Earned Runs,,over,2.5,110,2.1,125
-pp;0;ou;er;2.5,2024-08-15,MLB,MIN(away) vs TEX(home),B. Ober,Earned Runs,,under,2.5,-147,1.6802721088435373,-125
-pp;ou;po;17.5,2024-08-15,MLB,MIN(away) vs TEX(home),B. Ober,Pitching Outs,,over,17.5,-171,1.5847953216374269,-143
-pp;ou;po;17.5,2024-08-15,MLB,MIN(away) vs TEX(home),B. Ober,Pitching Outs,,under,17.5,126,2.26,143
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),W. Castro,Home Runs,,over,0.5,614,7.14,660
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),W. Castro,Home Runs,,under,0.5,-1214,1.0823723228995057,-660
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),W. Castro,Total Bases,,over,1.5,147,2.4699999999999998,166
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),W. Castro,Total Bases,,under,1.5,-204,1.4901960784313726,-166
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),A. Martin,Home Runs,,over,0.5,871,9.71,928
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),A. Martin,Home Runs,,under,0.5,-2178,1.0459136822773187,-928
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),A. Martin,Total Bases,,over,0.5,-147,1.6802721088435373,-124
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),A. Martin,Total Bases,,under,0.5,108,2.08,124
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),R. Lewis,Home Runs,,over,0.5,357,4.57,386
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),R. Lewis,Home Runs,,under,0.5,-545,1.18348623853211,-386
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),R. Lewis,Total Bases,,over,1.5,108,2.08,123
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),R. Lewis,Total Bases,,under,1.5,-144,1.6944444444444444,-123
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Miranda,Home Runs,,over,0.5,359,4.59,388
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Miranda,Home Runs,,under,0.5,-549,1.1821493624772312,-388
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Miranda,Total Bases,,over,1.5,105,2.05,120
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Miranda,Total Bases,,under,1.5,-140,1.7142857142857144,-120
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Semien,Home Runs,,over,0.5,495,5.95,534
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Semien,Home Runs,,under,0.5,-869,1.1150747986191023,-534
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Semien,Total Bases,,over,1.5,137,2.37,154
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),M. Semien,Total Bases,,under,1.5,-187,1.53475935828877,-154
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Seager,Home Runs,,over,0.5,301,4.01,326
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Seager,Home Runs,,under,0.5,-433,1.2309468822170901,-326
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Seager,Total Bases,,over,1.5,101,2.01,115
-pp;0;ou;tb;1.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Seager,Total Bases,,under,1.5,-134,1.7462686567164178,-115
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Heim,Home Runs,,over,0.5,650,7.5,698
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Heim,Home Runs,,under,0.5,-1330,1.0751879699248121,-698
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Heim,Total Bases,,over,0.5,-139,1.7194244604316546,-119
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Heim,Total Bases,,under,0.5,104,2.04,119
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),N. Lowe,Home Runs,,over,0.5,738,8.379999999999999,790
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),N. Lowe,Home Runs,,under,0.5,-1638,1.061050061050061,-790
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),N. Lowe,Total Bases,,over,0.5,-157,1.6369426751592355,-133
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),N. Lowe,Total Bases,,under,0.5,117,2.17,133
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),L. Taveras,Home Runs,,over,0.5,729,8.29,780
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),L. Taveras,Home Runs,,under,0.5,-1603,1.0623830318153462,-780
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),L. Taveras,Total Bases,,over,0.5,-141,1.7092198581560285,-121
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),L. Taveras,Total Bases,,under,0.5,106,2.06,121
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),A. Garcia,Home Runs,,over,0.5,357,4.57,386
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),A. Garcia,Home Runs,,under,0.5,-545,1.18348623853211,-386
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),A. Garcia,Total Bases,,over,0.5,-166,1.6024096385542168,-139
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),A. Garcia,Total Bases,,under,0.5,123,2.23,139
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. H. Smith,Home Runs,,over,0.5,661,7.61,709
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. H. Smith,Home Runs,,under,0.5,-1365,1.0732600732600732,-709
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. H. Smith,Total Bases,,over,0.5,-168,1.5952380952380953,-140
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. H. Smith,Total Bases,,under,0.5,124,2.24,140
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Jung,Home Runs,,over,0.5,461,5.61,497
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Jung,Home Runs,,under,0.5,-782,1.1278772378516624,-497
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Jung,Total Bases,,over,0.5,-198,1.5050505050505052,-161
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),J. Jung,Total Bases,,under,0.5,143,2.4299999999999997,161
-pp;0;ou;so;4.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Bradford,Total Strikeouts,,over,4.5,100,2.0,116
-pp;0;ou;so;4.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Bradford,Total Strikeouts,,under,4.5,-137,1.72992700729927,-116
-pp;0;ou;hita;5.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Bradford,Hits Allowed,,over,5.5,109,2.09,124
-pp;0;ou;hita;5.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Bradford,Hits Allowed,,under,5.5,-146,1.6849315068493151,-124
-pp;0;ou;er;2.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Bradford,Earned Runs,,over,2.5,-101,1.99009900990099,115
-pp;0;ou;er;2.5,2024-08-15,MLB,MIN(away) vs TEX(home),C. Bradford,Earned Runs,,under,2.5,-138,1.7246376811594204,-115
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),W. Langford,Home Runs,,over,0.5,515,6.15,555
-pp;0;ou;hr;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),W. Langford,Home Runs,,under,0.5,-923,1.1083423618634887,-555
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),W. Langford,Total Bases,,over,0.5,-171,1.5847953216374269,-143
-pp;0;ou;tb;0.5,2024-08-15,MLB,MIN(away) vs TEX(home),W. Langford,Total Bases,,under,0.5,127,2.27,143
+s;0;m,2024-08-19,MLB,LAA(away) vs KAN(home),,moneyline,home,,,-226,1.4424778761061947,-211
+s;0;m,2024-08-19,MLB,LAA(away) vs KAN(home),,moneyline,away,,,204,3.04,211
+s;0;tt;5.5;home,2024-08-19,MLB,LAA(away) vs KAN(home),,team_total,home,over,5.5,115,2.15,124
+s;0;tt;5.5;home,2024-08-19,MLB,LAA(away) vs KAN(home),,team_total,home,under,5.5,-135,1.7407407407407407,-124
+s;0;tt;3.5;away,2024-08-19,MLB,LAA(away) vs KAN(home),,team_total,away,over,3.5,101,2.01,109
+s;0;tt;3.5;away,2024-08-19,MLB,LAA(away) vs KAN(home),,team_total,away,under,3.5,-118,1.847457627118644,-109
+s;0;s;-1.5,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,home,,-1.5,-115,1.8695652173913042,-109
+s;0;s;-1.5,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,away,,1.5,104,2.04,109
+s;0;s;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,home,,1.5,-387,1.2583979328165373,-313
+s;0;s;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,away,,-1.5,294,3.94,313
+s;0;s;1.0,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,home,,1.0,-334,1.2994011976047903,-283
+s;0;s;1.0,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,away,,-1.0,268,3.68,283
+s;0;s;-1.0,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,home,,-1.0,-175,1.5714285714285714,-162
+s;0;s;-1.0,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,away,,1.0,154,2.54,162
+s;0;s;-2.0,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,home,,-2.0,113,2.13,119
+s;0;s;-2.0,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,away,,2.0,-127,1.7874015748031495,-119
+s;0;s;-2.5,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,home,,-2.5,139,2.3899999999999997,147
+s;0;s;-2.5,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,away,,2.5,-161,1.62111801242236,-147
+s;0;s;-3.0,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,home,,-3.0,184,2.84,196
+s;0;s;-3.0,2024-08-19,MLB,LAA(away) vs KAN(home),,spread,away,,3.0,-223,1.4484304932735426,-196
+s;0;ou;9.0,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,9.0,102,2.02,108
+s;0;ou;9.0,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,9.0,-115,1.8695652173913042,-108
+s;0;ou;5.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,5.5,-451,1.221729490022173,-354
+s;0;ou;5.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,5.5,333,4.33,354
+s;0;ou;7.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,7.5,-171,1.5847953216374269,-158
+s;0;ou;7.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,7.5,150,2.5,158
+s;0;ou;8.0,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,8.0,-147,1.6802721088435373,-137
+s;0;ou;8.0,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,8.0,130,2.3,137
+s;0;ou;8.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,8.5,-121,1.8264462809917354,-113
+s;0;ou;8.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,8.5,107,2.0700000000000003,113
+s;0;ou;9.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,9.5,124,2.24,131
+s;0;ou;9.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,9.5,-140,1.7142857142857144,-131
+s;0;ou;10.0,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,10.0,149,2.49,156
+s;0;ou;10.0,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,10.0,-169,1.5917159763313609,-156
+s;0;ou;10.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,10.5,167,2.67,176
+s;0;ou;10.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,10.5,-192,1.5208333333333335,-176
+s;0;ou;12.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,12.5,305,4.05,325
+s;0;ou;12.5,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,12.5,-406,1.2463054187192117,-325
+s;0;ou;27.0,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,over,27.0,-103,1.970873786407767,107
+s;0;ou;27.0,2024-08-19,MLB,LAA(away) vs KAN(home),,total,,under,27.0,-118,1.847457627118644,-107
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),A. Rendon,Total Bases,,over,1.5,140,2.4,158
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),A. Rendon,Total Bases,,under,1.5,-192,1.5208333333333335,-158
+pp;0;ou;so;2.5,2024-08-19,MLB,LAA(away) vs KAN(home),C. Fulmer,Total Strikeouts,,over,2.5,-191,1.5235602094240837,-150
+pp;0;ou;so;2.5,2024-08-19,MLB,LAA(away) vs KAN(home),C. Fulmer,Total Strikeouts,,under,2.5,128,2.2800000000000002,150
+pp;0;ou;hita;5.5,2024-08-19,MLB,LAA(away) vs KAN(home),C. Fulmer,Hits Allowed,,over,5.5,124,2.24,145
+pp;0;ou;hita;5.5,2024-08-19,MLB,LAA(away) vs KAN(home),C. Fulmer,Hits Allowed,,under,5.5,-183,1.5464480874316942,-145
+pp;0;ou;er;2.5,2024-08-19,MLB,LAA(away) vs KAN(home),C. Fulmer,Earned Runs,,over,2.5,-121,1.8264462809917354,-104
+pp;0;ou;er;2.5,2024-08-19,MLB,LAA(away) vs KAN(home),C. Fulmer,Earned Runs,,under,2.5,-112,1.8928571428571428,104
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),T. Ward,Home Runs,,over,0.5,590,6.9,654
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),T. Ward,Home Runs,,under,0.5,-1793,1.0557724484104851,-654
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),T. Ward,Total Bases,,over,1.5,105,2.05,120
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),T. Ward,Total Bases,,under,1.5,-140,1.7142857142857144,-120
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Moniak,Home Runs,,over,0.5,780,8.8,834
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Moniak,Home Runs,,under,0.5,-1799,1.0555864369093941,-834
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Moniak,Total Bases,,over,0.5,-143,1.6993006993006992,-122
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Moniak,Total Bases,,under,0.5,108,2.08,122
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),J. Adell,Home Runs,,over,0.5,636,7.36,683
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),J. Adell,Home Runs,,under,0.5,-1282,1.078003120124805,-683
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),J. Adell,Total Bases,,over,1.5,145,2.45,164
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),J. Adell,Total Bases,,under,1.5,-201,1.4975124378109452,-164
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),L. O'Hoppe,Home Runs,,over,0.5,596,6.96,660
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),L. O'Hoppe,Home Runs,,under,0.5,-1848,1.054112554112554,-660
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),L. O'Hoppe,Total Bases,,over,1.5,119,2.19,135
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),L. O'Hoppe,Total Bases,,under,1.5,-160,1.625,-135
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Stefanic,Total Bases,,over,0.5,-224,1.4464285714285714,-179
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Stefanic,Total Bases,,under,0.5,159,2.59,179
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),Z. Neto,Home Runs,,over,0.5,671,7.71,720
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),Z. Neto,Home Runs,,under,0.5,-1399,1.071479628305933,-720
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),Z. Neto,Total Bases,,over,1.5,131,2.31,148
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),Z. Neto,Total Bases,,under,1.5,-178,1.5617977528089888,-148
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),N. Kavadas,Home Runs,,over,0.5,770,8.7,823
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),N. Kavadas,Home Runs,,under,0.5,-1761,1.056785917092561,-823
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),N. Kavadas,Total Bases,,over,0.5,-117,1.8547008547008548,-102
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),N. Kavadas,Total Bases,,under,0.5,-113,1.8849557522123894,102
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),N. Schanuel,Total Bases,,over,0.5,-208,1.4807692307692308,-169
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),N. Schanuel,Total Bases,,under,0.5,150,2.5,169
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Perez,Home Runs,,over,0.5,352,4.52,381
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Perez,Home Runs,,under,0.5,-534,1.1872659176029963,-381
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Perez,Total Bases,,over,1.5,-102,1.9803921568627452,112
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Perez,Total Bases,,under,1.5,-129,1.7751937984496124,-112
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),H. Renfroe,Home Runs,,over,0.5,500,6.0,539
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),H. Renfroe,Home Runs,,under,0.5,-883,1.1132502831257078,-539
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),H. Renfroe,Total Bases,,under,1.5,-185,1.5405405405405406,-153
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),H. Renfroe,Total Bases,,over,1.5,135,2.35,153
+pp;0;ou;so;5.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Lugo,Total Strikeouts,,over,5.5,-117,1.8547008547008548,102
+pp;0;ou;so;5.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Lugo,Total Strikeouts,,under,5.5,-122,1.819672131147541,-102
+pp;0;ou;hita;5.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Lugo,Hits Allowed,,over,5.5,-119,1.8403361344537816,-103
+pp;0;ou;hita;5.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Lugo,Hits Allowed,,under,5.5,-111,1.900900900900901,103
+pp;0;ou;er;2.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Lugo,Earned Runs,,over,2.5,110,2.1,128
+pp;0;ou;er;2.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Lugo,Earned Runs,,under,2.5,-156,1.641025641025641,-128
+pp;ou;po;18.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Lugo,Pitching Outs,,over,18.5,121,2.21,137
+pp;ou;po;18.5,2024-08-19,MLB,LAA(away) vs KAN(home),S. Lugo,Pitching Outs,,under,18.5,-163,1.6134969325153374,-137
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),K. Isbel,Total Bases,,over,0.5,-143,1.6993006993006992,-122
+pp;0;ou;tb;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),K. Isbel,Total Bases,,under,0.5,107,2.0700000000000003,122
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),F. Fermin,Home Runs,,over,0.5,647,7.47,694
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),F. Fermin,Home Runs,,under,0.5,-1319,1.0758150113722518,-694
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),F. Fermin,Total Bases,,over,1.5,129,2.29,145
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),F. Fermin,Total Bases,,under,1.5,-174,1.5747126436781609,-145
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Melendez,Home Runs,,over,0.5,529,6.29,570
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Melendez,Home Runs,,under,0.5,-963,1.1038421599169264,-570
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Melendez,Total Bases,,over,1.5,134,2.34,151
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Melendez,Total Bases,,under,1.5,-183,1.5464480874316942,-151
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Garcia,Total Bases,,over,1.5,142,2.42,160
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Garcia,Total Bases,,under,1.5,-196,1.510204081632653,-160
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),B. Witt Jr.,Home Runs,,over,0.5,377,4.77,421
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),B. Witt Jr.,Home Runs,,under,0.5,-759,1.1317523056653491,-421
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),B. Witt Jr.,Total Bases,,over,1.5,-181,1.5524861878453038,-147
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),B. Witt Jr.,Total Bases,,under,1.5,128,2.2800000000000002,147
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),V. Pasquantino,Home Runs,,over,0.5,622,7.22,668
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),V. Pasquantino,Home Runs,,under,0.5,-1239,1.0807102502017756,-668
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),V. Pasquantino,Total Bases,,over,1.5,127,2.27,144
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),V. Pasquantino,Total Bases,,under,1.5,-173,1.5780346820809248,-144
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Massey,Home Runs,,over,0.5,592,6.92,636
+pp;0;ou;hr;0.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Massey,Home Runs,,under,0.5,-1144,1.0874125874125875,-636
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Massey,Total Bases,,over,1.5,119,2.19,135
+pp;0;ou;tb;1.5,2024-08-19,MLB,LAA(away) vs KAN(home),M. Massey,Total Bases,,under,1.5,-160,1.625,-135
+pp;ou;po;15.5,2024-08-19,MLB,LAA(away) vs KAN(home),C. Fulmer,Pitching Outs,,over,15.5,122,2.2199999999999998,140
+pp;ou;po;15.5,2024-08-19,MLB,LAA(away) vs KAN(home),C. Fulmer,Pitching Outs,,under,15.5,-171,1.5847953216374269,-140
+s;0;m,2024-08-19,MLB,BOS(away) vs HOU(home),,moneyline,home,,,-144,1.6944444444444444,-137
+s;0;m,2024-08-19,MLB,BOS(away) vs HOU(home),,moneyline,away,,,132,2.3200000000000003,137
+s;0;tt;4.5;home,2024-08-19,MLB,BOS(away) vs HOU(home),,team_total,home,over,4.5,116,2.16,124
+s;0;tt;4.5;home,2024-08-19,MLB,BOS(away) vs HOU(home),,team_total,home,under,4.5,-136,1.7352941176470589,-124
+s;0;tt;3.5;away,2024-08-19,MLB,BOS(away) vs HOU(home),,team_total,away,over,3.5,-111,1.900900900900901,-103
+s;0;tt;3.5;away,2024-08-19,MLB,BOS(away) vs HOU(home),,team_total,away,under,3.5,-105,1.9523809523809523,103
+s;0;s;-1.5,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,home,,-1.5,153,2.5300000000000002,159
+s;0;s;-1.5,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,away,,1.5,-170,1.5882352941176472,-159
+s;0;s;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,home,,1.5,-246,1.4065040650406504,-213
+s;0;s;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,away,,-1.5,200,3.0,213
+s;0;s;1.0,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,home,,1.0,-202,1.495049504950495,-182
+s;0;s;1.0,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,away,,-1.0,172,2.7199999999999998,182
+s;0;s;-1.0,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,home,,-1.0,104,2.04,110
+s;0;s;-1.0,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,away,,1.0,-117,1.8547008547008548,-110
+s;0;s;-2.0,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,home,,-2.0,207,3.07,217
+s;0;s;-2.0,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,away,,2.0,-243,1.4115226337448559,-217
+s;0;s;-2.5,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,home,,-2.5,238,3.38,252
+s;0;s;-2.5,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,away,,2.5,-291,1.343642611683849,-252
+s;0;s;-3.0,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,home,,-3.0,325,4.25,346
+s;0;s;-3.0,2024-08-19,MLB,BOS(away) vs HOU(home),,spread,away,,3.0,-438,1.228310502283105,-346
+s;0;ou;8.0,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,8.0,-110,1.9090909090909092,-103
+s;0;ou;8.0,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,8.0,-103,1.970873786407767,103
+s;0;ou;4.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,4.5,-645,1.1550387596899225,-467
+s;0;ou;4.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,4.5,439,5.39,467
+s;0;ou;6.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,6.5,-213,1.4694835680751175,-193
+s;0;ou;6.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,6.5,184,2.84,193
+s;0;ou;7.0,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,7.0,-175,1.5714285714285714,-161
+s;0;ou;7.0,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,7.0,153,2.5300000000000002,161
+s;0;ou;7.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,7.5,-129,1.7751937984496124,-121
+s;0;ou;7.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,7.5,114,2.1399999999999997,121
+s;0;ou;8.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,8.5,107,2.0700000000000003,113
+s;0;ou;8.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,8.5,-121,1.8264462809917354,-113
+s;0;ou;9.0,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,9.0,132,2.3200000000000003,139
+s;0;ou;9.0,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,9.0,-149,1.6711409395973154,-139
+s;0;ou;9.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,9.5,164,2.6399999999999997,172
+s;0;ou;9.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,9.5,-188,1.5319148936170213,-172
+s;0;ou;11.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,11.5,309,4.09,329
+s;0;ou;11.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,11.5,-411,1.24330900243309,-329
+s;0;ou;25.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,over,25.5,-110,1.9090909090909092,100
+s;0;ou;25.5,2024-08-19,MLB,BOS(away) vs HOU(home),,total,,under,25.5,-110,1.9090909090909092,100
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Altuve,Home Runs,,over,0.5,757,8.57,810
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Altuve,Home Runs,,under,0.5,-1710,1.0584795321637426,-810
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Altuve,Total Bases,,over,1.5,133,2.33,150
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Altuve,Total Bases,,under,1.5,-182,1.5494505494505495,-150
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Singleton,Home Runs,,over,0.5,752,8.52,804
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Singleton,Home Runs,,under,0.5,-1691,1.059136605558841,-804
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Singleton,Total Bases,,over,0.5,-196,1.510204081632653,-156
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Singleton,Total Bases,,under,0.5,136,2.3600000000000003,156
+pp;0;ou;so;7.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Kikuchi,Total Strikeouts,,over,7.5,121,2.21,142
+pp;0;ou;so;7.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Kikuchi,Total Strikeouts,,under,7.5,-181,1.5524861878453038,-142
+pp;0;ou;hita;4.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Kikuchi,Hits Allowed,,over,4.5,-130,1.7692307692307692,-107
+pp;0;ou;hita;4.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Kikuchi,Hits Allowed,,under,4.5,-111,1.900900900900901,107
+pp;0;ou;er;2.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Kikuchi,Earned Runs,,over,2.5,129,2.29,148
+pp;0;ou;er;2.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Kikuchi,Earned Runs,,under,2.5,-182,1.5494505494505495,-148
+pp;ou;po;16.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Kikuchi,Pitching Outs,,over,16.5,-147,1.6802721088435373,-120
+pp;ou;po;16.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Kikuchi,Pitching Outs,,under,16.5,101,2.01,120
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),R. Refsnyder,Home Runs,,over,0.5,632,7.32,679
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),R. Refsnyder,Home Runs,,under,0.5,-1269,1.078802206461781,-679
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),R. Refsnyder,Total Bases,,over,1.5,144,2.44,162
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),R. Refsnyder,Total Bases,,under,1.5,-199,1.5025125628140703,-162
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. O'Neill,Home Runs,,over,0.5,355,4.55,384
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. O'Neill,Home Runs,,under,0.5,-540,1.1851851851851851,-384
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. O'Neill,Total Bases,,over,0.5,-169,1.5917159763313609,-139
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. O'Neill,Total Bases,,under,0.5,121,2.21,139
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),D. Jansen,Home Runs,,over,0.5,469,5.69,506
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),D. Jansen,Home Runs,,under,0.5,-802,1.1246882793017456,-506
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),D. Jansen,Total Bases,,over,0.5,-158,1.6329113924050633,-134
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),D. Jansen,Total Bases,,under,0.5,118,2.1799999999999997,134
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),R. Devers,Home Runs,,over,0.5,455,5.55,509
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),R. Devers,Home Runs,,under,0.5,-1112,1.0899280575539567,-509
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),R. Devers,Total Bases,,under,0.5,130,2.3,147
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),R. Devers,Total Bases,,over,0.5,-177,1.5649717514124295,-147
+pp;0;ou;so;4.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Houck,Total Strikeouts,,over,4.5,-160,1.625,-129
+pp;0;ou;so;4.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Houck,Total Strikeouts,,under,4.5,110,2.1,129
+pp;0;ou;hita;5.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Houck,Hits Allowed,,over,5.5,-147,1.6802721088435373,-123
+pp;0;ou;hita;5.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Houck,Hits Allowed,,under,5.5,107,2.0700000000000003,123
+pp;0;ou;er;2.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Houck,Earned Runs,,over,2.5,-107,1.9345794392523366,108
+pp;0;ou;er;2.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Houck,Earned Runs,,under,2.5,-126,1.7936507936507935,-108
+pp;ou;po;18.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Houck,Pitching Outs,,over,18.5,125,2.25,147
+pp;ou;po;18.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Houck,Pitching Outs,,under,18.5,-187,1.53475935828877,-147
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Pena,Home Runs,,over,0.5,865,9.65,922
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Pena,Home Runs,,under,0.5,-2153,1.04644681839294,-922
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Pena,Total Bases,,over,1.5,135,2.35,153
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Pena,Total Bases,,under,1.5,-185,1.5405405405405406,-153
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),D. Hamilton,Total Bases,,over,0.5,-100,2.0,114
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),D. Hamilton,Total Bases,,under,0.5,-132,1.7575757575757576,-114
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Alvarez,Home Runs,,over,0.5,386,4.859999999999999,450
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Alvarez,Home Runs,,under,0.5,-1265,1.0790513833992095,-450
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Alvarez,Total Bases,,over,1.5,112,2.12,127
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Alvarez,Total Bases,,under,1.5,-150,1.6666666666666665,-127
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Casas,Home Runs,,over,0.5,581,6.81,625
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Casas,Home Runs,,under,0.5,-1111,1.09000900090009,-625
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Casas,Total Bases,,over,0.5,-120,1.8333333333333335,-104
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),T. Casas,Total Bases,,under,0.5,-110,1.9090909090909092,104
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Diaz,Home Runs,,over,0.5,703,8.030000000000001,753
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Diaz,Home Runs,,under,0.5,-1509,1.0662690523525513,-753
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Diaz,Total Bases,,over,1.5,119,2.19,135
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),Y. Diaz,Total Bases,,under,1.5,-160,1.625,-135
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Meyers,Home Runs,,over,0.5,795,8.95,849
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Meyers,Home Runs,,under,0.5,-1858,1.0538213132400431,-849
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Meyers,Total Bases,,over,0.5,-207,1.4830917874396135,-163
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Meyers,Total Bases,,under,0.5,142,2.42,163
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),C. McCormick,Home Runs,,over,0.5,866,9.66,923
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),C. McCormick,Home Runs,,under,0.5,-2157,1.046360686138155,-923
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),C. McCormick,Total Bases,,over,0.5,-147,1.6802721088435373,-125
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),C. McCormick,Total Bases,,under,0.5,110,2.1,125
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),C. Rafaela,Home Runs,,over,0.5,620,7.2,666
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),C. Rafaela,Home Runs,,under,0.5,-1233,1.08110300081103,-666
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),C. Rafaela,Total Bases,,over,0.5,-184,1.5434782608695652,-152
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),C. Rafaela,Total Bases,,under,0.5,135,2.35,152
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Duran,Home Runs,,over,0.5,788,8.879999999999999,842
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Duran,Home Runs,,under,0.5,-1830,1.0546448087431695,-842
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Duran,Total Bases,,over,1.5,139,2.3899999999999997,157
+pp;0;ou;tb;1.5,2024-08-19,MLB,BOS(away) vs HOU(home),J. Duran,Total Bases,,under,1.5,-191,1.5235602094240837,-157
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),P. León,Home Runs,,over,0.5,751,8.51,803
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),P. León,Home Runs,,under,0.5,-1685,1.0593471810089021,-803
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),P. León,Total Bases,,over,0.5,-132,1.7575757575757576,-114
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),P. León,Total Bases,,under,0.5,-100,2.0,114
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),S. Whitcomb,Home Runs,,over,0.5,628,7.28,674
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),S. Whitcomb,Home Runs,,under,0.5,-1257,1.079554494828958,-674
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),S. Whitcomb,Total Bases,,over,0.5,-155,1.6451612903225805,-131
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),S. Whitcomb,Total Bases,,under,0.5,115,2.15,131
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),M. Yoshida,Home Runs,,over,0.5,905,10.05,964
+pp;0;ou;hr;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),M. Yoshida,Home Runs,,under,0.5,-2332,1.0428816466552315,-964
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),M. Yoshida,Total Bases,,over,0.5,-187,1.53475935828877,-154
+pp;0;ou;tb;0.5,2024-08-19,MLB,BOS(away) vs HOU(home),M. Yoshida,Total Bases,,under,0.5,137,2.37,154
+s;0;m,2024-08-19,MLB,CIN(away) vs TOR(home),,moneyline,home,,,-170,1.5882352941176472,-161
+s;0;m,2024-08-19,MLB,CIN(away) vs TOR(home),,moneyline,away,,,156,2.56,161
+s;0;tt;4.5;home,2024-08-19,MLB,CIN(away) vs TOR(home),,team_total,home,over,4.5,-101,1.99009900990099,106
+s;0;tt;4.5;home,2024-08-19,MLB,CIN(away) vs TOR(home),,team_total,home,under,4.5,-115,1.8695652173913042,-106
+s;0;tt;3.5;away,2024-08-19,MLB,CIN(away) vs TOR(home),,team_total,away,over,3.5,-104,1.9615384615384617,104
+s;0;tt;3.5;away,2024-08-19,MLB,CIN(away) vs TOR(home),,team_total,away,under,3.5,-112,1.8928571428571428,-104
+s;0;s;-1.5,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,home,,-1.5,126,2.26,132
+s;0;s;-1.5,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,away,,1.5,-140,1.7142857142857144,-132
+s;0;s;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,home,,1.5,-300,1.3333333333333333,-254
+s;0;s;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,away,,-1.5,238,3.38,254
+s;0;s;1.0,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,home,,1.0,-249,1.4016064257028114,-220
+s;0;s;1.0,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,away,,-1.0,208,3.08,220
+s;0;s;-1.0,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,home,,-1.0,-120,1.8333333333333335,-112
+s;0;s;-1.0,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,away,,1.0,106,2.06,112
+s;0;s;-2.0,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,home,,-2.0,166,2.66,175
+s;0;s;-2.0,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,away,,2.0,-191,1.5235602094240837,-175
+s;0;s;-2.5,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,home,,-2.5,194,2.94,205
+s;0;s;-2.5,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,away,,2.5,-232,1.4310344827586206,-205
+s;0;s;-3.0,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,home,,-3.0,260,3.6,277
+s;0;s;-3.0,2024-08-19,MLB,CIN(away) vs TOR(home),,spread,away,,3.0,-333,1.3003003003003002,-277
+s;0;ou;8.0,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,8.0,-113,1.8849557522123894,-107
+s;0;ou;8.0,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,8.0,101,2.01,107
+s;0;ou;4.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,4.5,-684,1.1461988304093567,-488
+s;0;ou;4.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,4.5,459,5.59,488
+s;0;ou;6.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,6.5,-222,1.4504504504504505,-201
+s;0;ou;6.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,6.5,191,2.91,201
+s;0;ou;7.0,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,7.0,-182,1.5494505494505495,-167
+s;0;ou;7.0,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,7.0,159,2.59,167
+s;0;ou;7.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,7.5,-133,1.7518796992481203,-124
+s;0;ou;7.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,7.5,118,2.1799999999999997,124
+s;0;ou;8.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,8.5,105,2.05,111
+s;0;ou;8.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,8.5,-118,1.847457627118644,-111
+s;0;ou;9.0,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,9.0,134,2.34,141
+s;0;ou;9.0,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,9.0,-151,1.6622516556291391,-141
+s;0;ou;9.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,9.5,159,2.59,167
+s;0;ou;9.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,9.5,-181,1.5524861878453038,-167
+s;0;ou;11.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,11.5,298,3.98,317
+s;0;ou;11.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,11.5,-394,1.2538071065989849,-317
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Candelario,Home Runs,,over,0.5,698,7.98,748
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Candelario,Home Runs,,under,0.5,-1493,1.0669792364367046,-748
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Candelario,Total Bases,,over,0.5,-169,1.5917159763313609,-141
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Candelario,Total Bases,,under,0.5,125,2.25,141
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Fraley,Total Bases,,over,0.5,-153,1.65359477124183,-130
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Fraley,Total Bases,,under,0.5,115,2.15,130
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. India,Home Runs,,over,0.5,569,6.69,612
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. India,Home Runs,,under,0.5,-1075,1.0930232558139534,-612
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. India,Total Bases,,over,1.5,120,2.2,136
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. India,Total Bases,,under,1.5,-161,1.62111801242236,-136
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. Stephenson,Home Runs,,over,0.5,548,6.48,590
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. Stephenson,Home Runs,,under,0.5,-1015,1.0985221674876848,-590
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. Stephenson,Total Bases,,over,1.5,121,2.21,137
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. Stephenson,Total Bases,,under,1.5,-163,1.6134969325153374,-137
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. France,Home Runs,,over,0.5,601,7.01,646
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. France,Home Runs,,under,0.5,-1173,1.0852514919011083,-646
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. France,Total Bases,,over,1.5,141,2.41,159
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. France,Total Bases,,under,1.5,-194,1.5154639175257731,-159
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),S. Steer,Home Runs,,over,0.5,536,6.36,577
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),S. Steer,Home Runs,,under,0.5,-980,1.1020408163265305,-577
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),S. Steer,Total Bases,,over,1.5,128,2.2800000000000002,144
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),S. Steer,Total Bases,,under,1.5,-173,1.5780346820809248,-144
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. Friedl,Home Runs,,over,0.5,830,9.3,886
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. Friedl,Home Runs,,under,0.5,-2004,1.0499001996007984,-886
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. Friedl,Total Bases,,over,0.5,-168,1.5952380952380953,-141
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),T. Friedl,Total Bases,,under,0.5,125,2.25,141
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),N. Marte,Home Runs,,over,0.5,778,8.780000000000001,832
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),N. Marte,Home Runs,,under,0.5,-1790,1.0558659217877095,-832
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),N. Marte,Total Bases,,over,0.5,-170,1.5882352941176472,-142
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),N. Marte,Total Bases,,under,0.5,126,2.26,142
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),E. De La Cruz,Home Runs,,over,0.5,595,6.95,640
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),E. De La Cruz,Home Runs,,under,0.5,-1153,1.0867302688638334,-640
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),E. De La Cruz,Total Bases,,over,1.5,139,2.3899999999999997,157
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),E. De La Cruz,Total Bases,,under,1.5,-190,1.526315789473684,-157
+s;0;ou;25.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,over,25.5,-115,1.8695652173913042,-104
+s;0;ou;25.5,2024-08-19,MLB,CIN(away) vs TOR(home),,total,,under,25.5,-105,1.9523809523809523,104
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),G. Springer,Home Runs,,over,0.5,421,5.21,455
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),G. Springer,Home Runs,,under,0.5,-687,1.1455604075691412,-455
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),G. Springer,Total Bases,,over,1.5,-114,1.8771929824561404,101
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),G. Springer,Total Bases,,under,1.5,-116,1.8620689655172413,-101
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),D. Varsho,Total Bases,,over,0.5,-171,1.5847953216374269,-143
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),D. Varsho,Total Bases,,under,0.5,126,2.26,143
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),V. Guerrero Jr.,Total Bases,,over,1.5,-125,1.8,-108
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),V. Guerrero Jr.,Total Bases,,under,1.5,-106,1.9433962264150944,108
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),A. Kirk,Home Runs,,under,0.5,-1576,1.0634517766497462,-772
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),A. Kirk,Home Runs,,over,0.5,721,8.21,772
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),A. Kirk,Total Bases,,over,1.5,111,2.1100000000000003,126
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),A. Kirk,Total Bases,,under,1.5,-149,1.6711409395973154,-126
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),E. Clement,Home Runs,,over,0.5,888,9.88,946
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),E. Clement,Home Runs,,under,0.5,-2255,1.0443458980044347,-946
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),E. Clement,Total Bases,,over,1.5,122,2.2199999999999998,138
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),E. Clement,Total Bases,,under,1.5,-164,1.6097560975609757,-138
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),A. Barger,Home Runs,,over,0.5,688,7.88,737
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),A. Barger,Home Runs,,under,0.5,-1459,1.0685400959561344,-737
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),A. Barger,Total Bases,,over,0.5,-156,1.641025641025641,-132
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),A. Barger,Total Bases,,under,0.5,117,2.17,132
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),S. Horwitz,Home Runs,,over,0.5,762,8.620000000000001,815
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),S. Horwitz,Home Runs,,under,0.5,-1727,1.0579038795599305,-815
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),S. Horwitz,Total Bases,,over,1.5,150,2.5,169
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),S. Horwitz,Total Bases,,under,1.5,-208,1.4807692307692308,-169
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Loperfido,Home Runs,,over,0.5,847,9.47,903
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Loperfido,Home Runs,,under,0.5,-2074,1.0482160077145612,-903
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Loperfido,Total Bases,,over,0.5,-132,1.7575757575757576,-114
+pp;0;ou;tb;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),J. Loperfido,Total Bases,,under,0.5,-100,2.0,114
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),W. Wagner,Home Runs,,over,0.5,711,8.11,762
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),W. Wagner,Home Runs,,under,0.5,-1540,1.0649350649350648,-762
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),W. Wagner,Total Bases,,over,1.5,143,2.4299999999999997,161
+pp;0;ou;tb;1.5,2024-08-19,MLB,CIN(away) vs TOR(home),W. Wagner,Total Bases,,under,1.5,-196,1.510204081632653,-161
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),D. Varsho,Home Runs,,over,0.5,522,6.22,562
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),D. Varsho,Home Runs,,under,0.5,-941,1.106269925611052,-562
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),V. Guerrero Jr.,Home Runs,,over,0.5,431,5.31,466
+pp;0;ou;hr;0.5,2024-08-19,MLB,CIN(away) vs TOR(home),V. Guerrero Jr.,Home Runs,,under,0.5,-711,1.140646976090014,-466
+s;0;m,2024-08-19,MLB,CWS(away) vs SF(home),,moneyline,home,,,-231,1.432900432900433,-215
+s;0;m,2024-08-19,MLB,CWS(away) vs SF(home),,moneyline,away,,,208,3.08,215
+s;0;tt;4.5;home,2024-08-19,MLB,CWS(away) vs SF(home),,team_total,home,over,4.5,-115,1.8695652173913042,-106
+s;0;tt;4.5;home,2024-08-19,MLB,CWS(away) vs SF(home),,team_total,home,under,4.5,-101,1.99009900990099,106
+s;0;tt;2.5;away,2024-08-19,MLB,CWS(away) vs SF(home),,team_total,away,over,2.5,-138,1.7246376811594204,-126
+s;0;tt;2.5;away,2024-08-19,MLB,CWS(away) vs SF(home),,team_total,away,under,2.5,118,2.1799999999999997,126
+s;0;s;-1.5,2024-08-19,MLB,CWS(away) vs SF(home),,spread,home,,-1.5,-106,1.9433962264150944,-101
+s;0;s;-1.5,2024-08-19,MLB,CWS(away) vs SF(home),,spread,away,,1.5,-104,1.9615384615384617,101
+s;0;s;1.5,2024-08-19,MLB,CWS(away) vs SF(home),,spread,home,,1.5,-420,1.2380952380952381,-334
+s;0;s;1.5,2024-08-19,MLB,CWS(away) vs SF(home),,spread,away,,-1.5,314,4.140000000000001,334
+s;0;s;1.0,2024-08-19,MLB,CWS(away) vs SF(home),,spread,home,,1.0,-358,1.2793296089385475,-300
+s;0;s;1.0,2024-08-19,MLB,CWS(away) vs SF(home),,spread,away,,-1.0,284,3.84,300
+s;0;s;-1.0,2024-08-19,MLB,CWS(away) vs SF(home),,spread,home,,-1.0,-171,1.5847953216374269,-158
+s;0;s;-1.0,2024-08-19,MLB,CWS(away) vs SF(home),,spread,away,,1.0,150,2.5,158
+s;0;s;-2.0,2024-08-19,MLB,CWS(away) vs SF(home),,spread,home,,-2.0,122,2.2199999999999998,129
+s;0;s;-2.0,2024-08-19,MLB,CWS(away) vs SF(home),,spread,away,,2.0,-138,1.7246376811594204,-129
+s;0;s;-2.5,2024-08-19,MLB,CWS(away) vs SF(home),,spread,home,,-2.5,149,2.49,158
+s;0;s;-2.5,2024-08-19,MLB,CWS(away) vs SF(home),,spread,away,,2.5,-173,1.5780346820809248,-158
+s;0;s;-3.0,2024-08-19,MLB,CWS(away) vs SF(home),,spread,home,,-3.0,197,2.9699999999999998,210
+s;0;s;-3.0,2024-08-19,MLB,CWS(away) vs SF(home),,spread,away,,3.0,-241,1.4149377593360997,-210
+s;0;ou;8.0,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,8.0,-103,1.970873786407767,103
+s;0;ou;8.0,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,8.0,-109,1.9174311926605505,-103
+s;0;ou;4.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,4.5,-613,1.163132137030995,-450
+s;0;ou;4.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,4.5,423,5.23,450
+s;0;ou;6.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,6.5,-200,1.5,-183
+s;0;ou;6.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,6.5,174,2.74,183
+s;0;ou;7.0,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,7.0,-163,1.6134969325153374,-151
+s;0;ou;7.0,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,7.0,143,2.4299999999999997,151
+s;0;ou;7.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,7.5,-121,1.8264462809917354,-114
+s;0;ou;7.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,7.5,108,2.08,114
+s;0;ou;8.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,8.5,114,2.1399999999999997,120
+s;0;ou;8.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,8.5,-128,1.78125,-120
+s;0;ou;9.0,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,9.0,147,2.4699999999999998,154
+s;0;ou;9.0,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,9.0,-167,1.5988023952095807,-154
+s;0;ou;9.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,9.5,176,2.76,185
+s;0;ou;9.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,9.5,-202,1.495049504950495,-185
+s;0;ou;11.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,11.5,328,4.279999999999999,349
+s;0;ou;11.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,11.5,-442,1.2262443438914028,-349
+s;0;ou;25.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,over,25.5,-104,1.9615384615384617,106
+s;0;ou;25.5,2024-08-19,MLB,CWS(away) vs SF(home),,total,,under,25.5,-117,1.8547008547008548,-106
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Yastrzemski,Home Runs,,over,0.5,453,5.53,489
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Yastrzemski,Home Runs,,under,0.5,-764,1.130890052356021,-489
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Yastrzemski,Total Bases,,over,1.5,125,2.25,141
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Yastrzemski,Total Bases,,under,1.5,-169,1.5917159763313609,-141
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Conforto,Home Runs,,over,0.5,612,7.12,657
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Conforto,Home Runs,,under,0.5,-1206,1.0829187396351576,-657
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Conforto,Total Bases,,over,1.5,130,2.3,147
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Conforto,Total Bases,,under,1.5,-176,1.5681818181818183,-147
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Chapman,Home Runs,,over,0.5,404,5.04,437
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Chapman,Home Runs,,under,0.5,-647,1.1545595054095827,-437
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Chapman,Total Bases,,over,1.5,117,2.17,133
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Chapman,Total Bases,,under,1.5,-157,1.6369426751592355,-133
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Wade Jr.,Home Runs,,over,0.5,693,7.93,743
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Wade Jr.,Home Runs,,under,0.5,-1476,1.067750677506775,-743
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Wade Jr.,Total Bases,,over,1.5,130,2.3,147
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Wade Jr.,Total Bases,,under,1.5,-176,1.5681818181818183,-147
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),T. Fitzgerald,Home Runs,,over,0.5,609,7.09,654
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),T. Fitzgerald,Home Runs,,under,0.5,-1196,1.0836120401337792,-654
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),T. Fitzgerald,Total Bases,,over,1.5,122,2.2199999999999998,138
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),T. Fitzgerald,Total Bases,,under,1.5,-165,1.606060606060606,-138
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),H. Ramos,Home Runs,,over,0.5,706,8.059999999999999,756
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),H. Ramos,Home Runs,,under,0.5,-1522,1.0657030223390276,-756
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),H. Ramos,Total Bases,,over,1.5,111,2.1100000000000003,126
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),H. Ramos,Total Bases,,under,1.5,-148,1.6756756756756757,-126
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),P. Bailey,Total Bases,,over,1.5,154,2.54,173
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),P. Bailey,Total Bases,,under,1.5,-215,1.4651162790697674,-173
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),G. McCray,Home Runs,,under,0.5,-1907,1.0524383848977452,-862
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),G. McCray,Home Runs,,over,0.5,807,9.07,862
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),G. McCray,Total Bases,,over,0.5,-160,1.625,-135
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),G. McCray,Total Bases,,under,0.5,119,2.19,135
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),B. Wisely,Total Bases,,over,0.5,-175,1.5714285714285714,-146
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),B. Wisely,Total Bases,,under,0.5,129,2.29,146
+pp;0;ou;so;4.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Harrison,Total Strikeouts,,over,4.5,-158,1.6329113924050633,-132
+pp;0;ou;so;4.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Harrison,Total Strikeouts,,under,4.5,115,2.15,132
+pp;0;ou;hita;4.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Harrison,Hits Allowed,,over,4.5,-154,1.6493506493506493,-129
+pp;0;ou;hita;4.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Harrison,Hits Allowed,,under,4.5,113,2.13,129
+pp;0;ou;er;2.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Harrison,Earned Runs,,over,2.5,130,2.3,149
+pp;0;ou;er;2.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Harrison,Earned Runs,,under,2.5,-183,1.5464480874316942,-149
+pp;ou;po;16.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Harrison,Pitching Outs,,over,16.5,-114,1.8771929824561404,102
+pp;ou;po;16.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Harrison,Pitching Outs,,under,16.5,-119,1.8403361344537816,-102
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),A. Benintendi,Total Bases,,over,0.5,-184,1.5434782608695652,-152
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),A. Benintendi,Total Bases,,under,0.5,135,2.35,152
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),G. Sheets,Total Bases,,over,0.5,-116,1.8620689655172413,-101
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),G. Sheets,Total Bases,,under,0.5,-114,1.8771929824561404,101
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),C. Julks,Total Bases,,over,0.5,-154,1.6493506493506493,-130
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),C. Julks,Total Bases,,under,0.5,115,2.15,130
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Sosa,Total Bases,,over,1.5,115,2.15,130
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Sosa,Total Bases,,under,1.5,-154,1.6493506493506493,-130
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Robert Jr.,Home Runs,,over,0.5,517,6.17,575
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Robert Jr.,Home Runs,,under,0.5,-1371,1.0729394602479942,-575
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Robert Jr.,Total Bases,,over,1.5,138,2.38,156
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),L. Robert Jr.,Total Bases,,under,1.5,-190,1.526315789473684,-156
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Vargas,Home Runs,,over,0.5,794,8.940000000000001,848
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Vargas,Home Runs,,under,0.5,-1855,1.0539083557951483,-848
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Vargas,Total Bases,,over,0.5,-179,1.558659217877095,-148
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),M. Vargas,Total Bases,,under,0.5,131,2.31,148
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),B. Baldwin,Total Bases,,over,0.5,-157,1.6369426751592355,-133
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),B. Baldwin,Total Bases,,under,0.5,117,2.17,133
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),A. Vaughn,Home Runs,,over,0.5,622,7.22,668
+pp;0;ou;hr;0.5,2024-08-19,MLB,CWS(away) vs SF(home),A. Vaughn,Home Runs,,under,0.5,-1239,1.0807102502017756,-668
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),A. Vaughn,Total Bases,,over,1.5,109,2.09,124
+pp;0;ou;tb;1.5,2024-08-19,MLB,CWS(away) vs SF(home),A. Vaughn,Total Bases,,under,1.5,-146,1.6849315068493151,-124
+pp;0;ou;so;4.5,2024-08-19,MLB,CWS(away) vs SF(home),J. Cannon,Total Strikeouts,,over,4.5,133,2.33,150
+pp;0;ou;so;4.5,2024-08-19,MLB,CWS(away) vs SF(home),J. Cannon,Total Strikeouts,,under,4.5,-182,1.5494505494505495,-150
+pp;0;ou;hita;5.5,2024-08-19,MLB,CWS(away) vs SF(home),J. Cannon,Hits Allowed,,over,5.5,-101,1.99009900990099,115
+pp;0;ou;hita;5.5,2024-08-19,MLB,CWS(away) vs SF(home),J. Cannon,Hits Allowed,,under,5.5,-136,1.7352941176470589,-115
+pp;0;ou;er;2.5,2024-08-19,MLB,CWS(away) vs SF(home),J. Cannon,Earned Runs,,over,2.5,-131,1.7633587786259541,-112
+pp;0;ou;er;2.5,2024-08-19,MLB,CWS(away) vs SF(home),J. Cannon,Earned Runs,,under,2.5,-102,1.9803921568627452,112
+pp;ou;po;16.5,2024-08-19,MLB,CWS(away) vs SF(home),J. Cannon,Pitching Outs,,over,16.5,-145,1.6896551724137931,-118
+pp;ou;po;16.5,2024-08-19,MLB,CWS(away) vs SF(home),J. Cannon,Pitching Outs,,under,16.5,-101,1.99009900990099,118
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Lee,Total Bases,,over,0.5,-175,1.5714285714285714,-146
+pp;0;ou;tb;0.5,2024-08-19,MLB,CWS(away) vs SF(home),K. Lee,Total Bases,,under,0.5,129,2.29,146
+s;0;m,2024-08-19,MLB,MIN(away) vs SD(home),,moneyline,home,,,-152,1.6578947368421053,-144
+s;0;m,2024-08-19,MLB,MIN(away) vs SD(home),,moneyline,away,,,139,2.3899999999999997,144
+s;0;tt;3.5;home,2024-08-19,MLB,MIN(away) vs SD(home),,team_total,home,over,3.5,-129,1.7751937984496124,-118
+s;0;tt;3.5;home,2024-08-19,MLB,MIN(away) vs SD(home),,team_total,home,under,3.5,110,2.1,118
+s;0;tt;2.5;away,2024-08-19,MLB,MIN(away) vs SD(home),,team_total,away,over,2.5,-146,1.6849315068493151,-133
+s;0;tt;2.5;away,2024-08-19,MLB,MIN(away) vs SD(home),,team_total,away,under,2.5,124,2.24,133
+s;0;s;-1.5,2024-08-19,MLB,MIN(away) vs SD(home),,spread,home,,-1.5,143,2.4299999999999997,149
+s;0;s;-1.5,2024-08-19,MLB,MIN(away) vs SD(home),,spread,away,,1.5,-159,1.6289308176100628,-149
+s;0;s;1.5,2024-08-19,MLB,MIN(away) vs SD(home),,spread,home,,1.5,-281,1.3558718861209964,-240
+s;0;s;1.5,2024-08-19,MLB,MIN(away) vs SD(home),,spread,away,,-1.5,225,3.25,240
+s;0;s;1.0,2024-08-19,MLB,MIN(away) vs SD(home),,spread,home,,1.0,-227,1.4405286343612334,-202
+s;0;s;1.0,2024-08-19,MLB,MIN(away) vs SD(home),,spread,away,,-1.0,191,2.91,202
+s;0;s;-1.0,2024-08-19,MLB,MIN(away) vs SD(home),,spread,home,,-1.0,-104,1.9615384615384617,102
+s;0;s;-1.0,2024-08-19,MLB,MIN(away) vs SD(home),,spread,away,,1.0,-108,1.925925925925926,-102
+s;0;s;-2.0,2024-08-19,MLB,MIN(away) vs SD(home),,spread,home,,-2.0,194,2.94,204
+s;0;s;-2.0,2024-08-19,MLB,MIN(away) vs SD(home),,spread,away,,2.0,-225,1.4444444444444444,-204
+s;0;s;-2.5,2024-08-19,MLB,MIN(away) vs SD(home),,spread,home,,-2.5,224,3.24,237
+s;0;s;-2.5,2024-08-19,MLB,MIN(away) vs SD(home),,spread,away,,2.5,-272,1.3676470588235294,-237
+s;0;s;-3.0,2024-08-19,MLB,MIN(away) vs SD(home),,spread,home,,-3.0,310,4.1,330
+s;0;s;-3.0,2024-08-19,MLB,MIN(away) vs SD(home),,spread,away,,3.0,-413,1.242130750605327,-330
+s;0;ou;7.0,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,7.0,-114,1.8771929824561404,-107
+s;0;ou;7.0,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,7.0,101,2.01,107
+s;0;ou;3.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,3.5,-788,1.1269035532994924,-541
+s;0;ou;3.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,3.5,510,6.1,541
+s;0;ou;5.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,5.5,-221,1.4524886877828054,-200
+s;0;ou;5.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,5.5,190,2.9,200
+s;0;ou;6.0,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,6.0,-190,1.526315789473684,-174
+s;0;ou;6.0,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,6.0,166,2.66,174
+s;0;ou;6.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,6.5,-148,1.6756756756756757,-137
+s;0;ou;6.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,6.5,130,2.3,137
+s;0;ou;7.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,7.5,116,2.16,122
+s;0;ou;7.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,7.5,-130,1.7692307692307692,-122
+s;0;ou;8.0,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,8.0,138,2.38,145
+s;0;ou;8.0,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,8.0,-156,1.641025641025641,-145
+s;0;ou;8.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,8.5,155,2.55,163
+s;0;ou;8.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,8.5,-177,1.5649717514124295,-163
+s;0;ou;10.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,10.5,294,3.94,313
+s;0;ou;10.5,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,10.5,-387,1.2583979328165373,-313
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),D. Peralta,Home Runs,,over,0.5,800,9.0,854
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),D. Peralta,Home Runs,,under,0.5,-1877,1.053276505061268,-854
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),D. Peralta,Total Bases,,over,0.5,-169,1.5917159763313609,-141
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),D. Peralta,Total Bases,,under,0.5,125,2.25,141
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Machado,Home Runs,,over,0.5,405,5.05,438
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Machado,Home Runs,,under,0.5,-650,1.1538461538461537,-438
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Machado,Total Bases,,under,1.5,-149,1.6711409395973154,-127
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Machado,Total Bases,,over,1.5,112,2.12,127
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),X. Bogaerts,Home Runs,,under,0.5,-1858,1.0538213132400431,-849
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),X. Bogaerts,Home Runs,,over,0.5,795,8.95,849
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),X. Bogaerts,Total Bases,,over,1.5,157,2.5700000000000003,177
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),X. Bogaerts,Total Bases,,under,1.5,-220,1.4545454545454546,-177
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Profar,Home Runs,,over,0.5,591,6.91,635
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Profar,Home Runs,,under,0.5,-1142,1.0875656742556918,-635
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Profar,Total Bases,,over,1.5,148,2.48,167
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Profar,Total Bases,,under,1.5,-205,1.4878048780487805,-167
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Cronenworth,Home Runs,,over,0.5,574,6.74,617
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Cronenworth,Home Runs,,under,0.5,-1092,1.0915750915750915,-617
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Cronenworth,Total Bases,,over,1.5,132,2.3200000000000003,149
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Cronenworth,Total Bases,,under,1.5,-180,1.5555555555555556,-149
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),T. Wade,Total Bases,,over,0.5,-127,1.7874015748031495,-110
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),T. Wade,Total Bases,,under,0.5,-104,1.9615384615384617,110
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),L. Arraez,Total Bases,,over,1.5,117,2.17,132
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),L. Arraez,Total Bases,,under,1.5,-156,1.641025641025641,-132
+pp;0;ou;so;6.5,2024-08-19,MLB,MIN(away) vs SD(home),M. King,Total Strikeouts,,over,6.5,-152,1.6578947368421053,-129
+pp;0;ou;so;6.5,2024-08-19,MLB,MIN(away) vs SD(home),M. King,Total Strikeouts,,under,6.5,114,2.1399999999999997,129
+pp;0;ou;hita;4.5,2024-08-19,MLB,MIN(away) vs SD(home),M. King,Hits Allowed,,over,4.5,-104,1.9615384615384617,110
+pp;0;ou;hita;4.5,2024-08-19,MLB,MIN(away) vs SD(home),M. King,Hits Allowed,,under,4.5,-127,1.7874015748031495,-110
+pp;0;ou;er;1.5,2024-08-19,MLB,MIN(away) vs SD(home),M. King,Earned Runs,,over,1.5,-148,1.6756756756756757,-126
+pp;0;ou;er;1.5,2024-08-19,MLB,MIN(away) vs SD(home),M. King,Earned Runs,,under,1.5,111,2.1100000000000003,126
+pp;ou;po;17.5,2024-08-19,MLB,MIN(away) vs SD(home),M. King,Pitching Outs,,over,17.5,-177,1.5649717514124295,-147
+pp;ou;po;17.5,2024-08-19,MLB,MIN(away) vs SD(home),M. King,Pitching Outs,,under,17.5,130,2.3,147
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),L. Campusano,Home Runs,,over,0.5,772,8.719999999999999,825
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),L. Campusano,Home Runs,,under,0.5,-1767,1.0565930956423317,-825
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),L. Campusano,Total Bases,,over,0.5,-201,1.4975124378109452,-164
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),L. Campusano,Total Bases,,under,0.5,145,2.45,164
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Merrill,Home Runs,,over,0.5,591,6.91,635
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Merrill,Home Runs,,under,0.5,-1142,1.0875656742556918,-635
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Merrill,Total Bases,,over,1.5,126,2.26,142
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),J. Merrill,Total Bases,,under,1.5,-170,1.5882352941176472,-142
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),C. Santana,Home Runs,,over,0.5,730,8.3,781
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),C. Santana,Home Runs,,under,0.5,-1608,1.0621890547263682,-781
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),C. Santana,Total Bases,,over,0.5,-131,1.7633587786259541,-113
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),C. Santana,Total Bases,,under,0.5,-101,1.99009900990099,113
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Kepler,Home Runs,,over,0.5,652,7.52,700
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Kepler,Home Runs,,under,0.5,-1335,1.0749063670411985,-700
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Kepler,Total Bases,,over,0.5,-167,1.5988023952095807,-140
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Kepler,Total Bases,,under,0.5,124,2.24,140
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),W. Castro,Home Runs,,over,0.5,779,8.79,833
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),W. Castro,Home Runs,,under,0.5,-1796,1.0556792873051224,-833
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),W. Castro,Total Bases,,over,0.5,-193,1.5181347150259068,-158
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),W. Castro,Total Bases,,under,0.5,140,2.4,158
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),T. Larnach,Home Runs,,over,0.5,711,8.11,761
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),T. Larnach,Home Runs,,under,0.5,-1538,1.0650195058517555,-761
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),T. Larnach,Total Bases,,over,0.5,-176,1.5681818181818183,-147
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),T. Larnach,Total Bases,,under,0.5,130,2.3,147
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),E. Julien,Total Bases,,over,0.5,101,2.01,115
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),E. Julien,Total Bases,,under,0.5,-135,1.7407407407407407,-115
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),A. Martin,Total Bases,,over,0.5,-116,1.8620689655172413,-101
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),A. Martin,Total Bases,,under,0.5,-114,1.8771929824561404,101
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),R. Lewis,Home Runs,,over,0.5,429,5.29,463
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),R. Lewis,Home Runs,,under,0.5,-704,1.1420454545454546,-463
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),R. Lewis,Total Bases,,over,1.5,135,2.35,153
+pp;0;ou;tb;1.5,2024-08-19,MLB,MIN(away) vs SD(home),R. Lewis,Total Bases,,under,1.5,-185,1.5405405405405406,-153
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Wallner,Home Runs,,over,0.5,436,5.36,471
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Wallner,Home Runs,,under,0.5,-723,1.1383125864453665,-471
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Wallner,Total Bases,,over,0.5,-122,1.819672131147541,-106
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),M. Wallner,Total Bases,,under,0.5,-108,1.925925925925926,106
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),R. Jeffers,Home Runs,,over,0.5,790,8.9,844
+pp;0;ou;hr;0.5,2024-08-19,MLB,MIN(away) vs SD(home),R. Jeffers,Home Runs,,under,0.5,-1839,1.0543773790103317,-844
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),R. Jeffers,Total Bases,,over,0.5,-154,1.6493506493506493,-130
+pp;0;ou;tb;0.5,2024-08-19,MLB,MIN(away) vs SD(home),R. Jeffers,Total Bases,,under,0.5,115,2.15,130
+pp;0;ou;so;3.5,2024-08-19,MLB,MIN(away) vs SD(home),Z. Matthews,Total Strikeouts,,over,3.5,-117,1.8547008547008548,100
+pp;0;ou;so;3.5,2024-08-19,MLB,MIN(away) vs SD(home),Z. Matthews,Total Strikeouts,,under,3.5,-118,1.847457627118644,-100
+pp;0;ou;hita;4.5,2024-08-19,MLB,MIN(away) vs SD(home),Z. Matthews,Hits Allowed,,over,4.5,-167,1.5988023952095807,-140
+pp;0;ou;hita;4.5,2024-08-19,MLB,MIN(away) vs SD(home),Z. Matthews,Hits Allowed,,under,4.5,124,2.24,140
+pp;0;ou;er;2.5,2024-08-19,MLB,MIN(away) vs SD(home),Z. Matthews,Earned Runs,,over,2.5,129,2.29,146
+pp;0;ou;er;2.5,2024-08-19,MLB,MIN(away) vs SD(home),Z. Matthews,Earned Runs,,under,2.5,-175,1.5714285714285714,-146
+s;0;ou;25.0,2024-08-19,MLB,MIN(away) vs SD(home),,total,,over,25.0,117,2.17,128
+s;0;ou;25.0,2024-08-19,MLB,MIN(away) vs SD(home),,total,,under,25.0,-143,1.6993006993006992,-128
+s;0;m,2024-08-19,MLB,ARI(away) vs MIA(home),,moneyline,home,,,179,2.79,185
+s;0;m,2024-08-19,MLB,ARI(away) vs MIA(home),,moneyline,away,,,-197,1.5076142131979695,-185
+s;0;tt;3.5;home,2024-08-19,MLB,ARI(away) vs MIA(home),,team_total,home,over,3.5,115,2.15,124
+s;0;tt;3.5;home,2024-08-19,MLB,ARI(away) vs MIA(home),,team_total,home,under,3.5,-135,1.7407407407407407,-124
+s;0;tt;4.5;away,2024-08-19,MLB,ARI(away) vs MIA(home),,team_total,away,over,4.5,-129,1.7751937984496124,-119
+s;0;tt;4.5;away,2024-08-19,MLB,ARI(away) vs MIA(home),,team_total,away,under,4.5,111,2.1100000000000003,119
+s;0;s;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,home,,1.5,105,2.05,110
+s;0;s;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,away,,-1.5,-115,1.8695652173913042,-110
+s;0;s;3.0,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,home,,3.0,-214,1.4672897196261683,-189
+s;0;s;3.0,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,away,,-3.0,177,2.77,189
+s;0;s;2.5,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,home,,2.5,-157,1.6369426751592355,-144
+s;0;s;2.5,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,away,,-2.5,136,2.3600000000000003,144
+s;0;s;2.0,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,home,,2.0,-124,1.8064516129032258,-117
+s;0;s;2.0,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,away,,-2.0,111,2.1100000000000003,117
+s;0;s;1.0,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,home,,1.0,141,2.41,148
+s;0;s;1.0,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,away,,-1.0,-160,1.625,-148
+s;0;s;-1.0,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,home,,-1.0,281,3.81,297
+s;0;s;-1.0,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,away,,1.0,-353,1.28328611898017,-297
+s;0;s;-1.5,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,home,,-1.5,328,4.279999999999999,349
+s;0;s;-1.5,2024-08-19,MLB,ARI(away) vs MIA(home),,spread,away,,1.5,-443,1.2257336343115124,-349
+s;0;ou;8.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,8.5,-106,1.9433962264150944,100
+s;0;ou;8.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,8.5,-106,1.9433962264150944,100
+s;0;ou;5.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,5.5,-363,1.275482093663912,-297
+s;0;ou;5.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,5.5,279,3.79,297
+s;0;ou;7.0,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,7.0,-200,1.5,-183
+s;0;ou;7.0,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,7.0,174,2.74,183
+s;0;ou;7.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,7.5,-147,1.6802721088435373,-137
+s;0;ou;7.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,7.5,130,2.3,137
+s;0;ou;8.0,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,8.0,-126,1.7936507936507935,-118
+s;0;ou;8.0,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,8.0,112,2.12,118
+s;0;ou;9.0,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,9.0,119,2.19,125
+s;0;ou;9.0,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,9.0,-134,1.7462686567164178,-125
+s;0;ou;9.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,9.5,144,2.44,152
+s;0;ou;9.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,9.5,-164,1.6097560975609757,-152
+s;0;ou;10.0,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,10.0,176,2.76,185
+s;0;ou;10.0,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,10.0,-202,1.495049504950495,-185
+s;0;ou;12.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,12.5,365,4.65,388
+s;0;ou;12.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,12.5,-506,1.1976284584980237,-388
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),A. Sánchez,Total Bases,,over,0.5,-108,1.925925925925926,106
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),A. Sánchez,Total Bases,,under,0.5,-122,1.819672131147541,-106
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),D. Hill,Total Bases,,over,0.5,-160,1.625,-135
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),D. Hill,Total Bases,,under,0.5,119,2.19,135
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),V. Brujan,Total Bases,,over,0.5,-149,1.6711409395973154,-127
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),V. Brujan,Total Bases,,under,0.5,112,2.12,127
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Sanchez,Home Runs,,over,0.5,522,6.22,562
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Sanchez,Home Runs,,under,0.5,-943,1.1060445387062567,-562
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Sanchez,Total Bases,,over,1.5,133,2.33,150
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Sanchez,Total Bases,,under,1.5,-181,1.5524861878453038,-150
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),K. Stowers,Home Runs,,over,0.5,604,7.04,649
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),K. Stowers,Home Runs,,under,0.5,-1182,1.0846023688663282,-649
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),K. Stowers,Total Bases,,over,0.5,-150,1.6666666666666665,-127
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),K. Stowers,Total Bases,,under,0.5,112,2.12,127
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),X. Edwards,Total Bases,,over,1.5,115,2.15,131
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),X. Edwards,Total Bases,,under,1.5,-155,1.6451612903225805,-131
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Burger,Home Runs,,over,0.5,474,5.74,511
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Burger,Home Runs,,under,0.5,-815,1.1226993865030674,-511
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Burger,Total Bases,,over,0.5,-199,1.5025125628140703,-162
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Burger,Total Bases,,under,0.5,144,2.44,162
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Bride,Total Bases,,over,0.5,-176,1.5681818181818183,-147
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Bride,Total Bases,,under,0.5,130,2.3,147
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),E. Suarez,Home Runs,,over,0.5,391,4.91,423
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),E. Suarez,Home Runs,,under,0.5,-618,1.161812297734628,-423
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),E. Suarez,Total Bases,,over,1.5,116,2.16,132
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),E. Suarez,Total Bases,,under,1.5,-156,1.641025641025641,-132
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Pederson,Home Runs,,over,0.5,339,4.390000000000001,367
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Pederson,Home Runs,,under,0.5,-509,1.1964636542239686,-367
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Pederson,Total Bases,,over,1.5,115,2.15,130
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Pederson,Total Bases,,under,1.5,-154,1.6493506493506493,-130
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Bell,Home Runs,,over,0.5,521,6.21,561
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Bell,Home Runs,,under,0.5,-939,1.106496272630458,-561
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Bell,Total Bases,,over,1.5,128,2.2800000000000002,145
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Bell,Total Bases,,under,1.5,-174,1.5747126436781609,-145
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),K. Newman,Total Bases,,over,0.5,-222,1.4504504504504505,-178
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),K. Newman,Total Bases,,under,0.5,158,2.58,178
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Herrera,Total Bases,,over,0.5,-104,1.9615384615384617,110
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. Herrera,Total Bases,,under,0.5,-127,1.7874015748031495,-110
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. McCarthy,Total Bases,,over,1.5,123,2.23,139
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),J. McCarthy,Total Bases,,under,1.5,-165,1.606060606060606,-139
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),L. Gurriel Jr.,Home Runs,,over,0.5,479,5.79,517
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),L. Gurriel Jr.,Home Runs,,under,0.5,-828,1.1207729468599035,-517
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),L. Gurriel Jr.,Total Bases,,over,1.5,-110,1.9090909090909092,105
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),L. Gurriel Jr.,Total Bases,,under,1.5,-121,1.8264462809917354,-105
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),G. Perdomo,Total Bases,,over,0.5,-166,1.6024096385542168,-139
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),G. Perdomo,Total Bases,,under,0.5,123,2.23,139
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),C. Carroll,Home Runs,,over,0.5,536,6.36,577
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),C. Carroll,Home Runs,,under,0.5,-981,1.1019367991845055,-577
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),C. Carroll,Total Bases,,over,1.5,110,2.1,125
+pp;0;ou;tb;1.5,2024-08-19,MLB,ARI(away) vs MIA(home),C. Carroll,Total Bases,,under,1.5,-146,1.6849315068493151,-125
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),C. Norby,Home Runs,,over,0.5,737,8.370000000000001,789
+pp;0;ou;hr;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),C. Norby,Home Runs,,under,0.5,-1635,1.0611620795107033,-789
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),C. Norby,Total Bases,,over,0.5,-137,1.72992700729927,-117
+pp;0;ou;tb;0.5,2024-08-19,MLB,ARI(away) vs MIA(home),C. Norby,Total Bases,,under,0.5,103,2.0300000000000002,117
+s;0;ou;25.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,over,25.5,-124,1.8064516129032258,-112
+s;0;ou;25.5,2024-08-19,MLB,ARI(away) vs MIA(home),,total,,under,25.5,103,2.0300000000000002,112
+pp;0;ou;so;2.5,2024-08-19,MLB,ARI(away) vs MIA(home),A. Oller,Total Strikeouts,,over,2.5,-182,1.5494505494505495,-151
+pp;0;ou;so;2.5,2024-08-19,MLB,ARI(away) vs MIA(home),A. Oller,Total Strikeouts,,under,2.5,134,2.34,151
+pp;0;ou;er;2.5,2024-08-19,MLB,ARI(away) vs MIA(home),A. Oller,Earned Runs,,over,2.5,-121,1.8264462809917354,-105
+pp;0;ou;er;2.5,2024-08-19,MLB,ARI(away) vs MIA(home),A. Oller,Earned Runs,,under,2.5,-110,1.9090909090909092,105
+pp;0;ou;hita;4.5,2024-08-19,MLB,ARI(away) vs MIA(home),A. Oller,Hits Allowed,,over,4.5,-127,1.7874015748031495,-110
+pp;0;ou;hita;4.5,2024-08-19,MLB,ARI(away) vs MIA(home),A. Oller,Hits Allowed,,under,4.5,-104,1.9615384615384617,110
+s;0;m,2024-08-19,MLB,TB(away) vs OAK(home),,moneyline,home,,,110,2.1,114
+s;0;m,2024-08-19,MLB,TB(away) vs OAK(home),,moneyline,away,,,-119,1.8403361344537816,-114
+s;0;tt;3.5;home,2024-08-19,MLB,TB(away) vs OAK(home),,team_total,home,over,3.5,102,2.02,110
+s;0;tt;3.5;home,2024-08-19,MLB,TB(away) vs OAK(home),,team_total,home,under,3.5,-119,1.8403361344537816,-110
+s;0;tt;3.5;away,2024-08-19,MLB,TB(away) vs OAK(home),,team_total,away,over,3.5,-131,1.7633587786259541,-120
+s;0;tt;3.5;away,2024-08-19,MLB,TB(away) vs OAK(home),,team_total,away,under,3.5,112,2.12,120
+s;0;s;1.5,2024-08-19,MLB,TB(away) vs OAK(home),,spread,home,,1.5,-158,1.6329113924050633,-148
+s;0;s;1.5,2024-08-19,MLB,TB(away) vs OAK(home),,spread,away,,-1.5,142,2.42,148
+s;0;s;3.0,2024-08-19,MLB,TB(away) vs OAK(home),,spread,home,,3.0,-395,1.2531645569620253,-318
+s;0;s;3.0,2024-08-19,MLB,TB(away) vs OAK(home),,spread,away,,-3.0,299,3.99,318
+s;0;s;2.5,2024-08-19,MLB,TB(away) vs OAK(home),,spread,home,,2.5,-265,1.3773584905660377,-232
+s;0;s;2.5,2024-08-19,MLB,TB(away) vs OAK(home),,spread,away,,-2.5,219,3.19,232
+s;0;s;2.0,2024-08-19,MLB,TB(away) vs OAK(home),,spread,home,,2.0,-220,1.4545454545454546,-199
+s;0;s;2.0,2024-08-19,MLB,TB(away) vs OAK(home),,spread,away,,-2.0,190,2.9,199
+s;0;s;1.0,2024-08-19,MLB,TB(away) vs OAK(home),,spread,home,,1.0,-123,1.8130081300813008,-116
+s;0;s;1.0,2024-08-19,MLB,TB(away) vs OAK(home),,spread,away,,-1.0,110,2.1,116
+s;0;s;-1.0,2024-08-19,MLB,TB(away) vs OAK(home),,spread,home,,-1.0,172,2.7199999999999998,182
+s;0;s;-1.0,2024-08-19,MLB,TB(away) vs OAK(home),,spread,away,,1.0,-202,1.495049504950495,-182
+s;0;s;-1.5,2024-08-19,MLB,TB(away) vs OAK(home),,spread,home,,-1.5,222,3.22,237
+s;0;s;-1.5,2024-08-19,MLB,TB(away) vs OAK(home),,spread,away,,1.5,-277,1.3610108303249098,-237
+s;0;ou;7.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,7.5,101,2.01,107
+s;0;ou;7.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,7.5,-113,1.8849557522123894,-107
+s;0;ou;4.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,4.5,-532,1.1879699248120301,-403
+s;0;ou;4.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,4.5,379,4.79,403
+s;0;ou;6.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,6.0,-223,1.4484304932735426,-202
+s;0;ou;6.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,6.0,192,2.92,202
+s;0;ou;6.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,6.5,-172,1.5813953488372094,-159
+s;0;ou;6.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,6.5,151,2.51,159
+s;0;ou;7.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,7.0,-128,1.78125,-120
+s;0;ou;7.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,7.0,114,2.1399999999999997,120
+s;0;ou;8.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,8.0,120,2.2,126
+s;0;ou;8.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,8.0,-135,1.7407407407407407,-126
+s;0;ou;8.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,8.5,137,2.37,144
+s;0;ou;8.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,8.5,-156,1.641025641025641,-144
+s;0;ou;9.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,9.0,177,2.77,186
+s;0;ou;9.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,9.0,-204,1.4901960784313726,-186
+s;0;ou;11.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,11.5,364,4.640000000000001,387
+s;0;ou;11.5,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,11.5,-506,1.1976284584980237,-387
+s;0;ou;25.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,over,25.0,-104,1.9615384615384617,106
+s;0;ou;25.0,2024-08-19,MLB,TB(away) vs OAK(home),,total,,under,25.0,-117,1.8547008547008548,-106
+pp;0;ou;tb;1.5,2024-08-19,MLB,TB(away) vs OAK(home),M. Andujar,Total Bases,,over,1.5,147,2.4699999999999998,166
+pp;0;ou;tb;1.5,2024-08-19,MLB,TB(away) vs OAK(home),M. Andujar,Total Bases,,under,1.5,-204,1.4901960784313726,-166
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Siri,Home Runs,,over,0.5,779,8.79,833
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Siri,Home Runs,,under,0.5,-1793,1.0557724484104851,-833
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Siri,Total Bases,,over,0.5,-116,1.8620689655172413,-101
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Siri,Total Bases,,under,0.5,-114,1.8771929824561404,101
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),A. Toro,Total Bases,,over,0.5,-188,1.5319148936170213,-155
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),A. Toro,Total Bases,,under,0.5,137,2.37,155
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Lowe,Home Runs,,under,0.5,-644,1.15527950310559,-435
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Lowe,Home Runs,,over,0.5,402,5.02,435
+pp;0;ou;tb;1.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Lowe,Total Bases,,over,1.5,134,2.34,151
+pp;0;ou;tb;1.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Lowe,Total Bases,,under,1.5,-183,1.5464480874316942,-151
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),S. Brown,Home Runs,,over,0.5,739,8.39,791
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),S. Brown,Home Runs,,under,0.5,-1641,1.060938452163315,-791
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),S. Brown,Total Bases,,over,0.5,-132,1.7575757575757576,-113
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),S. Brown,Total Bases,,under,0.5,-101,1.99009900990099,113
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Lowe,Home Runs,,over,0.5,600,7.0,645
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Lowe,Home Runs,,under,0.5,-1169,1.0855431993156544,-645
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Lowe,Total Bases,,over,0.5,-197,1.5076142131979695,-161
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Lowe,Total Bases,,under,0.5,143,2.4299999999999997,161
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Rortvedt,Total Bases,,over,0.5,-149,1.6711409395973154,-127
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Rortvedt,Total Bases,,under,0.5,112,2.12,127
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),D. Carlson,Total Bases,,over,0.5,-159,1.6289308176100628,-134
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),D. Carlson,Total Bases,,under,0.5,118,2.1799999999999997,134
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),C. Morel,Home Runs,,over,0.5,509,6.09,548
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),C. Morel,Home Runs,,under,0.5,-906,1.1103752759381897,-548
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),C. Morel,Total Bases,,over,0.5,-157,1.6369426751592355,-133
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),C. Morel,Total Bases,,under,0.5,117,2.17,133
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Rooker,Home Runs,,over,0.5,456,5.56,492
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Rooker,Home Runs,,under,0.5,-771,1.1297016861219196,-492
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Rooker,Total Bases,,under,0.5,119,2.19,135
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),B. Rooker,Total Bases,,over,0.5,-160,1.625,-135
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Bleday,Home Runs,,over,0.5,647,7.47,694
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Bleday,Home Runs,,under,0.5,-1317,1.0759301442672742,-694
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Bleday,Total Bases,,over,0.5,-177,1.5649717514124295,-148
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Bleday,Total Bases,,under,0.5,131,2.31,148
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),S. Langeliers,Home Runs,,over,0.5,478,5.78,516
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),S. Langeliers,Home Runs,,under,0.5,-827,1.120918984280532,-516
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),S. Langeliers,Total Bases,,over,0.5,-147,1.6802721088435373,-125
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),S. Langeliers,Total Bases,,under,0.5,110,2.1,125
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Walls,Total Bases,,over,0.5,-119,1.8403361344537816,-103
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Walls,Total Bases,,under,0.5,-111,1.900900900900901,103
+pp;0;ou;so;5.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Boyle,Total Strikeouts,,over,5.5,-115,1.8695652173913042,104
+pp;0;ou;so;5.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Boyle,Total Strikeouts,,under,5.5,-125,1.8,-104
+pp;0;ou;hita;3.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Boyle,Hits Allowed,,over,3.5,-126,1.7936507936507935,-107
+pp;0;ou;hita;3.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Boyle,Hits Allowed,,under,3.5,-108,1.925925925925926,107
+pp;0;ou;er;2.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Boyle,Earned Runs,,over,2.5,131,2.31,150
+pp;0;ou;er;2.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Boyle,Earned Runs,,under,2.5,-184,1.5434782608695652,-150
+pp;ou;po;14.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Boyle,Pitching Outs,,over,14.5,-157,1.6369426751592355,-133
+pp;ou;po;14.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Boyle,Pitching Outs,,under,14.5,117,2.17,133
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),L. Butler,Home Runs,,over,0.5,622,7.22,668
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),L. Butler,Home Runs,,under,0.5,-1238,1.0807754442649435,-668
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),L. Butler,Total Bases,,over,0.5,-183,1.5464480874316942,-151
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),L. Butler,Total Bases,,under,0.5,134,2.34,151
+pp;0;ou;so;6.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Bradley,Total Strikeouts,,over,6.5,-134,1.7462686567164178,-111
+pp;0;ou;so;6.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Bradley,Total Strikeouts,,under,6.5,-107,1.9345794392523366,111
+pp;0;ou;hita;4.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Bradley,Hits Allowed,,over,4.5,-123,1.8130081300813008,-105
+pp;0;ou;hita;4.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Bradley,Hits Allowed,,under,4.5,-110,1.9090909090909092,105
+pp;0;ou;er;1.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Bradley,Earned Runs,,over,1.5,-165,1.606060606060606,-138
+pp;0;ou;er;1.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Bradley,Earned Runs,,under,1.5,122,2.2199999999999998,138
+pp;ou;po;17.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Bradley,Pitching Outs,,over,17.5,-216,1.462962962962963,-165
+pp;ou;po;17.5,2024-08-19,MLB,TB(away) vs OAK(home),T. Bradley,Pitching Outs,,under,17.5,141,2.41,165
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Caballero,Home Runs,,over,0.5,918,10.18,977
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Caballero,Home Runs,,under,0.5,-2394,1.0417710944026735,-977
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Caballero,Total Bases,,over,0.5,-147,1.6802721088435373,-126
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Caballero,Total Bases,,under,0.5,111,2.1100000000000003,126
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),M. Schuemann,Total Bases,,over,0.5,-108,1.925925925925926,106
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),M. Schuemann,Total Bases,,under,0.5,-123,1.8130081300813008,-106
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),Z. Gelof,Home Runs,,over,0.5,738,8.379999999999999,790
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),Z. Gelof,Home Runs,,under,0.5,-1638,1.061050061050061,-790
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),Z. Gelof,Total Bases,,over,0.5,-107,1.9345794392523366,107
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),Z. Gelof,Total Bases,,under,0.5,-123,1.8130081300813008,-107
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Caminero,Home Runs,,over,0.5,650,7.5,698
+pp;0;ou;hr;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Caminero,Home Runs,,under,0.5,-1330,1.0751879699248121,-698
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Caminero,Total Bases,,over,0.5,-200,1.5,-163
+pp;0;ou;tb;0.5,2024-08-19,MLB,TB(away) vs OAK(home),J. Caminero,Total Bases,,under,0.5,145,2.45,163
+s;0;m,2024-08-19,MLB,SEA(away) vs LAD(home),,moneyline,home,,,-128,1.78125,-122
+s;0;m,2024-08-19,MLB,SEA(away) vs LAD(home),,moneyline,away,,,118,2.1799999999999997,122
+s;0;tt;4.5;home,2024-08-19,MLB,SEA(away) vs LAD(home),,team_total,home,over,4.5,115,2.15,123
+s;0;tt;4.5;home,2024-08-19,MLB,SEA(away) vs LAD(home),,team_total,home,under,4.5,-134,1.7462686567164178,-123
+s;0;tt;3.5;away,2024-08-19,MLB,SEA(away) vs LAD(home),,team_total,away,over,3.5,-122,1.819672131147541,-112
+s;0;tt;3.5;away,2024-08-19,MLB,SEA(away) vs LAD(home),,team_total,away,under,3.5,104,2.04,112
+s;0;s;-1.5,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,home,,-1.5,157,2.5700000000000003,164
+s;0;s;-1.5,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,away,,1.5,-176,1.5681818181818183,-164
+s;0;s;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,home,,1.5,-228,1.4385964912280702,-200
+s;0;s;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,away,,-1.5,187,2.87,199
+s;0;s;1.0,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,home,,1.0,-183,1.5464480874316942,-166
+s;0;s;1.0,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,away,,-1.0,157,2.5700000000000003,166
+s;0;s;-1.0,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,home,,-1.0,113,2.13,119
+s;0;s;-1.0,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,away,,1.0,-127,1.7874015748031495,-119
+s;0;s;-2.0,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,home,,-2.0,210,3.1,220
+s;0;s;-2.0,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,away,,2.0,-245,1.4081632653061225,-220
+s;0;s;-2.5,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,home,,-2.5,241,3.41,255
+s;0;s;-2.5,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,away,,2.5,-295,1.3389830508474576,-255
+s;0;s;-3.0,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,home,,-3.0,320,4.2,341
+s;0;s;-3.0,2024-08-19,MLB,SEA(away) vs LAD(home),,spread,away,,3.0,-430,1.2325581395348837,-341
+s;0;ou;8.0,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,8.0,-113,1.8849557522123894,-107
+s;0;ou;8.0,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,8.0,101,2.01,107
+s;0;ou;4.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,4.5,-694,1.144092219020173,-493
+s;0;ou;4.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,4.5,464,5.64,493
+s;0;ou;6.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,6.5,-222,1.4504504504504505,-201
+s;0;ou;6.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,6.5,191,2.91,201
+s;0;ou;7.0,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,7.0,-181,1.5524861878453038,-166
+s;0;ou;7.0,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,7.0,158,2.58,166
+s;0;ou;7.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,7.5,-130,1.7692307692307692,-122
+s;0;ou;7.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,7.5,116,2.16,122
+s;0;ou;8.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,8.5,104,2.04,110
+s;0;ou;8.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,8.5,-116,1.8620689655172413,-110
+s;0;ou;9.0,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,9.0,131,2.31,138
+s;0;ou;9.0,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,9.0,-148,1.6756756756756757,-138
+s;0;ou;9.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,9.5,155,2.55,163
+s;0;ou;9.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,9.5,-177,1.5649717514124295,-163
+s;0;ou;11.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,11.5,286,3.86,305
+s;0;ou;11.5,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,11.5,-374,1.267379679144385,-305
+s;0;ou;26.0,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,over,26.0,101,2.01,110
+s;0;ou;26.0,2024-08-19,MLB,SEA(away) vs LAD(home),,total,,under,26.0,-122,1.819672131147541,-110
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Rojas,Total Bases,,over,0.5,-212,1.4716981132075473,-166
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Rojas,Total Bases,,under,0.5,144,2.44,166
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),E. Hernandez,Total Bases,,over,0.5,-152,1.6578947368421053,-129
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),E. Hernandez,Total Bases,,under,0.5,114,2.1399999999999997,129
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Polanco,Home Runs,,over,0.5,464,5.64,501
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Polanco,Home Runs,,under,0.5,-789,1.126742712294043,-501
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Polanco,Total Bases,,over,0.5,-147,1.6802721088435373,-125
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Polanco,Total Bases,,under,0.5,110,2.1,125
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Betts,Home Runs,,over,0.5,571,6.71,614
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Betts,Home Runs,,under,0.5,-1083,1.0923361034164358,-614
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Betts,Total Bases,,over,1.5,111,2.1100000000000003,126
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Betts,Total Bases,,under,1.5,-149,1.6711409395973154,-126
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),T. Hernández,Home Runs,,over,0.5,447,5.47,482
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),T. Hernández,Home Runs,,under,0.5,-745,1.1342281879194631,-482
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),T. Hernández,Total Bases,,over,1.5,143,2.4299999999999997,161
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),T. Hernández,Total Bases,,under,1.5,-197,1.5076142131979695,-161
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),V. Robles,Home Runs,,over,0.5,804,9.04,859
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),V. Robles,Home Runs,,under,0.5,-1893,1.0528262017960908,-859
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),V. Robles,Total Bases,,over,1.5,135,2.35,152
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),V. Robles,Total Bases,,under,1.5,-184,1.5434782608695652,-152
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),S. Ohtani,Home Runs,,over,0.5,207,3.07,224
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),S. Ohtani,Home Runs,,under,0.5,-268,1.373134328358209,-224
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),S. Ohtani,Total Bases,,over,1.5,-138,1.7246376811594204,-118
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),S. Ohtani,Total Bases,,under,1.5,104,2.04,118
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),L. Rivas,Total Bases,,over,0.5,-122,1.819672131147541,-106
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),L. Rivas,Total Bases,,under,0.5,-108,1.925925925925926,106
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),C. Raleigh,Home Runs,,over,0.5,332,4.32,359
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),C. Raleigh,Home Runs,,under,0.5,-493,1.2028397565922921,-359
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),C. Raleigh,Total Bases,,over,1.5,134,2.34,151
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),C. Raleigh,Total Bases,,under,1.5,-182,1.5494505494505495,-151
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Lux,Home Runs,,over,0.5,627,7.27,694
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Lux,Home Runs,,under,0.5,-2075,1.0481927710843373,-694
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Lux,Total Bases,,over,1.5,147,2.4699999999999998,165
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Lux,Total Bases,,under,1.5,-203,1.4926108374384237,-165
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),R. Arozarena,Home Runs,,over,0.5,513,6.13,553
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),R. Arozarena,Home Runs,,under,0.5,-917,1.109051254089422,-553
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),R. Arozarena,Total Bases,,over,1.5,132,2.3200000000000003,149
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),R. Arozarena,Total Bases,,under,1.5,-180,1.5555555555555556,-149
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Rojas,Home Runs,,over,0.5,760,8.6,813
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Rojas,Home Runs,,under,0.5,-1721,1.0581057524694946,-813
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Rojas,Total Bases,,over,0.5,-143,1.6993006993006992,-122
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Rojas,Total Bases,,under,0.5,107,2.0700000000000003,122
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),W. Smith,Home Runs,,under,0.5,-2398,1.041701417848207,-733
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),W. Smith,Home Runs,,over,0.5,664,7.64,733
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),W. Smith,Total Bases,,over,1.5,158,2.58,178
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),W. Smith,Total Bases,,under,1.5,-221,1.4524886877828054,-178
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),L. Raley,Home Runs,,over,0.5,541,6.41,583
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),L. Raley,Home Runs,,under,0.5,-996,1.1004016064257027,-583
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),L. Raley,Total Bases,,over,0.5,-154,1.6493506493506493,-130
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),L. Raley,Total Bases,,under,0.5,115,2.15,130
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Rodríguez,Home Runs,,over,0.5,448,5.48,484
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Rodríguez,Home Runs,,under,0.5,-750,1.1333333333333333,-484
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Rodríguez,Total Bases,,over,1.5,106,2.06,121
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),J. Rodríguez,Total Bases,,under,1.5,-142,1.704225352112676,-121
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),D. Canzone,Home Runs,,over,0.5,494,5.94,533
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),D. Canzone,Home Runs,,under,0.5,-867,1.1153402537485582,-533
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),D. Canzone,Total Bases,,over,0.5,-174,1.5747126436781609,-145
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),D. Canzone,Total Bases,,under,0.5,128,2.2800000000000002,145
+pp;0;ou;so;4.5,2024-08-19,MLB,SEA(away) vs LAD(home),B. Woo,Total Strikeouts,,over,4.5,121,2.21,142
+pp;0;ou;so;4.5,2024-08-19,MLB,SEA(away) vs LAD(home),B. Woo,Total Strikeouts,,under,4.5,-181,1.5524861878453038,-142
+pp;0;ou;hita;5.5,2024-08-19,MLB,SEA(away) vs LAD(home),B. Woo,Hits Allowed,,over,5.5,107,2.0700000000000003,126
+pp;0;ou;hita;5.5,2024-08-19,MLB,SEA(away) vs LAD(home),B. Woo,Hits Allowed,,under,5.5,-156,1.641025641025641,-126
+pp;0;ou;er;2.5,2024-08-19,MLB,SEA(away) vs LAD(home),B. Woo,Earned Runs,,over,2.5,-112,1.8928571428571428,104
+pp;0;ou;er;2.5,2024-08-19,MLB,SEA(away) vs LAD(home),B. Woo,Earned Runs,,under,2.5,-121,1.8264462809917354,-104
+pp;ou;po;15.5,2024-08-19,MLB,SEA(away) vs LAD(home),B. Woo,Pitching Outs,,over,15.5,-105,1.9523809523809523,113
+pp;ou;po;15.5,2024-08-19,MLB,SEA(away) vs LAD(home),B. Woo,Pitching Outs,,under,15.5,-138,1.7246376811594204,-113
+pp;0;ou;so;5.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Stone,Total Strikeouts,,over,5.5,118,2.1799999999999997,137
+pp;0;ou;so;5.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Stone,Total Strikeouts,,under,5.5,-169,1.5917159763313609,-137
+pp;0;ou;hita;4.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Stone,Hits Allowed,,over,4.5,-161,1.62111801242236,-136
+pp;0;ou;hita;4.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Stone,Hits Allowed,,under,4.5,120,2.2,136
+pp;0;ou;er;2.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Stone,Earned Runs,,over,2.5,109,2.09,124
+pp;0;ou;er;2.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Stone,Earned Runs,,under,2.5,-145,1.6896551724137931,-124
+pp;ou;po;16.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Stone,Pitching Outs,,over,16.5,112,2.12,132
+pp;ou;po;16.5,2024-08-19,MLB,SEA(away) vs LAD(home),G. Stone,Pitching Outs,,under,16.5,-164,1.6097560975609757,-132
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Muncy,Home Runs,,over,0.5,263,3.63,285
+pp;0;ou;hr;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Muncy,Home Runs,,under,0.5,-364,1.2747252747252746,-285
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Muncy,Total Bases,,over,1.5,117,2.17,133
+pp;0;ou;tb;1.5,2024-08-19,MLB,SEA(away) vs LAD(home),M. Muncy,Total Bases,,under,1.5,-157,1.6369426751592355,-133
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),T. Edman,Total Bases,,over,0.5,-194,1.5154639175257731,-159
+pp;0;ou;tb;0.5,2024-08-19,MLB,SEA(away) vs LAD(home),T. Edman,Total Bases,,under,0.5,141,2.41,159
+s;0;m,2024-08-19,MLB,BAL(away) vs NYM(home),,moneyline,home,,,-130,1.7692307692307692,-124
+s;0;m,2024-08-19,MLB,BAL(away) vs NYM(home),,moneyline,away,,,120,2.2,124
+s;0;tt;4.5;home,2024-08-19,MLB,BAL(away) vs NYM(home),,team_total,home,over,4.5,101,2.01,109
+s;0;tt;4.5;home,2024-08-19,MLB,BAL(away) vs NYM(home),,team_total,home,under,4.5,-118,1.847457627118644,-109
+s;0;tt;4.5;away,2024-08-19,MLB,BAL(away) vs NYM(home),,team_total,away,over,4.5,121,2.21,129
+s;0;tt;4.5;away,2024-08-19,MLB,BAL(away) vs NYM(home),,team_total,away,under,4.5,-141,1.7092198581560285,-129
+s;0;s;-1.5,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,home,,-1.5,158,2.58,165
+s;0;s;-1.5,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,away,,1.5,-177,1.5649717514124295,-165
+s;0;s;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,home,,1.5,-224,1.4464285714285714,-196
+s;0;s;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,away,,-1.5,184,2.84,196
+s;0;s;1.0,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,home,,1.0,-182,1.5494505494505495,-165
+s;0;s;1.0,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,away,,-1.0,156,2.56,165
+s;0;s;-1.0,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,home,,-1.0,112,2.12,118
+s;0;s;-1.0,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,away,,1.0,-126,1.7936507936507935,-118
+s;0;s;-2.0,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,home,,-2.0,211,3.11,221
+s;0;s;-2.0,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,away,,2.0,-247,1.4048582995951417,-221
+s;0;s;-2.5,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,home,,-2.5,238,3.38,252
+s;0;s;-2.5,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,away,,2.5,-292,1.3424657534246576,-252
+s;0;s;-3.0,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,home,,-3.0,321,4.21,342
+s;0;s;-3.0,2024-08-19,MLB,BAL(away) vs NYM(home),,spread,away,,3.0,-431,1.2320185614849188,-342
+s;0;ou;9.0,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,9.0,104,2.04,110
+s;0;ou;9.0,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,9.0,-117,1.8547008547008548,-110
+s;0;ou;5.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,5.5,-412,1.2427184466019416,-329
+s;0;ou;5.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,5.5,309,4.09,329
+s;0;ou;7.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,7.5,-167,1.5988023952095807,-154
+s;0;ou;7.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,7.5,147,2.4699999999999998,154
+s;0;ou;8.0,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,8.0,-146,1.6849315068493151,-137
+s;0;ou;8.0,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,8.0,130,2.3,137
+s;0;ou;8.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,8.5,-122,1.819672131147541,-115
+s;0;ou;8.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,8.5,109,2.09,115
+s;0;ou;9.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,9.5,129,2.29,136
+s;0;ou;9.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,9.5,-146,1.6849315068493151,-136
+s;0;ou;10.0,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,10.0,156,2.56,164
+s;0;ou;10.0,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,10.0,-178,1.5617977528089888,-164
+s;0;ou;10.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,10.5,175,2.75,184
+s;0;ou;10.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,10.5,-202,1.495049504950495,-184
+s;0;ou;12.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,12.5,332,4.32,353
+s;0;ou;12.5,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,12.5,-450,1.2222222222222223,-353
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),J. Martinez,Home Runs,,over,0.5,300,4.0,336
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),J. Martinez,Home Runs,,under,0.5,-523,1.191204588910134,-336
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),J. Martinez,Total Bases,,over,1.5,120,2.2,136
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),J. Martinez,Total Bases,,under,1.5,-161,1.62111801242236,-136
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),S. Marte,Home Runs,,over,0.5,675,7.75,724
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),S. Marte,Home Runs,,under,0.5,-1411,1.070871722182849,-724
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),S. Marte,Total Bases,,over,1.5,153,2.5300000000000002,172
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),S. Marte,Total Bases,,under,1.5,-213,1.4694835680751175,-172
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),J. Iglesias,Total Bases,,over,1.5,129,2.29,146
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),J. Iglesias,Total Bases,,under,1.5,-176,1.5681818181818183,-146
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),F. Lindor,Home Runs,,over,0.5,336,4.359999999999999,364
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),F. Lindor,Home Runs,,under,0.5,-502,1.199203187250996,-364
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),F. Lindor,Total Bases,,over,1.5,-103,1.970873786407767,111
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),F. Lindor,Total Bases,,under,1.5,-129,1.7751937984496124,-111
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),R. Urias,Home Runs,,over,0.5,869,9.69,926
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),R. Urias,Home Runs,,under,0.5,-2170,1.0460829493087558,-926
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),R. Urias,Total Bases,,over,0.5,-181,1.5524861878453038,-150
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),R. Urias,Total Bases,,under,0.5,133,2.33,150
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Taylor,Home Runs,,over,0.5,471,5.71,508
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Taylor,Home Runs,,under,0.5,-807,1.123915737298637,-508
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Taylor,Total Bases,,over,1.5,137,2.37,155
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Taylor,Total Bases,,under,1.5,-188,1.5319148936170213,-155
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),A. Santander,Home Runs,,over,0.5,392,4.92,424
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),A. Santander,Home Runs,,under,0.5,-620,1.1612903225806452,-424
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),A. Santander,Total Bases,,over,1.5,121,2.21,137
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),A. Santander,Total Bases,,under,1.5,-163,1.6134969325153374,-137
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),P. Alonso,Home Runs,,over,0.5,348,4.48,376
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),P. Alonso,Home Runs,,under,0.5,-526,1.1901140684410647,-376
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),P. Alonso,Total Bases,,over,1.5,128,2.2800000000000002,144
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),P. Alonso,Total Bases,,under,1.5,-173,1.5780346820809248,-144
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),E. Jiménez,Home Runs,,over,0.5,588,6.88,632
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),E. Jiménez,Home Runs,,under,0.5,-1132,1.088339222614841,-632
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),E. Jiménez,Total Bases,,over,1.5,132,2.3200000000000003,149
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),E. Jiménez,Total Bases,,under,1.5,-179,1.558659217877095,-149
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),C. Mullins,Home Runs,,over,0.5,742,8.42,794
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),C. Mullins,Home Runs,,under,0.5,-1651,1.0605693519079347,-794
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),C. Mullins,Total Bases,,over,0.5,-139,1.7194244604316546,-119
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),C. Mullins,Total Bases,,under,0.5,105,2.05,119
+pp;0;ou;so;4.5,2024-08-19,MLB,BAL(away) vs NYM(home),D. Peterson,Total Strikeouts,,over,4.5,-175,1.5714285714285714,-146
+pp;0;ou;so;4.5,2024-08-19,MLB,BAL(away) vs NYM(home),D. Peterson,Total Strikeouts,,under,4.5,129,2.29,146
+pp;0;ou;hita;5.5,2024-08-19,MLB,BAL(away) vs NYM(home),D. Peterson,Hits Allowed,,over,5.5,121,2.21,137
+pp;0;ou;hita;5.5,2024-08-19,MLB,BAL(away) vs NYM(home),D. Peterson,Hits Allowed,,under,5.5,-163,1.6134969325153374,-137
+pp;0;ou;er;2.5,2024-08-19,MLB,BAL(away) vs NYM(home),D. Peterson,Earned Runs,,over,2.5,110,2.1,125
+pp;0;ou;er;2.5,2024-08-19,MLB,BAL(away) vs NYM(home),D. Peterson,Earned Runs,,under,2.5,-147,1.6802721088435373,-125
+pp;ou;po;16.5,2024-08-19,MLB,BAL(away) vs NYM(home),D. Peterson,Pitching Outs,,over,16.5,-105,1.9523809523809523,109
+pp;ou;po;16.5,2024-08-19,MLB,BAL(away) vs NYM(home),D. Peterson,Pitching Outs,,under,16.5,-126,1.7936507936507935,-109
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),R. Mountcastle,Home Runs,,over,0.5,624,7.24,670
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),R. Mountcastle,Home Runs,,under,0.5,-1246,1.0802568218298556,-670
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),R. Mountcastle,Total Bases,,over,1.5,106,2.06,121
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),R. Mountcastle,Total Bases,,under,1.5,-141,1.7092198581560285,-121
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),H. Bader,Home Runs,,over,0.5,550,6.5,592
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),H. Bader,Home Runs,,under,0.5,-1020,1.0980392156862746,-592
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),H. Bader,Total Bases,,over,0.5,-179,1.558659217877095,-149
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),H. Bader,Total Bases,,under,0.5,132,2.3200000000000003,149
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),M. Vientos,Home Runs,,over,0.5,296,3.96,321
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),M. Vientos,Home Runs,,under,0.5,-425,1.2352941176470589,-321
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),M. Vientos,Total Bases,,over,1.5,-101,1.99009900990099,113
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),M. Vientos,Total Bases,,under,1.5,-132,1.7575757575757576,-113
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),A. Rutschman,Home Runs,,over,0.5,714,8.14,765
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),A. Rutschman,Home Runs,,under,0.5,-1550,1.064516129032258,-765
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),A. Rutschman,Total Bases,,over,1.5,149,2.49,168
+pp;0;ou;tb;1.5,2024-08-19,MLB,BAL(away) vs NYM(home),A. Rutschman,Total Bases,,under,1.5,-206,1.4854368932038835,-168
+pp;0;ou;so;3.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Rogers,Total Strikeouts,,over,3.5,-177,1.5649717514124295,-147
+pp;0;ou;so;3.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Rogers,Total Strikeouts,,under,3.5,130,2.3,147
+pp;0;ou;hita;5.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Rogers,Hits Allowed,,over,5.5,-109,1.9174311926605505,105
+pp;0;ou;hita;5.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Rogers,Hits Allowed,,under,5.5,-121,1.8264462809917354,-105
+pp;0;ou;er;2.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Rogers,Earned Runs,,over,2.5,-170,1.5882352941176472,-142
+pp;0;ou;er;2.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Rogers,Earned Runs,,under,2.5,126,2.26,142
+pp;ou;po;15.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Rogers,Pitching Outs,,over,15.5,101,2.01,115
+pp;ou;po;15.5,2024-08-19,MLB,BAL(away) vs NYM(home),T. Rogers,Pitching Outs,,under,15.5,-134,1.7462686567164178,-115
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),C. Cowser,Home Runs,,over,0.5,676,7.76,725
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),C. Cowser,Home Runs,,under,0.5,-1415,1.0706713780918728,-725
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),C. Cowser,Total Bases,,over,0.5,-173,1.5780346820809248,-144
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),C. Cowser,Total Bases,,under,0.5,128,2.2800000000000002,144
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),F. Alvarez,Home Runs,,over,0.5,522,6.22,562
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),F. Alvarez,Home Runs,,under,0.5,-942,1.1061571125265393,-562
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),F. Alvarez,Total Bases,,over,0.5,-197,1.5076142131979695,-161
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),F. Alvarez,Total Bases,,under,0.5,143,2.4299999999999997,161
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),G. Henderson,Home Runs,,over,0.5,609,7.09,674
+pp;0;ou;hr;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),G. Henderson,Home Runs,,under,0.5,-1932,1.05175983436853,-674
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),G. Henderson,Total Bases,,over,0.5,-192,1.5208333333333335,-158
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),G. Henderson,Total Bases,,under,0.5,140,2.4,158
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),J. Holliday,Total Bases,,over,0.5,-133,1.7518796992481203,-112
+pp;0;ou;tb;0.5,2024-08-19,MLB,BAL(away) vs NYM(home),J. Holliday,Total Bases,,under,0.5,-104,1.9615384615384617,112
+s;0;ou;26.0,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,over,26.0,-118,1.847457627118644,-107
+s;0;ou;26.0,2024-08-19,MLB,BAL(away) vs NYM(home),,total,,under,26.0,-103,1.970873786407767,107
+s;0;m,2024-08-19,MLB,PIT(away) vs TEX(home),,moneyline,home,,,-146,1.6849315068493151,-139
+s;0;m,2024-08-19,MLB,PIT(away) vs TEX(home),,moneyline,away,,,134,2.34,139
+s;0;tt;4.5;home,2024-08-19,MLB,PIT(away) vs TEX(home),,team_total,home,over,4.5,-108,1.925925925925926,100
+s;0;tt;4.5;home,2024-08-19,MLB,PIT(away) vs TEX(home),,team_total,home,under,4.5,-108,1.925925925925926,100
+s;0;tt;3.5;away,2024-08-19,MLB,PIT(away) vs TEX(home),,team_total,away,over,3.5,-131,1.7633587786259541,-120
+s;0;tt;3.5;away,2024-08-19,MLB,PIT(away) vs TEX(home),,team_total,away,under,3.5,112,2.12,120
+s;0;s;-1.5,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,home,,-1.5,140,2.4,146
+s;0;s;-1.5,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,away,,1.5,-156,1.641025641025641,-146
+s;0;s;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,home,,1.5,-251,1.3984063745019921,-217
+s;0;s;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,away,,-1.5,204,3.04,217
+s;0;s;1.0,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,home,,1.0,-207,1.4830917874396135,-185
+s;0;s;1.0,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,away,,-1.0,175,2.75,185
+s;0;s;-1.0,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,home,,-1.0,-103,1.970873786407767,103
+s;0;s;-1.0,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,away,,1.0,-110,1.9090909090909092,-103
+s;0;s;-2.0,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,home,,-2.0,184,2.84,193
+s;0;s;-2.0,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,away,,2.0,-213,1.4694835680751175,-193
+s;0;s;-2.5,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,home,,-2.5,212,3.12,224
+s;0;s;-2.5,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,away,,2.5,-255,1.392156862745098,-224
+s;0;s;-3.0,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,home,,-3.0,281,3.81,299
+s;0;s;-3.0,2024-08-19,MLB,PIT(away) vs TEX(home),,spread,away,,3.0,-367,1.2724795640326976,-299
+s;0;ou;9.0,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,9.0,103,2.0300000000000002,109
+s;0;ou;9.0,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,9.0,-116,1.8620689655172413,-109
+s;0;ou;5.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,5.5,-421,1.2375296912114013,-335
+s;0;ou;5.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,5.5,315,4.15,335
+s;0;ou;7.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,7.5,-167,1.5988023952095807,-154
+s;0;ou;7.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,7.5,147,2.4699999999999998,154
+s;0;ou;8.0,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,8.0,-146,1.6849315068493151,-136
+s;0;ou;8.0,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,8.0,129,2.29,136
+s;0;ou;8.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,8.5,-122,1.819672131147541,-114
+s;0;ou;8.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,8.5,108,2.08,114
+s;0;ou;9.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,9.5,127,2.27,134
+s;0;ou;9.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,9.5,-144,1.6944444444444444,-134
+s;0;ou;10.0,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,10.0,152,2.52,160
+s;0;ou;10.0,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,10.0,-174,1.5747126436781609,-160
+s;0;ou;10.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,10.5,171,2.71,179
+s;0;ou;10.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,10.5,-196,1.510204081632653,-179
+s;0;ou;12.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,12.5,318,4.18,339
+s;0;ou;12.5,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,12.5,-427,1.234192037470726,-339
+pp;0;ou;so;3.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. L. Ortiz,Total Strikeouts,,over,3.5,-169,1.5917159763313609,-141
+pp;0;ou;so;3.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. L. Ortiz,Total Strikeouts,,under,3.5,125,2.25,141
+pp;0;ou;hita;5.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. L. Ortiz,Hits Allowed,,over,5.5,101,2.01,115
+pp;0;ou;hita;5.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. L. Ortiz,Hits Allowed,,under,5.5,-134,1.7462686567164178,-115
+pp;0;ou;er;2.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. L. Ortiz,Earned Runs,,over,2.5,-133,1.7518796992481203,-114
+pp;0;ou;er;2.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. L. Ortiz,Earned Runs,,under,2.5,100,2.0,114
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),M. Semien,Home Runs,,over,0.5,582,6.82,626
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),M. Semien,Home Runs,,under,0.5,-1116,1.0896057347670252,-626
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),M. Semien,Total Bases,,over,1.5,116,2.16,132
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),M. Semien,Total Bases,,under,1.5,-156,1.641025641025641,-132
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),C. Seager,Home Runs,,over,0.5,298,3.98,322
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),C. Seager,Home Runs,,under,0.5,-427,1.234192037470726,-322
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),C. Seager,Total Bases,,over,1.5,-107,1.9345794392523366,107
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),C. Seager,Total Bases,,under,1.5,-123,1.8130081300813008,-107
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Heim,Home Runs,,over,0.5,611,7.11,656
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Heim,Home Runs,,under,0.5,-1202,1.0831946755407653,-656
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Heim,Total Bases,,over,0.5,-179,1.558659217877095,-149
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Heim,Total Bases,,under,0.5,132,2.3200000000000003,149
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),N. Lowe,Home Runs,,over,0.5,696,7.96,746
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),N. Lowe,Home Runs,,under,0.5,-1486,1.0672947510094213,-746
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),N. Lowe,Total Bases,,over,0.5,-179,1.558659217877095,-148
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),N. Lowe,Total Bases,,under,0.5,131,2.31,148
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. Taveras,Home Runs,,over,0.5,744,8.440000000000001,796
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. Taveras,Home Runs,,under,0.5,-1659,1.0602772754671488,-796
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. Taveras,Total Bases,,under,0.5,125,2.25,141
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. Taveras,Total Bases,,over,0.5,-169,1.5917159763313609,-141
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),A. Garcia,Home Runs,,over,0.5,377,4.77,408
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),A. Garcia,Home Runs,,under,0.5,-587,1.170357751277683,-408
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),A. Garcia,Total Bases,,over,1.5,125,2.25,141
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),A. Garcia,Total Bases,,under,1.5,-169,1.5917159763313609,-141
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. H. Smith,Home Runs,,over,0.5,602,7.02,647
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. H. Smith,Home Runs,,under,0.5,-1175,1.0851063829787233,-647
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. H. Smith,Total Bases,,over,0.5,-202,1.495049504950495,-165
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. H. Smith,Total Bases,,under,0.5,146,2.46,165
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Jung,Home Runs,,over,0.5,541,6.41,583
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Jung,Home Runs,,under,0.5,-996,1.1004016064257027,-583
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Jung,Total Bases,,over,1.5,145,2.45,163
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Jung,Total Bases,,under,1.5,-200,1.5,-163
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),W. Langford,Home Runs,,over,0.5,635,7.35,682
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),W. Langford,Home Runs,,under,0.5,-1279,1.0781860828772478,-682
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),W. Langford,Total Bases,,over,1.5,153,2.5300000000000002,172
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),W. Langford,Total Bases,,under,1.5,-214,1.4672897196261683,-172
+s;0;ou;26.0,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,over,26.0,-138,1.7246376811594204,-124
+s;0;ou;26.0,2024-08-19,MLB,PIT(away) vs TEX(home),,total,,under,26.0,113,2.13,124
+pp;ou;po;15.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. L. Ortiz,Pitching Outs,,over,15.5,-108,1.925925925925926,106
+pp;ou;po;15.5,2024-08-19,MLB,PIT(away) vs TEX(home),L. L. Ortiz,Pitching Outs,,under,15.5,-123,1.8130081300813008,-106
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),M. A. Taylor,Home Runs,,over,0.5,697,7.97,747
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),M. A. Taylor,Home Runs,,under,0.5,-1489,1.0671591672263263,-747
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),M. A. Taylor,Total Bases,,over,0.5,-115,1.8695652173913042,100
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),M. A. Taylor,Total Bases,,under,0.5,-115,1.8695652173913042,100
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),R. Tellez,Home Runs,,over,0.5,575,6.75,618
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),R. Tellez,Home Runs,,under,0.5,-1094,1.0914076782449726,-618
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),R. Tellez,Total Bases,,over,0.5,-149,1.6711409395973154,-127
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),R. Tellez,Total Bases,,under,0.5,112,2.12,127
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),I. Kiner-Falefa,Total Bases,,over,1.5,141,2.41,159
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),I. Kiner-Falefa,Total Bases,,under,1.5,-193,1.5181347150259068,-159
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),B. De La Cruz,Home Runs,,over,0.5,495,5.95,534
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),B. De La Cruz,Home Runs,,under,0.5,-868,1.1152073732718895,-534
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),B. De La Cruz,Total Bases,,over,1.5,149,2.49,168
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),B. De La Cruz,Total Bases,,under,1.5,-207,1.4830917874396135,-168
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),K. Hayes,Home Runs,,under,0.5,-1827,1.0547345374931583,-841
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),K. Hayes,Home Runs,,over,0.5,787,8.870000000000001,841
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),K. Hayes,Total Bases,,over,0.5,-203,1.4926108374384237,-165
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),K. Hayes,Total Bases,,under,0.5,146,2.46,165
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Bart,Home Runs,,over,0.5,515,6.15,555
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Bart,Home Runs,,under,0.5,-922,1.1084598698481563,-555
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Bart,Total Bases,,over,0.5,-200,1.5,-163
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Bart,Total Bases,,under,0.5,145,2.45,163
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),O. Cruz,Home Runs,,over,0.5,347,4.470000000000001,375
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),O. Cruz,Home Runs,,under,0.5,-525,1.1904761904761905,-375
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),O. Cruz,Total Bases,,over,0.5,-182,1.5494505494505495,-150
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),O. Cruz,Total Bases,,under,0.5,133,2.33,150
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),B. Reynolds,Home Runs,,over,0.5,437,5.37,472
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),B. Reynolds,Home Runs,,under,0.5,-725,1.1379310344827587,-472
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),B. Reynolds,Total Bases,,over,1.5,122,2.2199999999999998,138
+pp;0;ou;tb;1.5,2024-08-19,MLB,PIT(away) vs TEX(home),B. Reynolds,Total Bases,,under,1.5,-164,1.6097560975609757,-138
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Triolo,Home Runs,,over,0.5,798,8.98,852
+pp;0;ou;hr;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Triolo,Home Runs,,under,0.5,-1871,1.0534473543559595,-852
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Triolo,Total Bases,,over,0.5,-161,1.62111801242236,-136
+pp;0;ou;tb;0.5,2024-08-19,MLB,PIT(away) vs TEX(home),J. Triolo,Total Bases,,under,0.5,120,2.2,136
+pp;0;ou;so;5.5,2024-08-19,MLB,PIT(away) vs TEX(home),D. Dunning,Total Strikeouts,,over,5.5,119,2.19,135
+pp;0;ou;so;5.5,2024-08-19,MLB,PIT(away) vs TEX(home),D. Dunning,Total Strikeouts,,under,5.5,-160,1.625,-135
+pp;0;ou;hita;4.5,2024-08-19,MLB,PIT(away) vs TEX(home),D. Dunning,Hits Allowed,,over,4.5,-156,1.641025641025641,-132
+pp;0;ou;hita;4.5,2024-08-19,MLB,PIT(away) vs TEX(home),D. Dunning,Hits Allowed,,under,4.5,117,2.17,132
+pp;0;ou;er;2.5,2024-08-19,MLB,PIT(away) vs TEX(home),D. Dunning,Earned Runs,,over,2.5,108,2.08,123
+pp;0;ou;er;2.5,2024-08-19,MLB,PIT(away) vs TEX(home),D. Dunning,Earned Runs,,under,2.5,-144,1.6944444444444444,-123

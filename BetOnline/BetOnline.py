@@ -201,8 +201,8 @@ async def getAsyncPropsIDs(game_Ids):
             if game:
                 game = game[-1]
 
-            gamesDict[gameId] = [getTeamAbr(jr[0]['team2']['title']) +
-                                 '(away) vs ' + getTeamAbr(jr[0]['team1']['title']) + '(home)' + game, jr[0]['league'].upper(), date]
+            gamesDict[str(gameId)] = [getTeamAbr(jr[0]['team2']['title']) +
+                                      '(away) vs ' + getTeamAbr(jr[0]['team1']['title']) + '(home)' + game, jr[0]['league'].upper(), date]
             # gamesDict['date'] = jr[0]['date'][:10]
     return gameIds, gamesDict
 
@@ -768,8 +768,8 @@ def dfByLoop(combined, gamesDict):
                 # print(statistic + plyr["name"] + "\nLine: " + str(plyr["markets"][0]
                 #                                                  ["value"]) + "\nOver: " + str(over_odds) + "\nUnder: " + str(under_odds))
                 gameId.append(plyr["markets"][0]["game1Id"])
-                teams.append(gamesDict[plyr["markets"][0]["game1Id"]][0])
-                league.append(gamesDict[plyr["markets"][0]["game1Id"]][1])
+                teams.append(gamesDict[str(plyr["markets"][0]["game1Id"])][0])
+                league.append(gamesDict[str(plyr["markets"][0]["game1Id"])][1])
                 units.append(statistic)
                 keys.append(makeKey(statistic, plyr["markets"][0]["value"]))
                 points.append(plyr["markets"][0]["value"])
@@ -781,11 +781,11 @@ def dfByLoop(combined, gamesDict):
                 nsplit = playerName.split()
                 name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
                 playName.append(name)
-                dates.append(gamesDict[plyr["markets"][0]["game1Id"]][2])
+                dates.append(gamesDict[str(plyr["markets"][0]["game1Id"])][2])
 
-                gameId.append(plyr["markets"][0]["game1Id"])
-                teams.append(gamesDict[plyr["markets"][0]["game1Id"]][0])
-                league.append(gamesDict[plyr["markets"][0]["game1Id"]][1])
+                gameId.append(str(plyr["markets"][0]["game1Id"]))
+                teams.append(gamesDict[str(plyr["markets"][0]["game1Id"])][0])
+                league.append(gamesDict[str(plyr["markets"][0]["game1Id"])][1])
                 units.append(statistic)
                 keys.append(makeKey(statistic, plyr["markets"][0]["value"]))
                 points.append(plyr["markets"][0]["value"])
@@ -793,7 +793,7 @@ def dfByLoop(combined, gamesDict):
                 odds.append(under_odds)
                 betOdds.append(decToAmerican(under_odds))
                 playName.append(name)
-                dates.append(gamesDict[plyr["markets"][0]["game1Id"]][2])
+                dates.append(gamesDict[str(plyr["markets"][0]["game1Id"])][2])
 
         elif r["type"] == "ss":
             # print(r["statistic"] + " Atleast")
@@ -802,9 +802,11 @@ def dfByLoop(combined, gamesDict):
                 for mrkt in plyr["markets"]:
                     # print(statistic + plyr["name"] + "\nLine: " + str(mrkt["value"]) + "\nOver: " + str(
                     #    mrkt["odds"]))
-                    gameId.append(plyr["markets"][0]["game1Id"])
-                    teams.append(gamesDict[plyr["markets"][0]["game1Id"]][0])
-                    league.append(gamesDict[plyr["markets"][0]["game1Id"]][1])
+                    gameId.append(str(plyr["markets"][0]["game1Id"]))
+                    teams.append(
+                        gamesDict[str(plyr["markets"][0]["game1Id"])][0])
+                    league.append(
+                        gamesDict[str(plyr["markets"][0]["game1Id"])][1])
                     units.append("Alternate " + statistic)
                     keys.append(
                         makeKey("Alternate " + statistic, mrkt["value"] - 0.5))
@@ -816,7 +818,8 @@ def dfByLoop(combined, gamesDict):
                     nsplit = playerName.split()
                     name = playerName.replace(nsplit[0], nsplit[0][0] + '.', 1)
                     playName.append(name)
-                    dates.append(gamesDict[plyr["markets"][0]["game1Id"]][2])
+                    dates.append(
+                        gamesDict[str(plyr["markets"][0]["game1Id"])][2])
 
     data = {"GameId": gameId, 'Teams': teams, 'League': league, "Key": keys, "Points": points, "Category": units,
             "Designation": designation, "BO dec_odds": odds, 'BO Odds': betOdds, "Name": playName, 'Date': dates}

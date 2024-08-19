@@ -1,0 +1,1562 @@
+{
+    "urlsGet": [
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928541?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928546?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928555?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928556?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928557?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928558?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928559?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928560?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928561?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/30928562?format=json",
+            "headers": {
+                "Accept": "*/*",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://sportsbook.draftkings.com/",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621524",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621524",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621529",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621529",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621530",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621530",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621537",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621537",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621539",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621539",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621538",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621538",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621565",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621565",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621566",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621566",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621568",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621568",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://api.on.pointsbet.com/api/mes/v3/events/621576",
+            "headers": {
+                "authority": "api.on.pointsbet.com",
+                "method": "GET",
+                "path": "/api/mes/v3/events/621576",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201414&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201414&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201414&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201414&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201414&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201414&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201414&statistic=Total%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=199887&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=199887&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=199887&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=199887&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=199887&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=199887&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=199887&statistic=Total%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201961&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201961&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201961&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201961&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201961&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201961&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201961&statistic=Total%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=200102&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=200102&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=200102&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=200102&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=200102&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=200102&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=200102&statistic=Total%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201053&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201053&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201053&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201053&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201053&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201053&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201053&statistic=Total%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=202104&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=202104&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=202104&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=202104&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=202104&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=202104&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=202104&statistic=Total%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201553&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201553&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201553&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201553&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201553&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201553&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsByOu?sb=betonline&gameId=201553&statistic=Total%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201414&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201414&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201414&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201414&statistic=Home%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201414&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201414&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201414&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=199887&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=199887&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=199887&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=199887&statistic=Home%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=199887&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=199887&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=199887&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201961&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201961&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201961&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201961&statistic=Home%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201961&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201961&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201961&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=200102&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=200102&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=200102&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=200102&statistic=Home%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=200102&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=200102&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=200102&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201053&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201053&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201053&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201053&statistic=Home%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201053&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201053&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201053&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=202104&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=202104&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=202104&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=202104&statistic=Home%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=202104&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=202104&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=202104&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201553&statistic=Earned%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201553&statistic=Hits",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201553&statistic=Hits%2520Allowed",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201553&statistic=Home%2520runs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201553&statistic=Runs%2520%252B%2520RBIs",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201553&statistic=Stolen%2520bases",
+            "headers": null
+        },
+        {
+            "url": "https://bv2.digitalsportstech.com/api/dfm/marketsBySs?sb=betonline&gameId=201553&statistic=Strikeouts",
+            "headers": null
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33504992&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33504993&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33504994&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33504997&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33504998&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33504999&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33505000&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33505001&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33505003&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://sbapi.on.sportsbook.fanduel.ca/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=33505005&tab=popular&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true",
+            "headers": {
+                "accept": "application/json",
+                "referer": "https://on.sportsbook.fanduel.ca/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?1",
+                "sec-ch-ua-platform": "\"Android\"",
+                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595533168/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595531333/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595553124/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595533682/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595549648/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595552577/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595533332/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595531067/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595530810/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595553381/related",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595533168/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595531333/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595553124/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595533682/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595549648/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595552577/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595533332/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595531067/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595530810/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        },
+        {
+            "url": "https://guest.api.arcadia.pinnacle.com/0.1/matchups/1595553381/markets/related/straight",
+            "headers": {
+                "accept": "application/json",
+                "accept-encoding": "gzip, deflate, br, zstd",
+                "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+                "content-type": "application/json",
+                "origin": "https://www.pinnacle.com",
+                "referer": "https://www.pinnacle.com/",
+                "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\"",
+                "sec-ch-ua-mobile": "?0",
+                "sec-ch-ua-platform": "\"Windows\"",
+                "sec-fetch-dest": "empty",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-site": "same-site",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+                "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+                "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+            }
+        }
+    ],
+    "urlsPost": [
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463030,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463031,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463034,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463036,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463033,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463029,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463028,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463035,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463037,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        },
+        {
+            "url": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+            "headers": {
+                "authority": "api-offering.betonline.ag",
+                "method": "POST",
+                "path": "/api/offering/sports/get-event",
+                "scheme": "https",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Access-Control-Allow-Headers": "Content-Type",
+                "Access-Control-Allow-Methods": "GET, POST",
+                "Access-Control-Allow-Origin": "https://api-offering.betonline.ag/api/offering/sports/get-event",
+                "Actual-Time": "1724083914996",
+                "Content-Length": "74",
+                "Content-Type": "application/json",
+                "Contests": "na",
+                "Gmt-Offset": "-5",
+                "Gsetting": "bolnasite",
+                "Iso-Time": "2024-08-19T16:11:54.996548Z",
+                "Origin": "https://www.betonline.ag",
+                "Referer": "https://www.betonline.ag/",
+                "Sec-Ch-Ua": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"",
+                "Sec-Ch-Ua-Mobile": "?1",
+                "Sec-Ch-Ua-Platform": "\"Android\"",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-site",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36",
+                "Utc-Offset": "300",
+                "Utc-Time": "Mon, 19 Aug 2024 16:11:54 GMT"
+            },
+            "payload": {
+                "GameID": 490463032,
+                "Sport": "baseball",
+                "League": "mlb",
+                "ScheduleText": null
+            }
+        }
+    ],
+    "urlsDKLength": 10,
+    "urlsPBLength": 10,
+    "urlsGetBOLength": 98,
+    "urlsPostBOLength": 10,
+    "urlsFDLength": 10,
+    "nameUrlsPNLength": 10,
+    "oddsUrlsPNLength": 10,
+    "gamesDictBO": {
+        "201414": [
+            "BAL(away) vs NYM(home)",
+            "MLB",
+            "2024-08-19"
+        ],
+        "199887": [
+            "BOS(away) vs HOU(home)",
+            "MLB",
+            "2024-08-19"
+        ],
+        "201961": [
+            "LAA(away) vs KAN(home)",
+            "MLB",
+            "2024-08-19"
+        ],
+        "200102": [
+            "TB(away) vs OAK(home)",
+            "MLB",
+            "2024-08-19"
+        ],
+        "201053": [
+            "MIN(away) vs SD(home)",
+            "MLB",
+            "2024-08-19"
+        ],
+        "202104": [
+            "CWS(away) vs SF(home)",
+            "MLB",
+            "2024-08-19"
+        ],
+        "201553": [
+            "SEA(away) vs LAD(home)",
+            "MLB",
+            "2024-08-19"
+        ]
+    }
+}
