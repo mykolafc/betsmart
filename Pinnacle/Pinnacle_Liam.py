@@ -17,6 +17,7 @@ import git
 
 def getDataMlb():
     # It's possible that some things in this link variable so it might not always be this EXACT link
+    # Also, this link might be for all sports, it doesnt necessariyl mean this is just for mlb
     url = "https://guest.api.arcadia.pinnacle.com/0.1/sports/3/matchups?withSpecials=false&brandId=0"
 
     headers = {
@@ -42,12 +43,50 @@ def getDataMlb():
     return data
 
 
-# For now this is only fetching MLB eventIds
+def getDataNfl():
+    # It's possible that some things in this link variable so it might not always be this EXACT link
+    # Also, this link might be for all sports, it doesnt necessariyl mean this is just for mlb
+    url = "https://guest.api.arcadia.pinnacle.com/0.1/sports/15/matchups?withSpecials=false&brandId=0"
+
+    headers = {
+        "accept": "application/json",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en-CA;q=0.9,en;q=0.8",
+        "content-type": "application/json",
+        "origin": "https://www.pinnacle.com",
+        "referer": "https://www.pinnacle.com/",
+        "sec-ch-ua": '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+        "x-api-key": "CmX2KcMrXuFmNg6YFbmTxE0y9CIrOi0R",
+        "x-device-uuid": "9fb7181d-89110321-9fcc237c-b457a792"
+    }
+    response = requests.get(url, headers=headers)
+    print(response.status_code)
+    data = response.json()
+    return data
+
+
+def isNotLive(startTime):
+    target_time = datetime.strptime(startTime, "%Y-%m-%dT%H:%M:%SZ")
+    threshold_time = target_time - timedelta(hours=4, minutes=1)
+    current_time = datetime.now()
+    # Check if the current time is before the threshold
+    return current_time < threshold_time
+
+# For now this is only fetching eventIds
+
+
 def listGameIds(data):
     gameIds = []
     for game in data:
-        # Id of mlb
-        if game['league']['id'] == 246 and game['parentId'] != None:
+        # Id of mlb or nfl
+        # For mlb its: game['parentId'] != None but NFL its game['parentId'] == None
+        if (isNotLive(game['startTime'])) and ((game['league']['id'] == 246 and game['parentId'] != None) or (game['league']['id'] == 889 and game['parentId'] == None)):
             gameIds.append(game['id'])
     return gameIds
 
@@ -134,6 +173,20 @@ def makeKey(unit, points, name=None):
         # Idk wtf this is below
         "Pitching Outs": f'pp;ou;po;{points}',
 
+        # NFL switches
+        'Anytime TD': f'pp;0;ou;td;0.5',
+        'Rushing Yards': f'pp;0;ou;ruy;{points}',
+        'Receptions': f'pp;0;ou;rec;{points}',
+        'Receiving Yards': f'pp;0;ou;rey;{points}',
+        'Longest Reception': f'pp;0;ou;lrc;{points}',
+        'Pass Attempts': f'pp;0;ou;pat;{points}',
+        'Passing Yards': f'pp;0;ou;pay;{points}',
+        'TD Passes': f'pp;0;ou;tdp;{points}',
+        'Interceptions': f'pp;0;ou;int;{points}',
+        'Completions': f'pp;0;ou;com;{points}',
+        'Longest Completion': f'pp;0;ou;lco;{points}',
+        'Kicking Points': f'pp;0;ou;kpt;{points}',
+
         # NHL switches
         re.compile(r'^Away Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
         re.compile(r'^Away Player [A-Z] Assists Over/Under$'): f"pp;0;ou;asst;{points}",
@@ -161,7 +214,8 @@ def makeKey(unit, points, name=None):
 
 
 def getTeamName(name):
-    switcherMLB = {
+    switcher = {
+        # MLB
         "Arizona Diamondbacks": "ARI",
         "Atlanta Braves": "ATL",
         "Baltimore Orioles": "BAL",
@@ -192,9 +246,43 @@ def getTeamName(name):
         "Texas Rangers": "TEX",
         "Toronto Blue Jays": "TOR",
         "Washington Nationals": "WAS",
+
+        # NFL
+        "Arizona Cardinals": "ARI",
+        "Atlanta Falcons": "ATL",
+        "Baltimore Ravens": "BAL",
+        "Buffalo Bills": "BUF",
+        "Carolina Panthers": "CAR",
+        "Chicago Bears": "CHI",
+        "Cincinnati Bengals": "CIN",
+        "Cleveland Browns": "CLE",
+        "Dallas Cowboys": "DAL",
+        "Denver Broncos": "DEN",
+        "Detroit Lions": "DET",
+        "Green Bay Packers": "GB",
+        "Houston Texans": "HOU",
+        "Indianapolis Colts": "IND",
+        "Jacksonville Jaguars": "JAX",
+        "Kansas City Chiefs": "KC",
+        "Las Vegas Raiders": "LV",
+        "Los Angeles Chargers": "LAC",
+        "Los Angeles Rams": "LAR",
+        "Miami Dolphins": "MIA",
+        "Minnesota Vikings": "MIN",
+        "New England Patriots": "NE",
+        "New Orleans Saints": "NO",
+        "New York Giants": "NYG",
+        "New York Jets": "NYJ",
+        "Philadelphia Eagles": "PHI",
+        "Pittsburgh Steelers": "PIT",
+        "San Francisco 49ers": "SF",
+        "Seattle Seahawks": "SEA",
+        "Tampa Bay Buccaneers": "TB",
+        "Tennessee Titans": "TEN",
+        "Washington Commanders": "WAS"
     }
 
-    return switcherMLB.get(name, name)
+    return switcher.get(name, name)
 
 
 def getLeague(competitionId):
@@ -279,6 +367,8 @@ def gigaDump2(respNameData, respOddsData):
         nameData = nameData.json()
         oddsData = oddsData.json()
         matchupIds = dict()
+        # if len(nameData) < 2:
+        #     print(nameData)
         league = nameData[0]['league']['name']
         awayHomeTeams = getTeamName(nameData[0]['participants'][1]['name']) + \
             '(away) vs ' + \
@@ -287,9 +377,9 @@ def gigaDump2(respNameData, respOddsData):
         for bet in nameData:
             if bet.get('special') and bet['special'].get('category') == 'Player Props':
                 for participant in bet['participants']:
-                    if participant['name'] == 'Over':
+                    if participant['name'] in ['Over', 'Yes']:
                         overId = participant['id']
-                    elif participant['name'] == 'Under':
+                    elif participant['name'] in ['Under', 'No']:
                         underId = participant['id']
                 matchupIds[bet['id']] = {'description': bet['special']['description'],
                                          overId: 'over',
@@ -301,6 +391,9 @@ def gigaDump2(respNameData, respOddsData):
         for item in oddsData:
             # Getting the date of the game
             # this code makes sure it grabs the date of the start of the game
+            # print(item)
+            if 'cutoffAt' not in item:
+                print(item)
             datetimeStr = item['cutoffAt']
             # Try parsing with the first format
             try:
@@ -315,8 +408,11 @@ def gigaDump2(respNameData, respOddsData):
             # This is for player props
             if item.get('matchupId') in matchupIds:
                 # Getting the fair odds right off the bat
-                fairOverOdd, fairUnderOdd = fairOdds(
-                    item['prices'][0]['price'], item['prices'][1]['price'])
+                if len(item['prices']) >= 2:
+                    fairOverOdd, fairUnderOdd = fairOdds(
+                        item['prices'][0]['price'], item['prices'][1]['price'])
+                else:
+                    fairOverOdd = fairUnderOdd = None
                 # Getting the player name
                 playerName = re.search(
                     r'^(.*?)\s*\(', matchupIds[item['matchupId']]['description']).group(1).strip()
@@ -332,16 +428,19 @@ def gigaDump2(respNameData, respOddsData):
                 side.append(None)
                 designation.append(
                     matchupIds[item['matchupId']][item['prices'][0]['participantId']])
-                points.append(item['prices'][0]['points'])
+                # Im making an assumption here that if theres no Point value, it means the line is 0.5, ex anytime TD
+                points.append(item['prices'][0].get('points', 0.5))
                 dates.append(date)
                 # This searches for whats inside the first parantheses (which is the category we're looking for)
                 keys.append(
-                    makeKey(re.search(r'\(([^)]+)\)', matchupIds[item['matchupId']]['description']).group(1), item['prices'][0]['points']))
+                    makeKey(re.search(r'\(([^)]+)\)', matchupIds[item['matchupId']]['description']).group(1), item['prices'][0].get('points', 0.5)))
                 americanOdds.append(item['prices'][0]['price'])
                 odds.append(american_to_decimal(item['prices'][0]['price']))
                 noVigOdds.append(fairOverOdd)
 
                 # Under
+                if len(item['prices']) < 2:
+                    continue
                 leagues.append(league)
                 teams.append(awayHomeTeams)
                 categories.append(
@@ -352,8 +451,8 @@ def gigaDump2(respNameData, respOddsData):
                     matchupIds[item['matchupId']][item['prices'][1]['participantId']])
                 dates.append(date)
                 keys.append(
-                    makeKey(re.search(r'\(([^)]+)\)', matchupIds[item['matchupId']]['description']).group(1), item['prices'][1]['points']))
-                points.append(item['prices'][1]['points'])
+                    makeKey(re.search(r'\(([^)]+)\)', matchupIds[item['matchupId']]['description']).group(1), item['prices'][1].get('points', 0.5)))
+                points.append(item['prices'][0].get('points', 0.5))
                 americanOdds.append(item['prices'][1]['price'])
                 odds.append(american_to_decimal(item['prices'][1]['price']))
                 noVigOdds.append(fairUnderOdd)

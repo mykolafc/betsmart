@@ -46,7 +46,7 @@ def calculate_fairOdds_ratio(row):
     valid_odds = [odd for odd in odds if pd.notnull(odd)]
 
     # If there are fewer than 2 valid odds, return None or some default value
-    if len(valid_odds) < 2 or pd.isnull(fair_odds_american):
+    if len(valid_odds) < 1 or pd.isnull(fair_odds_american):
         return None
 
     # Find the maximum odds
@@ -166,13 +166,13 @@ merged_df = pd.DataFrame()
 
 # Theres a problem with the merging, I think its because if the keys are None, it merges anyways
 merged_df = pd.merge(df1, df2, how='outer', on=[
-                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'Date'], suffixes=('_df1', '_df2'))
+                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('_df1', '_df2'))
 merged_df = pd.merge(merged_df, df3, how='outer', on=[
-                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'Date'], suffixes=('_df1_df2', '_df3'))
+                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('_df1_df2', '_df3'))
 merged_df = pd.merge(merged_df, df4, how='outer', on=[
-                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'Date'], suffixes=('', '_df4'))
+                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('', '_df4'))
 merged_df = pd.merge(merged_df, df5, how='outer', on=[
-                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'Date'], suffixes=('', '_df5'))
+                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('', '_df5'))
 
 merged_df['Profits Ratio'] = merged_df.apply(
     calculate_ratio, axis=1)  # Calculate the odds ratio

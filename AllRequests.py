@@ -21,7 +21,7 @@ import re
 import git
 
 # Checks if the urls were made within the hour, if it isnt we remake the urls
-if time.time() - os.path.getmtime('urlsForRequests.json') > 3600:
+if time.time() - os.path.getmtime('urlsForRequests.json') > 500:
     urlsGet = []
     urlsPost = []
 
@@ -30,13 +30,21 @@ if time.time() - os.path.getmtime('urlsForRequests.json') > 3600:
     urlsDK = dk.makeRequestLinks(mlbDK)
     urlsGet = urlsGet + urlsDK
 
+    # response = requests.get(urlsDK[1]['url'], headers=urlsDK[1]['headers'])
+    # data = response.json()
+    # with open('DraftkingsResponse.json', 'w') as json_file:
+    #     json.dump(data, json_file, indent=4)
+
     # PointsBet
     mlbPB = pb.getDataMlb()
-    urlsPB = pb.makeRequestLinks(mlbPB)
+    nflPB = pb.getDataNfl()
+    urlsMlbPB = pb.makeRequestLinks(mlbPB)
+    urlsNflPB = pb.makeRequestLinks(nflPB)
+    urlsPB = urlsMlbPB + urlsNflPB
     urlsGet = urlsGet + urlsPB
 
     # BetOnline
-    game_Ids, gameIdsByLeague = bo.getGeneralGameIDs()
+    game_Ids, gameIdsByLeague = bo.getGeneralGameIDs(days=5)
     # Don't think keeping gameIds is necessary
     gameIds, gamesDict = bo.getPropsgameIds(game_Ids)
     urlsGetBO = bo.getPropsUrls2(gamesDict)
@@ -51,7 +59,11 @@ if time.time() - os.path.getmtime('urlsForRequests.json') > 3600:
 
     # Pinnacle
     mlbPN = pn.getDataMlb()
-    nameUrlsPN, oddsUrlsPN = pn.makeRequestLinks(mlbPN)
+    nflPN = pn.getDataNfl()
+    nameUrlsMlbPN, oddsUrlsMlbPN = pn.makeRequestLinks(mlbPN)
+    nameUrlsNflPN, oddsUrlsNflPN = pn.makeRequestLinks(nflPN)
+    nameUrlsPN = nameUrlsMlbPN + nameUrlsNflPN
+    oddsUrlsPN = oddsUrlsMlbPN + oddsUrlsNflPN
     urlsGet = urlsGet + nameUrlsPN + oddsUrlsPN
 
     urls = {'urlsGet': urlsGet, 'urlsPost': urlsPost, 'urlsDKLength': len(urlsDK), 'urlsPBLength': len(urlsPB), 'urlsGetBOLength': len(

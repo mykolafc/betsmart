@@ -134,14 +134,25 @@ def getGameId(data):
     return gameId
 '''
 
+# This function checks if a game is live based off its time and date
+
+
+def isNotLive(openDate):
+    # Parse the given date string into a datetime object (assuming it's in UTC)
+    target_time = datetime.strptime(openDate, "%Y-%m-%dT%H:%M:%S.%fZ")
+    threshold_time = target_time - timedelta(hours=4, minutes=2)
+    current_time = datetime.now()
+    # Check if the current time is before the threshold
+    return current_time < threshold_time
+
 
 # For now this is only fetching MLB eventIds
 def listGameIds(data):
-    gameIds = []
+    gameIds = dict()
     for event in data['attachments']['events'].values():
-        # This number is the number representing that its an mlb game
-        if event['competitionId'] == 11196870:
-            gameIds.append(event['eventId'])
+        # This number is the number representing that its an mlb or nfl game, [11196870, 12282733]
+        if event['competitionId'] in [11196870, 12282733] and event['name'] not in ['NFL', 'MLB'] and isNotLive(event['openDate']):
+            gameIds[event['eventId']] = event['competitionId']
     return gameIds
 
 
@@ -153,101 +164,6 @@ def decimal_to_american(decimal_odds):
     else:
         american_odds = -100 / (decimal_odds - 1)
     return round(american_odds)
-
-
-def getGameData(gameId):
-
-    gameUrl = "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/" + \
-        gameId+"?format=json"
-
-    gameHeaders = {
-        'Accept': '*/*',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Referer': 'https://sportsbook.draftkings.com/',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'same-site',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15',
-    }
-
-    gameResponse = requests.get(gameUrl, headers=gameHeaders)
-    data = gameResponse.json()
-
-    with open('DraftKingsGame'+gameId+'.json', 'w') as f:
-        json.dump(data, f, indent=4)
-
-    return data
-
-
-def gameJson(gameId):
-    gameUrl = "https://api.on.DraftKings.com/api/mes/v3/events/"+gameId
-
-    gameHeaders = {
-        "authority": "api.on.DraftKings.com",
-        "method": "GET",
-        "path": "/api/mes/v3/events/"+gameId,
-        "scheme": "https",
-        "Accept": "application/json, text/plain, /",
-        "Accept-Encoding": "gzip, deflate, br, zstd",
-        "Accept-Language": "en-US,en;q=0.9",
-        # "If-Modified-Since": "Fri, 24 May 2024 17:13:09 GMT",
-        "Origin": "https://on.DraftKings.ca/",
-        "Priority": "u=1, i",
-        "Referer": "https://on.DraftKings.ca/",
-        "Request-Id": "|36c6c128c94f46ffa4f43c87f09fa6b2.888d033e0e04443f",
-        "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
-        "Sec-Ch-Ua-Mobile": "?1",
-        "Sec-Ch-Ua-Platform": '"Android"',
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "cross-site",
-        "Traceparent": "00-36c6c128c94f46ffa4f43c87f09fa6b2-888d033e0e04443f-01",
-        "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
-    }
-
-    gameResponse = requests.get(gameUrl, headers=gameHeaders)
-    data = gameResponse.json()
-
-    with open('DraftKingsGame'+gameId+'.json', 'w') as f:
-        json.dump(data, f, indent=4)
-
-
-def jsonDump(data, league):
-    with open('DraftKings'+league+'.json', 'w') as f:
-        json.dump(data, f, indent=4)
-
-
-def csvDump(data, league):
-
-    teams = []
-    points = []
-    odds = []
-    side = []
-    category = []
-    names = []
-    designation = []
-    unit = []
-
-    for x in data['events']:
-        for y in x['specialFixedOddsMarkets']:
-            for z in y['outcomes']:
-                teams.append(x['awayTeam'] + '(away)' +
-                             ' vs ' + x['homeTeam'] + '(home)')
-                category.append(z['groupByHeader'])
-                side.append(z['side'])
-                points.append(z['points'])
-                odds.append(z['price'])
-                names.append(' ')
-                unit.append(' ')
-                if 'Over' in z['name']:
-                    designation.append('over')
-                elif 'Under' in z['name']:
-                    designation.append('under')
-                else:
-                    designation.append(' ')
-
-    df = pd.DataFrame({'Teams': teams, 'Category': category, 'Designation': designation,
-                       'Side': side, 'Name': names, 'Points': points, 'Odds': odds, 'Units': unit})
-    df.to_csv('DraftKings'+league+'.csv', index=False)
 
 
 def makeKey(unit, points, name=None):
@@ -306,6 +222,31 @@ def makeKey(unit, points, name=None):
         "HOME_TOTAL_RUNS": f"s;0;tt;{points};home",
         "HOME_TEAM_ALTERNATE_TOTAL_RUNS": f"s;0;tt;{points};home",
 
+        # Nfl switches
+        "ALTERNATE_TOTAL": f"s;0;ou;{points}",
+        "AWAY_TOTAL_POINTS": f"s;0;tt;{points};away",
+        "HOME_TOTAL_POINTS": f"s;0;tt;{points};home",
+        "ANY_TIME_TOUCHDOWN_SCORER": f"pp;0;ou;td;0.5",
+
+        re.compile(r'^PLAYER_[A-Z]_-_ALT_PASSING_TDS$'): f"pp;0;ss;tdp;{points}",
+        re.compile(r'^PLAYER_[A-Z]_-_ALT_PASSING_YARDS$'): f"pp;0;ss;pay;{points}",
+        re.compile(r'^PLAYER_[A-Z]_-_ALT_RUSH_YARDS$'): f"pp;0;ss;ruy;{points}",
+        re.compile(r'^PLAYER_[A-Z]_-_ALT_RECEIVING_YARDS$'): f"pp;0;ss;rey;{points}",
+        re.compile(r'^PLAYER_[A-Z]_-_ALT_RECEPTIONS$'): f'pp;0;ss;rec;{points}',
+
+        re.compile(r'^PLAYER_[A-Z]_TOTAL_RECEIVING_YARDS$'): f'pp;0;ou;rey;{points}',
+        re.compile(r'^PLAYER_[A-Z]_LONGEST_RECEPTION$'): f'pp;0;ou;lrc;{points}',
+        re.compile(r'^PLAYER_[A-Z]_TOTAL_RECEPTIONS$'): f'pp;0;ou;rec;{points}',
+        re.compile(r'^PLAYER_[A-Z]_INTERCEPTION$'): f'pp;0;ou;int;0.5',
+        re.compile(r'^PLAYER_[A-Z]_LONGEST_PASS_COMPLETION$'): f'pp;0;ou;lco;{points}',
+        re.compile(r'^PLAYER_[A-Z]_PASS_ATTEMPTS$'): f'pp;0;ou;pat;{points}',
+        re.compile(r'^PLAYER_[A-Z]_TOTAL_PASS_COMPLETIONS$'): f'pp;0;ou;com;{points}',
+        re.compile(r'PLAYER_[A-Z]_TOTAL_PASSING_TOUCHDOWNS^$'): f'pp;0;ou;tdp;{points}',
+        re.compile(r'^PLAYER_[A-Z]_TOTAL_PASSING_YARDS$'): f'pp;0;ou;pay;{points}',
+        re.compile(r'^PLAYER_[A-Z]_TOTAL_RUSH_ATTEMPTS$'): f'pp;0;ou;rut;{points}',
+        re.compile(r'^PLAYER_[A-Z]_TOTAL_RUSHING_YARDS$'): f'pp;0;ou;ruy;{points}',
+        re.compile(r'^PLAYER_[A-Z]_LONGEST_RUSH$'): f'pp;0;ou;lru;{points}',
+
         # NHL switches
         re.compile(r'^Away Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
         re.compile(r'^Away Player [A-Z] Assists Over/Under$'): f"pp;0;ou;asst;{points}",
@@ -331,16 +272,10 @@ def makeKey(unit, points, name=None):
 
     return None
 
-    for pattern in patterns:
-        # Replace ? with a regex pattern that matches any letter
-        regex_pattern = re.sub(r'\?', r'[A-Za-z]', pattern)
-        if re.fullmatch(regex_pattern, event_class):
-            return True
-    return False
-
 
 def getTeamName(name):
-    switcherMLB = {
+    switcher = {
+        # Mlb
         "Arizona Diamondbacks": "ARI",
         "Atlanta Braves": "ATL",
         "Baltimore Orioles": "BAL",
@@ -371,14 +306,49 @@ def getTeamName(name):
         "Texas Rangers": "TEX",
         "Toronto Blue Jays": "TOR",
         "Washington Nationals": "WAS",
+
+        # NFL
+        "Arizona Cardinals": "ARI",
+        "Atlanta Falcons": "ATL",
+        "Baltimore Ravens": "BAL",
+        "Buffalo Bills": "BUF",
+        "Carolina Panthers": "CAR",
+        "Chicago Bears": "CHI",
+        "Cincinnati Bengals": "CIN",
+        "Cleveland Browns": "CLE",
+        "Dallas Cowboys": "DAL",
+        "Denver Broncos": "DEN",
+        "Detroit Lions": "DET",
+        "Green Bay Packers": "GB",
+        "Houston Texans": "HOU",
+        "Indianapolis Colts": "IND",
+        "Jacksonville Jaguars": "JAX",
+        "Kansas City Chiefs": "KC",
+        "Las Vegas Raiders": "LV",
+        "Los Angeles Chargers": "LAC",
+        "Los Angeles Rams": "LAR",
+        "Miami Dolphins": "MIA",
+        "Minnesota Vikings": "MIN",
+        "New England Patriots": "NE",
+        "New Orleans Saints": "NO",
+        "New York Giants": "NYG",
+        "New York Jets": "NYJ",
+        "Philadelphia Eagles": "PHI",
+        "Pittsburgh Steelers": "PIT",
+        "San Francisco 49ers": "SF",
+        "Seattle Seahawks": "SEA",
+        "Tampa Bay Buccaneers": "TB",
+        "Tennessee Titans": "TEN",
+        "Washington Commanders": "WAS"
     }
 
-    return switcherMLB.get(name, name)
+    return switcher.get(name, name)
 
 
 def getLeague(competitionId):
     switcher = {
         11196870: "MLB",
+        12282733: 'NFL',
         # Add other leagues in the future
     }
 
@@ -387,6 +357,7 @@ def getLeague(competitionId):
 
 # This function is going to make the request links useful for FanDuel
 def makeRequestLinks(data):
+    nflProps = ['passing-props', 'receiving-props', 'rushing-props']
     games = listGameIds(data)
     urls = []
 
@@ -400,13 +371,29 @@ def makeRequestLinks(data):
                          'sec-ch-ua-platform': '"Android"',
                          'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36'
         }})
+        if games[x] == 12282733:
+            for prop in nflProps:
+                urls.append({'url': 'https://sbapi.az.sportsbook.fanduel.com/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=' + str(x) + '&tab=' + prop + '&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true&useQuickBetsNFL=true',
+                            'headers': {
+                                "authority": "sbapi.az.sportsbook.fanduel.com",
+                                "method": "GET",
+                                "path": "/api/event-page?_ak=FhMFpcPWXMeyZxOx&eventId=" + str(x) + "&tab=" + prop + "&useCombinedTouchdownsVirtualMarket=true&usePulse=true&useQuickBets=true&useQuickBetsNFL=true",
+                                "scheme": "https",
+                                "accept": "application/json",
+                                "accept-encoding": "identity",
+                                "accept-language": "en-US,en;q=0.9",
+                                "origin": "https://sportsbook.fanduel.com",
+                                "referer": "https://sportsbook.fanduel.com/",
+                                "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36"
+                }})
     return urls
 
 
 # For Game props
 def validMarketTypeGame(marketType):
     if marketType in ['MONEY_LINE', 'MATCH_HANDICAP_(2-WAY)', "ALTERNATE_TOTAL_RUNS", "TOTAL_POINTS_(OVER/UNDER)",
-                      "AWAY_TOTAL_RUNS", "HOME_TOTAL_RUNS", "AWAY_TEAM_ALTERNATE_TOTAL_RUNS", "HOME_TEAM_ALTERNATE_TOTAL_RUNS"]:
+                      "AWAY_TOTAL_RUNS", "HOME_TOTAL_RUNS", "AWAY_TEAM_ALTERNATE_TOTAL_RUNS", "HOME_TEAM_ALTERNATE_TOTAL_RUNS",
+                      "AWAY_TOTAL_POINTS", "HOME_TOTAL_POINTS", "ALTERNATE_TOTAL"]:
         return True
     else:
         return False
@@ -414,7 +401,28 @@ def validMarketTypeGame(marketType):
 
 # For Over/Under
 def validMarketTypeOUPP(marketType):
-    if bool(re.match(r'^PITCHER_\w_TOTAL_STRIKEOUTS$', marketType)):
+    patternsOUPP = [
+        r'^PITCHER_[A-Z]_TOTAL_STRIKEOUTS$',
+
+        r'^PLAYER_[A-Z]_TOTAL_RECEIVING_YARDS$',
+        r'^PLAYER_[A-Z]_LONGEST_RECEPTION$',
+        r'^PLAYER_[A-Z]_TOTAL_RECEPTIONS$',
+
+        r'^PLAYER_[A-Z]_INTERCEPTION$',
+        r'^PLAYER_[A-Z]_LONGEST_PASS_COMPLETION$',
+        r'^PLAYER_[A-Z]_PASS_ATTEMPTS$',
+        r'^PLAYER_[A-Z]_TOTAL_PASS_COMPLETIONS$',
+        r'PLAYER_[A-Z]_TOTAL_PASSING_TOUCHDOWNS^$',
+        r'^PLAYER_[A-Z]_TOTAL_PASSING_YARDS$',
+
+        r'^PLAYER_[A-Z]_TOTAL_RUSH_ATTEMPTS$',
+        r'^PLAYER_[A-Z]_TOTAL_RUSHING_YARDS$',
+        r'^PLAYER_[A-Z]_LONGEST_RUSH$',
+
+        # r'^$',
+        # r'^$'
+    ]
+    if any(re.match(pattern, marketType) for pattern in patternsOUPP):
         return True
     else:
         return False
@@ -422,11 +430,29 @@ def validMarketTypeOUPP(marketType):
 
 # For Atleasts
 def validMarketTypeAlternatePP(marketType):
+    patternsAlternatePP = [
+        r'^PITCHER_[A-Z]_STRIKEOUTS$',
+
+        r'^PLAYER_[A-Z]_-_ALT_PASSING_TDS$',
+        r'^PLAYER_[A-Z]_-_ALT_PASSING_YARDS$',
+
+        r'^PLAYER_[A-Z]_-_ALT_RUSH_YARDS$',
+
+        r'^PLAYER_[A-Z]_-_ALT_RECEIVING_YARDS$',
+        r'^PLAYER_[A-Z]_-_ALT_RECEPTIONS$',
+
+        # r'^$',
+        # r'^$',
+        # r'^$'
+        # Add more patterns here
+    ]
+
     if marketType in ["TO_HIT_A_HOME_RUN", "PLAYER_TO_RECORD_A_HIT", "PLAYER_TO_RECORD_2+_HITS", "PLAYER_TO_RECORD_3+_HITS", "TO_RECORD_A_STOLEN_BASE", "TO_RECORD_A_RUN",
                       "TO_RECORD_2+_RUNS", "TO_RECORD_3+_RUNS", "TO_RECORD_AN_RBI", "TO_RECORD_2+_RBIS", "TO_RECORD_2+_TOTAL_BASES", "TO_RECORD_3+_TOTAL_BASES",
-                      "TO_RECORD_4+_TOTAL_BASES", "TO_RECORD_5+_TOTAL_BASES", "TO_HIT_A_SINGLE", "TO_HIT_A_DOUBLE", "TO_HIT_A_TRIPLE"]:
+                      "TO_RECORD_4+_TOTAL_BASES", "TO_RECORD_5+_TOTAL_BASES", "TO_HIT_A_SINGLE", "TO_HIT_A_DOUBLE", "TO_HIT_A_TRIPLE",
+                      "ANY_TIME_TOUCHDOWN_SCORER", ]:
         return True
-    elif bool(re.match(r'^PITCHER_\w_STRIKEOUTS$', marketType)):
+    elif any(re.match(pattern, marketType) for pattern in patternsAlternatePP):
         return True
     else:
         return False
@@ -454,10 +480,21 @@ def gigaDump2(response):
 
         eventId = list(data['attachments']['events'].keys())[0]
         eventName = data['attachments']['events'][eventId]['name']
-        match = re.match(r"(.+?) \(.+?\) @ (.+?) \(.+?\)", eventName)
-        if match:
-            awayTeam = match.group(1)
-            homeTeam = match.group(2)
+
+        # if eventName == 'Las Vegas Raiders @ Los Angeles Chargers':
+        #     with open('fanduelNflGame.json', 'w') as file:
+        #         json.dump(data, file, indent=4)
+
+        matchMLB = re.match(r"(.+?) \(.+?\) @ (.+?) \(.+?\)", eventName)
+        matchNFL = re.match(r"(.+) @ (.+)", eventName)
+        if matchMLB:
+            # MLB format matched
+            awayTeam = matchMLB.group(1)
+            homeTeam = matchMLB.group(2)
+        elif matchNFL:
+            # NFL format matched
+            awayTeam = matchNFL.group(1)
+            homeTeam = matchNFL.group(2)
         homeAwayTeams = getTeamName(awayTeam) + \
             '(away)' + ' vs ' + getTeamName(homeTeam) + '(home)'
         currentLeague = getLeague(
@@ -498,6 +535,9 @@ def gigaDump2(response):
                     else:
                         point = runner['handicap']
                         points.append(point)
+
+                    if 'winRunnerOdds' not in runner:
+                        print(runner)
 
                     odds.append(runner['winRunnerOdds']
                                 ['trueOdds']['decimalOdds']['decimalOdds'])
@@ -540,14 +580,24 @@ def gigaDump2(response):
                     americanOdds.append(
                         runner['winRunnerOdds']['americanDisplayOdds']['americanOddsInt'])
                     side.append(None)
-                    designation.append(runner['result']['type'].lower())
+
+                    if 'Yes' in runner['runnerName']:
+                        designation.append('over')
+                    elif 'No' in runner['runnerName']:
+                        designation.append('under')
+                    else:
+                        if 'type' not in runner['result']:
+                            print(runner['runnerName'])
+                            print(market['marketType'])
+                        designation.append(runner['result']['type'].lower())
+
                     categories.append(market['marketName'])
 
                     # Finds a way to store the names same way as all the other sites do
                     playerName = re.sub(r'\s\d.*', '', runner['runnerName'])
                     nsplit = playerName.split()
                     name = playerName.replace(
-                        nsplit[0], nsplit[0][0] + '.', 1).replace('Over', '').replace('Under', '').strip()
+                        nsplit[0], nsplit[0][0] + '.', 1).replace('Over', '').replace('Under', '').replace('Yes', '').replace('No', '').strip()
                     names.append(name)
                     keys.append(makeKey(market['marketType'], point))
                     dates.append(date)
@@ -596,6 +646,7 @@ def gigaDump2(response):
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': categories, 'Designation': designation,
                        'Side': side, 'Name': names, 'Points': points, 'FD Decimal Odds': odds, 'FD American Odds': americanOdds, 'Key': keys, 'Date': dates})
+    df = df.drop_duplicates()
 
     dir = git.Repo('.', search_parent_directories=True).working_tree_dir
     df.to_csv(str(dir) + '/bin/FanDuelGigaDump.csv', index=False)

@@ -347,6 +347,32 @@ def makeKey(unit, points):
         "Alternate Hits": f"pp;0;ss;hit;{points}",
         "Player Total Bases": f"pp;0;ou;tb;{points}",
 
+        # NFL switches
+        'Moneyline': f"s;0;m",
+        "Point Spread": f"s;0;s;{points}",
+        "Total": f"s;0;ou;{points}",
+        "AWAYTEAM Total": f"s;0;tt;{points};away",
+        "HOMETEAM Total": f"s;0;tt;{points};home",
+
+        'Anytime Touchdown Scorer': f'pp;0;ou;td;0.5',
+        'Passing Yards': f'pp;0;ou;pay;{points}',
+        'Receiving Yards': f'pp;0;ou;rey;{points}',
+        'Rushing Yards': f'pp;0;ou;ruy;{points}',
+        'Quarterback Passing Touchdowns': f'pp;0;ou;tdp;{points}',
+        'Pass Attempts': f'pp;0;ou;pat;{points}',
+        'Quarterback Pass Completions': f'pp;0;ou;com;{points}',
+        'Rushing Attempts Over/Under': f'pp;0;ou;rut;{points}',
+        'Player Receptions': f'pp;0;ou;rec;{points}',
+        'Quarterback To Get': f"pp;0;ss;tdp;{points}",
+        'Receiver To Get': f"pp;0;ss;rey;{points}",
+        'Running Back To Get': f"pp;0;ss;ruy;{points}",
+        'Alternate Pass Attempts': f"pp;0;ss;pat;{points}",
+        'Alternate Pass Completions': f'pp;0;ss;com;{points}',
+        'Alternate Passing TDs': f"pp;0;ss;tdp;{points}",
+        'Alternate Rush Attempts': f'pp;0;ss;rut;{points}',
+        'Alternate Receptions': f'pp;0;ss;rec;{points}',
+
+
         # NHL switches
         re.compile(r'^Away Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
         re.compile(r'^Away Player [A-Z] Assists Over/Under$'): f"pp;0;ou;asst;{points}",
@@ -365,6 +391,7 @@ def makeKey(unit, points):
 
 def getTeamAbr(team_name):
     switcher = {
+        # MLB
         'Arizona Diamondbacks': 'ARI',
         'Atlanta Braves': 'ATL',
         'Baltimore Orioles': 'BAL',
@@ -375,7 +402,7 @@ def getTeamAbr(team_name):
         'Cleveland Guardians': 'CLE',
         'Colorado Rockies': 'COL',
         'Detroit Tigers': 'DET',
-        'Miami Marlins': 'FLA',
+        'Miami Marlins': 'MIA',
         'Houston Astros': 'HOU',
         'Kansas City Royals': 'KAN',
         'Los Angeles Angels': 'LAA',
@@ -394,7 +421,41 @@ def getTeamAbr(team_name):
         'Tampa Bay Rays': 'TB',
         'Texas Rangers': 'TEX',
         'Toronto Blue Jays': 'TOR',
-        'Washington Nationals': 'WAS'
+        'Washington Nationals': 'WAS',
+
+        # NFL
+        "Arizona Cardinals": "ARI",
+        "Atlanta Falcons": "ATL",
+        "Baltimore Ravens": "BAL",
+        "Buffalo Bills": "BUF",
+        "Carolina Panthers": "CAR",
+        "Chicago Bears": "CHI",
+        "Cincinnati Bengals": "CIN",
+        "Cleveland Browns": "CLE",
+        "Dallas Cowboys": "DAL",
+        "Denver Broncos": "DEN",
+        "Detroit Lions": "DET",
+        "Green Bay Packers": "GB",
+        "Houston Texans": "HOU",
+        "Indianapolis Colts": "IND",
+        "Jacksonville Jaguars": "JAX",
+        "Kansas City Chiefs": "KC",
+        "Las Vegas Raiders": "LV",
+        "Los Angeles Chargers": "LAC",
+        "Los Angeles Rams": "LAR",
+        "Miami Dolphins": "MIA",
+        "Minnesota Vikings": "MIN",
+        "New England Patriots": "NE",
+        "New Orleans Saints": "NO",
+        "New York Giants": "NYG",
+        "New York Jets": "NYJ",
+        "Philadelphia Eagles": "PHI",
+        "Pittsburgh Steelers": "PIT",
+        "San Francisco 49ers": "SF",
+        "Seattle Seahawks": "SEA",
+        "Tampa Bay Buccaneers": "TB",
+        "Tennessee Titans": "TEN",
+        "Washington Commanders": "WAS"
     }
     abbreviation = switcher.get(team_name, team_name)
     return abbreviation
@@ -414,8 +475,10 @@ def makeRequestLinks(dataMlb):
     games = []
     urls = []
 
+    # Probably should make a get GameIds function
     for x in dataMlb['events']:
-        games.append(x['key'])
+        if not x['isLive']:
+            games.append(x['key'])
 
     # for x in dataNba['events']:
     #     games.append(x['key'])
@@ -450,6 +513,14 @@ def gigaDump2(response):
     playerPropAtleastEventsMLB = ['Alternate Pitcher Strikeouts',
                                   'Alternate Runs Batted In', 'Alternate Hits']
 
+    gamePropsEventsNFL = ['AWAYTEAM Total', 'HOMETEAM Total']
+
+    playerPropOUEventsNFL = ['Passing Yards', 'Receiving Yards', 'Rushing Yards', 'Quarterback Passing Touchdowns',
+                             'Pass Attempts', 'Quarterback Pass Completions', 'Rushing Attempts Over/Under', 'Player Receptions']
+
+    playerPropAtleastEventsNFL = ['Anytime Touchdown Scorer', 'Quarterback To Get', 'Receiver To Get', 'Running Back To Get',
+                                  'Alternate Pass Attempts', 'Alternate Pass Completions', 'Alternate Passing TDs', 'Alternate Rush Attempts', 'Alternate Receptions']
+
     gamePropsEventsNBA = ['Point Spread', 'Moneyline',
                           'Total', 'Home Total', 'Away Total']
 
@@ -466,11 +537,12 @@ def gigaDump2(response):
         'Away Goalie Saves Over/Under', 'Home Goalie Shutout Over/Under', 'Away Goalie Shutout Over/Under',
         'Home Player ? Points Over/Under', 'Home Player ? Assists Over/Under']
 
-    gamePropsEvents = gamePropsEventsMLB + gamePropsEventsNBA + gamePropsEventsNHL
+    gamePropsEvents = gamePropsEventsMLB + gamePropsEventsNBA + \
+        gamePropsEventsNHL + gamePropsEventsNFL
     playerPropOUEvents = playerPropOUEventsMLB + \
-        playerPropOUEventsNBA + playerPropOUEventsVariableNHL
+        playerPropOUEventsNBA + playerPropOUEventsVariableNHL + playerPropOUEventsNFL
     playerPropAtleastEvents = playerPropAtleastEventsMLB + \
-        playerPropAtleastEventsNBA + playerPropAtleastEventsMLB
+        playerPropAtleastEventsNBA + playerPropAtleastEventsMLB + playerPropAtleastEventsNFL
 
     league = []
     teams = []
@@ -487,6 +559,9 @@ def gigaDump2(response):
     frames = []
 
     for x in response:
+        if x.status_code != 200:
+            continue
+        # print(x)
         data = x.json()
         homeAwayTeams = getTeamAbr(data['awayTeam']) + \
             '(away)' + ' vs ' + getTeamAbr(data['homeTeam']) + '(home)'
@@ -505,11 +580,9 @@ def gigaDump2(response):
         else:
             sport = data['competitionName']
         for market in markets:
-            key = ' '
             if (market['eventClass'] in gamePropsEvents or
                 market['eventClass'] in playerPropOUEvents or
-                market['eventClass'] in playerPropAtleastEvents or
-                    sport == 'NFL'):
+                    market['eventClass'] in playerPropAtleastEvents):
                 for prop in market['outcomes']:
                     teams.append(homeAwayTeams)
                     category.append(market['eventClass'])
@@ -528,10 +601,10 @@ def gigaDump2(response):
                     if market['eventClass'] == 'Run Line' and prop['side'] == 'Away':
                         pnt = -1 * pnt
                     keys.append(makeKey(market['eventClass'], pnt))
-                    if 'Over' in prop['name'] or 'Alternate' in prop['groupByHeader']:
-                        designation.append('over')
-                    elif 'Under' in prop['name']:
+                    if 'Under' in prop['name']:
                         designation.append('under')
+                    elif 'Over' in prop['name'] or 'Alternate' in prop['groupByHeader'] or 'Anytime' in prop['groupByHeader']:
+                        designation.append('over')
                     else:
                         designation.append(None)
                     if (market['eventClass'] in playerPropOUEvents or
@@ -543,7 +616,7 @@ def gigaDump2(response):
                     else:
                         names.append(None)
                     dates.append(date)
-            if (match_variable_event_class(market['eventClass'], playerPropOUEventsVariableNHL)):
+            elif (match_variable_event_class(market['eventClass'], playerPropOUEventsVariableNHL)):
                 for prop in market['outcomes']:
                     teams.append(homeAwayTeams)
                     category.append(market['eventClass'])

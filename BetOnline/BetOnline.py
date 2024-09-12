@@ -68,8 +68,16 @@ def threadedRequests(payloads, urls):
 # Getting the original GameIds ands prop gameIds
 ###########################################################################################################
 
+def isNotLive(wagerCutOff):
+    target_time = datetime.strptime(wagerCutOff, "%Y-%m-%dT%H:%M:%S")
+    threshold_time = target_time - timedelta(minutes=1)
+    current_time = datetime.now()
+    # Check if the current time is before the threshold
+    return current_time < threshold_time
 
 # Gets the gameIds for team odds as well as the gameIds by league
+
+
 def getGeneralGameIDs(days=2):
 
     now = datetime.utcnow()
@@ -151,7 +159,9 @@ def getGeneralGameIDs(days=2):
             if abs((now - gameDate).days) <= days:
                 game_Id = game['Game']['GameId']
                 game_IdsByLeague.append(game_Id)
-                game_Ids.append(game_Id)
+
+                if isNotLive(game['Game']['WagerCutOff']):
+                    game_Ids.append(game_Id)
         gameIdsByLeague[league] = game_IdsByLeague
 
     return game_Ids, gameIdsByLeague
@@ -368,6 +378,8 @@ def manipulationLoop(data):
 
     periodEvents = []
     for game in data:
+        if game == None:
+            continue
         periodEvents = periodEvents + game['EventOffering']['PeriodEvents']
     for event in periodEvents:
         game_Id = event['Event']['GameId']
@@ -672,6 +684,26 @@ def makeKey(unit, points, name=None):
         "Hits Allowed": f"pp;0;ou;hita;{points}",
         "Runs + RBIs": f"pp;0;ou;r+r;{points}",
 
+        # Nfl
+        'Alternate Touchdowns': f'pp;0;ou;td;{points}',
+        'Interceptions': f'pp;0;ou;int;{points}',
+        'Passing Yards': f'pp;0;ou;pay;{points}',
+        'Receiving Yards': f'pp;0;ou;rey;{points}',
+        'Rushing Yards': f'pp;0;ou;ruy;{points}',
+        'Quarterback Passing Touchdowns': f'pp;0;ou;tdp;{points}',
+        'Pass Attempts': f'pp;0;ou;pat;{points}',
+        'Pass Completions': f'pp;0;ou;com;{points}',
+        'Rushing Attempts Over/Under': f'pp;0;ou;rut;{points}',
+        'Receptions': f'pp;0;ou;rec;{points}',
+        'Quarterback To Get': f"pp;0;ss;tdp;{points}",
+        'Receiver To Get': f"pp;0;ss;rey;{points}",
+        'Running Back To Get': f"pp;0;ss;ruy;{points}",
+        'Alternate Pass Attempts': f"pp;0;ss;pat;{points}",
+        'Alternate Pass Completions': f'pp;0;ss;com;{points}',
+        'Alternate Passing TDs': f"pp;0;ss;tdp;{points}",
+        'Alternate Rush Attempts': f'pp;0;ss;rut;{points}',
+        'Alternate Receptions': f'pp;0;ss;rec;{points}',
+
         "moneyline": f"s;{period};m",
         "spread": f"s;{period};s;{points}",
         "total": f"s;{period};ou;{points}",
@@ -714,7 +746,7 @@ def getTeamAbr(teamName):
         'cleveland guardians': 'CLE',
         'colorado rockies': 'COL',
         'detroit tigers': 'DET',
-        'miami marlins': 'FLA',
+        'miami marlins': 'MIA',
         'houston astros': 'HOU',
         'kansas city royals': 'KAN',
         'los angeles angels': 'LAA',
@@ -733,7 +765,41 @@ def getTeamAbr(teamName):
         'tampa bay rays': 'TB',
         'texas rangers': 'TEX',
         'toronto blue jays': 'TOR',
-        'washington nationals': 'WAS'
+        'washington nationals': 'WAS',
+
+        # NFL
+        "arizona cardinals": "ARI",
+        "atlanta falcons": "ATL",
+        "baltimore ravens": "BAL",
+        "buffalo bills": "BUF",
+        "carolina panthers": "CAR",
+        "chicago bears": "CHI",
+        "cincinnati bengals": "CIN",
+        "cleveland browns": "CLE",
+        "dallas cowboys": "DAL",
+        "denver broncos": "DEN",
+        "detroit lions": "DET",
+        "green bay packers": "GB",
+        "houston texans": "HOU",
+        "indianapolis colts": "IND",
+        "jacksonville jaguars": "JAX",
+        "kansas city chiefs": "KC",
+        "las vegas raiders": "LV",
+        "los angeles chargers": "LAC",
+        "los angeles rams": "LAR",
+        "miami dolphins": "MIA",
+        "minnesota vikings": "MIN",
+        "new england patriots": "NE",
+        "new orleans saints": "NO",
+        "new york giants": "NYG",
+        "new york jets": "NYJ",
+        "philadelphia eagles": "PHI",
+        "pittsburgh steelers": "PIT",
+        "san francisco 49ers": "SF",
+        "seattle seahawks": "SEA",
+        "tampa bay buccaneers": "TB",
+        "tennessee titans": "TEN",
+        "washington commanders": "WAS"
     }
     return switcher.get(teamName, teamName)
 
@@ -824,6 +890,10 @@ def dfByLoop(combined, gamesDict):
     data = {"GameId": gameId, 'Teams': teams, 'League': league, "Key": keys, "Points": points, "Category": units,
             "Designation": designation, "BO dec_odds": odds, 'BO Odds': betOdds, "Name": playName, 'Date': dates}
     df = pd.DataFrame(data)
+
+    # This removes all rows where key is None
+    df = df[np.logical_not(pd.isna(df['Key']))]
+
     return df
 
 

@@ -15,8 +15,13 @@ import cmd
 import re
 import git
 
-data = pn.getDataMlb()
-nameUrls, oddsUrls = pn.makeRequestLinks(data)
+dataNfl = pn.getDataNfl()
+dataMlb = pn.getDataMlb()
+
+nameUrlsNfl, oddsUrlsNfl = pn.makeRequestLinks(dataNfl)
+nameUrlsMlb, oddsUrlsMlb = pn.makeRequestLinks(dataMlb)
+nameUrls = nameUrlsNfl + nameUrlsMlb
+oddsUrls = oddsUrlsNfl + oddsUrlsMlb
 
 # Prepare the GET requests
 name_requests = [grequests.get(u['url'], headers=u['headers'])

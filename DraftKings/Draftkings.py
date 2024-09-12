@@ -136,14 +136,21 @@ def getGameId(data):
 '''
 
 
+def isNotLive(startDate):
+    # Remove the last digit of the microseconds to match Python's 6-digit microsecond format
+    cleaned_date_str = startDate[:-2] + 'Z'
+    target_time = datetime.strptime(cleaned_date_str, "%Y-%m-%dT%H:%M:%S.%fZ")
+    threshold_time = target_time - timedelta(hours=4, minutes=1)
+    current_time = datetime.now()
+    # Check if the current time is before the threshold
+    return current_time < threshold_time
+
+
 def listGameIds(data):
     gameIds = []
-    for category in data['eventGroup']['offerCategories']:
-        if 'offerSubcategoryDescriptors' in category:
-            for descriptor in category['offerSubcategoryDescriptors']:
-                if 'offerSubcategory' in descriptor:
-                    for offer in descriptor['offerSubcategory']['offers']:
-                        gameIds.append(offer[0]['eventId'])
+    for event in data['eventGroup']['events']:
+        if isNotLive(event['startDate']):
+            gameIds.append(event['eventId'])
     return gameIds
 
 
