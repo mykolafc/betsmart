@@ -136,8 +136,8 @@ def doAllRequests(betOnline=True):
 
 def sendNotif(message):
     # This uses the telegram bot to send me a notification
-    botToken = '7604827625:AAGypvQCTaO-NqBMyHSIQBlxHAOT0b4BsEs'
-    chatId = '7530223501'
+    botToken = 'YOUR BOT TOKEN'
+    chatId = 'YOUR CHATID'
     url = f"https://api.telegram.org/bot{botToken}/sendMessage"
     params = {
         'chat_id': chatId,
