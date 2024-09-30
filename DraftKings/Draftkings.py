@@ -98,42 +98,62 @@ def getDataMlb():
     return data
 
 
-'''
-def getDataNfl():
-    url = 'https://api.on.DraftKings.com/api/v2/competitions/6/events/featured?includeLive=false&page=1'
+def getDataMlbNEW():
+    # This should return the JSON file of the mlb front page from DraftKings
+    # I realized the problem is that we didnt include the headers parameter in the get request
+
+    # It's possible that some things in this link variable so it might not always be this EXACT link
+    url = "https://sportsbook-nash.draftkings.com/api/sportscontent/navigation/dkcaon/v1/nav/leagues/84240?format=json"
 
     headers = {
-        'method': 'GET',
-        'scheme': 'https',
-        'authority': 'api.on.DraftKings.com',
-        'path': '/api/v2/competitions/194/events/featured?includeLive=false&page=1',
-        'Accept': 'application/json, text/plain, */*',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'en-CA,en-US;q=0.9,en;q=0.8',
-        'Connection': 'keep-alive',
-        'Host': 'api.on.DraftKings.com',
-        #'If-Modified-Since': 'Fri, 31 May 2024 17:27:00 GMT',
-        'Origin': 'https://on.DraftKings.ca',
-        'Referer': 'https://on.DraftKings.ca/',
-        'Request-Context': 'appId=cid-v1:ff4f1ff0-6b1a-4166-8ec4-45a41aaa53dd',
-        'Request-Id': '|ad6bb16722724ade810782b0897de4cc.8f194ef6f10e4d44',
-        'Sec-Fetch-Dest': 'empty',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Site': 'cross-site',
-        'traceparent': '00-ad6bb16722724ade810782b0897de4cc-8f194ef6f10e4d44-01',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15'
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "origin": "https://sportsbook.draftkings.com",
+        "referer": "https://sportsbook.draftkings.com/",
+        "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": '"Android"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36",
+        "x-client-feature": "event-slider",
+        "x-client-name": "web",
+        "x-client-page": "event",
+        "x-client-version": "2439.1.1.22",
     }
-
     response = requests.get(url, headers=headers)
     print(response.status_code)
     data = response.json()
     return data
 
-def getGameId(data):
-    gameId = data['events'][0]['key']
-    print(gameId)
-    return gameId
-'''
+
+def getDataNfl():
+    url = "https://sportsbook-nash.draftkings.com/api/sportscontent/navigation/dkcaon/v1/nav/leagues/88808?format=json"
+
+    headers = {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "en-US,en;q=0.9",
+        "origin": "https://sportsbook.draftkings.com",
+        "referer": "https://sportsbook.draftkings.com/",
+        "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": '"Android"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36",
+        "x-client-feature": "event-slider",
+        "x-client-name": "web",
+        "x-client-page": "event",
+        "x-client-version": "2439.1.1.22",
+    }
+    response = requests.get(url, headers=headers)
+    print(response.status_code)
+    data = response.json()
+    return data
 
 
 def isNotLive(startDate):
@@ -154,6 +174,14 @@ def listGameIds(data):
     return gameIds
 
 
+def listGameIdsNEW(data):
+    gameIds = dict()
+    for event in data['events']:
+        if isNotLive(event['startDate']):
+            gameIds[event['eventId']] = event['eventGroupId']
+    return gameIds
+
+
 def decimal_to_american(decimal_odds):
     if decimal_odds == 1.0:
         american_odds = 0
@@ -161,6 +189,17 @@ def decimal_to_american(decimal_odds):
         american_odds = (decimal_odds - 1) * 100
     else:
         american_odds = -100 / (decimal_odds - 1)
+    return round(american_odds)
+
+
+def fractional_to_american(fractional_odds_str):
+    numerator, denominator = map(int, fractional_odds_str.split("/"))
+    fraction = numerator / denominator
+    if fraction >= 1:
+        american_odds = fraction * 100
+    else:
+        american_odds = - (100 / fraction)
+
     return round(american_odds)
 
 
@@ -285,7 +324,7 @@ def makeKey(unit, points, name=None):
 
         # MLB switches
         "Home Runs O/U": f"pp;0;ou;hr;{points}",
-        "Home Runs": f"pp;0;ss;hr;{points}",
+        "Home Runs Milestones": f"pp;0;ou;hr;{points}",
         "Hits O/U": f"pp;0;ou;hit;{points}",
         "Hits": f"pp;0;ss;hit;{points}",
         "Hits + Runs + RBIs": f"pp;0;ou;hrr;{points}",
@@ -294,13 +333,13 @@ def makeKey(unit, points, name=None):
         "RBIs O/U": f"pp;0;ou;rbi;{points}",
         "RBIs": f"pp;0;ss;rbi;{points}",
         "Runs Scored": f"pp;0;ou;run;{points}",
-        "Stolen Bases": f"pp;0;ou;sb;{points}",
+        "Stolen Bases O/U": f"pp;0;ou;sb;{points}",
         "Singles": f"pp;0;ou;sin;{points}",
         "Doubles": f"pp;0;ou;dbl;{points}",
-        "Walks": f"pp;0;ou;wlk;{points}",
+        "Walks (Batter) O/U": f"pp;0;ou;wlk;{points}",
         "Strikeouts Thrown O/U": f"pp;0;ou;so;{points}",
         "Strikeouts": f"pp;0;ou;so;{points}",
-        "Strikeouts Thrown": f"pp;0;ss;so;{points}",
+        "Strikeouts Thrown Milestones": f"pp;0;ss;so;{points}",
         "Earned Runs Allowed": f"pp;0;ou;era;{points}",
         "Walks Allowed O/U": f"pp;0;ou;wlka;{points}",
         "Walks Allowed": f"pp;0;ss;wlka;{points}",
@@ -312,6 +351,27 @@ def makeKey(unit, points, name=None):
         "Total": f"s;0;ou;{points}",
         "Total Runs - AWAYTEAM OF": f"s;0;tt;{points};away",
         "Total Runs - HOMETEAM OF": f"s;0;tt;{points};home",
+
+        # NFL Switches
+        'Passing Yards O/U': f'pp;0;ou;pay;{points}',
+        'Anytime Touchdown Scorer': f'pp;0;ou;td;0.5',
+        'Alternate Passing Yards O/U': f'pp;0;ou;pay;{points}',
+        'Alternate Rushing Yards O/U': f'pp;0;ou;ruy;{points}',
+        'Receiving Yards Milestones': f'pp;0;ss;ruy;{points}',
+        'Receiving Yards O/U': f'pp;0;ou;rey;{points}',
+        'Receptions O/U': f'pp;0;ou;rec;{points}',
+        'Rushing Attempts O/U': f'pp;0;ou;rut;{points}',
+        'Passing Completions O/U': f'pp;0;ou;com;{points}',
+        'Interceptions Thrown O/U': f'pp;0;ou;int;{points}',
+        'Longest Reception O/U': f'pp;0;ou;lrc;{points}',
+        # Maybe theres no over under on draftkings for this?
+        'Passing Touchdowns Milestones': f'pp;0;ou;tdp;{points}',
+        'Rushing Yards Milestones': f'pp;0;ss;ruy;{points}',
+        'Passing Attempts O/U': f'pp;0;ou;pat;{points}',
+        'Alternate Receiving Yards O/U': f'pp;0;ou;rey;{points}',
+        'Passing Yards Milestones': f'pp;0;ss;pay;{points}',
+        'Longest Passing Completion O/U': f'pp;0;ou;lco;{points}',
+        'Spread': f's;0;s;{points}',
 
         # NHL switches
         re.compile(r'^Away Player [A-Z] Points Over/Under$'): f"pp;0;ou;pts;{points}",
@@ -338,16 +398,23 @@ def makeKey(unit, points, name=None):
 
     return None
 
-    for pattern in patterns:
-        # Replace ? with a regex pattern that matches any letter
-        regex_pattern = re.sub(r'\?', r'[A-Za-z]', pattern)
-        if re.fullmatch(regex_pattern, event_class):
-            return True
-    return False
+
+relevantPPSubCategoriesNFL = {'12093', '12094', '12438', '14113', '14114', '14115', '14117',
+                              '14118', '14119', '15937', '15948', '15968', '15987', '9517', '9518', '9520', '9522', '9524'}
+relevantGameSubCategoriesNFL = {'4518'}
+relevantPPSubCategoriesMLB = {'11214', '12146', '12855', '12857',
+                              '15221', '15520', '15524', '6607', '6719', '8025', '9872'}
+relevantGameSubCategoriesMLB = {'4519'}
+
+relevantPPSubCategories = relevantPPSubCategoriesNFL | relevantPPSubCategoriesMLB
+relevantGameSubCategories = relevantGameSubCategoriesNFL | relevantGameSubCategoriesMLB
+
+relevantSubCategories = relevantPPSubCategories | relevantGameSubCategories
 
 
 def getTeamName(name):
-    switcherMLB = {
+    switcher = {
+        # MLB
         "ARI Diamondbacks": "ARI",
         "ATL Braves": "ATL",
         "BAL Orioles": "BAL",
@@ -378,9 +445,43 @@ def getTeamName(name):
         "TEX Rangers": "TEX",
         "TOR Blue Jays": "TOR",
         "WAS Nationals": "WAS",
+
+        # NFL
+        "ARI Cardinals": "ARI",
+        "ATL Falcons": "ATL",
+        "BAL Ravens": "BAL",
+        "BUF Bills": "BUF",
+        "CAR Panthers": "CAR",
+        "CHI Bears": "CHI",
+        "CIN Bengals": "CIN",
+        "CLE Browns": "CLE",
+        "DAL Cowboys": "DAL",
+        "DEN Broncos": "DEN",
+        "DET Lions": "DET",
+        "GB Packers": "GB",
+        "HOU Texans": "HOU",
+        "IND Colts": "IND",
+        "JAX Jaguars": "JAX",
+        "KC Chiefs": "KC",
+        "LA Rams": "LAR",
+        "LAC Chargers": "LAC",
+        "LV Raiders": "LV",
+        "MIA Dolphins": "MIA",
+        "MIN Vikings": "MIN",
+        "NE Patriots": "NE",
+        "NO Saints": "NO",
+        "NY Giants": "NYG",
+        "NY Jets": "NYJ",
+        "PHI Eagles": "PHI",
+        "PIT Steelers": "PIT",
+        "SF 49ers": "SF",
+        "SEA Seahawks": "SEA",
+        "TB Buccaneers": "TB",
+        "TEN Titans": "TEN",
+        "WAS Commanders": "WAS",
     }
 
-    return switcherMLB.get(name, name)
+    return switcher.get(name, name)
 
 # This function is going to make the request links useful for DraftKings
 
@@ -401,8 +502,58 @@ def makeRequestLinks(dataMlb):
                      }})
     return urls
 
-    # rs = (grequests.get(u, headers=gameHeaders) for u in urls)
-    # rs = grequests.map(rs)
+
+def makeRequestLinksNEW(data):
+    games = listGameIdsNEW(data)
+    urls = []
+
+    nflCategories = {'1000', '1001', '1003', '1342', '492'}
+    mlbCategories = {'743', '1031', '493'}
+
+    for x in games:
+        if games[x] == '88808':
+            for category in nflCategories:
+                urls.append({'url': "https://sportsbook-nash.draftkings.com/api/sportscontent/dkcaon/v1/events/" + x + "/categories/" + category + "?appname=web",
+                             'headers': {
+                                 "accept": "*/*",
+                                 "accept-encoding": "gzip, deflate, br, zstd",
+                                 "accept-language": "en-US,en;q=0.9",
+                                 "origin": "https://sportsbook.draftkings.com",
+                                 "referer": "https://sportsbook.draftkings.com/",
+                                 "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+                                 "sec-ch-ua-mobile": "?1",
+                                 "sec-ch-ua-platform": '"Android"',
+                                 "sec-fetch-dest": "empty",
+                                 "sec-fetch-mode": "cors",
+                                 "sec-fetch-site": "same-site",
+                                 "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36",
+                                 "x-client-feature": "event-slider",
+                                 "x-client-name": "web",
+                                 "x-client-page": "event",
+                                 "x-client-version": "2439.1.1.22"
+                             }})
+        elif games[x] == '84240':
+            for category in mlbCategories:
+                urls.append({'url': "https://sportsbook-nash.draftkings.com/api/sportscontent/dkcaon/v1/events/" + x + "/categories/" + category + "?appname=web",
+                             'headers': {
+                                 "accept": "*/*",
+                                 "accept-encoding": "gzip, deflate, br, zstd",
+                                 "accept-language": "en-US,en;q=0.9",
+                                 "origin": "https://sportsbook.draftkings.com",
+                                 "referer": "https://sportsbook.draftkings.com/",
+                                 "sec-ch-ua": '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
+                                 "sec-ch-ua-mobile": "?1",
+                                 "sec-ch-ua-platform": '"Android"',
+                                 "sec-fetch-dest": "empty",
+                                 "sec-fetch-mode": "cors",
+                                 "sec-fetch-site": "same-site",
+                                 "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36",
+                                 "x-client-feature": "event-slider",
+                                 "x-client-name": "web",
+                                 "x-client-page": "event",
+                                 "x-client-version": "2439.1.1.22"
+                             }})
+    return urls
 
 
 def validAlternatePP(subcategoryName):
@@ -425,6 +576,8 @@ def gigaDump2(response):
     dates = []
 
     for x in response:
+        if x == None:
+            continue
         data = x.json()
         homeTeam = data['event']['teamName2']
         awayTeam = data['event']['teamName1']
@@ -547,8 +700,7 @@ def gigaDump2(response):
     df.to_csv(str(dir) + '/bin/DraftKingsGigaDump.csv', index=False)
 
 
-def gigaDump(dataMlb):
-
+def gigaDump(responses):
     league = []
     teams = []
     points = []
@@ -560,137 +712,131 @@ def gigaDump(dataMlb):
     designation = []
     games = []
     keys = []
+    dates = []
 
-    games = listGameIds(dataMlb)
+    marketIds = dict()
 
-    frames = []
-    urls = []
-    timer = time.time()
-
-    for x in games:
-        urls.append(
-            "https://sportsbook-ca-on.draftkings.com/api/team/markets/dkcaon/v3/event/" + x + "?format=json")
-        gameHeaders = {
-            'Accept': '*/*',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': 'https://sportsbook.draftkings.com/',
-            'Sec-Fetch-Mode': 'cors',
-            'Sec-Fetch-Site': 'same-site',
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15',
-        }
-
-    rs = (grequests.get(u, headers=gameHeaders) for u in urls)
-    rs = grequests.map(rs)
-
-    print(time.time()-timer)
-
-    for x in rs:
-        data = x.json()
-        homeTeam = data['event']['teamName2']
-        awayTeam = data['event']['teamName1']
+    for response in responses:
+        if response == None:
+            continue
+        data = response.json()
+        if 'markets' not in data:
+            continue
+        for participant in data['events'][0]['participants']:
+            if participant['venueRole'] == 'Home':
+                homeTeam = getTeamName(participant['name'])
+            elif participant['venueRole'] == 'Away':
+                awayTeam = getTeamName(participant['name'])
         homeAwayTeams = getTeamName(awayTeam) + \
             '(away)' + ' vs ' + getTeamName(homeTeam) + '(home)'
-        currentLeague = (data['event']['eventGroupName'])
+        currentLeague = (data['leagues'][0]['name'])
 
-        # Game Props a.k.a. eventCategories index = 1
-        eventCategory = next(
-            (category for category in data['eventCategories'] if category['name'].lower() == 'game lines'), None)
-        components = eventCategory['componentizedOffers']
-        # components = data['eventCategories'][1]['componentizedOffers']
-        for component in components:
-            for offers in component['offers']:
-                for offer in offers:
-                    if 'label' not in offer:
-                        continue
-                    for outcome in offer['outcomes']:
-                        league.append(currentLeague)
-                        teams.append(homeAwayTeams)
-                        categories.append(offer['label'])
-                        if homeTeam in outcome['label']:
-                            side.append('home')
-                        elif awayTeam in outcome['label']:
-                            side.append('away')
-                        else:
-                            side.append(None)
-                        points.append(outcome.get('line', None))
-                        pnt = outcome.get('line', None)
-                        if offer['label'] == 'Run Line' and awayTeam in outcome['label']:
-                            pnt = -1 * pnt
-                        odds.append(outcome['oddsDecimal'])
-                        americanOdds.append(outcome['oddsAmerican'])
-                        names.append(None)
-                        desi = outcome.get('label', None).lower()
-                        if 'over' in desi or 'under' in desi:
-                            designation.append(desi)
-                        else:
-                            designation.append(None)
-                        keys.append(
-                            makeKey(offer['label'], pnt, "Game"))
+        # The date is sometimes after midnight of the next day
+        # this code makes sure it grabs the date of the start of the game
+        datetimeStr = data['events'][0]['startEventDate'][:-2] + 'Z'
+        dt = datetime.strptime(datetimeStr, "%Y-%m-%dT%H:%M:%S.%fZ")
+        if dt.time() < datetime.strptime("05:30:00", "%H:%M:%S").time():
+            dt -= timedelta(days=1)
+        date = dt.strftime("%Y-%m-%d")
 
-        # Player Props a.k.a. eventCategories index = 2 for batters and 3 for pitchers
-        for category in data['eventCategories']:
-            if category['name'] == 'Batter Props' or category['name'] == 'Pitcher Props':
-                components = category['componentizedOffers']
-                for component in components:
-                    if component['componentId'] == 8:
-                        for offer in component['offers'][0]:
-                            for outcome in offer['outcomes']:
-                                league.append(currentLeague)
-                                teams.append(homeAwayTeams)
-                                side.append(None)
-                                designation.append(outcome['label'].lower())
-                                points.append(outcome.get('line', None))
-                                americanOdds.append(
-                                    int(outcome['oddsAmerican'].strip('+')))
-                                odds.append(
-                                    float(outcome['oddsDecimalDisplay']))
-                                categories.append(component['subcategoryName'])
-                                playerName = outcome.get(
-                                    'playerNameIdentifier', None)
-                                if playerName is not None:
-                                    nsplit = playerName.split()
-                                    name = playerName.replace(
-                                        nsplit[0], nsplit[0][0] + '.', 1)
-                                    names.append(name)
-                                else:
-                                    names.append(None)
-                                keys.append(
-                                    makeKey(component['subcategoryName'], outcome.get('line', None), "Game"))
-                    elif component['componentId'] == 29 and 'Milestones' in component["subcategoryName"]:
-                        for offer in component['offers'][0]:
-                            for outcome in offer['outcomes']:
-                                league.append(currentLeague)
-                                teams.append(homeAwayTeams)
-                                side.append(None)
-                                designation.append('over')
-                                points.append(
-                                    float(outcome['label'].strip('+'))-0.5)
-                                americanOdds.append(
-                                    int(outcome['oddsAmerican'].strip('+')))
-                                odds.append(
-                                    float(outcome['oddsDecimalDisplay']))
-                                categories.append(component['subcategoryName'])
-                                playerName = outcome.get(
-                                    'playerNameIdentifier', None)
-                                if playerName is not None:
-                                    nsplit = playerName.split()
-                                    name = playerName.replace(
-                                        nsplit[0], nsplit[0][0] + '.', 1)
-                                    names.append(name)
-                                else:
-                                    names.append(None)
-                                keys.append(makeKey(component['subcategoryName'], float(
-                                    outcome['label'].strip('+'))-0.5, "Game"))
+        for market in data['markets']:
+            if market['subcategoryId'] in relevantSubCategories:
+                marketIds[market['id']] = market['marketType']['name']
 
-    print(len(teams), len(categories), len(league), len(designation), len(
-        side), len(names), len(points), len(odds), len(americanOdds), len(keys))
+        for selection in data['selections']:
+            if selection['marketId'] not in marketIds:
+                continue
+
+            if selection['label'] in {'Under', 'Over'}:
+                teams.append(homeAwayTeams)
+                league.append(currentLeague)
+                categories.append(marketIds[selection['marketId']])
+                designation.append(selection['label'].lower())
+                side.append(None)
+
+                if 'participants' in selection:
+                    name = selection['participants'][0]['name']
+                    nsplit = name.split()
+                    name = name.replace(
+                        nsplit[0], nsplit[0][0] + '.', 1)
+                    names.append(name)
+                else:
+                    names.append(None)
+
+                point = selection['points']
+                points.append(point)
+                odds.append(selection['trueOdds'])
+                americanOdds.append(fractional_to_american(
+                    selection['displayOdds']['fractional']))
+                keys.append(makeKey(marketIds[selection['marketId']], point))
+                dates.append(date)
+
+            elif selection['label'][-1] == '+':
+                teams.append(homeAwayTeams)
+                league.append(currentLeague)
+                categories.append(marketIds[selection['marketId']])
+                designation.append('over')
+                side.append(None)
+
+                name = selection['participants'][0]['name']
+                nsplit = name.split()
+                name = name.replace(
+                    nsplit[0], nsplit[0][0] + '.', 1)
+                names.append(name)
+
+                point = int(selection['label'][:-1]) - 0.5
+                points.append(point)
+                odds.append(selection['trueOdds'])
+                americanOdds.append(fractional_to_american(
+                    selection['displayOdds']['fractional']))
+                keys.append(makeKey(marketIds[selection['marketId']], point))
+                dates.append(date)
+
+            elif selection['outcomeType'] in {'Away', 'Home'}:
+                teams.append(homeAwayTeams)
+                league.append(currentLeague)
+                categories.append(marketIds[selection['marketId']])
+                designation.append(None)
+                side.append(selection['outcomeType'].lower())
+                names.append(None)
+                point = selection.get('points', None)
+                if point != None and selection['outcomeType'] == 'Away':
+                    point = -1 * point
+                points.append(point)
+                odds.append(selection['trueOdds'])
+                americanOdds.append(fractional_to_american(
+                    selection['displayOdds']['fractional']))
+                keys.append(makeKey(marketIds[selection['marketId']], point))
+                dates.append(date)
+
+            elif selection['outcomeType'] == 'ToScoreAnyTime' and 'participants' in selection:
+                teams.append(homeAwayTeams)
+                league.append(currentLeague)
+                categories.append(marketIds[selection['marketId']])
+                designation.append('over')
+                side.append(None)
+
+                name = selection['participants'][0]['name']
+                nsplit = name.split()
+                name = name.replace(
+                    nsplit[0], nsplit[0][0] + '.', 1)
+                names.append(name)
+
+                point = 0.5
+                points.append(point)
+                odds.append(selection['trueOdds'])
+                americanOdds.append(fractional_to_american(
+                    selection['displayOdds']['fractional']))
+                keys.append(makeKey(marketIds[selection['marketId']], point))
+                dates.append(date)
+
+    # print(set(categories))
 
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': categories, 'Designation': designation,
-                       'Side': side, 'Name': names, 'Points': points, 'DK Decimal Odds': odds, 'DK American Odds': americanOdds, 'Key': keys})
+                       'Side': side, 'Name': names, 'Points': points, 'DK Decimal Odds': odds, 'DK American Odds': americanOdds, 'Key': keys, 'Date': dates})
 
-    frames.append(df)
-
-    df = pd.concat(frames)
+    # This removes all rows where key is None
+    # df = df[np.logical_not(pd.isna(df['Key']))]
 
     dir = git.Repo('.', search_parent_directories=True).working_tree_dir
     df.to_csv(str(dir) + '/bin/DraftKingsGigaDump.csv', index=False)

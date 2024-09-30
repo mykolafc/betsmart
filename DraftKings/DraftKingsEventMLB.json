@@ -1,0 +1,4281 @@
+{
+    "sports": [
+        {
+            "id": "7",
+            "seoIdentifier": "Baseball",
+            "name": "Baseball",
+            "sortOrder": 57
+        }
+    ],
+    "leagues": [
+        {
+            "id": "84240",
+            "seoIdentifier": "MLB",
+            "name": "MLB",
+            "sportId": "7",
+            "sortOrder": 4855,
+            "tags": [
+                "Featured"
+            ],
+            "isTeamSwap": true
+        }
+    ],
+    "events": [
+        {
+            "id": "31104137",
+            "seoIdentifier": "CHI White Sox @ DET Tigers",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "CHI White Sox @ DET Tigers",
+            "startEventDate": "2024-09-27T22:40:00.0000000Z",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "229",
+                        "rosettaTeamId": "29871",
+                        "shortName": "DET",
+                        "startingPitcherPlayerId": "105916",
+                        "startingPitcherPlayerName": "Brenan Hanifee"
+                    },
+                    "sortOrder": 2
+                },
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "228",
+                        "rosettaTeamId": "29970",
+                        "shortName": "CWS",
+                        "startingPitcherPlayerId": "105764",
+                        "startingPitcherPlayerName": "Garrett Crochet"
+                    },
+                    "sortOrder": 1
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "46684285",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "46684285",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "46684285",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "Flashbet",
+                "MatchTracker",
+                "PrePack",
+                "ProgressiveParlayEligible",
+                "ProgressiveParlayTeamEligible",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible",
+                "iSGStatsHub"
+            ],
+            "metadata": {
+                "masterLeagueId": "233",
+                "numberOfParts": "9"
+            },
+            "categories": [
+                {
+                    "id": "1024",
+                    "name": "1st Inning",
+                    "sortOrder": 743,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1031",
+                    "name": "Pitcher Props",
+                    "sortOrder": 724,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1133",
+                    "name": "Correct Score",
+                    "sortOrder": 964
+                },
+                {
+                    "id": "1626",
+                    "name": "1st X Innings",
+                    "sortOrder": 744,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1650",
+                    "name": "1st of Game",
+                    "sortOrder": 735,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "493",
+                    "name": "Game Lines",
+                    "sortOrder": 517,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "724",
+                    "name": "Game Props",
+                    "sortOrder": 958,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "729",
+                    "name": "Innings",
+                    "sortOrder": 754,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "743",
+                    "name": "Batter Props",
+                    "sortOrder": 672,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "754",
+                    "name": "Game Parlays",
+                    "sortOrder": 965
+                },
+                {
+                    "id": "988",
+                    "name": "Plate Appearance",
+                    "sortOrder": 729
+                }
+            ],
+            "subcategories": [
+                {
+                    "id": "11024",
+                    "categoryId": "1024",
+                    "name": "1st Inning Total Runs",
+                    "componentId": 29,
+                    "sortOrder": 9802,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "11031",
+                    "categoryId": "743",
+                    "name": "Singles",
+                    "componentId": 8,
+                    "sortOrder": 13676,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "11032",
+                    "categoryId": "743",
+                    "name": "Doubles",
+                    "componentId": 8,
+                    "sortOrder": 14331,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "11033",
+                    "categoryId": "743",
+                    "name": "Triples",
+                    "componentId": 8,
+                    "sortOrder": 15059,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "11036",
+                    "categoryId": "729",
+                    "name": "Inning Runs",
+                    "componentId": 29,
+                    "sortOrder": 6663,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "11043",
+                    "categoryId": "724",
+                    "name": "Inning of First/Last Score",
+                    "componentId": 29,
+                    "sortOrder": 6678
+                },
+                {
+                    "id": "11044",
+                    "categoryId": "724",
+                    "name": "To Bat in Bottom of 9th",
+                    "componentId": 29,
+                    "sortOrder": 6645
+                },
+                {
+                    "id": "11051",
+                    "categoryId": "1133",
+                    "name": "Game Correct Score",
+                    "componentId": 202,
+                    "sortOrder": 11017
+                },
+                {
+                    "id": "11052",
+                    "categoryId": "1133",
+                    "name": "2nd Inning",
+                    "componentId": 202,
+                    "sortOrder": 11022
+                },
+                {
+                    "id": "11053",
+                    "categoryId": "1133",
+                    "name": "3rd Inning",
+                    "componentId": 202,
+                    "sortOrder": 11023
+                },
+                {
+                    "id": "11054",
+                    "categoryId": "1133",
+                    "name": "4th Inning",
+                    "componentId": 202,
+                    "sortOrder": 11024
+                },
+                {
+                    "id": "11055",
+                    "categoryId": "1133",
+                    "name": "5th Inning",
+                    "componentId": 202,
+                    "sortOrder": 11343
+                },
+                {
+                    "id": "11056",
+                    "categoryId": "1133",
+                    "name": "6th Inning",
+                    "componentId": 202,
+                    "sortOrder": 13698
+                },
+                {
+                    "id": "11057",
+                    "categoryId": "1133",
+                    "name": "7th Inning",
+                    "componentId": 202,
+                    "sortOrder": 13703
+                },
+                {
+                    "id": "11058",
+                    "categoryId": "1133",
+                    "name": "8th Inning",
+                    "componentId": 202,
+                    "sortOrder": 13704
+                },
+                {
+                    "id": "11066",
+                    "categoryId": "754",
+                    "name": "1st 5 Innings/Moneyline",
+                    "componentId": 204,
+                    "sortOrder": 6666
+                },
+                {
+                    "id": "11067",
+                    "categoryId": "754",
+                    "name": "To Score First & Win",
+                    "componentId": 29,
+                    "sortOrder": 6754
+                },
+                {
+                    "id": "11068",
+                    "categoryId": "754",
+                    "name": "To Score Last & Win",
+                    "componentId": 29,
+                    "sortOrder": 11032
+                },
+                {
+                    "id": "11196",
+                    "categoryId": "988",
+                    "name": "Plate Appearance (Exact)",
+                    "componentId": 29,
+                    "sortOrder": 9269,
+                    "tags": [
+                        "Featured"
+                    ]
+                },
+                {
+                    "id": "11214",
+                    "categoryId": "1024",
+                    "name": "Hits",
+                    "componentId": 29,
+                    "sortOrder": 9806
+                },
+                {
+                    "id": "11276",
+                    "categoryId": "754",
+                    "name": "Team Runs/Moneyline",
+                    "componentId": 204,
+                    "sortOrder": 6753
+                },
+                {
+                    "id": "11378",
+                    "categoryId": "1133",
+                    "name": "1st Inning",
+                    "componentId": 202,
+                    "sortOrder": 11021
+                },
+                {
+                    "id": "12146",
+                    "categoryId": "743",
+                    "name": "Walks",
+                    "componentId": 8,
+                    "sortOrder": 15062,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12149",
+                    "categoryId": "743",
+                    "name": "Hits + Runs + RBIs",
+                    "componentId": 8,
+                    "sortOrder": 8209,
+                    "tags": [
+                        "ProgressiveParlayEligible"
+                    ]
+                },
+                {
+                    "id": "12855",
+                    "categoryId": "1024",
+                    "name": "Strikeouts",
+                    "componentId": 29,
+                    "sortOrder": 10989
+                },
+                {
+                    "id": "12856",
+                    "categoryId": "1024",
+                    "name": "Batters to the Plate",
+                    "componentId": 29,
+                    "sortOrder": 11178
+                },
+                {
+                    "id": "12857",
+                    "categoryId": "1024",
+                    "name": "Pitches Thrown",
+                    "componentId": 29,
+                    "sortOrder": 11004
+                },
+                {
+                    "id": "12858",
+                    "categoryId": "1024",
+                    "name": "Scoring",
+                    "componentId": 29,
+                    "sortOrder": 9891
+                },
+                {
+                    "id": "12862",
+                    "categoryId": "1024",
+                    "name": "1st Inning Odd/Even",
+                    "componentId": 29,
+                    "sortOrder": 13700,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13168",
+                    "categoryId": "493",
+                    "name": "Alternate Run Line",
+                    "componentId": 240,
+                    "sortOrder": 6421,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13169",
+                    "categoryId": "493",
+                    "name": "Alternate Total Runs",
+                    "componentId": 240,
+                    "sortOrder": 6423,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13736",
+                    "categoryId": "1024",
+                    "name": "1st Inning Run Line",
+                    "componentId": 29,
+                    "sortOrder": 11180,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13738",
+                    "categoryId": "1133",
+                    "name": "9th Inning",
+                    "componentId": 203,
+                    "sortOrder": 13705
+                },
+                {
+                    "id": "13739",
+                    "categoryId": "729",
+                    "name": "Inning Run Line",
+                    "componentId": 29,
+                    "sortOrder": 6713,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13740",
+                    "categoryId": "1024",
+                    "name": "1st Inning Result",
+                    "componentId": 30,
+                    "sortOrder": 11179,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13741",
+                    "categoryId": "729",
+                    "name": "Inning Result",
+                    "componentId": 30,
+                    "sortOrder": 6712,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13743",
+                    "categoryId": "1133",
+                    "name": "Correct Score - 1st 5",
+                    "componentId": 203,
+                    "sortOrder": 11019
+                },
+                {
+                    "id": "13744",
+                    "categoryId": "1133",
+                    "name": "Correct Score - 1st 7",
+                    "componentId": 203,
+                    "sortOrder": 11020
+                },
+                {
+                    "id": "13745",
+                    "categoryId": "1133",
+                    "name": "Correct Score - 1st 3",
+                    "componentId": 203,
+                    "sortOrder": 11018
+                },
+                {
+                    "id": "15221",
+                    "categoryId": "1031",
+                    "name": "Strikeouts Thrown O/U",
+                    "componentId": 8,
+                    "sortOrder": 9851,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15520",
+                    "categoryId": "743",
+                    "name": "Home Runs",
+                    "componentId": 29,
+                    "sortOrder": 6597,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15524",
+                    "categoryId": "1031",
+                    "name": "Strikeouts Thrown",
+                    "componentId": 29,
+                    "sortOrder": 9850,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15628",
+                    "categoryId": "1626",
+                    "name": "1st 5 Innings",
+                    "componentId": 29,
+                    "sortOrder": 15585,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15629",
+                    "categoryId": "1626",
+                    "name": "1st 3 Innings",
+                    "componentId": 29,
+                    "sortOrder": 15586,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15630",
+                    "categoryId": "1626",
+                    "name": "1st 7 Innings",
+                    "componentId": 29,
+                    "sortOrder": 15587,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15631",
+                    "categoryId": "724",
+                    "name": "Highest Scoring Inning",
+                    "componentId": 29,
+                    "sortOrder": 15589
+                },
+                {
+                    "id": "15632",
+                    "categoryId": "724",
+                    "name": "Team To Win Most Innings",
+                    "componentId": 29,
+                    "sortOrder": 15818
+                },
+                {
+                    "id": "15633",
+                    "categoryId": "1626",
+                    "name": "Innings Props",
+                    "componentId": 30,
+                    "sortOrder": 15590
+                },
+                {
+                    "id": "15655",
+                    "categoryId": "743",
+                    "name": "Either Player Home Run",
+                    "componentId": 29,
+                    "sortOrder": 6598
+                },
+                {
+                    "id": "15727",
+                    "categoryId": "1031",
+                    "name": "H2H Props",
+                    "componentId": 204,
+                    "sortOrder": 15845
+                },
+                {
+                    "id": "15889",
+                    "categoryId": "1650",
+                    "name": "1st Hit",
+                    "componentId": 204,
+                    "sortOrder": 15849
+                },
+                {
+                    "id": "15890",
+                    "categoryId": "1650",
+                    "name": "1st Strikeout",
+                    "componentId": 204,
+                    "sortOrder": 15927
+                },
+                {
+                    "id": "15891",
+                    "categoryId": "1650",
+                    "name": "1st Double",
+                    "componentId": 204,
+                    "sortOrder": 15926
+                },
+                {
+                    "id": "15892",
+                    "categoryId": "1650",
+                    "name": "1st Home Run Type",
+                    "componentId": 29,
+                    "sortOrder": 15847
+                },
+                {
+                    "id": "15893",
+                    "categoryId": "1650",
+                    "name": "1st Scoring Play",
+                    "componentId": 29,
+                    "sortOrder": 15930
+                },
+                {
+                    "id": "15969",
+                    "categoryId": "1650",
+                    "name": "1st Home Run",
+                    "componentId": 8,
+                    "sortOrder": 15848
+                },
+                {
+                    "id": "15970",
+                    "categoryId": "1650",
+                    "name": "1st RBI",
+                    "componentId": 204,
+                    "sortOrder": 15850
+                },
+                {
+                    "id": "15971",
+                    "categoryId": "1650",
+                    "name": "1st Run",
+                    "componentId": 204,
+                    "sortOrder": 15851
+                },
+                {
+                    "id": "15972",
+                    "categoryId": "1650",
+                    "name": "1st Run - Team",
+                    "componentId": 29,
+                    "sortOrder": 15846,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4519",
+                    "categoryId": "493",
+                    "name": "Game",
+                    "componentId": 210,
+                    "sortOrder": 4514,
+                    "tags": [
+                        "ProgressiveParlayTeamEligible",
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "6420",
+                    "categoryId": "724",
+                    "name": "Extra Innings",
+                    "componentId": 29,
+                    "sortOrder": 9919,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "6422",
+                    "categoryId": "724",
+                    "name": "Race to X Runs",
+                    "componentId": 29,
+                    "sortOrder": 6477,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "6424",
+                    "categoryId": "724",
+                    "name": "Winning Margin",
+                    "componentId": 202,
+                    "sortOrder": 6646,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "6425",
+                    "categoryId": "724",
+                    "name": "Both Teams to Score",
+                    "componentId": 29,
+                    "sortOrder": 6605,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "6607",
+                    "categoryId": "743",
+                    "name": "Total Bases O/U",
+                    "componentId": 8,
+                    "sortOrder": 8015,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "6668",
+                    "categoryId": "754",
+                    "name": "Moneyline/Total",
+                    "componentId": 204,
+                    "sortOrder": 6660
+                },
+                {
+                    "id": "6669",
+                    "categoryId": "754",
+                    "name": "Run Line/Total",
+                    "componentId": 204,
+                    "sortOrder": 6661
+                },
+                {
+                    "id": "6694",
+                    "categoryId": "493",
+                    "name": "Total Runs (3-Way)",
+                    "componentId": 11,
+                    "sortOrder": 10985
+                },
+                {
+                    "id": "6719",
+                    "categoryId": "743",
+                    "name": "Hits O/U",
+                    "componentId": 8,
+                    "sortOrder": 7971,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "6821",
+                    "categoryId": "724",
+                    "name": "Team Total Runs",
+                    "componentId": 29,
+                    "sortOrder": 6413,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "7979",
+                    "categoryId": "743",
+                    "name": "Runs Scored",
+                    "componentId": 8,
+                    "sortOrder": 8600
+                },
+                {
+                    "id": "8025",
+                    "categoryId": "743",
+                    "name": "RBIs O/U",
+                    "componentId": 8,
+                    "sortOrder": 8021,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "8781",
+                    "categoryId": "724",
+                    "name": "Team Total Runs Odd/Even",
+                    "componentId": 202,
+                    "sortOrder": 15819,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9872",
+                    "categoryId": "743",
+                    "name": "Stolen Bases",
+                    "componentId": 8,
+                    "sortOrder": 8602
+                }
+            ],
+            "sortOrder": 249400037,
+            "subscriptionKey": "event-31104137-Popular"
+        }
+    ],
+    "markets": [
+        {
+            "id": "215331351",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Zach DeLoach - 1st Plate Appearance - Exact Result",
+            "subcategoryId": "11196",
+            "marketType": {
+                "id": "11519",
+                "betOfferTypeId": 0,
+                "name": "Plate Appearance Result Exact"
+            },
+            "sortOrder": 37269351,
+            "tags": [
+                "Cashout",
+                "FeaturedSubcategory",
+                "Flashbet",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|11519|2:178975"
+        },
+        {
+            "id": "215227379",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Andy Ibanez - 1st Plate Appearance - Exact Result",
+            "subcategoryId": "11196",
+            "marketType": {
+                "id": "11519",
+                "betOfferTypeId": 0,
+                "name": "Plate Appearance Result Exact"
+            },
+            "sortOrder": 37269379,
+            "tags": [
+                "Cashout",
+                "FeaturedSubcategory",
+                "Flashbet",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|11519|2:106899"
+        },
+        {
+            "id": "215227393",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Matt Vierling - 1st Plate Appearance - Exact Result",
+            "subcategoryId": "11196",
+            "marketType": {
+                "id": "11519",
+                "betOfferTypeId": 0,
+                "name": "Plate Appearance Result Exact"
+            },
+            "sortOrder": 37269393,
+            "tags": [
+                "Cashout",
+                "FeaturedSubcategory",
+                "Flashbet",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|11519|2:121168"
+        },
+        {
+            "id": "215227394",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Nicky Lopez - 1st Plate Appearance - Exact Result",
+            "subcategoryId": "11196",
+            "marketType": {
+                "id": "11519",
+                "betOfferTypeId": 0,
+                "name": "Plate Appearance Result Exact"
+            },
+            "sortOrder": 37269394,
+            "tags": [
+                "Cashout",
+                "FeaturedSubcategory",
+                "Flashbet",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|11519|2:108991"
+        },
+        {
+            "id": "215227397",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Andrew Benintendi - 1st Plate Appearance - Exact Result",
+            "subcategoryId": "11196",
+            "marketType": {
+                "id": "11519",
+                "betOfferTypeId": 0,
+                "name": "Plate Appearance Result Exact"
+            },
+            "sortOrder": 37269397,
+            "tags": [
+                "Cashout",
+                "FeaturedSubcategory",
+                "Flashbet",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|11519|2:107812"
+        },
+        {
+            "id": "215227398",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Riley Greene - 1st Plate Appearance - Exact Result",
+            "subcategoryId": "11196",
+            "marketType": {
+                "id": "11519",
+                "betOfferTypeId": 0,
+                "name": "Plate Appearance Result Exact"
+            },
+            "sortOrder": 37269398,
+            "tags": [
+                "Cashout",
+                "FeaturedSubcategory",
+                "Flashbet",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|11519|2:105948"
+        },
+        {
+            "id": "215263735",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Alternate DET Tigers Total Runs",
+            "subcategoryId": "6821",
+            "marketType": {
+                "id": "13226",
+                "betOfferTypeId": 0,
+                "name": "Alternate Team Total Runs"
+            },
+            "sortOrder": 37413735,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory"
+            ],
+            "correlatedId": "31104137|13226|8:Home"
+        },
+        {
+            "id": "215263736",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Alternate CHI White Sox Total Runs",
+            "subcategoryId": "6821",
+            "marketType": {
+                "id": "13226",
+                "betOfferTypeId": 0,
+                "name": "Alternate Team Total Runs"
+            },
+            "sortOrder": 37413736,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory"
+            ],
+            "correlatedId": "31104137|13226|8:Away"
+        },
+        {
+            "id": "215332346",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Jake Rogers Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597346,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:108528"
+        },
+        {
+            "id": "215335406",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Zach DeLoach Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597406,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:178975"
+        },
+        {
+            "id": "215335407",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Bryan Ramos Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597407,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:160753"
+        },
+        {
+            "id": "215335408",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Wenceel Perez Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597408,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:105954"
+        },
+        {
+            "id": "215331574",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Nicky Lopez Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597574,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:108991"
+        },
+        {
+            "id": "215331576",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Dominic Fletcher Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597576,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:107018"
+        },
+        {
+            "id": "215331605",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Andrew Benintendi Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597605,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:107812"
+        },
+        {
+            "id": "215331618",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Andrew Vaughn Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597618,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:105890"
+        },
+        {
+            "id": "215331628",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Gavin Sheets Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597628,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:106239"
+        },
+        {
+            "id": "215331636",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Lenyn Sosa Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597636,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:153492"
+        },
+        {
+            "id": "215331640",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Korey Lee Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597640,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:105966"
+        },
+        {
+            "id": "215276964",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Matt Vierling Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597964,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:121168"
+        },
+        {
+            "id": "215276965",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Spencer Torkelson Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597965,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:105770"
+        },
+        {
+            "id": "215276966",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Andy Ibanez Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597966,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:106899"
+        },
+        {
+            "id": "215276967",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Riley Greene Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597967,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:105948"
+        },
+        {
+            "id": "215276968",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Parker Meadows Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597968,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:106398"
+        },
+        {
+            "id": "215276969",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Justyn-Henry Malloy Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597969,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:180226"
+        },
+        {
+            "id": "215276972",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Trey Sweeney Home Runs",
+            "subcategoryId": "15520",
+            "marketType": {
+                "id": "13233",
+                "betOfferTypeId": 0,
+                "name": "Home Runs Milestones"
+            },
+            "sortOrder": 37597972,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13233|2:181743"
+        },
+        {
+            "id": "215336093",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Brenan Hanifee Strikeouts Thrown",
+            "subcategoryId": "15524",
+            "marketType": {
+                "id": "13228",
+                "betOfferTypeId": 0,
+                "name": "Strikeouts Thrown Milestones"
+            },
+            "sortOrder": 37850093,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13228|2:105916"
+        },
+        {
+            "id": "215275782",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Garrett Crochet Strikeouts Thrown",
+            "subcategoryId": "15524",
+            "marketType": {
+                "id": "13228",
+                "betOfferTypeId": 0,
+                "name": "Strikeouts Thrown Milestones"
+            },
+            "sortOrder": 37850782,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "31104137|13228|2:105764"
+        },
+        {
+            "id": "1_76844170",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Moneyline",
+            "subcategoryId": "4519",
+            "marketType": {
+                "id": "1_0",
+                "betOfferTypeId": 2,
+                "name": "Moneyline"
+            },
+            "sortOrder": 176844170,
+            "tags": [
+                "PrimaryMarket",
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "Default"
+            ]
+        },
+        {
+            "id": "2_76844170",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Run Line",
+            "subcategoryId": "4519",
+            "marketType": {
+                "id": "2_0",
+                "betOfferTypeId": 1,
+                "name": "Run Line"
+            },
+            "sortOrder": 276844170,
+            "tags": [
+                "PrimaryMarket",
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "Default"
+            ]
+        },
+        {
+            "id": "3_76844170",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Total",
+            "subcategoryId": "4519",
+            "marketType": {
+                "id": "3_0",
+                "betOfferTypeId": 6,
+                "name": "Total"
+            },
+            "sortOrder": 376844170,
+            "tags": [
+                "PrimaryMarket",
+                "ProgressiveParlayTeamEligible",
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "Default"
+            ]
+        },
+        {
+            "id": "3_76859907",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "DET Tigers: Team Total Runs",
+            "subcategoryId": "6821",
+            "marketType": {
+                "id": "3_2066",
+                "betOfferTypeId": 6,
+                "name": "Team Total Runs"
+            },
+            "sortOrder": 376859907,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "TeamProps"
+            ]
+        },
+        {
+            "id": "3_76859908",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "CHI White Sox: Team Total Runs",
+            "subcategoryId": "6821",
+            "marketType": {
+                "id": "3_2066",
+                "betOfferTypeId": 6,
+                "name": "Team Total Runs"
+            },
+            "sortOrder": 376859908,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "TeamProps"
+            ]
+        },
+        {
+            "id": "3_76859917",
+            "eventId": "31104137",
+            "sportId": "7",
+            "leagueId": "84240",
+            "name": "Runs - 1st Inning",
+            "subcategoryId": "11024",
+            "marketType": {
+                "id": "3_9134",
+                "betOfferTypeId": 6,
+                "name": "Runs - 1st Inning"
+            },
+            "sortOrder": 376859917,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory"
+            ]
+        }
+    ],
+    "selections": [
+        {
+            "id": "0QA215227379#52559648_13L84240Q1-338591191Q20",
+            "marketId": "215227379",
+            "label": "Walk/Hit by Pitch",
+            "displayOdds": {
+                "american": "+950",
+                "decimal": "10.50",
+                "fractional": "19/2"
+            },
+            "trueOdds": 10.5,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 52559648
+        },
+        {
+            "id": "0QA215227379#52559653_13L84240Q11143958792Q20",
+            "marketId": "215227379",
+            "label": "Reach on Error",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 52559653
+        },
+        {
+            "id": "0QA215227379#52559652_13L84240Q1-421461588Q20",
+            "marketId": "215227379",
+            "label": "Home Run",
+            "displayOdds": {
+                "american": "+1700",
+                "decimal": "18.00",
+                "fractional": "17/1"
+            },
+            "trueOdds": 18,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 52559652
+        },
+        {
+            "id": "0QA215227379#52559649_13L84240Q11044542311Q20",
+            "marketId": "215227379",
+            "label": "Single",
+            "displayOdds": {
+                "american": "+550",
+                "decimal": "6.50",
+                "fractional": "11/2"
+            },
+            "trueOdds": 6.5,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 52559649
+        },
+        {
+            "id": "0QA215227379#52559651_13L84240Q1192253848Q20",
+            "marketId": "215227379",
+            "label": "Triple",
+            "displayOdds": {
+                "american": "+2500",
+                "decimal": "26.00",
+                "fractional": "25/1"
+            },
+            "trueOdds": 26,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 52559651
+        },
+        {
+            "id": "0QA215227379#52559647_13L84240Q1-1060517930Q20",
+            "marketId": "215227379",
+            "label": "Strikeout",
+            "displayOdds": {
+                "american": "+150",
+                "decimal": "2.50",
+                "fractional": "6/4"
+            },
+            "trueOdds": 2.5,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 52559647
+        },
+        {
+            "id": "0QA215227379#52559650_13L84240Q1-456797681Q20",
+            "marketId": "215227379",
+            "label": "Double",
+            "displayOdds": {
+                "american": "+1300",
+                "decimal": "14.00",
+                "fractional": "13/1"
+            },
+            "trueOdds": 14,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 52559650
+        },
+        {
+            "id": "0QA215227379#52559646_13L84240Q11971696543Q20",
+            "marketId": "215227379",
+            "label": "In Play Out",
+            "displayOdds": {
+                "american": "+140",
+                "decimal": "2.40",
+                "fractional": "7/5"
+            },
+            "trueOdds": 2.4,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 52559646
+        },
+        {
+            "id": "0QA215331351#53114621_13L84240Q11143958792Q20",
+            "marketId": "215331351",
+            "label": "Reach on Error",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 53114621
+        },
+        {
+            "id": "0QA215331351#53114615_13L84240Q1-1060517930Q20",
+            "marketId": "215331351",
+            "label": "Strikeout",
+            "displayOdds": {
+                "american": "+250",
+                "decimal": "3.50",
+                "fractional": "5/2"
+            },
+            "trueOdds": 3.5,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 53114615
+        },
+        {
+            "id": "0QA215331351#53114617_13L84240Q11044542311Q20",
+            "marketId": "215331351",
+            "label": "Single",
+            "displayOdds": {
+                "american": "+450",
+                "decimal": "5.50",
+                "fractional": "9/2"
+            },
+            "trueOdds": 5.5,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 53114617
+        },
+        {
+            "id": "0QA215331351#53114619_13L84240Q1192253848Q20",
+            "marketId": "215331351",
+            "label": "Triple",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 53114619
+        },
+        {
+            "id": "0QA215331351#53114614_13L84240Q11971696543Q20",
+            "marketId": "215331351",
+            "label": "In Play Out",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 53114614
+        },
+        {
+            "id": "0QA215331351#53114618_13L84240Q1-456797681Q20",
+            "marketId": "215331351",
+            "label": "Double",
+            "displayOdds": {
+                "american": "+1200",
+                "decimal": "13.00",
+                "fractional": "12/1"
+            },
+            "trueOdds": 13,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 53114618
+        },
+        {
+            "id": "0QA215331351#53114616_13L84240Q1-338591191Q20",
+            "marketId": "215331351",
+            "label": "Walk/Hit by Pitch",
+            "displayOdds": {
+                "american": "+800",
+                "decimal": "9.00",
+                "fractional": "8/1"
+            },
+            "trueOdds": 9,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 53114616
+        },
+        {
+            "id": "0QA215331351#53114620_13L84240Q1-421461588Q20",
+            "marketId": "215331351",
+            "label": "Home Run",
+            "displayOdds": {
+                "american": "+1800",
+                "decimal": "19.00",
+                "fractional": "18/1"
+            },
+            "trueOdds": 19,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 53114620
+        },
+        {
+            "id": "0QA215331574#53115379_13L84240Q1-446308922Q20",
+            "marketId": "215331574",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+1600",
+                "decimal": "17.00",
+                "fractional": "16/1"
+            },
+            "trueOdds": 17,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 170079,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215331605#53115446_13L84240Q1-446308922Q20",
+            "marketId": "215331605",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+700",
+                "decimal": "8.00",
+                "fractional": "7/1"
+            },
+            "trueOdds": 8,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 80046,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726274_15L84240Q1-57903101Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212800",
+                "decimal": "1.12",
+                "fractional": "1/8"
+            },
+            "trueOdds": 1.125,
+            "points": 7.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 7502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726264_13L84240Q1782029098Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+340",
+                "decimal": "4.40",
+                "fractional": "17/5"
+            },
+            "trueOdds": 4.4,
+            "points": 6.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 6500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726260_13L84240Q11972180166Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212900",
+                "decimal": "1.11",
+                "fractional": "1/9"
+            },
+            "trueOdds": 1.11111112,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726263_13L84240Q1440319057Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+200",
+                "decimal": "3.00",
+                "fractional": "2/1"
+            },
+            "trueOdds": 3,
+            "points": 5.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 5500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#53072277_13L84240Q1991653429Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212155",
+                "decimal": "1.64",
+                "fractional": "20/31"
+            },
+            "trueOdds": 1.6451613,
+            "points": 3.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 3500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726259_13L84240Q1-474584694Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u22125000",
+                "decimal": "1.02",
+                "fractional": "1/50"
+            },
+            "trueOdds": 1.02,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726276_15L84240Q1-854138424Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u22124000",
+                "decimal": "1.02",
+                "fractional": "1/40"
+            },
+            "trueOdds": 1.025,
+            "points": 9.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 9502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726268_15L84240Q1662274131Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+1700",
+                "decimal": "18.00",
+                "fractional": "17/1"
+            },
+            "trueOdds": 18,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726261_13L84240Q1814636297Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212320",
+                "decimal": "1.31",
+                "fractional": "5/16"
+            },
+            "trueOdds": 1.3125,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726275_15L84240Q11796236882Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u22121600",
+                "decimal": "1.06",
+                "fractional": "1/16"
+            },
+            "trueOdds": 1.0625,
+            "points": 8.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 8502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726272_15L84240Q1-889109601Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212265",
+                "decimal": "1.37",
+                "fractional": "20/53"
+            },
+            "trueOdds": 1.3773585,
+            "points": 5.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 5502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726270_15L84240Q11093510424Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+240",
+                "decimal": "3.40",
+                "fractional": "12/5"
+            },
+            "trueOdds": 3.4,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726267_13L84240Q1803657094Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+1500",
+                "decimal": "16.00",
+                "fractional": "15/1"
+            },
+            "trueOdds": 16,
+            "points": 9.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 9500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#53072278_15L84240Q1448568240Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
+            },
+            "trueOdds": 2.2,
+            "points": 3.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 3502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726266_13L84240Q1-1475623204Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+900",
+                "decimal": "10.00",
+                "fractional": "9/1"
+            },
+            "trueOdds": 10,
+            "points": 8.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 8500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726273_15L84240Q1448970915Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212475",
+                "decimal": "1.21",
+                "fractional": "4/19"
+            },
+            "trueOdds": 1.21052632,
+            "points": 6.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 6502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726265_13L84240Q1-359048347Q20",
+            "marketId": "215263735",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+550",
+                "decimal": "6.50",
+                "fractional": "11/2"
+            },
+            "trueOdds": 6.5,
+            "points": 7.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 7500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263735#52726269_15L84240Q1724107685Q20",
+            "marketId": "215263735",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+550",
+                "decimal": "6.50",
+                "fractional": "11/2"
+            },
+            "trueOdds": 6.5,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215335407#53131195_13L84240Q1-446308922Q20",
+            "marketId": "215335407",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+750",
+                "decimal": "8.50",
+                "fractional": "15/2"
+            },
+            "trueOdds": 8.5,
+            "participants": [
+                {
+                    "id": "459750",
+                    "name": "Bryan Ramos",
+                    "type": "Player",
+                    "seoIdentifier": "Bryan Ramos"
+                }
+            ],
+            "sortOrder": 85095,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215276968#52813827_13L84240Q1-446308922Q20",
+            "marketId": "215276968",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+1200",
+                "decimal": "13.00",
+                "fractional": "12/1"
+            },
+            "trueOdds": 13,
+            "participants": [
+                {
+                    "id": "110846",
+                    "name": "Parker Meadows",
+                    "type": "Player",
+                    "seoIdentifier": "Parker Meadows"
+                }
+            ],
+            "sortOrder": 130027,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215276965#52813826_13L84240Q1-446308922Q20",
+            "marketId": "215276965",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+475",
+                "decimal": "5.75",
+                "fractional": "19/4"
+            },
+            "trueOdds": 5.75,
+            "participants": [
+                {
+                    "id": "494683",
+                    "name": "Spencer Torkelson",
+                    "type": "Player",
+                    "seoIdentifier": "Spencer Torkelson"
+                }
+            ],
+            "sortOrder": 57526,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215227398#52559711_13L84240Q11143958792Q20",
+            "marketId": "215227398",
+            "label": "Reach on Error",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 52559711
+        },
+        {
+            "id": "0QA215227398#52559707_13L84240Q11044542311Q20",
+            "marketId": "215227398",
+            "label": "Single",
+            "displayOdds": {
+                "american": "+550",
+                "decimal": "6.50",
+                "fractional": "11/2"
+            },
+            "trueOdds": 6.5,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 52559707
+        },
+        {
+            "id": "0QA215227398#52559709_13L84240Q1192253848Q20",
+            "marketId": "215227398",
+            "label": "Triple",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 52559709
+        },
+        {
+            "id": "0QA215227398#52559708_13L84240Q1-456797681Q20",
+            "marketId": "215227398",
+            "label": "Double",
+            "displayOdds": {
+                "american": "+1300",
+                "decimal": "14.00",
+                "fractional": "13/1"
+            },
+            "trueOdds": 14,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 52559708
+        },
+        {
+            "id": "0QA215227398#52559705_13L84240Q1-1060517930Q20",
+            "marketId": "215227398",
+            "label": "Strikeout",
+            "displayOdds": {
+                "american": "+115",
+                "decimal": "2.15",
+                "fractional": "23/20"
+            },
+            "trueOdds": 2.15,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 52559705
+        },
+        {
+            "id": "0QA215227398#52559704_13L84240Q11971696543Q20",
+            "marketId": "215227398",
+            "label": "In Play Out",
+            "displayOdds": {
+                "american": "+190",
+                "decimal": "2.90",
+                "fractional": "19/10"
+            },
+            "trueOdds": 2.9,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 52559704
+        },
+        {
+            "id": "0QA215227398#52559706_13L84240Q1-338591191Q20",
+            "marketId": "215227398",
+            "label": "Walk/Hit by Pitch",
+            "displayOdds": {
+                "american": "+800",
+                "decimal": "9.00",
+                "fractional": "8/1"
+            },
+            "trueOdds": 9,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 52559706
+        },
+        {
+            "id": "0QA215227398#52559710_13L84240Q1-421461588Q20",
+            "marketId": "215227398",
+            "label": "Home Run",
+            "displayOdds": {
+                "american": "+1600",
+                "decimal": "17.00",
+                "fractional": "16/1"
+            },
+            "trueOdds": 17,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 52559710
+        },
+        {
+            "id": "0QA215331640#53115525_13L84240Q1-446308922Q20",
+            "marketId": "215331640",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+1000",
+                "decimal": "11.00",
+                "fractional": "10/1"
+            },
+            "trueOdds": 11,
+            "participants": [
+                {
+                    "id": "459798",
+                    "name": "Korey Lee",
+                    "type": "Player",
+                    "seoIdentifier": "Korey Lee"
+                }
+            ],
+            "sortOrder": 110025,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215227397#52559700_13L84240Q1-456797681Q20",
+            "marketId": "215227397",
+            "label": "Double",
+            "displayOdds": {
+                "american": "+1200",
+                "decimal": "13.00",
+                "fractional": "12/1"
+            },
+            "trueOdds": 13,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 52559700
+        },
+        {
+            "id": "0QA215227397#52559698_13L84240Q1-338591191Q20",
+            "marketId": "215227397",
+            "label": "Walk/Hit by Pitch",
+            "displayOdds": {
+                "american": "+750",
+                "decimal": "8.50",
+                "fractional": "15/2"
+            },
+            "trueOdds": 8.5,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 52559698
+        },
+        {
+            "id": "0QA215227397#52559694_13L84240Q11971696543Q20",
+            "marketId": "215227397",
+            "label": "In Play Out",
+            "displayOdds": {
+                "american": "\u2212120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 52559694
+        },
+        {
+            "id": "0QA215227397#52559696_13L84240Q1-1060517930Q20",
+            "marketId": "215227397",
+            "label": "Strikeout",
+            "displayOdds": {
+                "american": "+390",
+                "decimal": "4.90",
+                "fractional": "39/10"
+            },
+            "trueOdds": 4.9,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 52559696
+        },
+        {
+            "id": "0QA215227397#52559702_13L84240Q1-421461588Q20",
+            "marketId": "215227397",
+            "label": "Home Run",
+            "displayOdds": {
+                "american": "+1500",
+                "decimal": "16.00",
+                "fractional": "15/1"
+            },
+            "trueOdds": 16,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 52559702
+        },
+        {
+            "id": "0QA215227397#52559699_13L84240Q11044542311Q20",
+            "marketId": "215227397",
+            "label": "Single",
+            "displayOdds": {
+                "american": "+425",
+                "decimal": "5.25",
+                "fractional": "17/4"
+            },
+            "trueOdds": 5.25,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 52559699
+        },
+        {
+            "id": "0QA215227397#52559701_13L84240Q1192253848Q20",
+            "marketId": "215227397",
+            "label": "Triple",
+            "displayOdds": {
+                "american": "+2500",
+                "decimal": "26.00",
+                "fractional": "25/1"
+            },
+            "trueOdds": 26,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 52559701
+        },
+        {
+            "id": "0QA215227397#52559703_13L84240Q11143958792Q20",
+            "marketId": "215227397",
+            "label": "Reach on Error",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "31520",
+                    "name": "Andrew Benintendi",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Benintendi"
+                }
+            ],
+            "sortOrder": 52559703
+        },
+        {
+            "id": "0OU76859917O150_1",
+            "marketId": "3_76859917",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+275",
+                "decimal": "3.75",
+                "fractional": "11/4"
+            },
+            "trueOdds": 3.75,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "sortOrder": 1500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0OU76859917O50_1",
+            "marketId": "3_76859917",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0OU76859917U50_3",
+            "marketId": "3_76859917",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212140",
+                "decimal": "1.71",
+                "fractional": "5/7"
+            },
+            "trueOdds": 1.71428572,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0OU76859917U150_3",
+            "marketId": "3_76859917",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212425",
+                "decimal": "1.23",
+                "fractional": "4/17"
+            },
+            "trueOdds": 1.23529412,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "sortOrder": 1502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215276964#52813825_13L84240Q1-446308922Q20",
+            "marketId": "215276964",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+800",
+                "decimal": "9.00",
+                "fractional": "8/1"
+            },
+            "trueOdds": 9,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 90025,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215335408#53131196_13L84240Q1-446308922Q20",
+            "marketId": "215335408",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+800",
+                "decimal": "9.00",
+                "fractional": "8/1"
+            },
+            "trueOdds": 9,
+            "participants": [
+                {
+                    "id": "459790",
+                    "name": "Wenceel Perez",
+                    "type": "Player",
+                    "seoIdentifier": "Wenceel Perez"
+                }
+            ],
+            "sortOrder": 90096,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215276966#52813832_13L84240Q1-446308922Q20",
+            "marketId": "215276966",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+900",
+                "decimal": "10.00",
+                "fractional": "9/1"
+            },
+            "trueOdds": 10,
+            "participants": [
+                {
+                    "id": "111357",
+                    "name": "Andy Ibanez",
+                    "type": "Player",
+                    "seoIdentifier": "Andy Ibanez"
+                }
+            ],
+            "sortOrder": 100032,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215275782#52809188_13L84240Q11808374608Q20",
+            "marketId": "215275782",
+            "label": "6+",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "participants": [
+                {
+                    "id": "494662",
+                    "name": "Garrett Crochet",
+                    "type": "Player",
+                    "seoIdentifier": "Garrett Crochet"
+                }
+            ],
+            "sortOrder": 20588,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215275782#52809190_13L84240Q1690402111Q20",
+            "marketId": "215275782",
+            "label": "8+",
+            "displayOdds": {
+                "american": "+425",
+                "decimal": "5.25",
+                "fractional": "17/4"
+            },
+            "trueOdds": 5.25,
+            "participants": [
+                {
+                    "id": "494662",
+                    "name": "Garrett Crochet",
+                    "type": "Player",
+                    "seoIdentifier": "Garrett Crochet"
+                }
+            ],
+            "sortOrder": 52590,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215275782#52809186_13L84240Q1-1854919473Q20",
+            "marketId": "215275782",
+            "label": "4+",
+            "displayOdds": {
+                "american": "\u2212475",
+                "decimal": "1.21",
+                "fractional": "4/19"
+            },
+            "trueOdds": 1.21052632,
+            "participants": [
+                {
+                    "id": "494662",
+                    "name": "Garrett Crochet",
+                    "type": "Player",
+                    "seoIdentifier": "Garrett Crochet"
+                }
+            ],
+            "sortOrder": 12186,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215275782#52809187_13L84240Q11484946226Q20",
+            "marketId": "215275782",
+            "label": "5+",
+            "displayOdds": {
+                "american": "\u2212195",
+                "decimal": "1.51",
+                "fractional": "20/39"
+            },
+            "trueOdds": 1.51282052,
+            "participants": [
+                {
+                    "id": "494662",
+                    "name": "Garrett Crochet",
+                    "type": "Player",
+                    "seoIdentifier": "Garrett Crochet"
+                }
+            ],
+            "sortOrder": 15187,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215275782#52809189_13L84240Q1456030934Q20",
+            "marketId": "215275782",
+            "label": "7+",
+            "displayOdds": {
+                "american": "+215",
+                "decimal": "3.15",
+                "fractional": "43/20"
+            },
+            "trueOdds": 3.15,
+            "participants": [
+                {
+                    "id": "494662",
+                    "name": "Garrett Crochet",
+                    "type": "Player",
+                    "seoIdentifier": "Garrett Crochet"
+                }
+            ],
+            "sortOrder": 31589,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215227394#52559723_13L84240Q1-1060517930Q20",
+            "marketId": "215227394",
+            "label": "Strikeout",
+            "displayOdds": {
+                "american": "+425",
+                "decimal": "5.25",
+                "fractional": "17/4"
+            },
+            "trueOdds": 5.25,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 52559723
+        },
+        {
+            "id": "0QA215227394#52559729_13L84240Q11143958792Q20",
+            "marketId": "215227394",
+            "label": "Reach on Error",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 52559729
+        },
+        {
+            "id": "0QA215227394#52559726_13L84240Q1-456797681Q20",
+            "marketId": "215227394",
+            "label": "Double",
+            "displayOdds": {
+                "american": "+1300",
+                "decimal": "14.00",
+                "fractional": "13/1"
+            },
+            "trueOdds": 14,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 52559726
+        },
+        {
+            "id": "0QA215227394#52559722_13L84240Q11971696543Q20",
+            "marketId": "215227394",
+            "label": "In Play Out",
+            "displayOdds": {
+                "american": "\u2212140",
+                "decimal": "1.71",
+                "fractional": "5/7"
+            },
+            "trueOdds": 1.71428572,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 52559722
+        },
+        {
+            "id": "0QA215227394#52559724_13L84240Q1-338591191Q20",
+            "marketId": "215227394",
+            "label": "Walk/Hit by Pitch",
+            "displayOdds": {
+                "american": "+800",
+                "decimal": "9.00",
+                "fractional": "8/1"
+            },
+            "trueOdds": 9,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 52559724
+        },
+        {
+            "id": "0QA215227394#52559725_13L84240Q11044542311Q20",
+            "marketId": "215227394",
+            "label": "Single",
+            "displayOdds": {
+                "american": "+400",
+                "decimal": "5.00",
+                "fractional": "4/1"
+            },
+            "trueOdds": 5,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 52559725
+        },
+        {
+            "id": "0QA215227394#52559728_13L84240Q1-421461588Q20",
+            "marketId": "215227394",
+            "label": "Home Run",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 52559728
+        },
+        {
+            "id": "0QA215227394#52559727_13L84240Q1192253848Q20",
+            "marketId": "215227394",
+            "label": "Triple",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "32136",
+                    "name": "Nicky Lopez",
+                    "type": "Player",
+                    "seoIdentifier": "Nicky Lopez"
+                }
+            ],
+            "sortOrder": 52559727
+        },
+        {
+            "id": "0OU76859908O250_1",
+            "marketId": "3_76859908",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212135",
+                "decimal": "1.74",
+                "fractional": "20/27"
+            },
+            "trueOdds": 1.74074075,
+            "points": 2.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 2500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0OU76859908U250_3",
+            "marketId": "3_76859908",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+105",
+                "decimal": "2.05",
+                "fractional": "21/20"
+            },
+            "trueOdds": 2.05,
+            "points": 2.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 2502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215331618#53115479_13L84240Q1-446308922Q20",
+            "marketId": "215331618",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+700",
+                "decimal": "8.00",
+                "fractional": "7/1"
+            },
+            "trueOdds": 8,
+            "participants": [
+                {
+                    "id": "459748",
+                    "name": "Andrew Vaughn",
+                    "type": "Player",
+                    "seoIdentifier": "Andrew Vaughn"
+                }
+            ],
+            "sortOrder": 80079,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726283_13L84240Q1991653429Q20",
+            "marketId": "215263736",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+140",
+                "decimal": "2.40",
+                "fractional": "7/5"
+            },
+            "trueOdds": 2.4,
+            "points": 3.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 3500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726297_15L84240Q11796236882Q20",
+            "marketId": "215263736",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u22128000",
+                "decimal": "1.01",
+                "fractional": "1/80"
+            },
+            "trueOdds": 1.0125,
+            "points": 8.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 8502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726288_13L84240Q1-1475623204Q20",
+            "marketId": "215263736",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+1900",
+                "decimal": "20.00",
+                "fractional": "19/1"
+            },
+            "trueOdds": 20,
+            "points": 8.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 8500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726291_15L84240Q1724107685Q20",
+            "marketId": "215263736",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+220",
+                "decimal": "3.20",
+                "fractional": "11/5"
+            },
+            "trueOdds": 3.2,
+            "points": 1.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 1502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726293_15L84240Q1-1285467462Q20",
+            "marketId": "215263736",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212330",
+                "decimal": "1.30",
+                "fractional": "10/33"
+            },
+            "trueOdds": 1.30303031,
+            "points": 4.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 4502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726284_13L84240Q1-480757393Q20",
+            "marketId": "215263736",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+250",
+                "decimal": "3.50",
+                "fractional": "5/2"
+            },
+            "trueOdds": 3.5,
+            "points": 4.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 4500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726294_15L84240Q1-889109601Q20",
+            "marketId": "215263736",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212600",
+                "decimal": "1.16",
+                "fractional": "1/6"
+            },
+            "trueOdds": 1.16666667,
+            "points": 5.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 5502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726296_15L84240Q1-57903101Q20",
+            "marketId": "215263736",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u22122500",
+                "decimal": "1.04",
+                "fractional": "1/25"
+            },
+            "trueOdds": 1.04,
+            "points": 7.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 7502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726282_13L84240Q11972180166Q20",
+            "marketId": "215263736",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212285",
+                "decimal": "1.35",
+                "fractional": "20/57"
+            },
+            "trueOdds": 1.3508772,
+            "points": 1.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 1500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726287_13L84240Q1-359048347Q20",
+            "marketId": "215263736",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+1200",
+                "decimal": "13.00",
+                "fractional": "12/1"
+            },
+            "trueOdds": 13,
+            "points": 7.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 7500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726292_15L84240Q1448568240Q20",
+            "marketId": "215263736",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212185",
+                "decimal": "1.54",
+                "fractional": "20/37"
+            },
+            "trueOdds": 1.54054055,
+            "points": 3.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 3502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726285_13L84240Q1440319057Q20",
+            "marketId": "215263736",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+425",
+                "decimal": "5.25",
+                "fractional": "17/4"
+            },
+            "trueOdds": 5.25,
+            "points": 5.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 5500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726290_15L84240Q1662274131Q20",
+            "marketId": "215263736",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+650",
+                "decimal": "7.50",
+                "fractional": "13/2"
+            },
+            "trueOdds": 7.5,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726295_15L84240Q1448970915Q20",
+            "marketId": "215263736",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u22121200",
+                "decimal": "1.08",
+                "fractional": "1/12"
+            },
+            "trueOdds": 1.08333334,
+            "points": 6.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 6502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726286_13L84240Q1782029098Q20",
+            "marketId": "215263736",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+700",
+                "decimal": "8.00",
+                "fractional": "7/1"
+            },
+            "trueOdds": 8,
+            "points": 6.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 6500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215263736#52726281_13L84240Q1-474584694Q20",
+            "marketId": "215263736",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u22121100",
+                "decimal": "1.09",
+                "fractional": "1/11"
+            },
+            "trueOdds": 1.0909091,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215331628#53115499_13L84240Q1-446308922Q20",
+            "marketId": "215331628",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+750",
+                "decimal": "8.50",
+                "fractional": "15/2"
+            },
+            "trueOdds": 8.5,
+            "participants": [
+                {
+                    "id": "110683",
+                    "name": "Gavin Sheets",
+                    "type": "Player",
+                    "seoIdentifier": "Gavin Sheets"
+                }
+            ],
+            "sortOrder": 85099,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215276972#52813836_13L84240Q1-446308922Q20",
+            "marketId": "215276972",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+850",
+                "decimal": "9.50",
+                "fractional": "17/2"
+            },
+            "trueOdds": 9.5,
+            "participants": [
+                {
+                    "id": "587688",
+                    "name": "Trey Sweeney",
+                    "type": "Player",
+                    "seoIdentifier": "Trey Sweeney"
+                }
+            ],
+            "sortOrder": 95036,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215335406#53131194_13L84240Q1-446308922Q20",
+            "marketId": "215335406",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+650",
+                "decimal": "7.50",
+                "fractional": "13/2"
+            },
+            "trueOdds": 7.5,
+            "participants": [
+                {
+                    "id": "495670",
+                    "name": "Zach DeLoach",
+                    "type": "Player",
+                    "seoIdentifier": "Zach DeLoach"
+                }
+            ],
+            "sortOrder": 75094,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215276969#52813830_13L84240Q1-446308922Q20",
+            "marketId": "215276969",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+750",
+                "decimal": "8.50",
+                "fractional": "15/2"
+            },
+            "trueOdds": 8.5,
+            "participants": [
+                {
+                    "id": "643813",
+                    "name": "Justyn-Henry Malloy",
+                    "type": "Player",
+                    "seoIdentifier": "Justyn-Henry Malloy"
+                }
+            ],
+            "sortOrder": 85030,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215331636#53115518_13L84240Q1-446308922Q20",
+            "marketId": "215331636",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+1000",
+                "decimal": "11.00",
+                "fractional": "10/1"
+            },
+            "trueOdds": 11,
+            "participants": [
+                {
+                    "id": "476753",
+                    "name": "Lenyn Sosa",
+                    "type": "Player",
+                    "seoIdentifier": "Lenyn Sosa"
+                }
+            ],
+            "sortOrder": 110018,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215227393#52559639_13L84240Q11044542311Q20",
+            "marketId": "215227393",
+            "label": "Single",
+            "displayOdds": {
+                "american": "+550",
+                "decimal": "6.50",
+                "fractional": "11/2"
+            },
+            "trueOdds": 6.5,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 52559639
+        },
+        {
+            "id": "0QA215227393#52559642_13L84240Q1-421461588Q20",
+            "marketId": "215227393",
+            "label": "Home Run",
+            "displayOdds": {
+                "american": "+1700",
+                "decimal": "18.00",
+                "fractional": "17/1"
+            },
+            "trueOdds": 18,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 52559642
+        },
+        {
+            "id": "0QA215227393#52559643_13L84240Q11143958792Q20",
+            "marketId": "215227393",
+            "label": "Reach on Error",
+            "displayOdds": {
+                "american": "+2200",
+                "decimal": "23.00",
+                "fractional": "22/1"
+            },
+            "trueOdds": 23,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 52559643
+        },
+        {
+            "id": "0QA215227393#52559638_13L84240Q1-338591191Q20",
+            "marketId": "215227393",
+            "label": "Walk/Hit by Pitch",
+            "displayOdds": {
+                "american": "+850",
+                "decimal": "9.50",
+                "fractional": "17/2"
+            },
+            "trueOdds": 9.5,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 52559638
+        },
+        {
+            "id": "0QA215227393#52559640_13L84240Q1-456797681Q20",
+            "marketId": "215227393",
+            "label": "Double",
+            "displayOdds": {
+                "american": "+1200",
+                "decimal": "13.00",
+                "fractional": "12/1"
+            },
+            "trueOdds": 13,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 52559640
+        },
+        {
+            "id": "0QA215227393#52559637_13L84240Q1-1060517930Q20",
+            "marketId": "215227393",
+            "label": "Strikeout",
+            "displayOdds": {
+                "american": "+180",
+                "decimal": "2.80",
+                "fractional": "9/5"
+            },
+            "trueOdds": 2.8,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 52559637
+        },
+        {
+            "id": "0QA215227393#52559636_13L84240Q11971696543Q20",
+            "marketId": "215227393",
+            "label": "In Play Out",
+            "displayOdds": {
+                "american": "+125",
+                "decimal": "2.25",
+                "fractional": "5/4"
+            },
+            "trueOdds": 2.25,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 52559636
+        },
+        {
+            "id": "0QA215227393#52559641_13L84240Q1192253848Q20",
+            "marketId": "215227393",
+            "label": "Triple",
+            "displayOdds": {
+                "american": "+2500",
+                "decimal": "26.00",
+                "fractional": "25/1"
+            },
+            "trueOdds": 26,
+            "participants": [
+                {
+                    "id": "476297",
+                    "name": "Matt Vierling",
+                    "type": "Player",
+                    "seoIdentifier": "Matt Vierling"
+                }
+            ],
+            "sortOrder": 52559641
+        },
+        {
+            "id": "0OU76844170U700_3",
+            "marketId": "3_76844170",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 7,
+            "outcomeType": "Under",
+            "sortOrder": 7002,
+            "tags": [
+                "ProgressiveParlayTeamEligible",
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0OU76844170O700_1",
+            "marketId": "3_76844170",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 7,
+            "outcomeType": "Over",
+            "sortOrder": 7000,
+            "tags": [
+                "ProgressiveParlayTeamEligible",
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215331576#53115380_13L84240Q1-446308922Q20",
+            "marketId": "215331576",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+1300",
+                "decimal": "14.00",
+                "fractional": "13/1"
+            },
+            "trueOdds": 14,
+            "participants": [
+                {
+                    "id": "478715",
+                    "name": "Dominic Fletcher",
+                    "type": "Player",
+                    "seoIdentifier": "Dominic Fletcher"
+                }
+            ],
+            "sortOrder": 140080,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0OU76859907O450_1",
+            "marketId": "3_76859907",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
+            },
+            "trueOdds": 2.2,
+            "points": 4.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 4500,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0OU76859907U450_3",
+            "marketId": "3_76859907",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212154",
+                "decimal": "1.64",
+                "fractional": "50/77"
+            },
+            "trueOdds": 1.64935065,
+            "points": 4.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 4502,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0ML76844170_3",
+            "marketId": "1_76844170",
+            "label": "CHI White Sox",
+            "displayOdds": {
+                "american": "+170",
+                "decimal": "2.70",
+                "fractional": "17/10"
+            },
+            "trueOdds": 2.7,
+            "outcomeType": "Away",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 1225543666,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0ML76844170_1",
+            "marketId": "1_76844170",
+            "label": "DET Tigers",
+            "displayOdds": {
+                "american": "\u2212205",
+                "decimal": "1.48",
+                "fractional": "20/41"
+            },
+            "trueOdds": 1.48780488,
+            "outcomeType": "Home",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 1225545662,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0HC76844170N150_1",
+            "marketId": "2_76844170",
+            "label": "DET Tigers",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "points": -1.5,
+            "outcomeType": "Home",
+            "participants": [
+                {
+                    "id": "29871",
+                    "name": "DET Tigers",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 1501,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0HC76844170P150_3",
+            "marketId": "2_76844170",
+            "label": "CHI White Sox",
+            "displayOdds": {
+                "american": "\u2212130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 1.5,
+            "outcomeType": "Away",
+            "participants": [
+                {
+                    "id": "29970",
+                    "name": "CHI White Sox",
+                    "type": "Team"
+                }
+            ],
+            "sortOrder": 1499,
+            "tags": [
+                "MainPointLine",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215336093#53133758_13L84240Q11617611576Q20",
+            "marketId": "215336093",
+            "label": "3+",
+            "displayOdds": {
+                "american": "+400",
+                "decimal": "5.00",
+                "fractional": "4/1"
+            },
+            "trueOdds": 5,
+            "participants": [
+                {
+                    "id": "110441",
+                    "name": "Brenan Hanifee",
+                    "type": "Player",
+                    "seoIdentifier": "Brenan Hanifee"
+                }
+            ],
+            "sortOrder": 50058,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215336093#53133759_13L84240Q1-1854919473Q20",
+            "marketId": "215336093",
+            "label": "4+",
+            "displayOdds": {
+                "american": "+1000",
+                "decimal": "11.00",
+                "fractional": "10/1"
+            },
+            "trueOdds": 11,
+            "participants": [
+                {
+                    "id": "110441",
+                    "name": "Brenan Hanifee",
+                    "type": "Player",
+                    "seoIdentifier": "Brenan Hanifee"
+                }
+            ],
+            "sortOrder": 110059,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215276967#52813831_13L84240Q1-446308922Q20",
+            "marketId": "215276967",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+600",
+                "decimal": "7.00",
+                "fractional": "6/1"
+            },
+            "trueOdds": 7,
+            "participants": [
+                {
+                    "id": "459786",
+                    "name": "Riley Greene",
+                    "type": "Player",
+                    "seoIdentifier": "Riley Greene"
+                }
+            ],
+            "sortOrder": 70031,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA215332346#53117792_13L84240Q1-446308922Q20",
+            "marketId": "215332346",
+            "label": "1+",
+            "displayOdds": {
+                "american": "+650",
+                "decimal": "7.50",
+                "fractional": "13/2"
+            },
+            "trueOdds": 7.5,
+            "participants": [
+                {
+                    "id": "31894",
+                    "name": "Jake Rogers",
+                    "type": "Player",
+                    "seoIdentifier": "Jake Rogers"
+                }
+            ],
+            "sortOrder": 75092,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        }
+    ],
+    "subscriptionPartials": {
+        "event-31104137-Popular": {
+            "entity": "events",
+            "query": "$filter=id eq '31104137'",
+            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and tags/any(t: t eq 'FeaturedSubcategory')"
+        }
+    }
+}

@@ -375,7 +375,7 @@ def gigaDump2(respNameData, respOddsData):
             getTeamName(nameData[0]['participants'][0]['name']) + '(home)'
 
         for bet in nameData:
-            if bet.get('special') and bet['special'].get('category') == 'Player Props':
+            if bet.get('special') and bet['special'].get('category') == 'Player Props' and bet['periods'][0]['status'] == 'open':
                 for participant in bet['participants']:
                     if participant['name'] in ['Over', 'Yes']:
                         overId = participant['id']
@@ -499,6 +499,7 @@ def gigaDump2(respNameData, respOddsData):
     df = pd.DataFrame({'Key': keys, 'Date': dates, 'League': leagues, 'Teams': teams, 'Name': names, 'Category': categories, 'Side': side, 'Designation': designation,
                        'Points': points, 'PN American Odds': americanOdds, 'PN Decimal Odds': odds, 'PN Fair Odds': noVigOdds})
 
+    df = df[np.logical_not(pd.isna(df['Key']))]
     dir = git.Repo('.', search_parent_directories=True).working_tree_dir
     df.to_csv(str(dir) + '/bin/PinnacleGigaDump.csv', index=False)
 

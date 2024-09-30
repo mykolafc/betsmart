@@ -722,7 +722,7 @@ def makeKey(unit, points, name=None):
         "Alternate Goals": f"pp;0;ss;goals;{points}",
 
         "Alternate Hits": f"pp;0;ss;hit;{points}",
-        "Alternate Home runs": f"pp;0;ss;hr;{points}",
+        "Alternate Home runs": f"pp;0;ou;hr;{points}",
         "Alternate Stolen bases": f"pp;0;ss;sb;{points}",
         "Alternate Strikeouts": f"pp;0;ss;so;{points}",
         "Alternate Earned runs": f"pp;0;ss;er;{points}",

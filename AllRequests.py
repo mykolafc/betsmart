@@ -1,4 +1,5 @@
 import grequests
+import compare
 import DraftKings.Draftkings as dk
 import Pointsbet.PointsBetMyko as pb
 import BetOnline.BetOnline as bo
@@ -20,120 +21,165 @@ import cmd
 import re
 import git
 
-# Checks if the urls were made within the hour, if it isnt we remake the urls
-if time.time() - os.path.getmtime('urlsForRequests.json') > 500:
-    urlsGet = []
-    urlsPost = []
 
-    # DraftKings
-    mlbDK = dk.getDataMlb()
-    urlsDK = dk.makeRequestLinks(mlbDK)
-    urlsGet = urlsGet + urlsDK
+def doAllRequests(betOnline=True):
+    # Checks if the urls were made within the hour, if it isnt we remake the urls
+    if time.time() - os.path.getmtime('urlsForRequests.json') > 30:
 
-    # response = requests.get(urlsDK[1]['url'], headers=urlsDK[1]['headers'])
-    # data = response.json()
-    # with open('DraftkingsResponse.json', 'w') as json_file:
-    #     json.dump(data, json_file, indent=4)
+        with open('urlsForRequests.json', 'r') as file:
+            urls = json.load(file)
 
-    # PointsBet
-    mlbPB = pb.getDataMlb()
-    nflPB = pb.getDataNfl()
-    urlsMlbPB = pb.makeRequestLinks(mlbPB)
-    urlsNflPB = pb.makeRequestLinks(nflPB)
-    urlsPB = urlsMlbPB + urlsNflPB
-    urlsGet = urlsGet + urlsPB
+        urlsGet = []
+        urlsPost = []
 
-    # BetOnline
-    game_Ids, gameIdsByLeague = bo.getGeneralGameIDs(days=5)
-    # Don't think keeping gameIds is necessary
-    gameIds, gamesDict = bo.getPropsgameIds(game_Ids)
-    urlsGetBO = bo.getPropsUrls2(gamesDict)
-    urlsGet = urlsGet + urlsGetBO
-    urlsPostBO = bo.makeGameUrls(gameIdsByLeague)
-    urlsPost = urlsPost + urlsPostBO
+        # DraftKings
+        mlbDK = dk.getDataMlbNEW()
+        nflDK = dk.getDataNfl()
+        urlsMlbDK = dk.makeRequestLinksNEW(mlbDK)
+        urlsNflDK = dk.makeRequestLinksNEW(nflDK)
+        urlsDK = urlsMlbDK + urlsNflDK
+        urlsGet = urlsGet + urlsDK
 
-    # FanDuel
-    dataFD = fd.getData()
-    urlsFD = fd.makeRequestLinks(dataFD)
-    urlsGet = urlsGet + urlsFD
+        # PointsBet
+        mlbPB = pb.getDataMlb()
+        nflPB = pb.getDataNfl()
+        urlsMlbPB = pb.makeRequestLinks(mlbPB)
+        urlsNflPB = pb.makeRequestLinks(nflPB)
+        urlsPB = urlsMlbPB + urlsNflPB
+        urlsGet = urlsGet + urlsPB
 
-    # Pinnacle
-    mlbPN = pn.getDataMlb()
-    nflPN = pn.getDataNfl()
-    nameUrlsMlbPN, oddsUrlsMlbPN = pn.makeRequestLinks(mlbPN)
-    nameUrlsNflPN, oddsUrlsNflPN = pn.makeRequestLinks(nflPN)
-    nameUrlsPN = nameUrlsMlbPN + nameUrlsNflPN
-    oddsUrlsPN = oddsUrlsMlbPN + oddsUrlsNflPN
-    urlsGet = urlsGet + nameUrlsPN + oddsUrlsPN
+        # BetOnline
+        if betOnline:
+            game_Ids, gameIdsByLeague = bo.getGeneralGameIDs(days=5)
+            # Don't think keeping gameIds is necessary
+            gameIds, gamesDict = bo.getPropsgameIds(game_Ids)
+            urlsGetBO = bo.getPropsUrls2(gamesDict)
+            urlsGet = urlsGet + urlsGetBO
+            urlsPostBO = bo.makeGameUrls(gameIdsByLeague)
+            urlsPost = urlsPost + urlsPostBO
 
-    urls = {'urlsGet': urlsGet, 'urlsPost': urlsPost, 'urlsDKLength': len(urlsDK), 'urlsPBLength': len(urlsPB), 'urlsGetBOLength': len(
-        urlsGetBO), 'urlsPostBOLength': len(urlsPostBO), 'urlsFDLength': len(urlsFD), 'nameUrlsPNLength': len(nameUrlsPN), 'oddsUrlsPNLength': len(oddsUrlsPN), 'gamesDictBO': gamesDict}
+        # FanDuel
+        dataFD = fd.getData()
+        urlsFD = fd.makeRequestLinks(dataFD)
+        urlsGet = urlsGet + urlsFD
 
-    with open('urlsForRequests.json', 'w') as file:
-        json.dump(urls, file, indent=4)
+        # Pinnacle
+        mlbPN = pn.getDataMlb()
+        nflPN = pn.getDataNfl()
+        nameUrlsMlbPN, oddsUrlsMlbPN = pn.makeRequestLinks(mlbPN)
+        nameUrlsNflPN, oddsUrlsNflPN = pn.makeRequestLinks(nflPN)
+        nameUrlsPN = nameUrlsMlbPN + nameUrlsNflPN
+        oddsUrlsPN = oddsUrlsMlbPN + oddsUrlsNflPN
+        urlsGet = urlsGet + nameUrlsPN + oddsUrlsPN
 
-else:
-    with open('urlsForRequests.json', 'r') as file:
-        urls = json.load(file)
+        # Updating URLs dictionary based on BetOnline's inclusion
+        urls = {'urlsGet': urlsGet, 'urlsPost': urlsPost, 'urlsDKLength': len(urlsDK), 'urlsPBLength': len(
+            urlsPB), 'urlsFDLength': len(urlsFD), 'nameUrlsPNLength': len(nameUrlsPN), 'oddsUrlsPNLength': len(oddsUrlsPN)}
+        if betOnline:
+            urls.update({'urlsGetBOLength': len(urlsGetBO), 'urlsPostBOLength': len(
+                urlsPostBO), 'gamesDictBO': gamesDict})
 
-timer = time.time()
-responsesGet = (grequests.get(u['url'], headers=u['headers'])
-                for u in urls['urlsGet'])
-responsesPost = (grequests.post(
-    u['url'], headers=u['headers'], json=u['payload']) for u in urls['urlsPost'])
-responses = grequests.map(list(responsesGet) + list(responsesPost))
+        with open('urlsForRequests.json', 'w') as file:
+            json.dump(urls, file, indent=4)
 
-print(f'Requests of all sites took', time.time() - timer, ' seconds')
+    else:
+        with open('urlsForRequests.json', 'r') as file:
+            urls = json.load(file)
 
-responsesDK = responses[:urls['urlsDKLength']]
-responsesPB = responses[urls['urlsDKLength']:urls['urlsDKLength'] + urls['urlsPBLength']]
-responsesGetBO = responses[urls['urlsDKLength'] + urls['urlsPBLength']:urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength']]
-responsesFD = responses[urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength']:urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength']]
+    timer = time.time()
+    responsesGet = (grequests.get(
+        u['url'], headers=u['headers']) for u in urls['urlsGet'])
+    responsesPost = (grequests.post(
+        u['url'], headers=u['headers'], json=u['payload']) for u in urls['urlsPost'])
+    responses = grequests.map(list(responsesGet) + list(responsesPost))
 
-responseNamePN = responses[urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength']:urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength'] + urls['nameUrlsPNLength']]
-responseOddsPN = responses[urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength'] + urls['nameUrlsPNLength']:urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength'] + urls['nameUrlsPNLength'] + urls['oddsUrlsPNLength']]
+    print(f'Requests of all sites took', time.time() - timer, ' seconds')
 
-responsesPostBO = responses[urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength'] + urls['nameUrlsPNLength'] + urls['oddsUrlsPNLength']:urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength'] + urls['nameUrlsPNLength'] + urls['oddsUrlsPNLength'] + urls['urlsPostBOLength']]
+    # Process DraftKings responses
+    responsesDK = responses[:urls['urlsDKLength']]
+    dk.gigaDump(responsesDK)
+
+    # Process PointsBet responses
+    responsesPB = responses[urls['urlsDKLength']:urls['urlsDKLength'] + urls['urlsPBLength']]
+    pb.gigaDump2(responsesPB)
+
+    # Process BetOnline responses if enabled
+    if betOnline:
+        responsesGetBO = responses[urls['urlsDKLength'] + urls['urlsPBLength']                                   :urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength']]
+        responsesPostBO = responses[urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength'] + urls['nameUrlsPNLength'] + urls['oddsUrlsPNLength']                                    :urls['urlsDKLength'] + urls['urlsPBLength'] + urls['urlsGetBOLength'] + urls['urlsFDLength'] + urls['nameUrlsPNLength'] + urls['oddsUrlsPNLength'] + urls['urlsPostBOLength']]
+
+        postBOJSonResp = [response.json()
+                          for response in responsesPostBO if response.json()]
+        getBOJSonResp = [response.json()[0]
+                         for response in responsesGetBO if response.json()]
+
+        teamsDf = bo.manipulationLoop(postBOJSonResp)
+        propsDf = bo.dfByLoop(getBOJSonResp, urls['gamesDictBO'])
+        bigDf = pd.concat([teamsDf, propsDf])
+
+        dir = git.Repo('.', search_parent_directories=True).working_tree_dir
+        bigDf.to_csv(str(dir) + '/bin/BetOnlineGigaDump.csv', index=False)
+
+    # Process FanDuel responses
+    responsesFD = responses[urls['urlsDKLength'] + urls['urlsPBLength'] + (
+        urls['urlsGetBOLength'] if betOnline else 0):urls['urlsDKLength'] + urls['urlsPBLength'] + (urls['urlsGetBOLength'] if betOnline else 0) + urls['urlsFDLength']]
+    fd.gigaDump2(responsesFD)
+
+    # Process Pinnacle responses
+    responseNamePN = responses[urls['urlsDKLength'] + urls['urlsPBLength'] + (urls['urlsGetBOLength'] if betOnline else 0) + urls['urlsFDLength']:urls['urlsDKLength'] + urls['urlsPBLength'] + (
+        urls['urlsGetBOLength'] if betOnline else 0) + urls['urlsFDLength'] + urls['nameUrlsPNLength']]
+    responseOddsPN = responses[urls['urlsDKLength'] + urls['urlsPBLength'] + (urls['urlsGetBOLength'] if betOnline else 0) + urls['urlsFDLength'] + urls['nameUrlsPNLength']:urls['urlsDKLength'] + urls['urlsPBLength'] + (
+        urls['urlsGetBOLength'] if betOnline else 0) + urls['urlsFDLength'] + urls['nameUrlsPNLength'] + urls['oddsUrlsPNLength']]
+
+    pn.gigaDump2(responseNamePN, responseOddsPN)
 
 
-timer = time.time()
-dk.gigaDump2(responsesDK)
-print(time.time() - timer)
-dKJsonResp = [response.json() for response in responsesDK]
-with open("respDK.json", 'w') as json_file:
-    json.dump(dKJsonResp[0], json_file, indent=4)
-
-timer = time.time()
-pb.gigaDump2(responsesPB)
-print(time.time() - timer)
-
-timer = time.time()
-# this is ugly asf please cleanup later
-# this whole thing is a mess it needs so much cleaning
-# Look at repsonse json files to further understand
-postBOJSonResp = [response.json() for response in responsesPostBO]
-getBOJSonResp = [response.json()[0]
-                 for response in responsesGetBO if response.json()]
-# with open("postBO.json", 'w') as json_file:
-#     json.dump(postBOJSonResp, json_file, indent=4)
-teamsDf = bo.manipulationLoop(postBOJSonResp)
-propsDf = bo.dfByLoop(getBOJSonResp, urls['gamesDictBO'])
-bigDf = pd.concat([teamsDf, propsDf])
-dir = git.Repo('.', search_parent_directories=True).working_tree_dir
-bigDf.to_csv(str(dir) + '/bin/BetOnlineGigaDump.csv', index=False)
-print(time.time() - timer)
-
-timer = time.time()
-fd.gigaDump2(responsesFD)
-print(time.time() - timer)
-
-timer = time.time()
-pn.gigaDump2(responseNamePN, responseOddsPN)
-print(time.time() - timer)
+def sendNotif(message):
+    # This uses the telegram bot to send me a notification
+    botToken = '7604827625:AAGypvQCTaO-NqBMyHSIQBlxHAOT0b4BsEs'
+    chatId = '7530223501'
+    url = f"https://api.telegram.org/bot{botToken}/sendMessage"
+    params = {
+        'chat_id': chatId,
+        'text': message
+    }
+    requests.get(url, params=params)
 
 
-# json_file_path = 'urls.json'
+def findArb(roi):
+    badRoi = True
+    while (badRoi):
+        try:
+            doAllRequests(betOnline=False)
+            merged_df = compare.compareOdds(betOnline=False)
+            badRoi = not np.any(merged_df['arb ROI%'] > roi)
+            if not badRoi:
+                # Send notification immediately when an arb is found
+                sendNotif(f'There is an arb with atleast a {roi}% roi')
 
-# # Save the 'urls' object to a JSON file
-# with open(json_file_path, 'w') as json_file:
-#     json.dump(urls, json_file, indent=4)
+                # Save the CSV file
+                dir = git.Repo(
+                    '.', search_parent_directories=True).working_tree_dir
+                merged_df.to_csv(str(dir) + '/bin/combined.csv', index=False)
+
+                # Break the loop as an arb has been found and notified
+                break
+            time.sleep(90)
+        except ZeroDivisionError as e:
+            print(f"ZeroDivisionError occurred: {e}")
+        except Exception as e:
+            print(f"An error occurred: {e}")
+
+
+def runAlg():
+    doAllRequests(betOnline=False)
+    merged_df = compare.compareOdds(betOnline=False)
+    dir = git.Repo('.', search_parent_directories=True).working_tree_dir
+    merged_df.to_csv(str(dir) + '/bin/combined.csv', index=False)
+
+
+option = input('Find arb(1) or Run algorithm(2)? ')
+if (option == '1'):
+    findArb(2)
+elif (option == '2'):
+    runAlg()

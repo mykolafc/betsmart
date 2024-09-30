@@ -1,5 +1,6 @@
 import grequests
 import pandas as pd
+import random
 from pandas import json_normalize
 from datetime import datetime, timedelta
 import time
@@ -7,6 +8,10 @@ import asyncio
 import aiohttp
 import requests
 import json
+import gzip
+import zlib
+import brotli
+import zstandard as zstd
 import numpy as np
 from datetime import datetime
 from email.utils import formatdate
@@ -81,20 +86,72 @@ def getData():
     # From what I understand this link gives us the eventIds of all sports
 
     # It's possible that some things in this link variable so it might not always be this EXACT link
-    url = "https://sbapi.on.sportsbook.fanduel.ca/api/content-managed-page?page=HOMEPAGE&prominentCard=false&pulseScalingEnable=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York"
+    url = "https://sbapi.nj.sportsbook.fanduel.com/api/content-managed-page?page=HOMEPAGE&prominentCard=false&pulseScalingEnable=true&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York"
+
+    # There's a bunch of random.choice here so It rotates through different headers so I can avoid receiving a 403 response
+    # headers = {
+    #     'accept': 'application/json',
+    #     # Rotate referer to a more general page
+    #     'referer': random.choice([
+    #         'https://sportsbook.fanduel.com/',
+    #         'https://www.google.com/',
+    #         'https://www.bing.com/',
+    #         'https://on.sportsbook.fanduel.com/'
+    #     ]),
+    #     # Rotate sec-ch-ua string for different Chrome versions
+    #     'sec-ch-ua': random.choice([
+    #         '"Not A;Brand";v="99", "Google Chrome";v="128", "Chromium";v="128"',
+    #         '"Not A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+    #         '"Not A;Brand";v="99", "Google Chrome";v="112", "Chromium";v="112"',
+    #     ]),
+    #     'sec-ch-ua-mobile': random.choice(['?0', '?1']),
+    #     'sec-ch-ua-platform': random.choice(['"Android"', '"Windows"', '"macOS"', '"Linux"']),
+    #     # Rotate User-Agent to simulate different browsers and OS
+    #     'user-agent': random.choice([
+    #         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+    #         'Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Mobile Safari/537.36',
+    #         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15',
+    #         'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15A372 Safari/604.1'
+    #     ]),
+    #     # Adding more headers to simulate real browser traffic
+    #     'accept-language': random.choice(['en-US,en;q=0.9', 'en-CA,en;q=0.9']),
+    #     'accept-encoding': 'identity',
+    #     'origin': 'https://sportsbook.fanduel.com',
+    #     'sec-fetch-dest': 'empty',
+    #     'sec-fetch-mode': 'cors',
+    #     'sec-fetch-site': 'same-site',
+    # }
 
     headers = {
+        'authority': 'sbapi.nj.sportsbook.fanduel.com',
+        'method': 'GET',
+        'path': '/api/content-managed-page?page=HOMEPAGE&prominentCard=false&pulseScalingEnable=true&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York',
+        'scheme': 'https',
         'accept': 'application/json',
-        'referer': 'https://on.sportsbook.fanduel.ca/',
-        'sec-ch-ua': '"Not)A;Brand";v="99", "Google Chrome";v="127", "Chromium";v="127"',
+        'accept-encoding': 'gzip, deflate, br, zstd',
+        'accept-language': 'en-US,en;q=0.9',
+        'if-none-match': 'W/"f5f46-6irwNXsC9T3h/xiL2FHPSnb84Go"',
+        'origin': 'https://sportsbook.fanduel.com',
+        'priority': 'u=1, i',
+        'referer': 'https://sportsbook.fanduel.com/',
+        'sec-ch-ua': '"Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"',
         'sec-ch-ua-mobile': '?1',
         'sec-ch-ua-platform': '"Android"',
-        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36'
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-site',
+        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36',
+        'x-px-context': '_px3=8bcd70568fe395b5b94227912c13c51e5869c988c3b26f1d488ba5ad801716ea:OcOyNPebNqpeX2gfqrcldw5Xgwapd39v5MD6XlqVngoURbDyfKfCQsv5kB9VssER8phcRCyFXo4RyauZfMxuOQ==:1000:mTUkQF9WVK6PRmp63TymnKwiHU6WS/ZK6pHjrG35RU4TnSJB68VXaUX74vruk1GTh8B+0mP8XsLQ/Orx6Iv/bD+2KpJmKDcynNJJJrjpu7F52NBymrt0BfhrB5xa2KepWbEY++FO1TUikfDaxWhK6mdRnchQ+uLeu+LDxtOS2QPcgdC+5a956G+oIhwp5bGWLge9oWf7tDpef7VRptDDv7zNlk4Pbx2cheAC74gUkxA=;_pxvid=cc3a4b89-7bc8-11ef-820e-9d40554d65df;pxcts=cc3a562b-7bc8-11ef-820e-692e0d6e8779;',
+    }
+    # Consider getting proxies
+    proxies = {
+        'http': 'http://your_proxy_ip:port',
+        'https': 'https://your_proxy_ip:port'
     }
     response = requests.get(url, headers=headers)
     print(response.status_code)
-    data = response.json()
-    return data
+    json_data = response.json()  # Now parse it as JSON
+    return json_data
 
 
 '''
@@ -194,9 +251,9 @@ def makeKey(unit, points, name=None):
         # MLB switches
         re.compile(r'^PITCHER_[A-Z]_TOTAL_STRIKEOUTS'): f"pp;0;ou;so;{points}",
         re.compile(r'^PITCHER_[A-Z]_STRIKEOUTS'): f"pp;0;ss;so;{points}",
-        "TO_HIT_A_HOME_RUN": f"pp;0;ss;hr;0.5",
-        "PLAYER_TO_RECORD_A_HIT": f"pp;0;ss;hit;0.5",
-        "PLAYER_TO_RECORD_2+_HITS": f"pp;0;ss;hit;1.5",
+        "TO_HIT_A_HOME_RUN": f"pp;0;ou;hr;0.5",
+        "PLAYER_TO_RECORD_A_HIT": f"pp;0;ou;hit;0.5",
+        "PLAYER_TO_RECORD_2+_HITS": f"pp;0;ou;hit;1.5",
         "PLAYER_TO_RECORD_3+_HITS": f"pp;0;ss;hit;2.5",
         "TO_RECORD_A_STOLEN_BASE": f"pp;0;ss;sb;0.5",
         "TO_RECORD_A_RUN": f"pp;0;ss;run;0.5",
@@ -241,7 +298,7 @@ def makeKey(unit, points, name=None):
         re.compile(r'^PLAYER_[A-Z]_LONGEST_PASS_COMPLETION$'): f'pp;0;ou;lco;{points}',
         re.compile(r'^PLAYER_[A-Z]_PASS_ATTEMPTS$'): f'pp;0;ou;pat;{points}',
         re.compile(r'^PLAYER_[A-Z]_TOTAL_PASS_COMPLETIONS$'): f'pp;0;ou;com;{points}',
-        re.compile(r'PLAYER_[A-Z]_TOTAL_PASSING_TOUCHDOWNS^$'): f'pp;0;ou;tdp;{points}',
+        re.compile(r'^PLAYER_[A-Z]_TOTAL_PASSING_TOUCHDOWNS$'): f'pp;0;ou;tdp;{points}',
         re.compile(r'^PLAYER_[A-Z]_TOTAL_PASSING_YARDS$'): f'pp;0;ou;pay;{points}',
         re.compile(r'^PLAYER_[A-Z]_TOTAL_RUSH_ATTEMPTS$'): f'pp;0;ou;rut;{points}',
         re.compile(r'^PLAYER_[A-Z]_TOTAL_RUSHING_YARDS$'): f'pp;0;ou;ruy;{points}',
@@ -412,7 +469,7 @@ def validMarketTypeOUPP(marketType):
         r'^PLAYER_[A-Z]_LONGEST_PASS_COMPLETION$',
         r'^PLAYER_[A-Z]_PASS_ATTEMPTS$',
         r'^PLAYER_[A-Z]_TOTAL_PASS_COMPLETIONS$',
-        r'PLAYER_[A-Z]_TOTAL_PASSING_TOUCHDOWNS^$',
+        r'^PLAYER_[A-Z]_TOTAL_PASSING_TOUCHDOWNS$',
         r'^PLAYER_[A-Z]_TOTAL_PASSING_YARDS$',
 
         r'^PLAYER_[A-Z]_TOTAL_RUSH_ATTEMPTS$',
@@ -477,7 +534,8 @@ def gigaDump2(response):
 
     for x in response:
         data = x.json()
-
+        if 'attachments' not in data:
+            continue
         eventId = list(data['attachments']['events'].keys())[0]
         eventName = data['attachments']['events'][eventId]['name']
 
@@ -522,6 +580,8 @@ def gigaDump2(response):
         for market in markets.values():
             if validMarketTypeGame(market['marketType']):
                 for runner in market['runners']:
+                    if 'winRunnerOdds' not in runner:
+                        continue
                     league.append(currentLeague)
                     teams.append(homeAwayTeams)
 
@@ -535,9 +595,6 @@ def gigaDump2(response):
                     else:
                         point = runner['handicap']
                         points.append(point)
-
-                    if 'winRunnerOdds' not in runner:
-                        print(runner)
 
                     odds.append(runner['winRunnerOdds']
                                 ['trueOdds']['decimalOdds']['decimalOdds'])
@@ -571,6 +628,8 @@ def gigaDump2(response):
 
             elif validMarketTypeOUPP(market['marketType']):
                 for runner in market['runners']:
+                    if 'winRunnerOdds' not in runner:
+                        continue
                     league.append(currentLeague)
                     teams.append(homeAwayTeams)
                     point = runner['handicap']
@@ -581,9 +640,9 @@ def gigaDump2(response):
                         runner['winRunnerOdds']['americanDisplayOdds']['americanOddsInt'])
                     side.append(None)
 
-                    if 'Yes' in runner['runnerName']:
+                    if 'Yes' in runner['runnerName'] or 'Over' in runner['runnerName']:
                         designation.append('over')
-                    elif 'No' in runner['runnerName']:
+                    elif 'No' in runner['runnerName'] or 'Under' in runner['runnerName']:
                         designation.append('under')
                     else:
                         if 'type' not in runner['result']:
@@ -612,6 +671,8 @@ def gigaDump2(response):
                 elif bool(re.search(r'(_A_|_AN_)', market['marketType'])):
                     point = 0.5
                 for runner in market['runners']:
+                    if 'winRunnerOdds' not in runner:
+                        continue
                     league.append(currentLeague)
                     teams.append(homeAwayTeams)
 
@@ -639,7 +700,7 @@ def gigaDump2(response):
                     playerName = re.sub(r'\s\d.*', '', runner['runnerName'])
                     nsplit = playerName.split()
                     name = playerName.replace(
-                        nsplit[0], nsplit[0][0] + '.', 1).replace('Over', '').replace('Under', '').strip()
+                        nsplit[0], nsplit[0][0] + '.', 1).replace('Over', '').replace('Under', '').replace('Yes', '').replace('No', '').strip()
                     names.append(name)
                     keys.append(makeKey(market['marketType'], point))
                     dates.append(date)

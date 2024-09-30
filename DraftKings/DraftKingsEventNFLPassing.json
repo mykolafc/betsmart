@@ -1,0 +1,3682 @@
+{
+    "sports": [
+        {
+            "id": "3",
+            "seoIdentifier": "Football",
+            "name": "Football",
+            "sortOrder": 56
+        }
+    ],
+    "leagues": [
+        {
+            "id": "88808",
+            "seoIdentifier": "NFL",
+            "name": "NFL",
+            "sportId": "3",
+            "sortOrder": 4847,
+            "tags": [
+                "Featured"
+            ],
+            "isTeamSwap": true
+        }
+    ],
+    "events": [
+        {
+            "id": "30568799",
+            "seoIdentifier": "DEN Broncos @ NY Jets",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "DEN Broncos @ NY Jets",
+            "startEventDate": "2024-09-29T17:00:00.0000000Z",
+            "participants": [
+                {
+                    "id": "18441",
+                    "name": "NY Jets",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "163",
+                        "rosettaTeamId": "18441",
+                        "shortName": "NYJ"
+                    },
+                    "sortOrder": 2
+                },
+                {
+                    "id": "18342",
+                    "name": "DEN Broncos",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "162",
+                        "rosettaTeamId": "18342",
+                        "shortName": "DEN"
+                    },
+                    "sortOrder": 1
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetGenius",
+                    "providerEventId": "11061014",
+                    "mediaType": "LiveStreaming",
+                    "metadata": {
+                        "BetGeniusDash": "Akamai",
+                        "BetGeniusHls": "Akamai",
+                        "BetGeniusLiveStreamId": "1071ffc1"
+                    },
+                    "allowedDmas": [
+                        ""
+                    ]
+                },
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "50128327",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "50128327",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "50128327",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "LiveStreaming",
+                "MatchTracker",
+                "PrePack",
+                "ProgressiveParlayEligible",
+                "ProgressiveParlayTeamEligible",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible",
+                "iSGStatsHub"
+            ],
+            "metadata": {
+                "masterLeagueId": "40",
+                "numberOfParts": "4",
+                "secondsInOnePart": "900"
+            },
+            "categories": [
+                {
+                    "id": "1000",
+                    "name": "Passing Props ",
+                    "categoryType": "H2H",
+                    "sortOrder": 545,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1001",
+                    "name": "Rushing Props",
+                    "categoryType": "H2H",
+                    "sortOrder": 550,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1002",
+                    "name": "D/ST Props",
+                    "sortOrder": 639,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1003",
+                    "name": "TD Scorers",
+                    "sortOrder": 528,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1303",
+                    "name": "1st Drive",
+                    "sortOrder": 645
+                },
+                {
+                    "id": "1342",
+                    "name": "Receiving Props",
+                    "categoryType": "H2H",
+                    "sortOrder": 634,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1559",
+                    "name": "1st of Game",
+                    "sortOrder": 669,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "1657",
+                    "name": "Kickoff Specials",
+                    "sortOrder": 814
+                },
+                {
+                    "id": "492",
+                    "name": "Game Lines",
+                    "sortOrder": 492,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "526",
+                    "name": "Halves",
+                    "sortOrder": 771,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "527",
+                    "name": "Quarters",
+                    "sortOrder": 742,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "528",
+                    "name": "Game Props",
+                    "sortOrder": 780,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "530",
+                    "name": "Team Props",
+                    "sortOrder": 782,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "862",
+                    "name": "Player Specials",
+                    "sortOrder": 644
+                },
+                {
+                    "id": "999",
+                    "name": "DK Squares",
+                    "sortOrder": 856
+                }
+            ],
+            "subcategories": [
+                {
+                    "id": "10336",
+                    "categoryId": "1003",
+                    "name": "Anytime TD - 2nd Half",
+                    "componentId": 204,
+                    "sortOrder": 11899,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "10398",
+                    "categoryId": "492",
+                    "name": "Quarter / Full Time",
+                    "componentId": 204,
+                    "sortOrder": 10509
+                },
+                {
+                    "id": "10400",
+                    "categoryId": "527",
+                    "name": "Race to X Points",
+                    "componentId": 30,
+                    "sortOrder": 4666,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "10404",
+                    "categoryId": "527",
+                    "name": "Winning Margin - 1st Quarter",
+                    "componentId": 203,
+                    "sortOrder": 4650,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "10445",
+                    "categoryId": "526",
+                    "name": "Shutout - Listed Half",
+                    "componentId": 29,
+                    "sortOrder": 9411
+                },
+                {
+                    "id": "10508",
+                    "categoryId": "530",
+                    "name": "To Score 1st & Win/Lose",
+                    "componentId": 29,
+                    "sortOrder": 10478
+                },
+                {
+                    "id": "10509",
+                    "categoryId": "530",
+                    "name": "To Win With Shutout",
+                    "componentId": 29,
+                    "sortOrder": 10505
+                },
+                {
+                    "id": "10523",
+                    "categoryId": "527",
+                    "name": "Scoring Props",
+                    "componentId": 29,
+                    "sortOrder": 4668,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "10554",
+                    "categoryId": "530",
+                    "name": "Team Odd/Even",
+                    "componentId": 202,
+                    "sortOrder": 10518,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "10623",
+                    "categoryId": "527",
+                    "name": "Quarter TDs - Total",
+                    "componentId": 29,
+                    "sortOrder": 4643
+                },
+                {
+                    "id": "10627",
+                    "categoryId": "526",
+                    "name": "Scoring Props - Listed Half",
+                    "componentId": 29,
+                    "sortOrder": 4667,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "11812",
+                    "categoryId": "1002",
+                    "name": "Sacks",
+                    "componentId": 8,
+                    "sortOrder": 9486
+                },
+                {
+                    "id": "11924",
+                    "categoryId": "530",
+                    "name": "Team Totals (Bands)",
+                    "componentId": 29,
+                    "sortOrder": 5084,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "11938",
+                    "categoryId": "1003",
+                    "name": "TD Exactas",
+                    "componentId": 204,
+                    "sortOrder": 9530
+                },
+                {
+                    "id": "11944",
+                    "categoryId": "999",
+                    "name": "DK Squares - Any Quarter",
+                    "componentId": 204,
+                    "sortOrder": 9457,
+                    "tags": [
+                        "Featured"
+                    ]
+                },
+                {
+                    "id": "11993",
+                    "categoryId": "1003",
+                    "name": "To Score in Both Halves",
+                    "componentId": 204,
+                    "sortOrder": 9540,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12032",
+                    "categoryId": "999",
+                    "name": "DK Squares - Final Result",
+                    "componentId": 204,
+                    "sortOrder": 9459,
+                    "tags": [
+                        "Featured"
+                    ]
+                },
+                {
+                    "id": "12093",
+                    "categoryId": "1000",
+                    "name": "Alt Pass Yards",
+                    "componentId": 29,
+                    "sortOrder": 9490,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12094",
+                    "categoryId": "1001",
+                    "name": "Alt Rush Yards",
+                    "componentId": 29,
+                    "sortOrder": 9481,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12096",
+                    "categoryId": "1001",
+                    "name": "Rush + Rec Yards",
+                    "componentId": 29,
+                    "sortOrder": 9479,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12130",
+                    "categoryId": "528",
+                    "name": "Correct Score",
+                    "componentId": 204,
+                    "sortOrder": 5100
+                },
+                {
+                    "id": "12422",
+                    "categoryId": "1003",
+                    "name": "3+ TDs",
+                    "componentId": 204,
+                    "sortOrder": 9529,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12423",
+                    "categoryId": "1003",
+                    "name": "Anytime TD - 1st Half",
+                    "componentId": 204,
+                    "sortOrder": 11781,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12424",
+                    "categoryId": "1003",
+                    "name": "Anytime TD - 1st Quarter",
+                    "componentId": 204,
+                    "sortOrder": 11953,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12425",
+                    "categoryId": "1003",
+                    "name": "First TD Scorer - 2nd Half",
+                    "componentId": 204,
+                    "sortOrder": 15206
+                },
+                {
+                    "id": "12438",
+                    "categoryId": "1003",
+                    "name": "TD Scorer",
+                    "componentId": 18,
+                    "sortOrder": 9512,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "12451",
+                    "categoryId": "1003",
+                    "name": "1st Team TD Scorer",
+                    "componentId": 204,
+                    "sortOrder": 9531,
+                    "tags": [
+                        "Featured"
+                    ]
+                },
+                {
+                    "id": "12625",
+                    "categoryId": "526",
+                    "name": "Halves Won",
+                    "componentId": 29,
+                    "sortOrder": 8473
+                },
+                {
+                    "id": "12635",
+                    "categoryId": "527",
+                    "name": "Correct Score - 1st Quarter",
+                    "componentId": 204,
+                    "sortOrder": 4644
+                },
+                {
+                    "id": "12636",
+                    "categoryId": "526",
+                    "name": "Correct Score - 1st Half",
+                    "componentId": 204,
+                    "sortOrder": 4712
+                },
+                {
+                    "id": "13195",
+                    "categoryId": "492",
+                    "name": "Alternate Spread",
+                    "componentId": 240,
+                    "sortOrder": 4645,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13196",
+                    "categoryId": "492",
+                    "name": "Alternate Total",
+                    "componentId": 240,
+                    "sortOrder": 4653,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13459",
+                    "categoryId": "528",
+                    "name": "Overtime",
+                    "componentId": 12,
+                    "sortOrder": 4804
+                },
+                {
+                    "id": "13524",
+                    "categoryId": "1003",
+                    "name": "Q1 TD + Q1 ML",
+                    "componentId": 204,
+                    "sortOrder": 15885
+                },
+                {
+                    "id": "13561",
+                    "categoryId": "1303",
+                    "name": "1st Drive Result",
+                    "componentId": 29,
+                    "sortOrder": 13521,
+                    "tags": [
+                        "Featured"
+                    ]
+                },
+                {
+                    "id": "13566",
+                    "categoryId": "1303",
+                    "name": "1st Drive - TD Scorer",
+                    "componentId": 29,
+                    "sortOrder": 13528
+                },
+                {
+                    "id": "13567",
+                    "categoryId": "1303",
+                    "name": "1st Drive - Conversions",
+                    "componentId": 29,
+                    "sortOrder": 13679
+                },
+                {
+                    "id": "13569",
+                    "categoryId": "1303",
+                    "name": "1st Drive - 1st Down",
+                    "componentId": 29,
+                    "sortOrder": 13532
+                },
+                {
+                    "id": "13570",
+                    "categoryId": "1303",
+                    "name": "1st Drive - Sack",
+                    "componentId": 29,
+                    "sortOrder": 13538
+                },
+                {
+                    "id": "13571",
+                    "categoryId": "1303",
+                    "name": "1st Drive - Distance",
+                    "componentId": 29,
+                    "sortOrder": 13548
+                },
+                {
+                    "id": "13572",
+                    "categoryId": "1303",
+                    "name": "1st Drive - Big Play",
+                    "componentId": 29,
+                    "sortOrder": 13549
+                },
+                {
+                    "id": "13578",
+                    "categoryId": "1303",
+                    "name": "1st Drive FG",
+                    "componentId": 29,
+                    "sortOrder": 13550
+                },
+                {
+                    "id": "13588",
+                    "categoryId": "1303",
+                    "name": "Score on 1st Drive",
+                    "componentId": 29,
+                    "sortOrder": 13524,
+                    "tags": [
+                        "Featured"
+                    ]
+                },
+                {
+                    "id": "13705",
+                    "categoryId": "530",
+                    "name": "Comeback",
+                    "componentId": 29,
+                    "sortOrder": 10510,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "13720",
+                    "categoryId": "1303",
+                    "name": "Each Team 1st Drive",
+                    "componentId": 204,
+                    "sortOrder": 13529
+                },
+                {
+                    "id": "14113",
+                    "categoryId": "1342",
+                    "name": "Alt Rec Yards",
+                    "componentId": 29,
+                    "sortOrder": 14077,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "14114",
+                    "categoryId": "1342",
+                    "name": "Rec Yards O/U",
+                    "componentId": 8,
+                    "sortOrder": 14075,
+                    "tags": [
+                        "ProgressiveParlayEligible",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "14115",
+                    "categoryId": "1342",
+                    "name": "Receptions O/U",
+                    "componentId": 8,
+                    "sortOrder": 14074,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "14117",
+                    "categoryId": "1342",
+                    "name": "Rec Yards",
+                    "componentId": 29,
+                    "sortOrder": 14073,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "14118",
+                    "categoryId": "1001",
+                    "name": "Rush Yards",
+                    "componentId": 29,
+                    "sortOrder": 9478,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "14119",
+                    "categoryId": "1000",
+                    "name": "Pass Yards",
+                    "componentId": 29,
+                    "sortOrder": 9477,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "14225",
+                    "categoryId": "1342",
+                    "name": "Rec Yards - Race To",
+                    "componentId": 204,
+                    "sortOrder": 15974
+                },
+                {
+                    "id": "14457",
+                    "categoryId": "1002",
+                    "name": "Kick/Punt Return Props",
+                    "componentId": 29,
+                    "sortOrder": 14417
+                },
+                {
+                    "id": "14479",
+                    "categoryId": "1002",
+                    "name": "Turnovers",
+                    "componentId": 29,
+                    "sortOrder": 10498
+                },
+                {
+                    "id": "14489",
+                    "categoryId": "528",
+                    "name": "Last Scoring Play",
+                    "componentId": 29,
+                    "sortOrder": 5324
+                },
+                {
+                    "id": "14806",
+                    "categoryId": "530",
+                    "name": "Team Totals - TDs",
+                    "componentId": 29,
+                    "sortOrder": 4657,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15030",
+                    "categoryId": "1002",
+                    "name": "Safety",
+                    "componentId": 29,
+                    "sortOrder": 10497
+                },
+                {
+                    "id": "15031",
+                    "categoryId": "1002",
+                    "name": "FG Yards",
+                    "componentId": 29,
+                    "sortOrder": 11776
+                },
+                {
+                    "id": "15032",
+                    "categoryId": "1002",
+                    "name": "FG Total",
+                    "componentId": 29,
+                    "sortOrder": 11921,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15033",
+                    "categoryId": "1002",
+                    "name": "FG Props",
+                    "componentId": 29,
+                    "sortOrder": 12124
+                },
+                {
+                    "id": "15035",
+                    "categoryId": "1002",
+                    "name": "Punt Total",
+                    "componentId": 29,
+                    "sortOrder": 14413
+                },
+                {
+                    "id": "15036",
+                    "categoryId": "1002",
+                    "name": "Punt Props",
+                    "componentId": 29,
+                    "sortOrder": 14414
+                },
+                {
+                    "id": "15037",
+                    "categoryId": "1002",
+                    "name": "Sacks Team",
+                    "componentId": 29,
+                    "sortOrder": 9603
+                },
+                {
+                    "id": "15038",
+                    "categoryId": "1002",
+                    "name": "Sacks Props",
+                    "componentId": 29,
+                    "sortOrder": 10496
+                },
+                {
+                    "id": "15047",
+                    "categoryId": "527",
+                    "name": "Every Quarter",
+                    "componentId": 29,
+                    "sortOrder": 4669,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15052",
+                    "categoryId": "1559",
+                    "name": "1st Score",
+                    "componentId": 29,
+                    "sortOrder": 15012
+                },
+                {
+                    "id": "15053",
+                    "categoryId": "1559",
+                    "name": "1st TD",
+                    "componentId": 29,
+                    "sortOrder": 15013
+                },
+                {
+                    "id": "15057",
+                    "categoryId": "1559",
+                    "name": "1st Pass",
+                    "componentId": 29,
+                    "sortOrder": 15020
+                },
+                {
+                    "id": "15058",
+                    "categoryId": "1559",
+                    "name": "1st RZ Snap",
+                    "componentId": 29,
+                    "sortOrder": 15022
+                },
+                {
+                    "id": "15059",
+                    "categoryId": "1559",
+                    "name": "1st Sack",
+                    "componentId": 29,
+                    "sortOrder": 15019
+                },
+                {
+                    "id": "15060",
+                    "categoryId": "1559",
+                    "name": "1st Turnover",
+                    "componentId": 29,
+                    "sortOrder": 15016
+                },
+                {
+                    "id": "15064",
+                    "categoryId": "1559",
+                    "name": "1st FG",
+                    "componentId": 29,
+                    "sortOrder": 15015,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15066",
+                    "categoryId": "1559",
+                    "name": "1st to Score",
+                    "componentId": 29,
+                    "sortOrder": 15011,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15649",
+                    "categoryId": "1003",
+                    "name": "Either Player to Score",
+                    "componentId": 204,
+                    "sortOrder": 9518
+                },
+                {
+                    "id": "15937",
+                    "categoryId": "1000",
+                    "name": "Interceptions O/U",
+                    "componentId": 8,
+                    "sortOrder": 9595,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15948",
+                    "categoryId": "1342",
+                    "name": "Longest Reception",
+                    "componentId": 8,
+                    "sortOrder": 16018
+                },
+                {
+                    "id": "15964",
+                    "categoryId": "1003",
+                    "name": "Player Not To Score",
+                    "componentId": 204,
+                    "sortOrder": 16044
+                },
+                {
+                    "id": "15968",
+                    "categoryId": "1000",
+                    "name": "Longest Completion",
+                    "componentId": 8,
+                    "sortOrder": 9594
+                },
+                {
+                    "id": "15976",
+                    "categoryId": "862",
+                    "name": "Trending Specials",
+                    "componentId": 204,
+                    "sortOrder": 7937
+                },
+                {
+                    "id": "15987",
+                    "categoryId": "1000",
+                    "name": "Pass TDs",
+                    "componentId": 29,
+                    "sortOrder": 9482,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "15991",
+                    "categoryId": "1657",
+                    "name": "Opening Kickoff",
+                    "componentId": 29,
+                    "sortOrder": 15948
+                },
+                {
+                    "id": "15992",
+                    "categoryId": "1657",
+                    "name": "Total Returns",
+                    "componentId": 29,
+                    "sortOrder": 15949
+                },
+                {
+                    "id": "15993",
+                    "categoryId": "1657",
+                    "name": "Longest Return",
+                    "componentId": 29,
+                    "sortOrder": 15950
+                },
+                {
+                    "id": "15994",
+                    "categoryId": "1657",
+                    "name": "Return for a TD",
+                    "componentId": 29,
+                    "sortOrder": 15951
+                },
+                {
+                    "id": "15995",
+                    "categoryId": "1657",
+                    "name": "Starting Point",
+                    "componentId": 29,
+                    "sortOrder": 15952
+                },
+                {
+                    "id": "16008",
+                    "categoryId": "862",
+                    "name": "QB Fantasy Points O/U",
+                    "componentId": 8,
+                    "sortOrder": 15967
+                },
+                {
+                    "id": "16009",
+                    "categoryId": "862",
+                    "name": "RB Fantasy Points O/U",
+                    "componentId": 8,
+                    "sortOrder": 15971
+                },
+                {
+                    "id": "16010",
+                    "categoryId": "862",
+                    "name": "WR/TE Fantasy Points O/U",
+                    "componentId": 8,
+                    "sortOrder": 15972
+                },
+                {
+                    "id": "16013",
+                    "categoryId": "1303",
+                    "name": "1st Drive - Catch a Pass",
+                    "componentId": 204,
+                    "sortOrder": 13527
+                },
+                {
+                    "id": "16070",
+                    "categoryId": "1000",
+                    "name": "Pass Yards - H2H",
+                    "componentId": 310,
+                    "sortOrder": 16027
+                },
+                {
+                    "id": "16072",
+                    "categoryId": "1001",
+                    "name": "Rush Yards - H2H",
+                    "componentId": 310,
+                    "sortOrder": 16029
+                },
+                {
+                    "id": "16073",
+                    "categoryId": "1342",
+                    "name": "Rec Yards - H2H",
+                    "componentId": 310,
+                    "sortOrder": 16033
+                },
+                {
+                    "id": "16074",
+                    "categoryId": "1001",
+                    "name": "Rush Yards - Race To",
+                    "componentId": 204,
+                    "sortOrder": 16031
+                },
+                {
+                    "id": "16075",
+                    "categoryId": "1001",
+                    "name": "Most Rush Yards",
+                    "componentId": 204,
+                    "sortOrder": 16032
+                },
+                {
+                    "id": "16076",
+                    "categoryId": "1342",
+                    "name": "Most Rec Yards",
+                    "componentId": 204,
+                    "sortOrder": 16045
+                },
+                {
+                    "id": "16087",
+                    "categoryId": "1003",
+                    "name": "Either Player 1st TD",
+                    "componentId": 204,
+                    "sortOrder": 9519
+                },
+                {
+                    "id": "4518",
+                    "categoryId": "492",
+                    "name": "Game",
+                    "componentId": 210,
+                    "sortOrder": 4513,
+                    "tags": [
+                        "ProgressiveParlayTeamEligible",
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4631",
+                    "categoryId": "526",
+                    "name": "1st Half",
+                    "componentId": 210,
+                    "sortOrder": 4626,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4632",
+                    "categoryId": "527",
+                    "name": "1st Quarter",
+                    "componentId": 210,
+                    "sortOrder": 4627,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4641",
+                    "categoryId": "526",
+                    "name": "2nd Half",
+                    "componentId": 210,
+                    "sortOrder": 4633,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4642",
+                    "categoryId": "527",
+                    "name": "2nd Quarter",
+                    "componentId": 210,
+                    "sortOrder": 4631,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4643",
+                    "categoryId": "527",
+                    "name": "3rd Quarter",
+                    "componentId": 210,
+                    "sortOrder": 4635,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4644",
+                    "categoryId": "527",
+                    "name": "4th Quarter",
+                    "componentId": 210,
+                    "sortOrder": 4637,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4653",
+                    "categoryId": "530",
+                    "name": "Team Totals",
+                    "componentId": 29,
+                    "sortOrder": 4648,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4659",
+                    "categoryId": "528",
+                    "name": "Odd/Even",
+                    "componentId": 12,
+                    "sortOrder": 14999,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4738",
+                    "categoryId": "526",
+                    "name": "2nd Half - 3 Way",
+                    "componentId": 11,
+                    "sortOrder": 9305,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "5873",
+                    "categoryId": "528",
+                    "name": "Winning Margin",
+                    "componentId": 202,
+                    "sortOrder": 4640,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "8411",
+                    "categoryId": "492",
+                    "name": "3-Way Moneyline",
+                    "componentId": 30,
+                    "sortOrder": 15577,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "8480",
+                    "categoryId": "527",
+                    "name": "Quarter Team Totals",
+                    "componentId": 29,
+                    "sortOrder": 4642,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9319",
+                    "categoryId": "528",
+                    "name": "TD Props",
+                    "componentId": 29,
+                    "sortOrder": 4632,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9320",
+                    "categoryId": "526",
+                    "name": "TD Props",
+                    "componentId": 29,
+                    "sortOrder": 4733,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9323",
+                    "categoryId": "528",
+                    "name": "Largest Lead",
+                    "componentId": 29,
+                    "sortOrder": 9559
+                },
+                {
+                    "id": "9325",
+                    "categoryId": "528",
+                    "name": "Scoring Specials",
+                    "componentId": 29,
+                    "sortOrder": 4628,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9326",
+                    "categoryId": "528",
+                    "name": "Both Teams to Score X",
+                    "componentId": 29,
+                    "sortOrder": 4659
+                },
+                {
+                    "id": "9449",
+                    "categoryId": "526",
+                    "name": "Team Odd/Even",
+                    "componentId": 203,
+                    "sortOrder": 9413,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9514",
+                    "categoryId": "1001",
+                    "name": "Rush Yards O/U",
+                    "componentId": 8,
+                    "sortOrder": 9480,
+                    "tags": [
+                        "ProgressiveParlayEligible",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9517",
+                    "categoryId": "1000",
+                    "name": "Pass Attempts",
+                    "componentId": 8,
+                    "sortOrder": 9492,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9518",
+                    "categoryId": "1001",
+                    "name": "Rush Attempts",
+                    "componentId": 8,
+                    "sortOrder": 9485,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9520",
+                    "categoryId": "1002",
+                    "name": "Kicking Pts",
+                    "componentId": 8,
+                    "sortOrder": 10539,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9521",
+                    "categoryId": "1002",
+                    "name": "Tackles + Ast",
+                    "componentId": 8,
+                    "sortOrder": 9487,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9522",
+                    "categoryId": "1000",
+                    "name": "Completions",
+                    "componentId": 8,
+                    "sortOrder": 9572,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9523",
+                    "categoryId": "1001",
+                    "name": "Rush + Rec Yards O/U",
+                    "componentId": 8,
+                    "sortOrder": 9484,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9524",
+                    "categoryId": "1000",
+                    "name": "Pass Yards O/U",
+                    "componentId": 8,
+                    "sortOrder": 9483,
+                    "tags": [
+                        "ProgressiveParlayEligible",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9528",
+                    "categoryId": "1002",
+                    "name": "PAT Made",
+                    "componentId": 8,
+                    "sortOrder": 10540,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9529",
+                    "categoryId": "1002",
+                    "name": "FG Made",
+                    "componentId": 8,
+                    "sortOrder": 10533,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9530",
+                    "categoryId": "1002",
+                    "name": "Solo Tackles",
+                    "componentId": 8,
+                    "sortOrder": 9494,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9531",
+                    "categoryId": "1002",
+                    "name": "Assists",
+                    "componentId": 8,
+                    "sortOrder": 9495,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9532",
+                    "categoryId": "1000",
+                    "name": "Pass + Rush Yards",
+                    "componentId": 8,
+                    "sortOrder": 9491,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9533",
+                    "categoryId": "1001",
+                    "name": "Longest Rush",
+                    "componentId": 8,
+                    "sortOrder": 12058
+                },
+                {
+                    "id": "9567",
+                    "categoryId": "528",
+                    "name": "Race to X Pts",
+                    "componentId": 30,
+                    "sortOrder": 4658,
+                    "tags": [
+                        "Featured",
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9573",
+                    "categoryId": "1003",
+                    "name": "To Score & Win",
+                    "componentId": 204,
+                    "sortOrder": 9536
+                },
+                {
+                    "id": "9574",
+                    "categoryId": "1003",
+                    "name": "To Score 1st & Win",
+                    "componentId": 204,
+                    "sortOrder": 9539
+                },
+                {
+                    "id": "9583",
+                    "categoryId": "526",
+                    "name": "Team Totals - Listed Half",
+                    "componentId": 29,
+                    "sortOrder": 4655,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9584",
+                    "categoryId": "526",
+                    "name": "Race to X Points",
+                    "componentId": 30,
+                    "sortOrder": 9272,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9588",
+                    "categoryId": "526",
+                    "name": "Highest Scoring Half",
+                    "componentId": 11,
+                    "sortOrder": 8476,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9590",
+                    "categoryId": "528",
+                    "name": "2 Pt Conversion",
+                    "componentId": 29,
+                    "sortOrder": 5080,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "9712",
+                    "categoryId": "492",
+                    "name": "Half Time / Full Time",
+                    "componentId": 204,
+                    "sortOrder": 10484,
+                    "tags": [
+                        "SGP"
+                    ]
+                }
+            ],
+            "sortOrder": 249654001,
+            "subscriptionKey": "event-30568799-1000"
+        }
+    ],
+    "markets": [
+        {
+            "id": "214910145",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix v Aaron Rodgers - Passing Yards Spread",
+            "subcategoryId": "16070",
+            "marketType": {
+                "id": "12709",
+                "betOfferTypeId": 1,
+                "name": "Player Passing Yards Spread"
+            },
+            "sortOrder": 99027145,
+            "tags": [
+                "Cashout",
+                "H2H",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|12709|2:123925|2:54935"
+        },
+        {
+            "id": "214910148",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix & Aaron Rodgers - Passing Yards Total",
+            "subcategoryId": "16070",
+            "marketType": {
+                "id": "12710",
+                "betOfferTypeId": 6,
+                "name": "Player Passing Yards Total"
+            },
+            "sortOrder": 99027148,
+            "tags": [
+                "Cashout",
+                "H2H"
+            ],
+            "correlatedId": "30568799|12710|2:123925|2:54935"
+        },
+        {
+            "id": "214910189",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix v Aaron Rodgers - Passing Yards Moneyline",
+            "subcategoryId": "16070",
+            "marketType": {
+                "id": "12708",
+                "betOfferTypeId": 2,
+                "name": "Player Passing Yards ML"
+            },
+            "sortOrder": 99027189,
+            "tags": [
+                "Cashout",
+                "H2H",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|12708|2:123925|2:54935"
+        },
+        {
+            "id": "214884924",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Passing Yards",
+            "subcategoryId": "14119",
+            "marketType": {
+                "id": "12330",
+                "betOfferTypeId": 0,
+                "name": "Passing Yards Milestones"
+            },
+            "sortOrder": 99477924,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|12330|2:123925"
+        },
+        {
+            "id": "214884928",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Passing Yards",
+            "subcategoryId": "14119",
+            "marketType": {
+                "id": "12330",
+                "betOfferTypeId": 0,
+                "name": "Passing Yards Milestones"
+            },
+            "sortOrder": 99477928,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|12330|2:54935"
+        },
+        {
+            "id": "214884931",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Passing Touchdowns",
+            "subcategoryId": "15987",
+            "marketType": {
+                "id": "13944",
+                "betOfferTypeId": 0,
+                "name": "Passing Touchdowns Milestones"
+            },
+            "sortOrder": 99482931,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13944|2:54935"
+        },
+        {
+            "id": "214884934",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Passing Touchdowns",
+            "subcategoryId": "15987",
+            "marketType": {
+                "id": "13944",
+                "betOfferTypeId": 0,
+                "name": "Passing Touchdowns Milestones"
+            },
+            "sortOrder": 99482934,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13944|2:123925"
+        },
+        {
+            "id": "214884883",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Passing Yards O/U",
+            "subcategoryId": "9524",
+            "marketType": {
+                "id": "13730",
+                "betOfferTypeId": 0,
+                "name": "Passing Yards O/U"
+            },
+            "sortOrder": 99483883,
+            "tags": [
+                "ProgressiveParlayEligible",
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13730|2:54935"
+        },
+        {
+            "id": "214884898",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Passing Yards O/U",
+            "subcategoryId": "9524",
+            "marketType": {
+                "id": "13730",
+                "betOfferTypeId": 0,
+                "name": "Passing Yards O/U"
+            },
+            "sortOrder": 99483898,
+            "tags": [
+                "ProgressiveParlayEligible",
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13730|2:123925"
+        },
+        {
+            "id": "214884933",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Alt Passing Yards O/U",
+            "subcategoryId": "12093",
+            "marketType": {
+                "id": "12926",
+                "betOfferTypeId": 0,
+                "name": "Alternate Passing Yards O/U"
+            },
+            "sortOrder": 99490933,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|12926|2:54935"
+        },
+        {
+            "id": "214884935",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Alt Passing Yards O/U",
+            "subcategoryId": "12093",
+            "marketType": {
+                "id": "12926",
+                "betOfferTypeId": 0,
+                "name": "Alternate Passing Yards O/U"
+            },
+            "sortOrder": 99490935,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "FeaturedSubcategory",
+                "IgnoreSortOrderOnPush",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|12926|2:123925"
+        },
+        {
+            "id": "214884882",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Passing + Rushing Yards O/U",
+            "subcategoryId": "9532",
+            "marketType": {
+                "id": "14048",
+                "betOfferTypeId": 0,
+                "name": "Passing + Rushing Yards O/U"
+            },
+            "sortOrder": 99491882,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|14048|2:123925"
+        },
+        {
+            "id": "214884888",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Passing + Rushing Yards O/U",
+            "subcategoryId": "9532",
+            "marketType": {
+                "id": "14048",
+                "betOfferTypeId": 0,
+                "name": "Passing + Rushing Yards O/U"
+            },
+            "sortOrder": 99491888,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|14048|2:54935"
+        },
+        {
+            "id": "215059384",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "marketType": {
+                "id": "13734",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "sortOrder": 99492384,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13734|2:123925"
+        },
+        {
+            "id": "215057833",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Passing Attempts O/U",
+            "subcategoryId": "9517",
+            "marketType": {
+                "id": "13734",
+                "betOfferTypeId": 0,
+                "name": "Passing Attempts O/U"
+            },
+            "sortOrder": 99492833,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13734|2:54935"
+        },
+        {
+            "id": "215059382",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Passing Completions O/U",
+            "subcategoryId": "9522",
+            "marketType": {
+                "id": "13732",
+                "betOfferTypeId": 0,
+                "name": "Passing Completions O/U"
+            },
+            "sortOrder": 99572382,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13732|2:123925"
+        },
+        {
+            "id": "215057835",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Passing Completions O/U",
+            "subcategoryId": "9522",
+            "marketType": {
+                "id": "13732",
+                "betOfferTypeId": 0,
+                "name": "Passing Completions O/U"
+            },
+            "sortOrder": 99572835,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13732|2:54935"
+        },
+        {
+            "id": "214884891",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Longest Passing Completion O/U",
+            "subcategoryId": "15968",
+            "marketType": {
+                "id": "14041",
+                "betOfferTypeId": 0,
+                "name": "Longest Passing Completion O/U"
+            },
+            "sortOrder": 99594891,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|14041|2:123925"
+        },
+        {
+            "id": "214884892",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Longest Passing Completion O/U",
+            "subcategoryId": "15968",
+            "marketType": {
+                "id": "14041",
+                "betOfferTypeId": 0,
+                "name": "Longest Passing Completion O/U"
+            },
+            "sortOrder": 99594892,
+            "tags": [
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|14041|2:54935"
+        },
+        {
+            "id": "214884880",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Bo Nix Interceptions Thrown O/U",
+            "subcategoryId": "15937",
+            "marketType": {
+                "id": "13740",
+                "betOfferTypeId": 0,
+                "name": "Interceptions Thrown O/U"
+            },
+            "sortOrder": 99595880,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13740|2:123925"
+        },
+        {
+            "id": "214884889",
+            "eventId": "30568799",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "Aaron Rodgers Interceptions Thrown O/U",
+            "subcategoryId": "15937",
+            "marketType": {
+                "id": "13740",
+                "betOfferTypeId": 0,
+                "name": "Interceptions Thrown O/U"
+            },
+            "sortOrder": 99595889,
+            "tags": [
+                "SGP",
+                "YourBetEligible",
+                "Cashout",
+                "IgnoreSortOrderOnPush",
+                "MicroMarketDelayRemoval",
+                "PlayerProps"
+            ],
+            "correlatedId": "30568799|13740|2:54935"
+        }
+    ],
+    "selections": [
+        {
+            "id": "0QA214884888#52233173_13L88808Q1-1464227640Q20",
+            "marketId": "214884888",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 228.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 228500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884888#52233174_13L88808Q11466151606Q20",
+            "marketId": "214884888",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 228.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 228502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884882#50860836_13L88808Q1-1932460882Q20",
+            "marketId": "214884882",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 216.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 216502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884882#50860835_13L88808Q1-1948710444Q20",
+            "marketId": "214884882",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 216.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 216500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214910189#50971655_13L88808Q1-1365214278Q20",
+            "marketId": "214910189",
+            "label": "Aaron Rodgers",
+            "displayOdds": {
+                "american": "\u2212195",
+                "decimal": "1.51",
+                "fractional": "20/39"
+            },
+            "trueOdds": 1.51282052,
+            "outcomeType": "Away",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 50972655,
+            "tags": [
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214910189#50971654_13L88808Q126327996Q20",
+            "marketId": "214910189",
+            "label": "Bo Nix",
+            "displayOdds": {
+                "american": "+145",
+                "decimal": "2.45",
+                "fractional": "29/20"
+            },
+            "trueOdds": 2.45,
+            "outcomeType": "Home",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 50974654,
+            "tags": [
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856418_13L88808Q1-1639303221Q20",
+            "marketId": "214884935",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+135",
+                "decimal": "2.35",
+                "fractional": "27/20"
+            },
+            "trueOdds": 2.35,
+            "points": 170.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 170502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856496_13L88808Q1-16755074Q20",
+            "marketId": "214884935",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212240",
+                "decimal": "1.41",
+                "fractional": "5/12"
+            },
+            "trueOdds": 1.41666667,
+            "points": 210.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 210502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856495_13L88808Q11330722823Q20",
+            "marketId": "214884935",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212155",
+                "decimal": "1.64",
+                "fractional": "20/31"
+            },
+            "trueOdds": 1.6451613,
+            "points": 195.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 195502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856412_13L88808Q1-222610607Q20",
+            "marketId": "214884935",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212175",
+                "decimal": "1.57",
+                "fractional": "4/7"
+            },
+            "trueOdds": 1.57142858,
+            "points": 170.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 170500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856417_13L88808Q11778957150Q20",
+            "marketId": "214884935",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+215",
+                "decimal": "3.15",
+                "fractional": "43/20"
+            },
+            "trueOdds": 3.15,
+            "points": 155.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 155502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856411_13L88808Q1-1965428468Q20",
+            "marketId": "214884935",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212280",
+                "decimal": "1.35",
+                "fractional": "5/14"
+            },
+            "trueOdds": 1.35714286,
+            "points": 155.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 155500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856493_13L88808Q1155119912Q20",
+            "marketId": "214884935",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+185",
+                "decimal": "2.85",
+                "fractional": "37/20"
+            },
+            "trueOdds": 2.85,
+            "points": 210.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 210500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856415_13L88808Q1469547340Q20",
+            "marketId": "214884935",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+475",
+                "decimal": "5.75",
+                "fractional": "19/4"
+            },
+            "trueOdds": 5.75,
+            "points": 240.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 240500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856494_13L88808Q11268707143Q20",
+            "marketId": "214884935",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+550",
+                "decimal": "6.50",
+                "fractional": "11/2"
+            },
+            "trueOdds": 6.5,
+            "points": 125.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 125502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856491_13L88808Q1-19463108Q20",
+            "marketId": "214884935",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212800",
+                "decimal": "1.12",
+                "fractional": "1/8"
+            },
+            "trueOdds": 1.125,
+            "points": 125.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 125500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856492_13L88808Q1-989748143Q20",
+            "marketId": "214884935",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
+            },
+            "trueOdds": 2.2,
+            "points": 195.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 195500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884935#50856421_13L88808Q197584764Q20",
+            "marketId": "214884935",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212700",
+                "decimal": "1.14",
+                "fractional": "1/7"
+            },
+            "trueOdds": 1.14285715,
+            "points": 240.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 240502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51327130_13L88808Q1961200787Q20",
+            "marketId": "214884933",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212265",
+                "decimal": "1.37",
+                "fractional": "20/53"
+            },
+            "trueOdds": 1.3773585,
+            "points": 250.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 250502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51686576_13L88808Q1-1235657024Q20",
+            "marketId": "214884933",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+205",
+                "decimal": "3.05",
+                "fractional": "41/20"
+            },
+            "trueOdds": 3.05,
+            "points": 190.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 190502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51571119_13L88808Q11312285319Q20",
+            "marketId": "214884933",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212700",
+                "decimal": "1.14",
+                "fractional": "1/7"
+            },
+            "trueOdds": 1.14285715,
+            "points": 280.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 280502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51571112_13L88808Q1299534576Q20",
+            "marketId": "214884933",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212700",
+                "decimal": "1.14",
+                "fractional": "1/7"
+            },
+            "trueOdds": 1.14285715,
+            "points": 160.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 160500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51571114_13L88808Q1-1087963291Q20",
+            "marketId": "214884933",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+135",
+                "decimal": "2.35",
+                "fractional": "27/20"
+            },
+            "trueOdds": 2.35,
+            "points": 235.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 235500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51571118_13L88808Q1363290390Q20",
+            "marketId": "214884933",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212170",
+                "decimal": "1.58",
+                "fractional": "10/17"
+            },
+            "trueOdds": 1.5882353,
+            "points": 235.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 235502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51571116_13L88808Q11041392201Q20",
+            "marketId": "214884933",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+475",
+                "decimal": "5.75",
+                "fractional": "19/4"
+            },
+            "trueOdds": 5.75,
+            "points": 160.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 160502,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51571117_13L88808Q1925533534Q20",
+            "marketId": "214884933",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
+            },
+            "trueOdds": 2.3,
+            "points": 205.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 205502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884933#51571115_13L88808Q1-149298392Q20",
+            "marketId": "214884933",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+500",
+                "decimal": "6.00",
+                "fractional": "5/1"
+            },
+            "trueOdds": 6,
+            "points": 280.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 280500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51686575_13L88808Q1-1891855059Q20",
+            "marketId": "214884933",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212260",
+                "decimal": "1.38",
+                "fractional": "5/13"
+            },
+            "trueOdds": 1.38461539,
+            "points": 190.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 190500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51327129_13L88808Q1137716369Q20",
+            "marketId": "214884933",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+205",
+                "decimal": "3.05",
+                "fractional": "41/20"
+            },
+            "trueOdds": 3.05,
+            "points": 250.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 250500,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884933#51571113_13L88808Q11693956756Q20",
+            "marketId": "214884933",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212170",
+                "decimal": "1.58",
+                "fractional": "10/17"
+            },
+            "trueOdds": 1.5882353,
+            "points": 205.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 205500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884889#50856226_13L88808Q1-421165961Q20",
+            "marketId": "214884889",
+            "label": "Over",
+            "displayOdds": {
+                "american": "+120",
+                "decimal": "2.20",
+                "fractional": "6/5"
+            },
+            "trueOdds": 2.2,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884889#50856227_15L88808Q1-355498210Q20",
+            "marketId": "214884889",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212155",
+                "decimal": "1.64",
+                "fractional": "20/31"
+            },
+            "trueOdds": 1.6451613,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884883#52220161_13L88808Q11156324481Q20",
+            "marketId": "214884883",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 220.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 220500,
+            "tags": [
+                "ProgressiveParlayEligible",
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884883#52220162_15L88808Q1-2064969004Q20",
+            "marketId": "214884883",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 220.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 220502,
+            "tags": [
+                "ProgressiveParlayEligible",
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884880#50856248_13L88808Q1-421165961Q20",
+            "marketId": "214884880",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212170",
+                "decimal": "1.58",
+                "fractional": "10/17"
+            },
+            "trueOdds": 1.5882353,
+            "points": 0.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884880#50856249_15L88808Q1-355498210Q20",
+            "marketId": "214884880",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+130",
+                "decimal": "2.30",
+                "fractional": "13/10"
+            },
+            "trueOdds": 2.3,
+            "points": 0.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884891#50856253_13L88808Q11439402496Q20",
+            "marketId": "214884891",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 31.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 31502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884891#50856252_13L88808Q11038896066Q20",
+            "marketId": "214884891",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 31.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 31500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884934#50856409_13L88808Q1-2015862131Q20",
+            "marketId": "214884934",
+            "label": "2+",
+            "displayOdds": {
+                "american": "+360",
+                "decimal": "4.60",
+                "fractional": "18/5"
+            },
+            "trueOdds": 4.6,
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 46009,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884934#50856408_13L88808Q1-192366120Q20",
+            "marketId": "214884934",
+            "label": "1+",
+            "displayOdds": {
+                "american": "\u2212165",
+                "decimal": "1.60",
+                "fractional": "20/33"
+            },
+            "trueOdds": 1.60606061,
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 16008,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA214884924#50856344_13L88808Q1-955958417Q20",
+            "marketId": "214884924",
+            "label": "225+",
+            "displayOdds": {
+                "american": "+280",
+                "decimal": "3.80",
+                "fractional": "14/5"
+            },
+            "trueOdds": 3.8,
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 38044,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884924#50856341_13L88808Q1-522551082Q20",
+            "marketId": "214884924",
+            "label": "150+",
+            "displayOdds": {
+                "american": "\u2212340",
+                "decimal": "1.29",
+                "fractional": "5/17"
+            },
+            "trueOdds": 1.29411765,
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 12941,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884924#50856343_13L88808Q11625228795Q20",
+            "marketId": "214884924",
+            "label": "200+",
+            "displayOdds": {
+                "american": "+135",
+                "decimal": "2.35",
+                "fractional": "27/20"
+            },
+            "trueOdds": 2.35,
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 23543,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884924#50856342_13L88808Q1640774403Q20",
+            "marketId": "214884924",
+            "label": "175+",
+            "displayOdds": {
+                "american": "\u2212155",
+                "decimal": "1.64",
+                "fractional": "20/31"
+            },
+            "trueOdds": 1.6451613,
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 16442,
+            "tags": [
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA214884924#50856345_13L88808Q1-2079442314Q20",
+            "marketId": "214884924",
+            "label": "250+",
+            "displayOdds": {
+                "american": "+600",
+                "decimal": "7.00",
+                "fractional": "6/1"
+            },
+            "trueOdds": 7,
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 70045,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA215057835#51689527_15L88808Q1-1639953286Q20",
+            "marketId": "215057835",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 20.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 20502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA215057835#51689526_13L88808Q1-1156597433Q20",
+            "marketId": "215057835",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 20.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 20500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA215057833#51809707_15L88808Q1-2099213934Q20",
+            "marketId": "215057833",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212110",
+                "decimal": "1.90",
+                "fractional": "10/11"
+            },
+            "trueOdds": 1.90909091,
+            "points": 30.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 30502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA215057833#51809706_13L88808Q1-1983900905Q20",
+            "marketId": "215057833",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212120",
+                "decimal": "1.83",
+                "fractional": "5/6"
+            },
+            "trueOdds": 1.83333334,
+            "points": 30.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 30500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA215059382#51691570_13L88808Q1-1594928203Q20",
+            "marketId": "215059382",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212130",
+                "decimal": "1.76",
+                "fractional": "10/13"
+            },
+            "trueOdds": 1.76923077,
+            "points": 18.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 18500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA215059382#51691571_15L88808Q131763124Q20",
+            "marketId": "215059382",
+            "label": "Under",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "points": 18.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 18502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884898#50860225_13L88808Q11469231098Q20",
+            "marketId": "214884898",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 185.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 185500,
+            "tags": [
+                "ProgressiveParlayEligible",
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884898#50860226_15L88808Q1-1895324023Q20",
+            "marketId": "214884898",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 185.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 185502,
+            "tags": [
+                "ProgressiveParlayEligible",
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884892#51793418_13L88808Q1861134082Q20",
+            "marketId": "214884892",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212105",
+                "decimal": "1.95",
+                "fractional": "20/21"
+            },
+            "trueOdds": 1.95238096,
+            "points": 36.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 36500,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884892#51793419_13L88808Q1-721294335Q20",
+            "marketId": "214884892",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212125",
+                "decimal": "1.80",
+                "fractional": "4/5"
+            },
+            "trueOdds": 1.8,
+            "points": 36.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 36502,
+            "tags": [
+                "MainPointLine",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214884928#50856380_13L88808Q1-955958417Q20",
+            "marketId": "214884928",
+            "label": "225+",
+            "displayOdds": {
+                "american": "+100",
+                "decimal": "2.00",
+                "fractional": "1/1"
+            },
+            "trueOdds": 2,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 20080,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA214884928#50856381_13L88808Q1-2079442314Q20",
+            "marketId": "214884928",
+            "label": "250+",
+            "displayOdds": {
+                "american": "+200",
+                "decimal": "3.00",
+                "fractional": "2/1"
+            },
+            "trueOdds": 3,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 30081,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884928#50856378_13L88808Q1640774403Q20",
+            "marketId": "214884928",
+            "label": "175+",
+            "displayOdds": {
+                "american": "\u2212425",
+                "decimal": "1.23",
+                "fractional": "4/17"
+            },
+            "trueOdds": 1.23529412,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 12378,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884928#50856377_13L88808Q1-522551082Q20",
+            "marketId": "214884928",
+            "label": "150+",
+            "displayOdds": {
+                "american": "\u22121000",
+                "decimal": "1.10",
+                "fractional": "1/10"
+            },
+            "trueOdds": 1.1,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 11077,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884928#50856379_13L88808Q11625228795Q20",
+            "marketId": "214884928",
+            "label": "200+",
+            "displayOdds": {
+                "american": "\u2212200",
+                "decimal": "1.50",
+                "fractional": "1/2"
+            },
+            "trueOdds": 1.5,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 15079,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884928#50856382_13L88808Q1-737182251Q20",
+            "marketId": "214884928",
+            "label": "275+",
+            "displayOdds": {
+                "american": "+400",
+                "decimal": "5.00",
+                "fractional": "4/1"
+            },
+            "trueOdds": 5,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 50082,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214910145#51808293_13L88808Q1-764484422Q20",
+            "marketId": "214910145",
+            "label": "Bo Nix",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 35.5,
+            "outcomeType": "Home",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": -35499,
+            "tags": [
+                "MainPointLine"
+            ]
+        },
+        {
+            "id": "0QA214910145#51808295_15L88808Q1-940211827Q20",
+            "marketId": "214910145",
+            "label": "Aaron Rodgers",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": -35.5,
+            "outcomeType": "Away",
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": -35501,
+            "tags": [
+                "MainPointLine"
+            ]
+        },
+        {
+            "id": "0QA215059384#53045170_15L88808Q1-288394915Q20",
+            "marketId": "215059384",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 32.5,
+            "outcomeType": "Under",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 32502,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA215059384#53045169_13L88808Q1-787215516Q20",
+            "marketId": "215059384",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 32.5,
+            "outcomeType": "Over",
+            "participants": [
+                {
+                    "id": "787661",
+                    "name": "Bo Nix",
+                    "type": "Player",
+                    "seoIdentifier": "Bo Nix"
+                }
+            ],
+            "sortOrder": 32500,
+            "tags": [
+                "MainPointLine",
+                "SGP",
+                "1stFavorite"
+            ]
+        },
+        {
+            "id": "0QA214910148#51432244_13L88808Q1420501537Q20",
+            "marketId": "214910148",
+            "label": "Under",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 406.5,
+            "outcomeType": "Under",
+            "sortOrder": 406502,
+            "tags": [
+                "MainPointLine"
+            ]
+        },
+        {
+            "id": "0QA214910148#51432243_13L88808Q1321010856Q20",
+            "marketId": "214910148",
+            "label": "Over",
+            "displayOdds": {
+                "american": "\u2212115",
+                "decimal": "1.86",
+                "fractional": "20/23"
+            },
+            "trueOdds": 1.86956522,
+            "points": 406.5,
+            "outcomeType": "Over",
+            "sortOrder": 406500,
+            "tags": [
+                "MainPointLine"
+            ]
+        },
+        {
+            "id": "0QA214884931#50856391_13L88808Q1-1741100560Q20",
+            "marketId": "214884931",
+            "label": "3+",
+            "displayOdds": {
+                "american": "+450",
+                "decimal": "5.50",
+                "fractional": "9/2"
+            },
+            "trueOdds": 5.5,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 55091,
+            "tags": [
+                "SGP"
+            ]
+        },
+        {
+            "id": "0QA214884931#50856390_13L88808Q1-2015862131Q20",
+            "marketId": "214884931",
+            "label": "2+",
+            "displayOdds": {
+                "american": "+110",
+                "decimal": "2.10",
+                "fractional": "11/10"
+            },
+            "trueOdds": 2.1,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 21090,
+            "tags": [
+                "MostBalancedOdds",
+                "SGP",
+                "MostBalancedGlobalProbability"
+            ]
+        },
+        {
+            "id": "0QA214884931#50856389_13L88808Q1-192366120Q20",
+            "marketId": "214884931",
+            "label": "1+",
+            "displayOdds": {
+                "american": "\u2212525",
+                "decimal": "1.19",
+                "fractional": "4/21"
+            },
+            "trueOdds": 1.1904762,
+            "participants": [
+                {
+                    "id": "19742",
+                    "name": "Aaron Rodgers",
+                    "type": "Player",
+                    "seoIdentifier": "Aaron Rodgers"
+                }
+            ],
+            "sortOrder": 11989,
+            "tags": [
+                "SGP"
+            ]
+        }
+    ],
+    "subscriptionPartials": {
+        "event-30568799-1000": {
+            "entity": "events",
+            "query": "$filter=id eq '30568799'",
+            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/categoryId eq '1000'"
+        }
+    }
+}

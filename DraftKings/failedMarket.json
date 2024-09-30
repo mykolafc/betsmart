@@ -1,0 +1,154 @@
+{
+    "sports": [
+        {
+            "id": "3",
+            "seoIdentifier": "Football",
+            "name": "Football",
+            "sortOrder": 56
+        }
+    ],
+    "leagues": [
+        {
+            "id": "88808",
+            "seoIdentifier": "NFL",
+            "name": "NFL",
+            "sportId": "3",
+            "sortOrder": 4847,
+            "tags": [
+                "Featured"
+            ],
+            "isTeamSwap": true
+        }
+    ],
+    "events": [
+        {
+            "id": "30568813",
+            "seoIdentifier": "TB Buccaneers @ ATL Falcons",
+            "sportId": "3",
+            "leagueId": "88808",
+            "name": "TB Buccaneers @ ATL Falcons",
+            "startEventDate": "2024-10-04T00:15:00.0000000Z",
+            "participants": [
+                {
+                    "id": "18297",
+                    "name": "ATL Falcons",
+                    "venueRole": "Home",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "187",
+                        "rosettaTeamId": "18297",
+                        "shortName": "ATL"
+                    },
+                    "sortOrder": 2
+                },
+                {
+                    "id": "18474",
+                    "name": "TB Buccaneers",
+                    "venueRole": "Away",
+                    "type": "Team",
+                    "metadata": {
+                        "retailRotNumber": "186",
+                        "rosettaTeamId": "18474",
+                        "shortName": "TB"
+                    },
+                    "sortOrder": 1
+                }
+            ],
+            "eventParticipantType": "TwoTeam",
+            "status": "NOT_STARTED",
+            "eventScorecard": {
+                "scorecardComponentId": 1
+            },
+            "media": [
+                {
+                    "providerName": "BetRadarStats",
+                    "providerEventId": "50128345",
+                    "mediaType": "Stats"
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "50128345",
+                    "mediaType": "MatchTracker",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                },
+                {
+                    "providerName": "BetRadarV3",
+                    "providerEventId": "50128345",
+                    "mediaType": "Scoreboard",
+                    "metadata": {
+                        "betRadarCoverage": "3"
+                    }
+                }
+            ],
+            "tags": [
+                "FeaturedSubcategory",
+                "MatchTracker",
+                "ProgressiveParlayTeamEligible",
+                "SGP",
+                "Scoreboard",
+                "SgpDynamicOdds",
+                "Stats",
+                "YourBetEligible",
+                "iSGStatsHub"
+            ],
+            "metadata": {
+                "masterLeagueId": "40",
+                "numberOfParts": "4",
+                "secondsInOnePart": "900"
+            },
+            "categories": [
+                {
+                    "id": "1559",
+                    "name": "1st of Game",
+                    "sortOrder": 669,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "492",
+                    "name": "Game Lines",
+                    "sortOrder": 492,
+                    "tags": [
+                        "SGP"
+                    ]
+                }
+            ],
+            "subcategories": [
+                {
+                    "id": "15066",
+                    "categoryId": "1559",
+                    "name": "1st to Score",
+                    "componentId": 29,
+                    "sortOrder": 15011,
+                    "tags": [
+                        "SGP"
+                    ]
+                },
+                {
+                    "id": "4518",
+                    "categoryId": "492",
+                    "name": "Game",
+                    "componentId": 210,
+                    "sortOrder": 4513,
+                    "tags": [
+                        "ProgressiveParlayTeamEligible",
+                        "Featured",
+                        "SGP"
+                    ]
+                }
+            ],
+            "sortOrder": 250273513,
+            "subscriptionKey": "event-30568813-1001"
+        }
+    ],
+    "subscriptionPartials": {
+        "event-30568813-1001": {
+            "entity": "events",
+            "query": "$filter=id eq '30568813'",
+            "includeMarkets": "$filter=tags/all(t: t ne 'SportcastBetBuilder') and clientMetadata/categoryId eq '1001'"
+        }
+    }
+}

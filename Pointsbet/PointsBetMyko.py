@@ -637,9 +637,6 @@ def gigaDump2(response):
                             float(prop['name'].split('Under')[1].strip()))
                     dates.append(date)
 
-    print(len(teams), len(category), len(league), len(side), len(
-        names), len(points), len(odds), len(americanOdds), len(keys))
-
     df = pd.DataFrame({'Teams': teams, 'League': league, 'Category': category, 'Designation': designation,
                        'Side': side, 'Name': names, 'Points': points, 'PB Decimal Odds': odds, 'PB American Odds': americanOdds, 'Key': keys, 'Date': dates})
 

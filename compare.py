@@ -1,20 +1,6 @@
 import pandas as pd
 import numpy as np
-
-# Read data from the first CSV file
-df1 = pd.read_csv('./bin/PointsBetGigaDump.csv')
-
-# Read data from the second CSV file
-df2 = pd.read_csv('./bin/BetOnlineGigaDump.csv')
-
-# Read data from the third CSV file
-df3 = pd.read_csv('./bin/DraftKingsGigaDump.csv')
-
-# Read data from FanDuel file
-df4 = pd.read_csv('./bin/FanDuelGigaDump.csv')
-
-# Read the pinnacle file
-df5 = pd.read_csv('./bin/PinnacleGigaDump.csv')
+import requests
 
 
 def calculate_ratio(row):
@@ -35,21 +21,25 @@ def calculate_ratio(row):
 
 
 def calculate_fairOdds_ratio(row):
-    # Extract the relevant odds
-    odds = [row['BO dec_odds'], row['PB Decimal Odds'],
+    # Extract the relevant odds, handling the case where BO dec_odds might be missing
+    odds = [row['PB Decimal Odds'],
             row['FD Decimal Odds'], row['DK Decimal Odds']]
+
+    # Add BO dec_odds only if it's not NaN
+    if pd.notnull(row.get('BO dec_odds', None)):
+        odds.append(row['BO dec_odds'])
 
     # Handle Pinnacle Fair Odds separately
     fair_odds_american = row['PN Fair Odds']
 
-    # Filter out None values from the odds list
+    # Filter out None or NaN values from the odds list
     valid_odds = [odd for odd in odds if pd.notnull(odd)]
 
-    # If there are fewer than 2 valid odds, return None or some default value
+    # If there are no valid odds or Pinnacle Fair Odds is NaN, return None
     if len(valid_odds) < 1 or pd.isnull(fair_odds_american):
         return None
 
-    # Find the maximum odds
+    # Find the maximum odds from the valid odds
     max_odds = max(valid_odds)
 
     # Convert Pinnacle Fair Odds to decimal
@@ -65,51 +55,13 @@ def calculate_fairOdds_ratio(row):
     return ratio
 
 
-# THIS NEEDS FIXING
-def average_and_furthest(row):
-    # Calculate the average
-    odds = [row['BO dec_odds'], row['PB Decimal Odds'],
-            row['DK Decimal Odds'], row['FD American Odds'], row['PN American Odds']]
-    avg = sum(odds) / 5
-
-    # Calculate the absolute differences from the average
-    diffs = [abs(odds[0] - avg), abs(odds[1] - avg), abs(odds[2] - avg)]
-
-    # Find the index of the maximum difference
-    max_diff_index = diffs.index(max(diffs))
-
-    if max_diff_index == 0:
-        return 'BetOnline'
-    elif max_diff_index == 1:
-        return 'PointsBet'
+def american_to_decimal(odds):
+    if odds > 0:
+        return odds / 100 + 1
+    elif odds == 0:
+        return 1
     else:
-        return 'DraftKings'
-
-
-def highest_odd(row):
-    return max([row['BO Odds'], row['PB American Odds'], row['DK American Odds'], row['FD American Odds'], row['PN American Odds']])
-
-
-# Function to calculate the arbitrage and update the 'arb' column
-def calculate_arbitrage(df):
-    for index, row in df.iterrows():
-        if row['Designation'] in ['over', 'under']:
-            opposite_designation = 'under' if row['Designation'] == 'over' else 'over'
-            # Find the matching row with the opposite designation
-            match = df[
-                (df['Key'] == row['Key']) &
-                (df['Name'] == row['Name']) &
-                (df['Teams'] == row['Teams']) &
-                (df['League'] == row['League']) &
-                (df['Designation'] == opposite_designation)
-            ]
-            if not match.empty:
-                match_index = match.index[0]
-                match_best_deal = match['Best Deal'].values[0]
-                arb_value = row['Best Deal'] + match_best_deal
-                # Update the 'arb' column for both rows
-                df.at[index, 'arb'] = arb_value
-                df.at[match_index, 'arb'] = arb_value
+        return 100 / abs(odds) + 1
 
 
 def calculate_arb(df):
@@ -144,70 +96,124 @@ def calculate_arb(df):
                 # Additional Debugging output
                 # print(f"Matching Row for index {i} found at index {j}.")
 
-                arb[i] = best_deals[i] + best_deals[j]
-                arb[j] = arb[i]
+                decimal_odds_team1 = american_to_decimal(best_deals[i])
+                decimal_odds_team2 = american_to_decimal(best_deals[j])
+
+                # Calculate implied probabilities
+                implied_prob_team1 = 1 / decimal_odds_team1
+                implied_prob_team2 = 1 / decimal_odds_team2
+
+                # Calculate arbitrage percentage
+                arbitrage_percentage = implied_prob_team1 + implied_prob_team2
+
+                # Calculate ROI
+                roi = (1 / arbitrage_percentage - 1) * 100
+                arb[i] = arb[j] = roi
 
     return arb
 
 
-# Replace None values in 'Name' column with an empty string or a placeholder
-df1['Name'].fillna('', inplace=True)
-df2['Name'].fillna('', inplace=True)
-df3['Name'].fillna('', inplace=True)
-df4['Name'].fillna('', inplace=True)
-df5['Name'].fillna('', inplace=True)
+def compareOdds(betOnline=True):
+    # Read data from the first CSV file (PointsBet)
+    df1 = pd.read_csv('./bin/PointsBetGigaDump.csv')
 
-# print(df1.columns)
-# print(df2.columns)
-# print(df3.columns)
+    # Conditionally read data from the BetOnline CSV file
+    if betOnline:
+        df2 = pd.read_csv('./bin/BetOnlineGigaDump.csv')
 
-# Create a new dataframe to store the matching entries
-merged_df = pd.DataFrame()
+    # Read data from the third CSV file (DraftKings)
+    df3 = pd.read_csv('./bin/DraftKingsGigaDump.csv')
 
-# Theres a problem with the merging, I think its because if the keys are None, it merges anyways
-merged_df = pd.merge(df1, df2, how='outer', on=[
-                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('_df1', '_df2'))
-merged_df = pd.merge(merged_df, df3, how='outer', on=[
-                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('_df1_df2', '_df3'))
-merged_df = pd.merge(merged_df, df4, how='outer', on=[
-                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('', '_df4'))
-merged_df = pd.merge(merged_df, df5, how='outer', on=[
-                     'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('', '_df5'))
+    # Read data from FanDuel file
+    df4 = pd.read_csv('./bin/FanDuelGigaDump.csv')
 
-merged_df['Profits Ratio'] = merged_df.apply(
-    calculate_ratio, axis=1)  # Calculate the odds ratio
-merged_df['Fair Odds Ratio'] = merged_df.apply(
-    calculate_fairOdds_ratio, axis=1)
-# Convert the DataFrame columns to NumPy arrays, replacing None with np.nan
-bo_odds = np.where(
-    pd.isna(merged_df['BO Odds']), np.nan, merged_df['BO Odds'].values)
-pb_odds = np.where(pd.isna(
-    merged_df['PB American Odds']), np.nan, merged_df['PB American Odds'].values)
-dk_odds = np.where(pd.isna(
-    merged_df['DK American Odds']), np.nan, merged_df['DK American Odds'].values)
-fd_odds = np.where(pd.isna(
-    merged_df['FD American Odds']), np.nan, merged_df['FD American Odds'].values)
-pn_odds = np.where(pd.isna(
-    merged_df['PN American Odds']), np.nan, merged_df['PN American Odds'].values)
+    # Read the Pinnacle file
+    df5 = pd.read_csv('./bin/PinnacleGigaDump.csv')
 
-# Use np.nanmax to find the maximum value ignoring NaNs
-merged_df['Best Deal'] = np.nanmax(
-    [bo_odds, pb_odds, dk_odds, fd_odds, pn_odds], axis=0)
+    # Replace None values in 'Name' column with an empty string or a placeholder
+    df1['Name'].fillna('', inplace=True)
+    if betOnline:
+        df2['Name'].fillna('', inplace=True)
+    df3['Name'].fillna('', inplace=True)
+    df4['Name'].fillna('', inplace=True)
+    df5['Name'].fillna('', inplace=True)
 
-merged_df = merged_df[['Key', 'Designation', 'Name', 'Date', 'Teams', 'League', 'Category', 'Side', 'Points', 'BO dec_odds', 'PN Decimal Odds',
-                       'PB Decimal Odds', 'DK Decimal Odds', 'FD Decimal Odds', 'BO Odds', 'PN American Odds', 'PB American Odds',
-                       'DK American Odds', 'FD American Odds', 'PN Fair Odds', 'Profits Ratio', 'Best Deal', 'Fair Odds Ratio']]
+    # Create a new dataframe to store the matching entries
+    merged_df = pd.DataFrame()
 
-merged_df['arb'] = calculate_arb(merged_df)
+    # Perform merging without BetOnline if betOnline is False
+    if betOnline:
+        merged_df = pd.merge(df1, df2, how='outer', on=[
+            'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('_df1', '_df2'))
+    else:
+        merged_df = df1.copy()  # Start with PointsBet data
 
-# best_arbitrage = find_best_arbitrage(merged_df)
-# if best_arbitrage:
-#     row, opp_row, arb_value = best_arbitrage
-#     print(f"Best arbitrage found with value {arb_value}:")
-#     print("Row 1:", row)
-#     print("Row 2:", opp_row)
-# else:
-#     print("No arbitrage opportunities found.")
+    # Merge with DraftKings
+    merged_df = pd.merge(merged_df, df3, how='outer', on=[
+        'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('_df1_df2', '_df3'))
+    # Merge with FanDuel
+    merged_df = pd.merge(merged_df, df4, how='outer', on=[
+        'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('', '_df4'))
+    # Merge with Pinnacle
+    merged_df = pd.merge(merged_df, df5, how='outer', on=[
+        'Key', 'Designation', 'Side', 'Name', 'Teams', 'League', 'Date'], suffixes=('', '_df5'))
 
+    # Calculate Fair Odds Ratio
+    merged_df['Fair Odds Ratio'] = merged_df.apply(
+        calculate_fairOdds_ratio, axis=1)
 
-merged_df.to_csv('./bin/combined.csv', index=False)
+    # Conditionally include BetOnline odds in the comparison
+    if betOnline:
+        bo_odds = np.where(
+            pd.isna(merged_df['BO Odds']), np.nan, merged_df['BO Odds'].values)
+    else:
+        bo_odds = np.nan  # If BetOnline is disabled, use NaN for BetOnline odds
+
+    # Convert the DataFrame columns to NumPy arrays, replacing None with np.nan
+    pb_odds = np.where(pd.isna(
+        merged_df['PB American Odds']), np.nan, merged_df['PB American Odds'].values)
+    dk_odds = np.where(pd.isna(
+        merged_df['DK American Odds']), np.nan, merged_df['DK American Odds'].values)
+    fd_odds = np.where(pd.isna(
+        merged_df['FD American Odds']), np.nan, merged_df['FD American Odds'].values)
+    pn_odds = np.where(pd.isna(
+        merged_df['PN American Odds']), np.nan, merged_df['PN American Odds'].values)
+
+    # Use np.nanmax to find the maximum value ignoring NaNs
+    if betOnline:
+        bo_odds = np.where(
+            pd.isna(merged_df['BO Odds']), np.nan, merged_df['BO Odds'].values)
+        # Include BO odds in the comparison
+        best_deal = np.nanmax(
+            [bo_odds, pb_odds, dk_odds, fd_odds, pn_odds], axis=0)
+    else:
+        # Exclude BO odds if betOnline is disabled
+        best_deal = np.nanmax([pb_odds, dk_odds, fd_odds, pn_odds], axis=0)
+
+    # Store the result in the dataframe
+    merged_df['Best Deal'] = best_deal
+
+    # Select the necessary columns, skipping BetOnline columns if betOnline=False
+    columns_to_select = [
+        'Key', 'Designation', 'Name', 'Date', 'Teams', 'League', 'Category', 'Side', 'Points',
+        'PN Decimal Odds', 'PB Decimal Odds', 'DK Decimal Odds', 'FD Decimal Odds', 'PN American Odds',
+        'PB American Odds', 'DK American Odds', 'FD American Odds', 'PN Fair Odds', 'Best Deal', 'Fair Odds Ratio'
+    ]
+
+    if betOnline:
+        columns_to_select.insert(9, 'BO dec_odds')
+        columns_to_select.insert(14, 'BO Odds')
+
+    merged_df = merged_df[columns_to_select]
+
+    # Calculate arb ROI% using the function `calculate_arb`
+    merged_df['arb ROI%'] = calculate_arb(merged_df)
+
+    return merged_df
+
+    # requests.post('https://api.mynotifier.app', {
+    #     "apiKey": '1539eb5f-8352-46f3-9d1b-193bc9d8f211',
+    #     "message": "Arb Found",
+    #     "description": "Go look at the csv file and find the > 2% arb",
+    #     "type": "success",  # info, error, warning or success
+    # })
